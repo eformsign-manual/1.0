@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<project name="WebtoB 4.1.3 Manual" default="build" basedir=".">
+<project name="eformsign1.0 Manual" default="build" basedir=".">
 
     <property file="./build.properties" description="read user-overrided properties if exist"/>
 
