@@ -10,194 +10,222 @@
     <para>이 작업은 <emphasis role="bold">템플릿 관리자</emphasis> 또는 대표관리자 권한이
     필요합니다.</para>
 
-    <para><inlinemediaobject>
+    <figure>
+      <title>문서 관리 &gt; 문서 목록</title>
+
+      <mediaobject>
         <imageobject>
-          <imagedata contentwidth="867"
-                     fileref="../../../../../../Users/sychoi/Desktop/2020/%EC%9D%B4%ED%8F%BC%EC%82%AC%EC%9D%B8/%EB%A7%A4%EB%89%B4%EC%96%BC/%ED%85%9C%ED%94%8C%EB%A6%BF/document-list.png"/>
+          <imagedata fileref="resources/document-list.png" width="700"/>
         </imageobject>
-      </inlinemediaobject></para>
+      </mediaobject>
+    </figure>
 
     <para>문서에 입력된 내용, 또는 문서 작성 관련 정보가 문서 제목에 자동으로 입력되도록 설정할 수 있ㅅ습니다. 문서 제목 규칙을
     설정하면 문서 작성 시점의 정보를 바탕으로 문서 제목이 생성되며 이 제목은 모든 문서함(진행중 문서함, 처리할 문서함, 전체
     문서함)과 문서 관리 메뉴의 문서 목록에서 확인할 수 있습니다.</para>
 
-    <para/>
+    <section>
+      <title>문서 제목 규칙 설정하는 방법</title>
 
-    <para><emphasis role="bold">문서 제목 규칙 설정하는 방법</emphasis></para>
+      <figure>
+        <title>템플릿 설정 &gt; 문서 제목 규칙 설정</title>
 
-    <para><inlinemediaobject>
-        <imageobject>
-          <imagedata contentwidth="867"
-                     fileref="../../../../../../Users/sychoi/Desktop/2020/%EC%9D%B4%ED%8F%BC%EC%82%AC%EC%9D%B8/%EB%A7%A4%EB%89%B4%EC%96%BC/%ED%85%9C%ED%94%8C%EB%A6%BF/doc-title-rule-settings.png"/>
-        </imageobject>
-      </inlinemediaobject></para>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/doc-title-rule-settings.png"
+                       width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
 
-    <orderedlist>
-      <listitem>
-        <para>이폼사인에 로그인합니다.</para>
-      </listitem>
+      <para/>
 
-      <listitem>
-        <para>대시보드 메뉴 &gt; 템플릿 관리로 이동합니다.</para>
-      </listitem>
-
-      <listitem>
-        <para>템플릿의 설정 아이콘(기어모양)을 클릭하여 템플릿 설정 화면으로 이동합니다.</para>
-      </listitem>
-
-      <listitem>
-        <para>일반설정 화면의 문서 제목 규칙 입력란에 원하는 제목 규칙을 입력합니다.</para>
-      </listitem>
-    </orderedlist>
-
-    <para>예약어 사용하는 방</para>
-
-    <para><inlinemediaobject>
-        <imageobject>
-          <imagedata fileref="../../../../../../Users/sychoi/Desktop/2020/%EC%9D%B4%ED%8F%BC%EC%82%AC%EC%9D%B8/%EB%A7%A4%EB%89%B4%EC%96%BC/%ED%85%9C%ED%94%8C%EB%A6%BF/sample-of-setting-doc-title-rule.gif"/>
-        </imageobject>
-      </inlinemediaobject></para>
-
-    <mediaobject>
-      <imageobject>
-        <imagedata fileref="???"/>
-      </imageobject>
-    </mediaobject>
-
-    <itemizedlist>
-      <listitem>
-        <para/>
-      </listitem>
-    </itemizedlist>
-
-    <variablelist>
-      <varlistentry>
-        <term>{{ </term>
+      <orderedlist>
+        <listitem>
+          <para>이폼사인에 로그인합니다.</para>
+        </listitem>
 
         <listitem>
-          <para>문서에 입력된 내용을 문서 제목에 추가하고자 할 때 </para>
-
-          <para>문서 제목 규칙 입력란에 ‘{{‘를 입력하면 템플릿의 컴포넌트 ID 리스트가 나타나며, 원하는 ID를 선택하면
-          해당 컴포넌트에 입력된 내용이 문서 제목에 추가됩니다. </para>
+          <para>대시보드 메뉴 &gt; 템플릿 관리로 이동합니다.</para>
         </listitem>
-      </varlistentry>
-
-      <varlistentry>
-        <term>$$ </term>
 
         <listitem>
-          <para>문서와 관련된 정보를 제목에 추가하고자 할 때 </para>
-
-          <para>문서 제목 규칙 입력란에 ‘$$’를 입력하면 드롭다운 메뉴가 나타나며 아래 정보 중 원하는 정보를 선택할 수
-          있습니다.</para>
+          <para>템플릿의 설정 아이콘(기어모양)을 클릭하여 템플릿 설정 화면으로 이동합니다.</para>
         </listitem>
-      </varlistentry>
-    </variablelist>
 
-    <para/>
+        <listitem>
+          <para>일반설정 화면의 문서 제목 규칙 입력란에 원하는 제목 규칙을 입력합니다.</para>
+        </listitem>
+      </orderedlist>
+    </section>
 
-    <para/>
+    <section>
+      <title>예약어 사용하는 방법</title>
 
-    <table>
-      <title/>
+      <para/>
 
-      <tgroup cols="2">
-        <colspec colwidth="366*"/>
+      <figure>
+        <title>예약어 사용해서 문서 제목 규칙 설정하기 1</title>
 
-        <colspec colwidth="634*"/>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/doc-title-reserve-words.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
 
-        <tbody>
-          <row>
-            <entry>정보 종류</entry>
+      <figure>
+        <title>예약어 사용해서 문서 제목 규칙 설정하기 2</title>
 
-            <entry>설명</entry>
-          </row>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/doc-title-reserve-words1.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
 
-          <row>
-            <entry>현재_날짜</entry>
+      <variablelist>
+        <varlistentry>
+          <term>{{</term>
 
-            <entry/>
-          </row>
+          <listitem>
+            <para>문서에 입력된 내용을 문서 제목에 추가하고자 할 때</para>
 
-          <row>
-            <entry>현재_시간</entry>
+            <para>문서 제목 규칙 입력란에 ‘{{‘를 입력하면 템플릿의 컴포넌트 ID 리스트가 나타나며, 원하는 ID를
+            선택하면 해당 컴포넌트에 입력된 내용이 문서 제목에 추가됩니다.</para>
+          </listitem>
+        </varlistentry>
 
-            <entry/>
-          </row>
+        <varlistentry>
+          <term>$$</term>
 
-          <row>
-            <entry>현재_날짜시간</entry>
+          <listitem>
+            <para>문서와 관련된 정보를 제목에 추가하고자 할 때</para>
 
-            <entry/>
-          </row>
+            <para>문서 제목 규칙 입력란에 ‘$$’를 입력하면 드롭다운 메뉴가 나타나며 아래 정보 중 원하는 정보를 선택할 수
+            있습니다.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
 
-          <row>
-            <entry>최초_작성자_ID</entry>
+      <para><table>
+          <title/>
 
-            <entry/>
-          </row>
+          <tgroup cols="2">
+            <colspec colwidth="251*"/>
 
-          <row>
-            <entry>최초_작성자_이름</entry>
+            <colspec colwidth="749*"/>
 
-            <entry/>
-          </row>
+            <tbody>
+              <row>
+                <entry>정보 종류</entry>
 
-          <row>
-            <entry>최초_작성자_부</entry>
+                <entry>설명</entry>
+              </row>
 
-            <entry/>
-          </row>
+              <row>
+                <entry>현재_날짜</entry>
 
-          <row>
-            <entry/>
+                <entry>문서 작성 시점의 날짜 (예. 2020년 02월 20일)</entry>
+              </row>
 
-            <entry/>
-          </row>
+              <row>
+                <entry>현재_시간</entry>
 
-          <row>
-            <entry/>
+                <entry>문서 작성 시점의 시간 (예. 오후 02:59)</entry>
+              </row>
 
-            <entry/>
-          </row>
+              <row>
+                <entry>현재_날짜시간</entry>
 
-          <row>
-            <entry/>
+                <entry>문서 작성 시점의 날짜와 시간 (예. 2020년 02월 20일 오후 02:59)</entry>
+              </row>
 
-            <entry/>
-          </row>
+              <row>
+                <entry>최초_작성자_ID</entry>
 
-          <row>
-            <entry/>
+                <entry>문서를 작성한 멤버의 ID</entry>
+              </row>
 
-            <entry/>
-          </row>
+              <row>
+                <entry>최초_작성자_이름</entry>
 
-          <row>
-            <entry/>
+                <entry>문서를 작성한 멤버의 이름</entry>
+              </row>
 
-            <entry/>
-          </row>
+              <row>
+                <entry>최초_작성자_부서</entry>
 
-          <row>
-            <entry/>
+                <entry>문서를 작성한 멤버의 부서</entry>
+              </row>
 
-            <entry/>
-          </row>
+              <row>
+                <entry>최초_작성자_회사명</entry>
 
-          <row>
-            <entry/>
+                <entry>문서를 작성한 멤버의 회사명</entry>
+              </row>
 
-            <entry/>
-          </row>
+              <row>
+                <entry>템플릿명</entry>
 
-          <row>
-            <entry/>
+                <entry>템플릿 설정 &gt; 일반설정에 입력된 템플릿명</entry>
+              </row>
 
-            <entry/>
-          </row>
-        </tbody>
-      </tgroup>
-    </table>
+              <row>
+                <entry>템플릿_약칭</entry>
+
+                <entry>템플릿 설정 &gt; 일반설정에 입력된 템플릿 약칭</entry>
+              </row>
+
+              <row>
+                <entry>회사명</entry>
+
+                <entry>회사 관리 &gt; 회사 정보에 입력된 회사명</entry>
+              </row>
+
+              <row>
+                <entry>회사_주소</entry>
+
+                <entry>회사 관리 &gt; 회사 정보에 입력된 주소</entry>
+              </row>
+
+              <row>
+                <entry>회사_연락처</entry>
+
+                <entry>회사 관리 &gt; 회사 정보에 입력된 연락처</entry>
+              </row>
+
+              <row>
+                <entry>회사_사업자_등록_번호</entry>
+
+                <entry>회사 관리 &gt; 회사 정보에 입력된 사업자 등록 번호</entry>
+              </row>
+
+              <row>
+                <entry>회사_홈페이지</entry>
+
+                <entry>회사 관리 &gt; 회사 정보에 입력된 홈페이지 URL</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></para>
+
+      <para>[사용팁] 문서 제목 변경 허용 여부를 확인하세요!</para>
+
+      <para/>
+
+      <figure>
+        <title>문서 제목 변경 허용 여부 확인</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/allowing-doc-title-change.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>문서 제목 규칙을 설정해 놓더라도 문서 제목 변경 허용이 체크되어 있으면 문서 작성자가 임의로 문서 제목을 변경할 수
+      있습니다. 문서 제목이 변경되는 것을 원하지 않는 경우 문서 제목 변경 허용을 체크 해지하시기 바랍니다.</para>
+    </section>
   </section>
 </chapter>
