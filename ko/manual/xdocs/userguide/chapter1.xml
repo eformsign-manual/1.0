@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<chapter>
+  <title>개요 </title>
+
+  <section>
+    <title>기본 용어 </title>
+
+    <para>eformsign을 사용하기 전에 숙지하고 있어야 할 eformsign의 기본 용어를 소개합니다.</para>
+
+    <para/>
+
+    <itemizedlist>
+      <listitem>
+        <para>폼 빌더(Form builder)</para>
+
+        <para>폼 빌더는 eformsign에서 사용하는 전자 서식을 만드는 도구입니다. 신청서, 계약서, 동의서 등의 기존 종이
+        서식(MS Office로 만들어 사용하는 문서 서식)을 서명이나 텍스트 박스 등을 포함하는 전자문서로 변경하여
+        eformsign에 업로드할 때에 사용합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para>대시보드</para>
+
+        <para>eformsign에 로그인하고 나면 처음에 나타나는 서비스의 메인 화면을 말합니다. 대시보드의 좌측 메뉴
+        아이콘(<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="???"/>
+            </imageobject>
+          </inlinemediaobject>)을 클릭하면 메뉴에 접근할 수 있습니다. 대시보드 메뉴는 사용자의 권한에 따라 다르게
+        나타납니다.</para>
+
+        <figure>
+          <title/>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="???"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+    </itemizedlist>
+
+    <para/>
+  </section>
+</chapter>
