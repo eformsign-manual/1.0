@@ -91,12 +91,12 @@
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">결재: </emphasis>멤버가 문서를 허가하거나 승인하는
-            단계입니다. </para>
+            단계입니다.</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">내부자 처리: </emphasis>다른 멤버가 문서를 작성하거나
-            검토하는 단계입니다. </para>
+            검토하는 단계입니다.</para>
           </listitem>
 
           <listitem>
@@ -147,7 +147,7 @@
   </section>
 
   <section>
-    <title>대시보드 메뉴 구성 </title>
+    <title>대시보드 메뉴 구성</title>
 
     <para>이폼사인에 로그인한 후 왼쪽 상단의 햄버거 메뉴(<inlinemediaobject>
         <imageobject>
@@ -175,27 +175,27 @@
     <itemizedlist>
       <listitem>
         <para><emphasis role="bold">새 문서 작성: </emphasis>문서를 작성할 수 있는 템플릿 목록이
-        조회되고, 템플릿을 선택하여 문서를 작성합니다. </para>
+        조회되고, 템플릿을 선택하여 문서를 작성합니다.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">문서함: </emphasis>나와 관련된 문서 목록을 확인합니다.
-        </para>
+        <para><emphasis role="bold">문서함: </emphasis>나와 관련된 문서 목록을
+        확인합니다.</para>
 
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">진행 중 문서함: </emphasis>내가 작성 또는 처리한 문서 중
-            완료되지 않은 문서 목록을 확인할 수 있습니다. </para>
+            완료되지 않은 문서 목록을 확인할 수 있습니다.</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">처리할 문서함: </emphasis>임시 저장한 문서, 다른 구성원이
-            나에게 작성 또는 결재 요청한 문서 목록을 확인할 수 있습니다. </para>
+            나에게 작성 또는 결재 요청한 문서 목록을 확인할 수 있습니다.</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">전체 문서함: </emphasis>내가 작성 또는 처리한 모든 문서
-            목록을 확인할 수 있습니다. </para>
+            목록을 확인할 수 있습니다.</para>
           </listitem>
         </itemizedlist>
       </listitem>
@@ -203,86 +203,86 @@
       <listitem>
         <para><emphasis role="bold">문서 관리:</emphasis> 문서 관리자만 접근 가능한 메뉴입니다. 문서
         관리자는 권한이 있는 템플릿에서 만들어진 모든 문서를 조회할 수 있습니다. 단, 대표관리자의 경우, 모든 문서를 조회하고
-        관리할 수 있습니다. </para>
+        관리할 수 있습니다.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">내 서명: </emphasis>내 서명을 등록하고 문서 작성 시 편리하게
-        서명란에 적용할 수 있습니다. </para>
+        서명란에 적용할 수 있습니다.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">템플릿 관리: </emphasis>템플릿 관리자만 접근 가능한 메뉴입니다.
-        템플릿 목록을 확인하고 템플릿 설정을 할 수 있습니다. </para>
+        템플릿 목록을 확인하고 템플릿 설정을 할 수 있습니다.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">회사 관리: </emphasis>회사 관리자만 접근 가능한 메뉴입니다. 회사
-        정보를 조회하고 수정할 수 있습니다. </para>
+        정보를 조회하고 수정할 수 있습니다.</para>
 
         <itemizedlist>
           <listitem>
-            <para><emphasis role="bold">회사 정보: </emphasis>회사 정보를 확인할 수 있습니다.
-            </para>
+            <para><emphasis role="bold">회사 정보: </emphasis>회사 정보를 확인할 수
+            있습니다.</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">그룹 관리: </emphasis>구성원 그룹을 생성하거나 그룹 정보를
-            수정할 수 있습니다. </para>
+            수정할 수 있습니다.</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">구성원 관리: </emphasis>구성원을 추가하거나 구성원 정보를
-            수정할 수 있습니다. </para>
+            수정할 수 있습니다.</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">사용자 정의 필드 관리:</emphasis> 회사, 그룹, 구성원에
-            대한 추가 정보를 입력하거나 수정할 수 있습니다. </para>
+            대한 추가 정보를 입력하거나 수정할 수 있습니다.</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">알림 템플릿 관리: </emphasis>이폼사인에서 발송되는 이메일,
-            SMS 알림 템플릿 목록을 확인하고 수정할 수 있습니다. </para>
+            SMS 알림 템플릿 목록을 확인하고 수정할 수 있습니다.</para>
           </listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">커넥트:</emphasis> 대표 관리자만 접근 가능한 메뉴입니다. 외부
-        서비스와 연계하여 사용하는 기능들을 확인할 수 있습니다. </para>
+        서비스와 연계하여 사용하는 기능들을 확인할 수 있습니다.</para>
 
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">파일 저장소: </emphasis>드롭박스, 구글 드라이브, 박스
-            계정을 연동하여 최종 완료된 문서를 저장합니다. </para>
+            계정을 연동하여 최종 완료된 문서를 저장합니다.</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">분석 및 리포팅: </emphasis>구글 스프레드시트, 오피스365
-            엑셀로 문서에 입력된 데이터를 자동으로 저장하도록 설정할 수 있습니다. </para>
+            엑셀로 문서에 입력된 데이터를 자동으로 저장하도록 설정할 수 있습니다.</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">API / Webhook:</emphasis> 이폼사인 API를
-            사용할 때 필요한 API 및 웹훅 키 관리를 할 수 있습니다. </para>
+            사용할 때 필요한 API 및 웹훅 키 관리를 할 수 있습니다.</para>
           </listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">요금 관리:</emphasis> 요금제 및 결제 내역을 조회하고 요금제나
-        결제 수단을 변경할 수 있습니다. </para>
+        결제 수단을 변경할 수 있습니다.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">이용 현황:</emphasis> 주간, 월간, 연간 이용 현황을 조회할 수
-        있습니다. </para>
+        있습니다.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">eformsign 폼빌더 다운로드: </emphasis>전자 서식(템플릿)을
-        생성하기 위한 폼빌더를 다운로드합니다. </para>
+        생성하기 위한 폼빌더를 다운로드합니다.</para>
       </listitem>
     </itemizedlist>
 
@@ -292,7 +292,7 @@
   <section>
     <title>폼빌더 메뉴 구성</title>
 
-    <para>이폼사인 폼 빌더는 MS Office의 엑셀, 워드, 파워포인트에 추가 기능 형태로 설치됩니다. </para>
+    <para>이폼사인 폼 빌더는 MS Office의 엑셀, 워드, 파워포인트에 추가 기능 형태로 설치됩니다.</para>
 
     <para>폼 빌더를 설치한 후 MS Office의 엑셀, 워드, 파워포인트를 실행하면 상단의 OZ in Office 리본 메뉴에
     OZ in Excel, OZ in Word, OZ in PowerPoint 탭이 추가된 것을 확인할 수 있습니다.</para>
@@ -311,38 +311,43 @@
 
     <orderedlist>
       <listitem>
-        <para>파일: 작성한 문서를 전자 서식으로 실행해보고 이폼사인에 전자서식을 업로드하거나 이폼사인에서 다운로드 받을 수
-        있습니다.</para>
+        <para><emphasis role="bold">파일: </emphasis>작성한 문서를 전자 서식으로 실행해보고 이폼사인에
+        전자서식을 업로드하거나 이폼사인에서 다운로드 받을 수 있습니다.</para>
       </listitem>
 
       <listitem>
-        <para>속성: 입력 컴포넌트에 대한 속성을 설정합니다.</para>
+        <para><emphasis role="bold">속성: </emphasis>입력 컴포넌트에 대한 속성을
+        설정합니다.</para>
       </listitem>
 
       <listitem>
-        <para>입력: 전자 서식에 사용할 입력 컴포넌트를 추가합니다.</para>
-      </listitem>
-
-      <listitem>
-        <para>정보: 전자 서식에 자동으로 멤버나 사용일 정보를 기입하기 위해 사용자, 사용일 정보 컴포넌트를
+        <para><emphasis role="bold">입력: </emphasis>전자 서식에 사용할 입력 컴포넌트를
         추가합니다.</para>
       </listitem>
 
       <listitem>
-        <para>그리기: 컴포넌트를 선택하여 원하는 위치와 크기로 추가합니다. 컴포넌트 그리기는 워드, 파워포인트에서만
-        지원됩니다.</para>
+        <para><emphasis role="bold">정보: </emphasis>전자 서식에 자동으로 멤버나 사용일 정보를
+        기입하기 위해 사용자, 사용일 정보 컴포넌트를 추가합니다.</para>
       </listitem>
 
       <listitem>
-        <para>삭제: 컴포넌트를 선택한 뒤 삭제 버튼을 누르면 컴포넌트가 삭제됩니다.</para>
+        <para><emphasis role="bold">그리기: </emphasis>컴포넌트를 선택하여 원하는 위치와 크기로
+        추가합니다. 컴포넌트 그리기는 워드, 파워포인트에서만 지원됩니다.</para>
       </listitem>
 
       <listitem>
-        <para>창: 컴포넌트 속성창을 열거나 컴포넌트를 선택합니다.</para>
+        <para><emphasis role="bold">삭제: </emphasis>컴포넌트를 선택한 뒤 삭제 버튼을 누르면
+        컴포넌트가 삭제됩니다.</para>
       </listitem>
 
       <listitem>
-        <para>도움말: 폼 빌더 버전을 확인하고 업데이트를 실행합니다.</para>
+        <para><emphasis role="bold">창: </emphasis>컴포넌트 속성창을 열거나 컴포넌트를
+        선택합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">도움말:</emphasis> 폼 빌더 버전을 확인하고 업데이트를
+        실행합니다.</para>
       </listitem>
     </orderedlist>
 
