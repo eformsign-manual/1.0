@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<chapter>
+  <title>템플릿</title>
+
+  <section>
+    <title>문서 제목 규칙 만들기</title>
+
+    <para>이 작업은 <emphasis role="bold">템플릿 관리자</emphasis> 또는 대표관리자 권한이
+    필요합니다.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="867"
+                     fileref="../../../../../../Users/sychoi/Desktop/2020/%EC%9D%B4%ED%8F%BC%EC%82%AC%EC%9D%B8/%EB%A7%A4%EB%89%B4%EC%96%BC/%ED%85%9C%ED%94%8C%EB%A6%BF/document-list.png"/>
+        </imageobject>
+      </inlinemediaobject></para>
+
+    <para>문서에 입력된 내용, 또는 문서 작성 관련 정보가 문서 제목에 자동으로 입력되도록 설정할 수 있ㅅ습니다. 문서 제목 규칙을
+    설정하면 문서 작성 시점의 정보를 바탕으로 문서 제목이 생성되며 이 제목은 모든 문서함(진행중 문서함, 처리할 문서함, 전체
+    문서함)과 문서 관리 메뉴의 문서 목록에서 확인할 수 있습니다.</para>
+
+    <para/>
+
+    <para><emphasis role="bold">문서 제목 규칙 설정하는 방법</emphasis></para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="867"
+                     fileref="../../../../../../Users/sychoi/Desktop/2020/%EC%9D%B4%ED%8F%BC%EC%82%AC%EC%9D%B8/%EB%A7%A4%EB%89%B4%EC%96%BC/%ED%85%9C%ED%94%8C%EB%A6%BF/doc-title-rule-settings.png"/>
+        </imageobject>
+      </inlinemediaobject></para>
+
+    <orderedlist>
+      <listitem>
+        <para>이폼사인에 로그인합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para>대시보드 메뉴 &gt; 템플릿 관리로 이동합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para>템플릿의 설정 아이콘(기어모양)을 클릭하여 템플릿 설정 화면으로 이동합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para>일반설정 화면의 문서 제목 규칙 입력란에 원하는 제목 규칙을 입력합니다.</para>
+      </listitem>
+    </orderedlist>
+
+    <para>예약어 사용하는 방</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="../../../../../../Users/sychoi/Desktop/2020/%EC%9D%B4%ED%8F%BC%EC%82%AC%EC%9D%B8/%EB%A7%A4%EB%89%B4%EC%96%BC/%ED%85%9C%ED%94%8C%EB%A6%BF/sample-of-setting-doc-title-rule.gif"/>
+        </imageobject>
+      </inlinemediaobject></para>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="???"/>
+      </imageobject>
+    </mediaobject>
+
+    <itemizedlist>
+      <listitem>
+        <para/>
+      </listitem>
+    </itemizedlist>
+
+    <variablelist>
+      <varlistentry>
+        <term>{{ </term>
+
+        <listitem>
+          <para>문서에 입력된 내용을 문서 제목에 추가하고자 할 때 </para>
+
+          <para>문서 제목 규칙 입력란에 ‘{{‘를 입력하면 템플릿의 컴포넌트 ID 리스트가 나타나며, 원하는 ID를 선택하면
+          해당 컴포넌트에 입력된 내용이 문서 제목에 추가됩니다. </para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>$$ </term>
+
+        <listitem>
+          <para>문서와 관련된 정보를 제목에 추가하고자 할 때 </para>
+
+          <para>문서 제목 규칙 입력란에 ‘$$’를 입력하면 드롭다운 메뉴가 나타나며 아래 정보 중 원하는 정보를 선택할 수
+          있습니다.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+
+    <para/>
+
+    <para/>
+
+    <table>
+      <title/>
+
+      <tgroup cols="2">
+        <colspec colwidth="366*"/>
+
+        <colspec colwidth="634*"/>
+
+        <tbody>
+          <row>
+            <entry>정보 종류</entry>
+
+            <entry>설명</entry>
+          </row>
+
+          <row>
+            <entry>현재_날짜</entry>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry>현재_시간</entry>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry>현재_날짜시간</entry>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry>최초_작성자_ID</entry>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry>최초_작성자_이름</entry>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry>최초_작성자_부</entry>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry/>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry/>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry/>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry/>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry/>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry/>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry/>
+
+            <entry/>
+          </row>
+
+          <row>
+            <entry/>
+
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </section>
+</chapter>
