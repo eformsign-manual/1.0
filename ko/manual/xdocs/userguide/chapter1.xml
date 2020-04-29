@@ -32,16 +32,32 @@
         나타납니다.</para>
 
         <figure>
-          <title/>
+          <title>eformsign 대시보드 화면</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="???"/>
+              <imagedata fileref="resources/dashboard.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
       </listitem>
+
+      <listitem>
+        <para>템플릿</para>
+
+        <para/>
+      </listitem>
     </itemizedlist>
+
+    <figure>
+      <title/>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="???"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
 
     <para/>
   </section>
