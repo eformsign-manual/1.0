@@ -18,12 +18,43 @@
     <section>
       <title>워크플로우 개요</title>
 
-      <para/>
+      <para>워크플로우란 문서가 작성되어 완료되기까지의 문서의 요청 및 처리 과정을 말합니다.</para>
+
+      <para>워크플로우는 템플릿 관리자가 템플릿 별로 템플리 설정 &gt; 워크플로우 설정에서 설정할 수 있습니다. </para>
+
+      <para>워크플로우는 <emphasis role="bold">작성 - 완료</emphasis>가 기본 단계이며, 아래와 같이
+      3가지 단계를 추가할 수 있습니다. </para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">결재</emphasis></para>
+
+          <para>동일한 회사에 소속된 멤버에게 문서의 승인을 요청하는 단계입니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">내부자 처리</emphasis></para>
+
+          <para>멤버에게 문서의 처리를 요청하는 단계입니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">외부자 처리</emphasis></para>
+
+          <para>동일한 회사에 소속된 멤버가 아닌 외부자에게 문서의 처리를 요청하는 단계입니다. </para>
+
+          <para/>
+
+          <important>
+            <para>결재와 내부자 처리의 차이!</para>
+          </important>
+        </listitem>
+      </itemizedlist>
     </section>
   </section>
 
   <section>
-    <title>템플릿 설정: 일반 설정</title>
+    <title>템플릿 설정&gt; 일반 설정</title>
 
     <para>폼 파일을 업로드하고 각 템플릿에 대한 상세 사항을 설정할 수 있습니다. </para>
 
@@ -772,13 +803,13 @@
   </section>
 
   <section>
-    <title>템플릿 설정하기: 워크플로우 설정</title>
+    <title>템플릿 설정 &gt; 워크플로우 설정</title>
 
     <para/>
   </section>
 
   <section>
-    <title>템플릿 퀵메뉴?</title>
+    <title>개별 템플릿 설정?</title>
 
     <para/>
   </section>

@@ -587,8 +587,6 @@
         <listitem>
           <para>대시보드에서 변경된 로고를 확인합니다.</para>
 
-          <para/>
-
           <figure>
             <title>로고 변경된 대시보드</title>
 
@@ -608,7 +606,36 @@
   <section>
     <title>권한 설정</title>
 
-    <para/>
+    <para>이폼사인 사용자별 권한은 다음과 같이 구분됩니다. </para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">대표 관리자</emphasis></para>
+
+        <para>회사의 대표자로 이폼사인 사용에 대한 모든 권한이 있습니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">회사 관리자</emphasis></para>
+
+        <para>회사 관리 메뉴에 접근할 수 있습니다. 회사 정보, 멤버, 그룹 등을 관리할 수 있습니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">템플릿 관리자</emphasis></para>
+
+        <para>템플릿 관리메뉴에 접근할 수 있습니다. 폼빌더를 사용하여 폼파일을 만들어 새로운 템플릿을 등록할 수 있으며,
+        템플릿을 수정, 배포, 삭제할 수 있습니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">문서 관리자</emphasis></para>
+
+        <para>문서 관리 메뉴에 접근하여 템플릿 별로 생성된 문서를 열람하고 다운로드 받을 수 있습니다.</para>
+
+        <para>문서 관리자는 템플릿 별로 다르게 지정할 수 있습니다. </para>
+      </listitem>
+    </itemizedlist>
 
     <section>
       <title>대표 관리자</title>
