@@ -5,12 +5,12 @@
   <title>템플릿</title>
 
   <section>
-    <title>탬플릿 소개</title>
+    <title>템플릿 소개</title>
 
-    <para>이 작업은 <emphasis role="bold"/></para>
+    <para>템플릿은 전자 문서를 작성할 수 있는 전자 서식입니다....</para>
 
     <section>
-      <title>탬플릿 개요</title>
+      <title>템플릿 개요</title>
 
       <para/>
     </section>
@@ -23,26 +23,35 @@
   </section>
 
   <section>
-    <title>탬플릿 설정하기: 일반 설정</title>
+    <title>템플릿 설정: 일반 설정</title>
 
-    <para>이 작업은 <emphasis role="bold">템플릿 관리자</emphasis> 또는 <emphasis
-    role="bold">대표관리자 </emphasis>권한이 필요합니다.</para>
+    <para>폼 파일을 업로드하고 각 템플릿에 대한 상세 사항을 설정할 수 있습니다. </para>
 
-    <para>이 작업은 PC, 모바일, 애플리케이션에서 진행할 수 있습니다.</para>
+    <note>
+      <para>이 작업은 대표 관리자 또는 템플릿 관리 권한이 필요합니다.</para>
+
+      <para>이 작업은 PC, 모바일, 애플리케이션에서 진행할 수 있습니다.</para>
+    </note>
 
     <para><emphasis role="bold">템플릿 설정 화면으로 이동하는 방법</emphasis></para>
 
     <orderedlist>
       <listitem>
-        <para>이폼사인에 로그인합니다.</para>
+        <para>사이드바 메뉴에서 <emphasis role="bold">템플릿 관리</emphasis>로 이동합니다.</para>
       </listitem>
 
       <listitem>
-        <para>대시보드 메뉴 &gt; 템플릿 관리로 이동합니다.</para>
-      </listitem>
+        <para>원하는 템플릿의 이름이나 설정 아이콘(<inlinemediaobject>
+            <imageobject>
+              <imagedata contentwidth="28" fileref="resources/config-icon.PNG"/>
+            </imageobject>
+          </inlinemediaobject>)을 클릭합니다.</para>
 
-      <listitem>
-        <para>원하는 템플릿의 이름이나 설정 아이콘(⚙)을 클릭합니다.</para>
+        <para><inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/template-settings.png" width="700"/>
+            </imageobject>
+          </inlinemediaobject></para>
       </listitem>
     </orderedlist>
 
@@ -227,8 +236,12 @@
     <section>
       <title>일반 설정 &gt; 문서 제목 규칙 만들기</title>
 
-      <para>이 작업은 <emphasis role="bold">템플릿 관리자</emphasis> 또는 <emphasis
-      role="bold">대표관리자</emphasis> 권한이 필요합니다.</para>
+      <para>템플릿 설정에서 해당 템플릿으로 생성되는 문서의 제목 규칙을 설정할 수 있습니다.</para>
+
+      <note>
+        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는<emphasis
+        role="bold"> 템플릿 관리</emphasis> 권한이 필요합니다.</para>
+      </note>
 
       <figure>
         <title>문서 관리 &gt; 문서 목록</title>
@@ -240,7 +253,7 @@
         </mediaobject>
       </figure>
 
-      <para>문서에 입력된 내용, 또는 문서 작성 관련 정보가 문서 제목에 자동으로 입력되도록 설정할 수 있ㅅ습니다. 문서 제목
+      <para>문서에 입력된 내용, 또는 문서 작성 관련 정보가 문서 제목에 자동으로 입력되도록 설정할 수 있습니다. 문서 제목
       규칙을 설정하면 문서 작성 시점의 정보를 바탕으로 문서 제목이 생성되며 이 제목은 모든 문서함(진행중 문서함, 처리할 문서함,
       전체 문서함)과 문서 관리 메뉴의 문서 목록에서 확인할 수 있습니다.</para>
 
@@ -259,19 +272,23 @@
 
       <orderedlist>
         <listitem>
-          <para>이폼사인에 로그인합니다.</para>
+          <para>사이드바 메뉴에서<emphasis role="bold"> 템플릿 관리</emphasis>로
+          이동합니다.</para>
         </listitem>
 
         <listitem>
-          <para>대시보드 메뉴 &gt; 템플릿 관리로 이동합니다.</para>
+          <para>템플릿의 설정 아이콘(기어모양)을 클릭하여 <emphasis role="bold">템플릿
+          설정</emphasis> 화면으로 이동합니다.</para>
         </listitem>
 
         <listitem>
-          <para>템플릿의 설정 아이콘(기어모양)을 클릭하여 템플릿 설정 화면으로 이동합니다.</para>
+          <para><emphasis role="bold">일반 설정 </emphasis>화면의 <emphasis
+          role="bold">문서 제목 규칙</emphasis> 입력란에 원하는 제목 규칙을 입력합니다.</para>
         </listitem>
 
         <listitem>
-          <para>일반설정 화면의 문서 제목 규칙 입력란에 원하는 제목 규칙을 입력합니다.</para>
+          <para>오른쪽 상단에<emphasis role="bold"> 저장 </emphasis>버튼을 클릭하여 변경 사항을
+          저장합니다.</para>
         </listitem>
       </orderedlist>
 
@@ -304,7 +321,8 @@
           <listitem>
             <para>문서에 입력된 내용을 문서 제목에 추가하고자 할 때</para>
 
-            <para>문서 제목 규칙 입력란에 ‘{{‘를 입력하면 템플릿의 컴포넌트 ID 리스트가 나타나며, 원하는 ID를
+            <para><emphasis role="bold">문서 제목 규칙 </emphasis>입력란에 <emphasis
+            role="bold">{{</emphasis>를 입력하면 템플릿의 컴포넌트 ID 리스트가 나타나며, 원하는 ID를
             선택하면 해당 컴포넌트에 입력된 내용이 문서 제목에 추가됩니다.</para>
           </listitem>
         </varlistentry>
@@ -315,8 +333,9 @@
           <listitem>
             <para>문서와 관련된 정보를 제목에 추가하고자 할 때</para>
 
-            <para>문서 제목 규칙 입력란에 ‘$$’를 입력하면 드롭다운 메뉴가 나타나며 아래 정보 중 원하는 정보를 선택할 수
-            있습니다.</para>
+            <para><emphasis role="bold">문서 제목 규칙</emphasis> 입력란에 <emphasis
+            role="bold">$$</emphasis>를 입력하면 드롭다운 메뉴가 나타나며 아래 정보 중 원하는 정보를 선택할
+            수 있습니다.</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -423,7 +442,13 @@
           </tgroup>
         </table></para>
 
-      <para>[사용팁] 문서 제목 변경 허용 여부를 확인하세요!</para>
+      <tip>
+        <para><emphasis role="bold">문서 제목 변경 허용</emphasis> 여부를 확인하세요!</para>
+
+        <para>문서 제목 규칙을 설정해 놓더라도 <emphasis role="bold">문서 제목 변경 허용</emphasis>이
+        체크되어 있으면 문서 작성자가 임의로 문서 제목을 변경할 수 있습니다. 문서 제목이 변경되는 것을 원하지 않는
+        경우<emphasis role="bold">문서 제목 변경 허용</emphasis>을 체크 해지하시기 바랍니다.</para>
+      </tip>
 
       <figure>
         <title>문서 제목 변경 허용 여부 확인</title>
@@ -435,20 +460,22 @@
         </mediaobject>
       </figure>
 
-      <para>문서 제목 규칙을 설정해 놓더라도 문서 제목 변경 허용이 체크되어 있으면 문서 작성자가 임의로 문서 제목을 변경할 수
-      있습니다. 문서 제목이 변경되는 것을 원하지 않는 경우 문서 제목 변경 허용을 체크 해지하시기 바랍니다.</para>
+      <para>.</para>
     </section>
 
     <section>
       <title>일반 설정 &gt; 문서번호 생성 및 확인하기</title>
 
-      <para>이폼사인에서 생성되는 문서에 연속되는 문서번호를 부여할 수 있습니다. 템플릿별로 문서번호 생성 여부를 설정할 수 있으며
-      번호 형식 4가지 중 한 가지를 선택해야 합니다. 문서번호는 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다. 또한 문서
-      목록에서 별도의 컬럼으로 확인할 수 있으며 문서번호로 문서를 검색할 수 있습니다.</para>
+      <para>이폼사인에서 생성되는 문서에 연속되는 문서번호를 부여할 수 있습니다. 템플릿 별로 문서번호 생성 여부를 설정할 수
+      있으며 번호 형식 4가지 중 한 가지를 선택해야 합니다. 문서번호는 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다. 또한
+      문서 목록에서 별도의 컬럼으로 확인할 수 있으며 문서번호로 문서를 검색할 수 있습니다.</para>
 
       <para><emphasis role="bold">문서번호 생성하는 방법</emphasis></para>
 
-      <para>이 작업은 템플릿관리자 또는 대표관리자 권한이 필요합니다.</para>
+      <note>
+        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는<emphasis
+        role="bold">템플릿 관리</emphasis> 권한이 필요합니다.</para>
+      </note>
 
       <figure>
         <title>문서번호 설정하기</title>
@@ -460,20 +487,26 @@
         </mediaobject>
       </figure>
 
-      <variablelist>
-        <varlistentry>
-          <term>1. 이폼사인에 로그인합니다.</term>
+      <orderedlist>
+        <listitem>
+          <para>사이드바 메뉴에서 <emphasis role="bold">템플릿 관리</emphasis>로
+          이동합니다.</para>
+        </listitem>
 
-          <term>2. 대시보드 메뉴 &gt; 템플릿 관리로 이동합니다.</term>
+        <listitem>
+          <para>템플릿의 <emphasis role="bold">설정 </emphasis>아이콘(기어모양)을 클릭하여 템플릿
+          설정 화면으로 이동합니다.</para>
+        </listitem>
 
-          <term>3. 템플릿의 설정 아이콘(기어모양)을 클릭하여 템플릿 설정 화면으로 이동합니다.</term>
+        <listitem>
+          <para>일반 설정 화면의 <emphasis role="bold">문서번호 설정</emphasis>을
+          체크합니다.</para>
 
-          <term>4. 일반 설정 화면의 '문서번호 설정'을 체크합니다.</term>
-
-          <listitem>
-            <para>1. 문서번호 규칙 선택하기</para>
-
-            <figure>
+          <para><itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">문서번호 규칙 선택하기</emphasis></para>
+              </listitem>
+            </itemizedlist><figure>
               <title>문서번호 규칙 선택</title>
 
               <mediaobject>
@@ -482,11 +515,9 @@
                              fileref="resources/doc-numbering-1_1.png"/>
                 </imageobject>
               </mediaobject>
-            </figure>
-
-            <variablelist>
+            </figure><variablelist>
               <varlistentry>
-                <term>1. 일련번호</term>
+                <term>▪ 일련번호</term>
 
                 <listitem>
                   <para>: 문서 생성 순서대로 1번부터 생성</para>
@@ -496,7 +527,7 @@
               </varlistentry>
 
               <varlistentry>
-                <term>2. 년도_일련번호</term>
+                <term>▪ 년도_일련번호</term>
 
                 <listitem>
                   <para>:문서가 생성된 년도 + 번호 1번부터 생성</para>
@@ -504,11 +535,9 @@
                   <para>예) 2020_1, 2020_2...</para>
                 </listitem>
               </varlistentry>
-            </variablelist>
-
-            <variablelist>
+            </variablelist><variablelist>
               <varlistentry>
-                <term>3. 템플릿_일련번호</term>
+                <term>▪ 템플릿_일련번호</term>
 
                 <listitem>
                   <para>: 템플릿 약칭 + 번호 1번부터 생성</para>
@@ -518,7 +547,7 @@
               </varlistentry>
 
               <varlistentry>
-                <term>4. 템플릿_년도_일련번호</term>
+                <term>▪ 템플릿_년도_일련번호</term>
 
                 <listitem>
                   <para>: 템플릿 약칭 + 문서가 생성된 년도 + 번호 1번부터 생성</para>
@@ -526,11 +555,11 @@
                   <para>예) 신청서 2020_1, 신청서 2020_2...</para>
                 </listitem>
               </varlistentry>
-            </variablelist>
-
-            <para>2. 문서번호 채번 시점 선택하기</para>
-
-            <figure>
+            </variablelist><itemizedlist>
+              <listitem>
+                <para><emphasis role="bold">문서번호 채번 시점 선택하기</emphasis></para>
+              </listitem>
+            </itemizedlist><figure>
               <title>문서번호 채번 시점 선책</title>
 
               <mediaobject>
@@ -539,11 +568,9 @@
                              fileref="resources/doc-numbering-point_2-1.png"/>
                 </imageobject>
               </mediaobject>
-            </figure>
-
-            <variablelist>
+            </figure><variablelist>
               <varlistentry>
-                <term>1. 시작</term>
+                <term>▪ 시작</term>
 
                 <listitem>
                   <para>: 문서를 작성하기 시작할 때 문서번호를 생성합니다.</para>
@@ -551,7 +578,7 @@
               </varlistentry>
 
               <varlistentry>
-                <term>2. 완료</term>
+                <term>▪ 완료</term>
 
                 <listitem>
                   <para>: 문서가 모든 워크플로우를 거쳐 작성 완료가 되 때 문서번호를 생성합니다.</para>
@@ -559,25 +586,21 @@
               </varlistentry>
 
               <varlistentry>
-                <term>3. 이외에 설정된 워크플로우 단계가 있을 경우 해당 단계를 채번 시점으로 설정할 수
+                <term>▪ 이외에 설정된 워크플로우 단계가 있을 경우 해당 단계를 채번 시점으로 설정할 수
                 있습니다.</term>
 
                 <listitem>
                   <para/>
                 </listitem>
               </varlistentry>
-            </variablelist>
-          </listitem>
-        </varlistentry>
+            </variablelist></para>
+        </listitem>
 
-        <varlistentry>
-          <term>5. 오른쪽 상단의 '저장' 버튼을 클릭해 설정을 저장합니다.</term>
-
-          <listitem>
-            <para/>
-          </listitem>
-        </varlistentry>
-      </variablelist>
+        <listitem>
+          <para>오른쪽 상단의 '<emphasis role="bold">저장</emphasis> 버튼을 클릭해 설정을
+          저장합니다.</para>
+        </listitem>
+      </orderedlist>
 
       <para><emphasis role="bold">문서번호 확인하는 방법</emphasis></para>
 
@@ -600,11 +623,13 @@
             </listitem>
 
             <listitem>
-              <para>'업로드' 버튼을 눌러 문서를 이폼사인에 업로드합니다.</para>
+              <para><emphasis role="bold">업로드 </emphasis>버튼을 눌러 문서를 이폼사인에
+              업로드합니다.</para>
             </listitem>
 
             <listitem>
-              <para>템플릿 설정 &gt; 일반 설정에서 '문서 번호 설정'을 체크합니다.</para>
+              <para><emphasis role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서
+              <emphasis role="bold">문서 번호 설정</emphasis>을 체크합니다.</para>
             </listitem>
 
             <listitem>
@@ -612,7 +637,8 @@
             </listitem>
 
             <listitem>
-              <para>'저장' 버튼을 눌러 설정을 저장합니다.</para>
+              <para><emphasis role="bold">저장</emphasis> 버튼을 눌러 설정을
+              저장합니다.</para>
             </listitem>
           </orderedlist>
         </listitem>
@@ -646,19 +672,18 @@
 
           <orderedlist>
             <listitem>
-              <para>이폼사인에 로그인합니다.</para>
+              <para>사이드바 메뉴에서 <emphasis role="bold">문서함</emphasis> 또는
+              <emphasis role="bold">문서 관리</emphasis> 메뉴로 이동합니다.</para>
             </listitem>
 
             <listitem>
-              <para>대시보드 메뉴 &gt; 문서함 또는 문서 관리 메뉴로 이동합니다.</para>
+              <para>오른쪽 상단의 <emphasis role="bold">컬럼 설정</emphasis> 아이콘을
+              클릭합니다.</para>
             </listitem>
 
             <listitem>
-              <para>오른쪽 상단의 컬럼 설정 아이콘을 클릭합니다.</para>
-            </listitem>
-
-            <listitem>
-              <para>컬럼 리스트의 '문서번호'를 체크합니다.</para>
+              <para>컬럼 리스트의 <emphasis role="bold">문서번호</emphasis>를
+              체크합니다.</para>
 
               <figure>
                 <title>문서 목록 컬럼 설정 - 문서번호</title>
@@ -672,7 +697,8 @@
             </listitem>
 
             <listitem>
-              <para>문서 목록에 문서번호 컬럼이 추가된 것을 확인합니다.</para>
+              <para>문서 목록에 <emphasis role="bold">문서번호</emphasis> 컬럼이 추가된 것을
+              확인합니다.</para>
             </listitem>
           </orderedlist>
         </listitem>
@@ -695,15 +721,18 @@
 
           <orderedlist>
             <listitem>
-              <para>문서함이나 문서 관리 메뉴로 이동합니다.</para>
+              <para><emphasis role="bold">문서함</emphasis>이나 <emphasis
+              role="bold">문서 관리</emphasis> 메뉴로 이동합니다.</para>
             </listitem>
 
             <listitem>
-              <para>문서 목록 상단의 '상세' 버튼을 클릭합니다.</para>
+              <para>문서 목록 상단의 <emphasis role="bold">상세</emphasis> 버튼을
+              클릭합니다.</para>
             </listitem>
 
             <listitem>
-              <para>검색 기준 중 문서번호를 선택합니다.</para>
+              <para>검색 기준 중 <emphasis role="bold">문서번호</emphasis>를
+              선택합니다.</para>
             </listitem>
 
             <listitem>
