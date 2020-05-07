@@ -5,6 +5,24 @@
   <title>템플릿</title>
 
   <section>
+    <title>탬플릿 소개</title>
+
+    <para>이 작업은 <emphasis role="bold"/></para>
+
+    <section>
+      <title>탬플릿 개요</title>
+
+      <para/>
+    </section>
+
+    <section>
+      <title>워크플로우 개요</title>
+
+      <para/>
+    </section>
+  </section>
+
+  <section>
     <title>탬플릿 설정하기: 일반 설정</title>
 
     <para>이 작업은 <emphasis role="bold">템플릿 관리자</emphasis> 또는 <emphasis
@@ -228,8 +246,6 @@
 
       <para><emphasis role="bold">문서 제목 규칙 설정하는 방법</emphasis></para>
 
-      <para/>
-
       <figure>
         <title>템플릿 설정 &gt; 문서 제목 규칙 설정</title>
 
@@ -424,7 +440,7 @@
     </section>
 
     <section>
-      <title>일반 설정 &gt; 문서번호 생성 및 확인하기 </title>
+      <title>일반 설정 &gt; 문서번호 생성 및 확인하기</title>
 
       <para>이폼사인에서 생성되는 문서에 연속되는 문서번호를 부여할 수 있습니다. 템플릿별로 문서번호 생성 여부를 설정할 수 있으며
       번호 형식 4가지 중 한 가지를 선택해야 합니다. 문서번호는 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다. 또한 문서
@@ -568,325 +584,155 @@
       <para>생성된 문서번호는 <olink targetdoc="???">문서 컴포넌트를 사용하여 문서 내에 입력</olink>하거나
       문서 목록에서 확인할 수 있습니다.</para>
 
-      <para/>
-
       <itemizedlist>
         <listitem>
-          <para>문서 내에 문서 번호 표시하기</para>
+          <para><emphasis role="bold">문서 내에 문서 번호 표시하기</emphasis></para>
 
           <para>문서번호는 폼빌더의 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다.</para>
+
+          <orderedlist>
+            <listitem>
+              <para>워드, 엑셀, 파워포인트 템플릿 파일을 엽니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>문서번호가 들어갈 위치에 문서 컴포넌트를 추가합니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>'업로드' 버튼을 눌러 문서를 이폼사인에 업로드합니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>템플릿 설정 &gt; 일반 설정에서 '문서 번호 설정'을 체크합니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>문서번호 규칙을 선택합니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>'저장' 버튼을 눌러 설정을 저장합니다.</para>
+            </listitem>
+          </orderedlist>
         </listitem>
 
         <listitem>
-          <para/>
+          <para><emphasis role="bold">문서 목록에서 문서 번호 확인하기</emphasis></para>
+
+          <figure>
+            <title>전체 문서함 - 문서 목록</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/doc-list-docnumber1.PNG"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <figure>
+            <title>전체 문서함 - 문서 목록 - 문서번호 확인</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/doc-list-docnumber2.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>문서번호는 문서 목록을 볼 수 있는 문서함(진행 중 문서함, 처리할 문서함, 전체 문서함) 및 문서 관리
+          메뉴(문서 관리 권한 필요)에서 확인할 수 있습니다.</para>
+
+          <orderedlist>
+            <listitem>
+              <para>이폼사인에 로그인합니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>대시보드 메뉴 &gt; 문서함 또는 문서 관리 메뉴로 이동합니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>오른쪽 상단의 컬럼 설정 아이콘을 클릭합니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>컬럼 리스트의 '문서번호'를 체크합니다.</para>
+
+              <figure>
+                <title>문서 목록 컬럼 설정 - 문서번호</title>
+
+                <mediaobject>
+                  <imageobject>
+                    <imagedata fileref="resources/columnlist-docnum.png"/>
+                  </imageobject>
+                </mediaobject>
+              </figure>
+            </listitem>
+
+            <listitem>
+              <para>문서 목록에 문서번호 컬럼이 추가된 것을 확인합니다.</para>
+            </listitem>
+          </orderedlist>
         </listitem>
 
         <listitem>
-          <para/>
-        </listitem>
+          <para><emphasis role="bold">문서번호로 문서 검색하기</emphasis></para>
 
-        <listitem>
-          <para/>
+          <figure>
+            <title>문서번호로 검색</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/doc-number-search.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <para>문서번호 검색은 상세 검색 기능을 통해 확인할 수 있습니다.</para>
+
+          <orderedlist>
+            <listitem>
+              <para>문서함이나 문서 관리 메뉴로 이동합니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>문서 목록 상단의 '상세' 버튼을 클릭합니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>검색 기준 중 문서번호를 선택합니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>검색할 단어나 숫자를 입력합니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>검색 결과를 확인합니다.</para>
+            </listitem>
+          </orderedlist>
         </listitem>
       </itemizedlist>
-
-      <para/>
-
-      <orderedlist>
-        <listitem>
-          <para/>
-        </listitem>
-
-        <listitem>
-          <para/>
-        </listitem>
-      </orderedlist>
-
-      <section>
-        <title>문서 내에 문서번호 표시하기</title>
-
-        <para>문서번호는 폼빌더의 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다.</para>
-
-        <orderedlist>
-          <listitem>
-            <para>워드, 엑셀, 파워포인트 템플릿 파일을 엽니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>문서번호가 들어갈 위치에 문서 컴포넌트를 추가합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>'업로드' 버튼을 눌러 문서를 이폼사인에 업로드합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>템플릿 설정 &gt; 일반 설정에서 '문서 번호 설정'을 체크합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>문서번호 규칙을 선택합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>'저장' 버튼을 눌러 설정을 저장합니다.</para>
-          </listitem>
-        </orderedlist>
-      </section>
-
-      <section>
-        <title>문서 목록에서 문서번호 확인하기</title>
-
-        <figure>
-          <title>전체 문서함 - 문서 목록</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/doc-list-docnumber1.PNG"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <figure>
-          <title>전체 문서함 - 문서 목록 - 문서번호 확인</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/doc-list-docnumber2.png"
-                         width="700"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>문서번호는 문서 목록을 볼 수 있는 문서함(진행 중 문서함, 처리할 문서함, 전체 문서함) 및 문서 관리 메뉴(문서
-        관리 권한 필요)에서 확인할 수 있습니다.</para>
-
-        <orderedlist>
-          <listitem>
-            <para>이폼사인에 로그인합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>대시보드 메뉴 &gt; 문서함 또는 문서 관리 메뉴로 이동합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>오른쪽 상단의 컬럼 설정 아이콘을 클릭합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>컬럼 리스트의 '문서번호'를 체크합니다.</para>
-
-            <figure>
-              <title>문서 목록 컬럼 설정 - 문서번호</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="resources/columnlist-docnum.png"/>
-                </imageobject>
-              </mediaobject>
-            </figure>
-          </listitem>
-
-          <listitem>
-            <para>문서 목록에 문서번호 컬럼이 추가된 것을 확인합니다.</para>
-          </listitem>
-        </orderedlist>
-      </section>
-
-      <section>
-        <title>문서번호로 문서 검색하기</title>
-
-        <figure>
-          <title>문서번호로 검색</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/doc-number-search.png" width="700"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>문서번호 검색은 상세 검색 기능을 통해 확인할 수 있습니다.</para>
-
-        <orderedlist>
-          <listitem>
-            <para>문서함이나 문서 관리 메뉴로 이동합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>문서 목록 상단의 '상세' 버튼을 클릭합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>검색 기준 중 문서번호를 선택합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>검색할 단어나 숫자를 입력합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>검색 결과를 확인합니다.</para>
-          </listitem>
-        </orderedlist>
-      </section>
     </section>
   </section>
 
   <section>
-    <title>법</title>
+    <title>템플릿 설정하기: 워크플로우 설정</title>
 
     <para/>
   </section>
 
   <section>
-    <title>일반 설정 &gt; 문서번호 생성 및 확인하기</title>
+    <title>템플릿 퀵메뉴?</title>
 
-    <para>이폼사인에서 생성되는 문서에 연속되는 문서번호를 부여할 수 있습니다. 템플릿별로 문서번호 생성 여부를 설정할 수 있으며
-    번호 형식 4가지 중 한 가지를 선택해야 합니다. 문서번호는 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다. 또한 문서
-    목록에서 별도의 컬럼으로 확인할 수 있으며 문서번호로 문서를 검색할 수 있습니다.</para>
-
-    <section>
-      <title>문서번호 확인하는 방법</title>
-
-      <para>생성된 문서번호는 <olink targetdoc="???">문서 컴포넌트를 사용하여 문서 내에 입력</olink>하거나
-      문서 목록에서 확인할 수 있습니다.</para>
-
-      <section>
-        <title>문서 내에 문서번호 표시하기</title>
-
-        <para>문서번호는 폼빌더의 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다.</para>
-
-        <orderedlist>
-          <listitem>
-            <para>워드, 엑셀, 파워포인트 템플릿 파일을 엽니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>문서번호가 들어갈 위치에 문서 컴포넌트를 추가합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>'업로드' 버튼을 눌러 문서를 이폼사인에 업로드합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>템플릿 설정 &gt; 일반 설정에서 '문서 번호 설정'을 체크합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>문서번호 규칙을 선택합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>'저장' 버튼을 눌러 설정을 저장합니다.</para>
-          </listitem>
-        </orderedlist>
-      </section>
-
-      <section>
-        <title>문서 목록에서 문서번호 확인하기</title>
-
-        <figure>
-          <title>전체 문서함 - 문서 목록</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/doc-list-docnumber1.PNG"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <figure>
-          <title>전체 문서함 - 문서 목록 - 문서번호 확인</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/doc-list-docnumber2.png"
-                         width="700"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>문서번호는 문서 목록을 볼 수 있는 문서함(진행 중 문서함, 처리할 문서함, 전체 문서함) 및 문서 관리 메뉴(문서
-        관리 권한 필요)에서 확인할 수 있습니다.</para>
-
-        <orderedlist>
-          <listitem>
-            <para>이폼사인에 로그인합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>대시보드 메뉴 &gt; 문서함 또는 문서 관리 메뉴로 이동합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>오른쪽 상단의 컬럼 설정 아이콘을 클릭합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>컬럼 리스트의 '문서번호'를 체크합니다.</para>
-
-            <figure>
-              <title>문서 목록 컬럼 설정 - 문서번호</title>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="resources/columnlist-docnum.png"/>
-                </imageobject>
-              </mediaobject>
-            </figure>
-          </listitem>
-
-          <listitem>
-            <para>문서 목록에 문서번호 컬럼이 추가된 것을 확인합니다.</para>
-          </listitem>
-        </orderedlist>
-      </section>
-
-      <section>
-        <title>문서번호로 문서 검색하기</title>
-
-        <figure>
-          <title>문서번호로 검색</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/doc-number-search.png" width="700"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>문서번호 검색은 상세 검색 기능을 통해 확인할 수 있습니다.</para>
-
-        <orderedlist>
-          <listitem>
-            <para>문서함이나 문서 관리 메뉴로 이동합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>문서 목록 상단의 '상세' 버튼을 클릭합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>검색 기준 중 문서번호를 선택합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>검색할 단어나 숫자를 입력합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>검색 결과를 확인합니다.</para>
-          </listitem>
-        </orderedlist>
-      </section>
-    </section>
+    <para/>
   </section>
 
   <section>
-    <title/>
+    <title>템플릿 검색</title>
 
     <para/>
   </section>
