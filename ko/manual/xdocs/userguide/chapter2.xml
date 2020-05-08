@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preface version="5.0" xml:id="about" xmlns="http://docbook.org/ns/docbook"
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
          xmlns:xlink="http://www.w3.org/1999/xlink"
          xmlns:xi="http://www.w3.org/2001/XInclude"
          xmlns:svg="http://www.w3.org/2000/svg"
-         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
   <title>기본정보</title>
@@ -171,7 +171,7 @@
 
       <variablelist>
         <varlistentry>
-          <term>① 새 문서 작성</term>
+          <term><emphasis role="bold">① 새 문서 작성</emphasis></term>
 
           <listitem>
             <para>저장된 템플릿을 사용하여 새 문서를 작성할 수 있는<emphasis role="bold"> 새 문서
@@ -180,7 +180,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>② 진행 중 문서함</term>
+          <term><emphasis role="bold">② 진행 중 문서함</emphasis></term>
 
           <listitem>
             <para>현재 진행 중인 문서의 개수를 보여주며, 클릭시<emphasis role="bold">
@@ -190,7 +190,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>③ 처리할 문서함</term>
+          <term><emphasis role="bold">③ 처리할 문서함</emphasis></term>
 
           <listitem>
             <para>내가 처리해야 하는 문서의 개수를 보여주며, 클릭시 <emphasis role="bold">처리할
@@ -199,7 +199,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>④ 전체 문서함</term>
+          <term><emphasis role="bold">④ 전체 문서함</emphasis></term>
 
           <listitem>
             <para>완료된 문서를 포함하여 모든 문서를 확인할 수 있는 <emphasis role="bold">전체
@@ -208,7 +208,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑤ 진행 중 문서</term>
+          <term><emphasis role="bold">⑤ 진행 중 문서</emphasis></term>
 
           <listitem>
             <para>진행 중인 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당 문서로 바로
@@ -218,7 +218,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑥ 처리할 문서</term>
+          <term><emphasis role="bold">⑥ 처리할 문서</emphasis></term>
 
           <listitem>
             <para>내가 처리해야 하는 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당
@@ -228,7 +228,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑦ 전체 문서</term>
+          <term><emphasis role="bold">⑦ 전체 문서</emphasis></term>
 
           <listitem>
             <para>전체 문서함에 있는 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당 문서로 바로
@@ -238,18 +238,20 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑧ 즐겨찾기</term>
+          <term><emphasis role="bold">⑧ 즐겨찾기</emphasis></term>
 
           <listitem>
             <para>내가 즐겨찾기로 등록한 템플릿을 보여줍니다. 해당 템플릿을 클릭하면 템플릿을 사용하여 새 문서를 작성할 수
             있는 화면으로 바로 이동합니다. 즐겨찾기에 템플릿을 추가하려면 추가 아이콘(<inlinemediaobject>
                 <imageobject>
-                  <imagedata fileref="resources/favorites-add.PNG"/>
+                  <imagedata contentwidth="17"
+                             fileref="resources/favorites-add.PNG"/>
                 </imageobject>
               </inlinemediaobject>)을 클릭하여 새로 등록할 수 있습니다. 즐겨찾기에 등록된 템플릿을 삭제하려면
             편집 아이콘(<inlinemediaobject>
                 <imageobject>
-                  <imagedata fileref="resources/favorites-edit.PNG"/>
+                  <imagedata contentwidth="18"
+                             fileref="resources/favorites-edit.PNG"/>
                 </imageobject>
               </inlinemediaobject>)을 클릭하여 삭제할 수 있습니다.</para>
           </listitem>
@@ -257,7 +259,7 @@
       </variablelist>
 
       <tip>
-        <para>지주 사용하는 템플릿 즐겨찾기 방법!</para>
+        <para>자주 사용하는 템플릿 즐겨찾기 방법!</para>
 
         <para>자주 사용하는 템플릿은 즐겨찾기에 등록하여 바로 문서를 작성할 수 있습니다. 템플릿 <emphasis
         role="bold">즐겨찾기</emphasis>는 대시보드에서 할 수 있습니다.</para>
@@ -266,7 +268,8 @@
           <listitem>
             <para>대시보드의 즐겨찾기 박스에서 추가 아이콘( <inlinemediaobject>
                 <imageobject>
-                  <imagedata fileref="resources/favorites-add.PNG"/>
+                  <imagedata contentwidth="17"
+                             fileref="resources/favorites-add.PNG"/>
                 </imageobject>
               </inlinemediaobject>)을 클릭하세요.</para>
           </listitem>
@@ -307,7 +310,7 @@
     <para>이폼사인 가입시 입력한 개인 정보 및 내가 등록된 회사의 정보를 확인하려면 사이드바 메뉴의 우측 상단에 있는 햄버거
     아이콘(<inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="25"
+          <imagedata contentwidth="17"
                      fileref="resources/menu-hamberger-icon.png"/>
         </imageobject>
       </inlinemediaobject>)을 클릭하여 확인할 수 있습니다.</para>
@@ -318,9 +321,9 @@
         </imageobject>
       </inlinemediaobject></para>
 
-    <para> 메뉴에서 아이콘(<inlinemediaobject>
+    <para>메뉴에서 아이콘(<inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="25"
+          <imagedata contentwidth="17"
                      fileref="resources/menu-hamberger-icon.png"/>
         </imageobject>
       </inlinemediaobject>)을 클릭하면 다음과 같이 하위 메뉴가 표시됩니다.</para>
@@ -339,7 +342,7 @@
 
       <listitem>
         <para><emphasis role="bold">내 정보: </emphasis>이폼사인 가입시 등록한 내 개인 정보를 확인
-        및 수정할 수 있으며, 내가 소속된 회사의 정보를 확인할 수 있습니다. </para>
+        및 수정할 수 있으며, 내가 소속된 회사의 정보를 확인할 수 있습니다.</para>
       </listitem>
 
       <listitem>
@@ -349,7 +352,7 @@
     </itemizedlist>
 
     <section>
-      <title>내 정보 </title>
+      <title>내 정보</title>
 
       <para><emphasis role="bold">내 정보 &gt; 개인 정보 </emphasis></para>
 
@@ -365,7 +368,7 @@
 
       <variablelist>
         <varlistentry>
-          <term>개인 정보</term>
+          <term><emphasis role="bold">개인 정보</emphasis></term>
 
           <listitem>
             <para>회원가입시 입력한 이름, 이메일 또는 아이디, 비밀번호 및 연락처를 확인 및 수정할 수
@@ -374,7 +377,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>소셜 계정 연결</term>
+          <term><emphasis role="bold">소셜 계정 연결</emphasis></term>
 
           <listitem>
             <para>구글, 페이스북의 소셜 계정을 새로 연결, 계정 추가, 연결 해제를 할 수 있습니다.</para>
@@ -382,7 +385,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>알림</term>
+          <term><emphasis role="bold">알림</emphasis></term>
 
           <listitem>
             <para>마케팅 정보 수신 동의 여부를 확인할 수 있으며, 동의 및 해제할 수 있습니다.</para>
@@ -390,7 +393,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>회원 탈퇴</term>
+          <term><emphasis role="bold">회원 탈퇴</emphasis></term>
 
           <listitem>
             <para>이폼사인의 회원 탈퇴를 하고자 할 경우 화면 하단의 <emphasis role="bold">eformsign
@@ -408,14 +411,14 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/myinfo-companyinfo.PNG" width="750"/>
+            <imagedata fileref="resources/myinfo-personalinfo.png" width="750"/>
           </imageobject>
         </mediaobject>
       </figure>
 
       <variablelist>
         <varlistentry>
-          <term>기본 정보</term>
+          <term><emphasis role="bold">기본 정보</emphasis></term>
 
           <listitem>
             <para>내가 소속된 회사의 회사명, 국가, 언어, 연락처 등 기본 정보를 확인할 수 있습니다.</para>
@@ -423,7 +426,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>상세 정보</term>
+          <term><emphasis role="bold">상세 정보</emphasis></term>
 
           <listitem>
             <para>내가 소속된 회사의 주소, 사업자 등록번호, 홈페이지, 대표관리자 이름 및 이메일 등 상세한 정보를 확인할
@@ -431,13 +434,13 @@
 
             <note>
               <para>내 정보에서는 회사정보를 확인만 할 수 있으며, 회사 관련 정보의 수정은 회사 관리 메뉴에서 할 수
-              있습니다. 회사 정보 수정은 대표 관리자 또는 회사 관리 권한이 있는 회원만 가능합니다. </para>
+              있습니다. 회사 정보 수정은 대표 관리자 또는 회사 관리 권한이 있는 회원만 가능합니다.</para>
             </note>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>회사 탈퇴</term>
+          <term><emphasis role="bold">회사 탈퇴</emphasis></term>
 
           <listitem>
             <para>소속된 회사를 탈퇴하고자 하는 경우, 화면 하단의 <emphasis role="bold">이
@@ -448,7 +451,7 @@
             <important>
               <para>일반 회원의 경우 소속 회사에서 탈퇴할 경우 개인의 계정은 유지되며 다른 회사에 가입하거나 신규로 회사를
               생성할 수 있습니다. 대표 관리자의 경우 회사 탈퇴시 회사가 삭제됩니다. 회사 삭제를 하지 않고 회사를 탈퇴하려면
-              대표 관리자 권한을 다른 사람에게 위임한 후 회사를 탈퇴해야 합니다. </para>
+              대표 관리자 권한을 다른 사람에게 위임한 후 회사를 탈퇴해야 합니다.</para>
             </important>
           </listitem>
         </varlistentry>
@@ -459,7 +462,7 @@
       <title>회사 정보 수정 및 추가</title>
 
       <para>내 정보에서 확인가능한 회사 정보는 <emphasis role="bold">회사 관리 &gt; 회사
-      정보</emphasis>에서 수정할 수 있습니다. </para>
+      정보</emphasis>에서 수정할 수 있습니다.</para>
 
       <note>
         <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
@@ -492,7 +495,7 @@
 
         <listitem>
           <para>수정이 끝났으면 오른쪽 상단의 <emphasis role="bold">저장</emphasis> 버튼을
-          클릭합니다. </para>
+          클릭합니다.</para>
         </listitem>
       </orderedlist>
 
@@ -520,7 +523,7 @@
         <para>로고와 심볼의 차이</para>
 
         <para>로고와 심볼 모두 회사를 대표하는 이미지입니다. 로고는 대체로 브랜드명을 기재하는 가로로 긴 형식, 심볼은
-        이미지만으로 표현한 정사각형 형식입니다. </para>
+        이미지만으로 표현한 정사각형 형식입니다.</para>
 
         <para>이폼사인에서도 로고는 512 x 128의 가로이미지, 심볼은 120 x 120의 정사각형 이미지를 권장하고
         있습니다.</para>
@@ -537,10 +540,6 @@
           </imageobject>
         </mediaobject>
       </figure>
-
-      <para> </para>
-
-      <para/>
 
       <orderedlist>
         <listitem>
@@ -603,14 +602,15 @@
         </listitem>
       </orderedlist>
 
-      <para> </para>
+      <para/>
     </section>
   </section>
 
   <section>
     <title>권한 구분</title>
 
-    <para>이폼사인 사용자별 권한은 다음과 같이 구분됩니다. </para>
+    <para>이폼사인은 멤버에게 권한을 부여할 수 있어 총 5 단계로 세분화된 권한별 관리가 가능합니다. 사용자별 권한은 다음과 같이
+    구분됩니다.</para>
 
     <itemizedlist>
       <listitem>
@@ -637,12 +637,146 @@
 
         <para>문서 관리 메뉴에 접근하여 템플릿 별로 생성된 문서를 열람하고 다운로드 받을 수 있습니다.</para>
 
-        <para>문서 관리자는 템플릿 별로 다르게 지정할 수 있습니다. </para>
+        <para>문서 관리자는 템플릿 별로 다르게 지정할 수 있습니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">문서 작성자</emphasis></para>
+
+        <para>템플릿 별로 문서 작성자를 지정할 수 있습니다. 문서 작성 권한을 부여 받은 멤버만 해당 템플릿으로 문서를 작성할
+        수 있습니다.</para>
       </listitem>
     </itemizedlist>
 
     <section>
       <title>대표 관리자</title>
+
+      <para>대표 관리자는 가입시 회사를 생성한 사용자가 대표 관리자로 등록되며, 이폼사인 사용에 대한 모든 권한을 갖고 있는 최고
+      관리자입니다. </para>
+
+      <para>대표관리자는</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>모든 메뉴에 접근할 수 있습니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>템플릿을 생성, 수정, 삭제, 관리할 수 있습니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>모든 문서를 작성, 열람, 관리할 수 있습니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>대표 관리자 변경이 필요한 경우 다른 멤버에게 권한을 위임할 수 있습니다.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>대표 관리자가 탈퇴를 할 경우, 회사가 삭제되며 회사를 삭제하지 않고 계정 탈퇴를 하려면 대표 관리자에 대한 권한은
+      다른 멤버에게 위임해야 합니다. </para>
+
+      <para><emphasis role="bold">대표 관리자 권한 위임하는 방법</emphasis></para>
+
+      <para/>
+
+      <para/>
+
+      <note>
+        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 권한이 필요합니다.</para>
+      </note>
+
+      <para/>
+
+      <figure>
+        <title/>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="???"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <orderedlist>
+        <listitem>
+          <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 회사 정보</emphasis>로
+          이동합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">상세 정보 &gt; 대표 관리자 </emphasis>항목의 오른쪽에
+          위치한 <emphasis role="bold">권한 위임</emphasis> 링크를 클릭합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">권한 위임</emphasis> 팝업창이 뜨면 권한을 위임할 멤버를 검색
+          및 선택합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>대표 관리자 계정 비밀번호를 입력합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">저장</emphasis> 버튼을 클릭합니다.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title>회사 관리 권한</title>
+
+      <para>회사 관리자는 <emphasis role="bold">회사관리 </emphasis>메뉴에 접근 권한을 가지며, 회사와
+      관련된 정보 및 멤버/그룹등의 정보를 열람, 수정, 삭제 등을 할 수 있습니다. 회사 관리자는 대표 관리자 또는 회사 관리자가
+      멤버에게 권한을 부여할 수 있습니다. </para>
+
+      <para>회사 관리자의 수에는 제한이 없습니다.??</para>
+
+      <para/>
+
+      <para><emphasis role="bold">회사 관리 권한 부여하는 방법</emphasis></para>
+
+      <para/>
+
+      <note>
+        <para>이 작업은 <emphasis role="bold">대표 관리자 </emphasis>또는 <emphasis
+        role="bold">회사 관리 </emphasis>권한이 필요합니다.</para>
+      </note>
+
+      <para/>
+
+      <figure>
+        <title/>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="???"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <orderedlist>
+        <listitem>
+          <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 멤버 관리</emphasis>로
+          이동합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>멤버 목록에서 템플릿 관리 권한을 부여할 멤버를 선택합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>오른쪽 <emphasis role="bold">상세 보기</emphasis>화면 하단의 권한에서
+          <emphasis role="bold">회사 관리</emphasis><emphasis role="bold">
+          권한</emphasis>을 체크합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">저장</emphasis> 버튼을 클릭합니다.</para>
+        </listitem>
+      </orderedlist>
 
       <para/>
     </section>
@@ -650,23 +784,190 @@
     <section>
       <title>템플릿 관리 권한</title>
 
+      <para>템플릿 관리자는 <emphasis role="bold">템플릿 관리</emphasis> 메뉴에 접근 권한을 가지며,
+      템플릿을 등록, 수정, 배포, 삭제할 수 있습니다.</para>
+
+      <para>템플릿을 등록한 템플릿 관리자는 해당 템플릿의 템플릿 소유자가 됩니다.</para>
+
+      <para>한 회사에 여러명의 템플릿 관리자가 있는경우 쳄플릿 소유자와 템플릿 관리자가 다를 수있습니다.</para>
+
+      <para>템플릿 관리자가 템플릿 소유자가 아닌 경우 해당 템플릿의 설정 보기와 템플릿 복제만 할 수 있습니다. </para>
+
       <para/>
+
+      <tip>
+        <para>템플릿 관리자와 템플릿 소유자의 차이!</para>
+
+        <para/>
+      </tip>
+
+      <para><emphasis role="bold">템플릿 관리 권한 부여하는 방법</emphasis></para>
+
+      <para>.</para>
+
+      <note>
+        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
+        role="bold">템플릿 관리</emphasis>권한이 필요합니다.</para>
+      </note>
+
+      <para/>
+
+      <figure>
+        <title/>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="???"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <orderedlist>
+        <listitem>
+          <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 구성원 관리</emphasis>로
+          이동합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>멤버 목록에서 템플릿 관리 권한을 부여할 멤버를 선택합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>오른쪽 <emphasis role="bold">상세 보기 </emphasis>화면 하단의 권한에서
+          <emphasis role="bold">템플릿 권한</emphasis>을 체크합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">저장</emphasis> 버튼을 클릭합니다.</para>
+        </listitem>
+      </orderedlist>
     </section>
 
     <section>
       <title>문서 관리 권한</title>
 
+      <para>문서 관리자는 템플릿 별로 생성된 문서와 문서에 입력된 데이터를 관리합니다. </para>
+
+      <para>문서 관리자로 지정되면 <emphasis role="bold">문서 관리 </emphasis>메뉴 화면에서 해당
+      템플릿으로 작성된 문서를 열람, 삭제, 다운로드 할 수 있습니다.</para>
+
       <para/>
+
+      <para><emphasis role="bold">문서 관리 권한 부여하는 방법</emphasis></para>
+
+      <note>
+        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
+        role="bold">템플릿 관리 </emphasis>권한이 필요합니다.</para>
+      </note>
+
+      <para/>
+
+      <figure>
+        <title/>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="???"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <orderedlist>
+        <listitem>
+          <para>사이드바 메뉴에서<emphasis role="bold"> 템플릿 관리</emphasis>로
+          이동합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">템플릿 설정</emphasis> 버튼( <inlinemediaobject>
+              <imageobject>
+                <imagedata contentwidth="25"
+                           fileref="resources/config-icon.PNG"/>
+              </imageobject>
+            </inlinemediaobject>)을 클릭합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">문서 관리자 설정</emphasis> 탭으로 이동합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>관리자로 지정할 멤버나 그룹을 선택합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">저장 </emphasis>버튼을 클릭합니다.</para>
+        </listitem>
+      </orderedlist>
     </section>
 
     <section>
       <title>문서 작성 권한</title>
 
+      <para>각 템플릿 별로 문서 작성자를 지정할 수 있습니다. 문서 작성자로 지정되면 <emphasis role="bold">새
+      문서 작성</emphasis> 메뉴 화면에서 해당 템플릿으로 문서를 작성할 수 있습니다.</para>
+
+      <para/>
+
+      <para><emphasis role="bold">문서 작성 권한 부여하는 방법</emphasis></para>
+
+      <para/>
+
+      <note>
+        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
+        role="bold">템플릿 관리 </emphasis>권한이 필요합니다.</para>
+      </note>
+
+      <para/>
+
+      <figure>
+        <title/>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="???"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <orderedlist>
+        <listitem>
+          <para>사이드바 메뉴에서<emphasis role="bold"> 템플릿 관리</emphasis>로
+          이동합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">템플릿 설정</emphasis> 버튼( <inlinemediaobject>
+              <imageobject>
+                <imagedata contentwidth="25"
+                           fileref="resources/config-icon.PNG"/>
+              </imageobject>
+            </inlinemediaobject>)을 클릭합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">워크플로우 설정</emphasis> 탭으로 이동합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">시작</emphasis> 단계를 클릭합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">속성</emphasis> 탭의 <emphasis
+          role="bold">작성자 설정</emphasis>에서 그룹이나 멤버를 검색 및 선택합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">저장 </emphasis>버튼을 클릭합니다</para>
+        </listitem>
+      </orderedlist>
+
       <para/>
     </section>
 
     <section>
-      <title>권한 위임</title>
+      <title/>
 
       <para/>
     </section>
@@ -678,7 +979,7 @@
     <para/>
 
     <section>
-      <title>멤버 관리 </title>
+      <title>멤버 관리</title>
 
       <para/>
     </section>
