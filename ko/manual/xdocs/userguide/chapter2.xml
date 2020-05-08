@@ -2,177 +2,692 @@
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <chapter>
-  <title>개요</title>
+  <title>기본정보</title>
 
   <section>
-    <title>제품 소개</title>
-
-    <para/>
+    <title>대시보드</title>
 
     <section>
-      <title/>
+      <title>메뉴 구성</title>
+
+      <para>이폼사인 로그인 후 대시보드 화면 왼쪽 상단의 햄버거 메뉴(<inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="resources/menu icon.png"/>
+          </imageobject>
+        </inlinemediaobject>)를 클릭하면, 아래와 같은 사이드바 메뉴를 볼 수 있습니다. 각각의 메뉴는 사용자가
+      가지고 있는 권한에 따라 다르게 나타날 수 있습니다. 대표 관리자는 모든 메뉴를 볼 수 있으며, 모든 권한이
+      있습니다.</para>
+
+      <figure>
+        <title>이폼사인 메뉴 구성</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/dashboard_menu_expand.png"
+                       width="800"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para>각각의 메뉴는 다음과 같습니다.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">새 문서 작성: </emphasis>문서를 작성할 수 있는 템플릿 목록이
+          조회되고, 템플릿을 선택하여 문서를 작성합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">문서함: </emphasis>나와 관련된 문서 목록을
+          확인합니다.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">진행 중 문서함: </emphasis>내가 작성 또는 처리한 문서
+              중 완료되지 않은 문서 목록을 확인할 수 있습니다.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">처리할 문서함: </emphasis>임시 저장한 문서, 다른
+              구성원이 나에게 작성 또는 결재 요청한 문서 목록을 확인할 수 있습니다.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">전체 문서함: </emphasis>내가 작성 또는 처리한 모든
+              문서 목록을 확인할 수 있습니다.</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">문서 관리:</emphasis> 문서 관리자만 접근 가능한 메뉴입니다.
+          문서 관리자는 권한이 있는 템플릿에서 만들어진 모든 문서를 조회할 수 있습니다. 단, 대표관리자의 경우, 모든 문서를
+          조회하고 관리할 수 있습니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">내 서명: </emphasis>내 서명을 등록하고 문서 작성 시 편리하게
+          서명란에 적용할 수 있습니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">템플릿 관리: </emphasis>템플릿 관리자만 접근 가능한
+          메뉴입니다. 템플릿 목록을 확인하고 템플릿 설정을 할 수 있습니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">회사 관리: </emphasis>회사 관리자만 접근 가능한 메뉴입니다.
+          회사 정보를 조회하고 수정할 수 있습니다.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">회사 정보: </emphasis>회사 정보를 확인할 수
+              있습니다.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">그룹 관리: </emphasis>구성원 그룹을 생성하거나 그룹
+              정보를 수정할 수 있습니다.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">구성원 관리: </emphasis>구성원을 추가하거나 구성원
+              정보를 수정할 수 있습니다.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">사용자 정의 필드 관리:</emphasis> 회사, 그룹,
+              구성원에 대한 추가 정보를 입력하거나 수정할 수 있습니다.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">알림 템플릿 관리: </emphasis>이폼사인에서 발송되는
+              이메일, SMS 알림 템플릿 목록을 확인하고 수정할 수 있습니다.</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">커넥트:</emphasis> 대표 관리자만 접근 가능한 메뉴입니다. 외부
+          서비스와 연계하여 사용하는 기능들을 확인할 수 있습니다.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">파일 저장소: </emphasis>드롭박스, 구글 드라이브, 박스
+              계정을 연동하여 최종 완료된 문서를 저장합니다.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">분석 및 리포팅: </emphasis>구글 스프레드시트,
+              오피스365 엑셀로 문서에 입력된 데이터를 자동으로 저장하도록 설정할 수 있습니다.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">API / Webhook:</emphasis> 이폼사인 API를
+              사용할 때 필요한 API 및 웹훅 키 관리를 할 수 있습니다.</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">요금 관리:</emphasis> 요금제 및 결제 내역을 조회하고 요금제나
+          결제 수단을 변경할 수 있습니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">이용 현황:</emphasis> 주간, 월간, 연간 이용 현황을 조회할
+          수 있습니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">eformsign 폼빌더 다운로드: </emphasis>전자
+          서식(템플릿)을 생성하기 위한 폼빌더를 다운로드합니다.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para/>
+    </section>
+
+    <section>
+      <title>대시보드 화면 구성</title>
+
+      <para>이폼사인 로그인 후 나타나는 대시보드 화면은 권한에 관계없이 모두 동일하게 나타납니다. 내가 처리해야 할 문서, 진행
+      중인 문서 등을 한눈에 확인할 수 있으며, <emphasis role="bold">새 문서 작성</emphasis> 등 주요
+      메뉴로 바로가기를 제공합니다.</para>
+
+      <figure>
+        <title>대시보드 화면</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/dashboard_main.png" width="800"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term>① 새 문서 작성</term>
+
+          <listitem>
+            <para>저장된 템플릿을 사용하여 새 문서를 작성할 수 있는<emphasis role="bold"> 새 문서
+            작성</emphasis> 화면으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>② 진행 중 문서함</term>
+
+          <listitem>
+            <para>현재 진행 중인 문서의 개수를 보여주며, 클릭시<emphasis role="bold">
+            </emphasis>진행 중인 문서의 목록을 확인할 수 있는 <emphasis role="bold">진행 중
+            문서함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>③ 처리할 문서함</term>
+
+          <listitem>
+            <para>내가 처리해야 하는 문서의 개수를 보여주며, 클릭시 <emphasis role="bold">처리할
+            문서함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>④ 전체 문서함</term>
+
+          <listitem>
+            <para>완료된 문서를 포함하여 모든 문서를 확인할 수 있는 <emphasis role="bold">전체
+            문서함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑤ 진행 중 문서</term>
+
+          <listitem>
+            <para>진행 중인 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당 문서로 바로
+            이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
+            role="bold"> 진행 중 문서함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑥ 처리할 문서</term>
+
+          <listitem>
+            <para>내가 처리해야 하는 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당
+            문서로 바로 이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
+            role="bold"> 처리할 문서함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑦ 전체 문서</term>
+
+          <listitem>
+            <para>전체 문서함에 있는 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당 문서로 바로
+            이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
+            role="bold"> 전체 문서함</emphasis>으로 이동합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑧ 즐겨찾기</term>
+
+          <listitem>
+            <para>내가 즐겨찾기로 등록한 템플릿을 보여줍니다. 해당 템플릿을 클릭하면 템플릿을 사용하여 새 문서를 작성할 수
+            있는 화면으로 바로 이동합니다. 즐겨찾기에 템플릿을 추가하려면 추가 아이콘(<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/favorites-add.PNG"/>
+                </imageobject>
+              </inlinemediaobject>)을 클릭하여 새로 등록할 수 있습니다. 즐겨찾기에 등록된 템플릿을 삭제하려면
+            편집 아이콘(<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/favorites-edit.PNG"/>
+                </imageobject>
+              </inlinemediaobject>)을 클릭하여 삭제할 수 있습니다.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <tip>
+        <para>지주 사용하는 템플릿 즐겨찾기 방법!</para>
+
+        <para>자주 사용하는 템플릿은 즐겨찾기에 등록하여 바로 문서를 작성할 수 있습니다. 템플릿 <emphasis
+        role="bold">즐겨찾기</emphasis>는 대시보드에서 할 수 있습니다.</para>
+
+        <orderedlist>
+          <listitem>
+            <para>대시보드의 즐겨찾기 박스에서 추가 아이콘( <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/favorites-add.PNG"/>
+                </imageobject>
+              </inlinemediaobject>)을 클릭하세요.</para>
+          </listitem>
+
+          <listitem>
+            <para>클릭시 즐겨찾기에 등록이 안된 템플릿의 목록이 팝업창으로 뜹니다.</para>
+
+            <para><inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/favorites-add-popup.PNG"
+                             width="700"/>
+                </imageobject>
+              </inlinemediaobject></para>
+          </listitem>
+
+          <listitem>
+            <para>즐겨찾기에 추가하고자 하는 템플릿의 체크박스를 클릭합니다.</para>
+
+            <para><inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="resources/favorites-add-popup2.PNG"
+                             width="700"/>
+                </imageobject>
+              </inlinemediaobject></para>
+          </listitem>
+
+          <listitem>
+            <para>선택을 클릭하면 즐겨찾기에 등록됩니다.</para>
+          </listitem>
+        </orderedlist>
+      </tip>
+    </section>
+  </section>
+
+  <section>
+    <title>기본 정보 확인 및 변경</title>
+
+    <para>이폼사인 가입시 입력한 개인 정보 및 내가 등록된 회사의 정보를 확인하려면 사이드바 메뉴의 우측 상단에 있는 햄버거
+    아이콘(<inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="25"
+                     fileref="resources/menu-hamberger-icon.png"/>
+        </imageobject>
+      </inlinemediaobject>)을 클릭하여 확인할 수 있습니다.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="resources/menu-personalinfo.png" width="700"/>
+        </imageobject>
+      </inlinemediaobject></para>
+
+    <para> 메뉴에서 아이콘(<inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="25"
+                     fileref="resources/menu-hamberger-icon.png"/>
+        </imageobject>
+      </inlinemediaobject>)을 클릭하면 다음과 같이 하위 메뉴가 표시됩니다.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="resources/menu-personalinfo1.png" width="700"/>
+        </imageobject>
+      </inlinemediaobject></para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">회사 변경: </emphasis>내가 소속된 회사가 여러 개일 경우 회사
+        변경을 클릭하면 회사의 목록이 나타나며 변경할 회사를 클릭하여 소속 회사를 변경할 수 있습니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">내 정보: </emphasis>이폼사인 가입시 등록한 내 개인 정보를 확인
+        및 수정할 수 있으며, 내가 소속된 회사의 정보를 확인할 수 있습니다. </para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">로그아웃: </emphasis>이폼사인을 로그아웃 할 수
+        있습니다.</para>
+      </listitem>
+    </itemizedlist>
+
+    <section>
+      <title>내 정보 </title>
+
+      <para><emphasis role="bold">내 정보 &gt; 개인 정보 </emphasis></para>
+
+      <figure>
+        <title>내 정보 &gt; 개인 정보 화면</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/myinfo-personalinfo.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term>개인 정보</term>
+
+          <listitem>
+            <para>회원가입시 입력한 이름, 이메일 또는 아이디, 비밀번호 및 연락처를 확인 및 수정할 수
+            있습니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>소셜 계정 연결</term>
+
+          <listitem>
+            <para>구글, 페이스북의 소셜 계정을 새로 연결, 계정 추가, 연결 해제를 할 수 있습니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>알림</term>
+
+          <listitem>
+            <para>마케팅 정보 수신 동의 여부를 확인할 수 있으며, 동의 및 해제할 수 있습니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>회원 탈퇴</term>
+
+          <listitem>
+            <para>이폼사인의 회원 탈퇴를 하고자 할 경우 화면 하단의 <emphasis role="bold">eformsign
+            탈퇴하기</emphasis>를 클릭하여 회원 탈퇴를 할 수 있습니다.</para>
+
+            <para/>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <para><emphasis role="bold">내 정보 &gt; 회사 정보 </emphasis></para>
+
+      <figure>
+        <title>내 정보 &gt; 회사 정보 화면</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/myinfo-companyinfo.PNG" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <variablelist>
+        <varlistentry>
+          <term>기본 정보</term>
+
+          <listitem>
+            <para>내가 소속된 회사의 회사명, 국가, 언어, 연락처 등 기본 정보를 확인할 수 있습니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>상세 정보</term>
+
+          <listitem>
+            <para>내가 소속된 회사의 주소, 사업자 등록번호, 홈페이지, 대표관리자 이름 및 이메일 등 상세한 정보를 확인할
+            수 있습니다.</para>
+
+            <note>
+              <para>내 정보에서는 회사정보를 확인만 할 수 있으며, 회사 관련 정보의 수정은 회사 관리 메뉴에서 할 수
+              있습니다. 회사 정보 수정은 대표 관리자 또는 회사 관리 권한이 있는 회원만 가능합니다. </para>
+            </note>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>회사 탈퇴</term>
+
+          <listitem>
+            <para>소속된 회사를 탈퇴하고자 하는 경우, 화면 하단의 <emphasis role="bold">이
+            회사</emphasis> <emphasis role="bold">탈퇴하기</emphasis>를 클릭하여 탈퇴할 수
+            있습니다. <emphasis role="bold">이 회사 탈퇴하기</emphasis>를 클릭하면 소속된 회사의 목록이
+            표시되고 선택하여 해당 회사의 탈퇴를 진행할 수 있습니다.</para>
+
+            <important>
+              <para>일반 회원의 경우 소속 회사에서 탈퇴할 경우 개인의 계정은 유지되며 다른 회사에 가입하거나 신규로 회사를
+              생성할 수 있습니다. 대표 관리자의 경우 회사 탈퇴시 회사가 삭제됩니다. 회사 삭제를 하지 않고 회사를 탈퇴하려면
+              대표 관리자 권한을 다른 사람에게 위임한 후 회사를 탈퇴해야 합니다. </para>
+            </important>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+
+    <section>
+      <title>회사 정보 수정 및 추가</title>
+
+      <para>내 정보에서 확인가능한 회사 정보는 <emphasis role="bold">회사 관리 &gt; 회사
+      정보</emphasis>에서 수정할 수 있습니다. </para>
+
+      <note>
+        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
+        role="bold">회사 관리 권한</emphasis>이 필요합니다.</para>
+      </note>
+
+      <figure>
+        <title>회사 관리 &gt; 회사 정보 메뉴</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/managecompany-companyinfo-menu.png"
+                       width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para><emphasis role="bold">등록된 회사 정보를 수정하는 방법</emphasis></para>
+
+      <orderedlist>
+        <listitem>
+          <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 회사 정보</emphasis>로
+          이동합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">회사 정보 &gt; 기본 정보</emphasis> 화면에서 수정하고자
+          하는 정보를 수정합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>수정이 끝났으면 오른쪽 상단의 <emphasis role="bold">저장</emphasis> 버튼을
+          클릭합니다. </para>
+        </listitem>
+      </orderedlist>
+
+      <figure>
+        <title>회사 정보 화면</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/managecompany-companyinfo-edit.png"
+                       width="900"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para/>
+    </section>
+
+    <section>
+      <title>브랜드</title>
+
+      <para>회사의 로고와 심볼을 등록하여 이폼사인의 대시보드와 사이드바 메뉴, 이메일 템플릿 등에 표시할 수
+      있습니다.</para>
+
+      <note>
+        <para>로고와 심볼의 차이</para>
+
+        <para>로고와 심볼 모두 회사를 대표하는 이미지입니다. 로고는 대체로 브랜드명을 기재하는 가로로 긴 형식, 심볼은
+        이미지만으로 표현한 정사각형 형식입니다. </para>
+
+        <para>이폼사인에서도 로고는 512 x 128의 가로이미지, 심볼은 120 x 120의 정사각형 이미지를 권장하고
+        있습니다.</para>
+      </note>
+
+      <para><emphasis role="bold">회사 로고 등록하는 방법</emphasis></para>
+
+      <figure>
+        <title>회사 정보 &gt; 브랜드 이미지 등록</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/managecompany-brand.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <para> </para>
+
+      <para/>
+
+      <orderedlist>
+        <listitem>
+          <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 회사 정보</emphasis>로
+          이동합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">브랜드 </emphasis>탭을 클릭합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">브랜드 이미지 &gt; 로고</emphasis> 영역의 이미지를
+          클릭합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>이미지 업로드 팝업창이 뜨면 내 PC에 저장된 로고 이미지 파일을 선택하여 업로드 합니다.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>이미지 크기: 가로 512px, 세로 128px 권장</para>
+            </listitem>
+
+            <listitem>
+              <para>파일 크기: 최대 300KB</para>
+            </listitem>
+          </itemizedlist>
+
+          <itemizedlist>
+            <listitem>
+              <para>파일 형식: PNG, JPG, JPEG, GIF</para>
+            </listitem>
+          </itemizedlist>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata contentwidth="625"
+                           fileref="resources/managecompany-logo-upload.png"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </listitem>
+
+        <listitem>
+          <para>화면 오른쪽 상단의 저장 버튼을 클릭합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>대시보드에서 변경된 로고를 확인합니다.</para>
+
+          <figure>
+            <title>로고 변경된 대시보드</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/logo-change.png" width="750"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+      </orderedlist>
+
+      <para> </para>
+    </section>
+  </section>
+
+  <section>
+    <title>권한 설정</title>
+
+    <para>이폼사인 사용자별 권한은 다음과 같이 구분됩니다. </para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">대표 관리자</emphasis></para>
+
+        <para>회사의 대표자로 이폼사인 사용에 대한 모든 권한이 있습니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">회사 관리자</emphasis></para>
+
+        <para>회사 관리 메뉴에 접근할 수 있습니다. 회사 정보, 멤버, 그룹 등을 관리할 수 있습니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">템플릿 관리자</emphasis></para>
+
+        <para>템플릿 관리메뉴에 접근할 수 있습니다. 폼빌더를 사용하여 폼파일을 만들어 새로운 템플릿을 등록할 수 있으며,
+        템플릿을 수정, 배포, 삭제할 수 있습니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">문서 관리자</emphasis></para>
+
+        <para>문서 관리 메뉴에 접근하여 템플릿 별로 생성된 문서를 열람하고 다운로드 받을 수 있습니다.</para>
+
+        <para>문서 관리자는 템플릿 별로 다르게 지정할 수 있습니다. </para>
+      </listitem>
+    </itemizedlist>
+
+    <section>
+      <title>대표 관리자</title>
+
+      <para/>
+    </section>
+
+    <section>
+      <title>템플릿 관리 권한</title>
+
+      <para/>
+    </section>
+
+    <section>
+      <title>문서 관리 권한</title>
+
+      <para/>
+    </section>
+
+    <section>
+      <title>문서 작성 권한</title>
+
+      <para/>
+    </section>
+
+    <section>
+      <title>권한 위임</title>
 
       <para/>
     </section>
   </section>
 
   <section>
-    <title>대시보드 메뉴 구성</title>
-
-    <para>이폼사인에 로그인한 후 왼쪽 상단의 햄버거 메뉴(<inlinemediaobject>
-        <imageobject>
-          <imagedata fileref="resources/menu icon.png"/>
-        </imageobject>
-      </inlinemediaobject>)를 클릭하면, 아래와 같은 사이드 메뉴를 볼 수 있습니다. 각각의 메뉴는 사용자가 가지고
-    있는 권한에 따라 다르게 나타날 수 있습니다. 대표 관리자는 모든 메뉴를 볼 수 있으며, 모든 권한이 있습니다.</para>
+    <title>멤버 및 그룹 관리</title>
 
     <para/>
 
-    <figure>
-      <title>대시보드의 메뉴 표시</title>
+    <section>
+      <title>멤버 관리 </title>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/dashboard_menu_expand.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
+      <para/>
+    </section>
 
-    <para>각각의 메뉴는 다음과 같습니다.</para>
+    <section>
+      <title>그룹 관리</title>
 
-    <para/>
-
-    <itemizedlist>
-      <listitem>
-        <para><emphasis role="bold">새 문서 작성: </emphasis>문서를 작성할 수 있는 템플릿 목록이
-        조회되고, 템플릿을 선택하여 문서를 작성합니다.</para>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">문서함: </emphasis>나와 관련된 문서 목록을
-        확인합니다.</para>
-
-        <itemizedlist>
-          <listitem>
-            <para><emphasis role="bold">진행 중 문서함: </emphasis>내가 작성 또는 처리한 문서 중
-            완료되지 않은 문서 목록을 확인할 수 있습니다.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">처리할 문서함: </emphasis>임시 저장한 문서, 다른 구성원이
-            나에게 작성 또는 결재 요청한 문서 목록을 확인할 수 있습니다.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">전체 문서함: </emphasis>내가 작성 또는 처리한 모든 문서
-            목록을 확인할 수 있습니다.</para>
-          </listitem>
-        </itemizedlist>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">문서 관리:</emphasis> 문서 관리자만 접근 가능한 메뉴입니다. 문서
-        관리자는 권한이 있는 템플릿에서 만들어진 모든 문서를 조회할 수 있습니다. 단, 대표관리자의 경우, 모든 문서를 조회하고
-        관리할 수 있습니다.</para>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">내 서명: </emphasis>내 서명을 등록하고 문서 작성 시 편리하게
-        서명란에 적용할 수 있습니다.</para>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">템플릿 관리: </emphasis>템플릿 관리자만 접근 가능한 메뉴입니다.
-        템플릿 목록을 확인하고 템플릿 설정을 할 수 있습니다.</para>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">회사 관리: </emphasis>회사 관리자만 접근 가능한 메뉴입니다. 회사
-        정보를 조회하고 수정할 수 있습니다.</para>
-
-        <itemizedlist>
-          <listitem>
-            <para><emphasis role="bold">회사 정보: </emphasis>회사 정보를 확인할 수
-            있습니다.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">그룹 관리: </emphasis>구성원 그룹을 생성하거나 그룹 정보를
-            수정할 수 있습니다.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">구성원 관리: </emphasis>구성원을 추가하거나 구성원 정보를
-            수정할 수 있습니다.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">사용자 정의 필드 관리:</emphasis> 회사, 그룹, 구성원에
-            대한 추가 정보를 입력하거나 수정할 수 있습니다.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">알림 템플릿 관리: </emphasis>이폼사인에서 발송되는 이메일,
-            SMS 알림 템플릿 목록을 확인하고 수정할 수 있습니다.</para>
-          </listitem>
-        </itemizedlist>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">커넥트:</emphasis> 대표 관리자만 접근 가능한 메뉴입니다. 외부
-        서비스와 연계하여 사용하는 기능들을 확인할 수 있습니다.</para>
-
-        <itemizedlist>
-          <listitem>
-            <para><emphasis role="bold">파일 저장소: </emphasis>드롭박스, 구글 드라이브, 박스
-            계정을 연동하여 최종 완료된 문서를 저장합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">분석 및 리포팅: </emphasis>구글 스프레드시트, 오피스365
-            엑셀로 문서에 입력된 데이터를 자동으로 저장하도록 설정할 수 있습니다.</para>
-          </listitem>
-
-          <listitem>
-            <para><emphasis role="bold">API / Webhook:</emphasis> 이폼사인 API를
-            사용할 때 필요한 API 및 웹훅 키 관리를 할 수 있습니다.</para>
-          </listitem>
-        </itemizedlist>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">요금 관리:</emphasis> 요금제 및 결제 내역을 조회하고 요금제나
-        결제 수단을 변경할 수 있습니다.</para>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">이용 현황:</emphasis> 주간, 월간, 연간 이용 현황을 조회할 수
-        있습니다.</para>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">eformsign 폼빌더 다운로드: </emphasis>전자 서식(템플릿)을
-        생성하기 위한 폼빌더를 다운로드합니다.</para>
-      </listitem>
-    </itemizedlist>
-
-    <para/>
+      <para/>
+    </section>
   </section>
 
   <section>
-    <title/>
-
-    <para/>
-  </section>
-
-  <section>
-    <title/>
-
-    <para/>
-  </section>
-
-  <section>
-    <title/>
+    <title>내 서명 관리</title>
 
     <para/>
   </section>
