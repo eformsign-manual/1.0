@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
-<chapter>
+<preface version="5.0" xml:id="about" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
   <title>템플릿</title>
 
   <section>
@@ -613,7 +617,7 @@
                 <para><emphasis role="bold">문서번호 채번 시점 선택하기</emphasis></para>
               </listitem>
             </itemizedlist><figure>
-              <title>문서번호 채번 시점 선책</title>
+              <title>문서번호 채번 시점 선택</title>
 
               <mediaobject>
                 <imageobject>
@@ -739,15 +743,11 @@
               <para>컬럼 리스트의 <emphasis role="bold">문서번호</emphasis>를
               체크합니다.</para>
 
-              <figure>
-                <title>문서 목록 컬럼 설정 - 문서번호</title>
-
-                <mediaobject>
+              <para><inlinemediaobject>
                   <imageobject>
                     <imagedata fileref="resources/columnlist-docnum.png"/>
                   </imageobject>
-                </mediaobject>
-              </figure>
+                </inlinemediaobject></para>
             </listitem>
 
             <listitem>
@@ -760,16 +760,12 @@
         <listitem>
           <para><emphasis role="bold">문서번호로 문서 검색하기</emphasis></para>
 
-          <figure>
-            <title>문서번호로 검색</title>
-
-            <mediaobject>
+          <para><inlinemediaobject>
               <imageobject>
                 <imagedata fileref="resources/doc-number-search.png"
                            width="700"/>
               </imageobject>
-            </mediaobject>
-          </figure>
+            </inlinemediaobject></para>
 
           <para>문서번호 검색은 상세 검색 기능을 통해 확인할 수 있습니다.</para>
 

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
-<chapter>
+<preface version="5.0" xml:id="about" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
   <title>기본정보</title>
 
   <section>
@@ -604,7 +608,7 @@
   </section>
 
   <section>
-    <title>권한 설정</title>
+    <title>권한 구분</title>
 
     <para>이폼사인 사용자별 권한은 다음과 같이 구분됩니다. </para>
 
