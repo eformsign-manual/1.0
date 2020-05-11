@@ -10,10 +10,12 @@
 
   <bridgehead>안내서의 대상</bridgehead>
 
-  <para>본 안내서는 eformsign<superscript>®</superscript>(이하 eformsign)를 설치 및 제거하고자
-  하는 모든 사용자를 대상으로 기술한다.</para>
+  <para>본 안내서는 eformsign<superscript>®</superscript>(이하 eformsign)를 설치하고자 하는
+  모든 사용자를 대상으로 기술한다.<indexterm class="singular">
+      <primary>eformsign</primary>
+    </indexterm></para>
 
-  <para></para>
+  <para/>
 
   <bridgehead>안내서의 전제 조건</bridgehead>
 
@@ -21,26 +23,27 @@
 
   <itemizedlist>
     <listitem>
-      <para>웹 서버(Web Server) 및 UNIX 시스템에 대한 이해</para>
+      <para>LInux 시스템에 대한 이해</para>
     </listitem>
 
     <listitem>
-      <para>WebtoB의 기본 개념에 대한 이해</para>
+      <para>웹 서버(Web Server), WAS, DBMS 구성 방법에 대한 이해</para>
     </listitem>
   </itemizedlist>
 
-  <para></para>
+  <para/>
 
   <bridgehead>안내서의 제한 조건</bridgehead>
 
-  <para>본 안내서는 WebtoB를 시스템에 설치하는 과정에 대한 필수 사항만을 기술하고 있다. 따라서 WebtoB의 구체적인 사용
-  방법이나 관리 및 운용에 관한 사항은 각 제품의 안내서를 참고한다.</para>
+  <para>본 안내서는 eformsign를 시스템에 설치하는 과정에 대한 필수 사항만을 기술하고 있다. 따라서 eformsign의
+  구체적인 사용 방법이나 관리 및 운용에 관한 사항은 <emphasis role="bold">eformsign 사용자
+  안내서</emphasis>를 참고한다.</para>
 
-  <para></para>
+  <para/>
 
-  <para></para>
+  <para/>
 
-  <para></para>
+  <para/>
 
   <?dbfo-need height="10in" ?>
 
@@ -54,30 +57,31 @@
     <listitem>
       <para>제1장: 설치 개요</para>
 
-      <para>WebtoB를 설치할 때 미리 고려해야 할 사항에 대한 설명과 WebtoB의 특징에 대해서 기술한다.</para>
+      <para>WebtoB를 설치할 때 미리 고려해야 할 사항에 대한 설명과 eformsign의 특징에 대해서 기술한다.</para>
     </listitem>
 
     <listitem>
       <para>제2장: 설치 전 준비사항</para>
 
-      <para>WebtoB를 설치하기 전에 확인해야 할 사항에 대해서 기술한다.</para>
+      <para>eformsign를 설치하기 전에 확인해야 할 사항에 대해서 기술한다.</para>
     </listitem>
 
     <listitem>
-      <para>제3장: UNIX에서 설치 및 제거</para>
+      <para>제3장: Linux에서 설치하기</para>
 
-      <para>WebtoB를 UNIX에서 설치하고 제거하는 전반적인 과정과 기동, 종료하는 방법에 대해서 기술한다.</para>
+      <para>eformsign를 Linux OS(CentOS, Debian, Red Hat 및 Ubuntu)에서 설치하는 전반적인
+      과정과 방법에 대해서 기술한다.</para>
     </listitem>
 
     <listitem>
-      <para>제4장: Windows에서 설치 및 제거</para>
+      <para>제3장: 속성 설정하기</para>
 
-      <para>WebtoB를 Windows에서 설치하고 제거하는 전반적인 과정과 서비스를 등록, 제거하는 방법에 대해서
-      기술한다.</para>
+      <para>eformsign를 Linux OS(CentOS, Debian, Red Hat 및 Ubuntu)에서 설치하는 전반적인
+      과정과 방법에 대해서 기술한다.</para>
     </listitem>
   </itemizedlist>
 
-  <para></para>
+  <para/>
 
   <?dbfo-need height="10in" ?>
 
@@ -85,7 +89,7 @@
 
   <informaltable colsep="1" frame="topbot" rowsep="1">
     <tgroup cols="2">
-      <colspec align="left" colwidth="150" />
+      <colspec align="left" colwidth="150"/>
 
       <thead>
         <row>
@@ -158,7 +162,7 @@
 
         <row>
           <entry><note>
-              <para></para>
+              <para/>
             </note></entry>
 
           <entry>참고 또는 주의사항</entry>
@@ -197,7 +201,7 @@
     </tgroup>
   </informaltable>
 
-  <para></para>
+  <para/>
 
   <?dbfo-need height="10in" ?>
 
@@ -205,7 +209,7 @@
 
   <informaltable colsep="1" frame="topbot" rowsep="1">
     <tgroup cols="2">
-      <colspec align="left" colwidth="150" />
+      <colspec align="left" colwidth="150"/>
 
       <thead>
         <row>
@@ -217,59 +221,53 @@
 
       <tbody>
         <row>
-          <entry><para>WebtoB</para><para>관리자 안내서</para></entry>
+          <entry>eformsign 사용자 안내서</entry>
 
-          <entry>WebtoB를 사용하기 위한 환경설정 방법과 WebtoB의 기동 및 종료, 관리, 튜닝, 보안 등
-          WebtoB를 사용하는 전반적인 방법에 대해 기술한 안내서이다.</entry>
+          <entry>eformsign의 사용 방법, 관리 및 운용에 관한 사항에 대해 기술한 안내서이다.</entry>
         </row>
       </tbody>
     </tgroup>
   </informaltable>
 
-  <para></para>
+  <para/>
 
-  <para></para>
-
-  <para></para>
+  <para/>
 
   <?dbfo-need height="10in" ?>
 
   <bridgehead>연락처</bridgehead>
 
-  <para><bridgehead>Korea</bridgehead><address><otheraddr>TmaxSoft Co., Ltd</otheraddr>
-<otheraddr>272-6, Seohyeon-dong, Bundang-gu, 
-Seongnam-si, Gyeonggi-do, 463-824
-</otheraddr><country>South Korea</country>
-Tel: <phone>+82-31-8018-1000</phone>
-Fax: <fax>+82-31-8018-1115</fax>
-Email: <email>info@tmax.co.kr</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.tmax.co.kr</link></otheraddr>
-기술지원: <otheraddr><link xlink:href="http://technet.tmaxsoft.com">http://technet.tmaxsoft.com</link></otheraddr></address></para>
+  <para><bridgehead>Korea</bridgehead><address>FORCS Co. Ltd (HQ)
+<otheraddr>646, Nonhyeon-ro, Gangnam-gu, Seoul,
+Republic of Korea 06106</otheraddr>
+Tel: 
+Email: <email>ff@forcs.co.kr</email>
+Web (Korean): <otheraddr><link xlink:href="chapter1.xml">https://www.eformsign.com/kr</link></otheraddr>
+</address></para>
 
-  <para><bridgehead>USA</bridgehead><address><otheraddr>TmaxSoft, Inc.</otheraddr>
-560 Sylvan Avenue Englewood Cliffs, NJ 07632
-<country>U.S.A</country>
-Tel: 1-201-567-8266
-Fax: <fax>1-</fax>201-567-7339
-Email: <email>info@tmaxsoft.com</email>
-Web (English): <otheraddr><link xlink:href="http://www.tmaxsoft.com">http://www.tmaxsoft.com</link></otheraddr></address></para>
+  <para><bridgehead>Singapore</bridgehead><address><otheraddr>FORCS Singapore Pte Ltd</otheraddr>
+8 Shenton Way,
+#04-01 AXA Tower,
+Singapore 068811
+Tel: +65 6100 2007 
+Email:<email>singapore@forcs.com</email>
+Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/en/</link></otheraddr></address></para>
 
-  <para><bridgehead>Japan</bridgehead><address><otheraddr>TmaxSoft Japan Co., Ltd.</otheraddr>
-<otheraddr>5F Sanko Bldg, 3-12-16 Mita, Minato-Ku, Tokyo, 108-0073</otheraddr>
-<country>Japan</country>
-Tel: <phone>+81-3-5765-2550</phone>
-Fax: <fax>+81-3-5765-2567</fax>
-Email: <email>info.jp@tmaxsoft.com</email>
-Web (Japanese): <otheraddr><link xlink:href="http://www.tmaxsoft.co.jp">http://www.tmaxsoft.co.jp</link></otheraddr></address></para>
+  <para><bridgehead>Japan</bridgehead><address>FORCS Japan
+Tokyo-to, Shibuya-ku,
+Sendagaya, 4 Chome-11-9,
+#402, 151-0051, Japan
+Email: <email>global@forcs.com</email>
+Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/jp/</link></otheraddr></address></para>
 
   <?dbfo-need height="10in" ?>
 
-  <para><bridgehead>China</bridgehead><address><otheraddr>TmaxSoft China Co., Ltd.</otheraddr><otheraddr>
-Beijing Silver Tower, RM 1508, 2# North Rd Dong San Huan,</otheraddr>
-<otheraddr>Chaoyang District, Beijing, China, 100027</otheraddr>
-<country>China</country>
-Tel: +<phone>86-10-6410-6145~8</phone>
-Fax: <fax>+86-10-6410-6144</fax>
-Email: <email>info.cn@tmaxsoft.com</email>
-Web (Chinese): <otheraddr><link xlink:href="http://www.tmaxchina.com.cn">http://www.tmaxsoft.com.cn</link></otheraddr></address></para>
+  <para><bridgehead>Europe</bridgehead><address>FORCS Europe<otheraddr>
+</otheraddr>Cours Saint-Michel 30B,
+Sint-Michielswarande,
+1040 Etterbeek, Belgium
+Tel: 
+Fax: 
+Email: <email>ff@forcs.co.kr</email>
+Web (Korean): <otheraddr><link xlink:href="chapter1.xml">https://www.eformsign.com/kr</link></otheraddr></address></para>
 </preface>

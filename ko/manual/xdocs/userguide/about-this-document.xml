@@ -21,11 +21,7 @@
 
   <itemizedlist>
     <listitem>
-      <para/>
-    </listitem>
-
-    <listitem>
-      <para>WebtoB의 기본 개념에 대한 이</para>
+      <para>전자문서 시스템애 대한 기본적인 이해</para>
     </listitem>
   </itemizedlist>
 
@@ -33,9 +29,7 @@
 
   <bridgehead>안내서의 제한 조건</bridgehead>
 
-  <para>본 안내서는 eformsign를 사용하는데 필요한 필수 사항만을 기술하고 있다. </para>
-
-  <para/>
+  <para>본 안내서는 eformsign를 사용하는데 필요한 필수 사항만을 기술하고 있다.</para>
 
   <para/>
 
@@ -57,7 +51,37 @@
     </listitem>
 
     <listitem>
-      <para>제2장: </para>
+      <para>제2장:</para>
+
+      <para>eformsign 사용법에 대해서 기술한다..</para>
+    </listitem>
+
+    <listitem>
+      <para>제2장:</para>
+
+      <para>eformsign 사용법에 대해서 기술한다..</para>
+    </listitem>
+
+    <listitem>
+      <para>제2장:</para>
+
+      <para>eformsign 사용법에 대해서 기술한다..</para>
+    </listitem>
+
+    <listitem>
+      <para>제2장:</para>
+
+      <para>eformsign 사용법에 대해서 기술한다..</para>
+    </listitem>
+
+    <listitem>
+      <para>제2장:</para>
+
+      <para>eformsign 사용법에 대해서 기술한다..</para>
+    </listitem>
+
+    <listitem>
+      <para>제2장:</para>
 
       <para>eformsign 사용법에 대해서 기술한다..</para>
     </listitem>
@@ -203,7 +227,8 @@
 
       <tbody>
         <row>
-          <entry><para>eformsign</para><para>설치 안내서</para></entry>
+          <entry><para><olink targetdoc="installation"
+          targetptr="book">eformsign 설치 안내서</olink></para></entry>
 
           <entry>eformsign을 설치하는 방법에 대해 기술한 안내서이다.</entry>
         </row>
@@ -223,8 +248,7 @@
 
   <para><bridgehead>Korea</bridgehead><address>FORCS Co. Ltd (HQ)
 <otheraddr>646, Nonhyeon-ro, Gangnam-gu, Seoul,
-Republic of Korea 06106
-</otheraddr>
+Republic of Korea 06106</otheraddr>
 Tel: 
 Email: <email>ff@forcs.co.kr</email>
 Web (Korean): <otheraddr><link xlink:href="chapter1.xml">https://www.eformsign.com/kr</link></otheraddr>
