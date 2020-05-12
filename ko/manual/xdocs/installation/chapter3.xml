@@ -7,293 +7,163 @@
          xmlns:mml="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>UNIX에서 설치 및 제거</title>
+  <title>설치 전 준비사항 (2): 서버 환경 구성</title>
 
-  <para>Solaris, HP, AIX, Linux에서 이루어지는 WebtoB와 WebtoB Servlet Engine의 설치 과정은
-  모두 동일하며, command 기반으로 진행된다.</para>
+  <para>본 장에서는eformsign를 설치하기 전에 설치가 필요한 서버 환경구성 소프트웨어를 설치하는 과정에 대해
+  설명합니다.</para>
 
-  <para>본 장에서는 UNIX/Linux 환경에서의 WebtoB 설치하고 제거하는 과정에 대해 설명한다.</para>
+  <para>설치 순서는 Web Server, WAS, DB의 순으로 OS별로 모두 동일하며 command 기반으로
+  진행됩니다.</para>
+
+  <figure>
+    <title>설치 순서</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="resources/install_order.png" width="700"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para/>
 
   <section xml:id="unix-install-webtob">
-    <title>WebtoB 설치</title>
+    <title>Web Server 설치</title>
 
-    <para>본 절에서는 WebtoB 설치하는 과정과 설치를 확인하는 방법에 대해서 설명한다.</para>
+    <para>본 절에서는 Web Server를 설치하는 과정과 설치를 확인하는 방법에 대해서 설명합니다.</para>
 
-    <para>본 절에는</para>
+    <para>eformsign은 Web Server로 nginx<indexterm class="singular">
+        <primary>nginx</primary>
+      </indexterm>를 사용합니다.</para>
+
+    <note>
+      <para>nginx의 권장 사양은 1.14.2 버전입니다.</para>
+    </note>
 
     <section>
       <title>설치</title>
 
-      <para>WebtoB를 설치하는 과정은 다음과 같다. Installer에서 기본적으로 기본 설정값을 제시하고 있지만, 설정값을
-      입력할 때는 항상 주의한다. 이전 단계로 돌아가려면 'back'이라고 입력한다.</para>
-
-      <para><note>
-          <para>WebtoB는 설치 과정에서 '/tmp' 디렉터리를 사용하므로 설치에 사용하는 계정은 해당 디렉터리에 대한
-          권한이 있어야 한다.</para>
-        </note></para>
+      <para>nginx를 설치하는 과정은 다음과 같습니다.</para>
 
       <orderedlist>
         <listitem>
-          <para>해당 플랫폼별 설치 파일(*.bin)을 실행한다. 설치 파일을 실행시키면 WebtoB를 설치하기 위한 준비작업을
-          진행한 후 간단한 사용 안내와 함께 진행 여부를 선택한다.</para>
+          <para>Repository를 생성합니다.</para>
 
-          <para>계속 진행하려면 &lt;ENTER&gt; 키를 누르고, 중단하려면 'quit'를 입력한다.</para>
+          <itemizedlist>
+            <listitem>
+              <para>RHEL 7</para>
 
-          <para><screen>$ ./WEBTOB4_1_SP6_Fix0_LinuxK2_6_x86.bin
-Preparing to install...
-Extracting the JRE from the installer archive...
-Unpacking the JRE...
-Extracting the installation resources from the installer archive...
-Configuring the installer for this system's environment...
+              <para><screen>$ vi /etc/yum.repos.d/nginx.repo
+[nginx]
+name=nginx repo
+baseurl=https://nginx.org/packages/<emphasis role="bold">rhel</emphasis>/7/$basearch/
+gpgcheck=0
+enabled=1</screen></para>
+            </listitem>
 
-Launching installer...
+            <listitem>
+              <para>CentOS 7 /<emphasis role="bold"> Debian
+              10</emphasis></para>
 
-Preparing CONSOLE Mode Installation...
+              <para><screen>$ vi /etc/yum.repos.d/nginx.repo
+[nginx]
+name=nginx repo
+baseurl=http://nginx.org/packages/<emphasis role="bold">centos</emphasis>/7/$basearch/
+gpgcheck=0
+enabled=1</screen></para>
 
-===============================================================================
-WEBTOB4.1_SP6_Fix#0               (created with InstallAnywhere by Macrovision)
--------------------------------------------------------------------------------
+              <note>
+                <para>Repository를 생성하는 방법은 OS별로 동일하며, 기본 URL 설정에서 각 OS의 이름을
+                사용하는 부분만 차이가 있습니다.</para>
+              </note>
+            </listitem>
+          </itemizedlist>
 
-
-
-
-===============================================================================
-Introduction
-------------
-
-InstallAnywhere will guide you through the installation of WEBTOB4.1_SP6_Fix#0.
-
-It is strongly recommended that you quit all programs before continuing with 
-this installation.
-
-Respond to each prompt to proceed to the next step in the installation.  If you
-want to change something on a previous step, type 'back'.
-
-You may cancel this installation at any time by typing 'quit'.
-
-PRESS &lt;ENTER&gt; TO CONTINUE:</screen></para>
-
-          <para></para>
+          <para/>
         </listitem>
 
         <listitem>
-          <para>WebtoB 라이선스에 대한 내용이 출력되고, 동의 여부를 묻는다. 라이선스에 동의하면 'Y'를 입력하여 다음
-          단계로 진행하고, 'N'을 입력하여 라이선스에 동의하지 않으면 설치는 중단된다.</para>
+          <para>nginx를 설치합니다.</para>
 
-          <para><screen>===============================================================================
-License Agreement
------------------
+          <para><itemizedlist>
+              <listitem>
+                <para>RHEL 7 / CentOS 7</para>
 
-Installation and use of WEBTOB4.1_SP6_Fix#0 requires acceptance of the 
-following License Agreement:
+                <para><screen>$ yum install nginx -y</screen></para>
+              </listitem>
 
-WebtoB Release
-Tmax Soft Co., Ltd. (hereafter, Tmax Soft) End-User License Agreement
+              <listitem>
+                <para>Debian 10</para>
 
-Product : WebtoB
+                <para><screen>$ apt install nginx -y</screen></para>
 
-This is a legal agreement between you (either an individual or an company) and 
-Tmax Soft, Incorporated.  By opening the sealed software package and/or by 
-using the software, you agree to be bound by the terms of this agreement.
+                <note>
+                  <para>Red Hat 계열인 RHEL과 CentOS는 명령어로 yum을 사용하며, Ubuntu 계열인
+                  Debian은 apt를 사용합니다.</para>
+                </note>
+              </listitem>
+            </itemizedlist></para>
 
-Tmax Soft License
-1.  Grant of License:  This Tmax Soft License Agreement ("License") permits you
-to use one copy of the Tmax Soft product Tmax, on any single computer, provided
-the software is in use on only one computer at any one time.  If this package 
-is a license pack, you may make and use additional copies of the software up to
-the number of licensed copies authorized.  If you have multiple licenses for 
-the software, then at any time you may have as many copies of the software in 
-use as you have licenses.
-  The software is "in use" on a computer when it is loaded into the temporary 
-memory (i.e., RAM) or installed into the permanent memory (e.g., hard disk, 
-CD-ROM, or other storage devices) of that computer, except that a copy 
-installed on a network server for the sole purpose of distribution to other 
-computers is not "in use".  If the anticipated number of users of the software 
-will exceed the number of applicable licenses, then you must have a reasonable 
-
-PRESS &lt;ENTER&gt; TO CONTINUE:</screen></para>
-
-          <para>라이선스에 대한 내용을 계속해서 보려면 &lt;ENTER&gt; 키를 누르고, 설치를 중단하려면 'quit'을
-          입력한다.</para>
-
-          <para><literallayout></literallayout></para>
-
-          <para>다음은 &lt;ENTER&gt; 키를 눌러 라이선스를 끝까지 조회한 화면이다.</para>
-
-          <para><screen>mechanism or process in place to ensure that the number of persons using the 
-software concurrently does not exceed the number of licenses.
-
-2.  Copyright:  The software (including any images, "applets," photographs, 
-animations, video, audio, music and text incorporated into the software) is 
-owned by Tmax Soft or its suppliers and international treaty provisions. 
-Therefore, you must treat the software like any other copyrighted materials 
-(e.g., a book or musical recording) except that you may either (a) make one 
-copy of the software solely for backup or archival purposes, or (b) transfer 
-the software to a single hard disk provided you keep the original solely for 
-backup or archival purposes.  You may not copy the printed materials 
-accompanying the software, nor print copies of any user documentation provided 
-in "online" or electronic form.
-
-3.  Other restrictions: This license is your proof of license to exercise the 
-rights granted herein and must be retained by you. You may not rent, lease, or 
-transfer your rights under this license on a permanent basis provided you 
-transfer this license, the software, and all accompanying printed materials, 
-retain no copies, and the recipient agrees to the terms of this license. You 
-may not reverse engine, decompile, or disassemble the software, except to the 
-extent that the foregoing restriction is expressly prohibited by applicable 
-law.
-
-PRESS &lt;ENTER&gt; TO CONTINUE: 
-
-
-
-DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT? (Y/N):</screen></para>
-
-          <para></para>
+          <para/>
         </listitem>
 
         <listitem>
-          <para>Install Set을 선택한다.</para>
+          <para>nginx를 실행합니다.</para>
 
-          <para>WebtoB만 설치하려면 1번을 선택한다. WebtoB Standard Edition에서 제공되는 Servlet
-          Engine과 함께 설치하려면 2번을 선택한다. Servlet Engine 기능은 데모 라이선스에서 제한 없이 제공되지만
-          정식 라이선스의 경우에는 반드시 Standard 라이선스를 적용해야 한다.</para>
+          <para>OS에 상관없이 다음의 명령을 통해 Nginx를 실행합니다.</para>
 
-          <para>본 절에서는 WebtoB만 설치하는 경우에 대해서 설명한다. Servlet Engine과 함께 설치하는 경우는
-          <xref linkend="unix-install-servlet" />를 참고한다.</para>
-
-          <para><screen>===============================================================================
-Choose Install Set
-------------------
-
-Please choose the Install Set to be installed by this installer.
-
-  -&gt;1- WebtoB
-    2- Servlet + WebtoB
-
-ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS &lt;ENTER&gt; TO ACCEPT THE DEFAULT
-   :</screen></para>
-
-          <para></para>
+          <para><screen>$ service nginx start</screen></para>
         </listitem>
 
         <listitem>
-          <para>WebtoB가 설치될 디렉터리를 설정한다. 기본값을 사용하려면 &lt;Enter&gt; 키를 누르고, 디렉터리를
-          변경하려면 직접 절대 경로를 입력한다. (기본값 : $HOME/webtob )</para>
+          <para>방화벽을 엽니다.</para>
 
-          <para><screen>===============================================================================
-Choose Install Folder
----------------------
+          <para>방화벽 및 포트를 여는 방법은 RHEL 7, CentOS과 Debian 10이 차이가 있습니다. 각 OS에 맞는
+          방법으로 방화벽을 엽니다.</para>
 
-Where would you like to install?
+          <para><itemizedlist>
+              <listitem>
+                <para>RHEL 7 / CentOS 7</para>
 
-  Default Install Folder: /home/wasqa/webtob
+                <para>1. 방화벽 구동 중인지를 확인합니다.</para>
 
-ENTER AN ABSOLUTE PATH, OR PRESS &lt;ENTER&gt; TO ACCEPT THE DEFAULT
-      :</screen></para>
+                <para><screen>$ systemctl status firewalld.service</screen></para>
 
-          <para></para>
-        </listitem>
+                <para>2. 기본 Zone을 확인합니다.</para>
 
-        <listitem>
-          <para>WebtoB 파일의 설치에 앞서 제품, 설치 경로, Install Set(Servlet Engine 설치
-          여부), 디스크 용량 정보 등을 확인한다. 계속 진행하려면 &lt;ENTER&gt; 키를 누르고, 중단하려면 'quit'을
-          입력한다.</para>
+                <para><screen>$ firewall-cmd --get-default-zone</screen>3. 구동
+                중인 방화벽을 확인합니다.</para>
 
-          <para><screen>===============================================================================
-Pre-Installation Summary
-------------------------
+                <para><screen>$ firewall-cmd --get-active-zone</screen>4. 열린
+                포트가 있는지를 확인합니다.</para>
 
-Please Review the Following Before Continuing:
+                <para><screen>$ firewall-cmd --list-ports</screen>5. 80번 포트를
+                엽니다.</para>
 
-Product Name:
-    WEBTOB4.1_SP6_Fix#0
+                <para><screen>$ firewall-cmd --permanent --zone=public --add-port=80/tcp</screen>6.
+                방화벽을 재구동합니다.</para>
 
-Install Folder:
-    /home/wasqa/webtob
+                <screen>$ firewall-cmd --reload</screen>
+              </listitem>
 
-Install Set
-    WebtoB
+              <listitem>
+                <para>Debian 10</para>
 
-Disk Space Information (for Installation Target): 
-    Required:  118,357,437 bytes
-    Available: 3,114,831,872 bytes
+                <para>1. ufw 방화벽을 설치합니다.</para>
 
-PRESS &lt;ENTER&gt; TO CONTINUE:</screen></para>
+                <para><screen>$ apt install nginx -y</screen></para>
 
-          <para></para>
-        </listitem>
+                <para>2. 20번, 80번 포트를 엽니다.</para>
 
-        <listitem>
-          <para>설치 정보를 확인하면 설치 준비 여부를 다시 한 번 확인한다. 준비가 완료되었다면 &lt;ENTER&gt; 키를
-          눌러 계속 진행하고, 중단하려면 'quit'을 입력한다.</para>
+                <para><screen>$ ufw allow 22
+$ ufw allow 80</screen>3. ufw 방화벽을 활성화하고 포트가 열렸는지를 확인합니다.</para>
 
-          <para><screen>===============================================================================
-Ready To Install
-----------------
+                <para><screen>$ ufw enable
+$ ufw status</screen></para>
 
-Ready to install WEBTOB4.1_SP6_Fix#0 onto your system at the following 
-location:
-
-   /home/wasqa/webtob
-
-PRESS &lt;ENTER&gt; TO INSTALL:</screen></para>
-
-          <para></para>
-        </listitem>
-
-        <listitem>
-          <para>WebtoB 파일을 설치하고, WebtoB 설치에 필요한 작업들을 수행한 후 해당 플랫폼에서 open file
-          descriptors 조회 및 영구 수정 방법을 출력한다. 정보를 모두 확인하였으면 &lt;ENTER&gt; 키를 눌러
-          다음 단계로 진행한다.</para>
-
-          <para><screen>==============================================================================
-Installing...
--------------
-
- [==================|==================|==================|==================]
- [------------------|------------------|------------------|------------------]
-
-
-===============================================================================
-Information
------------
-
-The administrator can set the maximum number of file descriptors as follows.
-The machine needs a reboot in order for the configuration change to take
-effect.
-
-Linux 2.4 and later
--------------------
-To check the current maximum number of file descriptors:
-- Run "ulimit -Hn" on the command line.
-This shows the hard liit.
-
-To permanently change the maximum number of file descriptors:
-- Open "/etc/security/limits.conf" with a text editor.
-- Add a new line "*       hard      nofile     65536".
-  65536 is the new maximum.  Change it as necessary.
-
-PRESS &lt;ENTER&gt; TO CONTINUE:</screen></para>
-
-          <para></para>
-        </listitem>
-
-        <listitem>
-          <para>설치가 완료되면 WebtoB의 설치가 성공적으로 마무리 되었다는 메시지가 출력된다. &lt;ENTER&gt;
-          키를 눌러 설치 작업을 완료한다.</para>
-
-          <para><screen>===============================================================================
-Installation Complete
----------------------
-
-Congratulations. WEBTOB4.1_SP6_Fix#0 has been successfully installed to:
-
-   /home/wasqa/webtob
-
-PRESS &lt;ENTER&gt; TO EXIT THE INSTALLER:</screen></para>
-
-          <para></para>
+                <para/>
+              </listitem>
+            </itemizedlist></para>
         </listitem>
       </orderedlist>
     </section>
@@ -301,364 +171,195 @@ PRESS &lt;ENTER&gt; TO EXIT THE INSTALLER:</screen></para>
     <section>
       <title>설치 확인</title>
 
-      <para><bridgehead xml:id="directory_info">디렉터리 확인</bridgehead></para>
+      <para>웹 브라우저에 자신의 IP 주소를 입력합니다. 다음과 같은 화면이 나타나면 정상적으로 설치가 된
+      상태입니다.</para>
 
-      <para>지정된 설치 경로($WEBTOBEDIR)로 디렉터리가 생성되고 그 하위에 파일들이 설치된 것을 확인한다.</para>
+      <para/>
 
-      <para><programlisting>$WEBTOBEDIR
-     |----ap
-     |----bin 
-     |----cgi-bin
-     |----config
-     |----docs
-     |----icons
-     |----lib
-     +----license
-     |----log
-     |----path 
-     |----ssl
-     |----svct
-     +----UninstallerData
-     |----usrinc</programlisting></para>
+      <figure>
+        <title>nginx 설치 확인 화면</title>
 
-      <para>다음은 각 디렉터리에 대한 설명이다.</para>
-
-      <para><variablelist>
-          <varlistentry>
-            <term>ap</term>
-
-            <listitem>
-              <para>애플리케이션 파일이 위치한다.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>bin</term>
-
-            <listitem>
-              <para>실행 파일들이 위치한다. (wsm, wscfl, wsuncfl wsracd, wsgst, wsboot,
-              wsdown 등)</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>cgi-bin</term>
-
-            <listitem>
-              <para>CGI 파일이 위치한다.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>config</term>
-
-            <listitem>
-              <para>WebtoB 환경 파일이 위치한다.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>docs</term>
-
-            <listitem>
-              <para>기본적으로 설치되는 HTML 파일이 위치한다.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>icons</term>
-
-            <listitem>
-              <para>DIRINDEX에서 사용할 아이콘이 위치한다.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>lib</term>
-
-            <listitem>
-              <para>라이브러리(Library) 파일이 위치한다.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>license</term>
-
-            <listitem>
-              <para>라이선스 파일이 위치한다.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>log</term>
-
-            <listitem>
-              <para>로그 파일들이 위치한다.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>path</term>
-
-            <listitem>
-              <para>프로세스 간의 내부 통신을 위한 Named-pipe가 생성된다.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>ssl</term>
-
-            <listitem>
-              <para>SSL 관련 파일이 위치한다.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>svct</term>
-
-            <listitem>
-              <para>WBAPI의 서비스 테이블이 위치한다.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>UninstallerData</term>
-
-            <listitem>
-              <para>설치 제거를 위한 파일이 위치한다.</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>usrinc</term>
-
-            <listitem>
-              <para>API의 헤더 파일들이 위치한다.</para>
-            </listitem>
-          </varlistentry>
-        </variablelist></para>
-
-      <para></para>
-
-      <para><literallayout></literallayout></para>
-
-      <para><bridgehead>환경변수 확인 </bridgehead></para>
-
-      <para>'.profile'(ksh일 경우) 또는 '.bash_profile'(bash shell일 경우)에 다음과 같이
-      환경변수가 등록된 것을 확인한다.</para>
-
-      <para>다음은 환경변수를 등록하는 예이다.</para>
-
-      <para>&lt;.bash_profile&gt;</para>
-
-      <para><programlisting># New environment setting added by WEBTOB4.1_SP6_Fix#0 on Wed Dec 18 09:02:36 KST 2013 1.
-# The unmodified version of this file is saved in /home/webtob1/.bash_profile1711476068.
-# Do NOT modify these lines; they are used to uninstall.
-WEBTOBDIR=/home/wasqa/webtob
-export WEBTOBDIR
-# End comments by InstallAnywhere on Wed Dec 18 09:02:36 KST 2013 1.
-
-# New environment setting added by WEBTOB4.1_SP6_Fix#0 on Wed Dec 18 09:02:36 KST 2013 2.
-# The unmodified version of this file is saved in /home/webtob1/.bash_profile1711476068.
-# Do NOT modify these lines; they are used to uninstall.
-PATH="${WEBTOBDIR}/bin:${PATH}"
-export PATH
-# End comments by InstallAnywhere on Wed Dec 18 09:02:36 KST 2013 2.
-
-# New environment setting added by WEBTOB4.1_SP6_Fix#0 on Wed Dec 18 09:02:36 KST 2013 3.
-# The unmodified version of this file is saved in /home/webtob1/.bash_profile1711476068.
-# Do NOT modify these lines; they are used to uninstall.
-LD_LIBRARY_PATH="${WEBTOBDIR}/lib:${LD_LIBRARY_PATH}"
-export LD_LIBRARY_PATH
-# End comments by InstallAnywhere on Wed Dec 18 09:02:36 KST 2013 3.</programlisting></para>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/Nginx_install_check.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
     </section>
   </section>
 
-  <section xml:id="unix-install-servlet">
-    <title>Servlet Engine 설치</title>
+  <section xml:id="unix-install-webtob">
+    <title>WAS 설치</title>
 
-    <para>Servlet Engine은 WebtoB Standard에서 제공하는 기능이다.</para>
+    <para>본 절에서는 WAS를 설치하는 과정과 설치를 확인하는 방법에 대해서 설명합니다.</para>
+
+    <para>eformsign은 WAS로 Tomcat<indexterm class="singular">
+        <primary>Tomcat</primary>
+      </indexterm>을 사용합니다.</para>
+
+    <note>
+      <para>Tomcat의 권장 사양은 8.5 버전입니다.</para>
+    </note>
 
     <section>
       <title>설치</title>
 
-      <para>설치 과정에서 Servlet Engine의 설치를 선택한 경우에는 다음과 같이 설치를 진행한다.</para>
+      <para>Tomcat를 설치하는 과정은 다음과 같습니다.</para>
 
       <orderedlist>
         <listitem>
-          <para>Install Set에서 Servlet Engine을 포함하여 설치할 것인지 WebtoB만 설치할 것인지
-          선택한다. </para>
+          <para>OS별로 다음의 명령을 실행해 Tomcat을 설치합니다.</para>
 
-          <para>Servlet Engine을 함께 설치하려면 2번을 선택한다. WebtoB만 설치하는 경우의 과정에 대한 설명은
-          <xref linkend="unix-install-webtob" />를 참고한다.</para>
+          <itemizedlist>
+            <listitem>
+              <para>RHEL 7</para>
 
-          <para><screen>===============================================================================
-Choose Install Set
-------------------
+              <para><screen>$ cd /opt
+$ yum install wget unzip -y
+$ wget https://www-us.apache.org/dist/tomcat/tomcat-8/v8.5.54/bin/apache-tomcat-8.5.54.zip
+$ unzip apache-tomcat-8.5.54.zip</screen></para>
+            </listitem>
 
-Please choose the Install Set to be installed by this installer.
+            <listitem>
+              <para>CentOS 7</para>
 
-  -&gt;1- WebtoB
-    2- Servlet + WebtoB
+              <para><screen>$ yum -y install tomcat
+$ yum install -y tomcat-webapps tomcat-admin-webapps</screen></para>
+            </listitem>
 
-ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS &lt;ENTER&gt; TO ACCEPT THE DEFAULT
-   :</screen></para>
+            <listitem>
+              <para>Debian 10</para>
 
-          <para></para>
+              <para><screen>$ cd /tmp
+$ wget http://apache.mirror.cdnetworks.com/tomcat/tomcat-8/v8.5.54/bin/apache-tomcat-8.5.54.tar.gz
+$ tar -xf apache-tomcat-8.5.54.tar.gz
+$ mv apache-tomcat-8.5.54 /opt/tomcat/
+$ ln -s /opt/tomcat/apache-tomcat-8.5.54 /opt/tomcat/latest</screen></para>
+            </listitem>
+          </itemizedlist>
+
+          <para/>
         </listitem>
 
         <listitem>
-          <para>WebtoB가 설치될 디렉터리를 설정한다. 기본값을 사용하려면 &lt;Enter&gt; 키를 누르고, 디렉터리를
-          변경하려면 절대 경로를 직접 입력한다. (기본값 : $HOME/webtob )</para>
+          <para>기본 설정을 하고 user를 생성합니다.</para>
 
-          <para><screen>===============================================================================
-Choose Install Folder
----------------------
+          <para><itemizedlist>
+              <listitem>
+                <para>RHEL 7 / CentOS 7</para>
 
-Where would you like to install?
+                <para><screen>$ ln -s /opt/apache-tomcat-8.5.54 /opt/tomcat
+$ mkdir /var/log/tomcat
+$ rmdir /opt/tomcat/logs
+$ ln -s /var/log/tomcat /opt/tomcat/logs
+$ useradd tomcat
+$ chown -R tomcat:tomcat /opt/apache-tomcat-8.5.54
+$ chown -R tomcat:tomcat /var/log/tomcat
+$ chmod +x /opt/tomcat/bin/*.sh</screen></para>
+              </listitem>
 
-  Default Install Folder: /home/wasqa/webtob
+              <listitem>
+                <para>Debian 10</para>
 
-ENTER AN ABSOLUTE PATH, OR PRESS &lt;ENTER&gt; TO ACCEPT THE DEFAULT
-      :</screen></para>
+                <para><screen>$ useradd -m -U -d /opt/tomcat -s /bin/false tomcat
+$ chown -R tomcat: /opt/tomcat
+$ sh -c 'chmod +x /opt/tomcat/latest/bin/*.sh'</screen></para>
+              </listitem>
+            </itemizedlist></para>
 
-          <para></para>
+          <para/>
         </listitem>
 
         <listitem>
-          <para>Servlet Engine에서 사용할 JDK의 경로를 직접 입력한다. 기본으로 찾아주는 경로를 선택할 경우
-          &lt;ENTER&gt; 키를 누른다.</para>
+          <para>서비스 파일을 생성합니다.</para>
 
-          <para><screen>===============================================================================
-Choose JDK Folder
------------------
+          <para><itemizedlist>
+              <listitem>
+                <para>RHEL 7 / CentOS 7</para>
 
-Please Choose a Folder:
+                <para><screen>$vi /etc/systemd/system/tomcat.service
+[Unit]
+Description=Tomcat
+After=syslog.target network.target
+  
+[Service]
+Type=forking
+  
+User=tomcat
+Group=tomcat
+  
+ExecStart=/opt/tomcat/bin/catalina.sh start
+ExecStop=/opt/tomcat/bin/catalina.sh stop
+  
+[Install]
+WantedBy=multi-user.target</screen></para>
+              </listitem>
 
-Input User JDK Folder (DEFAULT: /usr):</screen></para>
+              <listitem>
+                <para>Debian 10</para>
 
-          <para></para>
+                <para><screen>$vi /etc/systemd/system/tomcat.service
+[Unit]
+Description=Tomcat 8.5 servlet container
+After=network.target
+  
+[Service]
+Type=forking
+  
+User=tomcat
+Group=tomcat
+  
+Environment="JAVA_HOME=/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64"
+Environment="JAVA_OPTS=-Djava.security.egd=file:///dev/urandom"
+  
+Environment="CATALINA_BASE=/opt/tomcat/latest"
+Environment="CATALINA_HOME=/opt/tomcat/latest"
+Environment="CATALINA_PID=/opt/tomcat/latest/temp/tomcat.pid"
+Environment="CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC"
+  
+ExecStart=/opt/tomcat/latest/bin/startup.sh
+ExecStop=/opt/tomcat/latest/bin/shutdown.sh
+  
+[Install]
+WantedBy=multi-user.target</screen></para>
+              </listitem>
+            </itemizedlist></para>
         </listitem>
 
         <listitem>
-          <para>Servlet Engine 관리자 패스워드를 설정한다. Servlet Engine의 관리자
-          계정(administrator)에 대한 패스워드를 입력하고, 다시 한 번 입력한다.</para>
+          <para>다음의 명령을 통해 생성한 서비스 파일을 reload합니다.</para>
 
-          <para><screen>===============================================================================
-Password Input
---------------
-
-Enter the Password for the administrator account.
-This password will be registered in JEUS as the first user.
-
-Input Password:: 
-
-Corfirm Password::</screen></para>
-
-          <para></para>
+          <para><screen>$ systemctl daemon-reload</screen></para>
         </listitem>
 
         <listitem>
-          <para>WebtoB 파일의 설치에 앞서 제품, 설치 경로, Install Set(Servlet Engine 설치
-          여부), 디스크 용량 정보 등을 확인한다.</para>
+          <para>방화벽을 엽니다.</para>
 
-          <para>계속 진행하려면 &lt;ENTER&gt; 키를 누르고, 중단하려면 'quit'을 입력한다.</para>
+          <para>방화벽 및 포트를 여는 방법은 RHEL 7, CentOS과 Debian 10이 차이가 있지만, 공통으로
+          8080번 포트를 엽니다.</para>
 
-          <para><screen>===============================================================================
-Pre-Installation Summary
-------------------------
+          <para><itemizedlist>
+              <listitem>
+                <para>RHEL 7 / CentOS 7</para>
 
-Please Review the Following Before Continuing:
+                <screen>$ firewall-cmd --zone=public --add-port=8080/tcp --permanent
+$ firewall-cmd --reload</screen>
+              </listitem>
 
-Product Name:
-    WEBTOB4.1_SP6_Fix#0
+              <listitem>
+                <para>Debian 10</para>
 
-Install Folder:
-    /home/wasqa/webtob
-
-Install Set
-    Servlet + WebtoB
-
-Disk Space Information (for Installation Target): 
-    Required:  330,111,866 bytes
-    Available: 3,114,823,680 bytes
-
-PRESS &lt;ENTER&gt; TO CONTINUE:</screen></para>
-
-          <para></para>
+                <para><screen>$ ufw allow 8080</screen></para>
+              </listitem>
+            </itemizedlist></para>
         </listitem>
 
         <listitem>
-          <para>설치 정보를 확인하면 설치 준비 여부를 다시 한 번 확인한다. 준비가 완료되면 &lt;ENTER&gt; 키를
-          눌러 설치를 계속 진행하고, 중단하려면 'quit'을 입력한다.</para>
+          <para>Tomcat을 실행합니다.</para>
 
-          <para><screen>===============================================================================
-Ready To Install
-----------------
+          <para>OS에 상관없이 다음의 명령을 통해 Tomcat를 실행합니다.</para>
 
-Ready to install WEBTOB4.1_SP6_Fix#0 onto your system at the following 
-location:
-
-   /home/wasqa/webtob
-
-PRESS &lt;ENTER&gt; TO INSTALL:</screen></para>
-
-          <para></para>
-        </listitem>
-
-        <listitem>
-          <para>WebtoB 파일을 설치하고, WebtoB 설치에 필요한 작업들을 수행한 후 해당 플랫폼에서 open file
-          descriptors 조회 및 영구 수정 방법을 출력한다. 정보를 모두 확인하였으면 &lt;ENTER&gt; 키를 눌러
-          다음 단계로 진행한다.</para>
-
-          <para><screen>===============================================================================
-Installing...
--------------
-
- [==================|==================|==================|==================]
- [------------------|------------------|------------------|------------------]
-
-
-
-===============================================================================
-Information
------------
-
-The administrator can set the maximum number of file descriptors as follows.
-The machine needs a reboot in order for the configuration change to take
-effect.
-
-Linux 2.4 and later
--------------------
-To check the current maximum number of file descriptors:
-- Run "ulimit -Hn" on the command line.
-This shows the hard liit.
-
-To permanently change the maximum number of file descriptors:
-- Open "/etc/security/limits.conf" with a text editor.
-- Add a new line "*       hard      nofile     65536".
-  65536 is the new maximum.  Change it as necessary.
-
-PRESS &lt;ENTER&gt; TO CONTINUE:</screen></para>
-
-          <para></para>
-        </listitem>
-
-        <listitem>
-          <para>설치가 완료되면 WebtoB의 설치가 성공적으로 마무리 되었다는 메시지가 출력된다. &lt;ENTER&gt;
-          키를 눌러 설치를 완료한다.</para>
-
-          <para><screen>===============================================================================
-Installation Complete
----------------------
-
-Congratulations. WEBTOB4.1_SP6_Fix#0 has been successfully installed to:
-
-   /home/wasqa/webtob
-
-PRESS &lt;ENTER&gt; TO EXIT THE INSTALLER:</screen></para>
-
-          <para></para>
+          <para><screen>$ service tomcat start</screen></para>
         </listitem>
       </orderedlist>
     </section>
@@ -666,427 +367,167 @@ PRESS &lt;ENTER&gt; TO EXIT THE INSTALLER:</screen></para>
     <section>
       <title>설치 확인</title>
 
-      <para><bridgehead>디렉터리 확인</bridgehead></para>
+      <para>웹 브라우저에 자신의 IP 주소를 입력합니다. Tomcat이 정상적으로 기동된 경우 다음과 같은 화면이
+      표시됩니다.</para>
 
-      <para>지정된 설치 경로($WEBTOBDIR)로 디렉터리가 생성되고 그 하위에 파일들이 설치된다.</para>
+      <para/>
 
-      <para><programlisting>$WEBTOBDIR
-     |----ap
-     |----bin 
-     |----cgi-bin
-     |----config
-     |----docs
-     +----jeus
-     |----icons
-     |----lib
-     +----license
-     |----log
-     |----path 
-     |----ssl
-     |----svct
-     +----UninstallerData
-     |----usrinc</programlisting></para>
+      <figure>
+        <title>Tomcat 설치 확인 화면</title>
 
-      <para>다음은 디렉터리에 대한 설명이다.</para>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/Tomcat_install_check.png"
+                       width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </section>
+  </section>
 
-      <para><variablelist>
-          <varlistentry>
-            <term>jeus</term>
+  <section xml:id="unix-install-webtob">
+    <title>DB 설치</title>
 
+    <para>본 절에서는 DB를 설치하는 과정과 설치를 확인하는 방법에 대해서 설명합니다.</para>
+
+    <para>eformsign은 DB로 CouchDB<indexterm class="singular">
+        <primary>CouchDB</primary>
+      </indexterm>를 사용합니다.</para>
+
+    <note>
+      <para>CouchDB의 권장 사양은 3.0 버전입니다.</para>
+    </note>
+
+    <section>
+      <title>설치</title>
+
+      <para>CouchDB를 설치하는 과정은 다음과 같습니다.</para>
+
+      <orderedlist>
+        <listitem>
+          <para>EPEL Repository를 생성합니다.</para>
+
+          <note>
+            <para>EPEL은 "Extra Packages of Enterprise Linux"의 줄임말로, Fedora
+            Project에서 제공되는 저장소입니다. 각종 패키지의 최신 버전을 제공하는 community 기반의 저장소로, yum
+            명령으로는 설치가 되지 않는 최신 버전의 패키지를 사용하고 싶은 경우에 설치해 사용합니다.</para>
+          </note>
+
+          <itemizedlist>
             <listitem>
-              <para>WebtoB와 Servelet Engine을 함께 설치할 경우에 생성되는 디렉터리로 JEUS의
-              Servelet Engine이 위치한다.</para>
+              <para>RHEL 7 / CentOS 7</para>
+
+              <para><screen>$ yum update -y
+$ wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+$ yum install -y epel-release-latest-7.noarch.rpm</screen></para>
             </listitem>
-          </varlistentry>
-        </variablelist></para>
+          </itemizedlist>
 
-      <para></para>
-
-      <para><note>
-          <para>본 절에서는 추가 설치된 디렉터리만 언급하고, 나머지 디렉터리에 대한 설명은 <xref
-          linkend="directory_info" />을 참고한다.</para>
-        </note></para>
-
-      <para></para>
-
-      <para><literallayout></literallayout></para>
-
-      <para><bridgehead>환경변수 확인 </bridgehead></para>
-
-      <para>'.profile'(ksh일 경우) 또는 '.bash_profile'(bash shell일 경우)에 다음과 같이
-      환경변수가 등록된다.</para>
-
-      <para>다음은 환경변수 등록 예이다.</para>
-
-      <para>&lt;.bash_profile&gt;</para>
-
-      <para><programlisting># New environment setting added by WEBTOB4.1_SP6_Fix#0 on Wed Dec 18 09:08:10 KST 2013 1.
-# The unmodified version of this file is saved in /home/webtob1/.bash_profile2134446668.
-# Do NOT modify these lines; they are used to uninstall.
-W2B_JEUSHOME=/home/wasqa/webtob/jeus
-export W2B_JEUSHOME
-# End comments by InstallAnywhere on Wed Dec 18 09:08:10 KST 2013 1.
-
-# New environment setting added by WEBTOB4.1_SP6_Fix#0 on Wed Dec 18 09:08:10 KST 2013 2.
-# The unmodified version of this file is saved in /home/webtob1/.bash_profile2134446668.
-# Do NOT modify these lines; they are used to uninstall.
-PATH="${W2B_JEUSHOME}/bin:${PATH}"
-export PATH
-# End comments by InstallAnywhere on Wed Dec 18 09:08:10 KST 2013 2.
-
-# New environment setting added by WEBTOB4.1_SP6_Fix#0 on Wed Dec 18 09:08:10 KST 2013 3.
-# The unmodified version of this file is saved in /home/webtob1/.bash_profile2134446668.
-# Do NOT modify these lines; they are used to uninstall.
-WEBTOBDIR=/home/wasqa/webtob
-export WEBTOBDIR
-# End comments by InstallAnywhere on Wed Dec 18 09:08:10 KST 2013 3.
-
-# New environment setting added by WEBTOB4.1_SP6_Fix#0 on Wed Dec 18 09:08:10 KST 2013 4.
-# The unmodified version of this file is saved in /home/webtob1/.bash_profile2134446668.
-# Do NOT modify these lines; they are used to uninstall.
-PATH="${WEBTOBDIR}/bin:${PATH}"
-export PATH
-# End comments by InstallAnywhere on Wed Dec 18 09:08:10 KST 2013 4.
-
-# New environment setting added by WEBTOB4.1_SP6_Fix#0 on Wed Dec 18 09:08:10 KST 2013 5.
-# The unmodified version of this file is saved in /home/webtob1/.bash_profile2134446668.
-# Do NOT modify these lines; they are used to uninstall.
-LD_LIBRARY_PATH="${WEBTOBDIR}/lib:${LD_LIBRARY_PATH}"
-export LD_LIBRARY_PATH
-# End comments by InstallAnywhere on Wed Dec 18 09:08:10 KST 2013 5.</programlisting></para>
-
-      <para></para>
-
-      <para></para>
-    </section>
-  </section>
-
-  <section>
-    <title>기동 및 종료</title>
-
-    <para>WebtoB가 정상적으로 설치되고 동작하는지 간단히 알아보기 위해 WebtoB를 시험 기동한다. 본 절에서는 환경 파일
-    작성과 컴파일, 그리고 기동 및 종료에 대해 정상 동작만 확인해 볼 수 있도록 간단하게 설명한다.</para>
-
-    <para><note>
-        <para>WebtoB 기동과 종료에 대한 자세한 사항은 <olink targetdoc="administrator"
-        targetptr="book">"WebtoB 관리자 안내서"</olink>를 참고한다.</para>
-      </note></para>
-
-    <section>
-      <title>환경 파일 작성 및 컴파일</title>
-
-      <para>WebtoB를 기동하기 위해서 환경 파일을 작성하고 컴파일해야 한다.</para>
-
-      <para><literallayout></literallayout></para>
-
-      <para><bridgehead>환경 파일 작성 </bridgehead></para>
-
-      <para>환경 파일은 <guibutton>${WEBTOBDIR}/config</guibutton> 디렉터리에 기본적으로 제공되는
-      http.m 파일을 사용해서 설정한다.</para>
-
-      <para></para>
-
-      <para>&lt;http.m&gt;</para>
-
-      <para><programlisting>*DOMAIN
-webtob1
-
-*NODE
-HostName      WEBTOBDIR="/home/webtob", 
-              <guibutton>SHMKEY = 54000</guibutton>,
-              DOCROOT="/home/webtob/docs",
-              <guibutton>PORT = "8080"</guibutton>, 
-              HTH = 1,
-              #Group = "nobody",
-              #User = "nobody",
-              NODENAME = "$(NODENAME)",
-              ERRORDOCUMENT = "503",
-              <guibutton>JSVPORT = 9900</guibutton>,
-              LOGGING = "log1",
-              ERRORLOG = "log2",
-              SYSLOG = "log3"
-
-*SVRGROUP
-htmlg         SVRTYPE = HTML
-cgig          SVRTYPE = CGI
-ssig          SVRTYPE = SSI
-jsvg          SVRTYPE = JSV
-
-*SERVER
-html          SVGNAME = htmlg, MinProc = 2, MaxProc = 10, ASQCount = 100 
-cgi           SVGNAME = cgig, MinProc = 2, MaxProc = 10, ASQCount = 100 
-ssi           SVGNAME = ssig, MinProc = 2, MaxProc = 10, ASQCount = 100 
-MyGroup       SVGNAME = jsvg, MinProc = 2, MaxProc = 10
-
-*URI
-uri1          Uri = "/cgi-bin/",   Svrtype = CGI
-uri2          Uri = "/examples/",  SvrType=JSV, SvrName=MyGroup
-
-*ALIAS
-alias1        URI = "/cgi-bin/", RealPath = "/home/webtob/cgi-bin/"
-
-*LOGGING
-log1          Format = "DEFAULT", FileName = "/home/webtob/log/access.log_%M%%D%%Y%", 
-              Option = "sync"
-log2          Format = "ERROR", FileName = "/home/webtob/log/error.log_%M%%D%%Y%", 
-              Option = "sync"
-log3          Format = "SYSLOG", FileName = "/home/webtob/log/system_%M%%D%%Y%.log",
-              Option = "sync"
-
-*ERRORDOCUMENT
-503           status = 503,
-              url = "/503.html"
-
-*EXT
-htm           MimeType = "text/html", SvrType = HTML
-jsp           Mimetype ="application/jsp",  Svrtype=JSV,  SvrName=MyGroup</programlisting></para>
-
-      <para>다음은 http.m 파일의 수정이 필요한 항목에 대한 설명이다.</para>
-
-      <para><informaltable colsep="1" frame="topbot" rowsep="1">
-          <tgroup cols="2">
-            <colspec align="left" colwidth="100" />
-
-            <thead>
-              <row>
-                <entry>항목</entry>
-
-                <entry>설명</entry>
-              </row>
-            </thead>
-
-            <tbody>
-              <row>
-                <entry>SHMKEY</entry>
-
-                <entry>다른 프로그램과 충돌이 발생하는 경우 WebtoB를 기동시킬 때 에러 메시지가 발생하므로
-                수정한다.</entry>
-              </row>
-
-              <row>
-                <entry>PORT</entry>
-
-                <entry>이미 사용 중인 포트 번호일 경우 WebtoB가 정상적으로 동작하지 않으므로 중복되지 않는 번호로
-                설정한다.</entry>
-              </row>
-
-              <row>
-                <entry>JSVPORT</entry>
-
-                <entry>이미 사용 중인 포트 번호일 경우 내장 Servlet이 정상적으로 동작하지 않으므로 중복되지 않는
-                번호로 설정한다.</entry>
-              </row>
-            </tbody>
-          </tgroup>
-        </informaltable></para>
-
-      <para><literallayout></literallayout></para>
-
-      <para><bridgehead>환경 파일 컴파일 </bridgehead></para>
-
-      <para>환경 파일을 확인한 후 다음과 같이 환경 파일을 컴파일한다. 정상적으로 컴파일하면
-      <guibutton>wsconfig</guibutton>라는 파일이 생성된다.</para>
-
-      <para><screen>$ wscfl –i http.m
-Current configuration:
-        Number of client handler(HTH) = 1
-        Supported maximum user per node = 965
-        Supported maximum user per handler = 965
-
-Successfully created the configuration file (/home/wasqa/webtob/config/wsconfig) for node tmaxwas.
-The host name of the running machine is tmaxwas.</screen></para>
-
-      <para></para>
-
-      <para></para>
-
-      <?dbfo-need height="10in" ?>
-    </section>
-
-    <section>
-      <title>WebtoB 기동</title>
-
-      <para>다음은 WebtoB를 기동하는 과정에 대한 설명이다.</para>
-
-      <orderedlist>
-        <listitem>
-          <para><guibutton>wsboot</guibutton> 명령어를 실행한다.</para>
-
-          <para><screen>$ wsboot
-
-Booting WebtoB on node (qpsx1)
-Welcome to WebtoB demo system. It will expire on 2013/08/19
-Today is 2013/04/24
-Starting WSM at Wed Apr 24 12:30:02 2013
-Starting HTL at Wed Apr 24 12:30:02 2013
-Starting HTH at Wed Apr 24 12:30:02 2013
-         Current WebtoB Configuration:
-                Number of client handlers (HTH) = 1
-                Supported maximum user per node = 8143
-                Supported maximum user per handler = 8143
-Starting SVR(htmls) at Wed Apr 24 12:30:02 2013
-Starting SVR(htmls) at Wed Apr 24 12:30:02 2013
-Starting SVR(cgis) at Wed Apr 24 12:30:02 2013
-Starting SVR(cgis) at Wed Apr 24 12:30:02 2013
-Starting SVR(ssis) at Wed Apr 24 12:30:02 2013
-Starting SVR(ssis) at Wed Apr 24 12:30:02 2013</screen></para>
-
-          <para></para>
+          <para/>
         </listitem>
 
         <listitem>
-          <para>WebtoB가 기동되면 브라우저로 서비스를 요청한다.</para>
+          <para>CouchDB 패키지 리포지토리를 활성화합니다.</para>
 
-          <para><programlisting>http://<emphasis>&lt;ip-address&gt;:&lt;port&gt;</emphasis>/</programlisting></para>
+          <para><itemizedlist>
+              <listitem>
+                <para>RHEL 7 / CentOS 7</para>
+
+                <para><screen>$ vi /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
+[bintray--apache-couchdb-rpm]
+name=bintray--apache-couchdb-rpm
+baseurl=http://apache.bintray.com/couchdb-rpm/el7/$basearch/
+gpgcheck=0
+repo_gpgcheck=0
+enabled=1</screen></para>
+              </listitem>
+
+              <listitem>
+                <para>Debian 10</para>
+
+                <para><screen>$ apt-get install -y apt-transport-https gnupg ca-certificates
+$ echo "deb https://apache.bintray.com/couchdb-deb buster main" \
+    | sudo tee -a /etc/apt/sources.list.d/couchdb.list</screen></para>
+              </listitem>
+            </itemizedlist></para>
+
+          <para/>
         </listitem>
 
         <listitem>
-          <para>WebtoB가 정상적으로 기동된 경우 다음과 같은 화면이 표시된다.</para>
+          <para>CouchDB 패키지를 설치합니다.</para>
 
-          <figure>
-            <title>WebtoB 기동 화면</title>
+          <para><itemizedlist>
+              <listitem>
+                <para>RHEL 7 / CentOS 7</para>
 
-            <mediaobject>
-              <imageobject>
-                <imagedata align="left" fileref="resources/figure3_1.png"
-                           width="720"></imagedata>
-              </imageobject>
-            </mediaobject>
-          </figure>
-        </listitem>
-      </orderedlist>
+                <para><screen>$ yum -y install epel-release &amp;&amp; sudo yum -y install couchdb</screen></para>
+              </listitem>
 
-      <para></para>
+              <listitem>
+                <para>Debian 10</para>
 
-      <para></para>
-    </section>
+                <para><screen>$ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
+  8756C4F765C9AC3CB6B85D62379CE192D401AB61
+$ apt update
+$ install -y couchdb</screen></para>
+              </listitem>
+            </itemizedlist></para>
 
-    <section>
-      <title>WebtoB 종료</title>
-
-      <para>WebtoB를 종료하려면 <guibutton>wsdown</guibutton> 명령어를 실행한다.</para>
-
-      <para>다음은 WebtoB를 종료하는 과정에 대한 예이다.</para>
-
-      <para><screen>$ wsdown
-Do you really want to shut down WebtoB? (y : n): y
-
-WSDOWN for node(qpsx1) is starting: 
-        WSDOWN: SERVER(html:1) downed: Wed Apr 24 12:30:04 2013
-        WSDOWN: SERVER(html:0) downed: Wed Apr 24 12:30:04 2013
-        WSDOWN: SERVER(cgi:10) downed: Wed Apr 24 12:30:04 2013
-        WSDOWN: SERVER(cgi:11) downed: Wed Apr 24 12:30:04 2013
-        WSDOWN: SERVER(ssi:20) downed: Wed Apr 24 12:30:04 2013
-        WSDOWN: SERVER(ssi:21) downed: Wed Apr 24 12:30:04 2013
-        WSDOWN: HTL downed: Wed Apr 24 12:30:04 2013
-        WSDOWN: HTH downed: Wed Apr 24 12:30:04 2013
-        WSDOWN: WSM downed: Wed Apr 24 12:30:04 2013
-        WSDOWN: WEBTOB is down </screen></para>
-
-      <para></para>
-    </section>
-  </section>
-
-  <section>
-    <title>WebtoB 제거</title>
-
-    <section>
-      <title>제거 실행</title>
-
-      <para>다음은 UNIX에서 WebtoB를 제거하는 과정에 대한 설명이다.</para>
-
-      <para></para>
-
-      <orderedlist>
-        <listitem>
-          <para>WebtoB를 제거하기 위해 다음 경로의 Uninstaller를 실행한다.</para>
-
-          <para><programlisting>$WEBTOBDIR/UninstallerData/Uninstall</programlisting></para>
-        </listitem>
-
-        <listitem>
-          <para>Uninstaller를 실행시키면 다음과 같이 제거에 대한 안내 메시지가 출력된다.</para>
-
-          <para>제거 작업에서는 설치 과정에서 생성되었던 파일과 디렉터리를 삭제하며, 설치 후 생성된 파일들은 별도로 삭제해야
-          한다. &lt;ENTER&gt; 키를 눌러 다음 단계로 진행한다.</para>
-
-          <para><screen>$ ./Uninstall
-Preparing CONSOLE Mode Installation...
-
-===============================================================================
-WEBTOB4.1_SP6_Fix#0               (created with InstallAnywhere by Macrovision)
--------------------------------------------------------------------------------
-
-
-
-
-===============================================================================
-Uninstall WEBTOB4.1_SP6_Fix#0
------------------------------
-
-About to uninstall...
-
-WEBTOB4.1_SP6_Fix#0
-
-This will remove features installed by InstallAnywhere.  It will not remove 
-files and folders created after the installation.
-
-PRESS &lt;ENTER&gt; TO CONTINUE: </screen></para>
-
-          <para></para>
-        </listitem>
-
-        <listitem>
-          <para>다음과 같은 화면이 나타나면서 각종 파일 및 환경변수 삭제 등의 작업을 수행한다.</para>
-
-          <para><screen>===============================================================================
-Uninstalling...
----------------
-
-...*
-*
-*************************</screen></para>
-
-          <para></para>
-        </listitem>
-
-        <listitem>
-          <para>제거 과정이 성공적으로 완료되면 다음과 같은 메시지가 출력되고 Uninstaller 실행을
-          종료한다.</para>
-
-          <para><screen>===============================================================================
-Uninstall Complete
-------------------
-
-All items were successfully uninstalled.</screen></para>
-
-          <para></para>
+          <para/>
         </listitem>
       </orderedlist>
     </section>
 
     <section>
-      <title>제거 확인</title>
+      <title>기본 설정</title>
 
-      <para>WebtoB 제거가 완료되면 다음의 사항을 확인한다.</para>
+      <para>local.ini<indexterm class="singular">
+          <primary>local.ini</primary>
+        </indexterm> 파일과 default.ini<indexterm class="singular">
+          <primary>default.ini</primary>
+        </indexterm> 파일을 다음과 같이 수정합니다. 수정 방법은 OS별로 동일합니다. </para>
 
       <para><itemizedlist>
           <listitem>
-            <para><guibutton>파일 삭제 확인</guibutton></para>
+            <para>local.ini 파일</para>
 
-            <para>설치했던 파일들이 모두 삭제된 것을 확인한다. 단, 설치 이후 생성된 파일들은 남아 있을 수 있으므로 별도로
-            삭제해야 한다.</para>
+            <para><screen>$ vi /opt/couchdb/etc/local.ini
+[admins]
+admin = mysecretpassword // 제일 하단에 [admins] 내용 주석 제거하고 원하는 ID/PW 로 변경</screen></para>
           </listitem>
 
           <listitem>
-            <para><guibutton>환경변수 삭제 확인</guibutton></para>
+            <para>default.ini 파일</para>
 
-            <para>WebtoB를 설치할 때 등록된 환경변수들과 'PATH'에 설정된 경로들이 정상적으로 삭제된 것을
-            확인한다.</para>
+            <para><screen>[cluster]
+q=1             // 중간 [cluster] 부분에 q=2, n=3 을 q=1, n=1로 변경 (/cluster 로 검색)
+n=1            
+...
+[chttpd]
+port = 8308     // port = 5984 를 port = 8308 로 변경</screen></para>
           </listitem>
         </itemizedlist></para>
+    </section>
 
-      <para></para>
+    <section>
+      <title>설치 확인</title>
+
+      <para>CouchDB를 실행시켜 접속을 확인힙니다. </para>
+
+      <para><itemizedlist>
+          <listitem>
+            <para>DB 실행</para>
+
+            <para><screen>$ service couchdb start</screen></para>
+          </listitem>
+
+          <listitem>
+            <para>접속 확인 </para>
+
+            <para><screen>$ curl http://localhost:8308</screen></para>
+          </listitem>
+        </itemizedlist></para>
     </section>
   </section>
 </chapter>
