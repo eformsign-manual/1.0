@@ -7,11 +7,11 @@
       xmlns:mml="http://www.w3.org/1998/Math/MathML"
       xmlns:html="http://www.w3.org/1999/xhtml"
       xmlns:db="http://docbook.org/ns/docbook">
-  <title>WebtoB 설치 안내서</title>
+  <title>eformsign 설치 안내서</title>
 
   <subtitle></subtitle>
 
-  <titleabbrev>WebtoB v4.1 SP6 Fix#0</titleabbrev>
+  <titleabbrev>eformsign v1.0</titleabbrev>
 
   <xi:include href="../common/bookinfo.xml"></xi:include>
 
@@ -24,4 +24,8 @@
   <xi:include href="chapter3.xml"></xi:include>
 
   <xi:include href="chapter4.xml"></xi:include>
+
+  <xi:include href="chapter5.xml"></xi:include>
+
+  <index xml:id="idx"></index>
 </book>
