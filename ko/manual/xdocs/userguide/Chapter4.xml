@@ -11,23 +11,102 @@
   <section>
     <title>템플릿 소개</title>
 
-    <para>템플릿은 전자 문서를 작성할 수 있는 전자 서식입니다....</para>
+    <para>템플릿은 이폼사인에서 사용하는 <emphasis role="bold">전자문서 서식</emphasis>을 말합니다. 기존에
+    종이로 작성하던 계약서, 신청서, 동의서와 같이 기본 서식을 전자문서 형태로 만든 것을 템플릿이라고 합니다. 템플릿은 이폼사인
+    폼빌더로 만들고 업로드 할 수 있습니다. </para>
 
     <section>
       <title>템플릿 개요</title>
 
+      <para>이폼사인을 통해 전자 문서를 작성 및 전송하려면 전자 문서를 생성할 수 있는 템플릿을 우선 만들어서 배포해야
+      합니다.</para>
+
+      <para><emphasis role="bold">템플릿 만드는 방법</emphasis></para>
+
+      <para>템플릿을 만들기 위해서는 우선 폼빌더를 다운로드해야합니다. <emphasis role="bold">폼빌더 설치 및
+      사용방법 바로가기(링크 연결)</emphasis></para>
+
+      <para>기존에 워드, 엑셀, 파워포인트 등 마이크로소프트 오피스 문서로 만들어진 파일을 폼빌더를 사용하여 템플릿으로 업로드 할
+      수 있습니다.</para>
+
       <para/>
+
+      <orderedlist>
+        <listitem>
+          <para>워드, 엑셀 또는 파워포인트 파일을 엽니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>OZ in Word(Excel 또는 PPT) 메뉴로 이동합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>입력 필드를 추가할 위치를 선택합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>입력 필드 종류를 선택합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>추가된 입력 필드의 크기와 위치를 조정합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">실행</emphasis> 버튼을 클릭해 입력 필드의 동작을
+          확인합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">업로드</emphasis> 버튼을 클릭해 템플릿을 업로드
+          합니다.</para>
+        </listitem>
+      </orderedlist>
+
+      <para/>
+
+      <para><emphasis role="bold">템플릿 설정</emphasis></para>
+
+      <para>업로드한 템플릿에 대한 추가 설정을 할 수 있습니다.</para>
+
+      <para/>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold"> 설정</emphasis></para>
+
+          <para>템플릿 이름, 약칭, 문서 제목, 문서 번호등을 설정합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">워크플로우 설정</emphasis></para>
+
+          <para>문서의 작성부터 완료까지 작성된 문서가 처리될 단계를 설정합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">필드 설정</emphasis></para>
+
+          <para>필드의 기본값, 자동 입력 값 등을 설정합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">문서 관리자 설정</emphasis></para>
+
+          <para>해당 템플릿으로 생성된 문서를 관리할 멤버 또는 그룹을 지정합니다.</para>
+        </listitem>
+      </itemizedlist>
     </section>
 
     <section>
-      <title>워크플로우 개요</title>
+      <title> 개요</title>
 
       <para>워크플로우란 문서가 작성되어 완료되기까지의 문서의 요청 및 처리 과정을 말합니다.</para>
 
-      <para>워크플로우는 템플릿 관리자가 템플릿 별로 템플리 설정 &gt; 워크플로우 설정에서 설정할 수 있습니다. </para>
+      <para>워크플로우는 템플릿 관리자가 템플릿 별로 템플리 설정 &gt; 워크플로우 설정에서 설정할 수 있습니다.</para>
 
       <para>워크플로우는 <emphasis role="bold">작성 - 완료</emphasis>가 기본 단계이며, 아래와 같이
-      3가지 단계를 추가할 수 있습니다. </para>
+      3가지 단계를 추가할 수 있습니다.</para>
 
       <itemizedlist>
         <listitem>
@@ -45,12 +124,21 @@
         <listitem>
           <para><emphasis role="bold">외부자 처리</emphasis></para>
 
-          <para>동일한 회사에 소속된 멤버가 아닌 외부자에게 문서의 처리를 요청하는 단계입니다. </para>
+          <para>동일한 회사에 소속된 멤버가 아닌 외부자에게 문서의 처리를 요청하는 단계입니다.</para>
 
           <para/>
 
           <important>
             <para>결재와 내부자 처리의 차이!</para>
+
+            <para>결재자와 내부자는 모두 요청받은 문서에 대한 승인 또는 반려할 수 있지만 내부자 처리로 요청 받은 멤버의
+            경우, 문서 처리 후 다음 담당자를 지정할 수 있습니다. </para>
+
+            <para>즉, 내부자 처리 단계 이후의 외부자, 내부자 또는 결재자를 지정할 수 있습니다. </para>
+
+            <para>예를 들어, 타 부서의 결재라인을 지정하지 않은 상태에서 해당 문서에 대해 타 부서에 협조 요청을 할 경우
+            내부자 처리 단계로 해당 타 부서의 담당자를 지정하면 됩니다. 문서 처리시 타 부서의 담당자가 해당 부서의 결재라인을
+            따로 설정하여 문서를 처리할 수 있습니다.</para>
           </important>
         </listitem>
       </itemizedlist>
@@ -60,7 +148,7 @@
   <section>
     <title>템플릿 설정&gt; 일반 설정</title>
 
-    <para>폼 파일을 업로드하고 각 템플릿에 대한 상세 사항을 설정할 수 있습니다. </para>
+    <para>폼 파일을 업로드하고 각 템플릿에 대한 상세 사항을 설정할 수 있습니다.</para>
 
     <note>
       <para>이 작업은 대표 관리자 또는 템플릿 관리 권한이 필요합니다.</para>
