@@ -1000,7 +1000,7 @@
             <term><emphasis role="bold">② 비활성 멤버</emphasis></term>
 
             <listitem>
-              <para>비활성된 멤버 목록 및 정보를 확인할 수 있습니다. </para>
+              <para>비활성된 멤버 목록 및 정보를 확인할 수 있습니다.</para>
             </listitem>
           </varlistentry>
 
@@ -1016,8 +1016,8 @@
             <term><emphasis role="bold">④ 멤버 목록</emphasis></term>
 
             <listitem>
-              <para>목록에서 멤버를 클릭하여 오른쪽 멤버 정보 탭에서 정보를 확인, 수정하거나 삭제할 수 있습니다.
-              </para>
+              <para>목록에서 멤버를 클릭하여 오른쪽 멤버 정보 탭에서 정보를 확인, 수정하거나 삭제할 수
+              있습니다.</para>
             </listitem>
           </varlistentry>
 
@@ -1043,7 +1043,7 @@
 
             <listitem>
               <para>멤버가 이폼사인을 더 이상 사용하지 않는 경우, 해당 멤버가 처리했거나 처리할 문서를 다른 멤버에게
-              이관할 수 있습니다. </para>
+              이관할 수 있습니다.</para>
             </listitem>
           </varlistentry>
 
@@ -1070,8 +1070,8 @@
     <section>
       <title>그룹 관리</title>
 
-      <para>그룹 관리 메뉴에서는 회사내 그룹을 생성할 수 있으며, 그룹 정보 확인, 수정 및 삭제 등을 할 수 있습니다.
-      </para>
+      <para>그룹 관리 메뉴에서는 회사내 그룹을 생성할 수 있으며, 그룹 정보 확인, 수정 및 삭제 등을 할 수
+      있습니다.</para>
 
       <para/>
 
@@ -1108,6 +1108,140 @@
   <section>
     <title>내 서명 관리</title>
 
+    <para><emphasis role="bold">내 서명</emphasis> 메뉴에서 <emphasis role="bold">서명,
+    이니셜, 도장</emphasis>을 등록해두면 문서 처리시 등록된 서명으로 간편하게 처리할 수 있습니다.</para>
+
+    <para><emphasis role="bold">서명/이니셜 등록하는 방법</emphasis></para>
+
     <para/>
+
+    <note>
+      <para> 작업은 <emphasis role="bold">PC, 모바일, 애플리케이션</emphasis>에서 진행할 수
+      있습니다.</para>
+    </note>
+
+    <para><figure>
+        <title>내 서명 관리 화면</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/mysignature.PNG" width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure><figure>
+        <title>내 서명 관리 화면</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/menu-mysignature.png" width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+
+    <orderedlist>
+      <listitem>
+        <para>사이드바 메뉴에서<emphasis role="bold"> 내 서명</emphasis>으로 이동합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para>서명 등록 버튼을 클릭합니다.</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata contentwidth="499"
+                       fileref="resources/mysignature-register.png"/>
+          </imageobject>
+        </mediaobject>
+
+        <para/>
+
+        <itemizedlist>
+          <listitem>
+            <para><emphasis role="bold">그리기</emphasis></para>
+
+            <para>화면에 서명을 직접 그려서 입력합니다.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">텍스트</emphasis></para>
+
+            <para>내 이름을 입력하여 원하는 스타일의 폰트가 적용된 서명을 선택합니다.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">QR 코드로 서명법</emphasis></para>
+
+            <para>스마트폰 카메라를 통해 QR 코드를 인식하면 서명 패드 화면으로 연결됩니다. 서명 패드에 직접 서명을 그려서
+            입력합니다.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">앱에서 서명</emphasis></para>
+
+            <para>연결하고자 하는 모바일 기기를 선택한 뒤 전송 버튼을 누르면 해당 기기의 이폼사인 앱에서 서명을 입력할 수
+            있습니다.</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">확인</emphasis> 버튼을 클릭해 서명을 저장합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">편집, 삭제 </emphasis>버튼으로 서명을 편집하거나
+        삭제합니다.</para>
+      </listitem>
+    </orderedlist>
+
+    <para><emphasis role="bold">도장 등록하는 방법</emphasis></para>
+
+    <para>문서에 직접 서명이 아닌 직인이나 개인 도장을 사용해야 하는 경우가 있습니다. 이폼사인에서는 도장 이미지를 사용해 문서의
+    서명란에 도장을 찍을 수 있습니다.</para>
+
+    <note>
+      <para>도장 이미지를 미리 준비해야 합니다.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>이미지 형식: PNG, JPG</para>
+        </listitem>
+
+        <listitem>
+          <para>파일 크기: 최대 300KB</para>
+        </listitem>
+      </itemizedlist>
+    </note>
+
+    <para> </para>
+
+    <orderedlist>
+      <listitem>
+        <para>사이드바 메뉴에서 내 서명으로 이동합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para>도장 등록 버튼을 클릭합니다</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/signature-stamp-register.png"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
+
+      <listitem>
+        <para>이미지 영역을 클릭하여 도장 이미지를 선택합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para>확인 버튼을 클릭해 도장을 저장합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para>편집, 삭제 버튼으로 등록된 도장을 편집 또는 삭제합니다.</para>
+      </listitem>
+    </orderedlist>
   </section>
 </chapter>
