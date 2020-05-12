@@ -11,7 +11,7 @@
   <bridgehead>안내서의 대상</bridgehead>
 
   <para>본 안내서는 eformsign<superscript>®</superscript>(이하 eformsign)를 설치하고자 하는
-  모든 사용자를 대상으로 기술한다.<indexterm class="singular">
+  모든 사용자를 대상으로 기술합니다.<indexterm class="singular">
       <primary>eformsign</primary>
     </indexterm></para>
 
@@ -19,7 +19,7 @@
 
   <bridgehead>안내서의 전제 조건</bridgehead>
 
-  <para>본 안내서를 원활하게 이해하기 위해서는 다음과 같은 사항을 미리 알고 있어야 한다.</para>
+  <para>본 안내서를 원활하게 이해하기 위해서는 다음과 같은 사항을 미리 알고 있어야 합니다.</para>
 
   <itemizedlist>
     <listitem>
@@ -37,7 +37,7 @@
 
   <para>본 안내서는 eformsign를 시스템에 설치하는 과정에 대한 필수 사항만을 기술하고 있다. 따라서 eformsign의
   구체적인 사용 방법이나 관리 및 운용에 관한 사항은 <emphasis role="bold">eformsign 사용자
-  안내서</emphasis>를 참고한다.</para>
+  안내서</emphasis>를 참고하시기 바랍니다.</para>
 
   <para/>
 
@@ -49,9 +49,9 @@
 
   <bridgehead>안내서 구성</bridgehead>
 
-  <para>WebtoB 설치 안내서는 총 4개의 장으로 구성되어 있다.</para>
+  <para>eformsign 설치 안내서는 총 4개의 장으로 구성되어 있습니다.</para>
 
-  <para>각 장의 주요 내용은 다음과 같다.</para>
+  <para>각 장의 주요 내용은 다음과 같습니다.</para>
 
   <itemizedlist>
     <listitem>
