@@ -36,6 +36,16 @@
       </mediaobject>
     </figure>
 
+    <figure>
+      <title>OZ in Office 사용 흐름</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/ozinoffice-flow_1.png" width="750"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
     <section>
       <title>폼 빌더 다운로드</title>
 
@@ -167,7 +177,7 @@
       <emphasis role="bold">다운로드</emphasis> 버튼이 추가된 것을 확인할 수 있습니다.</para>
 
       <figure>
-        <title>서비스 연결 후의 리본 메뉴 </title>
+        <title>서비스 연결 후의 리본 메뉴</title>
 
         <mediaobject>
           <imageobject>
@@ -713,9 +723,7 @@
         </imageobject>
       </mediaobject>
 
-      <para>
-        <emphasis role="bold">컴포넌트 속성</emphasis>
-      </para>
+      <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
 
       <figure>
         <title>콤보 컴포넌트 속성 설정하기</title>
@@ -727,16 +735,12 @@
         </mediaobject>
       </figure>
 
-      <para>
-        <emphasis role="bold">① ID</emphasis>
-      </para>
+      <para><emphasis role="bold">① ID</emphasis></para>
 
       <para>콤보 컴포넌트의 ID를 입력합니다. 예를 들어, 좋아하는 색을 고르는 컴포넌트의 ID는 ‘좋아하는 색’으로
       합니다.</para>
 
-      <para>
-        <emphasis role="bold">② Items</emphasis>
-      </para>
+      <para><emphasis role="bold">② Items</emphasis></para>
 
       <para>선택 항목들을 입력합니다. 엔터(Enter)로 여러 항목을 구분합니다.</para>
 
@@ -745,9 +749,7 @@
         안에도 동일하게 ‘선택하세요’를 입력합니다.</para>
       </note>
 
-      <para>
-        <emphasis role="bold">③ 입력 데이터 초기화 가능</emphasis>
-      </para>
+      <para><emphasis role="bold">③ 입력 데이터 초기화 가능</emphasis></para>
 
       <para>입력 데이터 초기화 가능에 체크하면 선택한 항목을 선택 해제할 수 있습니다. 입력 데이터 초기화는 다음과 같이 실행할
       수 있습니다.</para>
@@ -763,9 +765,7 @@
         </listitem>
       </itemizedlist>
 
-      <para>
-        <emphasis role="bold">④ 툴팁 텍스트</emphasis>
-      </para>
+      <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
 
       <para>선택란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
