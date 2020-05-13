@@ -26,7 +26,7 @@
 
   <para/>
 
-  <section xml:id="unix-install-webtob">
+  <section xml:id="webserver_install">
     <title>Web Server 설치</title>
 
     <para>본 절에서는 Web Server를 설치하는 과정과 설치를 확인하는 방법에 대해서 설명합니다.</para>
@@ -384,7 +384,7 @@ $ firewall-cmd --reload</screen>
     </section>
   </section>
 
-  <section xml:id="unix-install-webtob">
+  <section xml:id="db_install">
     <title>DB 설치</title>
 
     <para>본 절에서는 DB를 설치하는 과정과 설치를 확인하는 방법에 대해서 설명합니다.</para>
@@ -485,7 +485,7 @@ $ install -y couchdb</screen></para>
           <primary>local.ini</primary>
         </indexterm> 파일과 default.ini<indexterm class="singular">
           <primary>default.ini</primary>
-        </indexterm> 파일을 다음과 같이 수정합니다. 수정 방법은 OS별로 동일합니다. </para>
+        </indexterm> 파일을 다음과 같이 수정합니다. 수정 방법은 OS별로 동일합니다.</para>
 
       <para><itemizedlist>
           <listitem>
@@ -512,7 +512,7 @@ port = 8308     // port = 5984 를 port = 8308 로 변경</screen></para>
     <section>
       <title>설치 확인</title>
 
-      <para>CouchDB를 실행시켜 접속을 확인힙니다. </para>
+      <para>CouchDB를 실행시켜 접속을 확인힙니다.</para>
 
       <para><itemizedlist>
           <listitem>
@@ -522,7 +522,7 @@ port = 8308     // port = 5984 를 port = 8308 로 변경</screen></para>
           </listitem>
 
           <listitem>
-            <para>접속 확인 </para>
+            <para>접속 확인</para>
 
             <para><screen>$ curl http://localhost:8308</screen></para>
           </listitem>

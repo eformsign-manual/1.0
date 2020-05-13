@@ -93,121 +93,102 @@
 
   <bridgehead>안내서 규약</bridgehead>
 
-  <informaltable colsep="1" frame="topbot" rowsep="1">
-    <tgroup cols="2">
-      <colspec align="left" colwidth="150"/>
+  <para><informaltable colsep="1" frame="topbot" rowsep="1">
+      <tgroup cols="2">
+        <colspec align="left" colwidth="150"/>
 
-      <thead>
-        <row>
-          <entry>표기</entry>
+        <thead>
+          <row>
+            <entry>표기</entry>
 
-          <entry>의미</entry>
-        </row>
-      </thead>
+            <entry>의미</entry>
+          </row>
+        </thead>
 
-      <tbody>
-        <row>
-          <entry>&lt;AaBbCc123&gt;</entry>
+        <tbody>
+          <row>
+            <entry>&lt;AaBbCc123&gt;</entry>
 
-          <entry>프로그램 소스 코드의 파일명</entry>
-        </row>
+            <entry>프로그램 소스 코드의 파일명</entry>
+          </row>
 
-        <row>
-          <entry>&lt;Ctrl&gt;+C</entry>
+          <row>
+            <entry>&lt;Ctrl&gt;+C</entry>
 
-          <entry>Ctrl과 C를 동시에 누름</entry>
-        </row>
+            <entry>Ctrl과 C를 동시에 누름</entry>
+          </row>
 
-        <row>
-          <entry><guimenuitem> [Button]</guimenuitem></entry>
+          <row>
+            <entry><guimenuitem> 진하게</guimenuitem></entry>
 
-          <entry>GUI의 버튼 또는 메뉴 이름</entry>
-        </row>
+            <entry>GUI의 버튼 또는 메뉴 이름, 다른 관련 안내서 또는 안내서 내의 다른 장 및 절 언급, 화면 UI에서
+            입력 항목에 대한 설명, 강조</entry>
+          </row>
 
-        <row>
-          <entry><guimenuitem> 진하게</guimenuitem></entry>
+          <row>
+            <entry><email> 하이퍼링크</email></entry>
 
-          <entry>강조</entry>
-        </row>
+            <entry>메일계정, 웹 사이트</entry>
+          </row>
 
-        <row>
-          <entry>" "(따옴표)</entry>
+          <row>
+            <entry>&gt;</entry>
 
-          <entry>다른 관련 안내서 또는 안내서 내의 다른 장 및 절 언급</entry>
-        </row>
+            <entry>메뉴의 진행 순서</entry>
+          </row>
 
-        <row>
-          <entry><guimenuitem> '입력항목'</guimenuitem></entry>
+          <row>
+            <entry>+----</entry>
 
-          <entry>화면 UI에서 입력 항목에 대한 설명</entry>
-        </row>
+            <entry>하위 디렉터리 또는 파일 있음</entry>
+          </row>
 
-        <row>
-          <entry><email> 하이퍼링크</email></entry>
+          <row>
+            <entry>|----</entry>
 
-          <entry>메일계정, 웹 사이트</entry>
-        </row>
+            <entry>하위 디렉터리 또는 파일 없음</entry>
+          </row>
 
-        <row>
-          <entry>&gt;</entry>
+          <row>
+            <entry><note>
+                <para/>
+              </note></entry>
 
-          <entry>메뉴의 진행 순서</entry>
-        </row>
+            <entry>참고 또는 주의사항</entry>
+          </row>
 
-        <row>
-          <entry>+----</entry>
+          <row>
+            <entry><guimenuitem>[그림 1.1]</guimenuitem></entry>
 
-          <entry>하위 디렉터리 또는 파일 있음</entry>
-        </row>
+            <entry>그림 이름</entry>
+          </row>
 
-        <row>
-          <entry>|----</entry>
+          <row>
+            <entry><guimenuitem>[표 1.1]</guimenuitem></entry>
 
-          <entry>하위 디렉터리 또는 파일 없음</entry>
-        </row>
+            <entry>표 이름</entry>
+          </row>
 
-        <row>
-          <entry><note>
-              <para/>
-            </note></entry>
+          <row>
+            <entry><programlisting language=""> AaBbCc123</programlisting></entry>
 
-          <entry>참고 또는 주의사항</entry>
-        </row>
+            <entry>명령어, 명령어 수행 후 화면에 출력된 결과물, 예제코드</entry>
+          </row>
 
-        <row>
-          <entry><guimenuitem>[그림 1.1]</guimenuitem></entry>
+          <row>
+            <entry>[ ]</entry>
 
-          <entry>그림 이름</entry>
-        </row>
+            <entry>옵션 인수 값</entry>
+          </row>
 
-        <row>
-          <entry><guimenuitem>[표 1.1]</guimenuitem></entry>
+          <row>
+            <entry>|</entry>
 
-          <entry>표 이름</entry>
-        </row>
-
-        <row>
-          <entry><programlisting language=""> AaBbCc123</programlisting></entry>
-
-          <entry>명령어, 명령어 수행 후 화면에 출력된 결과물, 예제코드</entry>
-        </row>
-
-        <row>
-          <entry>[ ]</entry>
-
-          <entry>옵션 인수 값</entry>
-        </row>
-
-        <row>
-          <entry>|</entry>
-
-          <entry>선택 인수 값</entry>
-        </row>
-      </tbody>
-    </tgroup>
-  </informaltable>
-
-  <para/>
+            <entry>선택 인수 값</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable></para>
 
   <?dbfo-need height="10in" ?>
 

@@ -6,18 +6,18 @@
          xmlns:mml="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>eformsign 설치 및 설정 방법 </title>
+  <title>eformsign 설치 및 설정 방법</title>
 
-  <para>본 장에서는 eformsign을 설치하는 방법 및 속성 등의 설정 방법에 대해 설명합니다. </para>
+  <para>본 장에서는 eformsign을 설치하는 방법 및 속성 등의 설정 방법에 대해 설명합니다.</para>
 
   <note>
     <para>eformsign을 설치 및 기동하기 위해서는 Web server, WAS, DB가 먼저 설치되어 있어야 합니다. 이의
     설치 방법은 <link linkend="chapter2"><link xlink:href="chapter2"
-    xml:id="chapter2">제 2장 설치 전 준비사항 (2): 서버 환경 구성</link></link>을 참고하시기
-    바랍니다.</para>
+    xml:id="chapter2"><emphasis role="bold">제 2장 설치 전 준비사항 (2): 서버 환경
+    구성</emphasis></link></link>을 참고하시기 바랍니다.</para>
   </note>
 
-  <section xml:id="window-insall-webtob">
+  <section xml:id="eformsign_install">
     <title>eformsign 설치</title>
 
     <para>본 절에서는 eformsign을 설치하는 방법에 대해서 설명합니다.</para>
@@ -25,7 +25,7 @@
     <section>
       <title>사전 준비</title>
 
-      <para>다음의 명령을 실행해 초기값 설정파일을 복사합니다. </para>
+      <para>다음의 명령을 실행해 초기값 설정파일을 복사합니다.</para>
 
       <para><screen>$ mkdir /opt/eformsign
 $ cd /opt/eformsign
@@ -34,10 +34,10 @@ eformsign-couchdb-backup   Onpremise-10,2020,0429,300.zip
 eformsign-couchdb-restore  oz-couchdb-last-bakup.tar.gz       sample.zip</screen></para>
     </section>
 
-    <section xml:base="" xml:id="install-confirm">
+    <section xml:base="" xml:id="eformsign_unzip">
       <title>eformsign 압축 풀기</title>
 
-      <para>다음의 명령을 실행해 Onpremise-10,2020,0429,300.zip 파일의 압축을 풉니다. </para>
+      <para>다음의 명령을 실행해 Onpremise-10,2020,0429,300.zip 파일의 압축을 풉니다.</para>
 
       <para><screen>$ cd /opt/eformsign
 $ mkdir app
@@ -46,7 +46,7 @@ $ cd app/
 $ unzip Onpremise-10,2020,0429,300.zip</screen></para>
     </section>
 
-    <section xml:base="" xml:id="install-confirm">
+    <section xml:base="" xml:id="storage_config">
       <title>스토리지 설정</title>
 
       <para>eformsign이 사용할 스토리지를 설정합니다.</para>
@@ -59,7 +59,7 @@ $ cd storage
 $ unzip /opt/eformsign/sample.zip</screen></para>
     </section>
 
-    <section xml:base="" xml:id="install-confirm">
+    <section xml:base="" xml:id="upzip">
       <title>Daemon, Iam 및 Service 압축 풀기</title>
 
       <para>tomcat 내 webapps 위치에 폴더를 생성하고 Daemon<indexterm class="singular">
@@ -121,10 +121,10 @@ $ unzip /opt/eformsign/app/Service-10,2020,0429,300.war</screen></para>
       <para/>
     </section>
 
-    <section xml:base="" xml:id="install-confirm">
+    <section xml:base="" xml:id="server_stop">
       <title>서버 중지</title>
 
-      <para>서버 환경 구성을 위해 설치 및 기동한 Web Server, WAS, DB 서버를 중지시킵니다. </para>
+      <para>서버 환경 구성을 위해 설치 및 기동한 Web Server, WAS, DB 서버를 중지시킵니다.</para>
 
       <para><screen>$ service nginx stop
 $ service tomcat stop
@@ -132,7 +132,7 @@ $ service couchdb stop</screen></para>
     </section>
   </section>
 
-  <section xml:id="window-insall-servlet">
+  <section xml:id="encoding">
     <title>암호화 설정</title>
 
     <para>계정을 암호화하고 암호화 키 파일을 생성합니다.</para>
@@ -162,7 +162,7 @@ Enter email Password : email PW</screen></para>
     </section>
   </section>
 
-  <section xml:id="window-insall-servlet">
+  <section xml:id="db_config">
     <title>CouchDB 설정</title>
 
     <para>CouchDB<indexterm class="singular">
@@ -170,7 +170,7 @@ Enter email Password : email PW</screen></para>
       </indexterm> 설정을 통해 eformsign의 데이터를 통합 저장하고 관리할 수 있도록 합니다.</para>
 
     <section>
-      <title>init-data 폴더 생성 및 파일 복사 </title>
+      <title>init-data 폴더 생성 및 파일 복사</title>
 
       <para>init-data<indexterm class="singular">
           <primary>init-data</primary>
@@ -192,7 +192,7 @@ $ cp /opt/eformsign/oz-couchdb-last-bakup.tar.gz .</screen></para>
     </section>
 
     <section>
-      <title>초기 설정 쉘 스크립트 복사 </title>
+      <title>초기 설정 쉘 스크립트 복사</title>
 
       <para>다음의 명령을 실행해 초기 설정 쉘 스크립트를 복사합니다.</para>
 
@@ -229,14 +229,14 @@ $ ./eformsign-couchdb-restore</screen></para>
     </section>
   </section>
 
-  <section>
+  <section xml:id="iam_config">
     <title>Iam 설정</title>
 
     <para>Iam<indexterm class="singular">
         <primary>Iam</primary>
-      </indexterm> 서버는 Oauth 방식으로 사용자의 계정을 관리하는 서버입니다. 다음의 순서로 설정합니다. </para>
+      </indexterm> 서버는 Oauth 방식으로 사용자의 계정을 관리하는 서버입니다. 다음의 순서로 설정합니다.</para>
 
-    <section xml:base="" xml:id="install-confirm">
+    <section xml:base="" xml:id="iam_foldercopy">
       <title>Iam/WEB-INF 폴더로 이동</title>
 
       <para>OS별로 다음의 명령을 실행해 Iam 내 WEB-INF 폴더로 이동합니다.</para>
@@ -279,12 +279,13 @@ couch.db.database=forcs_iam
 couch.db.autoview=true</screen></para>
     </section>
 
-    <section xml:base="" xml:id="install-confirm">
+    <section xml:base="" xml:id="key_copy">
       <title>암호화 키 파일(RS256.private) 복사</title>
 
-      <para>다음의 명령을 실행해 <link linkend="rs256"><link xlink:href="rs256"
-      xml:id="rs256">2.2 암호화 키 파일 생성</link></link>에서 생성한 파일인
-      RS256.private<indexterm class="singular">
+      <para>다음의 명령을 실행해 <emphasis role="bold"><link linkend="rs256"><link
+      xlink:href="rs256" xml:id="rs256">2.2 암호화 키 파일
+      생성</link></link></emphasis>에서 생성한 파일인 RS256.private<indexterm
+          class="singular">
           <primary>RS256.private</primary>
         </indexterm>를 복사합니다.</para>
 
@@ -318,13 +319,13 @@ $ cp /opt/eformsign/app/RS256.private .</screen></para>
     </section>
   </section>
 
-  <section>
+  <section xml:id="service_config">
     <title>Service 설정</title>
 
     <para>사용자의 전반적인 요청에 대한 응답을 동기 처리하는 서버로, WAS 위에서 기동됩니다. 다음의 순서로
     설정합니다.</para>
 
-    <section xml:base="" xml:id="install-confirm">
+    <section xml:base="" xml:id="service_foldercopy">
       <title>Service/WEB-INF/classes 폴더로 이동</title>
 
       <para>tomcat 내 webapps의 Service/WEB-INF/classes 폴더로 이동합니다.</para>
@@ -435,12 +436,13 @@ secret_key  : emailKey 입력</screen></para>
       <para/>
     </section>
 
-    <section xml:base="" xml:id="install-confirm">
+    <section xml:base="" xml:id="pub_key_copy">
       <title>암호화 키 파일(RS256.pub) 복사</title>
 
-      <para>다음의 명령을 실행해 <link linkend="rs256"><link xlink:href="rs256"
-      xml:id="rs256">2.2 암호화 키 파일 생성</link></link>에서 생성한 파일인
-      RS256.pub<indexterm class="singular">
+      <para>다음의 명령을 실행해 <emphasis role="bold"><link linkend="rs256"><link
+      xlink:href="rs256" xml:id="rs256">2.2 암호화 키 파일
+      생성</link></link></emphasis>에서 생성한 파일인 RS256.pub<indexterm
+          class="singular">
           <primary>RS256.pub</primary>
         </indexterm>를 복사합니다.</para>
 
@@ -474,7 +476,7 @@ $ cp /opt/eformsign/app/RS256.pub .</screen></para>
     </section>
   </section>
 
-  <section>
+  <section xml:id="daemon_config">
     <title>Daemon 설정</title>
 
     <para>Daemon<indexterm class="singular">
@@ -483,7 +485,7 @@ $ cp /opt/eformsign/app/RS256.pub .</screen></para>
     스케줄(Batch, scheduler) 작업에 대한 응답 처리를 비동기로 처리하는 서버로, Service 서버와 마찬가지로 WAS
     위에서 기동됩니다. 다음의 순서로 설정합니다.</para>
 
-    <section xml:base="" xml:id="install-confirm">
+    <section xml:base="" xml:id="daemon_foldercopy">
       <title>Daemon/WEB-INF/classes 폴더로 이동</title>
 
       <para>tomcat 내 webapps의 Daemon/WEB-INF/classes 폴더로 이동합니다.</para>
@@ -515,7 +517,7 @@ $ cp /opt/eformsign/app/RS256.pub .</screen></para>
       <title>속성 설정</title>
 
       <para>aes256.properties, couchDB.properties, forcsCom.properties,
-      storageConfig.xml, email.propertie 파일을 각각 다음과 같이 수정합니다.</para>
+      storageConfig.xml, email.properties 파일을 각각 다음과 같이 수정합니다.</para>
 
       <itemizedlist>
         <listitem>
@@ -595,12 +597,12 @@ secret_key  : emailKey 입력</screen></para>
     </section>
   </section>
 
-  <section>
+  <section xml:id="home_config">
     <title>Home 설정</title>
 
     <para>사용자에게 보여지는 프론트 화면으로 Web server에 설치됩니다.</para>
 
-    <section xml:base="" xml:id="install-confirm">
+    <section xml:base="" xml:id="home_upzip">
       <title>Home 압축 파일 풀기</title>
 
       <para>nginx에 Home 압축 파일을 풉니다.</para>
@@ -643,7 +645,7 @@ $ tar -zvxf /opt/eformsign/app/home-10,2020,0429,300.tar.gz</screen></para>
 
             <para><screen>$ cd /var/www/html/version</screen></para>
           </listitem>
-        </itemizedlist>2. version10,2020,****,***.js 파일을 엽니다. </para>
+        </itemizedlist>2. version10,2020,****,***.js 파일을 엽니다.</para>
 
       <para><screen>$ vi version10,2020,****,***.js</screen></para>
 
@@ -686,10 +688,10 @@ var OPTION_CHECK_LICENSE=true;</screen></para>
     </section>
   </section>
 
-  <section>
+  <section xml:id="license_config">
     <title>License 설정</title>
 
-    <para>다음과 같이 OS별로 라이선스를 설정합니다. </para>
+    <para>다음과 같이 OS별로 라이선스를 설정합니다.</para>
 
     <itemizedlist>
       <listitem>
@@ -718,14 +720,14 @@ $ cp ozlicense.xml /var/www/html/plugins/ozhtml5/license/</screen></para>
     </itemizedlist>
   </section>
 
-  <section>
+  <section xml:id="proxy_config">
     <title>프록시 설정</title>
 
     <section>
       <title>nginx 설정</title>
 
       <para>RHEL 7, CentOS 7에서는 default.conf 파일의 server{}부분을 수정하고, Debian
-      10에서는 default 파일의 server{}부분을 수정합니다. </para>
+      10에서는 default 파일의 server{}부분을 수정합니다.</para>
 
       <para>1. default.conf 혹은 default 파일을 엽니다.</para>
 
@@ -926,7 +928,7 @@ pattern="%h %l %u %t &amp;quot;%r&amp;quot; %s %b" /&gt;
     </section>
   </section>
 
-  <section>
+  <section xml:id="execute_config">
     <title>기동 설정</title>
 
     <para>Service, Daemon, Iam 서버가 정상적으로 설치 및 설정되었는지 확인합니다.</para>
