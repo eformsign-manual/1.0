@@ -406,12 +406,6 @@ $ firewall-cmd --reload</screen>
         <listitem>
           <para>EPEL Repository를 생성합니다.</para>
 
-          <note>
-            <para>EPEL은 "Extra Packages of Enterprise Linux"의 줄임말로, Fedora
-            Project에서 제공되는 저장소입니다. 각종 패키지의 최신 버전을 제공하는 community 기반의 저장소로, yum
-            명령으로는 설치가 되지 않는 최신 버전의 패키지를 사용하고 싶은 경우에 설치해 사용합니다.</para>
-          </note>
-
           <itemizedlist>
             <listitem>
               <para>RHEL 7 / CentOS 7</para>
@@ -422,7 +416,11 @@ $ yum install -y epel-release-latest-7.noarch.rpm</screen></para>
             </listitem>
           </itemizedlist>
 
-          <para/>
+          <para><note>
+              <para>EPEL은 "Extra Packages of Enterprise Linux"의 줄임말로, Fedora
+              Project에서 제공되는 저장소입니다. 각종 패키지의 최신 버전을 제공하는 community 기반의 저장소로,
+              yum 명령으로는 설치가 되지 않는 최신 버전의 패키지를 사용하고 싶은 경우에 설치해 사용합니다.</para>
+            </note></para>
         </listitem>
 
         <listitem>
