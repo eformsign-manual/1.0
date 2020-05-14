@@ -25,6 +25,8 @@
 
   <xi:include href="Chapter4.xml" />
 
+  <xi:include href="chapter5.xml" />
+
   <xi:include href="glossary.xml"></xi:include>
 
   <index xml:id="idx"></index>
