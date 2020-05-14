@@ -23,11 +23,9 @@
 
   <xi:include href="chapter3.xml" />
 
-  <xi:include href="Chapter4.xml" />
+  <xi:include href="chapter4.xml" />
 
-  <xi:include href="chapter5.xml" />
-
-  <xi:include href="glossary.xml"></xi:include>
+  <xi:include href="chapter5.xml"></xi:include>
 
   <index xml:id="idx"></index>
 </book>
