@@ -561,6 +561,10 @@
         </inlinemediaobject> )을 클릭하면 표시됩니다.</para>
     </note>
 
+    <note>
+      <para>정보 타입인 사용자, 사용일, 문서, 레이블에는 툴팁이 없습니다.</para>
+    </note>
+
     <para>eformsign이 제공 중인 각 컴포넌트에 대한 설명은 다음과 같습니다.</para>
 
     <para/>

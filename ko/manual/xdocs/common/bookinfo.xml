@@ -22,14 +22,11 @@
 
     <para>All Forcs software (eformsign<superscript>®</superscript>) and
     documents are protected by copyright laws and the Protection Act of
-    Computer Programs, and international convention. Forcs software and
-    documents are made available under the terms of the Forcs License
-    Agreement and may only be used or copied in accordance with the terms of
-    this agreement.This document may not be reproduced or transmitted in any
-    form or by any means, electronic or mechanical, for any purpose, without
-    the prior written permission of Forcs Co., Ltd. This document is provided
-    for information purposes only, and the contents hereof are subject to
-    change without notice. </para>
+    Computer Programs, and international convention. This document may not be
+    reproduced or transmitted in any form or by any means, electronic or
+    mechanical, for any purpose, without the prior written permission of Forcs
+    Co., Ltd. This document is provided for information purposes only, and the
+    contents hereof are subject to change without notice.</para>
   </legalnotice>
 
   <legalnotice>
@@ -51,7 +48,7 @@
 
     <para>This product includes various open source software developed and/or
     licensed by "OpenSSL", "RSA Data Security, Inc.", "Apache Foundation", and
-    "JavaScript Object Notation(JSON)". </para>
+    "JavaScript Object Notation(JSON)".</para>
   </legalnotice>
 
   <author>
@@ -61,6 +58,4 @@
   <pubdate>2020-05-31</pubdate>
 
   <productnumber>eformsign v1.0</productnumber>
-
-  <edition>v1.0</edition>
 </info>
