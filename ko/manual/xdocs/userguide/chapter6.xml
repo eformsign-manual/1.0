@@ -11,10 +11,15 @@
   <section>
     <title>사용자 정의 필드 관리</title>
 
-    <para><emphasis role="bold">회사관리 </emphasis>&gt; <emphasis role="bold">사용자
-    정의 필드 관리</emphasis>에서는 회사, 그룹, 멤버에 관한 필드를 추가하고 편집할 수 있습니다.</para>
+    <para><emphasis role="bold">회사관리 </emphasis><emphasis role="bold">&gt;
+    </emphasis><emphasis role="bold">사용자 정의 필드 관리</emphasis>에서는 회사, 그룹, 멤버에 관한
+    필드를 추가하고 편집할 수 있습니다.</para>
 
-    <para/>
+    <tip>
+      <para>문서에서 자주 사용되는 회사, 그룹, 멤버에 관한 정보(예, 회사 대표번호, 주소, 대표자 명 등)를 사용자 정의
+      필드에서 추가하고 <emphasis role="bold">템플릿 설정 &gt; 필드 설정</emphasis>에서 필요 정보를
+      자동으로 입력되도록 설정할 수 있습니다.</para>
+    </tip>
 
     <figure>
       <title>회사 관리 &gt; 사용자 정의 필드 관리</title>
@@ -30,7 +35,7 @@
           <term><emphasis role="bold">① 사용자 정의 필드 관리 &gt; 회사</emphasis></term>
 
           <listitem>
-            <para>회사와 관련된 필드를 추가하고 값을 설정할 수 있습니다. </para>
+            <para>회사 대표, 대표 전화번호, 직인 등 회사와 관련된 필드를 추가하고 값을 설정할 수 있습니다.</para>
           </listitem>
         </varlistentry>
 
@@ -38,7 +43,7 @@
           <term><emphasis role="bold">② 사용자 정의 필드 관리 &gt; 그룹</emphasis></term>
 
           <listitem>
-            <para>그룹과 관련된 필드를 추가하고 값을 설정할 수 있습니다. </para>
+            <para>부서명, 책임자 등 그룹과 관련된 필드를 추가하고 값을 설정할 수 있습니다.</para>
           </listitem>
         </varlistentry>
 
@@ -47,7 +52,7 @@
           정의 필드 관리 &gt; 멤버</emphasis></term>
 
           <listitem>
-            <para>멤버와 관련된 필드를 추가하고 값을 설정할 수 있습니다.</para>
+            <para>직급, 메일 주소, 전화번호 등 멤버와 관련된 필드를 추가하고 값을 설정할 수 있습니다.</para>
           </listitem>
         </varlistentry>
 
@@ -55,10 +60,10 @@
           <term><emphasis role="bold">④ 필드 추가</emphasis></term>
 
           <listitem>
-            <para>새로운 필드를 추가합니다. 필드 추가 버튼을 클릭하면 사용자 정의 필드를 추가 할 수있는 팝업창이
-            나타납니다. <emphasis role="bold">필드 이름</emphasis>과 <emphasis
-            role="bold">필드 타입</emphasis>(텍스트/ 이미지), 필드 값을 입력하여 확인을 클릭하면 목록에
-            필드가 추가됩니다. </para>
+            <para>새로운 필드를 추가합니다. 필드 추가 버튼을 클릭하면 사용자 정의 필드를 추가할 수있는 팝업창이 나타납니다.
+            <emphasis role="bold">필드 이름</emphasis>과 <emphasis role="bold">필드
+            타입</emphasis>(텍스트/ 이미지), <emphasis role="bold">필드 값</emphasis>을
+            입력하여 확인을 클릭하면 목록에 필드가 추가됩니다.</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -118,16 +123,145 @@
           </listitem>
         </varlistentry>
       </variablelist>
-
-      <para/>
-
-      <para/>
     </figure>
   </section>
 
   <section>
     <title>알림 템플릿 관리</title>
 
-    <para/>
+    <para>문서 요청시 발송되는 메일/SMS 템플릿을 회사 맞춤형으로 편집할 수 있습니다.</para>
+
+    <para>알림 템플릿 변경은 <emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis>에서
+    설정하거나 <emphasis role="bold">템플릿 관리 &gt; 템플릿 설정 &gt; 워크플로우 설정</emphasis>의 각
+    단계별 <emphasis role="bold">알림 설정</emphasis>에서 편집<emphasis role="bold">(알림
+    설정 연결)</emphasis>할 수 있습니다.</para>
+
+    <figure>
+      <title>회사 관리 &gt; 알림 템플릿 관리</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/mail-template-setting.png" width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para><emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis>에는 기본적인 메일/SMS
+    템플릿이 설정되어 있으며, 기본 템플릿의 내용 등 변경 및 새로운 알림 템플릿을 추가할 수 있습니다.</para>
+
+    <para><emphasis role="bold">기본 템플릿 종류(메일/SMS)</emphasis></para>
+
+    <table>
+      <title>템플릿 타입 및 상태</title>
+
+      <tgroup cols="2">
+        <colspec align="center" colwidth="298*"/>
+
+        <colspec colwidth="702*"/>
+
+        <thead>
+          <row>
+            <entry align="center">타입</entry>
+
+            <entry align="center">상태</entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry>결재</entry>
+
+            <entry>결재 요청/결재 승인/결재 반려</entry>
+          </row>
+
+          <row>
+            <entry>내부자 처리</entry>
+
+            <entry>내부자 처리 요청/내부자 처리 승인/내부자 처리 반려</entry>
+          </row>
+
+          <row>
+            <entry>외부자 처리</entry>
+
+            <entry>외부자 처리 요청/외부자 처리 승인/외부자 처리 반려/외부자 문서 최종 완료</entry>
+          </row>
+
+          <row>
+            <entry>완료</entry>
+
+            <entry>문서 최종 완료/문서 최종 완료(PDF 전송)</entry>
+          </row>
+
+          <row>
+            <entry>문서 처리</entry>
+
+            <entry>삭제 요청 수신/삭제 알림/삭제 요청 거절/반려 요청 수신/반려 요청 승인/반려 요청 거절/결재 요청
+            취소/문서 이관 완료</entry>
+          </row>
+
+          <row>
+            <entry>멤버 초대</entry>
+
+            <entry>멤버 초대/멤버 초대 수락/멤버 초대 거절/멤버 회사 탈퇴</entry>
+          </row>
+
+          <row>
+            <entry>헤더/풋터</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <tip>
+      <para>헤더는 이폼사인의 로고가 기본으로 설정되어 있습니다. <emphasis role="bold">회사 관리 &gt; 회사
+      정보 &gt; 브랜드</emphasis>에서 회사의 로고를 등록하면 이메일 템플릿에 회사의 로고가 함께 적용됩니다</para>
+    </tip>
+
+    <para><emphasis role="bold">새 알림 템플릿 추가하는 방법</emphasis></para>
+
+    <para>기존에 등록된 메일/SMS 템플릿 외에 새 알림 템플릿을 추가할 수 있습니다.</para>
+
+    <orderedlist>
+      <listitem>
+        <para>사이드 바에서 <emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis>를
+        클릭합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">알림 템플릿 관리</emphasis> 화면의 오른쪽 상단에 위치한
+        <emphasis role="bold">알림 템플릿 추가</emphasis> 버튼을 클릭합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para>해당하는 <emphasis role="bold">타입</emphasis>을 선택하고 <emphasis
+        role="bold">상태</emphasis>를 선택합니다(<emphasis role="bold">표 템플릿 타입 및 상태
+        참고</emphasis>).</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/notification-template-new.PNG"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">채널</emphasis>(메일 또는 SMS)을 선택하고 <emphasis
+        role="bold">알림 템플릿 이름</emphasis>을 입력합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">헤터</emphasis>와 <emphasis
+        role="bold">푸터</emphasis>를 선택합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para>내용을 작성합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">저장</emphasis> 버튼을 클릭하여 템플릿으로 추가합니다.</para>
+      </listitem>
+    </orderedlist>
   </section>
 </chapter>
