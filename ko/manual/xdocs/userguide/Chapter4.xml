@@ -269,12 +269,6 @@
             <para>문서 제목에는 <emphasis role="bold">$$</emphasis>와 <emphasis
             role="bold">{{</emphasis>를 사용하여 예약어를 추가할 수 있습니다.</para>
 
-            <itemizedlist>
-              <listitem>
-                <para/>
-              </listitem>
-            </itemizedlist>
-
             <para><emphasis role="bold">문서 제목 변경 허용</emphasis>을 체크하면 <emphasis
             role="bold">작성</emphasis> 단계의 문서 처리자가 문서 제목을 수정할 수 있습니다.</para>
           </listitem>
@@ -303,12 +297,6 @@
           <listitem>
             <para>템플릿에서 생성되는 문서에 대해 자동으로 문서번호를 생성할 수 있습니다. 문서번호 표현식 중 원하는 표현식을
             선택하고, 언제 문서번호를 생성할 지 문서번호 채번 시점을 선택합니다.</para>
-
-            <itemizedlist>
-              <listitem>
-                <para/>
-              </listitem>
-            </itemizedlist>
           </listitem>
         </varlistentry>
 
@@ -767,8 +755,7 @@
 
       <para><emphasis role="bold">문서번호 확인하는 방법</emphasis></para>
 
-      <para>생성된 문서번호는 <olink targetdoc="???">문서 컴포넌트를 사용하여 문서 내에 입력</olink>하거나
-      문서 목록에서 확인할 수 있습니다.</para>
+      <para>생성된 문서번호는 문서 컴포넌트를 사용하여 문서 내에 입력하거나 문서 목록에서 확인할 수 있습니다.</para>
 
       <itemizedlist>
         <listitem>
@@ -926,8 +913,6 @@
 
       <para><emphasis role="bold">워크플로우 단계 추가하는 방법</emphasis></para>
 
-      <para>워크플로우는</para>
-
       <orderedlist>
         <listitem>
           <para><emphasis role="bold">워크플로우 설정</emphasis> 탭을 클릭해 이동합니다.</para>
@@ -988,7 +973,7 @@
         <listitem>
           <para><emphasis role="bold">항목 제어</emphasis>는 워크플로우 각 단계별로 수신자가 편집할
           수 있도록 허용하는 <emphasis role="bold">편집 허용</emphasis> 필드와 필수로 입력해야 하는
-          <emphasis role="bold">입력 필수</emphasis> 필드를 설정할 수 있습니다. </para>
+          <emphasis role="bold">입력 필수</emphasis> 필드를 설정할 수 있습니다.</para>
 
           <mediaobject>
             <imageobject>
@@ -1003,8 +988,8 @@
         <listitem>
           <para><emphasis role="bold">알림</emphasis>은 결재, 내부자 처리, 외부자 처리, 완료
           단계에서 각 수신자에게 메일 등으로 문서 처리 요청, 문서 처리, 문서 완료 등의 알림을 보내도록 설정할 수 있습니다.
-          단계별 알림 보내는 시점을 선택하고 <emphasis role="bold">편집</emphasis> 버튼을 클릭해 메일
-          템플릿을 편집할 수 있습니다.<emphasis role="bold">(알림 템플릿 관리 화면
+          단계별 알림 보내는 시점을 선택하고 <emphasis role="bold">편집</emphasis> 버튼을 클릭해 알림
+          메시지 템플릿을 편집할 수 있습니다. <emphasis role="bold">(알림 템플릿 관리 화면
           링크)</emphasis></para>
 
           <mediaobject>
@@ -1013,14 +998,31 @@
                          width="700"/>
             </imageobject>
           </mediaobject>
+
+          <itemizedlist>
+            <listitem>
+              <para>각 단계별 알림 설정 편집에서는 <emphasis role="bold">메일에 PDF 첨부
+              </emphasis>여부를 설정하여 알림 메일 발송시 PDF로 변환된 문서를 첨부할 수 있습니다.</para>
+            </listitem>
+
+            <listitem>
+              <para>완료 단계에서는 <emphasis role="bold">감사추적증명서 첨부</emphasis> 여부를
+              설정할 수 있습니다.</para>
+            </listitem>
+          </itemizedlist>
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold"/></para>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/workflow-mail-template-setting-complete.png"
+                     width="700"/>
+        </imageobject>
+      </mediaobject>
 
       <variablelist>
         <varlistentry>
-          <term>시작: 문서를 작성하는 단계입니다.</term>
+          <term><emphasis role="bold">시작: 문서를 작성하는 단계입니다.</emphasis></term>
 
           <term/>
 
@@ -1034,26 +1036,29 @@
           <listitem>
             <itemizedlist>
               <listitem>
-                <para>단계 이름(공통): 기본 이름으로 설정된 단계의 이름을 변경할 수 있습니다.</para>
+                <para><emphasis role="bold">단계 이름</emphasis>(공통): 기본 이름으로 설정된
+                단계의 이름을 변경할 수 있습니다.</para>
               </listitem>
 
               <listitem>
-                <para>작성 권한 설정: 해당 템플릿으로 문서를 작성할 수 있는 권한을 멤버 또는 그룹에게 부여할 수
-                있습니다.</para>
+                <para><emphasis role="bold">작성 권한 설정</emphasis>: 해당 템플릿으로 문서를
+                작성할 수 있는 권한을 멤버 또는 그룹에게 부여할 수 있습니다.</para>
               </listitem>
 
               <listitem>
-                <para>작성할 문서 수 제한하기: 체크하여 해당 템플릿으로 생성되는 최대 문서 개수를 설정할 수
-                습니다.</para>
+                <para><emphasis role="bold">작성할 문서 수 제한하기</emphasis>: 체크하여 해당
+                템플릿으로 생성되는 최대 문서 개수를 설정할 수 습니다.</para>
               </listitem>
 
               <listitem>
-                <para>문서 작성 URL 생성하기: 멤버가 아닌 외부 사용자에게 요청시 이폼사인에 로그인하지 않고 URL을
-                통해 바로 접속하여 문서를 처리할 수 있는 공개 링크를 생성합니다.</para>
+                <para><emphasis role="bold">문서 작성 URL 생성하기</emphasis>: 멤버가 아닌
+                외부 사용자에게 요청시 이폼사인에 로그인하지 않고 URL을 통해 바로 접속하여 문서를 처리할 수 있는 공개
+                링크를 생성합니다.</para>
               </listitem>
 
               <listitem>
-                <para>상태 설정(공통): 이 단계의 상태를 상세하게 설정할 수 있습니다.</para>
+                <para><emphasis role="bold">상태 설정</emphasis>(공통): 단계의 상태를 상세하게
+                설정할 수 있습니다.</para>
               </listitem>
             </itemizedlist>
           </listitem>
@@ -1062,7 +1067,8 @@
 
       <variablelist>
         <varlistentry>
-          <term>결재: 회사 내부 결재자에게 문서 결재를 요청하는 단계입니다.</term>
+          <term><emphasis role="bold">결재: 회사 내부 결재자에게 문서 결재를 요청하는
+          단계입니다.</emphasis></term>
 
           <listitem>
             <mediaobject>
@@ -1074,8 +1080,8 @@
 
             <itemizedlist>
               <listitem>
-                <para>표시 이름: 문서 작성 후 결재 또는 외부자 처리시 표시되는 이름을 설정합니다. 입력을 안할 경우
-                아래와 같이 기본값으로 나타납니다.</para>
+                <para><emphasis role="bold">표시 이름</emphasis>: 문서 작성 후 결재 또는
+                외부자 처리시 표시되는 이름을 설정합니다. 입력을 안할 경우 아래와 같이 기본값으로 나타납니다.</para>
 
                 <mediaobject>
                   <imageobject>
@@ -1089,7 +1095,8 @@
         </varlistentry>
 
         <varlistentry>
-          <term>내부자 처리: 회사 내부 멤버에게 문서 처리를 요청하는 단계입니다.</term>
+          <term><emphasis role="bold">내부자 처리: 회사 내부 멤버에게 문서 처리를 요청하는
+          단계입니다.</emphasis></term>
 
           <listitem>
             <mediaobject>
@@ -1101,22 +1108,24 @@
 
             <itemizedlist>
               <listitem>
-                <para>작성자 설정: 내부자 처리 단계를 처리할 멤버를 설정합니다.</para>
+                <para><emphasis role="bold">작성자 설정</emphasis>: 내부자 처리 단계를 처리할
+                멤버를 설정합니다.</para>
 
                 <itemizedlist>
                   <listitem>
-                    <para>최초 내부자 처리 단계 작성자가 처리: 문서 작성자가 문서를 처리하도록
-                    설정합니다.</para>
+                    <para><emphasis role="bold">최초 내부자 처리 단계 작성자가
+                    처리</emphasis>: 문서 작성자가 문서를 처리하도록 설정합니다.</para>
                   </listitem>
 
                   <listitem>
-                    <para>직전 내부자 처리 단계 작성자가 처리: 직전의 내부 수신자가 문서를 처리하도록
-                    설정합니다.</para>
+                    <para><emphasis role="bold">직전 내부자 처리 단계 작성자가
+                    처리</emphasis>: 직전의 내부 처리자가 문서를 처리하도록 설정합니다.</para>
                   </listitem>
 
                   <listitem>
-                    <para>그룹 및 멤버 중 한 사람이 처리: 그룹 또는 멤버 중 한 사람이 문서를 처리하도록
-                    설정합니다. 그룹 또는 멤버는 여러명을 선택할 수 있습니다.</para>
+                    <para><emphasis role="bold">그룹 및 멤버 중 한 사람이 처리</emphasis>:
+                    그룹 또는 멤버 중 한 사람이 문서를 처리하도록 설정합니다. 그룹 또는 멤버는 여러명을 선택할 수
+                    있습니다.</para>
                   </listitem>
                 </itemizedlist>
               </listitem>
@@ -1127,7 +1136,8 @@
 
       <variablelist>
         <varlistentry>
-          <term>외부자 처리: 멤버가 아닌 외부 사용자에게 문서 처리를 요청하는 단계입니다.</term>
+          <term><emphasis role="bold">외부자 처리: 멤버가 아닌 외부 사용자에게 문서 처리를 요청하는
+          단계입니다.</emphasis></term>
 
           <listitem>
             <mediaobject>
@@ -1163,7 +1173,8 @@
 
       <variablelist>
         <varlistentry>
-          <term>완료: 문서가 모든 워크플로우 단계를 거쳐 최종 완료된 단계입니다.</term>
+          <term><emphasis role="bold">완료: 문서가 모든 워크플로우 단계를 거쳐 최종 완료되는
+          단계입니다.</emphasis></term>
 
           <listitem>
             <mediaobject>
@@ -1195,58 +1206,57 @@
       <para><emphasis role="bold">필드 설정</emphasis>에서는 템플릿에 들어가는 필드의 기본값 또는
       자동입력 값을 설정하고 필드의 순서를 조정할 수 있습니다.</para>
 
-      <para><emphasis role="bold">자동 입력 설정하는 방법</emphasis></para>
-
-      <para>문서에 자주 입력되어야 하는 정보를 미리 저장하고 자동으로 입력되도록 설정할 수 있습니다.</para>
-
-      <para>예를 들어 작성자의 이름, 연락처 등 작성자 정보, 부서명, 책임자, 회사 대표 번호 등 회사 또는 그룹에 대한 정보를
-      미리 저장하여 자동으로 입력되도록 설정할 수 있습니다. 관련 필드의 항목 추가 및 기본 값 설정은 <emphasis
-      role="bold">회사 관리 &gt; 사용자 정의 필드 관리</emphasis>에서 할 수 있습니다.</para>
-
       <figure>
         <title>템플릿 설정 &gt; 필드 설정</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/template-setting-field.PNG"
+            <imagedata fileref="resources/template-field-setting.png"
                        width="700"/>
           </imageobject>
         </mediaobject>
-
-        <para/>
-
-        <orderedlist>
-          <listitem>
-            <para>사용자 정의 필드 관리 화면에서 필드를 추가합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>템플릿 관리 메뉴로 이동합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>템플릿 설정 아이콘을 클릭합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>필드 설정 메뉴로 이동합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>자동 입력이 되도록 설정할 필드의 기본값을 입력합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para>모든 설정을 완료한 후 저장 버튼을 클릭합니다.</para>
-          </listitem>
-
-          <listitem>
-            <para/>
-          </listitem>
-        </orderedlist>
-
-        <para/>
       </figure>
+
+      <para>필드의 기본값은 사용자 정의 필드 관리에 저장되어 있는 회사/그룹/멤버 정보를 입력되도록 설정하거나, 최근 입력값 선택
+      또는 사용자가 직접 입력하도록 설정할 수 있습니다.</para>
+
+      <para/>
+
+      <para><emphasis role="bold">자동 입력 설정하는 방법</emphasis></para>
+
+      <para>문서에 자주 입력하는 정보를 미리 저장하고 자동으로 입력되도록 설정할 수 있습니다.</para>
+
+      <para>예를 들어 작성자의 이름, 연락처 등 작성자 정보, 부서명, 책임자, 회사 대표 번호 등 회사 또는 그룹에 대한 정보를
+      미리 저장하여 자동으로 입력되도록 설정할 수 있습니다. 관련 필드의 항목 추가 및 기본 값 설정은 <emphasis
+      role="bold">회사 관리 &gt; 사용자 정의 필드 관리</emphasis>에서 할 수 있습니다.</para>
+
+      <orderedlist>
+        <listitem>
+          <para><emphasis role="bold">사용자 정의 필드 관리</emphasis> 화면에서 필드를
+          추가합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">템플릿 관리</emphasis> 메뉴로 이동합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">템플릿 설정</emphasis> 아이콘을 클릭합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">필드 설정</emphasis> 메뉴로 이동합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>자동 입력이 되도록 설정할 필드의 기본값을 입력합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para>모든 설정을 완료한 후 <emphasis role="bold">저장</emphasis> 버튼을
+          클릭합니다</para>
+        </listitem>
+      </orderedlist>
     </section>
 
     <section>
@@ -1255,7 +1265,7 @@
       <para>템플릿으로 생성되는 문서를 열람 및 관리할 수 있는 권한이 있는 <emphasis role="bold">문서
       관리자</emphasis>를 설정할 수 있습니다.</para>
 
-      <para>문서 관리자는 멤버 또는 그룹으로 설정할 수 있으며, 관리자 수의 제한은 없습니다.</para>
+      <para>문서 관리자는 멤버 또는 그룹으로 설정할 수 있으며, 관리자 수에 제한은 없습니다.</para>
 
       <figure>
         <title>템플릿 설정 &gt; 문서 관리자 설정</title>
@@ -1311,8 +1321,8 @@
 
       <listitem>
         <para><emphasis role="bold">소유자 변경</emphasis>: 템플릿의 소유자를 변경할 수 있습니다.
-        템플릿 소유자는 템플릿을 생성한 사람으로 자동 지정됩니다. 이후 변경하고자 하면 소유자 변경을 통해 다른 멤버로 소유자를
-        변경할 수 있습니다. 템플릿 소유자는 템플릿 관리 권한을 가진 멤버 중에 선택할 수 있습니다.</para>
+        기본적으로 템플릿 소유자는 템플릿을 생성한 사람으로 자동 지정됩니다. 이후 변경하고자 할 경우 소유자 변경을 통해 다른 멤버로
+        소유자를 변경할 수 있습니다. 템플릿 소유자는 템플릿 관리 권한을 가진 멤버 중에 선택할 수 있습니다.</para>
 
         <mediaobject>
           <imageobject>
@@ -1342,29 +1352,42 @@
   <section>
     <title>템플릿 검색</title>
 
-    <para>템플릿은 Sample 카테고리에 기본 템플릿이 저장됩니다. 카테고리의 생성은 <emphasis role="bold">템플릿
-    설정 &gt; 일반 설정</emphasis>에서 할 수 있습니다.</para>
-
-    <para>템플릿 상태, 카테고리 별로 템플릿을 조회할 수 있습니다. </para>
-
-    <para/>
+    <para>템플릿 관리 화면에서는 템플릿 카테고리별 조회, 검색 등을 할 수 있습니다.</para>
 
     <mediaobject>
       <imageobject>
-        <imagedata fileref="resources/template-category.PNG" width="700"/>
+        <imagedata fileref="resources/template-manage-search.png" width="700"/>
       </imageobject>
     </mediaobject>
 
-    <para>검색어를 입력하여 템플릿을 검색합니다. </para>
+    <variablelist>
+      <varlistentry>
+        <term>① 템플릿 조회</term>
 
-    <para>템플릿 정렬 순서를 템플릿 이름 또는 카테고리 기준으로 오름차순, 내림차순을 설정합니다.</para>
+        <listitem>
+          <para>클릭하여 템플릿 상태, 카테고리 별로 템플릿을 조회할 수 있습니다. <emphasis role="bold">X
+          </emphasis>를 클릭하면 전체 카테고리로 돌아갑니다.</para>
 
-    <para/>
+          <para>템플릿은 Sample 카테고리에 기본 템플릿이 저장됩니다. 카테고리의 생성은 <emphasis
+          role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 할 수 있습니다.</para>
+        </listitem>
+      </varlistentry>
 
-    <para/>
+      <varlistentry>
+        <term><emphasis role="bold">② 템플릿 검색</emphasis></term>
 
-    <para/>
+        <listitem>
+          <para>검색 키워드를 입력하여 템플릿을 검색합니다.</para>
+        </listitem>
+      </varlistentry>
 
-    <para/>
+      <varlistentry>
+        <term>③ 정렬</term>
+
+        <listitem>
+          <para>템플릿 정렬 순서를 템플릿 이름 또는 카테고리 기준으로 오름차순, 내림차순을 설정합니다.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
   </section>
 </chapter>
