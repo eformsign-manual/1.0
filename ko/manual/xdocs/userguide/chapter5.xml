@@ -193,7 +193,7 @@
       문서를 확인할 수 있습니다.</para>
 
       <para>카테고리 검색 콤보박스의 X 아이콘를 누르면 아래와 같이 템플릿에서 설정한 카테고리에 맞춰서 생성된 매뉴얼이 분류되어
-      나타납니다. </para>
+      나타납니다.</para>
 
       <figure>
         <title>카테고리 검색 콤보박스</title>
@@ -209,11 +209,11 @@
 
       <para>검색은 키워드 검색뿐 아니라, 상세 검색을 통해 제목이나 내용을 조합해서 검색하거나, 숫자, 날짜 범위를 지정해 검색,
       사용자 지정 필터를 통한 검색 등 다양한 검색 방법을 제공하고 있습니다. 또한, 사용자 지정 필터를 설정해서 문서의 입력필드 값을
-      상세 검색할 수 있습니다. 또한, 사용자 지정 필터를 통해 숫자의 범위, 날짜의 기간을 설정해서 검색할 수도 있습니다.
-      </para>
+      상세 검색할 수 있습니다. 또한, 사용자 지정 필터를 통해 숫자의 범위, 날짜의 기간을 설정해서 검색할 수도
+      있습니다.</para>
 
       <para>필터를 사용해서 검색 가능한 필터는 다음과 같습니다. 한편, 사용자 지정 필터는 전체 문서함과 문서 관리에서만 사용할
-      수 있습니다. </para>
+      수 있습니다.</para>
 
       <table>
         <title>필터 종류 리스트</title>
@@ -269,7 +269,7 @@
 
               <entry>문서 번호</entry>
 
-              <entry>문서 번호 </entry>
+              <entry>문서 번호</entry>
             </row>
 
             <row>
@@ -315,7 +315,7 @@
             <row>
               <entry>작성자</entry>
 
-              <entry>작성자 </entry>
+              <entry>작성자</entry>
 
               <entry>처리자</entry>
 
@@ -337,7 +337,7 @@
 
               <entry>요청자</entry>
 
-              <entry>단계의 상태 </entry>
+              <entry>단계의 상태</entry>
 
               <entry/>
             </row>
@@ -355,7 +355,7 @@
             <row>
               <entry>단계의 상태</entry>
 
-              <entry>단계의 상태 </entry>
+              <entry>단계의 상태</entry>
 
               <entry/>
 
@@ -379,7 +379,7 @@
 
       <para><emphasis role="bold">사용자 지정 필터 사용 방법</emphasis></para>
 
-      <para>1. 상세 콤보박스에서 “사용자 지정 필터”를 선택합니다. </para>
+      <para>1. 상세 콤보박스에서 “사용자 지정 필터”를 선택합니다.</para>
 
       <figure>
         <title/>
@@ -391,10 +391,10 @@
         </mediaobject>
       </figure>
 
-      <para>2. 필드 이름, 필드 타입, 검색 값을 설정합니다. </para>
+      <para>2. 필드 이름, 필드 타입, 검색 값을 설정합니다.</para>
 
       <para>필드 이름은 기본 값이 빈 값입니다. 검색하고자 하는 문서 입력 필드의 표시이름(=템플릿의 필드 설정 표시이름)을 직접
-      입력해야 합니다. </para>
+      입력해야 합니다.</para>
 
       <note>
         <para>1. 존재하지 않는 문서 입력 필드의 표시이름을 설정해서 검색하면 문서가 조회되지 않습니다.</para>
@@ -409,7 +409,7 @@
         ‘10’으로 기존 설정이 표시됩니다.</para>
       </note>
 
-      <para>필드 타입은 키워드, 범위, 기간 타입 중에 선택합니다. 기본 값은 키워드입니다. </para>
+      <para>필드 타입은 키워드, 범위, 기간 타입 중에 선택합니다. 기본 값은 키워드입니다.</para>
 
       <para>필드 타입 선택에 따라 검색 값으로 표시되는 입력 박스가 다릅니다.</para>
 
@@ -461,8 +461,8 @@
 
           <para>콤마(,)로 구분해서 복수 개의 값을 설정할 수 있습니다. 기본값은 빈 값입니다.</para>
 
-          <para>설정한 텍스트를 포함하는 값이 검색됩니다. 즉, 복수 개 중 하나 이상을 포함하는 문서를 검색합니다.
-          </para>
+          <para>설정한 텍스트를 포함하는 값이 검색됩니다. 즉, 복수 개 중 하나 이상을 포함하는 문서를
+          검색합니다.</para>
 
           <para>예) 필드 이름: 과일 / 필드 타입: 키워드 / 값1: 딸기 , 사과  과일에 ‘딸기’와 ‘사과’ 둘 중
           하나 이상을 포함하는 문서 검색</para>
@@ -476,7 +476,7 @@
 
           <para>설정한 시작 값과 종료 값 사이에 있는 값이 검색됩니다. 범위 값 중 시작 값만 입력한 경우에는 시작 값 이상을
           검색하며, 범위 값 중 종료 값만 입력한 경우에는 종료 값 이하를 검색합니다. 예) 예) 연봉 : 1000~ / 연봉 :
-          ~5000 </para>
+          ~5000</para>
         </listitem>
       </itemizedlist>
 
@@ -484,7 +484,7 @@
         <listitem>
           <para><emphasis role="bold">기간</emphasis></para>
 
-          <para>표시되는 달력에서 날짜의 기간을 설정합니다. 기본값은 1주일의 차이가 있습니다. </para>
+          <para>표시되는 달력에서 날짜의 기간을 설정합니다. 기본값은 1주일의 차이가 있습니다.</para>
 
           <para>설정한 시작일과 종료일 사이에 있는 날짜를 검색합니다.</para>
         </listitem>
@@ -496,8 +496,8 @@
           <imageobject>
             <imagedata fileref="resources/searchplus.png"/>
           </imageobject>
-        </inlinemediaobject>) 버튼을 클릭하면 검색 키워드로 추가되고, 설정한 조건에 따라 문서가 검색됩니다.
-      </para>
+        </inlinemediaobject>) 버튼을 클릭하면 검색 키워드로 추가되고, 설정한 조건에 따라 문서가
+      검색됩니다.</para>
 
       <para/>
 
@@ -513,15 +513,15 @@
       <para><emphasis role="bold">검색 키워드 표시 방법 및 수정/삭제 방법</emphasis></para>
 
       <para>1. 검색 키워드는 <emphasis role="bold">필드 이름 : 값</emphasis>의 형식으로 다음과 같이
-      추가됩니다. </para>
+      추가됩니다.</para>
 
       <itemizedlist>
         <listitem>
-          <para>키워드: “근무형태 : 정규직 , 계약직” </para>
+          <para>키워드: “근무형태 : 정규직 , 계약직”</para>
         </listitem>
 
         <listitem>
-          <para>범위: “근속년수 : 5~10” </para>
+          <para>범위: “근속년수 : 5~10”</para>
         </listitem>
 
         <listitem>
@@ -530,9 +530,9 @@
       </itemizedlist>
 
       <para>2.. 추가한 검색 키워드를 선택해서 사용자 지정 필터를 수정합니다. 수정 시에는 상세 검색 필터 항목이 “사용자 지정
-      필터”로 변경되고 선택한 필터의 필드 이름, 필드 타입, 검색 값이 표시됩니다. </para>
+      필터”로 변경되고 선택한 필터의 필드 이름, 필드 타입, 검색 값이 표시됩니다.</para>
 
-      <para>3. 추가한 검색 키워드는 오른쪽의 X 아이콘을 눌러 삭제합니다. </para>
+      <para>3. 추가한 검색 키워드는 오른쪽의 X 아이콘을 눌러 삭제합니다.</para>
     </section>
 
     <section xml:id="additional_work">
@@ -551,7 +551,7 @@
 
       <para><emphasis role="bold">전체 문서함</emphasis></para>
 
-      <para>미리보기, 반려 요청, 삭제 요청, 요청 취소, 재요청 외 완료 문서 PDF 전송을 할 수 있습니다. </para>
+      <para>미리보기, 반려 요청, 삭제 요청, 요청 취소, 재요청 외 완료 문서 PDF 전송을 할 수 있습니다.</para>
 
       <para><emphasis role="bold">문서 관리</emphasis></para>
 
@@ -600,7 +600,7 @@
           <imageobject>
             <imagedata fileref="resources/download_icon.png"/>
           </imageobject>
-        </inlinemediaobject>) 아이콘을 클릭합니다. </para>
+        </inlinemediaobject>) 아이콘을 클릭합니다.</para>
 
       <para>2. 다운로드할 문서를 선택하고 다운로드 버튼을 클릭합니다.</para>
 
@@ -668,40 +668,112 @@
       <para>문서 작성은 템플릿 관리자가 문서 작성 권한을 준 그룹 및 멤버만 할 수 있습니다.</para>
     </note>
 
-    <para>새 문서 작성하기</para>
+    <para><emphasis role="bold">새 문서 작성하기</emphasis></para>
 
     <para>1 '새 문서 작성' 메뉴로 이동합니다.</para>
 
     <para>2 작성할 템플릿의 작성 아이콘을 클릭합니다.</para>
 
-    <para>3 문서를 작성하고 '작성 완료' 버튼을 클릭합니다.</para>
+    <para/>
+
+    <figure>
+      <title>새 문서 작성 리스트</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/create_newdocument1.png" width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>3 문서를 작성하고 우측 상단의 '작성 완료', '제출' 혹은 '요청' 버튼을 클릭합니다. </para>
+
+    <note>
+      <para>템플릿에 설정되어 있는 워크플로우에 따라 다른 버튼이 나타납니다.</para>
+    </note>
+
+    <para/>
   </section>
 
   <section>
     <title>일괄 작성</title>
 
-    <para>이 작업은 문서작성자 또는 대표관리자 권한이 필요합니다.</para>
-
     <para>일괄 작성 기능을 사용하면 한 번에 여러 장의 문서를 작성할 수 있습니다. 작성을 완료하기 전 미리보기를 통해 작성될
     문서를 확인할 수 있습니다.</para>
 
-    <para>이폼사인에 로그인합니다. 대시보드 메뉴 &gt; 새 문서 작성으로 이동합니다. 작성할 템플릿의 일괄 작성 아이콘을
-    클릭합니다.</para>
+    <note>
+      <para>이 작업은 문서작성자 또는 대표관리자 권한이 필요합니다.</para>
+    </note>
 
-    <para>각 입력항목에 내용을 입력합니다. 오른쪽 상단 미리보기 버튼을 클릭하여 작성된 문서를 확인합니다. 오른쪽 상단 작성 버튼을
-    클릭하여 문서 작성을 완료합니다.</para>
+    <para><emphasis role="bold">일괄 작성하기</emphasis></para>
 
-    <para>일괄 작성 화면에 나타나는 표는 무엇인가요? 문서의 입력항목이 각각의 열로 표시된 표입니다. 템플릿의 입력항목인
-    컴포넌트들의 ID가 각 열의 제목으로 나타납니다. 첫번째 열인 번호 열 가장 하단 행의 숫자가 작성될 문서의 수입니다. 표는 엑셀과
-    비슷한 방법으로 입력합니다. 각 셀을 더블클릭하여 내용을 입력하고 마우스 오른쪽을 클릭하여 행을 추가하거나 삭제할 수 있습니다. 셀에
-    입력된 값을 복사 – 붙여넣기, 끌어서 입력하기를 할 수 있습니다.</para>
+    <para>1 '새 문서 작성' 메뉴로 이동합니다. </para>
 
-    <para>템플릿에 외부자 처리 단계가 있는 경우 표의 가장 왼쪽에 파란색 영역이 나타납니다. 이 영역은 요청을 보낼 외부자의 이름,
-    이메일 등을 입력하는 곳입니다. 외부자 처리 단계 설정에 따라 휴대폰 번호, 인증 비밀번호 등을 입력할 수 있습니다.</para>
+    <para>2. 작성할 템플릿의 일괄 작성 아이콘을 클릭합니다.</para>
 
-    <para>템플릿의 입력항목 중 일부가 나타나지 않습니다. 일괄 작성 화면에 나타나지 않는 입력항목이 있다면, 아래 두가지 경우를
-    확인해야 합니다. 일괄 작성에서 입력할 수 없는 컴포넌트 : 카메라, 녹음, 그룹으로 묶인 선택 컴포넌트는 일괄 작성으로 작성할 수
-    없는 컴포넌트입니다. 작성 단계에서 접근 허용된 컴포넌트 확인 : 템플릿 관리 &gt; 템플릿 설정(⚙) &gt; 워크플로우 설정
-    &gt; 작성 단계에 접근 허용된 컴포넌트만 나타납니다.</para>
+    <para/>
+
+    <figure>
+      <title>일괄 작성 아이콘</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/bulk-creation-icon.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>3. 화면에 나타나는 각 입력항목에 내용을 입력합니다. </para>
+
+    <figure>
+      <title>일괄 작성 화면</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/bulk_create.png" width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para/>
+
+    <note>
+      <para>문서의 입력항목이 각각의 열로 표시된 표입니다. 템플릿의 입력항목인 컴포넌트들의 ID가 각 열의 제목으로 나타납니다.
+      첫번째 열인 번호 열 가장 하단 행의 숫자가 작성될 문서의 수입니다. </para>
+
+      <para>표는 엑셀과 비슷한 방법으로 입력합니다. 각 셀을 더블클릭하여 내용을 입력하고 마우스 오른쪽을 클릭하여 행을 추가하거나
+      삭제할 수 있습니다. 셀에 입력된 값을 복사 – 붙여넣기, 끌어서 입력하기를 할 수 있습니다.</para>
+    </note>
+
+    <para>4. 오른쪽 상단 미리보기 버튼을 클릭하여 작성된 문서를 확인하고 작성 버튼을 클릭하여 문서 작성을
+    완료합니다.</para>
+
+    <para/>
+
+    <note>
+      <para>일괄 작성 표에 나타나는 파란색 영역은 요청을 보낼 외부자의 이름, 이메일 등을 입력하는 곳입니다. 외부자 처리 단계
+      설정에 따라 휴대폰 번호, 인증 비밀번호 등을 입력할 수 있습니다.</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/bulk-creation-table-blue-section.png"/>
+        </imageobject>
+      </mediaobject>
+    </note>
+
+    <para/>
+
+    <tip>
+      <para>템플릿의 입력항목 중 일부가 일괄 작성 화면에 나타나지 않는 경우에는 아래 두가지 경우를 확인해야 합니다.
+      </para>
+
+      <para>1. 일괄 작성에서 입력할 수 없는 컴포넌트 : 카메라, 녹음, 그룹으로 묶인 선택 컴포넌트는 일괄 작성으로 작성할 수
+      없는 컴포넌트입니다. </para>
+
+      <para>2. 작성 단계에서 접근 허용된 컴포넌트 확인 : 템플릿 관리 &gt; 템플릿 설정(⚙) &gt; 워크플로우 설정
+      &gt; 작성 단계에 접근 허용된 컴포넌트만 나타납니다.</para>
+    </tip>
+
+    <para/>
   </section>
 </chapter>
