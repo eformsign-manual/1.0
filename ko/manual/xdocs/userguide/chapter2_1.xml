@@ -391,8 +391,9 @@
             수 있습니다.</para>
 
             <note>
-              <para>내 정보에서는 회사정보를 확인만 할 수 있으며, 회사 관련 정보의 수정은 회사 관리 메뉴에서 할 수
-              있습니다. 회사 정보 수정은 대표 관리자 또는 회사 관리 권한이 있는 회원만 가능합니다.</para>
+              <para>내 정보에서는 회사정보를 확인만 할 수 있으며, 회사 관련 정보의 수정은 <emphasis
+              role="bold">회사 관리 &gt; 회사 정보</emphasis> 메뉴에서 할 수 있습니다. 회사 정보 수정은
+              대표 관리자 또는 회사 관리 권한이 있는 회원만 가능합니다.</para>
             </note>
           </listitem>
         </varlistentry>
@@ -402,8 +403,8 @@
     <section>
       <title>회사 정보 수정 및 추가</title>
 
-      <para>내 정보에서 확인가능한 회사 정보는 <emphasis role="bold">회사 관리 &gt; 회사
-      정보</emphasis>에서 수정할 수 있습니다.</para>
+      <para><emphasis role="bold">내 정보</emphasis>에서 확인가능한 회사 정보는 <emphasis
+      role="bold">회사 관리 &gt; 회사 정보</emphasis>에서 수정할 수 있습니다.</para>
 
       <note>
         <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
@@ -466,8 +467,7 @@
         <para>로고와 심볼 모두 회사를 대표하는 이미지입니다. 로고는 대체로 브랜드명을 기재하는 가로로 긴 형식, 심볼은
         이미지만으로 표현한 정사각형 형식입니다.</para>
 
-        <para>이폼사인에서도 로고는 512 x 128의 가로이미지, 심볼은 120 x 120의 정사각형 이미지를 권장하고
-        있습니다.</para>
+        <para>로고는 512 x 128의 가로이미지, 심볼은 120 x 120의 정사각형 이미지를 권장합니다.</para>
       </note>
 
       <para><emphasis role="bold">회사 로고 등록하는 방법</emphasis></para>
@@ -667,7 +667,7 @@
     <section>
       <title>회사 관리 권한</title>
 
-      <para>회사 관리자는 <emphasis role="bold">회사관리 </emphasis>메뉴에 접근 권한을 가지며, 회사와
+      <para>회사 관리자는 <emphasis role="bold">회사 관리 </emphasis>메뉴에 접근 권한을 가지며, 회사와
       관련된 정보 및 멤버/그룹등의 정보를 열람, 수정, 삭제 등을 할 수 있습니다. 회사 관리자는 대표 관리자 또는 회사 관리자가
       멤버에게 권한을 부여할 수 있습니다.</para>
 
@@ -689,7 +689,8 @@
         </listitem>
 
         <listitem>
-          <para>오른쪽 <emphasis role="bold">상세 보기</emphasis>화면 하단의 권한에서
+          <para>오른쪽 <emphasis role="bold">멤버 정보 </emphasis>상세 보기<emphasis
+          role="bold"> </emphasis>화면 하단의 <emphasis role="bold">권한</emphasis>에서
           <emphasis role="bold">회사 관리</emphasis>를 체크합니다.</para>
 
           <mediaobject>
@@ -737,7 +738,8 @@
         </listitem>
 
         <listitem>
-          <para>오른쪽 <emphasis role="bold">상세 보기 </emphasis>화면 하단의 권한에서
+          <para>오른쪽 <emphasis role="bold">멤버 정보 </emphasis>상세 보기<emphasis
+          role="bold"> </emphasis>화면 하단의 <emphasis role="bold">권한</emphasis>에서
           <emphasis role="bold">템플릿 관리 </emphasis>권한을 체크합니다.</para>
 
           <mediaobject>
@@ -801,7 +803,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/document-manager-auth.png"
-                         width="800"/>
+                         width="700"/>
             </imageobject>
           </mediaobject>
         </listitem>
@@ -844,7 +846,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/template-manage-setting.png"
-                         width="800"/>
+                         width="700"/>
             </imageobject>
           </mediaobject>
         </listitem>
@@ -864,7 +866,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/document-creator-auth.png"
-                         width="800"/>
+                         width="700"/>
             </imageobject>
           </mediaobject>
         </listitem>
@@ -1181,7 +1183,15 @@
       </listitem>
 
       <listitem>
-        <para>이미지 영역을 클릭하여 도장 이미지를 선택합니다.</para>
+        <para>이미지 영역을 클릭하면 내 PC에 저장된 이미지를 업로드 할 수 있는 팝업창이 뜹니다. 원하는 도장 이미지를
+        선택합니다.</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/signature-stamp-image-upload.PNG"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
       </listitem>
 
       <listitem>
