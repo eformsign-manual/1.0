@@ -174,13 +174,13 @@
 
       <itemizedlist>
         <listitem>
-          <para>진행 중/처리할/전체 문서함</para>
+          <para><emphasis role="bold">진행 중/처리할/전체 문서함</emphasis></para>
 
           <para>문서함에는 카테고리별 검색창, 문서별 필터, 검색 키워드 창이 좌측 상단에 배치되어 있습니다.</para>
         </listitem>
 
         <listitem>
-          <para>문서 관리함</para>
+          <para><emphasis role="bold">문서 관리</emphasis></para>
 
           <para>문서함에는 카테고리별 검색창, 문서별/상태별 필터, 검색 키워드 창이 좌측 상단에 배치되어
           있습니다.</para>
@@ -670,9 +670,9 @@
 
     <para><emphasis role="bold">새 문서 작성하기</emphasis></para>
 
-    <para>1 '새 문서 작성' 메뉴로 이동합니다.</para>
+    <para>1. '새 문서 작성' 메뉴로 이동합니다.</para>
 
-    <para>2 작성할 템플릿의 작성 아이콘을 클릭합니다.</para>
+    <para>2. 작성할 템플릿의 작성 아이콘을 클릭합니다.</para>
 
     <para/>
 
@@ -686,7 +686,7 @@
       </mediaobject>
     </figure>
 
-    <para>3 문서를 작성하고 우측 상단의 '작성 완료', '제출' 혹은 '요청' 버튼을 클릭합니다. </para>
+    <para>3. 문서를 작성하고 우측 상단의 '작성 완료', '제출' 혹은 '요청' 버튼을 클릭합니다. </para>
 
     <note>
       <para>템플릿에 설정되어 있는 워크플로우에 따라 다른 버튼이 나타납니다.</para>
@@ -756,7 +756,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/bulk-creation-table-blue-section.png"/>
+          <imagedata fileref="resources/bulk-creation-table-blue-section.png"
+                     width="700"/>
         </imageobject>
       </mediaobject>
     </note>

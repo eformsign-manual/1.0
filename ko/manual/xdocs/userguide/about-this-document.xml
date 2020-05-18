@@ -11,17 +11,17 @@
   <bridgehead>안내서의 대상</bridgehead>
 
   <para>본 안내서는 eformsign<superscript>®</superscript>(이하 eformsign)를 사용하고자 하는
-  모든 사용자를 대상으로 기술한다.</para>
+  모든 사용자를 대상으로 기술하고 있습니다.</para>
 
   <para/>
 
   <bridgehead>안내서의 전제 조건</bridgehead>
 
-  <para>본 안내서를 원활하게 이해하기 위해서는 다음과 같은 사항을 미리 알고 있어야 한다.</para>
+  <para>본 안내서를 원활하게 이해하기 위해서는 다음과 같은 사항을 미리 알고 있어야 합니다.</para>
 
   <itemizedlist>
     <listitem>
-      <para>전자문서 시스템애 대한 기본적인 이해</para>
+      <para>전자문서 시스템에 대한 기본적인 이해</para>
     </listitem>
   </itemizedlist>
 
@@ -29,9 +29,7 @@
 
   <bridgehead>안내서의 제한 조건</bridgehead>
 
-  <para>본 안내서는 eformsign를 사용하는데 필요한 필수 사항만을 기술하고 있다.</para>
-
-  <para/>
+  <para>본 안내서는 eformsign를 사용하는데 필요한 필수 사항만을 기술하고 있습니다.</para>
 
   <para/>
 
@@ -39,7 +37,7 @@
 
   <bridgehead>안내서 구성</bridgehead>
 
-  <para>eformsign 사용자 안내서는 총 개의 장으로 구성되어 있다.</para>
+  <para>eformsign 사용자 안내서는 총 6개의 장으로 구성되어 있다.</para>
 
   <para>각 장의 주요 내용은 다음과 같다.</para>
 
@@ -47,43 +45,39 @@
     <listitem>
       <para>제1장: 개요</para>
 
-      <para>eformsign 개요에 대해서 기술한다.</para>
+      <para>eformsign 제품 개요와 기본 용어, 사용 사례에 대해서 기술합니다.</para>
     </listitem>
 
     <listitem>
-      <para>제2장:</para>
+      <para>제2장: 기본 정보</para>
 
-      <para>eformsign 사용법에 대해서 기술한다..</para>
+      <para>eformsign의 메뉴 구성과 기본 정보를 확인하는 방법, 회사의 그룹과 멤버를 관리하는 방법에 대해서
+      설명합니다.</para>
     </listitem>
 
     <listitem>
-      <para>제2장:</para>
+      <para>제3장: 폼 빌더와 컴포넌트</para>
 
-      <para>eformsign 사용법에 대해서 기술한다..</para>
+      <para>eformsign의 폼 빌더 소개 및 사용법과 각각의 컴포넌트의 사용 방법에 대해서 설명합니다.</para>
     </listitem>
 
     <listitem>
-      <para>제2장:</para>
+      <para>제4장: 템플릿</para>
 
-      <para>eformsign 사용법에 대해서 기술한다..</para>
+      <para>eformsign의 템플릿 설정 방법 및 사용 방법에 대해서 설명합니다.</para>
     </listitem>
 
     <listitem>
-      <para>제2장:</para>
+      <para>제5장: 문서</para>
 
-      <para>eformsign 사용법에 대해서 기술한다..</para>
+      <para>eformsign이 제공하는 문서함과 문서함의 사용 방법, 문서 검색 방법에 대해서 설명합니다.</para>
     </listitem>
 
     <listitem>
-      <para>제2장:</para>
+      <para>제6장: 커스터마이즈</para>
 
-      <para>eformsign 사용법에 대해서 기술한다..</para>
-    </listitem>
-
-    <listitem>
-      <para>제2장:</para>
-
-      <para>eformsign 사용법에 대해서 기술한다..</para>
+      <para>eformsign에서 사용자 정의 필드를 생성 및 사용하는 방법과 알림 템플릿을 관리하는 방법에에 대해서
+      설명합니다.</para>
     </listitem>
   </itemizedlist>
 
