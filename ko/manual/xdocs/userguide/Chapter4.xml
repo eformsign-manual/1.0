@@ -11,7 +11,7 @@
   <section>
     <title>템플릿 소개</title>
 
-    <para>템플릿은 이폼사인에서 사용하는 <emphasis role="bold">전자문서 서식</emphasis>을 말합니다. 기존에
+    <para>템플릿은 이폼사인에서 사용하는 <emphasis role="bold">전자문서 서식</emphasis>입니다. 기존에
     종이로 작성하던 계약서, 신청서, 동의서와 같이 기본 서식을 전자문서 형태로 만든 것을 템플릿이라고 합니다. 템플릿은 이폼사인
     폼빌더로 만들고 업로드 할 수 있습니다.</para>
 
@@ -23,10 +23,14 @@
 
       <para><emphasis role="bold">템플릿 만드는 방법</emphasis></para>
 
-      <para>템플릿을 만들기 위해서는 우선 폼빌더를 다운로드 해야합니다. <emphasis role="bold">폼빌더 설치 및
-      사용방법 바로가기(링크 연결)</emphasis></para>
+      <para>템플릿을 만들기 위해서는 우선 폼 빌더를 다운로드 해야합니다. <emphasis role="bold"/></para>
 
-      <para>기존에 워드, 엑셀, 파워포인트 등 마이크로소프트 오피스 문서로 만들어진 파일을 폼빌더를 사용하여 템플릿으로 업로드 할
+      <note>
+        <para>폼 빌더에 대한 상세한 설명은 <emphasis role="bold">3장 폼 빌더와 컴포넌트(링크
+        연결)</emphasis>를 참고하시기 바랍니다.</para>
+      </note>
+
+      <para>기존에 워드, 엑셀, 파워포인트 등 MS Office 문서로 만들어진 파일을 폼 빌더를 사용하여 템플릿으로 업로드 할
       수 있습니다.</para>
 
       <para/>
@@ -480,111 +484,116 @@
             <para><emphasis role="bold">문서 제목 규칙</emphasis> 입력란에 <emphasis
             role="bold">$$</emphasis>를 입력하면 드롭다운 메뉴가 나타나며 아래 정보 중 원하는 정보를 선택할
             수 있습니다.</para>
+
+            <para/>
+
+            <informaltable>
+              <tgroup cols="2">
+                <colspec align="center" colwidth="323*"/>
+
+                <colspec colwidth="677*"/>
+
+                <thead>
+                  <row>
+                    <entry align="center">정보 종류</entry>
+
+                    <entry align="center">설명</entry>
+                  </row>
+                </thead>
+
+                <tbody>
+                  <row>
+                    <entry>현재_날짜</entry>
+
+                    <entry>문서 작성 시점의 날짜 (예. 2020년 02월 20일)</entry>
+                  </row>
+
+                  <row>
+                    <entry>현재_시간</entry>
+
+                    <entry>문서 작성 시점의 시간 (예. 오후 02:59)</entry>
+                  </row>
+
+                  <row>
+                    <entry>현재_날짜시간</entry>
+
+                    <entry>문서 작성 시점의 날짜와 시간 (예. 2020년 02월 20일 오후
+                    02:59)</entry>
+                  </row>
+
+                  <row>
+                    <entry>최초_작성자_ID</entry>
+
+                    <entry>문서를 작성한 멤버의 ID</entry>
+                  </row>
+
+                  <row>
+                    <entry>최초_작성자_이름</entry>
+
+                    <entry>문서를 작성한 멤버의 이름</entry>
+                  </row>
+
+                  <row>
+                    <entry>최초_작성자_부서</entry>
+
+                    <entry>문서를 작성한 멤버의 부서</entry>
+                  </row>
+
+                  <row>
+                    <entry>최초_작성자_회사명</entry>
+
+                    <entry>문서를 작성한 멤버의 회사명</entry>
+                  </row>
+
+                  <row>
+                    <entry>템플릿명</entry>
+
+                    <entry>템플릿 설정 &gt; 일반설정에 입력된 템플릿명</entry>
+                  </row>
+
+                  <row>
+                    <entry>템플릿_약칭</entry>
+
+                    <entry>템플릿 설정 &gt; 일반설정에 입력된 템플릿 약칭</entry>
+                  </row>
+
+                  <row>
+                    <entry>회사명</entry>
+
+                    <entry>회사 관리 &gt; 회사 정보에 입력된 회사명</entry>
+                  </row>
+
+                  <row>
+                    <entry>회사_주소</entry>
+
+                    <entry>회사 관리 &gt; 회사 정보에 입력된 주소</entry>
+                  </row>
+
+                  <row>
+                    <entry>회사_연락처</entry>
+
+                    <entry>회사 관리 &gt; 회사 정보에 입력된 연락처</entry>
+                  </row>
+
+                  <row>
+                    <entry>회사_사업자_등록_번호</entry>
+
+                    <entry>회사 관리 &gt; 회사 정보에 입력된 사업자 등록번호</entry>
+                  </row>
+
+                  <row>
+                    <entry>회사_홈페이지</entry>
+
+                    <entry>회사 관리 &gt; 회사 정보에 입력된 홈페이지 URL</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </informaltable>
           </listitem>
         </varlistentry>
       </variablelist>
 
-      <para><table>
-          <title/>
-
-          <tgroup cols="2">
-            <colspec colwidth="251*"/>
-
-            <colspec colwidth="749*"/>
-
-            <tbody>
-              <row>
-                <entry>정보 종류</entry>
-
-                <entry>설명</entry>
-              </row>
-
-              <row>
-                <entry>현재_날짜</entry>
-
-                <entry>문서 작성 시점의 날짜 (예. 2020년 02월 20일)</entry>
-              </row>
-
-              <row>
-                <entry>현재_시간</entry>
-
-                <entry>문서 작성 시점의 시간 (예. 오후 02:59)</entry>
-              </row>
-
-              <row>
-                <entry>현재_날짜시간</entry>
-
-                <entry>문서 작성 시점의 날짜와 시간 (예. 2020년 02월 20일 오후 02:59)</entry>
-              </row>
-
-              <row>
-                <entry>최초_작성자_ID</entry>
-
-                <entry>문서를 작성한 멤버의 ID</entry>
-              </row>
-
-              <row>
-                <entry>최초_작성자_이름</entry>
-
-                <entry>문서를 작성한 멤버의 이름</entry>
-              </row>
-
-              <row>
-                <entry>최초_작성자_부서</entry>
-
-                <entry>문서를 작성한 멤버의 부서</entry>
-              </row>
-
-              <row>
-                <entry>최초_작성자_회사명</entry>
-
-                <entry>문서를 작성한 멤버의 회사명</entry>
-              </row>
-
-              <row>
-                <entry>템플릿명</entry>
-
-                <entry>템플릿 설정 &gt; 일반설정에 입력된 템플릿명</entry>
-              </row>
-
-              <row>
-                <entry>템플릿_약칭</entry>
-
-                <entry>템플릿 설정 &gt; 일반설정에 입력된 템플릿 약칭</entry>
-              </row>
-
-              <row>
-                <entry>회사명</entry>
-
-                <entry>회사 관리 &gt; 회사 정보에 입력된 회사명</entry>
-              </row>
-
-              <row>
-                <entry>회사_주소</entry>
-
-                <entry>회사 관리 &gt; 회사 정보에 입력된 주소</entry>
-              </row>
-
-              <row>
-                <entry>회사_연락처</entry>
-
-                <entry>회사 관리 &gt; 회사 정보에 입력된 연락처</entry>
-              </row>
-
-              <row>
-                <entry>회사_사업자_등록_번호</entry>
-
-                <entry>회사 관리 &gt; 회사 정보에 입력된 사업자 등록 번호</entry>
-              </row>
-
-              <row>
-                <entry>회사_홈페이지</entry>
-
-                <entry>회사 관리 &gt; 회사 정보에 입력된 홈페이지 URL</entry>
-              </row>
-            </tbody>
-          </tgroup>
-        </table></para>
+      <para/>
 
       <tip>
         <para><emphasis role="bold">문서 제목 변경 허용</emphasis> 여부를 확인하세요!</para>
@@ -858,7 +867,7 @@
           <para><inlinemediaobject>
               <imageobject>
                 <imagedata fileref="resources/doc-number-search.png"
-                           width="700"/>
+                           width="600"/>
               </imageobject>
             </inlinemediaobject></para>
 
@@ -866,7 +875,7 @@
 
           <orderedlist>
             <listitem>
-              <para><emphasis role="bold">문서함</emphasis>이나 <emphasis
+              <para><emphasis role="bold">문서함</emphasis> 또는 <emphasis
               role="bold">문서 관리</emphasis> 메뉴로 이동합니다.</para>
             </listitem>
 
@@ -1086,7 +1095,7 @@
                 <mediaobject>
                   <imageobject>
                     <imagedata fileref="resources/template-approval-property-displayname.png"
-                               width="300"/>
+                               width="250"/>
                   </imageobject>
                 </mediaobject>
               </listitem>
@@ -1149,22 +1158,25 @@
 
             <itemizedlist>
               <listitem>
-                <para>외부자 처리 기한: 일정 기간이 지나면 문서 처리 링크가 만료되도록 설정합니다.</para>
+                <para><emphasis role="bold">외부자 처리 기한</emphasis>: 일정 기간이 지나면
+                문서 처리 링크가 만료되도록 설정합니다.</para>
               </listitem>
 
               <listitem>
-                <para>문서에 입력된 연락처로 요청하기: 외부자에게 문서 요청시 문서에 입력된 정보를 바탕으로 외부 수신자의
-                이름 및 연락처를 자동으로 설정할 수 있습니다.</para>
-              </listitem>
-
-              <listitem>
-                <para>문서 비밀번호 설정하기: 수신자의 이름, 특정 필드 값, 직접 입력해서 발송 등의 방법으로 외부자가
-                문서 처리시 입력해야할 인증 비밀번호를 설정할 수 있습니다.</para>
-              </listitem>
-
-              <listitem>
-                <para>인증 비밀번호 힌트: 외부 수신자가 문서 열람시 비밀번호를 입력할때 표시될 안내 문구를 설정할 수
+                <para><emphasis role="bold">문서에 입력된 연락처로 요청하기</emphasis>:
+                외부자에게 문서 요청시 문서에 입력된 정보를 바탕으로 외부 수신자의 이름 및 연락처를 자동으로 설정할 수
                 있습니다.</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis role="bold">문서 비밀번호 설정하기</emphasis>: 수신자의 이름,
+                특정 필드 값, 직접 입력해서 발송 등의 방법으로 외부자가 문서 처리시 입력해야할 인증 비밀번호를 설정할 수
+                있습니다.</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis role="bold">인증 비밀번호 힌트</emphasis>: 외부 수신자가 문서
+                열람시 비밀번호를 입력할때 표시될 안내 문구를 설정할 수 있습니다.</para>
               </listitem>
             </itemizedlist>
           </listitem>
@@ -1186,13 +1198,13 @@
 
             <itemizedlist>
               <listitem>
-                <para>타임스탬프 적용 설정: 완료된 문서가 그 이후 변경되지 않았음을 증명하는 타임스탬프를
-                설정합니다.</para>
+                <para><emphasis role="bold">타임스탬프 적용 설정</emphasis>: 완료된 문서가 그
+                이후 변경되지 않았음을 증명하는 타임스탬프를 설정합니다.</para>
               </listitem>
 
               <listitem>
-                <para>외부 클라우드 저장소 보관: 드롭박스나 구글드라이브와 같은 외부 클라우드에 완료된 문서를
-                저장합니다.</para>
+                <para><emphasis role="bold">외부 클라우드 저장소 보관</emphasis>: 드롭박스나
+                구글 드라이브와 같은 외부 클라우드에 완료된 문서를 저장합니다.</para>
               </listitem>
             </itemizedlist>
           </listitem>
@@ -1283,12 +1295,13 @@
   <section>
     <title>개별 템플릿 메뉴</title>
 
-    <para>템플릿 관리 화면에서 템플릿 이름 오른쪽에 위치한 메뉴 아이콘(<inlinemediaobject>
+    <para><emphasis role="bold">템플릿 관리</emphasis> 화면에서 템플릿 이름 오른쪽에 위치한 메뉴
+    아이콘(<inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="14"
                      fileref="resources/template-hamburgericon.png"/>
         </imageobject>
-      </inlinemediaobject>)을 클릭하면 각 템플릿 별 설정할 수 있는 메뉴가 나타납니다.</para>
+      </inlinemediaobject>)을 클릭하면 각 템플릿별 설정할 수 있는 메뉴가 나타납니다.</para>
 
     <mediaobject>
       <imageobject>
@@ -1352,7 +1365,8 @@
   <section>
     <title>템플릿 검색</title>
 
-    <para>템플릿 관리 화면에서는 템플릿 카테고리별 조회, 검색 등을 할 수 있습니다.</para>
+    <para><emphasis role="bold">템플릿 관리</emphasis> 화면에서는 템플릿 카테고리별 조회, 검색 등을 할
+    수 있습니다.</para>
 
     <mediaobject>
       <imageobject>
