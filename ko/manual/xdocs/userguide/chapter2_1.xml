@@ -304,7 +304,7 @@
     <para>이폼사인 가입시 입력한 개인 정보 및 내가 등록된 회사의 정보를 확인하려면 사이드바 메뉴의 우측 상단에 있는 햄버거
     아이콘(<inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="17"
+          <imagedata contentwidth="26"
                      fileref="resources/menu-hamberger-icon.png"/>
         </imageobject>
       </inlinemediaobject>)을 클릭하여 확인할 수 있습니다.</para>
@@ -313,7 +313,7 @@
 
     <para>메뉴에서 아이콘(<inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="17"
+          <imagedata contentwidth="26"
                      fileref="resources/menu-hamberger-icon.png"/>
         </imageobject>
       </inlinemediaobject>)을 클릭하면 다음과 같이 하위 메뉴가 표시됩니다</para>
@@ -457,8 +457,8 @@
     <section>
       <title>브랜드</title>
 
-      <para>회사의 로고와 심볼을 등록하여 이폼사인의 대시보드와 사이드바 메뉴, 이메일 템플릿 등에 표시할 수
-      있습니다.</para>
+      <para>회사의 로고와 심볼을 등록하여 이폼사인의 대시보드와 사이드바 메뉴에 표시되도록 할 수 있으며, 문서 요청시 발송되는
+      이메일 템플릿에도 함께 적용됩니다.</para>
 
       <note>
         <para>로고와 심볼의 차이</para>
@@ -550,8 +550,8 @@
   <section>
     <title>권한 구분</title>
 
-    <para>이폼사인은 멤버에게 권한을 부여할 수 있어 총 5 단계로 세분화된 권한별 관리가 가능합니다. 사용자별 권한은 다음과 같이
-    구분됩니다.</para>
+    <para>이폼사인은 멤버에게 권한을 부여할 수 있으며, 총 5 단계로 세분화된 권한별 관리가 가능합니다. 사용자별 권한은 다음과
+    같이 구분됩니다.</para>
 
     <itemizedlist>
       <listitem>
@@ -715,17 +715,9 @@
       <para>템플릿 관리자는 <emphasis role="bold">템플릿 관리</emphasis> 메뉴에 접근 권한을 가지며,
       템플릿을 등록, 수정, 배포, 삭제할 수 있습니다.</para>
 
-      <para>템플릿을 등록한 템플릿 관리자는 해당 템플릿의 템플릿 소유자가 됩니다.</para>
-
-      <para>한 회사에 여러명의 템플릿 관리자가 있는경우 쳄플릿 소유자와 템플릿 관리자가 다를 수 있습니다.</para>
-
-      <para>템플릿 관리자가 템플릿 소유자가 아닌 경우 해당 템플릿의 설정 보기와 템플릿 복제만 할 수 있습니다.</para>
-
-      <tip>
-        <para>템플릿 관리자와 템플릿 소유자의 차이!</para>
-
-        <para/>
-      </tip>
+      <para>템플릿을 등록한 템플릿 관리자는 해당 템플릿의 템플릿 소유자가 됩니다. 템플릿 관리자가 여러 명일 경우 템플릿 소유자와
+      템플릿 관리자가 다를 수 있습니다. 템플릿 관리자가 템플릿 소유자가 아닌 경우 해당 템플릿의 설정 보기와 템플릿 복제만 할 수
+      있습니다.</para>
 
       <para><emphasis role="bold">템플릿 관리 권한 부여하는 방법</emphasis></para>
 
@@ -733,8 +725,6 @@
         <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
         role="bold">템플릿 관리</emphasis>권한이 필요합니다.</para>
       </note>
-
-      <para/>
 
       <orderedlist>
         <listitem>
@@ -832,8 +822,6 @@
 
       <para><emphasis role="bold">문서 작성 권한 부여하는 방법</emphasis></para>
 
-      <para/>
-
       <note>
         <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
         role="bold">템플릿 관리 </emphasis>권한이 필요합니다.</para>
@@ -891,9 +879,8 @@
   <section>
     <title>멤버 및 그룹 관리</title>
 
-    <para>회사 관리 메뉴에서 멤버를 초대, 삭제, 수정 및 그룹 생성, 추가, 삭제 등을 관리할 수 있습니다.</para>
-
-    <para/>
+    <para><emphasis role="bold">회사 관리</emphasis> 메뉴에서는 멤버를 초대, 수정, 삭제 및 그룹 생성,
+    추가, 삭제 등을 관리할 수 있습니다.</para>
 
     <figure>
       <title>회사관리 &gt; 그룹/멤버 관리</title>
@@ -909,7 +896,8 @@
     <section>
       <title>멤버 관리</title>
 
-      <para>멤버 관리 메뉴에서는 멤버를 회사 소속으로 초대하거나, 초대된 멤버를 관리할 수 있습니다.</para>
+      <para><emphasis role="bold">멤버 관리</emphasis> 메뉴에서는 멤버를 회사 소속으로 초대하거나,
+      초대된 멤버를 관리할 수 있습니다.</para>
 
       <para/>
 
@@ -925,7 +913,7 @@
 
       <para><variablelist>
           <varlistentry>
-            <term><emphasis role="bold">① 활성 멤버</emphasis></term>
+            <term>① 활성 멤버</term>
 
             <listitem>
               <para>초대를 수락하여 현재 활성화된 멤버 목록 및 정보를 확인할 수 있습니다.</para>
@@ -933,7 +921,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">② 비활성 멤버</emphasis></term>
+            <term>② 비활성 멤버</term>
 
             <listitem>
               <para>비활성된 멤버 목록 및 정보를 확인할 수 있습니다.</para>
@@ -941,7 +929,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">③ 초대 멤버</emphasis></term>
+            <term>③ 초대 멤버</term>
 
             <listitem>
               <para>초대한 멤버 목록 및 정보를 확인할 수 있습니다.</para>
@@ -949,25 +937,24 @@
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">④ 멤버 목록</emphasis></term>
+            <term>④ 멤버 목록</term>
 
             <listitem>
-              <para>목록에서 멤버를 클릭하여 오른쪽 멤버 정보 탭에서 정보를 확인, 수정하거나 삭제할 수
+              <para>목록에서 멤버를 클릭하여 오른쪽 멤버 정보 탭에서 정보를 확인, 수정할 수 있습니다.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>⑤ 멤버 정보</term>
+
+            <listitem>
+              <para>멤버 정보를 확인할 수 있으며, 멤버 상태 변경, 회사 관리, 템플릿 관리 등 권한을 부여할 수
               있습니다.</para>
             </listitem>
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">⑤ 멤버 정보</emphasis></term>
-
-            <listitem>
-              <para>멤버 정보를 확인할 수 있으며, 멤버 상태 변경, 회사 관리, 템플릿 관리 등 권한을 부여할 수
-              있습니다. .</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term><emphasis role="bold">⑥ 필드 값 설정</emphasis></term>
+            <term>⑥ 필드 값 설정</term>
 
             <listitem>
               <para>멤버와 관련된 필드 값을 설정할 수 있습니다.</para>
@@ -975,7 +962,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">⑦ 문서 이관</emphasis></term>
+            <term>⑦ 문서 이관</term>
 
             <listitem>
               <para>멤버가 이폼사인을 더 이상 사용하지 않는 경우, 해당 멤버가 처리했거나 처리할 문서를 다른 멤버에게
@@ -984,10 +971,10 @@
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">⑧ 멤버 일괄 초대</emphasis></term>
+            <term>⑧ 멤버 일괄 초대</term>
 
             <listitem>
-              <para>멤버 초대시 여러명의 멤버를 한꺼번에 초대할 수 있습니다.</para>
+              <para>멤버 초대시 여러 명의 멤버를 한꺼번에 초대할 수 있습니다.</para>
             </listitem>
           </varlistentry>
 
@@ -998,6 +985,16 @@
               <para>이메일 또는 ID를 사용하여 멤버를 초대할 수 있습니다.</para>
             </listitem>
           </varlistentry>
+
+          <varlistentry>
+            <term>⑩ 멤버 삭제</term>
+
+            <listitem>
+              <para><emphasis role="bold">휴지통</emphasis> 아이콘을 클릭하면 멤버 목록 왼쪽에
+              체크박스가 활성화됩니다. 삭제할 멤버를 체크한 후 <emphasis role="bold">삭제
+              </emphasis>버튼을 클릭하면 멤버가 삭제됩니다.</para>
+            </listitem>
+          </varlistentry>
         </variablelist></para>
 
       <para/>
@@ -1006,10 +1003,8 @@
     <section>
       <title>그룹 관리</title>
 
-      <para>그룹 관리 메뉴에서는 회사내 그룹을 생성할 수 있으며, 그룹 정보 확인, 수정 및 삭제 등을 할 수
+      <para>그룹 관리 메뉴에서는 회사내 그룹을 생성 및 관리할 수 있으며, 그룹 정보 확인, 수정 및 삭제 등을 할 수
       있습니다.</para>
-
-      <para/>
 
       <figure>
         <title>회사관리 &gt; 그룹 관리</title>
@@ -1021,23 +1016,53 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">그룹 정보</emphasis></para>
+      <para/>
 
-      <para>그룹 목록에서 정보를 확인하고자 하는 그룹을 클릭하면 오른쪽 그룹 정보 탭에서 그룹 이름 및 설명을 확인 및 수정할 수
-      있습니다.</para>
+      <variablelist>
+        <varlistentry>
+          <term>① 그룹 정보</term>
 
-      <para><emphasis role="bold">멤버 목록</emphasis></para>
+          <listitem>
+            <para>그룹 목록에서 정보를 확인하고자 하는 그룹을 클릭하면 오른쪽 그룹 정보 탭에서 그룹 이름 및 설명을 확인 및
+            수정할 수 있습니다.</para>
+          </listitem>
+        </varlistentry>
 
-      <para>그룹에 속한 멤버 목록을 보여주며, 멤버를 추가 및 삭제할 수 있습니다.</para>
+        <varlistentry>
+          <term>② 멤버 목록</term>
 
-      <para><emphasis role="bold">필드 값 설정</emphasis></para>
+          <listitem>
+            <para>그룹에 속한 멤버 목록을 보여주며, 멤버를 추가 및 삭제할 수 있습니다.</para>
+          </listitem>
+        </varlistentry>
 
-      <para>그룹과 관련된 필드 값을 설정할 수 있습니다.</para>
+        <varlistentry>
+          <term>③ 필드 값 설정</term>
 
-      <para><emphasis role="bold">그룹 추가</emphasis></para>
+          <listitem>
+            <para>그룹과 관련된 필드 값을 설정할 수 있습니다.</para>
+          </listitem>
+        </varlistentry>
 
-      <para>그룹 추가를 클릭하면<emphasis role="bold"> 그룹 추가 </emphasis>팝업창이 뜨고 그룹 이름 및
-      설명을 입력, 멤버를 검색하여 추가하면 그룹이 생성됩니다.</para>
+        <varlistentry>
+          <term>④ 그룹 추가</term>
+
+          <listitem>
+            <para>그룹 추가를 클릭하면<emphasis role="bold"> 그룹 추가</emphasis> 팝업창이 뜨고
+            그룹 이름 및 설명을 입력, 멤버를 검색하여 추가하면 그룹이 생성됩니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑤ 그룹 삭제</term>
+
+          <listitem>
+            <para><emphasis role="bold">휴지통</emphasis> 아이콘을 클릭하면 그룹 목록 왼쪽에
+            체크박스가 활성화됩니다. 삭제할 그룹을 체크한 후 <emphasis role="bold">삭제
+            </emphasis>버튼을 클릭하면 그룹이 삭제됩니다.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
     </section>
   </section>
 
@@ -1049,10 +1074,8 @@
 
     <para><emphasis role="bold">서명/이니셜 등록하는 방법</emphasis></para>
 
-    <para/>
-
     <note>
-      <para>작업은 <emphasis role="bold">PC, 모바일, 애플리케이션</emphasis>에서 진행할 수
+      <para>이 작업은 <emphasis role="bold">PC, 모바일, 애플리케이션</emphasis>에서 진행할 수
       있습니다.</para>
     </note>
 
@@ -1072,7 +1095,7 @@
       </listitem>
 
       <listitem>
-        <para>서명 등록 버튼을 클릭합니다.</para>
+        <para><emphasis role="bold">서명 등록</emphasis> 버튼을 클릭합니다.</para>
 
         <mediaobject>
           <imageobject>
@@ -1080,8 +1103,6 @@
                        fileref="resources/mysignature-register.png"/>
           </imageobject>
         </mediaobject>
-
-        <para/>
 
         <itemizedlist>
           <listitem>
@@ -1097,7 +1118,7 @@
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">QR 코드로 서명법</emphasis></para>
+            <para><emphasis role="bold">QR 코드로 서명</emphasis></para>
 
             <para>스마트폰 카메라를 통해 QR 코드를 인식하면 서명 패드 화면으로 연결됩니다. 서명 패드에 직접 서명을 그려서
             입력합니다.</para>
@@ -1145,11 +1166,11 @@
 
     <orderedlist>
       <listitem>
-        <para>사이드바 메뉴에서 내 서명으로 이동합니다.</para>
+        <para>사이드바 메뉴에서 <emphasis role="bold">내 서명</emphasis>으로 이동합니다.</para>
       </listitem>
 
       <listitem>
-        <para>도장 등록 버튼을 클릭합니다</para>
+        <para><emphasis role="bold">도장 등록</emphasis> 버튼을 클릭합니다</para>
 
         <mediaobject>
           <imageobject>
@@ -1164,11 +1185,12 @@
       </listitem>
 
       <listitem>
-        <para>확인 버튼을 클릭해 도장을 저장합니다.</para>
+        <para><emphasis role="bold">확인</emphasis> 버튼을 클릭해 도장을 저장합니다.</para>
       </listitem>
 
       <listitem>
-        <para>편집, 삭제 버튼으로 등록된 도장을 편집 또는 삭제합니다.</para>
+        <para><emphasis role="bold">편집, 삭제</emphasis> 버튼으로 등록된 도장을 편집 또는
+        삭제합니다.</para>
       </listitem>
     </orderedlist>
   </section>
