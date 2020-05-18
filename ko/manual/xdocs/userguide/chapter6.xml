@@ -32,7 +32,7 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">① 사용자 정의 필드 관리 &gt; 회사</emphasis></term>
+          <term>① 사용자 정의 필드 관리 &gt; 회사</term>
 
           <listitem>
             <para>회사 대표, 대표 전화번호, 직인 등 회사와 관련된 필드를 추가하고 값을 설정할 수 있습니다.</para>
@@ -40,7 +40,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">② 사용자 정의 필드 관리 &gt; 그룹</emphasis></term>
+          <term>② 사용자 정의 필드 관리 &gt; 그룹</term>
 
           <listitem>
             <para>부서명, 책임자 등 그룹과 관련된 필드를 추가하고 값을 설정할 수 있습니다.</para>
@@ -48,8 +48,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">③ </emphasis><emphasis role="bold">사용자
-          정의 필드 관리 &gt; 멤버</emphasis></term>
+          <term>③ 사용자 정의 필드 관리 &gt; 멤버</term>
 
           <listitem>
             <para>직급, 메일 주소, 전화번호 등 멤버와 관련된 필드를 추가하고 값을 설정할 수 있습니다.</para>
@@ -57,7 +56,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">④ 필드 추가</emphasis></term>
+          <term>④ 필드 추가</term>
 
           <listitem>
             <para>새로운 필드를 추가합니다. 필드 추가 버튼을 클릭하면 사용자 정의 필드를 추가할 수있는 팝업창이 나타납니다.
@@ -79,7 +78,7 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">⑤ 필드 목록</emphasis></term>
+          <term>⑤ 필드 목록</term>
 
           <listitem>
             <para>필드 목록으로 필드 이름과 필드 값을 보여주며, 필드 삭제, 필드값 편집을 할 수 있습니다.</para>
@@ -93,7 +92,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">⑥ 필드 편집</emphasis></term>
+          <term>⑥ 필드 편집</term>
 
           <listitem>
             <para>수정할 필드를 선택하여 수정 아이콘을 클릭하면 사용자 정의 필드 수정 팝업 창이 표시되어 필드 이름, 타입,
@@ -107,15 +106,16 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata contentwidth="695"
-                           fileref="resources/customfield-edit.PNG"/>
+                <imagedata contentwidth="500"
+                           fileref="resources/customfield-edit.PNG"
+                           width="700"/>
               </imageobject>
             </mediaobject>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">⑦ 저장</emphasis></term>
+          <term>⑦ 저장</term>
 
           <listitem>
             <para>사용자 정의 필드 편집이 완료되면<emphasis role="bold"> 저장 </emphasis>버튼을
@@ -223,7 +223,7 @@
 
     <orderedlist>
       <listitem>
-        <para>사이드 바에서 <emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis>를
+        <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis>를
         클릭합니다.</para>
       </listitem>
 
