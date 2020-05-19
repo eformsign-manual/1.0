@@ -29,9 +29,9 @@
 
       <para><screen>$ mkdir /opt/eformsign
 $ cd /opt/eformsign
-// 아래 파일 복사
-eformsign-couchdb-backup   Onpremise-10,2020,0429,300.zip
-eformsign-couchdb-restore  oz-couchdb-last-bakup.tar.gz       sample.zip</screen></para>
+// 전달 받은 압축 파일을 현재 폴더로 복사합니다. '10,2020,0429,300'은 빌드 버전으로, 파일명이 다를 수 있습니다.
+$ cp Onpremise-10,2020,0429,300.zip
+</screen></para>
     </section>
 
     <section xml:base="" xml:id="eformsign_unzip">
@@ -39,11 +39,11 @@ eformsign-couchdb-restore  oz-couchdb-last-bakup.tar.gz       sample.zip</screen
 
       <para>다음의 명령을 실행해 Onpremise-10,2020,0429,300.zip 파일의 압축을 풉니다.</para>
 
-      <para><screen>$ cd /opt/eformsign
-$ mkdir app
-$ cp Onpremise-10,2020,0429,300.zip app/
-$ cd app/
-$ unzip Onpremise-10,2020,0429,300.zip</screen></para>
+      <note>
+        <para>10,2020,0429,300은 빌드 버전으로, 파일명이 다를 수 있습니다. </para>
+      </note>
+
+      <para><screen>$ unzip Onpremise-10,2020,0429,300.zip</screen></para>
     </section>
 
     <section xml:base="" xml:id="storage_config">
@@ -56,7 +56,8 @@ $ mkdir storage
 $ chown -R tomcat:tomcat storage/
 $ chmod -R 750 storage/
 $ cd storage
-$ unzip /opt/eformsign/sample.zip</screen></para>
+$ unzip /opt/eformsign/storagefiles.zip
+</screen></para>
     </section>
 
     <section xml:base="" xml:id="upzip">
@@ -78,12 +79,14 @@ $ unzip /opt/eformsign/sample.zip</screen></para>
 $ rm -rf *
 $ mkdir Daemon Iam Service
 $ chown -R tomcat:tomcat *
+$ chmod –R 750 *
 $ cd Daemon
-$ unzip /opt/eformsign/app/Daemon-10,2020,0429,300.war
+$ unzip /opt/eformsign/Daemon-10,2020,0429,300.war
 $ cd ../Iam
-$ unzip /opt/eformsign/app/Iam-10,2020,0429,300.war
+$ unzip /opt/eformsign/Iam-10,2020,0429,300.war
 $ cd ../Service
-$ unzip /opt/eformsign/app/Service-10,2020,0429,300.war</screen></para>
+$ unzip /opt/eformsign/Service-10,2020,0429,300.war
+</screen></para>
         </listitem>
 
         <listitem>
@@ -93,12 +96,14 @@ $ unzip /opt/eformsign/app/Service-10,2020,0429,300.war</screen></para>
 $ rm -rf *
 $ mkdir Daemon Iam Service
 $ chown -R tomcat:tomcat *
+$ chmod –R 750 *
 $ cd Daemon
-$ unzip /opt/eformsign/app/Daemon-10,2020,0429,300.war
+$ unzip /opt/eformsign/Daemon-10,2020,0429,300.war
 $ cd ../Iam
-$ unzip /opt/eformsign/app/Iam-10,2020,0429,300.war
+$ unzip /opt/eformsign/Iam-10,2020,0429,300.war
 $ cd ../Service
-$ unzip /opt/eformsign/app/Service-10,2020,0429,300.war</screen></para>
+$ unzip /opt/eformsign/Service-10,2020,0429,300.war
+</screen></para>
         </listitem>
 
         <listitem>
@@ -108,13 +113,14 @@ $ unzip /opt/eformsign/app/Service-10,2020,0429,300.war</screen></para>
 $ rm -rf *
 $ mkdir Daemon Iam Service
 $ chown -R tomcat:tomcat *
-$ chown -R tomcat:tomcat *
+$ chmod –R 750 *
 $ cd Daemon
-$ unzip /opt/eformsign/app/Daemon-10,2020,0429,300.war
+$ unzip /opt/eformsign/Daemon-10,2020,0429,300.war
 $ cd ../Iam
-$ unzip /opt/eformsign/app/Iam-10,2020,0429,300.war
+$ unzip /opt/eformsign/Iam-10,2020,0429,300.war
 $ cd ../Service
-$ unzip /opt/eformsign/app/Service-10,2020,0429,300.war</screen></para>
+$ unzip /opt/eformsign/Service-10,2020,0429,300.war
+</screen></para>
         </listitem>
       </itemizedlist>
 
@@ -137,28 +143,21 @@ $ service couchdb stop</screen></para>
 
     <para>계정을 암호화하고 암호화 키 파일을 생성합니다.</para>
 
-    <section>
-      <title>계정 암호화</title>
+    <section xml:id="rs256">
+      <title>계정 암호화 및 키 파일 생성</title>
 
-      <para>다음의 명령을 실행해 계정을 암호화하고 출력 결과를 메모합니다. 암호화된 계정 정보가 출력됩니다.</para>
+      <para>다음의 명령을 실행해 계정을 암호화하고 출력 결과를 메모합니다. 암호화된 계정 정보가 출력됩니다. 암호화된 계정 정보가
+      출력되면 키 파일인 RS256.private<indexterm class="singular">
+          <primary>RS256.private</primary>
+        </indexterm>과 RS256.pub<indexterm class="singular">
+          <primary>RS256.pub</primary>
+        </indexterm> 파일이 생성됩니다.</para>
 
       <para><screen>$ java -jar eformsignGen.jar init
 Enter couchdb ID : CouchDB ID
 Enter couchdb Password : CouchDB PW
 Enter email ID : email ID
 Enter email Password : email PW</screen></para>
-    </section>
-
-    <section xml:id="rs256">
-      <title>암호화 키 파일 생성</title>
-
-      <para>다음의 명령을 실행해 암호화 키 파일인 RS256.private<indexterm class="singular">
-          <primary>RS256.private</primary>
-        </indexterm>, RS256.pub<indexterm class="singular">
-          <primary>RS256.pub</primary>
-        </indexterm> 파일을 생성합니다.</para>
-
-      <para><screen>$ java -jar eformsignRSKeyGen.jar</screen></para>
     </section>
   </section>
 
@@ -208,7 +207,8 @@ $ cd oz-couchdb-1588120413-bakup</screen></para>
         </indexterm> 파일을 수정합니다.</para>
 
       <para><screen>$ vi eformsign-couchdb-restore
-./eformsign-couchdb-backup -r -H localhost -d $filename -f $f -u admin -p password -q -c  // admin , password 부분에 CouchDB ID/PW 입력</screen></para>
+./eformsign-couchdb-backup -r -H localhost -d $filename -f $f -u admin -p password -q -c  // admin , password 부분에 couchdbID, couchdbPW 입력
+</screen></para>
     </section>
 
     <section>
@@ -225,7 +225,10 @@ $ cd oz-couchdb-1588120413-bakup</screen></para>
       <para>CouchDB를 재시작합니다.</para>
 
       <para><screen>$ service couchdb restart
-$ ./eformsign-couchdb-restore</screen></para>
+$ curl -X PUT http://admin:password@localhost:8308/_users // admin:password 부분에 couchdbID:couchdbPW 입력
+$ curl -X PUT http://admin:password@localhost:8308/_replicator // admin:password 부분에 couchdbID:couchdbPW 입력
+$ ./eformsign-couchdb-restore
+</screen></para>
     </section>
   </section>
 
@@ -272,22 +275,43 @@ $ ./eformsign-couchdb-restore</screen></para>
         </indexterm> 파일을 다음과 같이 수정합니다.</para>
 
       <para><screen>$ vi config.properties
-couch.db.url=http://localhost:8308      // 제일 하단에 couch.db.username, couch.db.password를 CouchDB ID, PW 로 입력 후 저장
-couch.db.username= CouchDB ID
+...
+// mail 부분 입력
+mail.host=
+mail.username=
+mail.password=
+mail.port=
+mail.smtp.auth=
+mail.smtp.starttls.enable=
+mail.from.address=
+mail.from.name=
+mail.html=
+
+mail.contacts.address=&lt;사용자 계정 입력&gt;
+mail.redirect.address=&lt;도메인 또는 IP주소 입력&gt;
+
+###########################################
+## DataSource Configuration
+###########################################
+couch.db.url=http://localhost:8308
+couch.db.username= CouchDB ID       // couch.db.username, couch.db.password를 CouchDB ID, PW 로 입력 후 저장
 couch.db.password= CouchDB PW
 couch.db.database=forcs_iam
-couch.db.autoview=true</screen></para>
+couch.db.autoview=true
+</screen></para>
     </section>
 
     <section xml:base="" xml:id="key_copy">
-      <title>암호화 키 파일(RS256.private) 복사</title>
+      <title>암호화 키 파일(RS256.private, RS256.pub) 복사</title>
 
       <para>다음의 명령을 실행해 <emphasis role="bold"><link linkend="rs256"><link
-      xlink:href="rs256" xml:id="rs256">2.2 암호화 키 파일
+      xlink:href="rs256" xml:id="rs256">2.1 계정 암호화 및 키 파일
       생성</link></link></emphasis>에서 생성한 파일인 RS256.private<indexterm
           class="singular">
           <primary>RS256.private</primary>
-        </indexterm>를 복사합니다.</para>
+        </indexterm>과 RS256.pub<indexterm class="singular">
+          <primary>RS256.pub</primary>
+        </indexterm>을 복사합니다.</para>
 
       <itemizedlist>
         <listitem>
@@ -295,7 +319,8 @@ couch.db.autoview=true</screen></para>
 
           <para><screen>$ cd /opt/tomcat/webapps/Iam/WEB-INF/classes/jwt-keys
 $ rm -rf *
-$ cp /opt/eformsign/app/RS256.private .</screen></para>
+$ cp /opt/eformsign/app/RS256.* .
+</screen></para>
         </listitem>
 
         <listitem>
@@ -303,7 +328,8 @@ $ cp /opt/eformsign/app/RS256.private .</screen></para>
 
           <para><screen>$ cd /var/lib/tomcat/webapps/Iam/WEB-INF/classes/jwt-keys
 $ rm -rf *
-$ cp /opt/eformsign/app/RS256.private .</screen></para>
+$ cp /opt/eformsign/RS256.* .
+</screen></para>
         </listitem>
 
         <listitem>
@@ -311,7 +337,8 @@ $ cp /opt/eformsign/app/RS256.private .</screen></para>
 
           <para><screen>$ cd /opt/tomcat/latest/webapps/Iam/WEB-INF/classes/jwt-keys
 $ rm -rf *
-$ cp /opt/eformsign/app/RS256.private .</screen></para>
+$ cp /opt/eformsign/RS256.* .
+</screen></para>
         </listitem>
       </itemizedlist>
 
@@ -366,11 +393,12 @@ $ cp /opt/eformsign/app/RS256.private .</screen></para>
             </indexterm></para>
 
           <para><screen>$ vi aes256.properties
-// 위 '2.1 계정 암호화'에서 생성된 암호화 키(====export Keys====) 입력
-aeskey.couchdbkey= couchdbKey 값 입력
-aeskey.accesskey= accessKey 값 입력
-aeskey.webhoc= webhookKey 값 입력
-aesKey.mailkey= emailKey 값 입력</screen></para>
+// 위 '4.2.1. 계정 암호화 및 키 파일 생성'에서 생성된 암호화 키 입력
+aeskey.couchdb= 
+aeskey.api= 
+aeskey.webhook= 
+aeskey.email=
+</screen></para>
         </listitem>
 
         <listitem>
@@ -379,16 +407,16 @@ aesKey.mailkey= emailKey 값 입력</screen></para>
             </indexterm></para>
 
           <para><screen>$ vi couchDB.properties
-// 위 '2.1 계정 암호화'에서 생성된 암호화 키(==== export encoded ID / PW ====) 입력
-db.user_name_encrypted= encoded couchdb ID 값 입력
-db.password_encrypted= encoded couchdb Password 값 입력
+// 위 '4.2.1. 계정 암호화 및 키 파일 생성'에서 생성된 암호화 키 입력
+db.id_encrypted=
+db.password_encrypted=
 ...
-server.domain=onpremise
-service.url=http://도메인 또는 ip/Service
-service.servicetypehost=http://도메인 또는 ip/Service   
-service.daemonhost=http://도메인 또는 ip/Daemon
-service.homeurl=http://도메인 또는 ip
-service.language=ko-kr,ja-jp,en-us</screen></para>
+server.type=onpremise
+server.service_url=http://도메인 또는 ip/Service
+server.daemon_url=http://도메인 또는 ip/Daemon
+server.home_url=http://도메인 또는 ip
+service.language=ko-kr,ja-jp,en-us
+</screen></para>
         </listitem>
 
         <listitem>
@@ -397,9 +425,10 @@ service.language=ko-kr,ja-jp,en-us</screen></para>
             </indexterm></para>
 
           <para><screen>$ vi forcsCom.properties
-// 위 '2.1 계정 암호화'에서 생성된 암호화 키(==== export encoded ID / PW ====) 입력
-db.user_name_encrypted= encoded couchdb ID 값 입력
-db.password_encrypted= encoded couchdb Password 값 입력</screen></para>
+// 위 '4.2.1. 계정 암호화 및 키 파일 생성'에서 생성된 암호화 키 입력
+db.id_encrypted=
+db.password_encrypted= 
+</screen></para>
         </listitem>
 
         <listitem>
@@ -408,12 +437,14 @@ db.password_encrypted= encoded couchdb Password 값 입력</screen></para>
             </indexterm></para>
 
           <para><screen>$ vi storageConfig.xml
-// 위 '2.1 계정 암호화'에서 생성된 암호화 키(=====export Keys=====) 입력
+…
 &lt;!-- file system --&gt;
         &lt;bean id="storageService" class="oz.service.storage.impl.FileSystemServiceImpl"&gt;
                 &lt;constructor-arg name="_root_path" value=""/&gt;             //_root_path 의 value에 storage path 입력
                 &lt;constructor-arg name="_imgUrl" value=""/&gt;              //_imgUrl 의 value에 domain/Service 입력
-        &lt;/bean&gt;</screen></para>
+        &lt;/bean&gt;
+…
+</screen></para>
         </listitem>
 
         <listitem>
@@ -421,15 +452,17 @@ db.password_encrypted= encoded couchdb Password 값 입력</screen></para>
               <primary>email.propertie</primary>
             </indexterm></para>
 
-          <para><screen>$ vi storageConfig.xml
+          <para><screen>$ vi email.properties
 host : mail 서버 호스트 입력
 port : mail 서버 포트 입력
 account : mail 계정 입력
 password : mail 비밀번호 입력
 prefix : 머릿글 입력(option)
 ssl : mail 서버에 따른 설정 (true / false)
-is_used : true
-secret_key  : emailKey 입력</screen></para>
+// 위 '4.2.1 계정 암호화 및 키 파일 생성'에서 생성된 암호화 키 입력
+account_encrypted : 
+password_encrypted : 
+</screen></para>
         </listitem>
       </itemizedlist>
 
@@ -440,11 +473,11 @@ secret_key  : emailKey 입력</screen></para>
       <title>암호화 키 파일(RS256.pub) 복사</title>
 
       <para>다음의 명령을 실행해 <emphasis role="bold"><link linkend="rs256"><link
-      xlink:href="rs256" xml:id="rs256">2.2 암호화 키 파일
+      xlink:href="rs256" xml:id="rs256">2.1 계정 암호화 및 키 파일
       생성</link></link></emphasis>에서 생성한 파일인 RS256.pub<indexterm
           class="singular">
           <primary>RS256.pub</primary>
-        </indexterm>를 복사합니다.</para>
+        </indexterm>을 복사합니다.</para>
 
       <itemizedlist>
         <listitem>
@@ -452,7 +485,8 @@ secret_key  : emailKey 입력</screen></para>
 
           <para><screen>$ cd /opt/tomcat/webapps/Service/WEB-INF/classes/jwt-keys
 $ rm -rf *
-$ cp /opt/eformsign/app/RS256.pub .</screen></para>
+$ cp /opt/eformsign/RS256.pub .
+</screen></para>
         </listitem>
 
         <listitem>
@@ -460,7 +494,8 @@ $ cp /opt/eformsign/app/RS256.pub .</screen></para>
 
           <para><screen>$ cd /var/lib/tomcat/webapps/Service/WEB-INF/classes/jwt-keys
 $ rm -rf *
-$ cp /opt/eformsign/app/RS256.pub .</screen></para>
+$ cp /opt/eformsign/RS256.pub .
+</screen></para>
         </listitem>
 
         <listitem>
@@ -468,7 +503,8 @@ $ cp /opt/eformsign/app/RS256.pub .</screen></para>
 
           <para><screen>$ cd /opt/tomcat/latest/webapps/Service/WEB-INF/classes/jwt-keys
 $ rm -rf *
-$ cp /opt/eformsign/app/RS256.pub .</screen></para>
+$ cp /opt/eformsign/RS256.pub .
+</screen></para>
         </listitem>
       </itemizedlist>
 
@@ -526,11 +562,12 @@ $ cp /opt/eformsign/app/RS256.pub .</screen></para>
             </indexterm></para>
 
           <para><screen>$ vi aes256.properties
-// 위 '2.1 계정 암호화'에서 생성된 암호화 키(====export Keys====) 입력
-aeskey.couchdbkey= couchdbKey 값 입력
-aeskey.accesskey= accessKey 값 입력
-aeskey.webhoc= webhookKey 값 입력
-aesKey.mailkey= emailKey 값 입력</screen></para>
+// 위 '4.2.1. 계정 암호화 및 키 파일 생성'에서 생성된 암호화 키 입력
+aeskey.couchdb= 
+aeskey.api= 
+aeskey.webhook= 
+aesKey.email= 
+</screen></para>
         </listitem>
 
         <listitem>
@@ -539,16 +576,16 @@ aesKey.mailkey= emailKey 값 입력</screen></para>
             </indexterm></para>
 
           <para><screen>$ vi couchDB.properties
-// 위 '2.1 계정 암호화'에서 생성된 암호화 키(==== export encoded ID / PW ====) 입력
-db.user_name_encrypted= encoded couchdb ID 값 입력
-db.password_encrypted= encoded couchdb Password 값 입력
+// 위 '4.2.1. 계정 암호화 및 키 파일 생성'에서 생성된 암호화 키 입력
+db.id_encrypted= 
+db.password_encrypted= 
 ...
-server.domain=onpremise
-service.url=http://도메인 또는 ip/Service
-service.servicetypehost=http://도메인 또는 ip/Service   
-service.daemonhost=http://도메인 또는 ip/Daemon
-service.homeurl=http://도메인 또는 ip
-service.language=ko-kr,ja-jp,en-us</screen></para>
+server.type=onpremise
+server.service_url=http://도메인 또는 ip/Service
+server.daemon_url=http://도메인 또는 ip/Daemon
+server.home_url=http://도메인 또는 ip
+service.language=ko-kr,ja-jp,en-us
+</screen></para>
         </listitem>
 
         <listitem>
@@ -557,9 +594,10 @@ service.language=ko-kr,ja-jp,en-us</screen></para>
             </indexterm></para>
 
           <para><screen>$ vi forcsCom.properties
-// 위 '2.1 계정 암호화'에서 생성된 암호화 키(==== export encoded ID / PW ====) 입력
-db.user_name_encrypted= encoded couchdb ID 값 입력
-db.password_encrypted= encoded couchdb Password 값 입력</screen></para>
+// 위 '4.2.1. 계정 암호화 및 키 파일 생성'에서 생성된 암호화 키 입력
+db.id_encrypted= 
+db.password_encrypted= 
+</screen></para>
         </listitem>
 
         <listitem>
@@ -568,12 +606,13 @@ db.password_encrypted= encoded couchdb Password 값 입력</screen></para>
             </indexterm></para>
 
           <para><screen>$ vi storageConfig.xml
-// 위 '2.1 계정 암호화'에서 생성된 암호화 키(=====export Keys=====) 입력
-&lt;!-- file system --&gt;
+…
         &lt;bean id="storageService" class="oz.service.storage.impl.FileSystemServiceImpl"&gt;
                 &lt;constructor-arg name="_root_path" value=""/&gt;             //_root_path 의 value에 storage path 입력
                 &lt;constructor-arg name="_imgUrl" value=""/&gt;              //_imgUrl 의 value에 domain/Service 입력
-        &lt;/bean&gt;</screen></para>
+        &lt;/bean&gt;
+…
+</screen></para>
         </listitem>
 
         <listitem>
@@ -581,15 +620,17 @@ db.password_encrypted= encoded couchdb Password 값 입력</screen></para>
               <primary>email.propertie</primary>
             </indexterm></para>
 
-          <para><screen>$ vi storageConfig.xml
+          <para><screen>$ vi email.properties
 host : mail 서버 호스트 입력
 port : mail 서버 포트 입력
 account : mail 계정 입력
 password : mail 비밀번호 입력
 prefix : 머릿글 입력(option)
 ssl : mail 서버에 따른 설정 (true / false)
-is_used : true
-secret_key  : emailKey 입력</screen></para>
+// 위 '4.2.1 계정 암호화 및 키 파일 생성'에서 생성된 암호화 키 입력
+account_encrypted :
+password_encrypted : 
+</screen></para>
         </listitem>
       </itemizedlist>
 
@@ -645,46 +686,27 @@ $ tar -zvxf /opt/eformsign/app/home-10,2020,0429,300.tar.gz</screen></para>
 
             <para><screen>$ cd /var/www/html/version</screen></para>
           </listitem>
-        </itemizedlist>2. version10,2020,****,***.js 파일을 엽니다.</para>
+        </itemizedlist>2. version10,2020,0429,300.js 파일을 엽니다.</para>
+
+      <note>
+        <para>10,2020,0429,300은 빌드 버전으로, 파일명이 다를 수 있습니다.</para>
+      </note>
 
       <para><screen>$ vi version10,2020,****,***.js</screen></para>
 
       <para>3. 다음과 같이 수정합니다.</para>
 
-      <para><screen>var EFORM_VERSION="10,2020,****,***";
-var EFORM_ANALYTICES="";
-var GTM_VERSION="";
-var OPTION_GOOGLEDRIVE_OAUTH_CLIENT_ID="";
-var OPTION_DROPBOX_OAUTH_CLIENT_ID="";
-var OPTION_BOX_OAUTH_CLIENT_ID="";
-var OPTION_MICROSOFT_OAUTH_CLIENT_ID="";
-var OPTION_GOOGLESHEET_OAUTH_CLEINT_ID="";
-var OPTION_EXCELSHEET_OAUTH_CLIENT_ID="";
-var OPTION_ESSO_GOOGLE_CLIENT_ID="";
-var OPTION_FACEBOOK_APP_ID="";
-var OPTION_LOGIN_URL="/login_private.html";
-var OPTION_OPERATION_LOGIN_URL="/operation/login.html";
-var OPTION_OFFICE_LOGIN_URL="/ozinoffice_pages/ozinoffice_login.html";
-var OPTION_HOME_URL="";
-var OPTION_KR_BLOG_URL="https://www.eformsign.com/kr/blog/";
+      <para><screen>var EFORMSIGN_VERSION="10,2020,****,***";
+var OPTION_KO_BLOG_URL="https://www.eformsign.com/kr/blog/";
 var OPTION_EN_BLOG_URL="https://www.eformsign.com/en/blog/";
 var OPTION_JA_BLOG_URL="https://www.eformsign.com/jp/blog/";
-var OPTION_KR_SUPPORT_URL="https://www.eformsign.com/kr/support/";
+var OPTION_KO_SUPPORT_URL="https://www.eformsign.com/kr/support/";
 var OPTION_EN_SUPPORT_URL="https://www.eformsign.com/en/support/";
 var OPTION_JA_SUPPORT_URL="https://www.eformsign.com/en/support/";
-var OPTION_IS_NICE=false;
-var OPTION_IS_PUSH=false;
-var OPTION_IS_NHN=false;
-var OPTION_IS_TWILIO=false;
-var OPTION_TERMS=false;
-var OPTION_CREATE_DELETE_COMPANY_AND_ACCOUNT=false;
 var OPTION_SERVICE_URL="http://도메인/Service";
 var OPTION_DAEMON_URL="http://도메인/Daemon";
-var OPTION_OPERATION_URL="http://로컬ip";
-var OPTION_LOCATION_NAME="국가명 ex) South Korea";
 var OPTION_LOCATION_CODE="국가코드 ex) kr";
-var OPTION_EXTERNAL_URL="http://도메인";
-var OPTION_CHECK_LICENSE=true;</screen></para>
+</screen></para>
     </section>
   </section>
 
@@ -697,25 +719,31 @@ var OPTION_CHECK_LICENSE=true;</screen></para>
       <listitem>
         <para>RHEL 7</para>
 
-        <para><screen>$ cp ozlicense.xml /opt/tomcat/webapps/Service/WEB-INF/classes/
-$ cp ozlicense.xml /opt/tomcat/webapps/Daemon/WEB-INF/classes/
-$ cp ozlicense.xml /usr/share/nginx/html/plugins/ozhtml5/license/</screen></para>
+        <para><screen>$ cp ozlicense.xml eformsignlicense.xml /opt/tomcat/webapps/Service/WEB-INF/classes/
+$ cp ozlicense.xml eformsignlicense.xml /opt/tomcat/webapps/Daemon/WEB-INF/classes/
+$ cp ozlicense.xml /usr/share/nginx/html/plugins/ozhtml5/license/
+$ cp ozuserservicelicense.xml /usr/share/nginx/html/
+</screen></para>
       </listitem>
 
       <listitem>
         <para>CentOS 7</para>
 
-        <para><screen>$ cp ozlicense.xml /var/lib/tomcat/webapps/Service/WEB-INF/classes/
-$ cp ozlicense.xml /var/lib/tomcat/webapps/Daemon/WEB-INF/classes/
-$ cp ozlicense.xml /usr/share/nginx/html/plugins/ozhtml5/license/</screen></para>
+        <para><screen>$ cp ozlicense.xml eformsignlicense.xml /var/lib/tomcat/webapps/Service/WEB-INF/classes/
+$ cp ozlicense.xml eformsignlicense.xml /var/lib/tomcat/webapps/Daemon/WEB-INF/classes/
+$ cp ozlicense.xml /usr/share/nginx/html/plugins/ozhtml5/license/
+$ cp ozuserservicelicense.xml /usr/share/nginx/html/
+</screen></para>
       </listitem>
 
       <listitem>
         <para>Debian 10</para>
 
-        <para><screen>$ cp ozlicense.xml /opt/tomcat/latest/webapps/Service/WEB-INF/classes/
-$ cp ozlicense.xml /opt/tomcat/latest/webapps/Daemon/WEB-INF/classes/
-$ cp ozlicense.xml /var/www/html/plugins/ozhtml5/license/</screen></para>
+        <para><screen>$ cp ozlicense.xml eformsignlicense.xml /opt/tomcat/latest/webapps/Service/WEB-INF/classes/
+$ cp ozlicense.xml eformsignlicense.xml /opt/tomcat/latest/webapps/Daemon/WEB-INF/classes/
+$ cp ozlicense.xml /var/www/html/plugins/ozhtml5/license/
+$ cp ozuserservicelicense.xml /var/www/html/
+</screen></para>
       </listitem>
     </itemizedlist>
   </section>
@@ -929,9 +957,45 @@ pattern="%h %l %u %t &amp;quot;%r&amp;quot; %s %b" /&gt;
   </section>
 
   <section xml:id="execute_config">
+    <title>GZIP 설정</title>
+
+    <para>1. nginx 내 nginx.conf 파일을 엽니다.</para>
+
+    <screen>$ vi /etc/nginx/nginx.conf</screen>
+
+    <para>2. nginx.conf 파일을 다음과 같이 수정합니다.</para>
+
+    <screen>...
+http {
+...
+    gzip on;
+gzip_vary on;
+    gzip_proxied any;
+    gzip_comp_level 6;
+    gzip_buffers 16 8k;
+    gzip_http_version 1.1;
+    gzip_types text/html text/plain text/css application/json application/javascript text/xml;
+    client_max_body_size 100M;
+...
+}
+</screen>
+  </section>
+
+  <section xml:id="execute_config">
     <title>기동 설정</title>
 
     <para>Service, Daemon, Iam 서버가 정상적으로 설치 및 설정되었는지 확인합니다.</para>
+
+    <section>
+      <title>서버 실행</title>
+
+      <para>각 서버를 실행합니다. </para>
+
+      <para><screen>Service nginx start
+Service couchdb start
+Service tomcat start
+</screen></para>
+    </section>
 
     <section>
       <title>Service</title>
