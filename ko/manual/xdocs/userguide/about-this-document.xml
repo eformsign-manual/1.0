@@ -37,9 +37,9 @@
 
   <bridgehead>안내서 구성</bridgehead>
 
-  <para>eformsign 사용자 안내서는 총 6개의 장으로 구성되어 있다.</para>
+  <para>eformsign 사용자 안내서는 총 6개의 장으로 구성되어 있습니다.</para>
 
-  <para>각 장의 주요 내용은 다음과 같다.</para>
+  <para>각 장의 주요 내용은 다음과 같습니다.</para>
 
   <itemizedlist>
     <listitem>
@@ -205,7 +205,7 @@
           <entry><para><olink targetdoc="installation"
           targetptr="book">eformsign 설치 안내서</olink></para></entry>
 
-          <entry>eformsign을 설치하는 방법에 대해 기술한 안내서이다.</entry>
+          <entry>eformsign을 설치하는 방법에 대해 기술한 안내서입니다.</entry>
         </row>
       </tbody>
     </tgroup>
@@ -224,8 +224,8 @@
   <para><bridgehead>Korea</bridgehead><address>FORCS Co. Ltd (HQ)
 <otheraddr>646, Nonhyeon-ro, Gangnam-gu, Seoul,
 Republic of Korea 06106</otheraddr>
-Tel: 
-Email: <email>ff@forcs.co.kr</email>
+Tel: +82 2 6188 8200
+Email: <email>eformsign@forcs.com</email>
 Web (Korean): <otheraddr><link xlink:href="chapter1.xml">https://www.eformsign.com/kr</link></otheraddr>
 </address></para>
 
@@ -250,8 +250,6 @@ Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/jp
 </otheraddr>Cours Saint-Michel 30B,
 Sint-Michielswarande,
 1040 Etterbeek, Belgium
-Tel: 
-Fax: 
-Email: <email>ff@forcs.co.kr</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">https://www.eformsign.com/kr</link></otheraddr></address></para>
+Email: <email>singapore@forcs.com</email>
+Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/en/</link></otheraddr></address></para>
 </preface>
