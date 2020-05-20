@@ -77,7 +77,8 @@ OpenJDK Runtime Environment (Build 1.8.0_242-b08)
 OpenJDK 64-Bit Server VM (Build 25.242-b08, mixed mode)</screen></para>
 
     <note>
-      <para>단, OS별로 메시지는 다를 수 있습니다.</para>
+      <para>OS별로 메시지는 다를 수 있습니다. 위와 같은 메시지가 표시된다면 Java 환경변수는 설정하지 않으셔도 됩니다. 단,
+      표시되지 않는다면 Java 환경변수 설정을 진행합니다. </para>
     </note>
   </section>
 

@@ -40,7 +40,7 @@ $ cp Onpremise-10,2020,0429,300.zip
       <para>다음의 명령을 실행해 Onpremise-10,2020,0429,300.zip 파일의 압축을 풉니다.</para>
 
       <note>
-        <para>10,2020,0429,300은 빌드 버전으로, 파일명이 다를 수 있습니다. </para>
+        <para>10,2020,0429,300은 빌드 버전으로, 파일명이 다를 수 있습니다.</para>
       </note>
 
       <para><screen>$ unzip Onpremise-10,2020,0429,300.zip</screen></para>
@@ -179,7 +179,8 @@ Enter email Password : email PW</screen></para>
 $ mkdir init-data
 $ cd init-data/
 $ cp /opt/eformsign/eformsign-couchdb-* .
-$ cp /opt/eformsign/oz-couchdb-last-bakup.tar.gz .</screen></para>
+$ cp /opt/eformsign/eformsign-couchdb-default-data.tar.gz .
+</screen></para>
     </section>
 
     <section>
@@ -187,7 +188,7 @@ $ cp /opt/eformsign/oz-couchdb-last-bakup.tar.gz .</screen></para>
 
       <para>다음의 명령을 실행해 CouchDB 파일의 압축을 풉니다.</para>
 
-      <para><screen>$ tar -zxvf oz-couchdb-last-bakup.tar.gz</screen></para>
+      <para><screen>$ tar -zxvf eformsign-couchdb-default-data.tar.gz</screen></para>
     </section>
 
     <section>
@@ -195,8 +196,9 @@ $ cp /opt/eformsign/oz-couchdb-last-bakup.tar.gz .</screen></para>
 
       <para>다음의 명령을 실행해 초기 설정 쉘 스크립트를 복사합니다.</para>
 
-      <para><screen>$ cp eformsign-couchdb-* oz-couchdb-1588120413-bakup
-$ cd oz-couchdb-1588120413-bakup</screen></para>
+      <para><screen>$ cp eformsign-couchdb-* eformsign-couchdb-default-data
+$ cd eformsign-couchdb-default-data
+</screen></para>
     </section>
 
     <section>
@@ -397,7 +399,7 @@ $ cp /opt/eformsign/RS256.* .
 aeskey.couchdb= 
 aeskey.api= 
 aeskey.webhook= 
-aeskey.email=
+aeskey.email= 
 </screen></para>
         </listitem>
 
@@ -566,7 +568,7 @@ $ cp /opt/eformsign/RS256.pub .
 aeskey.couchdb= 
 aeskey.api= 
 aeskey.webhook= 
-aesKey.email= 
+aeskey.email= 
 </screen></para>
         </listitem>
 
@@ -672,7 +674,7 @@ $ tar -zvxf /opt/eformsign/app/home-10,2020,0429,300.tar.gz</screen></para>
     <section>
       <title>버전 설정</title>
 
-      <para>1. Home의 버전 설정을 위해 version 파일로 이동합니다.</para>
+      <para>1. Home의 버전 설정을 위해 version 폴더로 이동합니다.</para>
 
       <para><itemizedlist>
           <listitem>
@@ -711,9 +713,63 @@ var OPTION_LOCATION_CODE="국가코드 ex) kr";
   </section>
 
   <section xml:id="license_config">
+    <title>ozconfig 설정</title>
+
+    <para>1. ozconfig 설정을 위해 html 폴더로 이동합니다.</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>RHEL7 / CentOS 7</para>
+
+        <para><screen>$ cd /usr/share/nginx/html
+</screen></para>
+      </listitem>
+
+      <listitem>
+        <para>Debian 10</para>
+
+        <para><screen>$ cd /var/www/html
+</screen></para>
+      </listitem>
+    </itemizedlist>
+
+    <para>2. ozconfig.xml 파일을 엽니다.</para>
+
+    <para><screen>$ vi ozconfig.xml
+</screen></para>
+
+    <para>3. 다음과 같이 수정합니다. </para>
+
+    <note>
+      <para>localhost 부분은 도메인 혹은 ip로 변경하셔야 합니다.</para>
+    </note>
+
+    <para><screen>&lt;serviceInfo&gt;
+&lt;browser&gt;
+ &lt;preserveCache&gt;false&lt;/preserveCache&gt;
+ &lt;/browser&gt;
+ &lt;pageUrls&gt;
+ &lt;execution&gt;http://localhost/eform/document/ozinoffice_view_service.html&lt;/execution&gt;
+ &lt;download&gt;http://localhost/eform/form/list_form_oz.html&lt;/download&gt;
+ &lt;upload&gt;http://localhost/eform/form/check_form_oz.html&lt;/upload&gt;
+ &lt;propertyPane&gt;http://localhost/ozinoffice_pages/ozinoffice_prop_panel.html&lt;/propertyPane&gt;
+ &lt;/pageUrls&gt;
+ &lt;update&gt;
+ &lt;addInVersion&gt;80.2020.0422.201&lt;/addInVersion&gt;
+ &lt;productVersion&gt;19081901&lt;/productVersion&gt;
+ &lt;downloadUrl&gt;http://localhost/development_tools/office/eformsign_form_builder.exe&lt;/downloadUrl&gt;
+ &lt;/update&gt;
+ &lt;ribbon&gt;
+ &lt;documentInfo&gt;true&lt;/documentInfo&gt;
+ &lt;/ribbon&gt;
+&lt;/serviceInfo&gt;
+</screen></para>
+  </section>
+
+  <section xml:id="license_config">
     <title>License 설정</title>
 
-    <para>다음과 같이 OS별로 라이선스를 설정합니다.</para>
+    <para>발급받은 license 파일이 존재하는 폴더로 이동하여, 다음과 같이 OS별로 라이선스를 설정합니다.</para>
 
     <itemizedlist>
       <listitem>
@@ -989,7 +1045,7 @@ gzip_vary on;
     <section>
       <title>서버 실행</title>
 
-      <para>각 서버를 실행합니다. </para>
+      <para>각 서버를 실행합니다.</para>
 
       <para><screen>Service nginx start
 Service couchdb start
