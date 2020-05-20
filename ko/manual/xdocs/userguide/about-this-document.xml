@@ -115,8 +115,13 @@
           <row>
             <entry><guimenuitem> 진하게</guimenuitem></entry>
 
-            <entry>GUI의 버튼 또는 메뉴 이름, 다른 관련 안내서 또는 안내서 내의 다른 장 및 절 언급, 화면 UI에서
-            입력 항목에 대한 설명, 강조</entry>
+            <entry>GUI의 버튼 또는 메뉴 이름, 화면 UI에서 입력 항목에 대한 설명, 강조</entry>
+          </row>
+
+          <row>
+            <entry>" "(따옴표)</entry>
+
+            <entry>다른 관련 안내서 또는 안내서 내의 다른 장 및 절 언급</entry>
           </row>
 
           <row>

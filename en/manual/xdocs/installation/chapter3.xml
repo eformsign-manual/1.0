@@ -46,29 +46,29 @@
 
       <orderedlist>
         <listitem>
-          <para>Repository를 생성합니다. </para>
+          <para>Repository를 생성합니다.</para>
 
           <itemizedlist>
             <listitem>
               <para>RHEL 7</para>
 
-              <para><screen>$ vi /etc/yum.repos.d/nginx.repo
+              <para><programlisting>$ vi /etc/yum.repos.d/nginx.repo
 [nginx]
 name=nginx repo
 baseurl=https://nginx.org/packages/<emphasis role="bold">rhel</emphasis>/7/$basearch/
 gpgcheck=0
-enabled=1</screen></para>
+enabled=1</programlisting></para>
             </listitem>
 
             <listitem>
               <para>CentOS 7</para>
 
-              <para><screen>$ vi /etc/yum.repos.d/nginx.repo
+              <para><programlisting>$ vi /etc/yum.repos.d/nginx.repo
 [nginx]
 name=nginx repo
 baseurl=http://nginx.org/packages/<emphasis role="bold">centos</emphasis>/7/$basearch/
 gpgcheck=0
-enabled=1</screen></para>
+enabled=1</programlisting></para>
 
               <note>
                 <para>Repository는 RHEL7 과 CentOS7에서만 생성합니다.</para>
@@ -86,13 +86,13 @@ enabled=1</screen></para>
               <listitem>
                 <para>RHEL 7 / CentOS 7</para>
 
-                <para><screen>$ yum install nginx -y</screen></para>
+                <para><programlisting>$ yum install nginx -y</programlisting></para>
               </listitem>
 
               <listitem>
                 <para>Debian 10</para>
 
-                <para><screen>$ apt install nginx -y</screen></para>
+                <para><programlisting>$ apt install nginx -y</programlisting></para>
 
                 <note>
                   <para>Red Hat 계열인 RHEL과 CentOS는 명령어로 yum을 사용하며, Ubuntu 계열인
@@ -109,7 +109,7 @@ enabled=1</screen></para>
 
           <para>OS에 상관없이 다음의 명령을 통해 Nginx를 실행합니다.</para>
 
-          <para><screen>$ service nginx start</screen></para>
+          <para><programlisting>$ service nginx start</programlisting></para>
         </listitem>
 
         <listitem>
@@ -124,23 +124,23 @@ enabled=1</screen></para>
 
                 <para>1. 방화벽 구동 중인지를 확인합니다.</para>
 
-                <para><screen>$ systemctl status firewalld.service</screen></para>
+                <para><programlisting>$ systemctl status firewalld.service</programlisting></para>
 
                 <para>2. 기본 Zone을 확인합니다.</para>
 
-                <para><screen>$ firewall-cmd --get-default-zone</screen>3. 구동
-                중인 방화벽을 확인합니다.</para>
+                <para><programlisting>$ firewall-cmd --get-default-zone</programlisting>3.
+                구동 중인 방화벽을 확인합니다.</para>
 
-                <para><screen>$ firewall-cmd --get-active-zone</screen>4. 열린
-                포트가 있는지를 확인합니다.</para>
+                <para><programlisting>$ firewall-cmd --get-active-zone</programlisting>4.
+                열린 포트가 있는지를 확인합니다.</para>
 
-                <para><screen>$ firewall-cmd --list-ports</screen>5. 80번 포트를
-                엽니다.</para>
+                <para><programlisting>$ firewall-cmd --list-ports</programlisting>5.
+                80번 포트를 엽니다.</para>
 
-                <para><screen>$ firewall-cmd --permanent --zone=public --add-port=80/tcp</screen>6.
+                <para><programlisting>$ firewall-cmd --permanent --zone=public --add-port=80/tcp</programlisting>6.
                 방화벽을 재구동합니다.</para>
 
-                <screen>$ firewall-cmd --reload</screen>
+                <programlisting>$ firewall-cmd --reload</programlisting>
               </listitem>
 
               <listitem>
@@ -148,17 +148,17 @@ enabled=1</screen></para>
 
                 <para>1. 열린 포트가 있는지 확인합니다.</para>
 
-                <para><screen>$ iptables -L</screen></para>
+                <para><programlisting>$ iptables -L</programlisting></para>
 
                 <para>2. 80번 포트를 엽니다.</para>
 
-                <para><screen>$ iptables -I INPUT -p tcp --dport 80 -j ACCEPT</screen>3.
+                <para><programlisting>$ iptables -I INPUT -p tcp --dport 80 -j ACCEPT</programlisting>3.
                 부팅 시 방화벽 설정이 자동 적용 되도록 합니다</para>
 
-                <para><screen>$ apt install iptables-persistent
+                <para><programlisting>$ apt install iptables-persistent
 $ netfilter-persistent save
 $ netfilter-persistent reload
-</screen></para>
+</programlisting></para>
 
                 <para/>
               </listitem>
@@ -213,27 +213,27 @@ $ netfilter-persistent reload
             <listitem>
               <para>RHEL 7</para>
 
-              <para><screen>$ cd /opt
+              <para><programlisting>$ cd /opt
 $ yum install wget unzip -y
 $ wget https://www-us.apache.org/dist/tomcat/tomcat-8/v8.5.54/bin/apache-tomcat-8.5.54.zip
-$ unzip apache-tomcat-8.5.54.zip</screen></para>
+$ unzip apache-tomcat-8.5.54.zip</programlisting></para>
             </listitem>
 
             <listitem>
               <para>CentOS 7</para>
 
-              <para><screen>$ yum -y install tomcat
-$ yum install -y tomcat-webapps tomcat-admin-webapps</screen></para>
+              <para><programlisting>$ yum -y install tomcat
+$ yum install -y tomcat-webapps tomcat-admin-webapps</programlisting></para>
             </listitem>
 
             <listitem>
               <para>Debian 10</para>
 
-              <para><screen>$ cd /tmp
+              <para><programlisting>$ cd /tmp
 $ wget http://apache.mirror.cdnetworks.com/tomcat/tomcat-8/v8.5.54/bin/apache-tomcat-8.5.54.tar.gz
 $ tar -xf apache-tomcat-8.5.54.tar.gz
 $ mv apache-tomcat-8.5.54 /opt/tomcat/
-$ ln -s /opt/tomcat/apache-tomcat-8.5.54 /opt/tomcat/latest</screen></para>
+$ ln -s /opt/tomcat/apache-tomcat-8.5.54 /opt/tomcat/latest</programlisting></para>
             </listitem>
           </itemizedlist>
 
@@ -247,22 +247,22 @@ $ ln -s /opt/tomcat/apache-tomcat-8.5.54 /opt/tomcat/latest</screen></para>
               <listitem>
                 <para>RHEL 7</para>
 
-                <para><screen>$ ln -s /opt/apache-tomcat-8.5.54 /opt/tomcat
+                <para><programlisting>$ ln -s /opt/apache-tomcat-8.5.54 /opt/tomcat
 $ mkdir /var/log/tomcat
 $ rmdir /opt/tomcat/logs
 $ ln -s /var/log/tomcat /opt/tomcat/logs
 $ useradd tomcat
 $ chown -R tomcat:tomcat /opt/apache-tomcat-8.5.54
 $ chown -R tomcat:tomcat /var/log/tomcat
-$ chmod +x /opt/tomcat/bin/*.sh</screen></para>
+$ chmod +x /opt/tomcat/bin/*.sh</programlisting></para>
               </listitem>
 
               <listitem>
                 <para>Debian 10</para>
 
-                <para><screen>$ useradd -m -U -d /opt/tomcat -s /bin/false tomcat
+                <para><programlisting>$ useradd -m -U -d /opt/tomcat -s /bin/false tomcat
 $ chown -R tomcat: /opt/tomcat
-$ sh -c 'chmod +x /opt/tomcat/latest/bin/*.sh'</screen></para>
+$ sh -c 'chmod +x /opt/tomcat/latest/bin/*.sh'</programlisting></para>
               </listitem>
             </itemizedlist></para>
 
@@ -278,7 +278,7 @@ $ sh -c 'chmod +x /opt/tomcat/latest/bin/*.sh'</screen></para>
               <listitem>
                 <para>RHEL 7</para>
 
-                <para><screen>$vi /etc/systemd/system/tomcat.service
+                <para><programlisting>$vi /etc/systemd/system/tomcat.service
 [Unit]
 Description=Tomcat
 After=syslog.target network.target
@@ -293,13 +293,13 @@ ExecStart=/opt/tomcat/bin/catalina.sh start
 ExecStop=/opt/tomcat/bin/catalina.sh stop
   
 [Install]
-WantedBy=multi-user.target</screen></para>
+WantedBy=multi-user.target</programlisting></para>
               </listitem>
 
               <listitem>
                 <para>Debian 10</para>
 
-                <para><screen>$vi /etc/systemd/system/tomcat.service
+                <para><programlisting>$vi /etc/systemd/system/tomcat.service
 [Unit]
 Description=Tomcat 8.5 servlet container
 After=network.target
@@ -322,7 +322,7 @@ ExecStart=/opt/tomcat/latest/bin/startup.sh
 ExecStop=/opt/tomcat/latest/bin/shutdown.sh
   
 [Install]
-WantedBy=multi-user.target</screen></para>
+WantedBy=multi-user.target</programlisting></para>
               </listitem>
             </itemizedlist></para>
 
@@ -334,7 +334,7 @@ WantedBy=multi-user.target</screen></para>
         <listitem>
           <para>다음의 명령을 통해 생성한 서비스 파일을 reload합니다.</para>
 
-          <para><screen>$ systemctl daemon-reload</screen></para>
+          <para><programlisting>$ systemctl daemon-reload</programlisting></para>
         </listitem>
 
         <listitem>
@@ -347,17 +347,17 @@ WantedBy=multi-user.target</screen></para>
               <listitem>
                 <para>RHEL 7 / CentOS 7</para>
 
-                <screen>$ firewall-cmd --zone=public --add-port=8080/tcp --permanent
-$ firewall-cmd --reload</screen>
+                <programlisting>$ firewall-cmd --zone=public --add-port=8080/tcp --permanent
+$ firewall-cmd --reload</programlisting>
               </listitem>
 
               <listitem>
                 <para>Debian 10</para>
 
-                <para><screen>$ iptables -I INPUT -p tcp --dport 8080 -j ACCEPT
+                <para><programlisting>$ iptables -I INPUT -p tcp --dport 8080 -j ACCEPT
 $ netfilter-persistent save
 $ netfilter-persistent reload
-</screen></para>
+</programlisting></para>
               </listitem>
             </itemizedlist></para>
         </listitem>
@@ -367,7 +367,7 @@ $ netfilter-persistent reload
 
           <para>OS에 상관없이 다음의 명령을 통해 Tomcat를 실행합니다.</para>
 
-          <para><screen>$ service tomcat start</screen></para>
+          <para><programlisting>$ service tomcat start</programlisting></para>
         </listitem>
       </orderedlist>
     </section>
@@ -419,9 +419,9 @@ $ netfilter-persistent reload
             <listitem>
               <para>RHEL 7 / CentOS 7</para>
 
-              <para><screen>$ yum update -y
+              <para><programlisting>$ yum update -y
 $ wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-$ yum install -y epel-release-latest-7.noarch.rpm</screen></para>
+$ yum install -y epel-release-latest-7.noarch.rpm</programlisting></para>
             </listitem>
           </itemizedlist>
 
@@ -439,21 +439,21 @@ $ yum install -y epel-release-latest-7.noarch.rpm</screen></para>
               <listitem>
                 <para>RHEL 7 / CentOS 7</para>
 
-                <para><screen>$ vi /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
+                <para><programlisting>$ vi /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
 [bintray--apache-couchdb-rpm]
 name=bintray--apache-couchdb-rpm
 baseurl=http://apache.bintray.com/couchdb-rpm/el7/$basearch/
 gpgcheck=0
 repo_gpgcheck=0
-enabled=1</screen></para>
+enabled=1</programlisting></para>
               </listitem>
 
               <listitem>
                 <para>Debian 10</para>
 
-                <para><screen>$ apt-get install -y apt-transport-https gnupg ca-certificates
+                <para><programlisting>$ apt-get install -y apt-transport-https gnupg ca-certificates
 $ echo "deb https://apache.bintray.com/couchdb-deb buster main" \
-    | sudo tee -a /etc/apt/sources.list.d/couchdb.list</screen></para>
+    | sudo tee -a /etc/apt/sources.list.d/couchdb.list</programlisting></para>
               </listitem>
             </itemizedlist></para>
 
@@ -467,16 +467,16 @@ $ echo "deb https://apache.bintray.com/couchdb-deb buster main" \
               <listitem>
                 <para>RHEL 7 / CentOS 7</para>
 
-                <para><screen>$ yum -y install epel-release &amp;&amp; sudo yum -y install couchdb</screen></para>
+                <para><programlisting>$ yum -y install epel-release &amp;&amp; sudo yum -y install couchdb</programlisting></para>
               </listitem>
 
               <listitem>
                 <para>Debian 10</para>
 
-                <para><screen>$ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
+                <para><programlisting>$ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
   8756C4F765C9AC3CB6B85D62379CE192D401AB61
 $ apt update
-$ install -y couchdb</screen></para>
+$ install -y couchdb</programlisting></para>
               </listitem>
             </itemizedlist></para>
 
@@ -510,20 +510,20 @@ $ install -y couchdb</screen></para>
           <listitem>
             <para>local.ini 파일</para>
 
-            <para><screen>$ vi /opt/couchdb/etc/local.ini
+            <para><programlisting>$ vi /opt/couchdb/etc/local.ini
 [admins]
-admin = mysecretpassword // 제일 하단에 [admins] 내용 주석 제거하고 원하는 ID/PW 로 변경</screen></para>
+admin = mysecretpassword // 제일 하단에 [admins] 내용 주석 제거하고 원하는 ID/PW 로 변경</programlisting></para>
           </listitem>
 
           <listitem>
             <para>default.ini 파일</para>
 
-            <para><screen>[cluster]
+            <para><programlisting>[cluster]
 q=1             // 중간 [cluster] 부분에 q=2, n=3 을 q=1, n=1로 변경 (/cluster 로 검색)
 n=1            
 ...
 [chttpd]
-port = 8308     // port = 5984 를 port = 8308 로 변경</screen></para>
+port = 8308     // port = 5984 를 port = 8308 로 변경</programlisting></para>
           </listitem>
         </itemizedlist></para>
     </section>
@@ -537,13 +537,13 @@ port = 8308     // port = 5984 를 port = 8308 로 변경</screen></para>
           <listitem>
             <para>DB 실행</para>
 
-            <para><screen>$ service couchdb start</screen></para>
+            <para><programlisting>$ service couchdb start</programlisting></para>
           </listitem>
 
           <listitem>
             <para>접속 확인</para>
 
-            <para><screen>$ curl http://localhost:8308</screen></para>
+            <para><programlisting>$ curl http://localhost:8308</programlisting></para>
           </listitem>
         </itemizedlist></para>
     </section>
