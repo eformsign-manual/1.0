@@ -78,7 +78,7 @@ OpenJDK 64-Bit Server VM (Build 25.242-b08, mixed mode)</programlisting></para>
 
     <note>
       <para>OS별로 메시지는 다를 수 있습니다. 위와 같은 메시지가 표시된다면 Java 환경변수는 설정하지 않으셔도 됩니다. 단,
-      표시되지 않는다면 Java 환경변수 설정을 진행합니다. </para>
+      표시되지 않는다면 Java 환경변수 설정을 진행합니다.</para>
     </note>
   </section>
 
@@ -92,8 +92,9 @@ OpenJDK 64-Bit Server VM (Build 25.242-b08, mixed mode)</programlisting></para>
           <para>RHEL 7</para>
 
           <para><programlisting>$ alternatives --config java
-$ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.1.13-3.el7_6.x86_64/bin/java
-$ echo $JAVA_HOME</programlisting></para>
+$ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.1.13-3.el7_6.x86_64
+$ echo $JAVA_HOME
+</programlisting></para>
         </listitem>
 
         <listitem>

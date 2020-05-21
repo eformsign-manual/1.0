@@ -229,11 +229,13 @@ $ yum install -y tomcat-webapps tomcat-admin-webapps</programlisting></para>
             <listitem>
               <para>Debian 10</para>
 
-              <para><programlisting>$ cd /tmp
+              <para><programlisting>$ useradd -m -U -d /opt/tomcat -s /bin/false tomcat
+$ cd /tmp
 $ wget http://apache.mirror.cdnetworks.com/tomcat/tomcat-8/v8.5.54/bin/apache-tomcat-8.5.54.tar.gz
 $ tar -xf apache-tomcat-8.5.54.tar.gz
 $ mv apache-tomcat-8.5.54 /opt/tomcat/
-$ ln -s /opt/tomcat/apache-tomcat-8.5.54 /opt/tomcat/latest</programlisting></para>
+$ ln -s /opt/tomcat/apache-tomcat-8.5.54 /opt/tomcat/latest
+</programlisting></para>
             </listitem>
           </itemizedlist>
 
@@ -248,21 +250,21 @@ $ ln -s /opt/tomcat/apache-tomcat-8.5.54 /opt/tomcat/latest</programlisting></pa
                 <para>RHEL 7</para>
 
                 <para><programlisting>$ ln -s /opt/apache-tomcat-8.5.54 /opt/tomcat
-$ mkdir /var/log/tomcat
-$ rmdir /opt/tomcat/logs
-$ ln -s /var/log/tomcat /opt/tomcat/logs
+$ ln -s /opt/tomcat/logs /var/log/tomcat
 $ useradd tomcat
-$ chown -R tomcat:tomcat /opt/apache-tomcat-8.5.54
+$ chown –R tomcat:tomcat /opt/apache-tomcat-8.5.54
+$ chown -R tomcat:tomcat /opt/tomcat
 $ chown -R tomcat:tomcat /var/log/tomcat
-$ chmod +x /opt/tomcat/bin/*.sh</programlisting></para>
+$ chmod +x /opt/tomcat/bin/*.sh
+</programlisting></para>
               </listitem>
 
               <listitem>
                 <para>Debian 10</para>
 
-                <para><programlisting>$ useradd -m -U -d /opt/tomcat -s /bin/false tomcat
-$ chown -R tomcat: /opt/tomcat
-$ sh -c 'chmod +x /opt/tomcat/latest/bin/*.sh'</programlisting></para>
+                <para><programlisting>$ chown -R tomcat: /opt/tomcat
+$ sh -c 'chmod +x /opt/tomcat/latest/bin/*.sh'
+</programlisting></para>
               </listitem>
             </itemizedlist></para>
 
@@ -476,7 +478,8 @@ $ echo "deb https://apache.bintray.com/couchdb-deb buster main" \
                 <para><programlisting>$ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
   8756C4F765C9AC3CB6B85D62379CE192D401AB61
 $ apt update
-$ install -y couchdb</programlisting></para>
+$ apt install -y couchdb
+</programlisting></para>
               </listitem>
             </itemizedlist></para>
 
@@ -518,12 +521,15 @@ admin = mysecretpassword // 제일 하단에 [admins] 내용 주석 제거하고
           <listitem>
             <para>default.ini 파일</para>
 
-            <para><programlisting>[cluster]
-q=1             // 중간 [cluster] 부분에 q=2, n=3 을 q=1, n=1로 변경 (/cluster 로 검색)
+            <para><programlisting>$ vi /opt/couchdb/etc/default.ini
+[cluster]
+q=2             // 중간 [cluster] 부분에 q=2, n=3 을 q=2, n=1로 변경 (/cluster 로 검색)
 n=1            
 ...
 [chttpd]
-port = 8308     // port = 5984 를 port = 8308 로 변경</programlisting></para>
+port = 8308     // port = 5984 를 port = 8308 로 변경
+
+</programlisting></para>
           </listitem>
         </itemizedlist></para>
     </section>

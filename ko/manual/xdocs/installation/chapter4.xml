@@ -151,11 +151,13 @@ $ service couchdb stop</programlisting></para>
           <primary>RS256.pub</primary>
         </indexterm> 파일이 생성됩니다.</para>
 
-      <para><programlisting>$ java -jar eformsignGen.jar init
+      <para><programlisting>$ cd /opt/eformsign
+$ java -jar eformsignGen.jar init
 Enter couchdb ID : CouchDB ID
 Enter couchdb Password : CouchDB PW
 Enter email ID : email ID
-Enter email Password : email PW</programlisting></para>
+Enter email Password : email PW
+</programlisting></para>
     </section>
   </section>
 
@@ -177,7 +179,6 @@ Enter email Password : email PW</programlisting></para>
 $ mkdir init-data
 $ cd init-data/
 $ cp /opt/eformsign/eformsign-couchdb-* .
-$ cp /opt/eformsign/eformsign-couchdb-default-data.tar.gz .
 </programlisting></para>
     </section>
 
@@ -194,7 +195,8 @@ $ cp /opt/eformsign/eformsign-couchdb-default-data.tar.gz .
 
       <para>다음의 명령을 실행해 초기 설정 쉘 스크립트를 복사합니다.</para>
 
-      <para><programlisting>$ cp eformsign-couchdb-* eformsign-couchdb-default-data
+      <para><programlisting>$ cp eformsign-couchdb-backup eformsign-couchdb-default-data
+$ cp eformsign-couchdb-restore eformsign-couchdb-default-data
 $ cd eformsign-couchdb-default-data
 </programlisting></para>
     </section>
@@ -395,7 +397,7 @@ $ cp /opt/eformsign/RS256.* .
 aeskey.couchdb= 
 aeskey.api= 
 aeskey.webhook= 
-aeskey.email= 
+aeskey.email=
 </programlisting></para>
         </listitem>
 
