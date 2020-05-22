@@ -6,22 +6,23 @@
          xmlns:mml="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>설치 개요</title>
+  <title>Installation Overview</title>
 
-  <para>본 장에서는 eformsign의 특징과 설치 구성 요소에 대해 기술합니다.<indexterm class="singular">
+  <para>This chapter describes the key features of eformsign and its system
+  requirements.<indexterm class="singular">
       <primary>eformsign</primary>
     </indexterm></para>
 
   <section>
-    <title>eformsign의 시스템 모듈 구성</title>
+    <title>Configuring eformsign System Modules</title>
 
-    <para>eformsign은 Home (front), Service server, Daemon server, Iam server,
-    DB의 크게 5가지 모듈로 구성되어 있습니다.</para>
+    <para>eformsign consists of 5 modules: Home (front), Service server,
+    Daemon server, Iam server, and DB.</para>
 
     <para/>
 
     <table>
-      <title>eformsign 모듈 구성</title>
+      <title>eformsign Module Configuration</title>
 
       <tgroup cols="3">
         <colspec align="center" colwidth="150"/>
@@ -30,11 +31,11 @@
 
         <thead>
           <row>
-            <entry align="center">모듈명</entry>
+            <entry align="center">Module Name</entry>
 
-            <entry align="center">역할</entry>
+            <entry align="center">Purpose</entry>
 
-            <entry align="center">비고</entry>
+            <entry align="center">Note</entry>
           </row>
         </thead>
 
@@ -44,9 +45,10 @@
                 <primary>Home</primary>
               </indexterm></entry>
 
-            <entry>UI 프론트 화면 표시</entry>
+            <entry>Displaying UI screen on the front-end</entry>
 
-            <entry>사용자에게 보여질 프론트 화면으로 Web server에 설치됨</entry>
+            <entry>Installed on the web server and displays front-end to
+            users.</entry>
           </row>
 
           <row>
@@ -54,9 +56,10 @@
                 <primary>Service</primary>
               </indexterm></entry>
 
-            <entry>사용자의 요청 처리(동기식)</entry>
+            <entry>Handling synchronous user requests</entry>
 
-            <entry><para>WAS에 설치하며, 사용자의 전반적인 요청에 대한 응답 처리</para></entry>
+            <entry><para>Installed on the WAS and handles user
+            requests.</para></entry>
           </row>
 
           <row>
@@ -64,10 +67,11 @@
                 <primary>Daemon</primary>
               </indexterm></entry>
 
-            <entry>비동기적 요청 처리</entry>
+            <entry>Handling asynchronous user requests</entry>
 
-            <entry><para>WAS에 설치하며, 이메일 등 알림, 일괄 비동기 작성, 문서 PDF 생성 등 비동기적인 배치
-            및 스케줄(Batch, scheduler) 작업에 대한 응답 처리</para></entry>
+            <entry><para>Installed on the WAS and handles asynchronous batch
+            and schedule requests such as email notifications, asynchronous
+            batch processing, and document PDF generation.</para></entry>
           </row>
 
           <row>
@@ -75,52 +79,62 @@
                 <primary>Iam</primary>
               </indexterm></entry>
 
-            <entry>계정 관리</entry>
+            <entry>Managing accounts</entry>
 
-            <entry><para>Oauth 방식으로 사용자의 계정 관리 </para></entry>
+            <entry><para>Manages user accounts in the Oauth
+            method.</para></entry>
           </row>
 
           <row>
             <entry>DB</entry>
 
-            <entry>수집 데이터 저장 및 보관</entry>
+            <entry>Storing collected data</entry>
 
-            <entry><para>3개의 서버가 사용하는 DB로 데이터를 통합 저장 및 관리하며 생성 문서에 대한 풀 텍스트 검색
-            등에 활용</para></entry>
+            <entry><para>Unified database used by 3 servers for storing and
+            managing data. It is utilized for performing full-text searches of
+            created documents.</para></entry>
           </row>
         </tbody>
       </tgroup>
     </table>
 
     <note>
-      <para>eformsign을 설치 및 사용하기 위해서는 Web Server, WAS, DBMS 설치를 통해 서버 환경을 구성해
-      놓아야 합니다. </para>
+      <para>To install and use eformsign, the server environment must be
+      configured by installing a web server, WAS, and DBMS.</para>
     </note>
   </section>
 
   <section>
-    <title>설치 유형</title>
+    <title>Installation Methods</title>
 
-    <para>사용자 수에 따라 monolithic 방식부터 모듈을 분산시켜 서버를 구성하는 방식이 다 가능합니다.</para>
+    <para>eformsign supports both monolithic and distributed methods of server
+    configuration according to the number of users. The monolithic method has
+    the advantage of minimizing server construction cost, but has the
+    disadvantage of not being able to perform fail-overs.</para>
 
-    <para>일체형 방식의 경우 서버 구축 비용을 최소화할 수 있는 장점이 있는 반면 문제 발생 시 fail-over가 되지 않는
-    단점이 있습니다. DB와 WAS도 서버 한 대에 구성하는 것과 각각 다른 서버에 구성해 안정성을 확보하는 이중화 방식을 둘 다
-    지원합니다. 사용자 수가 많고 트래픽이 다량으로 발생하는 경우에 대비해 Auto Scale도 지원 가능합니다.</para>
+    <para>When using the distributed method, the DB and WAS can be configured
+    on the same server, or can be configured on separate servers for
+    stability. Auto scaling is supported to automatically scale up or down
+    according to user count and traffic size.</para>
 
     <note>
-      <para>사용자 수에 따른 서버 구축 방식에 대해서는 별도 문의가 필요합니다.</para>
+      <para>For inquiry on how to construct servers according to user count,
+      contact us at eformsign@forcs.com.</para>
     </note>
 
     <para/>
   </section>
 
   <section>
-    <title>시스템 최소 및 권장 요건</title>
+    <title>Minimum and Recommended System Requirements</title>
 
-    <para>다음은 eformsign 설치를 위한 하드웨어 및 소프트웨어에 대한 최소 및 권장 요건에 설명입니다.</para>
+    <para>The following tables describe the minimum and recommended
+    requirements (hardware and software) for installing eformsign.</para>
+
+    <para/>
 
     <table>
-      <title>하드웨어 최소 및 권장 사양</title>
+      <title>Minimum and Recommended Hardware Requirements</title>
 
       <tgroup cols="3">
         <colspec align="center" colwidth="150"/>
@@ -129,9 +143,9 @@
           <row>
             <entry align="center"/>
 
-            <entry align="center">최소 사양</entry>
+            <entry align="center">Minimum</entry>
 
-            <entry align="center">권장 사양</entry>
+            <entry align="center">Recommended</entry>
           </row>
         </thead>
 
@@ -139,15 +153,15 @@
           <row>
             <entry>CPU</entry>
 
-            <entry><para>4 Core</para><para>Intel Xeon E5 2620 V3
-            이상</para></entry>
+            <entry><para>4 Core</para><para>Intel Xeon E5 2620 V3 or
+            higher</para></entry>
 
-            <entry><para>8 Core</para><para>Intel Xeon E5 2620 V3
-            이상</para></entry>
+            <entry><para>8 Core</para><para>Intel Xeon E5 2620 V3 or
+            higher</para></entry>
           </row>
 
           <row>
-            <entry>메모리</entry>
+            <entry>Memory</entry>
 
             <entry>8G</entry>
 
@@ -155,7 +169,7 @@
           </row>
 
           <row>
-            <entry>저장장치</entry>
+            <entry>Storage Device</entry>
 
             <entry><para>HDD 1TB</para></entry>
 
@@ -168,7 +182,7 @@
     <para/>
 
     <table>
-      <title>소프트웨어 최소 및 권장 사양</title>
+      <title>Minimum and Recommended Software Requirements</title>
 
       <tgroup cols="3">
         <colspec align="center" colwidth="150"/>
@@ -177,9 +191,9 @@
           <row>
             <entry align="center"/>
 
-            <entry align="center">최소 사양</entry>
+            <entry align="center">Minimum</entry>
 
-            <entry align="center">권장 사양</entry>
+            <entry align="center">Recommended</entry>
           </row>
         </thead>
 
@@ -195,7 +209,7 @@
           <row>
             <entry>WAS</entry>
 
-            <entry>JDK 1.8 이상 지원하는 WAS 시스템</entry>
+            <entry>Any WAS system that supports JDK 1.8 or higher</entry>
 
             <entry>Tomcat 8.5</entry>
           </row>
@@ -203,7 +217,7 @@
           <row>
             <entry>Web Server</entry>
 
-            <entry>Web Server 전체</entry>
+            <entry>All web servers</entry>
 
             <entry>nginx 1.14.2</entry>
           </row>
@@ -220,10 +234,11 @@
     </table>
 
     <note>
-      <para>DB 분리 설치 시에는 서버 장비의 OS는 제한이 없지만, 분리 설치되는 DB 장비의 OS는
-      Debian/RHEL/CentOS여야 합니다.</para>
+      <para>When installing the DB on multiple machines, there is no
+      restriction to the OS of the WAS and web server, but the OS of the DB
+      server must be one of Debian, RHEL, or CentOS.</para>
 
-      <para>도메인을 반드시 생성해야 하며 SSL를 필수로 적용해야 합니다.</para>
+      <para>Also, the domain must be created and SSL must be applied.</para>
     </note>
   </section>
 </chapter>
