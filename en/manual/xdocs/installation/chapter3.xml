@@ -6,16 +6,16 @@
          xmlns:mml="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>설치 전 준비사항 (2): 서버 환경 구성</title>
+  <title>Pre-installation Task 2 - Server Environment Configuration</title>
 
-  <para>본 장에서는eformsign를 설치하기 전에 설치가 필요한 서버 환경구성 소프트웨어를 설치하는 과정에 대해
-  설명합니다.</para>
+  <para>This chapter describes how to install server configuration software as
+  part of the pre-installation tasks for installing eformsign.</para>
 
-  <para>설치 순서는 Web Server, WAS, DB의 순으로 OS별로 모두 동일하며 command 기반으로
-  진행됩니다.</para>
+  <para>The installation proceeds in the order of web server, WAS, and DB (the
+  order is the same for all OS) and is performed by executing commands.</para>
 
   <figure>
-    <title>설치 순서</title>
+    <title>Installation Order</title>
 
     <mediaobject>
       <imageobject>
@@ -27,26 +27,27 @@
   <para/>
 
   <section xml:id="webserver_install">
-    <title>Web Server 설치</title>
+    <title>Installing the Web Server</title>
 
-    <para>본 절에서는 Web Server를 설치하는 과정과 설치를 확인하는 방법에 대해서 설명합니다.</para>
+    <para>This section describes how to install the web server and how to
+    check the installation.</para>
 
-    <para>eformsign은 Web Server로 nginx<indexterm class="singular">
+    <para>eformsign uses nginx<indexterm class="singular">
         <primary>nginx</primary>
-      </indexterm>를 사용합니다.</para>
+      </indexterm> as the web server.</para>
 
     <note>
-      <para>nginx의 권장 사양은 1.14.2 버전입니다.</para>
+      <para>The recommended specification of nginx is version 1.14.2.</para>
     </note>
 
     <section>
-      <title>설치</title>
+      <title>Installing nginx</title>
 
-      <para>nginx를 설치하는 과정은 다음과 같습니다.</para>
+      <para>The process for installing nginx is as follows.</para>
 
       <orderedlist>
         <listitem>
-          <para>Repository를 생성합니다.</para>
+          <para>Create a repository.</para>
 
           <itemizedlist>
             <listitem>
@@ -71,7 +72,7 @@ gpgcheck=0
 enabled=1</programlisting></para>
 
               <note>
-                <para>Repository는 RHEL7 과 CentOS7에서만 생성합니다.</para>
+                <para>Create a repository in RHEL7 and CentOS7 only.</para>
               </note>
             </listitem>
           </itemizedlist>
@@ -80,7 +81,7 @@ enabled=1</programlisting></para>
         </listitem>
 
         <listitem>
-          <para>nginx를 설치합니다.</para>
+          <para>Install nginx.</para>
 
           <para><itemizedlist>
               <listitem>
@@ -95,8 +96,9 @@ enabled=1</programlisting></para>
                 <para><programlisting>$ apt install nginx -y</programlisting></para>
 
                 <note>
-                  <para>Red Hat 계열인 RHEL과 CentOS는 명령어로 yum을 사용하며, Ubuntu 계열인
-                  Debian은 apt를 사용합니다.</para>
+                  <para>RHEL and CentOS (both are Red Hat-based) both use the
+                  'yum' command, and Debian (in which Ubuntu is derived from)
+                  uses the apt command.</para>
                 </note>
               </listitem>
             </itemizedlist></para>
@@ -105,40 +107,44 @@ enabled=1</programlisting></para>
         </listitem>
 
         <listitem>
-          <para>nginx를 실행합니다.</para>
+          <para>Execute nginx.</para>
 
-          <para>OS에 상관없이 다음의 명령을 통해 Nginx를 실행합니다.</para>
+          <para>Execute ngix using the following command regardless of the
+          OS.</para>
 
           <para><programlisting>$ service nginx start</programlisting></para>
         </listitem>
 
         <listitem>
-          <para>방화벽을 엽니다.</para>
+          <para>Open the firewall.</para>
 
-          <para>방화벽 및 포트를 여는 방법은 RHEL 7, CentOS과 Debian 10이 차이가 있습니다. 각 OS에 맞는
-          방법으로 방화벽을 엽니다.</para>
+          <para>The method of opening the firewall and port differs for RHEL
+          7, CentOS, and Debian 10.</para>
+
+          <para>Open the firewall in the method appropriate for each
+          OS.</para>
 
           <para><itemizedlist>
               <listitem>
                 <para>RHEL 7 / CentOS 7</para>
 
-                <para>1. 방화벽 구동 중인지를 확인합니다.</para>
+                <para>1. Check if the firewall is running.</para>
 
                 <para><programlisting>$ systemctl status firewalld.service</programlisting></para>
 
-                <para>2. 기본 Zone을 확인합니다.</para>
+                <para>2. Check the default Zone.</para>
 
                 <para><programlisting>$ firewall-cmd --get-default-zone</programlisting>3.
-                구동 중인 방화벽을 확인합니다.</para>
+                Check for active zones.</para>
 
                 <para><programlisting>$ firewall-cmd --get-active-zone</programlisting>4.
-                열린 포트가 있는지를 확인합니다.</para>
+                Check for open ports.</para>
 
                 <para><programlisting>$ firewall-cmd --list-ports</programlisting>5.
-                80번 포트를 엽니다.</para>
+                Open port number 80.</para>
 
                 <para><programlisting>$ firewall-cmd --permanent --zone=public --add-port=80/tcp</programlisting>6.
-                방화벽을 재구동합니다.</para>
+                Restart the firewall.</para>
 
                 <programlisting>$ firewall-cmd --reload</programlisting>
               </listitem>
@@ -146,14 +152,15 @@ enabled=1</programlisting></para>
               <listitem>
                 <para>Debian 10</para>
 
-                <para>1. 열린 포트가 있는지 확인합니다.</para>
+                <para>1. Check for open ports.</para>
 
                 <para><programlisting>$ iptables -L</programlisting></para>
 
-                <para>2. 80번 포트를 엽니다.</para>
+                <para>2. Open port number 80.</para>
 
                 <para><programlisting>$ iptables -I INPUT -p tcp --dport 80 -j ACCEPT</programlisting>3.
-                부팅 시 방화벽 설정이 자동 적용 되도록 합니다</para>
+                Allow firewall settings to be applied automatically at boot
+                time.</para>
 
                 <para><programlisting>$ apt install iptables-persistent
 $ netfilter-persistent save
@@ -168,15 +175,17 @@ $ netfilter-persistent reload
     </section>
 
     <section>
-      <title>설치 확인</title>
+      <title>Verifying the Installation</title>
 
-      <para>웹 브라우저에 자신의 IP 주소를 입력합니다. 다음과 같은 화면이 나타나면 정상적으로 설치가 된
-      상태입니다.</para>
+      <para>Enter your IP address in a web browser.</para>
+
+      <para>If the following screen is displayed, then the installation is
+      successfully completed.</para>
 
       <para/>
 
       <figure>
-        <title>nginx 설치 확인 화면</title>
+        <title>nginx Installation Verification Screen</title>
 
         <mediaobject>
           <imageobject>
@@ -188,26 +197,28 @@ $ netfilter-persistent reload
   </section>
 
   <section xml:id="unix-install-webtob">
-    <title>WAS 설치</title>
+    <title>Installing WAS</title>
 
-    <para>본 절에서는 WAS를 설치하는 과정과 설치를 확인하는 방법에 대해서 설명합니다.</para>
+    <para>This section describes how to install WAS and verify its
+    installation</para>
 
-    <para>eformsign은 WAS로 Tomcat<indexterm class="singular">
+    <para>eformsign uses Tomcat<indexterm class="singular">
         <primary>Tomcat</primary>
-      </indexterm>을 사용합니다.</para>
+      </indexterm> for the WAS.</para>
 
     <note>
-      <para>Tomcat의 권장 사양은 8.5 버전입니다.</para>
+      <para>The recommended Tomcat specification is version 8.5.</para>
     </note>
 
     <section>
-      <title>설치</title>
+      <title>Installing Tomcat</title>
 
-      <para>Tomcat를 설치하는 과정은 다음과 같습니다.</para>
+      <para>The Tomcat installation process is as follows.</para>
 
       <orderedlist>
         <listitem>
-          <para>OS별로 다음의 명령을 실행해 Tomcat을 설치합니다.</para>
+          <para>Install Tomcat by executing the following command for each
+          OS.</para>
 
           <itemizedlist>
             <listitem>
@@ -243,7 +254,7 @@ $ ln -s /opt/tomcat/apache-tomcat-8.5.54 /opt/tomcat/latest
         </listitem>
 
         <listitem>
-          <para>기본 설정을 하고 user를 생성합니다.</para>
+          <para>Configure the basic settings and create a user.</para>
 
           <para><itemizedlist>
               <listitem>
@@ -269,12 +280,13 @@ $ sh -c 'chmod +x /opt/tomcat/latest/bin/*.sh'
             </itemizedlist></para>
 
           <para><note>
-              <para>이 과정은 RHEL 7과 Debian 10에서만 진행합니다.</para>
+              <para>This process is performed only in RHEL 7 and Debian
+              10.</para>
             </note></para>
         </listitem>
 
         <listitem>
-          <para>서비스 파일을 생성합니다.</para>
+          <para>Create a service file.</para>
 
           <para><itemizedlist>
               <listitem>
@@ -329,21 +341,24 @@ WantedBy=multi-user.target</programlisting></para>
             </itemizedlist></para>
 
           <para><note>
-              <para>이 과정은 RHEL 7과 Debian 10에서만 진행합니다.</para>
+              <para>This process is performed only in RHEL 7 and Debian
+              10.</para>
             </note></para>
         </listitem>
 
         <listitem>
-          <para>다음의 명령을 통해 생성한 서비스 파일을 reload합니다.</para>
+          <para>Reload the service file created with the following
+          command.</para>
 
           <para><programlisting>$ systemctl daemon-reload</programlisting></para>
         </listitem>
 
         <listitem>
-          <para>방화벽을 엽니다.</para>
+          <para>Open the firewall.</para>
 
-          <para>방화벽 및 포트를 여는 방법은 RHEL 7, CentOS과 Debian 10이 차이가 있지만, 공통으로
-          8080번 포트를 엽니다.</para>
+          <para>The method for opening the firewall and port differs between
+          RHEL 7, CentOS, and Debian 10, but the port number is 8080 for all
+          of them.</para>
 
           <para><itemizedlist>
               <listitem>
@@ -365,9 +380,10 @@ $ netfilter-persistent reload
         </listitem>
 
         <listitem>
-          <para>Tomcat을 실행합니다.</para>
+          <para>Execute Tomcat.</para>
 
-          <para>OS에 상관없이 다음의 명령을 통해 Tomcat를 실행합니다.</para>
+          <para>Execute Tomcat with the following command, regardless of the
+          OS.</para>
 
           <para><programlisting>$ service tomcat start</programlisting></para>
         </listitem>
@@ -375,15 +391,15 @@ $ netfilter-persistent reload
     </section>
 
     <section>
-      <title>설치 확인</title>
+      <title>Verifying the Installation</title>
 
-      <para>웹 브라우저에 자신의 IP 주소를 입력합니다. Tomcat이 정상적으로 기동된 경우 다음과 같은 화면이
-      표시됩니다.</para>
+      <para>Enter the your IP address in the web browser. If Tomcat is started
+      normally, then the following screen is displayed.</para>
 
       <para/>
 
       <figure>
-        <title>Tomcat 설치 확인 화면</title>
+        <title>Tomcat Installation Verification Screen</title>
 
         <mediaobject>
           <imageobject>
@@ -396,26 +412,25 @@ $ netfilter-persistent reload
   </section>
 
   <section xml:id="db_install">
-    <title>DB 설치</title>
+    <title>Installing the DB</title>
 
-    <para>본 절에서는 DB를 설치하는 과정과 설치를 확인하는 방법에 대해서 설명합니다.</para>
-
-    <para>eformsign은 DB로 CouchDB<indexterm class="singular">
+    <para>This section describes how to install the DB and how to verify the
+    installation. eformsign CouchDB<indexterm class="singular">
         <primary>CouchDB</primary>
-      </indexterm>를 사용합니다.</para>
+      </indexterm> as the DB.</para>
 
     <note>
-      <para>CouchDB의 권장 사양은 3.0 버전입니다.</para>
+      <para>The recommended specification for CouchDB is version 3.0.</para>
     </note>
 
     <section>
-      <title>설치</title>
+      <title>Installing CouchDB</title>
 
-      <para>CouchDB를 설치하는 과정은 다음과 같습니다.</para>
+      <para>The CouchDB installation process is as follows.</para>
 
       <orderedlist>
         <listitem>
-          <para>EPEL Repository를 생성합니다.</para>
+          <para>Create the EPEL Repository.</para>
 
           <itemizedlist>
             <listitem>
@@ -428,14 +443,17 @@ $ yum install -y epel-release-latest-7.noarch.rpm</programlisting></para>
           </itemizedlist>
 
           <para><note>
-              <para>EPEL은 "Extra Packages of Enterprise Linux"의 줄임말로, Fedora
-              Project에서 제공되는 저장소입니다. 각종 패키지의 최신 버전을 제공하는 community 기반의 저장소로,
-              yum 명령으로는 설치가 되지 않는 최신 버전의 패키지를 사용하고 싶은 경우에 설치해 사용합니다.</para>
+              <para>EPEL is short for Extra Packages of Enterprise Linux and
+              is a repository provided by Fedora Project. It is a
+              community-based storage that provides the latest version of
+              various packages. It can be used to install and use the packages
+              in the latest version that cannot be installed using the 'yum'
+              command.</para>
             </note></para>
         </listitem>
 
         <listitem>
-          <para>CouchDB 패키지 리포지토리를 활성화합니다.</para>
+          <para>Enable the CouchDB package repository.</para>
 
           <para><itemizedlist>
               <listitem>
@@ -463,7 +481,7 @@ $ echo "deb https://apache.bintray.com/couchdb-deb buster main" \
         </listitem>
 
         <listitem>
-          <para>CouchDB 패키지를 설치합니다.</para>
+          <para>Install the CouchDB package.</para>
 
           <para><itemizedlist>
               <listitem>
@@ -483,12 +501,13 @@ $ apt install -y couchdb
               </listitem>
             </itemizedlist></para>
 
-          <para>4. 설치 중 CouchDB type을 선택하라는 창이 뜨면 none을 선택합니다.</para>
+          <para>4. When prompted to select a CouchDB type during installation,
+          select 'none'.</para>
 
           <para/>
 
           <figure>
-            <title>CouchDB의 Type 선택창</title>
+            <title>The CouchDB Type Selection Window</title>
 
             <mediaobject>
               <imageobject>
@@ -501,33 +520,34 @@ $ apt install -y couchdb
     </section>
 
     <section>
-      <title>기본 설정</title>
+      <title>Default Settings</title>
 
-      <para>local.ini<indexterm class="singular">
+      <para>Modify the local.ini<indexterm class="singular">
           <primary>local.ini</primary>
-        </indexterm> 파일과 default.ini<indexterm class="singular">
+        </indexterm> file and the default.ini<indexterm class="singular">
           <primary>default.ini</primary>
-        </indexterm> 파일을 다음과 같이 수정합니다. 수정 방법은 OS별로 동일합니다.</para>
+        </indexterm> file as follows. The method is the same for all
+      OS.</para>
 
       <para><itemizedlist>
           <listitem>
-            <para>local.ini 파일</para>
+            <para>local.ini file</para>
 
             <para><programlisting>$ vi /opt/couchdb/etc/local.ini
 [admins]
-admin = mysecretpassword // 제일 하단에 [admins] 내용 주석 제거하고 원하는 ID/PW 로 변경</programlisting></para>
+admin = mysecretpassword // Remove the [admins] comment at the bottom and change the ID and PW to the ones you want.</programlisting></para>
           </listitem>
 
           <listitem>
-            <para>default.ini 파일</para>
+            <para>default.ini file</para>
 
             <para><programlisting>$ vi /opt/couchdb/etc/default.ini
 [cluster]
-q=2             // 중간 [cluster] 부분에 q=2, n=3 을 q=2, n=1로 변경 (/cluster 로 검색)
+q=2             // Change the q=2, n=3 in the middle [cluster] to q=2, n=1(search using /cluster)
 n=1            
 ...
 [chttpd]
-port = 8308     // port = 5984 를 port = 8308 로 변경
+port = 8308     // Change port = 5984 to port = 8308.
 
 </programlisting></para>
           </listitem>
@@ -535,19 +555,19 @@ port = 8308     // port = 5984 를 port = 8308 로 변경
     </section>
 
     <section>
-      <title>설치 확인</title>
+      <title>Verifying the Installation</title>
 
-      <para>CouchDB를 실행시켜 접속을 확인합니다.</para>
+      <para>Check the connection by running Couch DB.</para>
 
       <para><itemizedlist>
           <listitem>
-            <para>DB 실행</para>
+            <para>Run the DB</para>
 
             <para><programlisting>$ service couchdb start</programlisting></para>
           </listitem>
 
           <listitem>
-            <para>접속 확인</para>
+            <para>Checking the connection</para>
 
             <para><programlisting>$ curl http://localhost:8308</programlisting></para>
           </listitem>
