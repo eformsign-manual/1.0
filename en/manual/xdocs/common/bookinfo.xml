@@ -9,17 +9,17 @@
   <copyright>
     <year>2020</year>
 
-    <holder>Forcs Co., Ltd. All Rights Reserved.</holder>
+    <holder>FORCS Co., Ltd. All Rights Reserved.</holder>
   </copyright>
 
   <legalnotice>
     <title>Restricted Rights Legend</title>
 
-    <para>All Forcs software (eformsign<superscript>®</superscript>) and
+    <para>All FORCS software (eformsign<superscript>®</superscript>) and
     documents are protected by copyright laws and the Protection Act of
     Computer Programs, and international convention. This document may not be
     reproduced or transmitted in any form or by any means, electronic or
-    mechanical, for any purpose, without the prior written permission of Forcs
+    mechanical, for any purpose, without the prior written permission of FORCS
     Co., Ltd. This document is provided for information purposes only, and the
     contents hereof are subject to change without notice.</para>
   </legalnotice>
@@ -28,7 +28,7 @@
     <title>Trademarks</title>
 
     <para>eformsign<superscript>® </superscript>and OZ are registered
-    trademarks of Forcs Co., Ltd. Other names may be trademarks of their
+    trademarks of FORCS Co., Ltd. Other names may be trademarks of their
     respective owners.</para>
   </legalnotice>
 
@@ -37,11 +37,11 @@
 
     <para>This product includes various open source software developed and/or
     licensed by "OpenSSL", "RSA Data Security, Inc.", "Apache Foundation", and
-    "JavaScript Object Notation(JSON)".</para>
+    "JavaScript Object Notation (JSON)".</para>
   </legalnotice>
 
   <author>
-    <orgname>Forcs Co., Ltd.</orgname>
+    <orgname>FORCS Co., Ltd.</orgname>
   </author>
 
   <pubdate>2020-05-31</pubdate>
