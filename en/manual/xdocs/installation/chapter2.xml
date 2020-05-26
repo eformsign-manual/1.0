@@ -73,7 +73,7 @@ $ apt install adoptopenjdk-8-hotspot</programlisting></para>
     <title>Verifying Java Installation</title>
 
     <para>After installing Java, verify whether it's been installed properly
-    by executing the following command</para>
+    by executing the following command.</para>
 
     <para><programlisting>$ java -version</programlisting>If the following
     message is displayed, then Java is properly installed.</para>

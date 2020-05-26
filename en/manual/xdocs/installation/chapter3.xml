@@ -30,7 +30,7 @@
     <title>Installing the Web Server</title>
 
     <para>This section describes how to install the web server and how to
-    check the installation.</para>
+    check its installation.</para>
 
     <para>eformsign uses nginx<indexterm class="singular">
         <primary>nginx</primary>
@@ -85,7 +85,7 @@ enabled=1</programlisting></para>
 
           <para><itemizedlist>
               <listitem>
-                <para>RHEL 7 / CentOS 7</para>
+                <para>RHEL 7/CentOS 7</para>
 
                 <para><programlisting>$ yum install nginx -y</programlisting></para>
               </listitem>
@@ -118,7 +118,7 @@ enabled=1</programlisting></para>
         <listitem>
           <para>Open the firewall.</para>
 
-          <para>The method of opening the firewall and port differs for RHEL
+          <para>The method for opening the firewall and port differs for RHEL
           7, CentOS, and Debian 10.</para>
 
           <para>Open the firewall in the method appropriate for each
@@ -126,13 +126,13 @@ enabled=1</programlisting></para>
 
           <para><itemizedlist>
               <listitem>
-                <para>RHEL 7 / CentOS 7</para>
+                <para>RHEL 7/CentOS 7</para>
 
                 <para>1. Check if the firewall is running.</para>
 
                 <para><programlisting>$ systemctl status firewalld.service</programlisting></para>
 
-                <para>2. Check the default Zone.</para>
+                <para>2. Check the default zone.</para>
 
                 <para><programlisting>$ firewall-cmd --get-default-zone</programlisting>3.
                 Check for active zones.</para>
@@ -393,7 +393,7 @@ $ netfilter-persistent reload
     <section>
       <title>Verifying the Installation</title>
 
-      <para>Enter the your IP address in the web browser. If Tomcat is started
+      <para>Enter your IP address in the web browser. If Tomcat is started
       normally, then the following screen will be displayed.</para>
 
       <para/>
@@ -436,7 +436,7 @@ $ netfilter-persistent reload
 
           <itemizedlist>
             <listitem>
-              <para>RHEL 7 / CentOS 7</para>
+              <para>RHEL 7/CentOS 7</para>
 
               <para><programlisting>$ yum update -y
 $ wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
@@ -459,7 +459,7 @@ $ yum install -y epel-release-latest-7.noarch.rpm</programlisting></para>
 
           <para><itemizedlist>
               <listitem>
-                <para>RHEL 7 / CentOS 7</para>
+                <para>RHEL 7/CentOS 7</para>
 
                 <para><programlisting>$ vi /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
 [bintray--apache-couchdb-rpm]
@@ -487,7 +487,7 @@ $ echo "deb https://apache.bintray.com/couchdb-deb buster main" \
 
           <para><itemizedlist>
               <listitem>
-                <para>RHEL 7 / CentOS 7</para>
+                <para>RHEL 7/CentOS 7</para>
 
                 <para><programlisting>$ yum -y install epel-release &amp;&amp; sudo yum -y install couchdb</programlisting></para>
               </listitem>

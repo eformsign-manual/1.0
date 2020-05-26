@@ -16,7 +16,7 @@
   <section>
     <title>Configuring eformsign System Modules</title>
 
-    <para>eformsign consists of 5 modules: Home (front), Service server,
+    <para>eformsign consists of 5 modules: Home (front-end), Service server,
     Daemon server, Iam server, and DB.</para>
 
     <para/>
@@ -41,11 +41,11 @@
 
         <tbody>
           <row>
-            <entry>Home (front)<indexterm class="singular">
+            <entry>Home (front-end)<indexterm class="singular">
                 <primary>Home</primary>
               </indexterm></entry>
 
-            <entry>Displaying UI screen on the front-end</entry>
+            <entry>Displaying UI screens on the front-end</entry>
 
             <entry>Installed on the web server and displays the front-end to
             users.</entry>
@@ -201,9 +201,10 @@
           <row>
             <entry>OS</entry>
 
-            <entry>Debian 10/RHEL(Red Hat Enterprise Linux) 7/CentOS 7</entry>
+            <entry>Debian 10, Red Hat Enterprise Linux (RHEL) 7, or CentOS
+            7</entry>
 
-            <entry>Debian 10/RHEL 7/CentOS 7</entry>
+            <entry>Debian 10, RHEL 7, or CentOS 7</entry>
           </row>
 
           <row>
@@ -238,7 +239,8 @@
       restriction on the OS of the WAS and web server, but the OS of the DB
       server must be one of Debian, RHEL, or CentOS.</para>
 
-      <para>Also, the domain must be created and SSL must be applied.</para>
+      <para>Also, the domain must be created and an SSL certificate must be
+      installed.</para>
     </note>
   </section>
 </chapter>

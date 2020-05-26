@@ -27,12 +27,12 @@
     <section>
       <title>Pre-installation Tasks</title>
 
-      <para>Copy the initial configuration file by executing the following
+      <para>Copy the default configuration file by executing the following
       command.</para>
 
       <para><programlisting>$ mkdir /opt/eformsign
 $ cd /opt/eformsign
-// Copy the compressed file you received to the current folder. '10,2020,0429,300' is the build version and the file name may be different.
+// Copy the compressed file you received to the current folder. '10,2020,0429,300' is the build version and the file name may vary.
 $ cp Onpremise-10,2020,0429,300.zip
 </programlisting></para>
     </section>
@@ -205,10 +205,9 @@ $ cp /opt/eformsign/eformsign-couchdb-* .
     </section>
 
     <section>
-      <title>Copying the Configuration Shell Script</title>
+      <title>Copying the Configuration File</title>
 
-      <para>Copy the @@initialization configuration shell
-      script?@@configuration shell script by executing the following
+      <para>Copy the default configuration file by executing the following
       commands.</para>
 
       <para><programlisting>$ cp eformsign-couchdb-backup eformsign-couchdb-default-data
@@ -368,8 +367,8 @@ $ cp /opt/eformsign/RS256.* .
   <section xml:id="service_config">
     <title>Configuring Service</title>
 
-    <para>This is a server that synchronously responds to user requests in
-    general, and is run on the WAS. Configure it as follows.</para>
+    <para>This is a server that synchronously responds to user requests, and
+    is run on the WAS. Configure it as follows.</para>
 
     <section xml:base="" xml:id="service_foldercopy">
       <title>Go to the Service/WEB-INF/classes Folder</title>
@@ -461,8 +460,8 @@ db.password_encrypted=
 …
 &lt;!-- file system --&gt;
         &lt;bean id="storageService" class="oz.service.storage.impl.FileSystemServiceImpl"&gt;
-                &lt;constructor-arg name="_root_path" value=""/&gt;             //Enter the storage path of the value in _root_path
-                &lt;constructor-arg name="_imgUrl" value=""/&gt;              //Enter the domain/Service of the value in _imgUrl 
+                &lt;constructor-arg name="_root_path" value=""/&gt;             //Enter the storage path in the value of _root_path
+                &lt;constructor-arg name="_imgUrl" value=""/&gt;              //Enter the domain/Service in the value in _imgUrl 
         &lt;/bean&gt;
 …
 </programlisting></para>
@@ -539,7 +538,7 @@ $ cp /opt/eformsign/RS256.pub .
       </indexterm> server is a server that asynchronously responds to batch
     and scheduler tasks such as email notification, asynchronous batch
     creation, and document PDF generation. Same as in the service server, it
-    is run on the Was. Configure it as follows.</para>
+    is run on the WAS. Configure it as follows.</para>
 
     <section xml:base="" xml:id="daemon_foldercopy">
       <title>Go to the Daemon/WEB-INF/classes Folder</title>
@@ -630,8 +629,8 @@ db.password_encrypted=
           <para><programlisting>$ vi storageConfig.xml
 …
         &lt;bean id="storageService" class="oz.service.storage.impl.FileSystemServiceImpl"&gt;
-                &lt;constructor-arg name="_root_path" value=""/&gt;             //Enter the storage path of the value in _root_path.
-                &lt;constructor-arg name="_imgUrl" value=""/&gt;              //Enter the value of_imgUrl in domain/Service.
+                &lt;constructor-arg name="_root_path" value=""/&gt;             //Enter the storage path in the value of _root_path.
+                &lt;constructor-arg name="_imgUrl" value=""/&gt;              //Enter the domain/Service in the value of_imgUrl.
         &lt;/bean&gt;
 …
 </programlisting></para>
@@ -648,7 +647,7 @@ port : Enter the mail server port
 account : Enter the mail account
 password : Enter the mail password
 prefix : Enter the header(optional)
-ssl : @@Configuration by mail server (true / false)@@
+ssl : Configure according to the mail server (true / false)
 // Enter the encryption key file generated in '4.2.1. Encrypting Your Account and Generating a Key File'
 account_encrypted :
 password_encrypted : 
@@ -673,7 +672,7 @@ password_encrypted :
 
       <itemizedlist>
         <listitem>
-          <para>RHEL7 / CentOS 7</para>
+          <para>RHEL7/CentOS 7</para>
 
           <para><programlisting>$ cd /usr/share/nginx/html
 $ rm -rf *
