@@ -29,7 +29,7 @@
     </listitem>
 
     <listitem>
-      <para>Web server, WAS, and DBMS</para>
+      <para>Web server, web application server (WAS), and DBMS</para>
     </listitem>
   </itemizedlist>
 
@@ -37,9 +37,9 @@
 
   <bridgehead>Document Scope</bridgehead>
 
-  <para>This guide only contains the information needed for installing
-  eformsign in your system. For information about how to use, manage, and
-  operate eformsign, refer to<emphasis role="bold"> 'eformsign User
+  <para>This guide only contains information needed for installing eformsign
+  in your system. For information about how to use, manage, and operate
+  eformsign, refer to<emphasis role="bold"> 'eformsign User
   Guide'</emphasis>.</para>
 
   <para/>
@@ -65,15 +65,15 @@
     </listitem>
 
     <listitem>
-      <para>Chapter 2: Pre-installation Task 1: Java Installation and
+      <para>Chapter 2: Pre-installation Task 1 - Java Installation and
       Environment Variable Configuration</para>
 
-      <para>Describes how to install Java and configuring Java environment
+      <para>Describes how to install Java and configure Java environment
       variables.</para>
     </listitem>
 
     <listitem>
-      <para>Chapter 3: Pre-installation Task 2: Server Environment
+      <para>Chapter 3: Pre-installation Task 2 - Server Environment
       Configuration</para>
 
       <para>Describes the process of installing server configuration software

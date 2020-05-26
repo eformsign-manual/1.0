@@ -6,18 +6,21 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>회사 등록</title>
+  <title>Company Registration</title>
 
   <section>
-    <title>회사 등록</title>
+    <title>Registering Your Company</title>
 
-    <para>웹 브라우저에 IP 주소/config.html를 입력하면 다음의 화면이 나타납니다. 이메일, 사용자명, 비밀번호 및 회사
-    이름, 국가를 입력하고 회사 등록을 완료합니다.</para>
+    <para>The following screen will be displayed when entering the IP
+    address/config.html in a browser.</para>
+
+    <para>Enter the email, user name, password, company name, and country to
+    finish registering your company.</para>
 
     <para/>
 
     <figure>
-      <title>회사 등록</title>
+      <title>Registering Your Company</title>
 
       <mediaobject>
         <imageobject>

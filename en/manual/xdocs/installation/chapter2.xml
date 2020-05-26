@@ -9,15 +9,15 @@
   <title>Pre-installation Task 1 - Java Installation and Environment Variable
   Configuration</title>
 
-  <para>This chapter describes how to install Java and configure its
-  environment variables as part of the pre-installation tasks for installing
+  <para>This chapter describes how to install Java and configure environment
+  variables as part of the pre-installation tasks for installing
   eformsign.</para>
 
   <section>
     <title>Installing Java</title>
 
-    <para>Java 8 installation is required before installing the eformsign On
-    Premise service as it runs on Java 8.</para>
+    <para>Java 8 installation is required before installing the eformsign
+    On-Premise service as it runs on Java 8.</para>
 
     <para>The following describes how to install Java for each OS.</para>
 
@@ -70,10 +70,10 @@ $ apt install adoptopenjdk-8-hotspot</programlisting></para>
   </section>
 
   <section>
-    <title>Checking Java Installation</title>
+    <title>Verifying Java Installation</title>
 
-    <para>After Java installing Java, check whether it's been installed
-    properly by executing the following command </para>
+    <para>After installing Java, verify whether it's been installed properly
+    by executing the following command</para>
 
     <para><programlisting>$ java -version</programlisting>If the following
     message is displayed, then Java is properly installed.</para>
@@ -83,12 +83,10 @@ OpenJDK Runtime Environment (Build 1.8.0_242-b08)
 OpenJDK 64-Bit Server VM (Build 25.242-b08, mixed mode)</programlisting></para>
 
     <note>
-      <para>Messages can differ for each OS.</para>
-
-      <para>If a message such as the above is displayed, then the Java
-      environment variables do not need to be configured. However, if such a
-      message is not displayed, then the Java environment variables must be
-      configured.</para>
+      <para>Messages can differ for each OS. If a message such as the one
+      above is displayed, then the Java environment variables do not need to
+      be configured. However, if such a message is not displayed, then the
+      Java environment variables must be configured.</para>
     </note>
   </section>
 

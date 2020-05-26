@@ -15,11 +15,6 @@
   <legalnotice>
     <title>Restricted Rights Legend</title>
 
-    <para>이 소프트웨어(eformsign<superscript>®</superscript>)와 매뉴얼의 모든 내용에 대한 저작권은
-    ㈜포시에스에 있으며, 대한민국 저작권법 및 국제조약에 의해 보호되고 있습니다. ㈜포시에스의 사전 허락 없이 이 매뉴얼의 내용을 사용,
-    복사, 유포, 배포하는 행위는 엄격히 금지되며 지적 재산권 침해에 해당됩니다. 이 매뉴얼에서 제공되는 정보는 사전에 예고 없이 변경될
-    수 있으며, 일부 내용이 다를 수 있습니다.</para>
-
     <para>All Forcs software (eformsign<superscript>®</superscript>) and
     documents are protected by copyright laws and the Protection Act of
     Computer Programs, and international convention. This document may not be
@@ -32,9 +27,6 @@
   <legalnotice>
     <title>Trademarks</title>
 
-    <para>eformsign<superscript>®</superscript>와 OZ은 Forcs Co., Ltd.의 등록
-    상표입니다. 기타 모든 제품들과 회사 이름은 각각 해당 소유주의 상표로서 참조용으로만 사용됩니다.</para>
-
     <para>eformsign<superscript>® </superscript>and OZ are registered
     trademarks of Forcs Co., Ltd. Other names may be trademarks of their
     respective owners.</para>
@@ -42,9 +34,6 @@
 
   <legalnotice>
     <title>Open Source Software Disclaimer</title>
-
-    <para>본 제품의 일부 파일 또는 모듈은 다음의 라이선스를 준수합니다: "OpenSSL", "RSA Data Security,
-    Inc.", "Apache Foundation", "JavaScript Object Notation(JSON)"</para>
 
     <para>This product includes various open source software developed and/or
     licensed by "OpenSSL", "RSA Data Security, Inc.", "Apache Foundation", and

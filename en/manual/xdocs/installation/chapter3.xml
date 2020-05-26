@@ -9,10 +9,10 @@
   <title>Pre-installation Task 2 - Server Environment Configuration</title>
 
   <para>This chapter describes how to install server configuration software as
-  part of the pre-installation tasks for installing eformsign.</para>
+  part of pre-installation tasks for installing eformsign.</para>
 
-  <para>The installation proceeds in the order of web server, WAS, and DB (the
-  order is the same for all OS) and is performed by executing commands.</para>
+  <para>The installation is command-based and proceeds in the order of web
+  server, WAS, and DB (the order is the same for all OS).</para>
 
   <figure>
     <title>Installation Order</title>
@@ -72,7 +72,7 @@ gpgcheck=0
 enabled=1</programlisting></para>
 
               <note>
-                <para>Create a repository in RHEL7 and CentOS7 only.</para>
+                <para>Create a repository only in RHEL7 and CentOS7.</para>
               </note>
             </listitem>
           </itemizedlist>
@@ -98,7 +98,7 @@ enabled=1</programlisting></para>
                 <note>
                   <para>RHEL and CentOS (both are Red Hat-based) both use the
                   'yum' command, and Debian (in which Ubuntu is derived from)
-                  uses the apt command.</para>
+                  uses the 'apt' command.</para>
                 </note>
               </listitem>
             </itemizedlist></para>
@@ -200,11 +200,11 @@ $ netfilter-persistent reload
     <title>Installing WAS</title>
 
     <para>This section describes how to install WAS and verify its
-    installation</para>
+    installation.</para>
 
     <para>eformsign uses Tomcat<indexterm class="singular">
         <primary>Tomcat</primary>
-      </indexterm> for the WAS.</para>
+      </indexterm> as the WAS.</para>
 
     <note>
       <para>The recommended Tomcat specification is version 8.5.</para>
@@ -217,7 +217,7 @@ $ netfilter-persistent reload
 
       <orderedlist>
         <listitem>
-          <para>Install Tomcat by executing the following command for each
+          <para>Install Tomcat by executing the following commands for each
           OS.</para>
 
           <itemizedlist>
@@ -357,12 +357,12 @@ WantedBy=multi-user.target</programlisting></para>
           <para>Open the firewall.</para>
 
           <para>The method for opening the firewall and port differs between
-          RHEL 7, CentOS, and Debian 10, but the port number is 8080 for all
+          RHEL 7/CentOS 7 and Debian 10, but the port number is 8080 for all
           of them.</para>
 
           <para><itemizedlist>
               <listitem>
-                <para>RHEL 7 / CentOS 7</para>
+                <para>RHEL 7/CentOS 7</para>
 
                 <programlisting>$ firewall-cmd --zone=public --add-port=8080/tcp --permanent
 $ firewall-cmd --reload</programlisting>
@@ -394,7 +394,7 @@ $ netfilter-persistent reload
       <title>Verifying the Installation</title>
 
       <para>Enter the your IP address in the web browser. If Tomcat is started
-      normally, then the following screen is displayed.</para>
+      normally, then the following screen will be displayed.</para>
 
       <para/>
 
@@ -414,8 +414,10 @@ $ netfilter-persistent reload
   <section xml:id="db_install">
     <title>Installing the DB</title>
 
-    <para>This section describes how to install the DB and how to verify the
-    installation. eformsign CouchDB<indexterm class="singular">
+    <para>This section describes how to install the DB and verify its
+    installation.</para>
+
+    <para>eformsign uses CouchDB<indexterm class="singular">
         <primary>CouchDB</primary>
       </indexterm> as the DB.</para>
 
@@ -557,17 +559,17 @@ port = 8308     // Change port = 5984 to port = 8308.
     <section>
       <title>Verifying the Installation</title>
 
-      <para>Check the connection by running Couch DB.</para>
+      <para>Check the connection by running CouchDB.</para>
 
       <para><itemizedlist>
           <listitem>
-            <para>Run the DB</para>
+            <para>Run the DB.</para>
 
             <para><programlisting>$ service couchdb start</programlisting></para>
           </listitem>
 
           <listitem>
-            <para>Checking the connection</para>
+            <para>Check the connection.</para>
 
             <para><programlisting>$ curl http://localhost:8308</programlisting></para>
           </listitem>

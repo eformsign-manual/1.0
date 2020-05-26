@@ -47,7 +47,7 @@
 
             <entry>Displaying UI screen on the front-end</entry>
 
-            <entry>Installed on the web server and displays front-end to
+            <entry>Installed on the web server and displays the front-end to
             users.</entry>
           </row>
 
@@ -70,7 +70,7 @@
             <entry>Handling asynchronous user requests</entry>
 
             <entry><para>Installed on the WAS and handles asynchronous batch
-            and schedule requests such as email notifications, asynchronous
+            and schedule requests such as email notification, asynchronous
             batch processing, and document PDF generation.</para></entry>
           </row>
 
@@ -90,9 +90,9 @@
 
             <entry>Storing collected data</entry>
 
-            <entry><para>Unified database used by 3 servers for storing and
-            managing data. It is utilized for performing full-text searches of
-            created documents.</para></entry>
+            <entry><para>The unified database used by 3 servers for storing
+            and managing data. It is utilized for performing full-text
+            searches of generated documents.</para></entry>
           </row>
         </tbody>
       </tgroup>
@@ -235,7 +235,7 @@
 
     <note>
       <para>When installing the DB on multiple machines, there is no
-      restriction to the OS of the WAS and web server, but the OS of the DB
+      restriction on the OS of the WAS and web server, but the OS of the DB
       server must be one of Debian, RHEL, or CentOS.</para>
 
       <para>Also, the domain must be created and SSL must be applied.</para>
