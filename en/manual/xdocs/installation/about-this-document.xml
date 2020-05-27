@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preface version="5.0" xml:id="about" xmlns="http://docbook.org/ns/docbook"
+<preface version="5.0" xml:id="about" xml:lang="en"
+         xmlns="http://docbook.org/ns/docbook"
          xmlns:xlink="http://www.w3.org/1999/xlink"
          xmlns:xi="http://www.w3.org/2001/XInclude"
          xmlns:svg="http://www.w3.org/2000/svg"
@@ -16,7 +17,7 @@
       <primary>eformsign</primary>
     </indexterm></para>
 
-  <para/>
+  <para xml:lang="en"/>
 
   <bridgehead>Required Knowledge</bridgehead>
 
@@ -246,7 +247,7 @@
 Republic of Korea 06106</otheraddr>
 Tel: +82 2 6188 8200
 Email: <email>eformsign@forcs.com</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">https://www.eformsign.com/kr</link></otheraddr>
+Web: <otheraddr><link xlink:href="https://www.eformsign.com">https://www.eformsign.com</link></otheraddr>
 </address></para>
 
   <para><bridgehead>Singapore</bridgehead><address><otheraddr>FORCS Singapore Pte Ltd</otheraddr>
@@ -255,14 +256,14 @@ Web (Korean): <otheraddr><link xlink:href="chapter1.xml">https://www.eformsign.c
 Singapore 068811
 Tel: +65 6100 2007 
 Email:<email>singapore@forcs.com</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/en/</link></otheraddr></address></para>
+Web: <otheraddr><link xlink:href="http://www.forcs.com/en/">http://www.forcs.com/en/</link></otheraddr></address></para>
 
   <para><bridgehead>Japan</bridgehead><address>FORCS Japan
 Tokyo-to, Shibuya-ku,
 Sendagaya, 4 Chome-11-9,
 #402, 151-0051, Japan
 Email: <email>global@forcs.com</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/jp/</link></otheraddr></address></para>
+Web: <otheraddr><link xlink:href="http://www.forcs.com/jp/">http://www.forcs.com/jp/</link></otheraddr></address></para>
 
   <?dbfo-need height="10in" ?>
 
@@ -271,5 +272,5 @@ Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/jp
 Sint-Michielswarande,
 1040 Etterbeek, Belgium
 Email: <email>singapore@forcs.com</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/en/</link></otheraddr></address></para>
+Web (Korean): <otheraddr><link xlink:href="http://www.forcs.com/en">http://www.forcs.com/en/</link></otheraddr></address></para>
 </preface>
