@@ -7,25 +7,25 @@
       xmlns:mml="http://www.w3.org/1998/Math/MathML"
       xmlns:html="http://www.w3.org/1999/xhtml"
       xmlns:db="http://docbook.org/ns/docbook">
-  <title>eformsign 설치 안내서</title>
+  <title xml:lang="en">eformsign 설치 안내서</title>
 
-  <subtitle></subtitle>
+  <subtitle/>
 
   <titleabbrev>eformsign v1.0</titleabbrev>
 
-  <xi:include href="../common/bookinfo.xml"></xi:include>
+  <xi:include href="../common/bookinfo.xml"/>
 
-  <xi:include href="about-this-document.xml"></xi:include>
+  <xi:include href="about-this-document.xml"/>
 
-  <xi:include href="chapter1.xml"></xi:include>
+  <xi:include href="chapter1.xml"/>
 
-  <xi:include href="chapter2.xml"></xi:include>
+  <xi:include href="chapter2.xml"/>
 
-  <xi:include href="chapter3.xml"></xi:include>
+  <xi:include href="chapter3.xml"/>
 
-  <xi:include href="chapter4.xml"></xi:include>
+  <xi:include href="chapter4.xml"/>
 
-  <xi:include href="chapter5.xml"></xi:include>
+  <xi:include href="chapter5.xml"/>
 
-  <index xml:id="idx"></index>
+  <index xml:id="idx"/>
 </book>

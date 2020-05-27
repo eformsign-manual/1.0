@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter version="5.0" xml:id="chapter2" xmlns="http://docbook.org/ns/docbook"
+<chapter version="5.0" xml:id="chapter2" xml:lang="en"
+         xmlns="http://docbook.org/ns/docbook"
          xmlns:xlink="http://www.w3.org/1999/xlink"
          xmlns:xi="http://www.w3.org/2001/XInclude"
          xmlns:svg="http://www.w3.org/2000/svg"
          xmlns:mml="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>설치 전 준비사항 (1): Java 설치 및 환경변수 설정</title>
+  <title>Pre-installation Task 1 - Java Installation and Environment Variable
+  Configuration</title>
 
-  <para>본 장에서는 설치 전에 준비해야 할 사항 중 Java 설치 및 Java 환경변수 설정 방법에 대해서 설명합니다.</para>
-
-  <para/>
+  <para>This chapter describes how to install Java and configure environment
+  variables as part of the pre-installation tasks for installing
+  eformsign.</para>
 
   <section>
-    <title>Java 설치</title>
+    <title>Installing Java</title>
 
-    <para>eformsign on premise 서비스는 JAVA8 에서 동작하기 때문에 Java 8을 설치해야 합니다. OS별
-    Java 설치 방법은 다음과 같습니다.</para>
+    <para>Java 8 installation is required before installing the eformsign
+    On-Premise service as it runs on Java 8.</para>
+
+    <para>The following describes how to install Java for each OS.</para>
 
     <para/>
 
@@ -40,23 +44,25 @@ $ yum install java-1.8.0-openjdk-devel.x86_64 -y</programlisting></para>
       <listitem>
         <para>Debian 10</para>
 
-        <para>1. 패키지 목록을 업데이트하고 리포지토리 추가 및 종속성 설치를 진행합니다.</para>
+        <para>1. Update the package list and then add repositories and install
+        dependencies.</para>
 
         <para><programlisting>$ sudo -i
 $ apt update
 $ apt install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common</programlisting></para>
 
         <note>
-          <para>Debian은 apt 명령을 사용해 패키지 사이의 종속성(의존성) 문제를 자동으로 처리할 수 있습니다.
-          apt("advanced package manager"의 약자)를 사용하면 패키지를 자동으로 설치 및 업그레이드할 수
-          있습니다.</para>
+          <para>In Debian, the apt command can be used to automatically
+          resolve dependency problems between packages. Use the apt (short for
+          advanced package manager) command to automatically install and
+          upgrade packages.</para>
         </note>
 
-        <para>2. AdoptOpenJDK APT 리포지토리를 추가합니다.</para>
+        <para>2. Add the AdoptOpenJDK APT repository.</para>
 
         <para><programlisting>$ wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
 $ add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/</programlisting>3.
-        업데이트 및 Java8 설치를 진행합니다.</para>
+        Update and install Java 8.</para>
 
         <para><programlisting>$ apt update
 $ apt install adoptopenjdk-8-hotspot</programlisting></para>
@@ -65,27 +71,31 @@ $ apt install adoptopenjdk-8-hotspot</programlisting></para>
   </section>
 
   <section>
-    <title>Java 설치 확인</title>
+    <title>Verifying Java Installation</title>
 
-    <para>Java 설치가 완료되었으면 다음의 명령을 실행해 제대로 설치가 되었는지를 확인합니다.</para>
+    <para>After installing Java, verify whether it's been installed properly
+    by executing the following command.</para>
 
-    <para><programlisting>$ java -version</programlisting>다음의 메시지가 표시되면 정상적으로
-    설치가 된 상태입니다.</para>
+    <para><programlisting>$ java -version</programlisting>If the following
+    message is displayed, then Java is properly installed.</para>
 
     <para><programlisting>Openjdk version "1.8.0_242"
 OpenJDK Runtime Environment (Build 1.8.0_242-b08)
 OpenJDK 64-Bit Server VM (Build 25.242-b08, mixed mode)</programlisting></para>
 
     <note>
-      <para>OS별로 메시지는 다를 수 있습니다. 위와 같은 메시지가 표시된다면 Java 환경변수는 설정하지 않으셔도 됩니다. 단,
-      표시되지 않는다면 Java 환경변수 설정을 진행합니다.</para>
+      <para>Messages can differ for each OS. If a message such as the one
+      above is displayed, then the Java environment variables do not need to
+      be configured. However, if such a message is not displayed, then the
+      Java environment variables must be configured.</para>
     </note>
   </section>
 
   <section>
-    <title>Java 환경변수 설정</title>
+    <title>Configuring Java Environment Variables</title>
 
-    <para>다음과 같이 OS별로 JAVA_HOME 환경변수를 설정합니다.</para>
+    <para>Configure the JAVA_HOME environment variable by OS as
+    follows.</para>
 
     <para><itemizedlist>
         <listitem>
@@ -100,15 +110,15 @@ $ echo $JAVA_HOME
         <listitem>
           <para>CentOS 7 / Debian 10</para>
 
-          <para>1. 다음의 명령을 실행합니다.</para>
+          <para>1. Execute the following command.</para>
 
           <para><programlisting>$ update-alternatives --config java</programlisting></para>
 
-          <para>2. 다음의 텍스트를 추가합니다.</para>
+          <para>2. Add the following text.</para>
 
           <para><programlisting>$ vi /etc/environment
 JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el7_7.x86_64/jre"</programlisting>3.
-          다음의 명령을 실행합니다.</para>
+          Execute the following command.</para>
 
           <para><programlisting>$ source /etc/environment
 $ echo $JAVA_HOME</programlisting></para>
@@ -116,7 +126,8 @@ $ echo $JAVA_HOME</programlisting></para>
       </itemizedlist></para>
 
     <note>
-      <para>CentOS 7와 Debian 10은 JAVA_HOME을 설정하는 방법이 동일합니다.</para>
+      <para>The method for configuring JAVA_HOME is the same in CentOS 7 and
+      Debian 10.</para>
     </note>
   </section>
 </chapter>
