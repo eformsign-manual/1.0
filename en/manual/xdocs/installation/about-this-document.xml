@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preface version="5.0" xml:id="about" xmlns="http://docbook.org/ns/docbook"
+<preface version="5.0" xml:id="about" xml:lang="en"
+         xmlns="http://docbook.org/ns/docbook"
          xmlns:xlink="http://www.w3.org/1999/xlink"
          xmlns:xi="http://www.w3.org/2001/XInclude"
          xmlns:svg="http://www.w3.org/2000/svg"
          xmlns:mml="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title xml:lang="ko-KR">안내서에 대하여</title>
+  <title xml:lang="ko-KR">About this Document</title>
 
-  <bridgehead>안내서의 대상</bridgehead>
+  <bridgehead>Intended Audience</bridgehead>
 
-  <para>본 안내서는 eformsign<superscript>®</superscript>(이하 eformsign)를 설치하고자 하는
-  모든 사용자를 대상으로 기술합니다.<indexterm class="singular">
+  <para>This document is intended for users who want to install
+  eformsign<superscript>®</superscript>(hereafter eformsign).<indexterm
+      class="singular">
       <primary>eformsign</primary>
     </indexterm></para>
 
-  <para/>
+  <para xml:lang="en"/>
 
-  <bridgehead>안내서의 전제 조건</bridgehead>
+  <bridgehead>Required Knowledge</bridgehead>
 
-  <para>본 안내서를 원활하게 이해하기 위해서는 다음과 같은 사항을 미리 알고 있어야 합니다.</para>
+  <para>To successfully install eformsign, users must have a basic
+  understanding of the following:</para>
 
   <itemizedlist>
     <listitem>
-      <para>Linux 시스템에 대한 이해</para>
+      <para>Linux</para>
     </listitem>
 
     <listitem>
-      <para>웹 서버(Web Server), WAS, DBMS 구성 방법에 대한 이해</para>
+      <para>Web server, web application server (WAS), and DBMS</para>
     </listitem>
   </itemizedlist>
 
   <para/>
 
-  <bridgehead>안내서의 제한 조건</bridgehead>
+  <bridgehead>Document Scope</bridgehead>
 
-  <para>본 안내서는 eformsign를 시스템에 설치하는 과정에 대한 필수 사항만을 기술하고 있습니다. 따라서 eformsign의
-  구체적인 사용 방법이나 관리 및 운용에 관한 사항은 "<emphasis role="bold">eformsign 사용자
-  안내서</emphasis>"를 참고하시기 바랍니다.</para>
+  <para>This guide only contains information needed for installing eformsign
+  in your system. For information about how to use, manage, and operate
+  eformsign, refer to<emphasis role="bold"> 'eformsign User
+  Guide'</emphasis>.</para>
 
   <para/>
 
@@ -47,42 +51,48 @@
 
   <?dbfo-need height="10in" ?>
 
-  <bridgehead>안내서 구성</bridgehead>
+  <bridgehead>Document Organization</bridgehead>
 
-  <para>eformsign 설치 안내서는 총 5개의 장으로 구성되어 있습니다.</para>
+  <para>This guide consists of 5 chapters.</para>
 
-  <para>각 장의 주요 내용은 다음과 같습니다.</para>
+  <para>Descriptions of each are as follows:</para>
 
   <itemizedlist>
     <listitem>
-      <para>제1장: 설치 개요</para>
+      <para>Chapter 1: Installation Overview</para>
 
-      <para>eformsign의 특징과 설치 구성 요소에 대해 기술합니다.</para>
+      <para>Describes the key features of eformsign and its system
+      requirements.</para>
     </listitem>
 
     <listitem>
-      <para>제2장: 설치 전 준비사항(1): Java 설치 및 환경변수 설정</para>
+      <para>Chapter 2: Pre-installation Task 1 - Java Installation and
+      Environment Variable Configuration</para>
 
-      <para>설치 전에 준비해야 할 사항 중 Java 설치 및 Java 환경변수 설정 방법에 대해 설명합니다.</para>
+      <para>Describes how to install Java and configure Java environment
+      variables.</para>
     </listitem>
 
     <listitem>
-      <para>제3장: 설치 전 준비사항 (2): 서버 환경 구성</para>
+      <para>Chapter 3: Pre-installation Task 2 - Server Environment
+      Configuration</para>
 
-      <para>eformsign를 설치하기 전에 설치가 필요한 서버 환경구성 소프트웨어(Web server, WAS, DB)를
-      설치하는 과정에 대해 설명합니다.</para>
+      <para>Describes the process of installing server configuration software
+      (web server, WAS, and DB) required for installing eformsign.</para>
     </listitem>
 
     <listitem>
-      <para>제4장: eformsign 설치 및 설정 방법</para>
+      <para>Chapter 4: eformsign Installation and Configuration</para>
 
-      <para>eformsign을 설치하는 방법 및 속성 등의 설정 방법에 대해 설명합니다.</para>
+      <para>Describes how to install eformsign and configure
+      properties.</para>
     </listitem>
 
     <listitem>
-      <para>제5장: 회사 등록</para>
+      <para>Chapter 5: Company Registration</para>
 
-      <para>eformsign를 본격적으로 사용하기 전에 회사를 등록하는 방법에 대해 설명합니다.</para>
+      <para>Describes how to register your company before using
+      eformsign.</para>
     </listitem>
   </itemizedlist>
 
@@ -90,7 +100,7 @@
 
   <?dbfo-need height="10in" ?>
 
-  <bridgehead>안내서 규약</bridgehead>
+  <bridgehead>Conventions</bridgehead>
 
   <informaltable colsep="1" frame="topbot" rowsep="1">
     <tgroup cols="2">
@@ -98,9 +108,9 @@
 
       <thead>
         <row>
-          <entry>표기</entry>
+          <entry>Convention</entry>
 
-          <entry>의미</entry>
+          <entry>Meaning</entry>
         </row>
       </thead>
 
@@ -108,49 +118,51 @@
         <row>
           <entry>&lt;AaBbCc123&gt;</entry>
 
-          <entry>프로그램 소스 코드의 파일명</entry>
+          <entry>Filename of a program or source code</entry>
         </row>
 
         <row>
           <entry>&lt;Ctrl&gt;+C</entry>
 
-          <entry>Ctrl과 C를 동시에 누름</entry>
+          <entry>Hold the Control key and press C</entry>
         </row>
 
         <row>
-          <entry><guimenuitem> 진하게</guimenuitem></entry>
+          <entry><guimenuitem> Boldface</guimenuitem></entry>
 
-          <entry>GUI의 버튼 또는 메뉴 이름, 화면 UI에서 입력 항목에 대한 설명, 강조</entry>
+          <entry>Emphasis of buttons, menu names, and input fields in
+          UI</entry>
         </row>
 
         <row>
-          <entry>" "(따옴표)</entry>
+          <entry>" " (Double quotation marks)</entry>
 
-          <entry>다른 관련 안내서 또는 안내서 내의 다른 장 및 절 언급</entry>
+          <entry>Reference to a chapter or section in this or another
+          guide</entry>
         </row>
 
         <row>
-          <entry><email> 하이퍼링크</email></entry>
+          <entry><email> Hyperlink</email></entry>
 
-          <entry>메일계정, 웹 사이트</entry>
+          <entry>Email account or website</entry>
         </row>
 
         <row>
           <entry>&gt;</entry>
 
-          <entry>메뉴의 진행 순서</entry>
+          <entry>Progress order of menus</entry>
         </row>
 
         <row>
           <entry>+----</entry>
 
-          <entry>하위 디렉터리 또는 파일 있음</entry>
+          <entry>Files or directories exist below</entry>
         </row>
 
         <row>
           <entry>|----</entry>
 
-          <entry>하위 디렉터리 또는 파일 없음</entry>
+          <entry>Files or directories do not exist below</entry>
         </row>
 
         <row>
@@ -158,37 +170,37 @@
               <para/>
             </note></entry>
 
-          <entry>참고 또는 주의사항</entry>
+          <entry>Reference or caution</entry>
         </row>
 
         <row>
-          <entry><guimenuitem>[그림 1.1]</guimenuitem></entry>
+          <entry><guimenuitem>[Figure 1.1]</guimenuitem></entry>
 
-          <entry>그림 이름</entry>
+          <entry>Figure name</entry>
         </row>
 
         <row>
-          <entry><guimenuitem>[표 1.1]</guimenuitem></entry>
+          <entry><guimenuitem>[Table 1.1]</guimenuitem></entry>
 
-          <entry>표 이름</entry>
+          <entry>Table name</entry>
         </row>
 
         <row>
           <entry><programlisting language=""> AaBbCc123</programlisting></entry>
 
-          <entry>명령어, 명령어 수행 후 화면에 출력된 결과물, 예제코드</entry>
+          <entry>Command, execution result, or example code</entry>
         </row>
 
         <row>
           <entry>[ ]</entry>
 
-          <entry>옵션 인수 값</entry>
+          <entry>Optional items</entry>
         </row>
 
         <row>
           <entry>|</entry>
 
-          <entry>선택 인수 값</entry>
+          <entry>Selective items</entry>
         </row>
       </tbody>
     </tgroup>
@@ -198,7 +210,7 @@
 
   <?dbfo-need height="10in" ?>
 
-  <para><bridgehead>관련 안내서</bridgehead></para>
+  <para><bridgehead>Related Documents</bridgehead></para>
 
   <informaltable colsep="1" frame="topbot" rowsep="1">
     <tgroup cols="2">
@@ -206,17 +218,17 @@
 
       <thead>
         <row>
-          <entry>안내서</entry>
+          <entry>Document</entry>
 
-          <entry>설명</entry>
+          <entry>Description</entry>
         </row>
       </thead>
 
       <tbody>
         <row>
-          <entry>eformsign 사용자 안내서</entry>
+          <entry>eformsign User Guide</entry>
 
-          <entry>eformsign의 사용 방법, 관리 및 운용에 관한 사항에 대해 기술한 안내서입니다.</entry>
+          <entry>Describes how to use, manage, and operate eformsign.</entry>
         </row>
       </tbody>
     </tgroup>
@@ -228,14 +240,14 @@
 
   <?dbfo-need height="10in" ?>
 
-  <bridgehead>연락처</bridgehead>
+  <bridgehead>Contact Information</bridgehead>
 
   <para><bridgehead>Korea</bridgehead><address>FORCS Co. Ltd (HQ)
 <otheraddr>646, Nonhyeon-ro, Gangnam-gu, Seoul,
 Republic of Korea 06106</otheraddr>
 Tel: +82 2 6188 8200
 Email: <email>eformsign@forcs.com</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">https://www.eformsign.com/kr</link></otheraddr>
+Web: <otheraddr><link xlink:href="https://www.eformsign.com">https://www.eformsign.com</link></otheraddr>
 </address></para>
 
   <para><bridgehead>Singapore</bridgehead><address><otheraddr>FORCS Singapore Pte Ltd</otheraddr>
@@ -244,14 +256,14 @@ Web (Korean): <otheraddr><link xlink:href="chapter1.xml">https://www.eformsign.c
 Singapore 068811
 Tel: +65 6100 2007 
 Email:<email>singapore@forcs.com</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/en/</link></otheraddr></address></para>
+Web: <otheraddr><link xlink:href="http://www.forcs.com/en/">http://www.forcs.com/en/</link></otheraddr></address></para>
 
   <para><bridgehead>Japan</bridgehead><address>FORCS Japan
 Tokyo-to, Shibuya-ku,
 Sendagaya, 4 Chome-11-9,
 #402, 151-0051, Japan
 Email: <email>global@forcs.com</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/jp/</link></otheraddr></address></para>
+Web: <otheraddr><link xlink:href="http://www.forcs.com/jp/">http://www.forcs.com/jp/</link></otheraddr></address></para>
 
   <?dbfo-need height="10in" ?>
 
@@ -260,5 +272,5 @@ Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/jp
 Sint-Michielswarande,
 1040 Etterbeek, Belgium
 Email: <email>singapore@forcs.com</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/en/</link></otheraddr></address></para>
+Web (Korean): <otheraddr><link xlink:href="http://www.forcs.com/en">http://www.forcs.com/en/</link></otheraddr></address></para>
 </preface>
