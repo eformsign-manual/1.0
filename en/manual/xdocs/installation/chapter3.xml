@@ -528,7 +528,6 @@ n=1
 ...
 [chttpd]
 port = 8308     // port = 5984 를 port = 8308 로 변경
-
 </programlisting></para>
           </listitem>
         </itemizedlist></para>
