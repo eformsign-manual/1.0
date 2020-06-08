@@ -13,7 +13,10 @@
   part of pre-installation tasks for installing eformsign.</para>
 
   <para>The installation is command-based and proceeds in the order of web
-  server, WAS, and DB (the order is the same for all OS).</para>
+  server, WAS, and DB (the order is the same for all OS).<?xxe-remark sychoi
+2020-06-04T07:57:36Z
+The installation proceeds in the order of Web Server, WAS, and DB which is the same for all OS with command(?).
+괄호 풀기?></para>
 
   <figure>
     <title>Installation Order</title>
@@ -66,6 +69,7 @@ enabled=1</programlisting></para>
               <para>CentOS 7</para>
 
               <para><programlisting>$ vi /etc/yum.repos.d/nginx.repo
+
 [nginx]
 name=nginx repo
 baseurl=http://nginx.org/packages/<emphasis role="bold">centos</emphasis>/7/$basearch/
@@ -98,8 +102,10 @@ enabled=1</programlisting></para>
 
                 <note>
                   <para>RHEL and CentOS (both are Red Hat-based) both use the
-                  'yum' command, and Debian (in which Ubuntu is derived from)
-                  uses the 'apt' command.</para>
+                  'yum'<?xxe-remark sychoi
+2020-06-04T08:16:08Z
+' ' 대신 볼드 표시?> command, and Debian (in which Ubuntu is derived from) uses the
+                  'apt' command.</para>
                 </note>
               </listitem>
             </itemizedlist></para>
@@ -110,8 +116,8 @@ enabled=1</programlisting></para>
         <listitem>
           <para>Execute nginx.</para>
 
-          <para>Execute ngix using the following command regardless of the
-          OS.</para>
+          <para>Execute ngix using the following command regardless of the OS
+          .</para>
 
           <para><programlisting>$ service nginx start</programlisting></para>
         </listitem>
@@ -450,8 +456,10 @@ $ yum install -y epel-release-latest-7.noarch.rpm</programlisting></para>
               is a repository provided by Fedora Project. It is a
               community-based storage that provides the latest version of
               various packages. It can be used to install and use the packages
-              in the latest version that cannot be installed using the 'yum'
-              command.</para>
+              in the latest version that cannot be installed using the
+              '<emphasis role="bold">yum</emphasis><?xxe-remark sychoi
+2020-06-04T08:58:26Z
+' ' 대신 볼드?>' command.</para>
             </note></para>
         </listitem>
 
@@ -505,7 +513,9 @@ $ apt install -y couchdb
             </itemizedlist></para>
 
           <para>4. When prompted to select a CouchDB type during installation,
-          select 'none'.</para>
+          select 'none'<?xxe-remark sychoi
+2020-06-04T09:00:33Z
+' ' 대신 볼드?>.</para>
 
           <para/>
 
