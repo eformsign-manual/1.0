@@ -16,7 +16,7 @@
     <para>To install and run eformsign, the web server, WAS, and DB must be
     installed beforehand.</para>
 
-    <para>For information about how to install them, refer to Chapter 3 <xref
+    <para>For information about how to install them, refer to <xref
     linkend="chapter3"/>.</para>
   </note>
 
@@ -262,7 +262,7 @@ $ ./eformsign-couchdb-restore
       <title>Go to the Iam/WEB-INF Folder</title>
 
       <para>Go to the WEB-INF folder in Iam by executing the following command
-      (different for each OS).</para>
+      (different for each OS).<!--() 없애고 by executing the following command for each OS. --></para>
 
       <itemizedlist>
         <listitem>
@@ -414,7 +414,9 @@ $ cp /opt/eformsign/RS256.* .
             </indexterm></para>
 
           <para><programlisting>$ vi aes256.properties
-// Enter the encryption key file generated in '4.2.1. Encrypting Your Account and Generating a Key File'.
+// Enter the encryption key file<?xxe-remark sychoi
+2020-06-08T00:38:26Z
+원문은 암호화된 키인데, key와 key file이 의미가 동일한가요??> generated in '4.2.1. Encrypting Your Account and Generating a Key File'.
 aeskey.couchdb= 
 aeskey.api= 
 aeskey.webhook= 
@@ -792,7 +794,7 @@ var OPTION_LOCATION_CODE="country code eg) kr";
     <title>Configuring the License</title>
 
     <para>Set the license for each OS as follows by going to the folder that
-    contains the license file.</para>
+    contains the license file.<!--Go to the folder that contains the license file, and set the license for each OS as follows.--></para>
 
     <itemizedlist>
       <listitem>
@@ -1083,7 +1085,10 @@ Service tomcat start
       <title>Service</title>
 
       <para>Check whether the following execution result is displayed when
-      entering the IP address/Service in the web browser.</para>
+      entering the IP address/Service in the web browser.<?xxe-remark sychoi
+2020-06-08T00:46:51Z
+문장 구조가 순서대로 가는게 좋을듯
+Enter the IP address/Service in the web browser, and check whether the following excution result is displayed.?></para>
 
       <para><programlisting>{"Service Name":"Service","eformsign version":"10,2020,0429,300","Viewer version":"80,2020,0422,201","Server version":"80,2020,0422,1510","Cpu Count":"any","IP List":"any","Request URL":"any",
 "Expire Date":"2021-05-01"}
@@ -1094,7 +1099,9 @@ Service tomcat start
       <title>Daemon</title>
 
       <para>Check whether the following execution result is displayed when
-      entering the IP address/Daemon in the web browser.</para>
+      entering the IP address/Daemon in the web browser.<?xxe-remark sychoi
+2020-06-08T00:47:38Z
+Enter the IP address/Service in the web browser, and check whether the following execution result is displayed.?></para>
 
       <para><programlisting>{"Service Name":"Service","eformsign version":"10,2020,0429,300","Viewer version":"80,2020,0422,201","Server version":"80,2020,0422,1510","Cpu Count":"any","IP List":"any","Request URL":"any",
 "Expire Date":"2021-05-01"}
@@ -1105,7 +1112,9 @@ Service tomcat start
       <title>Iam</title>
 
       <para>Check whether the Iam login page is displayed when entering the IP
-      address/Iam in the web browser.</para>
+      address/Iam in the web browser.<?xxe-remark sychoi
+2020-06-08T00:48:35Z
+Enter the IP address/Iam in the web browser, and check whether the Iam login page is displayed.?></para>
     </section>
   </section>
 </chapter>
