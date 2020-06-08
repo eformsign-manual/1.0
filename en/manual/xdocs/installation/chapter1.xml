@@ -15,10 +15,10 @@
     </indexterm></para>
 
   <section>
-    <title>Configuring eformsign System Modules <!--eformsign System Module Configuration--></title>
+    <title>System Module Configuration</title>
 
-    <para>eformsign consists of 5 modules: Home (front-end), Service server,
-    Daemon server, Iam server, and DB.</para>
+    <para>eformsign consists of 5 modules: Home (front-end) and 4 server-side
+    modules (Service server, Daemon server, Iam server, and DB).</para>
 
     <para/>
 
@@ -36,7 +36,7 @@
 
             <entry align="center">Purpose</entry>
 
-            <entry align="center">Note<!--Remarks 아래 Note랑 겹침--></entry>
+            <entry align="center">Remark</entry>
           </row>
         </thead>
 
@@ -71,8 +71,8 @@
             <entry>Handling asynchronous user requests</entry>
 
             <entry><para>Installed on the WAS and handles asynchronous batch
-            and schedule requests such as email notification, asynchronous
-            batch processing, and document PDF generation.</para></entry>
+            tasks and scheduling requests such as email notification, document
+            bulk creation, and document PDF generation.</para></entry>
           </row>
 
           <row>
@@ -91,17 +91,17 @@
 
             <entry>Storing collected data</entry>
 
-            <entry><para>The unified database used by 3 servers for storing
-            and managing data. It is utilized for performing full-text
-            searches of generated documents.</para></entry>
+            <entry><para>The unified database used by the above 3 servers for
+            storing and managing data. It is utilized for performing full-text
+            searches of created documents.</para></entry>
           </row>
         </tbody>
       </tgroup>
     </table>
 
     <note>
-      <para>To install and use eformsign, the server environment must be
-      configured by installing a web server, WAS, and DBMS.</para>
+      <para>Installing and configuring the web server, WAS, and DBMS is a
+      prerequisite to install and use eformsign.</para>
     </note>
   </section>
 
@@ -111,10 +111,8 @@
     <para>eformsign supports both monolithic and distributed methods of server
     configuration according to the number of users. The monolithic method has
     the advantage of minimizing server construction cost, but has the
-    disadvantage of not being able to perform fail-overs.<?xxe-remark sychoi
-2020-06-04T07:11:53Z
-문제 발생시 누락
-when error occurs??></para>
+    disadvantage of not being able to perform fail-overs when error
+    occurs.</para>
 
     <para>When using the distributed method, the DB and WAS can be configured
     on the same server, or can be configured on separate servers for
@@ -123,7 +121,8 @@ when error occurs??></para>
 
     <note>
       <para>For inquiry on how to construct servers according to user count,
-      contact us at eformsign@forcs.com.</para>
+      contact us at <link
+      xlink:href="eformsign@forcs.com">eformsign@forcs.com</link>.</para>
     </note>
 
     <para/>

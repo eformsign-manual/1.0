@@ -9,14 +9,11 @@
          xmlns:db="http://docbook.org/ns/docbook">
   <title>Pre-installation Task 2 - Server Environment Configuration</title>
 
-  <para>This chapter describes how to install server configuration software as
-  part of pre-installation tasks for installing eformsign.</para>
+  <para>This chapter describes how to install server-side software as part of
+  the pre-installation tasks for installing eformsign.</para>
 
   <para>The installation is command-based and proceeds in the order of web
-  server, WAS, and DB (the order is the same for all OS).<?xxe-remark sychoi
-2020-06-04T07:57:36Z
-The installation proceeds in the order of Web Server, WAS, and DB which is the same for all OS with command(?).
-괄호 풀기?></para>
+  server, WAS, and DB. The installation order is the same for all OS.</para>
 
   <figure>
     <title>Installation Order</title>
@@ -33,21 +30,21 @@ The installation proceeds in the order of Web Server, WAS, and DB which is the s
   <section xml:id="webserver_install">
     <title>Installing the Web Server</title>
 
-    <para>This section describes how to install the web server and how to
-    check its installation.</para>
+    <para>This section describes how to install the web server and verify its
+    installation.</para>
 
     <para>eformsign uses nginx<indexterm class="singular">
         <primary>nginx</primary>
       </indexterm> as the web server.</para>
 
     <note>
-      <para>The recommended specification of nginx is version 1.14.2.</para>
+      <para>The recommended nginx version is 1.14.2.</para>
     </note>
 
     <section>
       <title>Installing nginx</title>
 
-      <para>The process for installing nginx is as follows.</para>
+      <para>The nginx installation process is as follows.</para>
 
       <orderedlist>
         <listitem>
@@ -77,7 +74,7 @@ gpgcheck=0
 enabled=1</programlisting></para>
 
               <note>
-                <para>Create a repository only in RHEL7 and CentOS7.</para>
+                <para>Create a repository only in RHEL 7 and CentOS 7.</para>
               </note>
             </listitem>
           </itemizedlist>
@@ -90,7 +87,7 @@ enabled=1</programlisting></para>
 
           <para><itemizedlist>
               <listitem>
-                <para>RHEL 7/CentOS 7</para>
+                <para>RHEL 7 / CentOS 7</para>
 
                 <para><programlisting>$ yum install nginx -y</programlisting></para>
               </listitem>
@@ -102,10 +99,9 @@ enabled=1</programlisting></para>
 
                 <note>
                   <para>RHEL and CentOS (both are Red Hat-based) both use the
-                  'yum'<?xxe-remark sychoi
-2020-06-04T08:16:08Z
-' ' 대신 볼드 표시?> command, and Debian (in which Ubuntu is derived from) uses the
-                  'apt' command.</para>
+                  <emphasis role="bold">yum</emphasis> command, and Debian (in
+                  which Ubuntu is derived from) uses the <emphasis
+                  role="bold">apt</emphasis> command.</para>
                 </note>
               </listitem>
             </itemizedlist></para>
@@ -214,7 +210,7 @@ $ netfilter-persistent reload
       </indexterm> as the WAS.</para>
 
     <note>
-      <para>The recommended Tomcat specification is version 8.5.</para>
+      <para>The recommended Tomcat version is 8.5.</para>
     </note>
 
     <section>
@@ -400,8 +396,10 @@ $ netfilter-persistent reload
     <section>
       <title>Verifying the Installation</title>
 
-      <para>Enter your IP address in the web browser. If Tomcat is started
-      normally, then the following screen will be displayed.</para>
+      <para>Enter your IP address in a web browser. </para>
+
+      <para>If the following screen is displayed, then the installation is
+      successfully completed.</para>
 
       <para/>
 
@@ -429,7 +427,7 @@ $ netfilter-persistent reload
       </indexterm> as the DB.</para>
 
     <note>
-      <para>The recommended specification for CouchDB is version 3.0.</para>
+      <para>The recommended CouchDB version is 3.0.</para>
     </note>
 
     <section>
@@ -457,9 +455,7 @@ $ yum install -y epel-release-latest-7.noarch.rpm</programlisting></para>
               community-based storage that provides the latest version of
               various packages. It can be used to install and use the packages
               in the latest version that cannot be installed using the
-              '<emphasis role="bold">yum</emphasis><?xxe-remark sychoi
-2020-06-04T08:58:26Z
-' ' 대신 볼드?>' command.</para>
+              <emphasis role="bold">yum</emphasis> command.</para>
             </note></para>
         </listitem>
 
@@ -513,9 +509,7 @@ $ apt install -y couchdb
             </itemizedlist></para>
 
           <para>4. When prompted to select a CouchDB type during installation,
-          select 'none'<?xxe-remark sychoi
-2020-06-04T09:00:33Z
-' ' 대신 볼드?>.</para>
+          select <emphasis role="bold">none</emphasis>.</para>
 
           <para/>
 

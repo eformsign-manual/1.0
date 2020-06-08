@@ -41,7 +41,8 @@ $ cp Onpremise-10,2020,0429,300.zip
     <section xml:base="" xml:id="eformsign_unzip">
       <title>Extracting eformsign</title>
 
-      <para>Extract the Onpremise-10,2020,0429,300.zip file by executing the
+      <para>Extract the<emphasis role="bold">
+      Onpremise-10,2020,0429,300.zip</emphasis> file by executing the
       following command.</para>
 
       <note>
@@ -151,10 +152,10 @@ $ service couchdb stop</programlisting></para>
   <section xml:id="encoding">
     <title>Encryption Settings</title>
 
-    <para>Encrypt your account and generate an encryption key file.</para>
+    <para>Encrypt your account and generate encryption key files.</para>
 
     <section xml:id="rs256">
-      <title>Encrypting Your Account and Generating a Key File</title>
+      <title>Encrypting Your Account and Generating Key Files</title>
 
       <para>Encrypt your account by executing the following command and write
       a memo of the result. The information of the encrypted account will be
@@ -177,8 +178,8 @@ Enter email Password : email PW
   <section xml:id="db_config">
     <title>Configuring CouchDB</title>
 
-    <para>eformsign's data can be stored and managed in a single DB by
-    configuring CouchDB<indexterm class="singular">
+    <para>eformsign's data can be stored and managed in a DB by configuring
+    CouchDB<indexterm class="singular">
         <primary>CouchDB</primary>
       </indexterm>.</para>
 
@@ -262,7 +263,7 @@ $ ./eformsign-couchdb-restore
       <title>Go to the Iam/WEB-INF Folder</title>
 
       <para>Go to the WEB-INF folder in Iam by executing the following command
-      (different for each OS).<!--() 없애고 by executing the following command for each OS. --></para>
+      for each OS.</para>
 
       <itemizedlist>
         <listitem>
@@ -325,12 +326,12 @@ couch.db.autoview=true
       <title>Copying the Encryption Key Files (RS256.private,
       RS256.pub)</title>
 
-      <para>Copy the files generated in <xref linkend="rs256"/>,
-      RS256.private<indexterm class="singular">
+      <para>Copy the <xref linkend="rs256"/>, RS256.private<indexterm
+          class="singular">
           <primary>RS256.private</primary>
         </indexterm> and RS256.pub<indexterm class="singular">
           <primary>RS256.pub</primary>
-        </indexterm> by executing the following commands.</para>
+        </indexterm> files by executing the following commands.</para>
 
       <itemizedlist>
         <listitem>
@@ -368,8 +369,10 @@ $ cp /opt/eformsign/RS256.* .
   <section xml:id="service_config">
     <title>Configuring Service</title>
 
-    <para>This is a server that synchronously responds to user requests, and
-    is run on the WAS. Configure it as follows.</para>
+    <para>Service<indexterm class="singular">
+        <primary>service</primary>
+      </indexterm> server is a server that synchronously responds to user
+    requests, and is run on the WAS. Configure it as follows.</para>
 
     <section xml:base="" xml:id="service_foldercopy">
       <title>Go to the Service/WEB-INF/classes Folder</title>
@@ -414,9 +417,7 @@ $ cp /opt/eformsign/RS256.* .
             </indexterm></para>
 
           <para><programlisting>$ vi aes256.properties
-// Enter the encryption key file<?xxe-remark sychoi
-2020-06-08T00:38:26Z
-원문은 암호화된 키인데, key와 key file이 의미가 동일한가요??> generated in '4.2.1. Encrypting Your Account and Generating a Key File'.
+// Enter the encryption key generated in '4.2.1. Encrypting Your Account and Generating a Key File'.
 aeskey.couchdb= 
 aeskey.api= 
 aeskey.webhook= 
@@ -495,10 +496,10 @@ password_encrypted :
     <section xml:base="" xml:id="pub_key_copy">
       <title>Copying the Encryption Key File (RS256.pub)</title>
 
-      <para>Copy the file created in <xref linkend="rs256"/>,
-      RS256.pub<indexterm class="singular">
+      <para>Copy the <xref linkend="rs256"/>, RS256.pub<indexterm
+          class="singular">
           <primary>RS256.pub</primary>
-        </indexterm>, by executing the following command.</para>
+        </indexterm> file by executing the following command.</para>
 
       <itemizedlist>
         <listitem>
@@ -539,9 +540,9 @@ $ cp /opt/eformsign/RS256.pub .
     <para>The Daemon<indexterm class="singular">
         <primary>Daemon</primary>
       </indexterm> server is a server that asynchronously responds to batch
-    and scheduler tasks such as email notification, asynchronous batch
-    creation, and document PDF generation. Same as in the service server, it
-    is run on the WAS. Configure it as follows.</para>
+    and scheduler tasks such as email notification, document bulk creation,
+    and document PDF generation. Same as the Service server, it is run on the
+    WAS. Configure it as follows.</para>
 
     <section xml:base="" xml:id="daemon_foldercopy">
       <title>Go to the Daemon/WEB-INF/classes Folder</title>
@@ -666,7 +667,7 @@ password_encrypted :
     <title>Configuring Home</title>
 
     <para>This is the screen displayed on the front-end to users and is
-    installed in the web server.</para>
+    installed on the web server.</para>
 
     <section xml:base="" xml:id="home_upzip">
       <title>Extracting the Home File</title>
@@ -793,8 +794,8 @@ var OPTION_LOCATION_CODE="country code eg) kr";
   <section xml:id="license_config">
     <title>Configuring the License</title>
 
-    <para>Set the license for each OS as follows by going to the folder that
-    contains the license file.<!--Go to the folder that contains the license file, and set the license for each OS as follows.--></para>
+    <para>Go to the folder that contains the license file and set the license
+    for each OS as follows.</para>
 
     <itemizedlist>
       <listitem>
@@ -1084,11 +1085,8 @@ Service tomcat start
     <section>
       <title>Service</title>
 
-      <para>Check whether the following execution result is displayed when
-      entering the IP address/Service in the web browser.<?xxe-remark sychoi
-2020-06-08T00:46:51Z
-문장 구조가 순서대로 가는게 좋을듯
-Enter the IP address/Service in the web browser, and check whether the following excution result is displayed.?></para>
+      <para>Enter the IP address/Service in the web browser, and check whether
+      the following execution result is displayed.</para>
 
       <para><programlisting>{"Service Name":"Service","eformsign version":"10,2020,0429,300","Viewer version":"80,2020,0422,201","Server version":"80,2020,0422,1510","Cpu Count":"any","IP List":"any","Request URL":"any",
 "Expire Date":"2021-05-01"}
@@ -1098,10 +1096,8 @@ Enter the IP address/Service in the web browser, and check whether the following
     <section>
       <title>Daemon</title>
 
-      <para>Check whether the following execution result is displayed when
-      entering the IP address/Daemon in the web browser.<?xxe-remark sychoi
-2020-06-08T00:47:38Z
-Enter the IP address/Service in the web browser, and check whether the following execution result is displayed.?></para>
+      <para>Enter the IP address/Daemon in the web browser, and check whether
+      the following execution result is displayed.</para>
 
       <para><programlisting>{"Service Name":"Service","eformsign version":"10,2020,0429,300","Viewer version":"80,2020,0422,201","Server version":"80,2020,0422,1510","Cpu Count":"any","IP List":"any","Request URL":"any",
 "Expire Date":"2021-05-01"}
@@ -1111,10 +1107,8 @@ Enter the IP address/Service in the web browser, and check whether the following
     <section>
       <title>Iam</title>
 
-      <para>Check whether the Iam login page is displayed when entering the IP
-      address/Iam in the web browser.<?xxe-remark sychoi
-2020-06-08T00:48:35Z
-Enter the IP address/Iam in the web browser, and check whether the Iam login page is displayed.?></para>
+      <para>Enter the IP address/Iam in the web browser, and check whether the
+      Iam login page is displayed.</para>
     </section>
   </section>
 </chapter>

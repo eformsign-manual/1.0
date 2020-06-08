@@ -10,15 +10,15 @@
   <title>Pre-installation Task 1 - Java Installation and Environment Variable
   Configuration</title>
 
-  <para>This chapter describes how to install Java and configure environment
-  variables as part of the pre-installation tasks for installing
+  <para>This chapter describes how to install Java and configure the
+  environment variable as part of the pre-installation tasks for installing
   eformsign.</para>
 
   <section>
     <title>Installing Java</title>
 
-    <para>Java 8 installation is required before installing the eformsign
-    On-Premise service as it runs on Java 8.</para>
+    <para>Java 8 installation is required before installing eformsign as it
+    runs on Java 8.</para>
 
     <para>The following describes how to install Java for each OS.</para>
 
@@ -52,8 +52,9 @@ $ apt update
 $ apt install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common</programlisting></para>
 
         <note>
-          <para>In Debian, the apt command can be used to automatically
-          resolve dependency problems between packages. Use the apt (short for
+          <para>In Debian, the<emphasis role="bold"> apt</emphasis> command
+          can be used to automatically resolve dependency problems between
+          packages. Use the <emphasis role="bold">apt</emphasis> (short for
           advanced package manager) command to automatically install and
           upgrade packages.</para>
         </note>
@@ -85,14 +86,14 @@ OpenJDK 64-Bit Server VM (Build 25.242-b08, mixed mode)</programlisting></para>
 
     <note>
       <para>Messages can differ for each OS. If a message such as the one
-      above is displayed, then the Java environment variables do not need to
+      above is displayed, then the Java environment variable does not need to
       be configured. However, if such a message is not displayed, then the
-      Java environment variables must be configured.</para>
+      Java environment variable must be configured.</para>
     </note>
   </section>
 
   <section>
-    <title>Configuring Java Environment Variables</title>
+    <title>Configuring the Java Environment Variable</title>
 
     <para>Configure the JAVA_HOME environment variable by OS as
     follows.</para>
@@ -126,9 +127,8 @@ $ echo $JAVA_HOME</programlisting></para>
       </itemizedlist></para>
 
     <note>
-      <para>The method for configuring JAVA_HOME is the<?xxe-remark sychoi
-2020-06-04T07:32:18Z
-the 삭제?> same in CentOS 7 and Debian 10.</para>
+      <para>The method for configuring JAVA_HOME is the same in CentOS 7 and
+      Debian 10.</para>
     </note>
   </section>
 </chapter>
