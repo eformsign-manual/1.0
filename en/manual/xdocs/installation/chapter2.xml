@@ -126,8 +126,9 @@ $ echo $JAVA_HOME</programlisting></para>
       </itemizedlist></para>
 
     <note>
-      <para>The method for configuring JAVA_HOME is the same in CentOS 7 and
-      Debian 10.</para>
+      <para>The method for configuring JAVA_HOME is the<?xxe-remark sychoi
+2020-06-04T07:32:18Z
+the 삭제?> same in CentOS 7 and Debian 10.</para>
     </note>
   </section>
 </chapter>
