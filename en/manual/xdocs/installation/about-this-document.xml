@@ -51,7 +51,7 @@
 
   <?dbfo-need height="10in" ?>
 
-  <bridgehead>Document Organization</bridgehead>
+  <bridgehead>Document Overview</bridgehead>
 
   <para>This guide consists of 5 chapters.</para>
 
@@ -118,7 +118,9 @@
         <row>
           <entry>&lt;AaBbCc123&gt;</entry>
 
-          <entry>Filename of a program or source code</entry>
+          <entry>Filename of a program or<?xxe-remark sychoi
+2020-06-04T06:29:56Z
+or???> source code</entry>
         </row>
 
         <row>
@@ -156,13 +158,13 @@
         <row>
           <entry>+----</entry>
 
-          <entry>Files or directories exist below</entry>
+          <entry>Files or directories exist below<!--Subdirectory or subfile exist--></entry>
         </row>
 
         <row>
           <entry>|----</entry>
 
-          <entry>Files or directories do not exist below</entry>
+          <entry>Files or directories do not exist below<!--Subdirectory or subfile do not exist--></entry>
         </row>
 
         <row>
@@ -188,19 +190,19 @@
         <row>
           <entry><programlisting language=""> AaBbCc123</programlisting></entry>
 
-          <entry>Command, execution result, or example code</entry>
+          <entry>Command, execution result, or example code<!--sample code--></entry>
         </row>
 
         <row>
           <entry>[ ]</entry>
 
-          <entry>Optional items</entry>
+          <entry>Optional items<!--argument value--></entry>
         </row>
 
         <row>
           <entry>|</entry>
 
-          <entry>Selective items</entry>
+          <entry>Selective items<!--argument value--></entry>
         </row>
       </tbody>
     </tgroup>
@@ -244,7 +246,7 @@
 
   <para><bridgehead>Korea</bridgehead><address>FORCS Co. Ltd (HQ)
 <otheraddr>646, Nonhyeon-ro, Gangnam-gu, Seoul,
-Republic of Korea 06106</otheraddr>
+Republic of Korea, 06106</otheraddr>
 Tel: +82 2 6188 8200
 Email: <email>eformsign@forcs.com</email>
 Web: <otheraddr><link xlink:href="https://www.eformsign.com">https://www.eformsign.com</link></otheraddr>
@@ -253,7 +255,7 @@ Web: <otheraddr><link xlink:href="https://www.eformsign.com">https://www.eformsi
   <para><bridgehead>Singapore</bridgehead><address><otheraddr>FORCS Singapore Pte Ltd</otheraddr>
 8 Shenton Way,
 #04-01 AXA Tower,
-Singapore 068811
+Singapore, 068811
 Tel: +65 6100 2007 
 Email:<email>singapore@forcs.com</email>
 Web: <otheraddr><link xlink:href="http://www.forcs.com/en/">http://www.forcs.com/en/</link></otheraddr></address></para>
