@@ -15,7 +15,7 @@
     </indexterm></para>
 
   <section>
-    <title>Configuring eformsign System Modules</title>
+    <title>Configuring eformsign System Modules <!--eformsign System Module Configuration--></title>
 
     <para>eformsign consists of 5 modules: Home (front-end), Service server,
     Daemon server, Iam server, and DB.</para>
@@ -36,7 +36,7 @@
 
             <entry align="center">Purpose</entry>
 
-            <entry align="center">Note</entry>
+            <entry align="center">Note<!--Remarks 아래 Note랑 겹침--></entry>
           </row>
         </thead>
 
@@ -111,7 +111,10 @@
     <para>eformsign supports both monolithic and distributed methods of server
     configuration according to the number of users. The monolithic method has
     the advantage of minimizing server construction cost, but has the
-    disadvantage of not being able to perform fail-overs.</para>
+    disadvantage of not being able to perform fail-overs.<?xxe-remark sychoi
+2020-06-04T07:11:53Z
+문제 발생시 누락
+when error occurs??></para>
 
     <para>When using the distributed method, the DB and WAS can be configured
     on the same server, or can be configured on separate servers for
