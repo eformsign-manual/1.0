@@ -8,7 +8,7 @@
          xmlns:db="http://docbook.org/ns/docbook">
   <title>설치 전 준비사항 (2): 서버 환경 구성</title>
 
-  <para>본 장에서는eformsign를 설치하기 전에 설치가 필요한 서버 환경구성 소프트웨어를 설치하는 과정에 대해
+  <para>본 장에서는 eformsign를 설치하기 전에 설치가 필요한 서버 환경구성 소프트웨어를 설치하는 과정에 대해
   설명합니다.</para>
 
   <para>설치 순서는 Web Server, WAS, DB의 순으로 OS별로 모두 동일하며 command 기반으로
@@ -153,7 +153,7 @@ enabled=1</programlisting></para>
                 <para>2. 80번 포트를 엽니다.</para>
 
                 <para><programlisting>$ iptables -I INPUT -p tcp --dport 80 -j ACCEPT</programlisting>3.
-                부팅 시 방화벽 설정이 자동 적용 되도록 합니다</para>
+                부팅 시 방화벽 설정이 자동 적용되도록 합니다</para>
 
                 <para><programlisting>$ apt install iptables-persistent
 $ netfilter-persistent save
