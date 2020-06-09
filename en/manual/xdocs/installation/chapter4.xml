@@ -431,7 +431,7 @@ aeskey.email=
             </indexterm></para>
 
           <para><programlisting>$ vi couchDB.properties
-// Enter the encryption key file generated in '4.2.1. Encrypting Your Account and Generating a Key File'.
+// Enter the encryption key generated in '4.2.1. Encrypting Your Account and Generating a Key File'.
 db.id_encrypted=
 db.password_encrypted=
 ...
@@ -449,7 +449,7 @@ service.language=ko-kr,ja-jp,en-us
             </indexterm></para>
 
           <para><programlisting>$ vi forcsCom.properties
-// Enter the encryption key file generated in '4.2.1. Encrypting Your Account and Generating a Key File'.
+// Enter the encryption key generated in '4.2.1. Encrypting Your Account and Generating a Key File'.
 db.id_encrypted=
 db.password_encrypted= 
 </programlisting></para>
@@ -483,7 +483,7 @@ account : Enter the mail account
 password : Enter the mail password
 prefix : Enter the header(optional)
 ssl : Configure by mail server (true / false)
-// Enter the encryption key file generated in '4.2.1. Encrypting Your Account and Generating a Key File'
+// Enter the encryption key generated in '4.2.1. Encrypting Your Account and Generating a Key File'
 account_encrypted : 
 password_encrypted : 
 </programlisting></para>
@@ -587,7 +587,7 @@ $ cp /opt/eformsign/RS256.pub .
             </indexterm></para>
 
           <para><programlisting>$ vi aes256.properties
-// Enter the encryption key file generated in '4.2.1. Encrypting Your Account and Generating a Key File'
+// Enter the encryption key generated in '4.2.1. Encrypting Your Account and Generating a Key File'
 aeskey.couchdb= 
 aeskey.api= 
 aeskey.webhook= 
@@ -601,7 +601,7 @@ aeskey.email=
             </indexterm></para>
 
           <para><programlisting>$ vi couchDB.properties
-// Enter the encryption key file generated in '4.2.1. Encrypting Your Account and Generating a Key File'
+// Enter the encryption key generated in '4.2.1. Encrypting Your Account and Generating a Key File'
 db.id_encrypted= 
 db.password_encrypted= 
 ...
@@ -619,7 +619,7 @@ service.language=ko-kr,ja-jp,en-us
             </indexterm></para>
 
           <para><programlisting>$ vi forcsCom.properties
-// Enter the encryption key file generated in '4.2.1. Encrypting Your Account and Generating a Key File'
+// Enter the encryption key generated in '4.2.1. Encrypting Your Account and Generating a Key File'
 db.id_encrypted= 
 db.password_encrypted= 
 </programlisting></para>
@@ -652,7 +652,7 @@ account : Enter the mail account
 password : Enter the mail password
 prefix : Enter the header(optional)
 ssl : Configure according to the mail server (true / false)
-// Enter the encryption key file generated in '4.2.1. Encrypting Your Account and Generating a Key File'
+// Enter the encryption key generated in '4.2.1. Encrypting Your Account and Generating a Key File'
 account_encrypted :
 password_encrypted : 
 </programlisting></para>
