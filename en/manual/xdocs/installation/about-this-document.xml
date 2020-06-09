@@ -256,7 +256,7 @@ Web: <otheraddr><link xlink:href="https://www.eformsign.com">https://www.eformsi
 #04-01 AXA Tower,
 Singapore, 068811
 Tel: +65 6100 2007 
-Email:<email>singapore@forcs.com</email>
+Email: <email>singapore@forcs.com</email>
 Web: <otheraddr><link xlink:href="http://www.forcs.com/en/">http://www.forcs.com/en/</link></otheraddr></address></para>
 
   <para><bridgehead>Japan</bridgehead><address>FORCS Japan
@@ -273,5 +273,5 @@ Web: <otheraddr><link xlink:href="http://www.forcs.com/jp/">http://www.forcs.com
 Sint-Michielswarande,
 1040 Etterbeek, Belgium
 Email: <email>singapore@forcs.com</email>
-Web (Korean): <otheraddr><link xlink:href="http://www.forcs.com/en">http://www.forcs.com/en/</link></otheraddr></address></para>
+Web: <otheraddr><link xlink:href="http://www.forcs.com/en">http://www.forcs.com/en/</link></otheraddr></address></para>
 </preface>

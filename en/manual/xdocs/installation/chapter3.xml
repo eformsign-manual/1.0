@@ -112,7 +112,7 @@ enabled=1</programlisting></para>
         <listitem>
           <para>Execute nginx.</para>
 
-          <para>Execute ngix using the following command regardless of the OS
+          <para>Execute nginx using the following command regardless of the OS
           .</para>
 
           <para><programlisting>$ service nginx start</programlisting></para>
@@ -396,7 +396,7 @@ $ netfilter-persistent reload
     <section>
       <title>Verifying the Installation</title>
 
-      <para>Enter your IP address in a web browser. </para>
+      <para>Enter your IP address in a web browser.</para>
 
       <para>If the following screen is displayed, then the installation is
       successfully completed.</para>

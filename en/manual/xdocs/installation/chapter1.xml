@@ -71,8 +71,9 @@
             <entry>Handling asynchronous user requests</entry>
 
             <entry><para>Installed on the WAS and handles asynchronous batch
-            tasks and scheduling requests such as email notification, document
-            bulk creation, and document PDF generation.</para></entry>
+            tasks and scheduling requests such as email notification, bulk
+            creation of documents, and generation of PDF
+            documents.</para></entry>
           </row>
 
           <row>
@@ -100,8 +101,8 @@
     </table>
 
     <note>
-      <para>Installing and configuring the web server, WAS, and DBMS is a
-      prerequisite to install and use eformsign.</para>
+      <para>Installation and configuration of the web server, WAS, and DBMS
+      are prerequisites for installing and using eformsign.</para>
     </note>
   </section>
 

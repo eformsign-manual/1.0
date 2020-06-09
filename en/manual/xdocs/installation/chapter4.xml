@@ -540,9 +540,9 @@ $ cp /opt/eformsign/RS256.pub .
     <para>The Daemon<indexterm class="singular">
         <primary>Daemon</primary>
       </indexterm> server is a server that asynchronously responds to batch
-    and scheduler tasks such as email notification, document bulk creation,
-    and document PDF generation. Same as the Service server, it is run on the
-    WAS. Configure it as follows.</para>
+    and scheduler tasks such as email notification, bulk creation of
+    documents, and generation of PDF documents. Same as the Service server, it
+    is run on the WAS. Configure it as follows.</para>
 
     <section xml:base="" xml:id="daemon_foldercopy">
       <title>Go to the Daemon/WEB-INF/classes Folder</title>
@@ -642,7 +642,7 @@ db.password_encrypted=
 
         <listitem>
           <para>email.properties<indexterm class="singular">
-              <primary>email.propertie</primary>
+              <primary>email.properties</primary>
             </indexterm></para>
 
           <para><programlisting>$ vi email.properties
