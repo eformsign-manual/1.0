@@ -7,7 +7,9 @@
          xmlns:mml="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Pre-installation Task 2 - Server Environment Configuration</title>
+  <title>Pre-installation Task 2</title>
+
+  <subtitle>Server Environment Configuration</subtitle>
 
   <para>This chapter describes how to install server-side software as part of
   the pre-installation tasks for installing eformsign.</para>
