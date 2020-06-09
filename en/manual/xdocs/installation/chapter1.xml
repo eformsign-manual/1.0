@@ -20,8 +20,6 @@
     <para>eformsign consists of 5 modules: Home (front-end) and 4 server-side
     modules (Service server, Daemon server, Iam server, and DB).</para>
 
-    <para/>
-
     <table>
       <title>eformsign Module Configuration</title>
 
@@ -125,8 +123,6 @@
       contact us at <link
       xlink:href="eformsign@forcs.com">eformsign@forcs.com</link>.</para>
     </note>
-
-    <para/>
   </section>
 
   <section>
@@ -134,8 +130,6 @@
 
     <para>The following tables describe the minimum and recommended
     requirements (hardware and software) for installing eformsign.</para>
-
-    <para/>
 
     <table>
       <title>Minimum and Recommended Hardware Requirements</title>
@@ -155,13 +149,13 @@
 
         <tbody>
           <row>
-            <entry>CPU</entry>
+            <entry rotate="0" rowsep="1">CPU</entry>
 
-            <entry><para>4 Core</para><para>Intel Xeon E5 2620 V3 or
-            higher</para></entry>
+            <entry valign="middle"><para>4 Core</para><para>Intel Xeon E5 2620
+            V3 or higher</para></entry>
 
-            <entry><para>8 Core</para><para>Intel Xeon E5 2620 V3 or
-            higher</para></entry>
+            <entry valign="middle"><para>8 Core</para><para>Intel Xeon E5 2620
+            V3 or higher</para></entry>
           </row>
 
           <row>
@@ -182,8 +176,6 @@
         </tbody>
       </tgroup>
     </table>
-
-    <para/>
 
     <table>
       <title>Minimum and Recommended Software Requirements</title>
