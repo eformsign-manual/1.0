@@ -151,11 +151,9 @@
           <row>
             <entry rotate="0" rowsep="1">CPU</entry>
 
-            <entry valign="middle"><para>4 Core</para><para>Intel Xeon E5 2620
-            V3 or higher</para></entry>
+            <entry>4 Core, Intel Xeon E5 2620 V3 or higher</entry>
 
-            <entry valign="middle"><para>8 Core</para><para>Intel Xeon E5 2620
-            V3 or higher</para></entry>
+            <entry>8 Core, Intel Xeon E5 2620 V3 or higher</entry>
           </row>
 
           <row>
@@ -169,7 +167,7 @@
           <row>
             <entry>Storage Device</entry>
 
-            <entry><para>HDD 1TB</para></entry>
+            <entry>HDD 1TB</entry>
 
             <entry>SSD 1TB</entry>
           </row>
