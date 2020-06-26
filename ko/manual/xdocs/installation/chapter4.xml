@@ -440,8 +440,10 @@ db.password_encrypted=
 …
 &lt;!-- file system --&gt;
         &lt;bean id="storageService" class="oz.service.storage.impl.FileSystemServiceImpl"&gt;
-                &lt;constructor-arg name="_root_path" value=""/&gt;             //_root_path 의 value에 storage path 입력
-                &lt;constructor-arg name="_imgUrl" value=""/&gt;              //_imgUrl 의 value에 domain/Service 입력
+// value에 storage path 입력
+                &lt;constructor-arg value=""/&gt;
+// value에 http://도메인 또는 ip/Service 입력             
+                &lt;constructor-arg value=""/&gt;            
         &lt;/bean&gt;
 …
 </programlisting></para>
@@ -605,9 +607,12 @@ db.password_encrypted=
 
           <para><programlisting>$ vi storageConfig.xml
 …
+&lt;!-- file system --&gt;
         &lt;bean id="storageService" class="oz.service.storage.impl.FileSystemServiceImpl"&gt;
-                &lt;constructor-arg name="_root_path" value=""/&gt;             //_root_path 의 value에 storage path 입력
-                &lt;constructor-arg name="_imgUrl" value=""/&gt;              //_imgUrl 의 value에 domain/Service 입력
+// value에 storage path 입력
+                &lt;constructor-arg value=""/&gt;
+// value에 http://도메인 또는 ip/Service 입력             
+                &lt;constructor-arg value=""/&gt;            
         &lt;/bean&gt;
 …
 </programlisting></para>
@@ -701,8 +706,8 @@ var OPTION_JA_BLOG_URL="https://www.eformsign.com/jp/blog/";
 var OPTION_KO_SUPPORT_URL="https://www.eformsign.com/kr/support/";
 var OPTION_EN_SUPPORT_URL="https://www.eformsign.com/en/support/";
 var OPTION_JA_SUPPORT_URL="https://www.eformsign.com/en/support/";
-var OPTION_SERVICE_URL="http://도메인/Service";
-var OPTION_DAEMON_URL="http://도메인/Daemon";
+var OPTION_SERVICE_URL="http://도메인 또는 ip/Service";
+var OPTION_DAEMON_URL="http://도메인 또는 ip/Daemon";
 var OPTION_LOCATION_CODE="국가코드 ex) kr";
 </programlisting></para>
     </section>

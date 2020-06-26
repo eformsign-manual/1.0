@@ -464,8 +464,10 @@ db.password_encrypted=
 …
 &lt;!-- file system --&gt;
         &lt;bean id="storageService" class="oz.service.storage.impl.FileSystemServiceImpl"&gt;
-                &lt;constructor-arg name="_root_path" value=""/&gt;             //Enter the storage path in the value of _root_path
-                &lt;constructor-arg name="_imgUrl" value=""/&gt;              //Enter the domain/Service in the value in _imgUrl 
+//Enter the storage path in the value
+                &lt;constructor-arg value=""/&gt; 
+//Enter http://Domain or ip in the value             
+                &lt;constructor-arg value=""/&gt;              
         &lt;/bean&gt;
 …
 </programlisting></para>
@@ -632,9 +634,12 @@ db.password_encrypted=
 
           <para><programlisting>$ vi storageConfig.xml
 …
+&lt;!-- file system --&gt;
         &lt;bean id="storageService" class="oz.service.storage.impl.FileSystemServiceImpl"&gt;
-                &lt;constructor-arg name="_root_path" value=""/&gt;             //Enter the storage path in the value of _root_path.
-                &lt;constructor-arg name="_imgUrl" value=""/&gt;              //Enter the domain/Service in the value of_imgUrl.
+//Enter the storage path in the value
+                &lt;constructor-arg value=""/&gt; 
+//Enter http://Domain or ip in the value             
+                &lt;constructor-arg value=""/&gt;              
         &lt;/bean&gt;
 …
 </programlisting></para>
@@ -730,8 +735,8 @@ var OPTION_JA_BLOG_URL="https://www.eformsign.com/jp/blog/";
 var OPTION_KO_SUPPORT_URL="https://www.eformsign.com/kr/support/";
 var OPTION_EN_SUPPORT_URL="https://www.eformsign.com/en/support/";
 var OPTION_JA_SUPPORT_URL="https://www.eformsign.com/en/support/";
-var OPTION_SERVICE_URL="http://domain/Service";
-var OPTION_DAEMON_URL="http://domain/Daemon";
+var OPTION_SERVICE_URL="http://Domain or ip/Service";
+var OPTION_DAEMON_URL="http://Domain or ip/Daemon";
 var OPTION_LOCATION_CODE="country code eg) kr";
 </programlisting></para>
     </section>
