@@ -466,7 +466,7 @@ db.password_encrypted=
         &lt;bean id="storageService" class="oz.service.storage.impl.FileSystemServiceImpl"&gt;
 //Enter the storage path in the value
                 &lt;constructor-arg value=""/&gt; 
-//Enter http://Domain or ip in the value             
+//Enter http://Domain or ip/Service in the value             
                 &lt;constructor-arg value=""/&gt;              
         &lt;/bean&gt;
 …
@@ -638,7 +638,7 @@ db.password_encrypted=
         &lt;bean id="storageService" class="oz.service.storage.impl.FileSystemServiceImpl"&gt;
 //Enter the storage path in the value
                 &lt;constructor-arg value=""/&gt; 
-//Enter http://Domain or ip in the value             
+//Enter http://Domain or ip/Service in the value             
                 &lt;constructor-arg value=""/&gt;              
         &lt;/bean&gt;
 …
