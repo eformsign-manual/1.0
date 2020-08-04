@@ -6,242 +6,88 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>폼 빌더와 컴포넌트</title>
+  <title>웹 폼 디자이너 소개</title>
 
   <section>
-    <title>폼 빌더 개요</title>
+    <title>웹 폼 디자이너 개요</title>
 
-    <para>폼 빌더는 OZ in Office라고도 합니다. OZ in Office는 Microsoft Office로 만든 문서를 입력
-    기능을 갖춘 전자 문서로 변환하는 폼 에디터입니다. OZ in Office를 사용하면 기존에 Excel, Word,
-    PowerPoint로 만들어진 업무 양식(계약서, 신청서, 동의서, 품의서 등)을 간단하고 쉽게 전자 문서로 변환할 수 있습니다.
-    변환된 전자 문서는 전용 뷰어를 통해 PC 뿐만 아니라 모바일에서 시간과 장소에 제약없이 언제 어디서나 자유롭게 사용할 수
-    있습니다.</para>
+    <para>eformsign 템플릿 관리 메뉴에서 전자문서의 배경서식이 되는 PDF 파일을 업로드하면 웹 폼 디자이너가 나타납니다.
+    왼쪽 트리의 다양한 입력항목 중 원하는 입력항목을 드래그해서 웹 폼 디자이너에서 나타나는 배경 파일에 올리고 난 후, 각 컴포넌트에
+    대한 속성을 설정하면 템플릿을 손쉽게 생성할 수 있습니다. 현재는 PDF 파일만 지원하나, 곧, MS Office, 한글, JPG,
+    PNG 등의 이미지 파일도 지원할 예정입니다. </para>
 
-    <para>기존에는 기업의 Excel, Word, PowerPoint 문서를 전자 문서로 개발하려면 프로그래밍 개발 수준의 개발자용
-    문서 개발 도구가 필요했습니다. 그러나, OZ in Office을 이용하면 Office 제품을 사용할 수 있는 수준이면 누구나 전자
-    문서를 손쉽게 개발할 수 있습니다.</para>
-
-    <para>OZ in Office는 MS Office에 Add-on되어 리본 메뉴로 나타나서 사용이 간단하며, 전자 서명, 체크
-    박스, 텍스트 박스, 카메라, 녹음 등 OZ의 다양한 입력 기능을 제공하고 있습니다.</para>
-
-    <para>OZ in Office의 입력 기능을 이용하여 전자 문서를 만드는 과정은 다음과 같습니다.</para>
+    <para>1. 메뉴 중 템플릿 관리 화면으로 들어가면 아래와 같은 화면이 나타납니다. </para>
 
     <figure>
-      <title>OZ in Office 사용 흐름</title>
+      <title>웹 폼 디자이너 화면</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/ozinoffice-flow_1.png" width="750"/>
+          <imagedata fileref="resources/web-form_1.png" width="750"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>2. 템플릿 관리 화면에 바로 파일을 드래그하거나 내 컴퓨터에서 파일 선택을 눌러 자신의 컴퓨터에서 업로드하고자 하는
+    파일을 선택합니다.</para>
+
+    <figure>
+      <title>웹 폼 디자이너 화면</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/web-form_2.png" width="750"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>3. 파일이 업로드되면 아래와 같이 문서 화면이 나타납니다.</para>
+
+    <figure>
+      <title>웹 폼 디자이너 화면</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/web-form_3.png" width="750"/>
         </imageobject>
       </mediaobject>
     </figure>
 
     <section>
-      <title>폼 빌더 다운로드</title>
+      <title>웹 폼 디자이너 메뉴 구성</title>
 
-      <para>1. 이폼사인 로그인 후 대시보드 화면 왼쪽 상단의 햄버거 메뉴(<inlinemediaobject>
-          <imageobject>
-            <imagedata fileref="resources/menu%20icon.png"/>
-          </imageobject>
-        </inlinemediaobject>)를 클릭하면 나타나는 사이드바 메뉴 중 가장 하단의 <emphasis
-      role="bold">eformsign 폼 빌더 다운로드</emphasis> 버튼을 클릭합니다.</para>
+      <para>웹 폼 디자이너는 크게 문서를 보여주는 화면과, 상단 바 외에 왼쪽 및 오른쪽 화면으로 구성되어 있습니다.</para>
 
       <figure>
-        <title>폼 빌더 다운로드 버튼 위치</title>
+        <title>웹 폼 디자이너 메뉴 구성</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/formbuilder_download.png"
-                       width="750"/>
+            <imagedata fileref="resources/web-form_4.png" width="750"/>
           </imageobject>
         </mediaobject>
       </figure>
-
-      <para>2. 다음과 같은 eformsign 폼 빌더 다운로드 페이지가 나타납니다. 페이지 하단의 폼 빌더 다운로드 버튼을
-      클릭합니다.</para>
-
-      <figure>
-        <title>폼 빌더 다운로드 페이지</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_download_2.png"
-                       width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>3. 폼 빌더 실행파일을 저장할 위치를 정하고 다운로드합니다.</para>
-
-      <para/>
-    </section>
-
-    <section>
-      <title>폼 빌더 설치</title>
-
-      <para>1. 폼 빌더 실행파일을 클릭해 실행합니다.</para>
-
-      <para>2. 다음과 같은 Wizard 화면이 나타나면 옵션 중 <emphasis
-      role="bold">복구(E)</emphasis>를 선택하고 <emphasis role="bold">다음(N)
-      &gt;</emphasis> 버튼을 클릭합니다.</para>
-
-      <figure>
-        <title>폼 빌더 설치 화면 (1)</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_wizard_1.png"
-                       width="500"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>3. 설치가 진행되면 다음과 같은 화면이 나타납니다.</para>
-
-      <figure>
-        <title>폼 빌더 설치 화면 (2)</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_wizard_2.png"
-                       width="500"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>4. 설치가 완료되었습니다. <emphasis role="bold">완료</emphasis> 버튼을 눌러 설치 화면을
-      닫습니다.</para>
-
-      <figure>
-        <title>폼 빌더 설치 화면 (3)</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_wizard_3.png"
-                       width="500"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>5. MS Office (Word, Excel, PowerPoint)를 실행해 폼 빌더가 제대로 설치되었는지를
-      확인합니다. 다음과 같이 OZ in Word/Excel/PowerPoint가 나타나면 정상적으로 설치된 것입니다.</para>
-
-      <figure>
-        <title>OZ in Word 리본 메뉴</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/formbuilder_word_4.png" width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>6. OZ in Word/Excel/PowerPoint 리본 메뉴 중 <emphasis
-      role="bold">서비스</emphasis> 버튼을 클릭하여 나타나는 팝업창에 서비스명과 URL을 추가합니다.</para>
-
-      <figure>
-        <title>서비스 및 URL 추가 (1)</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/ozinoffice_service_1.png"
-                       width="350"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>7. <emphasis role="bold">저장 후 전환</emphasis> 버튼을 클릭하고 신규 설정한 서비스
-      URL과 OZ in Word/Excel/PowerPoint를 연결합니다.</para>
-
-      <para><figure>
-          <title>서비스 및 URL 추가 (2)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinoffice_service_2.png"
-                         width="350"/>
-            </imageobject>
-          </mediaobject>
-        </figure>8. 연결이 완료되면 아래와 같이 리본 메뉴의 <emphasis
-      role="bold">파일</emphasis>에 <emphasis role="bold">업로드</emphasis>와
-      <emphasis role="bold">다운로드</emphasis> 버튼이 추가된 것을 확인할 수 있습니다.</para>
-
-      <figure>
-        <title>서비스 연결 후의 리본 메뉴</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/ozinoffice_service_3.png"
-                       width="700"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para/>
-    </section>
-
-    <section>
-      <title>폼 빌더 메뉴 구성</title>
-
-      <para>폼 빌더를 설치한 후 MS Office의 엑셀, 워드, 파워포인트를 실행하면 상단의 OZ in Office 리본 메뉴에
-      OZ in Excel, OZ in Word, OZ in PowerPoint 탭이 추가된 것을 확인할 수 있습니다.</para>
-
-      <figure>
-        <title>MS Office의 OZ in Office 리본 메뉴</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/ozinoffice.png" width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para/>
 
       <orderedlist>
         <listitem>
-          <para><emphasis role="bold">서비스: </emphasis>사용하는 서비스의 이름과 URL을 추가해 폼
-          빌더와 서비스를 연결합니다.</para>
+          <para><emphasis role="bold">문서 표시 창: </emphasis>업로드한 배경서식 문서가
+          나타납니다.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">파일: </emphasis>작성한 문서를 전자 서식으로 실행해보고
-          이폼사인에 전자서식을 업로드하거나 이폼사인에서 다운로드 받을 수 있습니다.</para>
+          <para><emphasis role="bold">상단 바: </emphasis>폼 디자인하기, 설정하기의 단계가
+          표시되며, 템플릿 관리 리스트 화면으로 돌아가거나 입력항목을 올린 템플릿의 표시 형태를 미리보기해 볼 수 있습니다.
+          </para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">속성: </emphasis>입력 컴포넌트에 대한 속성을
-          설정합니다.</para>
+          <para><emphasis role="bold">입력항목 리스트: </emphasis>텍스트, 멀티라인, 서명, 체크,
+          선택 등 14개의 입력항목을 현재 지원하고 있으며, 계속해서 추가될 예정입니다. </para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">입력: </emphasis>전자 서식에 사용할 입력 컴포넌트를
-          추가합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">정보: </emphasis>전자 서식에 자동으로 멤버나 사용일 정보를
-          기입하기 위해 사용자, 사용일 정보 컴포넌트를 추가합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">그리기: </emphasis>컴포넌트를 선택하여 원하는 위치와 크기로
-          추가합니다. '그리기'는 워드, 파워포인트에서만 지원됩니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">삭제: </emphasis>컴포넌트를 선택한 뒤 삭제 버튼을 누르면
-          컴포넌트가 삭제됩니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">창: </emphasis>컴포넌트 속성창을 열거나 컴포넌트를
-          선택합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">도움말:</emphasis> 폼 빌더 버전을 확인하고 업데이트를
-          실행합니다.</para>
+          <para><emphasis role="bold">속성: </emphasis>입력항목을 드래그하여 배경서식에 올리면 전자
+          서식에 사용할 입력 컴포넌트를 추가합니다.</para>
         </listitem>
       </orderedlist>
 
@@ -255,22 +101,20 @@
     <para>폼 빌더의 컴포넌트는 전자 문서에서 사용자가 내용을 입력할 수 있는 입력 항목을 만들어주는 역할을 합니다. 서명, 체크,
     날짜, 텍스트 등의 다양한 형식의 컴포넌트가 있으며 각각의 컴포넌트는 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
 
+    <para><figure>
+        <title>웹 폼 디자이너에 컴포넌트를 배치한 모습</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/component_web_1.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+
     <section>
       <title>컴포넌트 종류</title>
 
       <para>eformsign은 다음의 컴포넌트를 지원합니다.</para>
-
-      <figure>
-        <title>컴포넌트 종류</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/components-in-word.png"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para/>
 
       <itemizedlist>
         <listitem>
@@ -341,203 +185,20 @@
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="user">사용자</link></emphasis>: 문서를 작성 또는 수정한 멤버의 정보를
-          입력합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="usedate">사용일</link>:</emphasis> 문서를 작성하거나 수정한 날짜를
-          입력합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
           linkend="document">문서</link>:</emphasis> 문서 내에 문서 번호나 문서 ID를
           입력합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="label">레이블</link>:</emphasis> 폼 ID를 설정합니다.</para>
         </listitem>
       </itemizedlist>
 
       <para/>
-    </section>
-
-    <section>
-      <title>컴포넌트 속성 확인하는 방법</title>
-
-      <para>모든 컴포넌트는 각각의 세부 설정인 ‘속성’을 가지고 있습니다. 속성은 속성 표시 아이콘 또는 속성 메뉴를 클릭하여
-      확인할 수 있습니다.</para>
-
-      <para/>
-
-      <figure>
-        <title>컴포넌트 속성 확인</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/checking-components-properties.png"
-                       width="750"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <note>
-        <para>모든 컴포넌트는 ID를 가지고 있어야 합니다. ID는 컴포넌트를 추가하면 자동으로 생성되기는 하지만, 입력 항목에
-        무엇이 입력되는 지를 보여줄 수 있는 직관적인 단어로 변경하는 것이 좋습니다. 예를 들어, 홍길동, 이순신 등이 입력되는
-        컴포넌트의 ID는 ‘이름’으로 설정할 수 있습니다.</para>
-      </note>
-    </section>
-
-    <section>
-      <title>컴포넌트를 추가하는 방법</title>
-
-      <para>컴포넌트는 크게 엑셀에서 추가하는 방법과 워드 또는 파워포인트에서 추가하는 방법이 있습니다. 워드 또는 파워포인트에서는
-      다시 두 가지의 방법으로 컴포넌트를 추가할 수 있습니다.</para>
-
-      <para/>
-
-      <section>
-        <title>엑셀에서 추가하기</title>
-
-        <para>1. 엑셀을 열고 OZ in Excel 리본 메뉴로 이동합니다.</para>
-
-        <figure>
-          <title>엑셀에서 컴포넌트를 추가하는 방법(1)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinexcel_1.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>2. 컴포넌트를 추가할 셀을 선택합니다.</para>
-
-        <figure>
-          <title>엑셀에서 컴포넌트를 추가하는 방법(2)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinexcel_2.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>3. 원하는 컴포넌트를 클릭합니다.</para>
-
-        <figure>
-          <title>엑셀에서 컴포넌트를 추가하는 방법(3)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinexcel_3.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>4. 컴포넌트 속성에서 컴포넌트가 추가된 것을 확인합니다.</para>
-
-        <para/>
-      </section>
-
-      <section>
-        <title>워드 또는 파워포인트에서 추가하기</title>
-
-        <para><emphasis role="bold">방법 1: 컴포넌트를 클릭하여 추가하기</emphasis></para>
-
-        <para>1. 워드 또는 파워포인트를 열고 문서 중 컴포넌트를 추가할 위치를 선택합니다.</para>
-
-        <figure>
-          <title>방법 1: 워드 또는 파워포인트에서 컴포넌트를 클릭하여 추가하기(1)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_1.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>2.OZ in Word 또는 OZ in PowerPoint 리본 메뉴에서 추가하고자 하는 컴포넌트를
-        클릭합니다.</para>
-
-        <figure>
-          <title>방법 1: 워드 또는 파워포인트에서 컴포넌트를 클릭하여 추가하기(2)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_2.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>3. 추가된 컴포넌트의 크기를 조절합니다.</para>
-
-        <figure>
-          <title>방법 1: 워드 또는 파워포인트에서 컴포넌트를 클릭하여 추가하기(3)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_3.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para><emphasis role="bold">방법 2: 컴포넌트를 그려서 추가하기</emphasis></para>
-
-        <para>1. 워드 또는 파워포인트를 열고 OZ in Word 또는 OZ in PowerPoint 리본 메뉴로
-        이동합니다.</para>
-
-        <para>2. 컴포넌트 그리기 아이콘을 클릭하여 나타나는 드롭다운 목록에서 추가할 컴포넌트를 선택합니다.</para>
-
-        <figure>
-          <title>방법 2: 워드 또는 파워포인트에서 컴포넌트를 그려서 추가하기(1)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_2_1.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-
-        <para>3. 원하는 위치와 크기로 컴포넌트를 추가합니다.</para>
-
-        <figure>
-          <title>방법 2: 워드 또는 파워포인트에서 컴포넌트를 그려서 추가하기(2)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinword_2_2.png"/>
-            </imageobject>
-          </mediaobject>
-        </figure>
-      </section>
-    </section>
-
-    <section>
-      <title>컴포넌트를 삭제하는 방법</title>
-
-      <para>삭제하고자 하는 컴포넌트를 선택하고 OZ in Office 메뉴의 삭제(<inlinemediaobject>
-          <imageobject>
-            <imagedata fileref="resources/delete-icon.png"/>
-          </imageobject>
-        </inlinemediaobject>) 아이콘을 클릭합니다. 컴포넌트는 여러 개를 선택해서 삭제하는 것도
-      가능합니다.</para>
     </section>
   </section>
 
   <section>
     <title>컴포넌트별 사용 방법</title>
 
-    <para>eformsign은 MS Office의 OZ in Office 리본 메뉴를 통해 체크박스, 콤보박스, 텍스트, 서명 등
-    다양한 컴포넌트를 지원하고 있습니다.</para>
-
-    <para>OZ in Office의 모든 입력 기능은 공통 속성과 고유 속성을 가지고 있으며, OZ 컴포넌트 속성 창에서 공통 속성과
-    각 입력 기능의 고유 속성을 확인할 수 있습니다. 공통 속성으로는 ID와 툴팁 텍스트가 있으며, 각 속성의 의미는 다음과
-    같습니다.</para>
+    <para>모든 컴포넌트는 공통 속성과 고유 속성을 가지고 있으며, 속성 창에서 공통 속성과 각 입력 기능의 고유 속성을 확인할 수
+    있습니다. 공통 속성으로는 ID와 툴팁 텍스트가 있으며, 각 속성의 의미는 다음과 같습니다.</para>
 
     <itemizedlist>
       <listitem>
@@ -553,21 +214,10 @@
     </itemizedlist>
 
     <note>
-      <para>OZ 컴포넌트 속성 창은 입력 기능이 적용된 위치를 선택한 후 OZ in Office 메뉴의 <emphasis
-      role="bold">속성</emphasis> 아이콘(<inlinemediaobject>
-          <imageobject>
-            <imagedata fileref="resources/property-icon.png"/>
-          </imageobject>
-        </inlinemediaobject> )을 클릭하면 표시됩니다.</para>
+      <para>정보 타입인 문서에는 툴팁이 없습니다.</para>
     </note>
 
-    <note>
-      <para>정보 타입인 사용자, 사용일, 문서, 레이블에는 툴팁이 없습니다.</para>
-    </note>
-
-    <para>eformsign이 제공 중인 각 컴포넌트에 대한 설명은 다음과 같습니다.</para>
-
-    <para/>
+    <para>각 컴포넌트에 대한 설명은 다음과 같습니다.</para>
 
     <section xml:id="check">
       <title>체크</title>
@@ -575,14 +225,6 @@
       <para>체크 컴포넌트는 각 항목의 체크 여부를 확인하고자 할때 사용합니다. 비슷한 컴포넌트 중 ‘선택’ 컴포넌트가 있으며,
       체크 컴포넌트는 해당 항목의 체크 여부를 확인할 때 사용하고, 선택 컴포넌트는 선택한 항목이 무엇인지 알아야 할 때 사용한다는
       차이가 있습니다.</para>
-
-      <para/>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form-builder-components_check.png"/>
-        </imageobject>
-      </mediaobject>
 
       <para>체크 컴포넌트의 입력값은 데이터 다운로드 시 다음과 같이 나타납니다.</para>
 
@@ -641,12 +283,6 @@
       <para>선택 컴포넌트는 여러 항목 중 어떤 항목을 선택했는지 확인해야 할 때 사용합니다. 선택 컴포넌트의 선택값은 데이터
       다운로드 시 여러 항목 중 선택한 항목명이 나타납니다.</para>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form-builder-components.png"/>
-        </imageobject>
-      </mediaobject>
-
       <para>워드, 파워포인트에서는 선택 컴포넌트가 직사각형 도형처럼 나타납니다. 항목의 내용은 컴포넌트 도형 안에 입력해야
       합니다.</para>
 
@@ -703,12 +339,6 @@
       <title>콤보</title>
 
       <para>여러가지 항목 중에서 한 항목을 선택해야 할 때, 콤보 컴포넌트를 사용합니다.</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form-builder-components_Combo.png"/>
-        </imageobject>
-      </mediaobject>
 
       <para>다음과 같이 선택란을 클릭하면 항목 리스트가 나타납니다.</para>
 
@@ -771,12 +401,6 @@
       <para>텍스트 컴포넌트와 멀티라인 컴포넌트 모두 텍스트 입력란을 만들 때에 사용합니다. 텍스트 컴포넌트는 1~2 단어의 짧은
       텍스트, 멀티라인은 1줄 이상의 긴 텍스트에 적합합니다.</para>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/text-and-muliline-components.png"/>
-        </imageobject>
-      </mediaobject>
-
       <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
 
       <figure>
@@ -820,12 +444,6 @@
 
       <para>날짜를 입력해야 할 때 사용합니다. 입력란을 클릭하면 날짜 선택창이 나타나며 원하는 날짜를 선택할 수
       있습니다.</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form-builder-components_datetime.png"/>
-        </imageobject>
-      </mediaobject>
 
       <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
 
@@ -903,12 +521,6 @@
       숫자를 증감시킬 수 있습니다. PC 키보드 환경에서는 입력란에 직접 원하는 숫자를 입력할 수 있습니다. 스마트폰, 태블릿
       환경에서는 입력 범위 숫자 리스트에서 스크롤하여 원하는 숫자를 선택할 수 있습니다.</para>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form-builder-components_numeric.png"/>
-        </imageobject>
-      </mediaobject>
-
       <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
 
       <figure>
@@ -967,12 +579,6 @@
       <para>켜짐(ON), 꺼짐(OFF)과 같은 특정한 상태를 나타낼 때 사용합니다. 토글 컴포넌트를 사용하면 컴포넌트를 클릭할
       때마다 미리 설정한 항목의 순서대로 입력값이 전환됩니다.</para>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form-builder-components_toggle.png"/>
-        </imageobject>
-      </mediaobject>
-
       <para>다음과 같이 컴포넌트를 클릭하여 양호, 불량 상태로 변경할 수 있습니다.</para>
 
       <mediaobject>
@@ -1029,12 +635,6 @@
       <title>서명</title>
 
       <para>서명 컴포넌트는 문서에 서명을 받아야 할 때 사용합니다.</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form-builder-components_signature.png"/>
-        </imageobject>
-      </mediaobject>
 
       <para>서명 컴포넌트를 넣으면 서명이 필요한 문서에서 아래와 같이 서명 팝업이 뜨고 서명을 직접 그리거나 텍스트를 입력해
       서명을 생성할 수 있으며, 기존에 등록한 서명이 있는 경우 이를 사용할 수도 있습니다.</para>
@@ -1111,17 +711,17 @@
 
         <para>1. 전자 서식으로 변환할 문서 파일(워드, 엑셀, 파워포인트)을 열거나 혹은 새 문서를 만듭니다.</para>
 
-        <para>2. 서명할 곳에 서명 컴포넌트를 추가합니다. </para>
+        <para>2. 서명할 곳에 서명 컴포넌트를 추가합니다.</para>
 
-        <para>3. 추가한 서명 컴포넌트의 속성창에 컴포넌트 ID를 입력합니다. 예. 서명 </para>
+        <para>3. 추가한 서명 컴포넌트의 속성창에 컴포넌트 ID를 입력합니다. 예. 서명</para>
 
-        <para>4. 서명일이 입력될 곳에 사용일 컴포넌트를 추가합니다. </para>
+        <para>4. 서명일이 입력될 곳에 사용일 컴포넌트를 추가합니다.</para>
 
-        <para>5. 사용일 컴포넌트의 속성창을 엽니다. </para>
+        <para>5. 사용일 컴포넌트의 속성창을 엽니다.</para>
 
-        <para>6. 사용일 표시 유형을 ‘입력 값을 수정한 날짜’로 선택합니다. </para>
+        <para>6. 사용일 표시 유형을 ‘입력 값을 수정한 날짜’로 선택합니다.</para>
 
-        <para>7. 하단에 나타나는 입력 컴포넌트 ID 입력란에 서명 컴포넌트 ID인 ‘서명’을 입력합니다. </para>
+        <para>7. 하단에 나타나는 입력 컴포넌트 ID 입력란에 서명 컴포넌트 ID인 ‘서명’을 입력합니다.</para>
 
         <para>※ 사용일 컴포넌트의 ‘표시형식’을 설정하여 날짜 표시 형식을 원하는 형태로 변경할 수 있습니다.</para>
       </note>
@@ -1132,12 +732,6 @@
 
       <para>스마트폰, 태블릿 등 카메라가 있는 기기로 사진을 찍어 문서에 올릴 때에 사용합니다. 카메라가 없는 PC 환경에서는
       컴포넌트를 클릭하면 이미지 파일을 선택할 수 있는 선택창이 나타납니다.</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form-builder-components_camera.png"/>
-        </imageobject>
-      </mediaobject>
 
       <para>선택한 이미지의 크기가 입력란의 크기보다 클 경우 입력란 안에 들어갈 수 있도록 축소되어 올라갑니다.</para>
 
@@ -1225,12 +819,6 @@
       <para>문서에 별도로 첨부하는 문서가 있을 때 사용합니다. 첨부 컴포넌트를 통해 문서를 첨부할 경우 문서의 맨 끝에 첨부한
       문서가 새로운 페이지로 추가됩니다.</para>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form-builder-components_attachment.png"/>
-        </imageobject>
-      </mediaobject>
-
       <para>첨부 가능한 파일의 종류와 크기는 다음과 같습니다.</para>
 
       <itemizedlist>
@@ -1265,102 +853,11 @@
       <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
-    <section xml:id="user">
-      <title>사용자</title>
-
-      <para>문서를 작성 또는 수정한 멤버의 정보가 문서에 자동으로 입력되게 할 때 사용합니다. 설정에 따라 이름, 연락처와 같은
-      멤버의 기본 정보 또는 사용자 정의 필드 정보가 사용자 컴포넌트에 자동으로 입력됩니다.</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form-builder-components_user.png"/>
-        </imageobject>
-      </mediaobject>
-
-      <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
-
-      <figure>
-        <title>사용자 컴포넌트 속성 설정하기</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/user-component-properties-.png"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para><emphasis role="bold">① ID</emphasis></para>
-
-      <para>사용자 컴포넌트의 ID를 입력합니다. 예를 들어, 문서를 작성한 멤버의 이름을 표시하는 컴포넌트의 ID는 ‘작성자
-      이름’으로 합니다.</para>
-
-      <para><emphasis role="bold">② 사용자 표시 유형</emphasis></para>
-
-      <itemizedlist>
-        <listitem>
-          <para>만든 사람: 문서를 최초로 작성한 멤버의 정보를 표시합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para>액세스한 사람: 문서를 가장 최근에 열람하거나 수정한 멤버의 정보를 표시합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para>입력 값을 수정한 사람: 특정 컴포넌트에 내용을 입력한 멤버의 정보를 표시합니다.</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>'입력 값을 수정한 사람'을 선택하면, 다음과 같이 입력 컴포넌트 ID 입력란이 나타납니다. 여기에 연결할 컴포넌트
-      ID를 입력합니다.</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/user-input-certain-component.png"/>
-        </imageobject>
-      </mediaobject>
-
-      <note>
-        <para>이 작업을 수행하려면 회사 관리(대표 관리자) 권한 또는 템플릿 관리자 권한이 필요합니다.</para>
-      </note>
-
-      <note>
-        <para>담당자 서명란에 서명한 담당자의 이름을 자동으로 입력되도록 하려면, 먼저 담당자 서명란에 서명 컴포넌트를 생성한 후
-        서명 컴포넌트의 ID를 ‘담당자 서명’으로 지정합니다. 담당자의 이름을 입력할 사용자 컴포넌트를 하나 더 생성합니다. 사용자
-        컴포넌트의 사용자 표시 유형 속성을 ‘입력 값을 수정한 사람’으로 선택하고, 입력 컴포넌트 ID 입력란에 ‘담당자 서명’을
-        입력합니다.</para>
-      </note>
-
-      <para><emphasis role="bold">③ 사용자 표시 정보</emphasis></para>
-
-      <para>멤버의 정보 중 어떤 정보를 표시할지 선택합니다. 멤버 기본 정보 또는 사용자 정의 필드에 추가로 입력한 정보들 중
-      원하는 정보를 선택합니다.</para>
-
-      <itemizedlist>
-        <listitem>
-          <para>멤버 기본 정보 종류: 이름, ID, 부서, 직책, 휴대폰, 전화번호</para>
-        </listitem>
-      </itemizedlist>
-
-      <note>
-        <para>멤버 기본 정보를 수정하려면 회사 관리(대표 관리자) 권한이 필요합니다.</para>
-
-        <para>멤버 기본 정보를 수정하려면 eformsign에 로그인한 후 회사 관리 &gt; 구성원 관리 메뉴로 이동합니다.
-        멤버 목록에서 멤버를 선택하고 화면 오른쪽에 나타나는 상세 보기 영역의 정보를 수정한 후 ‘저장’ 버튼을
-        클릭합니다.</para>
-      </note>
-    </section>
-
     <section xml:id="document">
       <title>문서</title>
 
       <para>문서 컴포넌트는 문서 내에 문서 관련 정보를 입력해야 할 때 사용합니다. 문서 ID와 문서 번호 중 원하는 정보를
       선택해 입력할 수 있습니다.</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/document-component-in-list.png"/>
-        </imageobject>
-      </mediaobject>
 
       <para>문서 ID는 시스템에서 부여하는 문서 고유의 ID이기 때문에 별도의 설정이 필요하지 않습니다. 문서 번호와 관련된
       설정은 템플릿을 업로드한 뒤, 템플릿 설정 &gt; 일반 설정에서 할 수 있습니다.</para>
@@ -1398,202 +895,26 @@
         </listitem>
       </itemizedlist>
     </section>
-
-    <section xml:id="usedate">
-      <title>사용일</title>
-
-      <para>문서를 작성 또는 수정한 날짜가 문서에 자동으로 입력되게 할 때 사용합니다. 설정에 따라 문서를 만든 날짜, 문서에
-      접근한 날짜, 또는 특정 컴포넌트를 입력한 날짜가 자동으로 입력됩니다.</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form-builder-components_date.png"/>
-        </imageobject>
-      </mediaobject>
-
-      <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
-
-      <figure>
-        <title>사용일 컴포넌트 속성 설정하기</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/date-component-properties_.png"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para><emphasis role="bold">① ID</emphasis></para>
-
-      <para>사용일 컴포넌트의 ID를 입력합니다. 예를 들어, 문서에 서명한 날짜를 표시하는 컴포넌트의 ID는 ‘서명일’로
-      합니다.</para>
-
-      <para><emphasis role="bold">② 표시형식</emphasis></para>
-
-      <para>날짜가 표시되는 형식을 지정합니다.</para>
-
-      <itemizedlist>
-        <listitem>
-          <para>yyyy: 연도’를 표시합니다. (yyyy년 = 2020년)</para>
-        </listitem>
-
-        <listitem>
-          <para>MM: ‘월’을 표시합니다. 반드시 대문자로 표기해야 합니다. (MM월 = 8월)</para>
-        </listitem>
-
-        <listitem>
-          <para>dd: ‘일’을 표시합니다. (dd일 = 10일)</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>‘2020년 2월 5일’처럼 나타나게 하려면, 표시형식에 ‘yyyy년 MM월 dd일’로 입력합니다.</para>
-
-      <para><emphasis role="bold">③ 사용일 표시 유형</emphasis></para>
-
-      <itemizedlist>
-        <listitem>
-          <para>만든 날짜: 문서를 최초 작성한 날짜를 표시합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para>액세스한 날짜: 문서를 수정하거나 열람한 가장 최근의 날짜를 표시합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para>입력 값을 수정한 날짜: 특정 컴포넌트에 내용을 입력한 날짜를 표시합니다.</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>'입력 값을 수정한 날짜'을 선택하면, 다음과 같이 입력 컴포넌트 ID 입력란이 나타납니다. 여기에 연결할 컴포넌트
-      ID를 입력합니다.</para>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/date-component-connecting-other-component.png"/>
-        </imageobject>
-      </mediaobject>
-
-      <para><note>
-          <para>이 작업을 수행하려면 회사 관리(대표 관리자) 권한 또는 템플릿 관리자 권한이 필요합니다.</para>
-        </note> <note>
-          <para>계약자 서명일이 자동으로 입력되도록 하려면, 먼저 계약서 서명란에 서명 컴포넌트를 생성한 후 서명 컴포넌트의
-          ID를 ‘계약자 서명’으로 지정합니다. 서명일을 입력할 사용일 컴포넌트를 하나 더 생성합니다. 사용일 컴포넌트의 사용일
-          표시 유형 속성을 ‘입력 값을 수정한 날짜’로 선택하고, 입력 컴포넌트정 ID 입력란에 ‘계약자 서명’을
-          입력합니다.</para>
-        </note></para>
-    </section>
-
-    <section xml:id="label">
-      <title>레이블</title>
-
-      <para>문서의 폼 ID를 설정할 수 있습니다.</para>
-
-      <para><emphasis role="bold">컴포넌트 속성</emphasis></para>
-
-      <figure>
-        <title>레이블 컴포넌트 속성 설정하기</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/label_property.png"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para><emphasis role="bold">① ID</emphasis></para>
-
-      <para>문서의 폼 ID가 자동으로 생성되어 나타나며 변경도 가능합니다.</para>
-
-      <para>여기에서 정의된 폼 ID를 문서 편집 시에 적용할 수 있습니다.</para>
-    </section>
   </section>
 
   <section>
-    <title>폼 파일 업로드</title>
+    <title>템플릿에 대한 추가 설정하기</title>
 
-    <para>OZ in Office를 통해 작성 완료된 폼 파일은 다음의 순서로 업로드합니다.</para>
+    <para>배경서식 위에 입력항목을 배치하고 나면, 템플릿 제목, 문서 번호, 워크플로우 등 템플릿으로 생성되는 문서에 대한 추가
+    설정을 할 수 있습니다.</para>
 
-    <para>1. 파일 그룹에 있는 <emphasis role="bold">실행</emphasis>(<inlinemediaobject>
-        <imageobject>
-          <imagedata fileref="resources/excute_button.png"/>
-        </imageobject>
-      </inlinemediaobject>) 아이콘을 클릭하면 다음의 로그인 페이지가 팝업 창으로 표시됩니다.</para>
-
-    <para/>
-
-    <figure>
-      <title>로그인 페이지</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/form_upload_login.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <para>2. 로그인하면 폼으로 변환된 문서가 미리보기 형태로 표시됩니다.</para>
-
-    <figure>
-      <title>폼 파일 미리보기</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/upload_preview.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <para>3. 업로드 미리보기 화면에서 <emphasis role="bold">폼파일 업로드</emphasis>를 클릭하거나 리본
-    메뉴의 <emphasis role="bold">업로드</emphasis>(<inlinemediaobject>
-        <imageobject>
-          <imagedata fileref="resources/upload_button.png"/>
-        </imageobject>
-      </inlinemediaobject>) 아이콘을 클릭하면 템플릿 목록과 함께 새 템플릿 추가 카드가 나타납니다.</para>
-
-    <figure>
-      <title>새 템플릿 추가 리스트 화면</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/upload_list.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <para/>
-
-    <para>4. 새 템플릿 카드를 클릭하면 작성한 폼이 업로드된 상태에서 템플릿을 설정하는 화면이 나타납니다. 우측 상단의 저장
-    버튼을 눌러 템플릿을 생성합니다.</para>
-
-    <figure>
-      <title>새 템플릿 저장 화면</title>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/upload_save.png" width="750"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
-
-    <para/>
-  </section>
-
-  <section>
-    <title>업로드한 템플릿 추가 설정하기</title>
-
-    <para>템플릿을 업로드하고 나면, 템플릿 제목, 문서 번호, 워크플로우 등 템플릿으로 생성되는 문서에 대한 추가 설정을 할 수
-    있습니다.</para>
-
-    <para>1. 이폼사인에 로그인합니다.</para>
-
-    <para>2 템플릿 관리 메뉴로 이동합니다.</para>
-
-    <para>3 템플릿 설정 아이콘을 클릭합니다.</para>
+    <para>폼 디자인하기 화면에서 다음 버튼을 눌러 설정하기로 이동합니다. 설정하기 화면에서는 다음의 5가지 설정을 하여 템플릿을
+    설정할 수 있습니다. </para>
 
     <itemizedlist>
       <listitem>
         <para><emphasis role="bold">일반 설정: </emphasis>템플릿 이름, 약칭, 문서 제목, 문서 번호
         등을 설정합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">권한 설정: </emphasis>해당 템플릿으로 생성된 문서를 관리할 멤버나
+        그룹을 지정합니다.</para>
       </listitem>
 
       <listitem>
@@ -1607,12 +928,22 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">문서 관리자 설정: </emphasis>해당 템플릿으로 생성된 문서를 관리할
-        멤버나 그룹을 지정합니다.</para>
+        <para><emphasis role="bold">알림 설정: </emphasis>템플릿으로 생성된 문서에 대한 요청과 알림을
+        보낼 메시지를 설정합니다.</para>
       </listitem>
     </itemizedlist>
 
-    <para>4 모든 설정이 완료된 후 ‘저장’ 버튼을 클릭해 설정을 저장합니다.</para>
+    <para><figure>
+        <title>템플릿의 5가지 설정 항목</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/component_web_2.png" width="750"/>
+          </imageobject>
+        </mediaobject>
+      </figure></para>
+
+    <para>4 모든 설정을 완료하면 ‘저장’ 버튼을 클릭해 설정을 저장합니다.</para>
 
     <note>
       <para>템플릿에 대한 상세한 설명은 <link linkend="???">4장 템플릿</link>을 참고하시기
