@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<chapter>
+  <title>외부 서비스 연동 방법</title>
+
+  <section>
+    <title>외부 스토리지 연동 방법</title>
+
+    <para>eformsign에서는 완료된 문서를 외부의 클라우드 스토리지 서비스에 자동으로 저장할 수 있습니다. 현재 Dropbox,
+    Google Drive, OneDrive, box를 지원하고 있습니다.</para>
+
+    <para>외부 스토리지 연동은 대표관리자만 설정할 수 있습니다.</para>
+
+    <para>1. 메뉴의 커넥트&gt; 파일 저장소로 이동합니다.</para>
+
+    <para> </para>
+
+    <figure>
+      <title/>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="???"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>2. </para>
+  </section>
+
+  <section>
+    <title>분석 및 리포트</title>
+
+    <para/>
+  </section>
+</chapter>
