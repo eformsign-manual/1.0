@@ -23,6 +23,8 @@
 
   <xi:include href="chapter3.xml"></xi:include>
 
+  <xi:include href="chapter3_1_web.xml"></xi:include>
+
   <xi:include href="chapter4.xml"></xi:include>
 
   <xi:include href="chapter5.xml"></xi:include>
