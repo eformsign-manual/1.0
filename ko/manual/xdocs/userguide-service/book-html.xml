@@ -11,7 +11,7 @@
 
   <subtitle></subtitle>
 
-  <titleabbrev>eformsign v1.0</titleabbrev>
+  <titleabbrev>eformsign 서비스</titleabbrev>
 
   <xi:include href="../common/bookinfo.xml"></xi:include>
 
@@ -28,6 +28,8 @@
   <xi:include href="chapter5.xml"></xi:include>
 
   <xi:include href="chapter6.xml"></xi:include>
+
+  <xi:include href="chapter7.xml"></xi:include>
 
   <index xml:id="idx"></index>
 </book>
