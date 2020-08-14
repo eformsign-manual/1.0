@@ -433,8 +433,9 @@
             수 있습니다.</para>
 
             <note>
-              <para>내 정보에서는 회사정보를 확인만 할 수 있으며, 회사 관련 정보의 수정은 회사 관리 메뉴에서 할 수
-              있습니다. 회사 정보 수정은 대표 관리자 또는 회사 관리 권한이 있는 회원만 가능합니다.</para>
+              <para>내 정보에서는 회사정보를 확인만 할 수 있으며, 회사 관련 정보의 수정은 <emphasis
+              role="bold">회사 관리 &gt; 회사 정보</emphasis> 메뉴에서 할 수 있습니다. 회사 정보 수정은
+              대표 관리자 또는 회사 관리 권한이 있는 회원만 가능합니다.</para>
             </note>
           </listitem>
         </varlistentry>
@@ -461,8 +462,8 @@
     <section>
       <title>회사 정보 수정 및 추가</title>
 
-      <para>내 정보에서 확인가능한 회사 정보는 <emphasis role="bold">회사 관리 &gt; 회사
-      정보</emphasis>에서 수정할 수 있습니다.</para>
+      <para><emphasis role="bold">내 정보</emphasis>에서 확인가능한 회사 정보는 <emphasis
+      role="bold">회사 관리 &gt; 회사 정보</emphasis>에서 수정할 수 있습니다.</para>
 
       <note>
         <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
@@ -516,8 +517,8 @@
     <section>
       <title>브랜드</title>
 
-      <para>회사의 로고와 심볼을 등록하여 이폼사인의 대시보드와 사이드바 메뉴, 이메일 템플릿 등에 표시할 수
-      있습니다.</para>
+      <para>회사의 로고와 심볼을 등록하여 이폼사인의 대시보드와 사이드바 메뉴에 표시되도록 할 수 있으며, 문서 요청시 등 발송하는
+      이메일 템플릿 등에 표시할 수 있습니다.</para>
 
       <note>
         <para>로고와 심볼의 차이</para>
@@ -629,8 +630,8 @@
       <listitem>
         <para><emphasis role="bold">템플릿 관리</emphasis></para>
 
-        <para>템플릿 관리메뉴에 접근할 수 있습니다. 폼빌더를 사용하여 폼파일을 만들어 새로운 템플릿을 등록할 수 있으며,
-        템플릿을 수정, 배포, 삭제할 수 있습니다.</para>
+        <para>템플릿 관리메뉴에 접근할 수 있습니다. 폼빌더를 사용하여 폼파일을 만들거나 웹폼 디자이너로 파일을 업로드하여 새로운
+        템플릿을 등록할 수 있으며, 템플릿을 수정, 배포, 삭제할 수 있습니다.</para>
       </listitem>
 
       <listitem>
@@ -691,8 +692,10 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">상세 정보 &gt; 대표 관리자 </emphasis>항목의 수정 버튼을
-          클릭하면 나타나는 <emphasis role="bold">권한 위임</emphasis> 링크를 클릭합니다.</para>
+          <para><emphasis role="bold">상세 정보</emphasis>의<emphasis role="bold">
+          </emphasis><emphasis role="bold">수정 </emphasis>버튼을 클릭하면 <emphasis
+          role="bold">대표관리자</emphasis> 항목의 오른쪽에 나타나는 <emphasis role="bold">권한
+          위임</emphasis> 링크를 클릭합니다.</para>
 
           <mediaobject>
             <imageobject>
@@ -751,9 +754,9 @@
         </listitem>
 
         <listitem>
-          <para>오른쪽 <emphasis role="bold">상세 보기</emphasis>화면 하단의 권한에서
-          <emphasis role="bold">회사 관리</emphasis><emphasis role="bold">
-          권한</emphasis>을 체크합니다.</para>
+          <para>오른쪽 <emphasis role="bold">멤버 정보</emphasis> 상세 보기 화면 하단의
+          <emphasis role="bold">권한</emphasis>에서 <emphasis role="bold">회사
+          관리</emphasis>를 체크합니다.</para>
 
           <mediaobject>
             <imageobject>
@@ -779,7 +782,7 @@
 
       <para>템플릿을 등록한 템플릿 관리자는 해당 템플릿의 템플릿 소유자가 됩니다.</para>
 
-      <para>한 회사에 여러명의 템플릿 관리자가 있는경우 쳄플릿 소유자와 템플릿 관리자가 다를 수있습니다.</para>
+      <para>한 회사에 여러 명의 템플릿 관리자가 있는경우 템플릿 소유자와 템플릿 관리자가 다를 수있습니다.</para>
 
       <para>템플릿 관리자가 템플릿 소유자가 아닌 경우 해당 템플릿의 설정 보기와 템플릿 복제만 할 수 있습니다.</para>
 
@@ -803,8 +806,9 @@
         </listitem>
 
         <listitem>
-          <para>오른쪽 <emphasis role="bold">상세 보기 </emphasis>화면 하단의 권한에서
-          <emphasis role="bold">템플릿 권한</emphasis>을 체크합니다.</para>
+          <para>오른쪽 <emphasis role="bold">멤버 정보 </emphasis>상세 보기<emphasis
+          role="bold"> </emphasis>화면 하단의 <emphasis role="bold">권한</emphasis>에서
+          <emphasis role="bold">템플릿 관리</emphasis>를 체크합니다.</para>
 
           <mediaobject>
             <imageobject>
@@ -944,7 +948,8 @@
   <section>
     <title>멤버 및 그룹 관리</title>
 
-    <para>회사 관리 메뉴에서 멤버를 초대, 삭제, 수정 및 그룹 생성, 추가, 삭제 등을 관리할 수 있습니다.</para>
+    <para><emphasis role="bold">회사 관리 </emphasis>메뉴에서 멤버를 초대, 삭제, 수정 및 그룹 생성,
+    추가, 삭제 등을 관리할 수 있습니다.</para>
 
     <para/>
 
@@ -962,7 +967,8 @@
     <section>
       <title>멤버 관리</title>
 
-      <para>멤버 관리 메뉴에서는 멤버를 회사 소속으로 초대하거나, 초대된 멤버를 관리할 수 있습니다.</para>
+      <para><emphasis role="bold">멤버 관리 </emphasis>메뉴에서는 멤버를 회사 소속으로 초대하거나,
+      초대된 멤버를 관리할 수 있습니다.</para>
 
       <para/>
 
@@ -1167,8 +1173,8 @@
           <listitem>
             <para><emphasis role="bold">앱에서 서명</emphasis></para>
 
-            <para>연결하고자 하는 모바일 기기를 선택한 뒤 전송 버튼을 누르면 해당 기기의 이폼사인 앱에서 서명을 입력할 수
-            있습니다.</para>
+            <para>연결하고자 하는 모바일 기기를 선택한 뒤 <emphasis role="bold">전송
+            </emphasis>버튼을 누르면 해당 기기의 이폼사인 앱에서 서명을 입력할 수 있습니다.</para>
           </listitem>
         </itemizedlist>
       </listitem>
@@ -1206,11 +1212,11 @@
 
     <orderedlist>
       <listitem>
-        <para>사이드바 메뉴에서 내 서명으로 이동합니다.</para>
+        <para>사이드바 메뉴에서 <emphasis role="bold">내 서명</emphasis>으로 이동합니다.</para>
       </listitem>
 
       <listitem>
-        <para>도장 등록 버튼을 클릭합니다</para>
+        <para><emphasis role="bold">도장 등록 </emphasis>버튼을 클릭합니다</para>
 
         <mediaobject>
           <imageobject>
@@ -1225,7 +1231,7 @@
       </listitem>
 
       <listitem>
-        <para>확인 버튼을 클릭해 도장을 저장합니다.</para>
+        <para><emphasis role="bold">확인</emphasis> 버튼을 클릭해 도장을 저장합니다.</para>
       </listitem>
 
       <listitem>
