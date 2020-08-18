@@ -52,7 +52,7 @@
 
             <listitem>
               <para><emphasis role="bold">처리할 문서함: </emphasis>임시 저장한 문서, 다른
-              구성원이 나에게 작성 또는 결재 요청한 문서 목록을 확인할 수 있습니다.</para>
+              멤버가 나에게 작성 또는 결재 요청한 문서 목록을 확인할 수 있습니다.</para>
             </listitem>
 
             <listitem>
@@ -89,18 +89,18 @@
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">그룹 관리: </emphasis>구성원 그룹을 생성하거나 그룹
+              <para><emphasis role="bold">그룹 관리: </emphasis>멤버 그룹을 생성하거나 그룹
               정보를 수정할 수 있습니다.</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">구성원 관리: </emphasis>구성원을 추가하거나 구성원
-              정보를 수정할 수 있습니다.</para>
+              <para><emphasis role="bold">멤버 관리: </emphasis>멤버를 추가하거나 멤버 정보를
+              수정할 수 있습니다.</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">사용자 정의 필드 관리:</emphasis> 회사, 그룹,
-              구성원에 대한 추가 정보를 입력하거나 수정할 수 있습니다.</para>
+              <para><emphasis role="bold">사용자 정의 필드 관리:</emphasis> 회사, 그룹, 멤버에
+              대한 추가 정보를 입력하거나 수정할 수 있습니다.</para>
             </listitem>
 
             <listitem>
@@ -321,11 +321,16 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="699"
-                     fileref="resources/menu-personalinfo2.png" width="700"/>
+                     fileref="resources/menu-personalinfomenu.PNG" width="700"/>
         </imageobject>
       </inlinemediaobject></para>
 
     <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">회사 정보: </emphasis>내가 소속된 회사가 하나 이상일 경우
+        나타나는 메뉴로 클릭시 내가 소속된 회사들을 확인하고 선택할 수 있습니다.</para>
+      </listitem>
+
       <listitem>
         <para><emphasis role="bold">내 정보: </emphasis>이폼사인 가입시 등록한 내 개인 정보를 확인
         및 수정할 수 있으며, 내가 소속된 회사의 정보를 확인할 수 있습니다.</para>
