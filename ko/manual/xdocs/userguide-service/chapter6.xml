@@ -132,16 +132,16 @@
     <para>문서 요청시 발송되는 메일/SMS 템플릿을 회사 맞춤형으로 편집할 수 있습니다.</para>
 
     <para>알림 템플릿 변경은 <emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis>에서
-    설정하거나 <emphasis role="bold">템플릿 관리 &gt; 템플릿 설정 &gt; 워크플로우 설정</emphasis>의 각
-    단계별 <emphasis role="bold">알림 설정</emphasis>에서 편집<emphasis role="bold">(알림
-    설정 연결)</emphasis>할 수 있습니다.</para>
+    설정하거나 <emphasis role="bold">템플릿 관리 &gt; 템플릿 설정 &gt; 알림 설정</emphasis>에서 편집할
+    수 있습니다.</para>
 
     <figure>
       <title>회사 관리 &gt; 알림 템플릿 관리</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/mail-template-setting.png" width="700"/>
+          <imagedata fileref="resources/notification-template-manage.png"
+                     width="700"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -169,34 +169,17 @@
 
         <tbody>
           <row>
-            <entry>결재</entry>
+            <entry>문서 처리 요청</entry>
 
-            <entry>결재 요청/결재 승인/결재 반려</entry>
+            <entry>결재 요청/문서 검토 및 작성 요청(내부/외부)/문서 반려로 인한 수정 요청/문처 취소 요청 수신/문서
+            취소 요청 거절</entry>
           </row>
 
           <row>
-            <entry>내부자 처리</entry>
+            <entry>문서 처리 상태</entry>
 
-            <entry>내부자 처리 요청/내부자 처리 승인/내부자 처리 반려</entry>
-          </row>
-
-          <row>
-            <entry>외부자 처리</entry>
-
-            <entry>외부자 처리 요청/외부자 처리 승인/외부자 처리 반려/외부자 문서 최종 완료</entry>
-          </row>
-
-          <row>
-            <entry>완료</entry>
-
-            <entry>문서 최종 완료/문서 최종 완료(PDF 전송)</entry>
-          </row>
-
-          <row>
-            <entry>문서 처리</entry>
-
-            <entry>삭제 요청 수신/삭제 알림/삭제 요청 거절/반려 요청 수신/반려 요청 승인/반려 요청 거절/결재 요청
-            취소/문서 이관 완료</entry>
+            <entry>문서 승인/문서 삭제/문서 반려/문서 검토 및 작성 완료/문서 최종 완료(내부/외부)/문서 이관 완료/문서
+            수정/문서 최종 완료(PDF 전송)/문서 취</entry>
           </row>
 
           <row>
