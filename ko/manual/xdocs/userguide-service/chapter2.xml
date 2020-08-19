@@ -361,7 +361,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/myinfo-personalinfo.png" width="750"/>
+            <imagedata fileref="resources/myinfor-personalinfo-main.png"
+                       width="750"/>
           </imageobject>
         </mediaobject>
       </figure>
