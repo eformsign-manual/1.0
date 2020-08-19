@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+<chapter version="5.0" xml:id="webform" xmlns="http://docbook.org/ns/docbook"
          xmlns:xlink="http://www.w3.org/1999/xlink"
          xmlns:xi="http://www.w3.org/2001/XInclude"
          xmlns:svg="http://www.w3.org/2000/svg"
@@ -13,7 +13,7 @@
 
     <para>eformsign 템플릿 관리 메뉴에서 전자문서의 배경서식이 되는 PDF 파일을 업로드하면 웹 폼 디자이너가 나타납니다.
     왼쪽 트리의 다양한 입력항목 중 원하는 입력항목을 드래그해서 웹 폼 디자이너에서 나타나는 배경 파일에 올리고 난 후, 각 컴포넌트에
-    대한 속성을 설정하면 템플릿을 손쉽게 생성할 수 있습니다. </para>
+    대한 속성을 설정하면 템플릿을 손쉽게 생성할 수 있습니다.</para>
 
     <note>
       <para>현재는 PDF 파일만 지원하나, 추후 MS Office, 한글, JPG, PNG 등의 이미지 파일 등 다양한 파일
@@ -22,7 +22,7 @@
 
     <note>
       <para>MS Office에서 바로 전자문서를 생성할 수 있도록 하는 MS Office Add-in 기능(OZ in Office
-      폼 빌더)도 제공하고 있습니다. 폼 빌더를 사용하려면 <xref linkend="formbuilder"/>장을 참고하여 폼 빌더를
+      폼 빌더)도 제공하고 있습니다. 폼 빌더를 사용하려면 <xref linkend="formbuilder"/>를 참고하여 폼 빌더를
       MS Office에 설치하신 후 사용하시기 바랍니다.</para>
     </note>
 
@@ -195,7 +195,7 @@
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="attach">첨부</link>:</emphasis> 파일 첨부 기능을 추가합니다. </para>
+          linkend="attach">첨부</link>:</emphasis> 파일 첨부 기능을 추가합니다.</para>
         </listitem>
 
         <listitem>
@@ -255,7 +255,7 @@
       <para><emphasis role="bold">① ID</emphasis></para>
 
       <para>텍스트/멀티라인 컴포넌트의 ID를 입력합니다. 예를 들어, 홍길동, 이순신 등이 입력되는 컴포넌트의 ID는 ‘이름’으로
-      합니다. </para>
+      합니다.</para>
 
       <note>
         <para>ID는 자동으로도 부여되나, 입력항목 배치 후 각 입력항목에 대해 수신자에게 입력 요청을 할지 여부를 결정할 때

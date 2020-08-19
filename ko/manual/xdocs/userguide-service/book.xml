@@ -25,9 +25,9 @@
 
   <xi:include href="chapter3.xml" />
 
-  <xi:include href="chapter4_1_WD.xml" />
+  <xi:include href="Chapter4_1_WD.xml" />
 
-  <xi:include href="chapter4_1_FB.xml" />
+  <xi:include href="Chapter4_2_FB.xml" />
 
   <xi:include href="chapter5.xml" />
 

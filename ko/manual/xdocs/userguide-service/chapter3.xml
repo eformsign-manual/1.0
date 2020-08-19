@@ -14,8 +14,8 @@
 
     <para>폼 빌더는 OZ in Office라고도 합니다. OZ in Office는 Microsoft Office로 만든 문서를 입력
     기능을 갖춘 전자 문서로 변환하는 폼 에디터입니다. OZ in Office를 사용하면 기존에 Excel, Word,
-    PowerPoint로 만들어진 업무 양식(계약서, 신청서, 동의서, 품의서 등)을 간단하고 쉽게 전자 문서로 변환할 수 있습니다.
-    </para>
+    PowerPoint로 만들어진 업무 양식(계약서, 신청서, 동의서, 품의서 등)을 간단하고 쉽게 전자 문서로 변환할 수
+    있습니다.</para>
 
     <para>기존에는 기업의 Excel, Word, PowerPoint 문서를 전자 문서로 개발하려면 프로그래밍 개발 수준의 개발자용
     문서 개발 도구가 필요했습니다. 그러나, OZ in Office을 이용하면 Office 제품을 사용할 수 있는 수준이면 누구나 전자
@@ -41,7 +41,7 @@
 
       <para>1. 이폼사인 로그인 후 대시보드 화면 왼쪽 상단의 햄버거 메뉴(<inlinemediaobject>
           <imageobject>
-            <imagedata fileref="resources/menu%20icon.png"/>
+            <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
         </inlinemediaobject>)를 클릭하면 나타나는 사이드바 메뉴 중 가장 하단의 <emphasis
       role="bold">eformsign 폼 빌더 다운로드</emphasis> 버튼을 클릭합니다.</para>
@@ -1394,7 +1394,7 @@
 
         <listitem>
           <para>문서 번호: 템플릿 설정 &gt; 일반 설정에서 설정된 문서 번호입니다. 문서 번호를 설정하는 방법은 <xref
-          linkend="???"/>를 참고하세요.</para>
+          linkend="docnumber_wd"/>를 참고하세요.</para>
         </listitem>
       </itemizedlist>
     </section>
@@ -1615,7 +1615,7 @@
     <para>4 모든 설정이 완료된 후 ‘저장’ 버튼을 클릭해 설정을 저장합니다.</para>
 
     <note>
-      <para>템플릿에 대한 상세한 설명은 <xref linkend="template"/>을 참고하시기 바랍니다.</para>
+      <para>템플릿에 대한 상세한 설명은 <xref linkend="template_wd"/>을 참고하시기 바랍니다.</para>
     </note>
   </section>
 </chapter>

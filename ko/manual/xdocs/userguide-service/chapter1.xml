@@ -110,10 +110,10 @@
         <para>eformsign에 로그인하고 나면 처음에 나타나는 서비스의 메인 화면입니다. 대시보드 좌측의 메뉴
         아이콘(<inlinemediaobject>
             <imageobject>
-              <imagedata fileref="resources/menu icon.png"/>
+              <imagedata fileref="resources/menu_icon.png"/>
             </imageobject>
           </inlinemediaobject>)을 클릭하면 메뉴에 접근할 수 있습니다. 대시보드 메뉴는 사용자의 권한에 따라 다르게
-        나타납니다.</para>
+        나타납니다</para>
 
         <figure>
           <title>eformsign 대시보드 화면</title>
