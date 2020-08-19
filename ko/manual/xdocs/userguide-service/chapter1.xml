@@ -206,8 +206,6 @@
         <para><emphasis role="bold">대표 관리자</emphasis></para>
 
         <para>회사의 대표자로, 이폼사인 사용에 대한 모든 권한이 있습니다.</para>
-
-        <para>대표 관리자를 위임하는 방법은 <xref linkend="???"/>를 참고하세요.</para>
       </listitem>
 
       <listitem>
@@ -215,8 +213,6 @@
 
         <para>템플릿 관리 권한이 있으면 템플릿 관리 메뉴에 접근할 수 있으며, 템플릿을 생성, 수정, 배포, 삭제할 수
         있습니다.</para>
-
-        <para>템플릿 관리 권한을 부여하는 방법은 <xref linkend="???"/>를 참고하세요.</para>
       </listitem>
 
       <listitem>
@@ -224,8 +220,6 @@
 
         <para>문서 관리 권한이 있으면 문서 관리 메뉴에 접근하여 템플릿별로 생성된 문서를 열람하고 완료 문서에 대한 취소 요청을
         승인하거나 문서를 시스템에서 영구 제거할 수 있습니다. 문서 관리 권한은 템플릿별로 다르게 지정할 수 있습니다.</para>
-
-        <para>문서 관리 권한을 부여하는 방법을 <xref linkend="???"/>를 참고하세요.</para>
       </listitem>
     </itemizedlist>
 

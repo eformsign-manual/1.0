@@ -19,19 +19,19 @@
 
   <xi:include href="chapter1.xml"></xi:include>
 
-  <xi:include href="chapter2_1.xml"></xi:include>
-
-  <xi:include href="chapter3.xml"></xi:include>
+  <xi:include href="chapter2.xml"></xi:include>
 
   <xi:include href="chapter3_1_web.xml"></xi:include>
 
-  <xi:include href="chapter4.xml"></xi:include>
+  <xi:include href="chapter3.xml"></xi:include>
+
+  <xi:include href="chapter4_1_WD.xml"></xi:include>
+
+  <xi:include href="chapter4_1_FB.xml"></xi:include>
 
   <xi:include href="chapter5.xml"></xi:include>
 
   <xi:include href="chapter6.xml"></xi:include>
 
   <xi:include href="chapter7.xml"></xi:include>
-
-  <index xml:id="idx"></index>
 </book>
