@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter version="5.0" xml:id="template_wd"
+<chapter version="5.0" xml:id="template_fb"
          xmlns="http://docbook.org/ns/docbook"
          xmlns:xlink="http://www.w3.org/1999/xlink"
          xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -7,15 +7,15 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>템플릿-웹폼 디자이너</title>
+  <title>템플릿-폼 빌더</title>
 
   <section>
     <title>템플릿 소개</title>
 
     <para>템플릿은 이폼사인에서 사용하는 <emphasis role="bold">전자문서 서식</emphasis>입니다. 기존에
     종이로 작성하던 계약서, 신청서, 동의서와 같이 기본 서식을 전자문서 형태로 만든 것을 템플릿이라고 합니다. 템플릿은 이폼사인
-    서비스내 웹폼 디자이너 또는 이폼사인 폼 빌더를 통해 만들고 업로드 할 수 있습니다. 폼 빌더를 통한 템플릿 설정 및 관리 방법은
-    <xref linkend="template_fb"/>을 참조해주세요.</para>
+    서비스내 웹폼 디자이너 또는 이폼사인 폼 빌더를 통해 만들고 업로드 할 수 있습니다. 웹폼 디자이너를 통한 템플릿 설정 및 관리
+    방법은 을 참조해주세요.</para>
 
     <section>
       <title>템플릿 개요</title>
@@ -23,66 +23,47 @@
       <para>이폼사인을 통해 전자문서를 작성 및 전송하려면 전자문서를 생성할 수 있는 템플릿을 우선 만들어서 배포해야
       합니다.</para>
 
-      <para><emphasis role="bold">웹폼 디자이너로 템플릿 만드는 방법</emphasis></para>
+      <para><emphasis role="bold">폼 빌더로 템플릿 만드는 방법</emphasis></para>
 
-      <para>템플릿을 온라인에서 바로 문서를 업로드하여 만들수 있습니다.</para>
+      <para>폼 빌더로 템플릿을 만들려면 우선 이폼사인 폼 빌더를 다운로드 해야합니다. </para>
 
       <note>
-        <para>웹폼 디자이너에 대한 상세한 설명은 <xref linkend="webform"/>를 참고하시기
+        <para>폼 빌더에 대한 상세한 설명은 <xref linkend="formbuilder"/>를 참고하시기
         바랍니다.</para>
       </note>
 
-      <para>기존 문서를 PDF파일로 변환하여 웹폼 디자이너에 업로드 하여 쉽게 템플릿을 만들수 있습니다.</para>
+      <para>기존에 워드, 엑셀, 파워포인트 등 MS Office 문서로 만들어진 파일을 폼 빌더를 사용하여 템플릿으로 업로드 할
+      수 있습니다.</para>
 
       <orderedlist>
         <listitem>
-          <para>템플릿으로 만들 PDF 파일을 직접 드래그하거나 <emphasis role="bold">내 컴퓨터에서 파일
-          선택</emphasis>을 클릭하여 해당 파일 선택 후 업로드 합니다.</para>
-
-          <para/>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/template-manage-upload.png"
-                         width="700"/>
-            </imageobject>
-          </mediaobject>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/template-manage-upload-popup.png"
-                         width="700"/>
-            </imageobject>
-          </mediaobject>
+          <para>워드, 엑셀 또는 파워포인트 파일을 엽니다.</para>
         </listitem>
 
         <listitem>
-          <para>업로드된 파일에 입력 컴포넌트 종류를 선택하여 드래그 합니다.</para>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/web-form-designer1.png"
-                         width="750"/>
-            </imageobject>
-          </mediaobject>
+          <para>OZ in Word(Excel 또는 PPT) 메뉴로 이동합니다.</para>
         </listitem>
 
         <listitem>
-          <para>입력 필드의 크기와 위치를 조정합니다.</para>
+          <para>입력 필드를 추가할 위치를 선택합니다.</para>
         </listitem>
 
         <listitem>
-          <para>해당 입력 필드의 속성에서 상세 설정을 합니다.</para>
+          <para>입력 필드 종류를 선택합니다.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">미리보기</emphasis> 버튼을 클릭해 문서를
+          <para>추가된 입력 필드의 크기와 위치를 조정합니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">실행</emphasis> 버튼을 클릭해 입력 필드의 동작을
           확인합니다.</para>
         </listitem>
 
         <listitem>
-          <para>폼 디자인을 마친 후 <emphasis role="bold">다음</emphasis>을 클릭하여 템플릿 설정으로
-          이동합니다.</para>
+          <para><emphasis role="bold">업로드</emphasis> 버튼을 클릭해 템플릿을 업로드
+          합니다.</para>
         </listitem>
       </orderedlist>
 
@@ -137,7 +118,7 @@
 
       <para>워크플로우는 <emphasis role="bold">시작 - 완료</emphasis>가 기본 단계이며, 아래와
       같이<emphasis role="bold"> 결재</emphasis>, <emphasis role="bold">내부
-      수신자</emphasis>, <emphasis role="bold">외부 수신자</emphasis> 3가지 단계를 원하는 대로
+      수신자</emphasis>, <emphasis role="bold">외부 수신자</emphasis> 3가지 유형을 원하는 대로
       추가하여 워크플로우를 생성할 수 있습니다.</para>
 
       <figure>
@@ -169,8 +150,6 @@
 
           <para>회사 소속 멤버가 아닌 외부 사용자에게 문서의 처리를 요청하는 단계입니다.</para>
 
-          <para/>
-
           <important>
             <para>결재와 내부 수신자의 차이!</para>
 
@@ -201,7 +180,25 @@
 
     <para><emphasis role="bold">템플릿 설정 화면으로 이동하는 방법 </emphasis></para>
 
-    <para/>
+    <orderedlist>
+      <listitem>
+        <para>사이드바 메뉴에서 <emphasis role="bold">템플릿 관리</emphasis>로 이동합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para>원하는 템플릿의 이름이나 설정 아이콘(<inlinemediaobject>
+            <imageobject>
+              <imagedata contentwidth="28" fileref="resources/config-icon.PNG"/>
+            </imageobject>
+          </inlinemediaobject>)을 클릭합니다.</para>
+
+        <para><inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/template-settings.png" width="700"/>
+            </imageobject>
+          </inlinemediaobject></para>
+      </listitem>
+    </orderedlist>
 
     <section>
       <title>일반 설정</title>
@@ -211,7 +208,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/template-setting-general.png"
+            <imagedata fileref="resources/template-setting-general-formbuilder.png"
                        width="700"/>
           </imageobject>
         </mediaobject>
@@ -227,7 +224,17 @@
         </varlistentry>
 
         <varlistentry>
-          <term>① 템플릿 이름</term>
+          <term>① 폼 파일</term>
+
+          <listitem>
+            <para><emphasis role="bold">폼빌더</emphasis>를 통해 워드, 파워포인트, 엑셀에서
+            이폼사인에 업로드한 파일의 파일명입니다. 폼 파일 이름을 변경하려면 업로드한 워드, 파워포인트, 엑셀 파일의 파일명을
+            변경한 뒤 해당 폼을 업데이트 해야 합니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>② 템플릿 이름</term>
 
           <listitem>
             <para><emphasis role="bold">템플릿 관리</emphasis>, <emphasis
@@ -256,7 +263,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>② 템플릿 약칭</term>
+          <term>③ 템플릿 약칭</term>
 
           <listitem>
             <para>템플릿을 간단히 표시하는 짧은 이름입니다. 2~3글자 정도의 짧은 단어를 권장합니다.</para>
@@ -277,7 +284,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>③ 카테고리</term>
+          <term>④ 카테고리</term>
 
           <listitem>
             <para>템플릿을 종류별로 구분할 때 사용합니다. 카테고리 이름으로 <emphasis role="bold">템플릿
@@ -294,7 +301,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>④ 설명</term>
+          <term>⑤ 설명</term>
 
           <listitem>
             <para>템플릿에 대한 추가적인 설명을 입력합니다. 이 설명 내용은 목록 및 새 문서 작성의 템플릿 이름 하단에
@@ -303,7 +310,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑤ 문서작성 유효기간</term>
+          <term>⑥ 문서작성 유효기간</term>
 
           <listitem>
             <para>템플릿으로 문서를 생성할 수 있는 기한을 설정합니다. 시작일은 템플릿을 업로드한 날로 기본 설정되며 날짜를
@@ -324,7 +331,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑥ 문서 제목 자동 설정 규칙</term>
+          <term>⑦ 문서 제목 자동 설정 규칙</term>
 
           <listitem>
             <para>템플릿으로 문서를 작성할 때 입력된 문서의 제목을 설정합니다. 문서 제목 규칙을 설정하지 않을 경우 템플릿
@@ -336,7 +343,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑦ 문서 제목 변경 허용</term>
+          <term>⑧ 문서 제목 변경 허용</term>
 
           <listitem>
             <para><emphasis role="bold">문서 제목 변경 허용</emphasis>을 체크하면 <emphasis
@@ -345,7 +352,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑧ 문서 번호 자동 부여</term>
+          <term>⑨ 문서 번호 자동 부여</term>
 
           <listitem>
             <para>문서 번호 자동 부여를 체크하면 생성된 문서에 대해 자동으로 문서번호가 부여됩니다. 문서번호 표현식 중
@@ -360,7 +367,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑨ 문서 전송 시 시 팝업 생략</term>
+          <term>⑩ 문서 전송 시 시 팝업 생략</term>
 
           <listitem>
             <para>문서를 빨리 작성하고 제출하는 일이 많을 때 사용합니다. 이 설정을 체크하지 않으면 문서 전송
@@ -476,8 +483,6 @@
             role="bold">$$</emphasis>를 입력하면 드롭다운 메뉴가 나타나며 아래 정보 중 원하는 정보를 선택할
             수 있습니다.</para>
 
-            <para/>
-
             <informaltable>
               <tgroup cols="2">
                 <colspec align="center" colwidth="323*"/>
@@ -584,8 +589,6 @@
         </varlistentry>
       </variablelist>
 
-      <para/>
-
       <tip>
         <para><emphasis role="bold">문서 제목 변경 허용</emphasis> 여부를 확인하세요!</para>
 
@@ -606,8 +609,8 @@
       </figure>
     </section>
 
-    <section xml:id="docnumber_wd">
-      <title>일반 설정 &gt; 문서번호 생성 및 확인하기</title>
+    <section xml:id="docnumber_fb">
+      <title>설정 &gt; 문서번호 생성 및 확인하기</title>
 
       <para>이폼사인에서 생성되는 문서에 연속되는 문서번호를 부여할 수 있습니다. 템플릿 별로 문서 번호 자동 생성 여부를 설정할
       수 있으며 번호 형식 4가지 중 한 가지를 선택해야 합니다. 문서 번호는 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다.
@@ -742,27 +745,21 @@
         <listitem>
           <para><emphasis role="bold">문서 내에 문서번호 표시하기</emphasis></para>
 
-          <para>문서번호는 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다.</para>
+          <para>문서번호는 <emphasis role="bold">폼 빌더</emphasis>의 문서 컴포넌트를 사용하여 문서
+          내에 입력할 수 있습니다.</para>
 
           <orderedlist>
             <listitem>
-              <para>웹폼 디자이너에 PDF 파일을 업로드 합니다.</para>
+              <para>워드, 엑셀, 파워포인트 템플릿 파일을 엽니다.</para>
             </listitem>
 
             <listitem>
               <para>문서번호가 들어갈 위치에 문서 컴포넌트를 추가합니다.</para>
-
-              <mediaobject>
-                <imageobject>
-                  <imagedata fileref="resources/web-form-designer-document-component.png"
-                             width="750"/>
-                </imageobject>
-              </mediaobject>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">다음 </emphasis>버튼을 눌러<emphasis
-              role="bold"> 템플릿 설정</emphasis>으로 이동합니다.</para>
+              <para><emphasis role="bold">업로드</emphasis> 버튼을 눌러 문서를 이폼사인에
+              업로드합니다.</para>
             </listitem>
 
             <listitem>
@@ -973,7 +970,7 @@
 
           <para><mediaobject>
               <imageobject>
-                <imagedata fileref="resources/workflow-addstep-type2.png"
+                <imagedata fileref="resources/template-setting-FB-workflow-add-step.png"
                            width="700"/>
               </imageobject>
             </mediaobject></para>
@@ -981,22 +978,23 @@
 
         <listitem>
           <para>선택 시 워크플로우에 단계가 추가됩니다</para>
+
+          <tip>
+            <para>워크플로우 단계는 개수 제한없이 추가할 수 있습니다. 워크플로우 단계 옆에 위치한 화살표를 클릭하여 단계의
+            순서를 조정할 수 있습니다.</para>
+
+            <para>단계를 삭제하려면 단계 버튼 오른쪽에 위치한<emphasis role="bold"> X
+            </emphasis>를 클릭하면 삭제됩니다.</para>
+          </tip>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/template-setting-FB-workflow-add-step-change.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
         </listitem>
       </orderedlist>
-
-      <tip>
-        <para>워크플로우 단계는 개수 제한없이 추가할 수 있습니다. 워크플로우 단계 옆에 위치한 화살표를 클릭하여 단계의 순서를
-        조정할 수 있습니다.</para>
-
-        <para>단계를 삭제하려면 단계 버튼 오른쪽에 위치한<emphasis role="bold"> X </emphasis>를
-        클릭하면 삭제됩니다.</para>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/workflow-step-added.png" width="700"/>
-          </imageobject>
-        </mediaobject>
-      </tip>
 
       <para><emphasis role="bold">워크플로우 단계별 상세 설정</emphasis></para>
 
@@ -1015,7 +1013,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/workflow-step-item-manage.png"
+              <imagedata fileref="resources/template-setting-FB-workflow-field-control.png"
                          width="700"/>
             </imageobject>
           </mediaobject>
@@ -1028,7 +1026,7 @@
 
           <term><inlinemediaobject>
               <imageobject>
-                <imagedata fileref="resources/workflow-step-start-property.png"
+                <imagedata fileref="resources/template-setting-FB-workflow-step-start.png"
                            width="700"/>
               </imageobject>
             </inlinemediaobject></term>
@@ -1068,7 +1066,7 @@
           <listitem>
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/workflow-step-approval-property.png"
+                <imagedata fileref="resources/template-setting-FB-workflow-step-approval.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
@@ -1096,7 +1094,7 @@
           <listitem>
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/workflow-step-internal-recipient-property.png"
+                <imagedata fileref="resources/template-setting-FB-workflow-step-internal-recipient.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
@@ -1131,7 +1129,7 @@
           <listitem>
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/workflow-step-external-recipient-property.png"
+                <imagedata fileref="resources/template-setting-FB-workflow-step-external-recipient.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
@@ -1183,7 +1181,7 @@
           <listitem>
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/workflow-step-complete-property.png"
+                <imagedata fileref="resources/template-setting-FB-workflow-step-complete.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
@@ -1217,7 +1215,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/template-field-setting.png"
+            <imagedata fileref="resources/template-setting-FB-field-setting.png"
                        width="700"/>
           </imageobject>
         </mediaobject>
@@ -1297,8 +1295,6 @@
         </listitem>
       </itemizedlist>
 
-      <para/>
-
       <figure>
         <title>알림 채널 설정</title>
 
@@ -1315,6 +1311,8 @@
       메시지는 <emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis> 페이지에 설정된 내용에
       따라 기본적으로 반영되어 있으며, <emphasis role="bold">편집 </emphasis>버튼을 클릭해 직접 메시지를
       편집할 수 있습니다.</para>
+
+      <para/>
 
       <note>
         <para>SMS 템플릿은 유료 요금제 구독 회사만 편집할 수 있습니다.</para>
@@ -1401,8 +1399,6 @@
         role="bold">단계별 처리자</emphasis> 옵션 모두 체크 해제 시, 해당 단계의 상태 알림을 전송하지
         않습니다.</para>
       </note>
-
-      <para/>
 
       <itemizedlist>
         <listitem>
@@ -1505,8 +1501,8 @@
 
       <listitem>
         <para><emphasis role="bold">문서 관리자 설정: </emphasis>해당 템플릿으로 작성되는 문서의
-        관리자를 설정할 수 있습니다. <emphasis role="bold">템플릿 설정 &gt; 문서 관리자
-        설정</emphasis>과 동일합니다.</para>
+        관리자를 설정할 수 있습니다. <emphasis role="bold">템플릿 설정 &gt; 권한 설정</emphasis>과
+        동일합니다.</para>
 
         <mediaobject>
           <imageobject>
@@ -1549,7 +1545,7 @@
         <term><emphasis role="bold">② 템플릿 검색</emphasis></term>
 
         <listitem>
-          <para>검색 키워드를 입력하여 템플릿을 검색합니다.</para>
+          <para>템플릿 명, 카테고리 명 등 검색 키워드를 입력하여 템플릿을 검색합니다.</para>
         </listitem>
       </varlistentry>
 

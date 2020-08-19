@@ -411,7 +411,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/myinfo-companyinfo.png" width="750"/>
+            <imagedata fileref="resources/myinfo-companyinfo.PNG" width="750"/>
           </imageobject>
         </mediaobject>
       </figure>

@@ -25,7 +25,7 @@
 
       <para><emphasis role="bold">폼 빌더로 템플릿 만드는 방법</emphasis></para>
 
-      <para>폼 빌더로 템플릿을 만들려면 우선 이폼사인 폼 빌더를 다운로드 해야합니다. </para>
+      <para>폼 빌더로 템플릿을 만들려면 우선 이폼사인 폼 빌더를 다운로드 해야합니다.</para>
 
       <note>
         <para>폼 빌더에 대한 상세한 설명은 <xref linkend="formbuilder"/>를 참고하시기
@@ -216,7 +216,7 @@
 
       <variablelist>
         <varlistentry>
-          <term>템플릿 기본정보 설정</term>
+          <term><emphasis role="bold">템플릿 기본정보 설정</emphasis></term>
 
           <listitem>
             <para>템플릿 이름, 카테고리, 유효기간 등 템플릿에 대한 기본 정보를 설정합니다.</para>
