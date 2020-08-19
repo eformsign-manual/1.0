@@ -14,7 +14,7 @@
     <section>
       <title>메뉴 구성</title>
 
-      <para>이폼사인 로그인 후 대시보드 화면 왼쪽 상단의 햄버거 메뉴(<inlinemediaobject>
+      <para>이폼사인 로그인 후 대시보드 화면 왼쪽 상단의 메뉴(<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/menu%20icon.png"/>
           </imageobject>
@@ -144,8 +144,8 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">eformsign 폼빌더 다운로드: </emphasis>전자
-          서식(템플릿)을 생성하기 위한 폼빌더를 다운로드합니다.</para>
+          <para><emphasis role="bold">eformsign 폼 빌더 다운로드: </emphasis>전자
+          서식(템플릿)을 생성하기 위한 폼 빌더를 다운로드합니다.</para>
         </listitem>
       </itemizedlist>
 
@@ -307,7 +307,7 @@
   <section>
     <title>기본 정보 확인 및 변경</title>
 
-    <para>이폼사인 가입시 입력한 개인 정보 및 내가 등록된 회사의 정보를 확인하려면 사이드바 메뉴의 우측 상단에 있는 햄버거
+    <para>이폼사인 가입시 입력한 개인 정보 및 내가 등록된 회사의 정보를 확인하려면 사이드바 메뉴의 우측 상단에 있는
     아이콘(<inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="17"
@@ -411,7 +411,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/myinfo-personalinfo.png" width="750"/>
+            <imagedata fileref="resources/myinfo-companyinfo.PNG" width="750"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -451,8 +451,10 @@
 
             <important>
               <para>일반 회원의 경우 소속 회사에서 탈퇴할 경우 개인의 계정은 유지되며 다른 회사에 가입하거나 신규로 회사를
-              생성할 수 있습니다. 대표 관리자의 경우 회사 탈퇴시 회사가 삭제됩니다. 회사 삭제를 하지 않고 회사를 탈퇴하려면
-              대표 관리자 권한을 다른 사람에게 위임한 후 회사를 탈퇴해야 합니다.</para>
+              생성할 수 있습니다. </para>
+
+              <para>대표 관리자의 경우 회사 탈퇴시 회사가 삭제됩니다. 회사 삭제를 하지 않고 회사를 탈퇴하려면 대표 관리자
+              권한을 다른 사람에게 위임한 후 회사를 탈퇴해야 합니다.</para>
             </important>
           </listitem>
         </varlistentry>
@@ -623,30 +625,34 @@
       <listitem>
         <para><emphasis role="bold">회사 관리</emphasis></para>
 
-        <para>회사 관리 메뉴에 접근할 수 있습니다. 회사 정보, 멤버, 그룹 등을 관리할 수 있으며, 멤버 관리에서 권한을
-        설정할 수 있습니다.</para>
+        <para><emphasis role="bold">회사 관리</emphasis> 메뉴에 접근할 수 있습니다. 회사 정보,
+        멤버, 그룹 등을 관리할 수 있으며, <emphasis role="bold">멤버 관리</emphasis>에서 권한을 설정할
+        수 있습니다.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">템플릿 관리</emphasis></para>
 
-        <para>템플릿 관리메뉴에 접근할 수 있습니다. 폼빌더를 사용하여 폼파일을 만들거나 웹폼 디자이너로 파일을 업로드하여 새로운
-        템플릿을 등록할 수 있으며, 템플릿을 수정, 배포, 삭제할 수 있습니다.</para>
+        <para><emphasis role="bold">템플릿 관리</emphasis> 메뉴에 접근할 수 있습니다. 폼 빌더를
+        사용하여 폼파일을 만들거나 웹폼 디자이너로 파일을 업로드하여 새로운 템플릿을 등록할 수 있으며, 템플릿을 수정, 배포, 삭제할
+        수 있습니다.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">문서 관리</emphasis></para>
 
-        <para>문서 관리 메뉴에 접근하여 템플릿 별로 생성된 문서를 열람하고 다운로드 받을 수 있습니다.</para>
+        <para><emphasis role="bold">문서 관리</emphasis> 메뉴에 접근하여 템플릿 별로 생성된 문서를
+        열람하고 다운로드 받을 수 있습니다.</para>
 
-        <para>문서 관리 권한은 템플릿 별로 다르게 지정할 수 있습니다.</para>
+        <para><emphasis role="bold">문서 관리 권한</emphasis>은 템플릿 별로 다르게 지정할 수
+        있습니다.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">문서 작성</emphasis></para>
 
-        <para>템플릿 별로 문서 작성 권한을 지정할 수 있습니다. 문서 작성 권한을 부여 받은 멤버만 해당 템플릿으로 문서를
-        작성할 수 있습니다.</para>
+        <para>템플릿 별로 <emphasis role="bold">템플릿 사용 권한(문서 작성 권한)</emphasis>을 부여할
+        수 있습니다. 권한을 부여 받은 멤버만 해당 템플릿으로 문서를 작성할 수 있습니다.</para>
       </listitem>
     </itemizedlist>
 
@@ -706,8 +712,8 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">권한 위임</emphasis> 팝업창이 뜨면 권한을 위임할 멤버를 검색
-          및 선택합니다.</para>
+          <para><emphasis role="bold">권한 위임</emphasis> 팝업창에서 권한을 위임할 멤버를 검색 및
+          선택합니다.</para>
 
           <mediaobject>
             <imageobject>
@@ -722,7 +728,8 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">저장</emphasis> 버튼을 클릭합니다.</para>
+          <para><emphasis role="bold">저장</emphasis> 버튼을 클릭해 변경사항을
+          저장합니다.</para>
         </listitem>
       </orderedlist>
     </section>
@@ -730,11 +737,9 @@
     <section>
       <title>회사 관리 권한</title>
 
-      <para>회사 관리자는 <emphasis role="bold">회사관리 </emphasis>메뉴에 접근 권한을 가지며, 회사와
+      <para>회사 관리자는 <emphasis role="bold">회사 관리 </emphasis>메뉴에 접근 권한을 가지며, 회사와
       관련된 정보 및 멤버/그룹 등의 정보를 열람, 수정, 삭제 등을 할 수 있습니다. 회사 관리자는 대표 관리자 또는 회사 관리자가
       멤버에게 권한을 부여할 수 있습니다.</para>
-
-      <para/>
 
       <para><emphasis role="bold">회사 관리 권한 부여하는 방법</emphasis></para>
 
@@ -793,8 +798,6 @@
         role="bold">템플릿 관리</emphasis> 권한이 필요합니다.</para>
       </note>
 
-      <para/>
-
       <orderedlist>
         <listitem>
           <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 멤버 관리</emphasis>로
@@ -825,75 +828,20 @@
     </section>
 
     <section>
-      <title>문서 관리 권한</title>
+      <title>템플릿 사용(=문서 생성) 및 문서 관리 권한</title>
 
-      <para>문서 관리자는 템플릿 별로 생성된 문서와 문서에 입력된 데이터를 관리합니다.</para>
+      <para>각 템플릿 별로 문서를 생성할 수 있는 권한과 생성된 문서와 문서에 입력된 데이터를 관리하는 권한을 부여할 수
+      있습니다. </para>
 
-      <para>문서 관리자로 지정되면 <emphasis role="bold">문서 관리 </emphasis>메뉴 화면에서 해당
-      템플릿으로 작성된 문서를 열람, 삭제, 다운로드할 수 있습니다.</para>
+      <para><emphasis role="bold">템플릿 사용 권한</emphasis>이 부여된 멤버는 <emphasis
+      role="bold">새 문서 작성</emphasis> 메뉴 화면에서 해당 템플릿으로 문서를 작성할 수 있습니다.</para>
 
-      <para><emphasis role="bold">문서 관리 권한 부여하는 방법</emphasis></para>
+      <para><emphasis role="bold">문서 관리 권한</emphasis>이 부여된 멤버는 <emphasis
+      role="bold">문서 관리 </emphasis>메뉴 화면에서 해당 템플릿으로 작성된 문서를 열람, 삭제, 다운로드할 수
+      있습니다.</para>
 
-      <note>
-        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
-        role="bold">템플릿 관리 </emphasis>권한이 필요합니다.</para>
-      </note>
-
-      <orderedlist>
-        <listitem>
-          <para>사이드바 메뉴에서<emphasis role="bold"> 템플릿 관리</emphasis>로
-          이동합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">템플릿 설정</emphasis> 버튼( <inlinemediaobject>
-              <imageobject>
-                <imagedata contentwidth="25"
-                           fileref="resources/config-icon.PNG"/>
-              </imageobject>
-            </inlinemediaobject>)을 클릭합니다.</para>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/template-manage-setting.png"
-                         width="800"/>
-            </imageobject>
-          </mediaobject>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">문서 관리자 설정</emphasis> 탭으로 이동합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para>관리자로 지정할 멤버나 그룹을 선택합니다.</para>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/document-manager-auth.png"
-                         width="800"/>
-            </imageobject>
-          </mediaobject>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">저장 </emphasis>버튼을 클릭합니다.</para>
-        </listitem>
-      </orderedlist>
-    </section>
-
-    <section>
-      <title>문서 작성 권한</title>
-
-      <para>각 템플릿 별로 문서 작성자를 지정할 수 있습니다. 문서 작성자로 지정되면 <emphasis role="bold">새
-      문서 작성</emphasis> 메뉴 화면에서 해당 템플릿으로 문서를 작성할 수 있습니다.</para>
-
-      <para/>
-
-      <para><emphasis role="bold">문서 작성을 위한 템플릿 사용 권한 부여하는
+      <para><emphasis role="bold">문서 작성을 위한 템플릿 사용 권한 및 문서 관리 권한 부여하는
       방법</emphasis></para>
-
-      <para/>
 
       <note>
         <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
@@ -924,22 +872,21 @@
 
         <listitem>
           <para><emphasis role="bold">권한 설정</emphasis> 탭으로 이동합니다.</para>
+
+          <para><mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/document-creator-auth_1.png"
+                           width="800"/>
+              </imageobject>
+            </mediaobject></para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">템플릿 사용 권한</emphasis>에서 그룹이나 멤버를 검색 및
-          선택합니다.</para>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/document-creator-auth_1.png"
-                         width="800"/>
-            </imageobject>
-          </mediaobject>
+          <para>각각의 권한을 부여할 그룹 또는 멤버를 선택합니다.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">저장 </emphasis>버튼을 클릭합니다</para>
+          <para><emphasis role="bold">저장 </emphasis>버튼을 클릭합니다.</para>
         </listitem>
       </orderedlist>
     </section>
@@ -1080,23 +1027,51 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">그룹 정보</emphasis></para>
+      <variablelist>
+        <varlistentry>
+          <term>① 그룹 정보</term>
 
-      <para>그룹 목록에서 정보를 확인하고자 하는 그룹을 클릭하면 오른쪽 그룹 정보 탭에서 그룹 이름 및 설명을 확인 및 수정할 수
-      있습니다.</para>
+          <listitem>
+            <para>그룹 목록에서 정보를 확인하고자 하는 그룹을 클릭하면 오른쪽 그룹 정보 탭에서 그룹 이름 및 설명을 확인 및
+            수정할 수 있습니다.</para>
+          </listitem>
+        </varlistentry>
 
-      <para><emphasis role="bold">멤버 목록</emphasis></para>
+        <varlistentry>
+          <term>② 멤버 목록</term>
 
-      <para>그룹에 속한 멤버 목록을 보여주며, 멤버를 추가 및 삭제할 수 있습니다.</para>
+          <listitem>
+            <para>그룹에 속한 멤버 목록을 보여주며, 멤버를 추가 및 삭제할 수 있습니다.</para>
+          </listitem>
+        </varlistentry>
 
-      <para><emphasis role="bold">필드 값 설정</emphasis></para>
+        <varlistentry>
+          <term>③ 필드 값 설정</term>
 
-      <para>그룹과 관련된 필드 값을 설정할 수 있습니다.</para>
+          <listitem>
+            <para>그룹과 관련된 필드 값을 설정할 수 있습니다.</para>
+          </listitem>
+        </varlistentry>
 
-      <para><emphasis role="bold">그룹 추가</emphasis></para>
+        <varlistentry>
+          <term>④ 그룹 추가</term>
 
-      <para>그룹 추가를 클릭하면<emphasis role="bold"> 그룹 추가 </emphasis>팝업창이 뜨고 그룹 이름 및
-      설명을 입력, 멤버를 검색하여 추가하면 그룹이 생성됩니다.</para>
+          <listitem>
+            <para>그룹 추가를 클릭하면<emphasis role="bold">그룹 추가</emphasis> 팝업창이 뜨고 그룹
+            이름 및 설명을 입력, 멤버를 검색하여 추가하면 그룹이 생성됩니다.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>⑤ 그룹 삭제</term>
+
+          <listitem>
+            <para><emphasis role="bold">휴지통</emphasis> 아이콘을 클릭하면 그룹 목록 왼쪽에
+            체크박스가 활성화됩니다. 삭제할 그룹을 체크한 후 <emphasis role="bold">삭제</emphasis>버튼을
+            클릭하면 그룹이 삭제됩니다.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
     </section>
   </section>
 
@@ -1108,8 +1083,6 @@
 
     <para><emphasis role="bold">서명/이니셜 등록하는 방법</emphasis></para>
 
-    <para/>
-
     <note>
       <para>작업은 <emphasis role="bold">PC, 모바일, 애플리케이션</emphasis>에서 진행할 수
       있습니다.</para>
@@ -1120,18 +1093,16 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/mysignature.PNG" width="700"/>
-          </imageobject>
-        </mediaobject>
-      </figure><figure>
-        <title>내 서명 관리 화면</title>
-
-        <mediaobject>
-          <imageobject>
             <imagedata fileref="resources/menu-mysignature.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure></para>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="resources/mysignature.PNG" width="700"/>
+      </imageobject>
+    </mediaobject>
 
     <orderedlist>
       <listitem>
@@ -1147,8 +1118,6 @@
                        fileref="resources/mysignature-register.png"/>
           </imageobject>
         </mediaobject>
-
-        <para/>
 
         <itemizedlist>
           <listitem>
@@ -1208,8 +1177,6 @@
       </itemizedlist>
     </note>
 
-    <para/>
-
     <orderedlist>
       <listitem>
         <para>사이드바 메뉴에서 <emphasis role="bold">내 서명</emphasis>으로 이동합니다.</para>
@@ -1227,7 +1194,15 @@
       </listitem>
 
       <listitem>
-        <para>이미지 영역을 클릭하여 도장 이미지를 선택합니다.</para>
+        <para>이미지 영역을 클릭하면 내 PC에 저장된 이미지를 업로드 할 수 있는 팝업창이 뜹니다. 원하는 도장 이미지를
+        선택합니다.</para>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/signature-stamp-image-upload1.png"
+                       width="700"/>
+          </imageobject>
+        </mediaobject>
       </listitem>
 
       <listitem>
@@ -1235,7 +1210,8 @@
       </listitem>
 
       <listitem>
-        <para>편집, 삭제 버튼으로 등록된 도장을 편집 또는 삭제합니다.</para>
+        <para><emphasis role="bold">편집, 삭제</emphasis> 버튼으로 등록된 도장을 편집 또는
+        삭제합니다.</para>
       </listitem>
     </orderedlist>
   </section>
