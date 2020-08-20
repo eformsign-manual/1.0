@@ -883,7 +883,7 @@
 
         <listitem>
           <para>문서 번호: 템플릿 설정 &gt; 일반 설정에서 설정된 문서 번호입니다. 문서 번호를 설정하는 방법은 <xref
-          linkend="???"/>를 참고하세요.</para>
+          linkend="docnumber_wd"/>를 참고하세요.</para>
         </listitem>
       </itemizedlist>
     </section>
@@ -939,7 +939,7 @@
     저장합니다.</para>
 
     <note>
-      <para>템플릿에 대한 상세한 설명은 <xref linkend="template"/>을 참고하시기 바랍니다.</para>
+      <para>템플릿에 대한 상세한 설명은 <xref linkend="template_wd"/>을 참고하시기 바랍니다.</para>
     </note>
   </section>
 </chapter>

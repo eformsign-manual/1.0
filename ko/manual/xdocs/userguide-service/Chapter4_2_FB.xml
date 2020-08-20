@@ -619,7 +619,7 @@
       <para><emphasis role="bold">문서번호 생성하는 방법</emphasis></para>
 
       <note>
-        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는<emphasis
+        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
         role="bold">템플릿 관리</emphasis> 권한이 필요합니다.</para>
       </note>
 
@@ -1024,14 +1024,14 @@
         <varlistentry>
           <term><emphasis role="bold">시작: 문서를 작성하는 단계입니다.</emphasis></term>
 
-          <term><inlinemediaobject>
+          <listitem>
+            <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/template-setting-FB-workflow-step-start.png"
+                <imagedata fileref="resources/workflow-step-start-property.png"
                            width="700"/>
               </imageobject>
-            </inlinemediaobject></term>
+            </mediaobject>
 
-          <listitem>
             <itemizedlist>
               <listitem>
                 <para><emphasis role="bold">단계 이름</emphasis>(공통): 기본 이름으로 설정된
@@ -1051,7 +1051,7 @@
 
               <listitem>
                 <para><emphasis role="bold">문서 중복 전송 방지</emphasis>: 문서를 중복으로
-                전송하는 것을 방지하며, 필드를 선택해 해당 필드를 기준으로 중복 여부를 확인합니다.</para>
+                전송는 것을 방지하며, 필드를 선택해 해당 필드를 기준으로 중복 여부를 확인합니다.</para>
               </listitem>
             </itemizedlist>
           </listitem>

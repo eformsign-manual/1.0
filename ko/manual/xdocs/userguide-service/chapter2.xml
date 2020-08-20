@@ -1058,8 +1058,8 @@
           <term>④ 그룹 추가</term>
 
           <listitem>
-            <para>그룹 추가를 클릭하면<emphasis role="bold">그룹 추가</emphasis> 팝업창이 뜨고 그룹
-            이름 및 설명을 입력, 멤버를 검색하여 추가하면 그룹이 생성됩니다.</para>
+            <para>그룹 추가를 클릭하면<emphasis role="bold"> 그룹 추가</emphasis> 팝업창이 뜨고
+            그룹 이름 및 설명을 입력, 멤버를 검색하여 추가하면 그룹이 생성됩니다.</para>
           </listitem>
         </varlistentry>
 
@@ -1068,8 +1068,8 @@
 
           <listitem>
             <para><emphasis role="bold">휴지통</emphasis> 아이콘을 클릭하면 그룹 목록 왼쪽에
-            체크박스가 활성화됩니다. 삭제할 그룹을 체크한 후 <emphasis role="bold">삭제</emphasis>버튼을
-            클릭하면 그룹이 삭제됩니다.</para>
+            체크박스가 활성화됩니다. 삭제할 그룹을 체크한 후 <emphasis role="bold">삭제</emphasis>
+            버튼을 클릭하면 그룹이 삭제됩니다.</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -1079,7 +1079,7 @@
   <section>
     <title>내 서명 관리</title>
 
-    <para><emphasis role="bold">내 서명</emphasis> 메뉴에서 <emphasis role="bold">서명,
+    <para><emphasis role="bold">내 서명</emphasis>메뉴에서 <emphasis role="bold">서명,
     이니셜, 도장</emphasis>을 등록해두면 문서 처리시 등록된 서명으로 간편하게 처리할 수 있습니다.</para>
 
     <para><emphasis role="bold">서명/이니셜 등록하는 방법</emphasis></para>
@@ -1134,7 +1134,7 @@
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">QR 코드로 서명법</emphasis></para>
+            <para><emphasis role="bold">QR 코드로 서명</emphasis></para>
 
             <para>스마트폰 카메라를 통해 QR 코드를 인식하면 서명 패드 화면으로 연결됩니다. 서명 패드에 직접 서명을 그려서
             입력합니다.</para>
