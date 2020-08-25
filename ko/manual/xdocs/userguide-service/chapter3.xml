@@ -255,7 +255,7 @@
     <title>입력항목 개요</title>
 
     <para>입력항목은 전자 문서에서 사용자가 내용을 입력할 수 있는 입력란을 만들어주는 역할을 합니다. 서명, 체크, 날짜, 텍스트
-    등의 다양한 형식의 입력항목이 있으며 각각의 입력항목는 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
+    등의 다양한 형식의 입력항목이 있으며 각각의 입력항목은 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
 
     <section>
       <title>입력항목 종류</title>
@@ -692,8 +692,8 @@
 
       <para><emphasis role="bold">③ 다중 선택 가능</emphasis></para>
 
-      <para>다중 선택 가능을 체크하면 1개 이상의 항목을 선택할 수 있습니다. 1개 이상의 항목을 선택한 경우 데이터 저장 시
-      선택된 여러 개의 항목이 콤마(,)로 구분되어 저장됩니다.</para>
+      <para><emphasis role="bold">다중 선택 가능</emphasis>을 체크하면 1개 이상의 항목을 선택할 수
+      있습니다. 1개 이상의 항목을 선택한 경우 데이터 저장 시 선택된 여러 개의 항목이 콤마(,)로 구분되어 저장됩니다.</para>
 
       <para><emphasis role="bold">④ 선택 안 함 가능</emphasis></para>
 
@@ -856,15 +856,18 @@
 
       <itemizedlist>
         <listitem>
-          <para>yyyy: 연도’를 표시합니다. (yyyy년 = 2020년)</para>
+          <para><emphasis role="bold">yyyy: </emphasis>연도’를 표시합니다. (yyyy년 =
+          2020년)</para>
         </listitem>
 
         <listitem>
-          <para>MM: ‘월’을 표시합니다. 반드시 대문자로 표기해야 합니다. (MM월 = 8월)</para>
+          <para><emphasis role="bold">MM:</emphasis> ‘월’을 표시합니다. 반드시 대문자로 표기해야
+          합니다. (MM월 = 8월)</para>
         </listitem>
 
         <listitem>
-          <para>dd: ‘일’을 표시합니다. (dd일 = 10일)</para>
+          <para><emphasis role="bold">dd:</emphasis> ‘일’을 표시합니다. (dd일 =
+          10일)</para>
         </listitem>
       </itemizedlist>
 
@@ -1119,7 +1122,7 @@
 
         <para>2. 서명할 곳에 서명 입력항목을 추가합니다.</para>
 
-        <para>3. 추가한 서명 입력항목의 속성창에 입력항목 ID를 입력합니다. 예. 서명</para>
+        <para>3. 추가한 서명 입력항목의 속성창에 입력항목 ID를 입력합니다. 예) 서명</para>
 
         <para>4. 서명일이 입력될 곳에 사용일 입력항목을 추가합니다.</para>
 
@@ -1398,13 +1401,15 @@
 
       <itemizedlist>
         <listitem>
-          <para>문서 ID: 시스템에서 모든 문서에 부여하는 문서의 고유한 ID로, 32자리의 알파벳과 숫자의 조합으로
-          나타납니다. 예) 0077af27a98846c8872f5333920679b7</para>
+          <para><emphasis role="bold">문서 ID: </emphasis>시스템에서 모든 문서에 부여하는 문서의
+          고유한 ID로, 32자리의 알파벳과 숫자의 조합으로 나타납니다. 예)
+          0077af27a98846c8872f5333920679b7</para>
         </listitem>
 
         <listitem>
-          <para>문서 번호: 템플릿 설정 &gt; 일반 설정에서 설정된 문서 번호입니다. 문서 번호를 설정하는 방법은 <xref
-          linkend="docnumber_wd"/>를 참고하세요.</para>
+          <para><emphasis role="bold">문서 번호:</emphasis> <emphasis
+          role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 설정된 문서 번호입니다. 문서 번호를 설정하는
+          방법은 <xref linkend="docnumber_wd"/>를 참고하세요.</para>
         </listitem>
       </itemizedlist>
     </section>
@@ -1444,15 +1449,18 @@
 
       <itemizedlist>
         <listitem>
-          <para>yyyy: 연도’를 표시합니다. (yyyy년 = 2020년)</para>
+          <para><emphasis role="bold">yyyy:</emphasis> 연도’를 표시합니다. (yyyy년 =
+          2020년)</para>
         </listitem>
 
         <listitem>
-          <para>MM: ‘월’을 표시합니다. 반드시 대문자로 표기해야 합니다. (MM월 = 8월)</para>
+          <para><emphasis role="bold">MM:</emphasis> ‘월’을 표시합니다. 반드시 대문자로 표기해야
+          합니다. (MM월 = 8월)</para>
         </listitem>
 
         <listitem>
-          <para>dd: ‘일’을 표시합니다. (dd일 = 10일)</para>
+          <para><emphasis role="bold">dd:</emphasis> ‘일’을 표시합니다. (dd일 =
+          10일)</para>
         </listitem>
       </itemizedlist>
 
@@ -1462,15 +1470,18 @@
 
       <itemizedlist>
         <listitem>
-          <para>만든 날짜: 문서를 최초 작성한 날짜를 표시합니다.</para>
+          <para><emphasis role="bold">만든 날짜:</emphasis> 문서를 최초 작성한 날짜를
+          표시합니다.</para>
         </listitem>
 
         <listitem>
-          <para>액세스한 날짜: 문서를 수정하거나 열람한 가장 최근의 날짜를 표시합니다.</para>
+          <para><emphasis role="bold">액세스한 날짜:</emphasis> 문서를 수정하거나 열람한 가장 최근의
+          날짜를 표시합니다.</para>
         </listitem>
 
         <listitem>
-          <para>입력 값을 수정한 날짜: 특정 입력항목에 내용을 입력한 날짜를 표시합니다.</para>
+          <para><emphasis role="bold">입력 값을 수정한 날짜: </emphasis>특정 입력항목에 내용을
+          입력한 날짜를 표시합니다.</para>
         </listitem>
       </itemizedlist>
 
@@ -1626,7 +1637,7 @@
     저장합니다.</para>
 
     <note>
-      <para>템플릿에 대한 상세한 설명은 <xref linkend="template_fb"/>을 참고하시기 바랍니다.</para>
+      <para>템플릿에 대한 상세한 설명은 <xref linkend="template_fb"/>를 참고하시기 바랍니다.</para>
     </note>
   </section>
 </chapter>

@@ -111,7 +111,7 @@
     <title>입력항목 개요</title>
 
     <para>입력항목은 전자 문서에서 사용자가 내용을 입력할 수 있는 입력란을 만들어주는 역할을 합니다. 서명, 체크, 날짜, 텍스트
-    등의 다양한 형식의 입력항목이 있으며 각각의 입력항목는 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
+    등의 다양한 형식의 입력항목이 있으며 각각의 입력항목은 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
 
     <para><figure>
         <title>웹 폼 디자이너에 입력항목을 배치한 모습</title>
@@ -213,7 +213,7 @@
   <section>
     <title>입력항목별 사용 방법</title>
 
-    <para>모든 입력항목는 공통 속성과 고유 속성을 가지고 있으며, 속성 창에서 공통 속성과 각 입력 기능의 고유 속성을 확인할 수
+    <para>모든 입력항목은 공통 속성과 고유 속성을 가지고 있으며, 속성 창에서 공통 속성과 각 입력 기능의 고유 속성을 확인할 수
     있습니다. 공통 속성으로는 ID와 툴팁 텍스트가 있으며, 각 속성의 의미는 다음과 같습니다.</para>
 
     <itemizedlist>
@@ -238,7 +238,7 @@
     <section xml:id="text">
       <title>텍스트와 멀티라인</title>
 
-      <para>텍스트 입력항목와 멀티라인 입력항목 모두 텍스트 입력란을 만들 때 사용합니다. 텍스트 입력항목는 1~2 단어의 짧은
+      <para>텍스트 입력항목와 멀티라인 입력항목 모두 텍스트 입력란을 만들 때 사용합니다. 텍스트 입력항목은 1~2 단어의 짧은
       텍스트, 멀티라인은 1줄 이상의 긴 텍스트에 적합합니다.</para>
 
       <para><emphasis role="bold">입력항목 속성</emphasis></para>
@@ -484,8 +484,8 @@
 
       <para><emphasis role="bold">③ 다중 선택 가능</emphasis></para>
 
-      <para>다중 선택 가능을 체크하면 1개 이상의 항목을 선택할 수 있습니다. 1개 이상의 항목을 선택한 경우 데이터 저장 시
-      선택된 여러 개의 항목이 콤마(,)로 구분되어 저장됩니다.</para>
+      <para><emphasis role="bold">다중 선택 가능</emphasis>을 체크하면 1개 이상의 항목을 선택할 수
+      있습니다. 1개 이상의 항목을 선택한 경우 데이터 저장 시 선택된 여러 개의 항목이 콤마(,)로 구분되어 저장됩니다.</para>
 
       <para><emphasis role="bold">④ 선택 안 함 가능</emphasis></para>
 
@@ -610,15 +610,18 @@
 
       <itemizedlist>
         <listitem>
-          <para>yyyy: 연도’를 표시합니다. (yyyy년 = 2020년)</para>
+          <para><emphasis role="bold">yyyy:</emphasis> 연도’를 표시합니다. (yyyy년 =
+          2020년)</para>
         </listitem>
 
         <listitem>
-          <para>MM: ‘월’을 표시합니다. 반드시 대문자로 표기해야 합니다. (MM월 = 8월)</para>
+          <para><emphasis role="bold">MM:</emphasis> ‘월’을 표시합니다. 반드시 대문자로 표기해야
+          합니다. (MM월 = 8월)</para>
         </listitem>
 
         <listitem>
-          <para>dd: ‘일’을 표시합니다. (dd일 = 10일)</para>
+          <para><emphasis role="bold">dd:</emphasis> ‘일’을 표시합니다. (dd일 =
+          10일)</para>
         </listitem>
       </itemizedlist>
 
@@ -880,13 +883,15 @@
 
       <itemizedlist>
         <listitem>
-          <para>문서 ID: 시스템에서 모든 문서에 부여하는 문서의 고유한 ID로, 32자리의 알파벳과 숫자의 조합으로
-          나타납니다. 예) 0077af27a98846c8872f5333920679b7</para>
+          <para><emphasis role="bold">문서 ID: </emphasis>시스템에서 모든 문서에 부여하는 문서의
+          고유한 ID로, 32자리의 알파벳과 숫자의 조합으로 나타납니다. 예)
+          0077af27a98846c8872f5333920679b7</para>
         </listitem>
 
         <listitem>
-          <para>문서 번호: 템플릿 설정 &gt; 일반 설정에서 설정된 문서 번호입니다. 문서 번호를 설정하는 방법은 <xref
-          linkend="docnumber_wd"/>를 참고하세요.</para>
+          <para><emphasis role="bold">문서 번호:</emphasis> <emphasis
+          role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 설정된 문서 번호입니다. 문서 번호를 설정하는
+          방법은 <xref linkend="docnumber_wd"/>를 참고하세요.</para>
         </listitem>
       </itemizedlist>
     </section>
@@ -942,7 +947,7 @@
     저장합니다.</para>
 
     <note>
-      <para>템플릿에 대한 상세한 설명은 <xref linkend="template_wd"/>을 참고하시기 바랍니다.</para>
+      <para>템플릿에 대한 상세한 설명은 <xref linkend="template_wd"/>를 참고하시기 바랍니다.</para>
     </note>
   </section>
 </chapter>

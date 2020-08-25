@@ -41,38 +41,52 @@
 
           <para/>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/template-manage-upload.png"
-                         width="700"/>
-            </imageobject>
-          </mediaobject>
+          <figure>
+            <title>템플릿 관리&gt;파일 업로드(1) </title>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/template-manage-upload-popup.png"
-                         width="700"/>
-            </imageobject>
-          </mediaobject>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/template-manage-upload.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+
+          <figure>
+            <title>템플릿 관리&gt;파일 업로드(2)</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/template-manage-upload-popup.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
         </listitem>
 
         <listitem>
-          <para>업로드된 파일에 입력 컴포넌트 종류를 선택하여 드래그합니다.</para>
+          <para>업로드된 파일에 입력항목 종류를 선택하여 드래그합니다.</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/web-form-designer1.png"
-                         width="750"/>
-            </imageobject>
-          </mediaobject>
+          <para/>
+
+          <figure>
+            <title>입력항목 드래그 방법</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/web-form-designer1.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
         </listitem>
 
         <listitem>
-          <para>입력 필드의 크기와 위치를 조정합니다.</para>
+          <para>입력항목의 크기와 위치를 조정합니다.</para>
         </listitem>
 
         <listitem>
-          <para>해당 입력 필드의 속성에서 상세 설정을 합니다.</para>
+          <para>해당 입력항목의 속성에서 상세 설정을 합니다.</para>
         </listitem>
 
         <listitem>
@@ -449,7 +463,7 @@
 
       <variablelist>
         <varlistentry>
-          <term>{{</term>
+          <term><emphasis role="bold">{{</emphasis></term>
 
           <listitem>
             <para>문서에 입력된 내용을 문서 제목에 추가하고자 할 때</para>
@@ -461,7 +475,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>$$</term>
+          <term><emphasis role="bold">$$</emphasis></term>
 
           <listitem>
             <para>문서와 관련된 정보를 제목에 추가하고자 할 때</para>
@@ -1141,8 +1155,8 @@
 
               <listitem>
                 <para><emphasis role="bold">문서 열람 전 비밀번호 설정</emphasis>: 수신자의
-                이름, 보내는 사람이 직접 입력 또는 입력 필드 중 하나를 선택하여 사용 등의 방법으로 외부 수신자가 문서
-                처리시 입력해야 할 인증 비밀번호를 설정할 수 있습니다.</para>
+                이름, 보내는 사람이 직접 입력 또는 입력항목 중 하나를 선택하여 사용 등의 방법으로 외부 수신자가 문서 처리시
+                입력해야 할 인증 비밀번호를 설정할 수 있습니다.</para>
               </listitem>
 
               <listitem>
@@ -1525,7 +1539,7 @@
 
     <variablelist>
       <varlistentry>
-        <term>① 템플릿 조회</term>
+        <term>① <emphasis role="bold">템플릿 조회</emphasis></term>
 
         <listitem>
           <para>클릭하여 템플릿 상태, 카테고리 별로 템플릿을 조회할 수 있습니다. <emphasis role="bold">X
@@ -1545,7 +1559,7 @@
       </varlistentry>
 
       <varlistentry>
-        <term>③ 정렬</term>
+        <term>③ <emphasis role="bold">정렬</emphasis></term>
 
         <listitem>
           <para>템플릿 정렬 순서를 템플릿 이름 또는 카테고리 기준으로 오름차순, 내림차순을 설정합니다.</para>
