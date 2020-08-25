@@ -53,7 +53,7 @@
 
             <listitem>
               <para><emphasis role="bold">처리할 문서함: </emphasis>임시 저장한 문서, 다른
-              구성원이 나에게 작성 또는 결재 요청한 문서 목록을 확인할 수 있습니다.</para>
+              멤버가 나에게 작성 또는 결재 요청한 문서 목록을 확인할 수 있습니다.</para>
             </listitem>
 
             <listitem>
@@ -259,7 +259,7 @@
       </variablelist>
 
       <tip>
-        <para>자주 사용하는 템플릿 즐겨찾기 방법!</para>
+        <para><emphasis role="bold">자주 사용하는 템플릿 즐겨찾기 방법!</emphasis></para>
 
         <para>자주 사용하는 템플릿은 즐겨찾기에 등록하여 바로 문서를 작성할 수 있습니다. 템플릿 <emphasis
         role="bold">즐겨찾기</emphasis>는 대시보드에서 할 수 있습니다.</para>
@@ -315,11 +315,15 @@
         </imageobject>
       </inlinemediaobject>)을 클릭하여 확인할 수 있습니다.</para>
 
-    <para><inlinemediaobject>
+    <figure>
+      <title>내 정보 확인 아이콘 위</title>
+
+      <mediaobject>
         <imageobject>
           <imagedata fileref="resources/menu-personalinfo.png" width="700"/>
         </imageobject>
-      </inlinemediaobject></para>
+      </mediaobject>
+    </figure>
 
     <para>메뉴에서 아이콘(<inlinemediaobject>
         <imageobject>
@@ -328,11 +332,15 @@
         </imageobject>
       </inlinemediaobject>)을 클릭하면 다음과 같이 하위 메뉴가 표시됩니다.</para>
 
-    <para><inlinemediaobject>
+    <figure>
+      <title>내 정보 확인 및 변경 메뉴</title>
+
+      <mediaobject>
         <imageobject>
           <imagedata fileref="resources/menu-personalinfo1.png" width="700"/>
         </imageobject>
-      </inlinemediaobject></para>
+      </mediaobject>
+    </figure>
 
     <itemizedlist>
       <listitem>
@@ -362,7 +370,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/myinfor-personalinfo-main.png"
-                       width="750"/>
+                       width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -399,8 +407,6 @@
           <listitem>
             <para>이폼사인의 회원 탈퇴를 하고자 할 경우 화면 하단의 <emphasis role="bold">eformsign
             탈퇴하기</emphasis>를 클릭하여 회원 탈퇴를 할 수 있습니다.</para>
-
-            <para/>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -412,7 +418,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/myinfo-companyinfo.png" width="750"/>
+            <imagedata fileref="resources/myinfo-companyinfo.png" width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -448,7 +454,7 @@
             <para>소속된 회사를 탈퇴하고자 하는 경우, 화면 하단의 <emphasis role="bold">이
             회사</emphasis> <emphasis role="bold">탈퇴하기</emphasis>를 클릭하여 탈퇴할 수
             있습니다. <emphasis role="bold">이 회사 탈퇴하기</emphasis>를 클릭하면 소속된 회사의 목록이
-            표시되고 선택하여 해당 회사의 탈퇴를 진행할 수 있습니다.</para>
+            표시되고, 목록 중 선택하여 해당 회사의 탈퇴를 진행할 수 있습니다.</para>
 
             <important>
               <para>일반 회원의 경우 소속 회사에서 탈퇴할 경우 개인의 계정은 유지되며 다른 회사에 가입하거나 신규로 회사를
@@ -524,7 +530,7 @@
       이메일 템플릿 등에 표시할 수 있습니다.</para>
 
       <note>
-        <para>로고와 심볼의 차이</para>
+        <para><emphasis role="bold">로고와 심볼의 차이</emphasis></para>
 
         <para>로고와 심볼 모두 회사를 대표하는 이미지입니다. 로고는 대체로 브랜드명을 기재하는 가로로 긴 형식, 심볼은
         이미지만으로 표현한 정사각형 형식입니다.</para>
@@ -579,12 +585,18 @@
             </listitem>
           </itemizedlist>
 
-          <para><inlinemediaobject>
+          <para/>
+
+          <figure>
+            <title>이미지 업로드 팝업 화면</title>
+
+            <mediaobject>
               <imageobject>
-                <imagedata contentwidth="625"
-                           fileref="resources/managecompany-logo-upload.png"/>
+                <imagedata fileref="resources/managecompany-logo-upload.png"
+                           width="650"/>
               </imageobject>
-            </inlinemediaobject></para>
+            </mediaobject>
+          </figure>
         </listitem>
 
         <listitem>
@@ -613,7 +625,7 @@
   <section>
     <title>권한 구분</title>
 
-    <para>이폼사인은 멤버에게 권한을 부여할 수 있어 총 5 단계로 세분화된 권한별 관리가 가능합니다. 사용자별 권한은 다음과 같이
+    <para>이폼사인은 멤버에게 권한을 부여할 수 있어 총 5단계로 세분화된 권한별 관리가 가능합니다. 사용자별 권한은 다음과 같이
     구분됩니다.</para>
 
     <itemizedlist>
@@ -635,8 +647,8 @@
         <para><emphasis role="bold">템플릿 관리</emphasis></para>
 
         <para><emphasis role="bold">템플릿 관리</emphasis> 메뉴에 접근할 수 있습니다. 폼 빌더를
-        사용하여 폼파일을 만들거나 웹폼 디자이너로 파일을 업로드하여 새로운 템플릿을 등록할 수 있으며, 템플릿을 수정, 배포, 삭제할
-        수 있습니다.</para>
+        사용하여 폼파일을 만들거나 웹폼 디자이너로 파일을 업로드하여 새로운 템플릿을 등록할 수 있으며, 템플릿을 수정, 배포 및
+        삭제할 수 있습니다.</para>
       </listitem>
 
       <listitem>
@@ -704,24 +716,34 @@
           role="bold">대표관리자</emphasis> 항목의 오른쪽에 나타나는 <emphasis role="bold">권한
           위임</emphasis> 링크를 클릭합니다.</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/Admin-auth-change_1.png"
-                         width="700"/>
-            </imageobject>
-          </mediaobject>
+          <figure>
+            <title>대표 관리자 권한 위임 위치</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/Admin-auth-change_1.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">권한 위임</emphasis> 팝업창에서 권한을 위임할 멤버를 검색 및
           선택합니다.</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/Admin-auth-change-popup_1.png"
-                         width="500"/>
-            </imageobject>
-          </mediaobject>
+          <para/>
+
+          <figure>
+            <title>권한 위임 팝업 화면</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/Admin-auth-change-popup_1.png"
+                           width="500"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
         </listitem>
 
         <listitem>
@@ -764,12 +786,18 @@
           <emphasis role="bold">권한</emphasis>에서 <emphasis role="bold">회사
           관리</emphasis>를 체크합니다.</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/company-manage-auth.png"
-                         width="700"/>
-            </imageobject>
-          </mediaobject>
+          <para/>
+
+          <figure>
+            <title>회사 관리 권한 위치</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/company-manage-auth.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
         </listitem>
 
         <listitem>
@@ -814,12 +842,16 @@
           role="bold"> </emphasis>화면 하단의 <emphasis role="bold">권한</emphasis>에서
           <emphasis role="bold">템플릿 관리</emphasis>를 체크합니다.</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/template-manage-auth.png"
-                         width="700"/>
-            </imageobject>
-          </mediaobject>
+          <figure>
+            <title>템플릿 관리 권한 위치</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/template-manage-auth.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
         </listitem>
 
         <listitem>
@@ -863,23 +895,33 @@
               </imageobject>
             </inlinemediaobject>)을 클릭합니다.</para>
 
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/template-manage-setting.png"
-                         width="750"/>
-            </imageobject>
-          </mediaobject>
+          <para/>
+
+          <figure>
+            <title>템플릿 설정 버튼 위치</title>
+
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="resources/template-manage-setting.png"
+                           width="700"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">권한 설정</emphasis> 탭으로 이동합니다.</para>
 
-          <para><mediaobject>
+          <figure>
+            <title>템플릿 설정 &gt; 권한 설정 탭 위치</title>
+
+            <mediaobject>
               <imageobject>
                 <imagedata fileref="resources/document-creator-auth_1.png"
-                           width="750"/>
+                           width="700"/>
               </imageobject>
-            </mediaobject></para>
+            </mediaobject>
+          </figure>
         </listitem>
 
         <listitem>
@@ -899,8 +941,6 @@
     <para><emphasis role="bold">회사 관리 </emphasis>메뉴에서 멤버를 초대, 삭제, 수정 및 그룹 생성,
     추가, 삭제 등을 관리할 수 있습니다.</para>
 
-    <para/>
-
     <figure>
       <title>회사관리 &gt; 그룹/멤버 관리</title>
 
@@ -917,8 +957,6 @@
 
       <para><emphasis role="bold">멤버 관리 </emphasis>메뉴에서는 멤버를 회사 소속으로 초대하거나,
       초대된 멤버를 관리할 수 있습니다.</para>
-
-      <para/>
 
       <figure>
         <title>회사 관리 &gt; 멤버 관리</title>
@@ -1016,8 +1054,6 @@
       <para>그룹 관리 메뉴에서는 회사내 그룹을 생성할 수 있으며, 그룹 정보 확인, 수정 및 삭제 등을 할 수
       있습니다.</para>
 
-      <para/>
-
       <figure>
         <title>회사관리 &gt; 그룹 관리</title>
 
@@ -1113,12 +1149,18 @@
       <listitem>
         <para>서명 등록 버튼을 클릭합니다.</para>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata contentwidth="499"
-                       fileref="resources/mysignature-register.png"/>
-          </imageobject>
-        </mediaobject>
+        <para/>
+
+        <figure>
+          <title>서명 등록 화면</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/mysignature-register.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
 
         <itemizedlist>
           <listitem>
@@ -1186,24 +1228,36 @@
       <listitem>
         <para><emphasis role="bold">도장 등록 </emphasis>버튼을 클릭합니다</para>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/signature-stamp-register.png"
-                       width="700"/>
-          </imageobject>
-        </mediaobject>
+        <para/>
+
+        <figure>
+          <title>도장 등록 버튼</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/signature-stamp-register.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
       </listitem>
 
       <listitem>
         <para>이미지 영역을 클릭하면 내 PC에 저장된 이미지를 업로드 할 수 있는 팝업창이 뜹니다. 원하는 도장 이미지를
         선택합니다.</para>
 
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/signature-stamp-image-upload1.png"
-                       width="700"/>
-          </imageobject>
-        </mediaobject>
+        <para/>
+
+        <figure>
+          <title>내 서명 &gt; 도장 등록</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="resources/signature-stamp-image-upload1.png"
+                         width="700"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
       </listitem>
 
       <listitem>

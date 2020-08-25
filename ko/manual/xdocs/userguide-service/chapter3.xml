@@ -7,7 +7,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>폼 빌더와 컴포넌트</title>
+  <title>폼 빌더 소개</title>
 
   <section>
     <title>폼 빌더 개요</title>
@@ -124,7 +124,8 @@
       </figure>
 
       <para>5. MS Office (Word, Excel, PowerPoint)를 실행해 폼 빌더가 제대로 설치되었는지를
-      확인합니다. 다음과 같이 OZ in Word/Excel/PowerPoint가 나타나면 정상적으로 설치된 것입니다.</para>
+      확인합니다. 다음과 같이 <emphasis role="bold">OZ in
+      Word/Excel/PowerPoint</emphasis>가 나타나면 정상적으로 설치된 것입니다.</para>
 
       <figure>
         <title>OZ in Word 리본 메뉴</title>
@@ -226,7 +227,8 @@
 
         <listitem>
           <para><emphasis role="bold">그리기: </emphasis>입력항목를 선택하여 원하는 위치와 크기로
-          추가합니다. '그리기'는 워드, 파워포인트에서만 지원됩니다.</para>
+          추가합니다. <emphasis role="bold">그리기</emphasis>는 워드, 파워포인트에서만
+          지원됩니다.</para>
         </listitem>
 
         <listitem>
@@ -253,7 +255,7 @@
     <title>입력항목 개요</title>
 
     <para>입력항목은 전자 문서에서 사용자가 내용을 입력할 수 있는 입력란을 만들어주는 역할을 합니다. 서명, 체크, 날짜, 텍스트
-    등의 다양한 형식의 입력항목이 있으며 각각의 컴포넌트는 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
+    등의 다양한 형식의 입력항목이 있으며 각각의 입력항목는 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
 
     <section>
       <title>입력항목 종류</title>
@@ -403,7 +405,8 @@
       <section>
         <title>엑셀에서 추가하기</title>
 
-        <para>1. 엑셀을 열고 OZ in Excel 리본 메뉴로 이동합니다.</para>
+        <para>1. 엑셀을 열고 <emphasis role="bold">OZ in Excel</emphasis> 리본 메뉴로
+        이동합니다.</para>
 
         <figure>
           <title>엑셀에서 입력항목를 추가하는 방법(1)</title>
@@ -461,7 +464,8 @@
           </mediaobject>
         </figure>
 
-        <para>2.OZ in Word 또는 OZ in PowerPoint 리본 메뉴에서 추가하고자 하는 입력항목를
+        <para>2.<emphasis role="bold">OZ in Word</emphasis> 또는 <emphasis
+        role="bold">OZ in PowerPoint</emphasis> 리본 메뉴에서 추가하고자 하는 입력항목를
         클릭합니다.</para>
 
         <figure>
@@ -488,7 +492,8 @@
 
         <para><emphasis role="bold">방법 2: 입력항목를 그려서 추가하기</emphasis></para>
 
-        <para>1. 워드 또는 파워포인트를 열고 OZ in Word 또는 OZ in PowerPoint 리본 메뉴로
+        <para>1. 워드 또는 파워포인트를 열고 <emphasis role="bold">OZ in Word</emphasis>
+        또는 <emphasis role="bold">OZ in PowerPoint</emphasis> 리본 메뉴로
         이동합니다.</para>
 
         <para>2. 입력항목 그리기 아이콘을 클릭하여 나타나는 드롭다운 목록에서 추가할 입력항목를 선택합니다.</para>
@@ -520,8 +525,8 @@
     <section>
       <title>입력항목를 삭제하는 방법</title>
 
-      <para>삭제하고자 하는 입력항목를 선택하고 OZ in Office 메뉴의 <emphasis
-      role="bold">삭제</emphasis>(<inlinemediaobject>
+      <para>삭제하고자 하는 입력항목를 선택하고 <emphasis role="bold">OZ in Office</emphasis>
+      메뉴의 <emphasis role="bold">삭제</emphasis>(<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/delete-icon.png"/>
           </imageobject>
@@ -533,12 +538,12 @@
   <section>
     <title>입력항목별 사용 방법</title>
 
-    <para>eformsign은 MS Office의 OZ in Office 리본 메뉴를 통해 체크박스, 콤보박스, 텍스트, 서명 등
-    다양한 입력항목를 지원하고 있습니다.</para>
+    <para>eformsign은 MS Office의 <emphasis role="bold">OZ in Office</emphasis>
+    리본 메뉴를 통해 체크박스, 콤보박스, 텍스트, 서명 등 다양한 입력항목를 지원하고 있습니다.</para>
 
-    <para>OZ in Office의 모든 입력 기능은 공통 속성과 고유 속성을 가지고 있으며, OZ 입력항목 속성 창에서 공통 속성과
-    각 입력 기능의 고유 속성을 확인할 수 있습니다. 공통 속성으로는 ID와 툴팁 텍스트가 있으며, 각 속성의 의미는 다음과
-    같습니다.</para>
+    <para><emphasis role="bold">OZ in Office</emphasis>의 모든 입력 기능은 공통 속성과 고유
+    속성을 가지고 있으며, OZ 입력항목 속성 창에서 공통 속성과 각 입력 기능의 고유 속성을 확인할 수 있습니다. 공통 속성으로는
+    ID와 툴팁 텍스트가 있으며, 각 속성의 의미는 다음과 같습니다.</para>
 
     <itemizedlist>
       <listitem>
@@ -692,7 +697,8 @@
 
       <para><emphasis role="bold">④ 선택 안 함 가능</emphasis></para>
 
-      <para>선택 안 함 가능을 체크하면 선택한 항목을 다시 클릭해 선택 해제를 할 수 있습니다.</para>
+      <para><emphasis role="bold">선택 안 함 가능</emphasis>을 체크하면 선택한 항목을 다시 클릭해 선택
+      해제를 할 수 있습니다.</para>
 
       <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
 
@@ -1068,18 +1074,18 @@
 
       <itemizedlist>
         <listitem>
-          <para>직접 서명: 서명란을 클릭하면 서명 팝업이 나타나며 그리기, 텍스트, 모바일, 도장, 등록된 서명 탭 중 원하는
-          방식으로 서명을 입력합니다.</para>
+          <para><emphasis role="bold">직접 서명:</emphasis> 서명란을 클릭하면 서명 팝업이 나타나며
+          그리기, 텍스트, 모바일, 도장, 등록된 서명 탭 중 원하는 방식으로 서명을 입력합니다.</para>
         </listitem>
 
         <listitem>
-          <para>등록된 서명: 문서를 작성하는 사람이 미리 등록해 둔 ‘내 서명’이 있는 경우 서명란을 클릭하면 등록된 서명이
-          자동으로 입력됩니다.</para>
+          <para><emphasis role="bold">등록된 서명:</emphasis> 문서를 작성하는 사람이 미리 등록해 둔
+          ‘내 서명’이 있는 경우 서명란을 클릭하면 등록된 서명이 자동으로 입력됩니다.</para>
         </listitem>
 
         <listitem>
-          <para>등록된 이니셜: 등록된 서명과 마찬가지로 ‘내 서명’에 등록된 이니셜이 있는 경우 서명란을 클릭하면 등록된
-          이니셜이 자동으로 입력됩니다.</para>
+          <para><emphasis role="bold">등록된 이니셜:</emphasis> 등록된 서명과 마찬가지로 ‘내
+          서명’에 등록된 이니셜이 있는 경우 서명란을 클릭하면 등록된 이니셜이 자동으로 입력됩니다.</para>
         </listitem>
       </itemizedlist>
 
@@ -1298,20 +1304,23 @@
 
       <itemizedlist>
         <listitem>
-          <para>만든 사람: 문서를 최초로 작성한 멤버의 정보를 표시합니다.</para>
+          <para><emphasis role="bold">만든 사람:</emphasis> 문서를 최초로 작성한 멤버의 정보를
+          표시합니다.</para>
         </listitem>
 
         <listitem>
-          <para>액세스한 사람: 문서를 가장 최근에 열람하거나 수정한 멤버의 정보를 표시합니다.</para>
+          <para><emphasis role="bold">액세스한 사람:</emphasis> 문서를 가장 최근에 열람하거나 수정한
+          멤버의 정보를 표시합니다.</para>
         </listitem>
 
         <listitem>
-          <para>입력 값을 수정한 사람: 특정 입력항목에 내용을 입력한 멤버의 정보를 표시합니다.</para>
+          <para><emphasis role="bold">입력 값을 수정한 사람:</emphasis> 특정 입력항목에 내용을
+          입력한 멤버의 정보를 표시합니다.</para>
         </listitem>
       </itemizedlist>
 
-      <para>'입력 값을 수정한 사람'을 선택하면, 다음과 같이 입력 입력항목 ID 입력란이 나타납니다. 여기에 연결할 입력항목
-      ID를 입력합니다.</para>
+      <para><emphasis role="bold">입력 값을 수정한 사람</emphasis>을 선택하면, 다음과 같이 입력
+      입력항목 ID 입력란이 나타납니다. 여기에 연결할 입력항목 ID를 입력합니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1326,8 +1335,8 @@
       <note>
         <para>담당자 서명란에 서명한 담당자의 이름을 자동으로 입력되도록 하려면, 먼저 담당자 서명란에 서명 입력항목을 생성한 후
         서명 입력항목의 ID를 ‘담당자 서명’으로 지정합니다. 담당자의 이름을 입력할 사용자 입력항목을 하나 더 생성합니다. 사용자
-        입력항목의 사용자 표시 유형 속성을 ‘입력 값을 수정한 사람’으로 선택하고, 입력 입력항목 ID 입력란에 ‘담당자 서명’을
-        입력합니다.</para>
+        입력항목의 사용자 표시 유형 속성을 <emphasis role="bold">입력 값을 수정한 사람</emphasis>으로
+        선택하고, 입력 입력항목 ID 입력란에 ‘담당자 서명’을 입력합니다.</para>
       </note>
 
       <para><emphasis role="bold">③ 사용자 표시 정보</emphasis></para>
@@ -1344,9 +1353,9 @@
       <note>
         <para>멤버 기본 정보를 수정하려면 회사 관리(대표 관리자) 권한이 필요합니다.</para>
 
-        <para>멤버 기본 정보를 수정하려면 eformsign에 로그인한 후 회사 관리 &gt; 구성원 관리 메뉴로 이동합니다.
-        멤버 목록에서 멤버를 선택하고 화면 오른쪽에 나타나는 상세 보기 영역의 정보를 수정한 후 ‘저장’ 버튼을
-        클릭합니다.</para>
+        <para>멤버 기본 정보를 수정하려면 eformsign에 로그인한 후 <emphasis role="bold">회사 관리
+        &gt; 구성원 관리</emphasis> 메뉴로 이동합니다. 멤버 목록에서 멤버를 선택하고 화면 오른쪽에 나타나는 상세 보기
+        영역의 정보를 수정한 후 <emphasis role="bold">저장</emphasis> 버튼을 클릭합니다.</para>
       </note>
     </section>
 
@@ -1363,7 +1372,8 @@
       </mediaobject>
 
       <para>문서 ID는 시스템에서 부여하는 문서 고유의 ID이기 때문에 별도의 설정이 필요하지 않습니다. 문서 번호와 관련된
-      설정은 템플릿을 업로드한 뒤, 템플릿 설정 &gt; 일반 설정에서 할 수 있습니다.</para>
+      설정은 템플릿을 업로드한 뒤, <emphasis role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 할
+      수 있습니다.</para>
 
       <para><emphasis role="bold">입력항목 속성</emphasis></para>
 
@@ -1464,7 +1474,7 @@
         </listitem>
       </itemizedlist>
 
-      <para>'입력 값을 수정한 날짜'을 선택하면, 다음과 같이 입력 입력항목 ID 입력란이 나타납니다. 여기에 연결할 입력항목
+      <para>'입력 값을 수정한 날짜'를 선택하면, 다음과 같이 입력 입력항목 ID 입력란이 나타납니다. 여기에 연결할 입력항목
       ID를 입력합니다.</para>
 
       <mediaobject>
@@ -1612,7 +1622,8 @@
       </listitem>
     </itemizedlist>
 
-    <para>4 모든 설정이 완료된 후 ‘저장’ 버튼을 클릭해 설정을 저장합니다.</para>
+    <para>4 모든 설정이 완료된 후 <emphasis role="bold">저장</emphasis> 버튼을 클릭해 설정을
+    저장합니다.</para>
 
     <note>
       <para>템플릿에 대한 상세한 설명은 <xref linkend="template_fb"/>을 참고하시기 바랍니다.</para>

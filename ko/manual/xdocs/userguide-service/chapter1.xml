@@ -41,10 +41,11 @@
       </mediaobject>
     </figure>
 
-    <para>eformsign서비스는 전자문서에 서명할 수 있는 전자서명 기능도 제공합니다. 전자서명이란 종이에 하는 서명과 같은
-    역할을 하는 전자적 형태의 서명입니다. 종이에 서명을 할 때에 본인이 직접 서명해야 하는 것처럼 전자 서명 또한 서명자가 본인임을
-    증명하는 인증 단계를 거쳐야 합니다. 본인 인증의 경우 이메일, 주민등록번호, 비밀번호, 전화번호, 인증서 등이 본인 인증 수단으로
-    사용됩니다.</para>
+    <para>eformsign서비스는 전자문서에 서명할 수 있는 전자서명 기능도 제공합니다. </para>
+
+    <para>전자서명이란 종이에 하는 서명과 같은 역할을 하는 전자적 형태의 서명입니다. 종이에 서명을 할 때 본인이 직접 서명해야
+    하는 것처럼 전자 서명 또한 서명자가 본인임을 증명하는 인증 단계를 거쳐야 합니다. 본인 인증의 경우, 이메일, 주민등록번호,
+    비밀번호, 전화번호, 인증서 등이 본인 인증 수단으로 사용됩니다.</para>
 
     <para>전자서명은 대부분의 국가에서 단계적으로 법적 효력을 구분하여 적용하고 있습니다. eformsign의 전자서명은 개인과
     개인, 법인과 개인 간의 법적 효력을 가지고 있으며, 부인방지를 위한 다양한 부가 기능을 제공하고 있습니다.</para>
@@ -91,7 +92,7 @@
 
         <para>웹폼 디자이너는 eformsign 서비스에 기존 문서 파일을 업로드하여 바로 간단하게 전자 서식으로 만들 수 있는
         도구입니다. 신청서, 계약서, 동의서 등 PDF 형식의 파일의 문서에 서명, 텍스트 박스, 체크박스 등 입력할 수 있는 칸을
-        올려서 바로 템플릿으로 저장하거나 이렇게 만들어진 전자문서를 다른 수신인에게 전송하여 문서 작성 또는 서명 요청을 할 수
+        올려서 바로 템플릿으로 저장하거나 이렇게 만들어진 전자문서를 다른 수신인에게 전송하여 문서 작성 또는 서명 요청할 수
         있습니다.</para>
       </listitem>
 
@@ -100,8 +101,8 @@
 
         <para>폼 빌더는 eformsign에서 사용하는 전자 서식을 만드는 도구입니다. 신청서, 계약서, 동의서 등의 기존 종이
         서식(MS Office로 만들어 사용하는 문서 서식)을 서명이나 텍스트 박스 등을 포함하는 전자문서로 변경하여
-        eformsign에 업로드할 때에 사용합니다. MS Office에 리본메뉴의 형태로 Add-in되며 OZ in
-        office라고도 합니다.</para>
+        eformsign에 업로드할 때 사용합니다. MS Office에 리본메뉴의 형태로 추가(Add-in)되며 <emphasis
+        role="bold">OZ in office</emphasis>라고도 합니다.</para>
       </listitem>
 
       <listitem>
@@ -137,8 +138,8 @@
       <listitem>
         <para><emphasis role="bold">문서 </emphasis></para>
 
-        <para>템플릿으로 새 문서 템플릿으로 새을 통해 여러 개의 문서를 생성할 수 있습니다. eformsign에서 문서 작성
-        갯수를 집계하는 기준이 바로 이렇게 생성되는 문서입니다.</para>
+        <para>템플릿으로 <emphasis role="bold">새 문서 작성</emphasis> 메뉴를 통해 여러 개의 문서를
+        생성할 수 있습니다. eformsign에서 문서 작성 개수를 집계하는 기준이 바로 이렇게 생성되는 문서입니다.</para>
       </listitem>
 
       <listitem>
@@ -149,17 +150,17 @@
 
         <itemizedlist>
           <listitem>
-            <para><emphasis role="bold">진행 중 문서함: </emphasis>내가 작성 또는 참여한 문서 중
+            <para><emphasis role="bold">진행 중 문서함: </emphasis>내가 작성 또는 처리한 문서 중
             완료되지 않은 문서 목록을 볼 수 있습니다.</para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">처리할 문서함:</emphasis> 내가 작성 또는 참여한 문서 중
+            <para><emphasis role="bold">처리할 문서함:</emphasis> 내가 작성 또는 처리한 문서 중
             결재, 작성, 요청 등 내가 처리할 사항이 있는 문서 목록을 볼 수 있습니다.</para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">전체 문서함: </emphasis>내가 작성 또는 참여한 문서 전체를
+            <para><emphasis role="bold">전체 문서함: </emphasis>내가 작성 또는 치러한 문서 전체를
             볼 수 있습니다.</para>
           </listitem>
         </itemizedlist>
@@ -211,7 +212,7 @@
       <listitem>
         <para><emphasis role="bold">템플릿 관리 권한</emphasis></para>
 
-        <para>템플릿 관리 권한이 있으면 템플릿 관리 메뉴에 접근할 수 있으며, 템플릿을 생성, 수정, 배포, 삭제할 수
+        <para>템플릿 관리 권한이 있으면 템플릿 관리 메뉴에 접근할 수 있으며, 템플릿을 생성, 수정, 배포 및 삭제할 수
         있습니다.</para>
       </listitem>
 
@@ -229,40 +230,14 @@
   <section>
     <title>사용 흐름</title>
 
-    <para>eformsign을 사용하기 위해서는 먼저 MS Office(Word, Excel, PowerPoint)를 통해 폼을
-    작성하여 eformsign으로 업로드하거나, PDF 파일을 eformsign 서비스에 업로드하여 eformsign 내에서 전자서식인
-    폼을 만들어야 합니다.</para>
+    <para>eformsign을 사용하기 위해서는, PDF 파일을 eformsign 서비스에 업로드하여 eformsign 내에서
+    전자서식인 폼을 만들거나, MS Office(Word, Excel, PowerPoint)를 통해 폼을 작성하여 eformsign으로
+    업로드하여야 합니다.</para>
 
     <note>
-      <para>현재는 PDF 파일만 지원하나 향후 MS 오피스 파일, 한글 파일, JPG, PNG 등 이미지 파일 등 다양한 파일
-      형식을 추가 지원할 예정입니다.</para>
+      <para>서비스에서 파일을 업로드하는 방식의 경우 현재는 PDF 파일만 지원하나, 향후 MS 오피스 파일, 한글 파일, JPG,
+      PNG 등 이미지 파일 등 다양한 파일 형식을 추가 지원할 예정입니다.</para>
     </note>
-
-    <section>
-      <title>폼 빌더를 통한 사용 방법</title>
-
-      <para>MS Office(Word, Excel, PowerPoint)에서 작성하거나 불러온 후 MS Office의 리본
-      메뉴(OZ in Office)에서 텍스트, 서명, 날짜 필드 등의 필요한 컴포넌트를 문서 위에 배치해 템플릿을
-      만듭니다.</para>
-
-      <para>그리고 나서 리본 메뉴의 실행 메뉴를 통해 서비스에 로그인하고 템플릿을 업로드한 후 eformsign 사이트로
-      이동합니다.</para>
-
-      <para>eformsign 사이트의 템플릿 관리 메뉴에 가서 템플릿이 업로드된 것을 확인하고 워크플로우나 일반 설정, 알림 설정
-      등을 변경한 후 배포합니다.</para>
-
-      <para>새 문서 작성 메뉴로 이동하여 문서를 작성하고 수신자에게 전송합니다.</para>
-
-      <figure>
-        <title>폼 빌더와 eformsign 간 사용 흐름</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/use_flow.png" width="700"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-    </section>
 
     <section>
       <title>웹 폼 디자이너를 통한 사용 방법</title>
@@ -281,6 +256,29 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/use_flow_web.png" width="700"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </section>
+
+    <section>
+      <title>폼 빌더를 통한 사용 방법</title>
+
+      <para>MS Office(Word, Excel, PowerPoint)에서 작성하거나 불러온 후 MS Office의 리본
+      메뉴(OZ in Office)에서 텍스트, 서명, 날짜 필드 등의 필요한 컴포넌트를 문서 위에 배치해 템플릿을 만듭니다. 그리고
+      나서 리본 메뉴의 실행 메뉴를 통해 서비스에 로그인하고 템플릿을 업로드한 후 eformsign 사이트로 이동합니다.</para>
+
+      <para>eformsign 사이트의 템플릿 관리 메뉴에 가서 템플릿이 업로드된 것을 확인하고 워크플로우나 일반 설정, 알림 설정
+      등을 변경한 후 배포합니다.</para>
+
+      <para>새 문서 작성 메뉴로 이동하여 문서를 작성하고 수신자에게 전송합니다.</para>
+
+      <figure>
+        <title>폼 빌더와 eformsign 간 사용 흐름</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="resources/use_flow.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -367,7 +365,7 @@
       <title>동의서</title>
 
       <para>전자 문서를 사용해 개인정보 동의서, 병/의원의 치료 동의서, 학부모 동의서, 전대차 동의서 등을 작성할 수 있습니다.
-      스마트폰, 태블릿, PC 등 다양한 기기로 작성이 가능하며 일괄 작성 기능을 통해 한 번에 수십, 수백 명의 동의를 받을 수
+      스마트폰, 태블릿, PC 등 다양한 기기로 작성이 가능하며 일괄 작성 기능을 통해 한 번에 수백, 수천 명의 동의를 받을 수
       있습니다.</para>
 
       <para>전자동의 프로세스는 다음과 같습니다.</para>

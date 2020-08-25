@@ -37,7 +37,7 @@
 
   <bridgehead>안내서 구성</bridgehead>
 
-  <para>eformsign 사용자 안내서는 총 6개의 장으로 구성되어 있습니다.</para>
+  <para>eformsign 사용자 안내서는 총 9개의 장으로 구성되어 있습니다.</para>
 
   <para>각 장의 주요 내용은 다음과 같습니다.</para>
 
@@ -68,7 +68,7 @@
     </listitem>
 
     <listitem>
-      <para>제5장: 템플릿-웹폼 디자이너 </para>
+      <para>제5장: 템플릿-웹폼 디자이너</para>
 
       <para>웹폼 디자이너를 통해 생성한 템플릿의 설정 방법 및 사용 방법에 대해서 설명합니다.</para>
     </listitem>
