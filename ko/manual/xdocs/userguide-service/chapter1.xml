@@ -241,7 +241,7 @@
     </note>
 
     <section>
-      <title>웹 폼 디자이너를 통한 사용 방법</title>
+      <title>웹폼 디자이너를 통한 사용 방법</title>
 
       <para>PDF 형식의 파일을 eformsign에 업로드한 후 서비스 내에서 텍스트, 서명, 날짜 필드 등의 필요한 컴포넌트를
       문서 위에 배치해 템플릿을 만들 수 있습니다.</para>
@@ -252,7 +252,7 @@
       <para>새 문서 작성 메뉴로 이동하면 배포된 템플릿을 통해 문서를 작성하고 수신자에게 전송할 수 있습니다.</para>
 
       <figure>
-        <title>웹 폼 디자이너와 eformsign 간 사용 흐름</title>
+        <title>웹폼 디자이너와 eformsign 간 사용 흐름</title>
 
         <mediaobject>
           <imageobject>
@@ -310,7 +310,7 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">eformsign 및 웹 폼 디자이너</emphasis></para>
+          <para><emphasis role="bold">eformsign 및 웹폼 디자이너</emphasis></para>
 
           <itemizedlist>
             <listitem>
