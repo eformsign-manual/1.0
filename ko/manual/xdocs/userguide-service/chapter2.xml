@@ -405,8 +405,9 @@
           <term><emphasis role="bold">회원 탈퇴</emphasis></term>
 
           <listitem>
-            <para>이폼사인의 회원 탈퇴를 하고자 할 경우 화면 하단의 <emphasis role="bold">eformsign
-            탈퇴하기</emphasis>를 클릭하여 회원 탈퇴를 할 수 있습니다.</para>
+            <para>이폼사인의 회원 탈퇴를 하고자 하는 경우 화 면 하단의 <emphasis
+            role="bold">eformsign 탈퇴하기</emphasis>를 클릭하여 회원 탈퇴를 할 수
+            있습니다.</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -625,7 +626,7 @@
   <section>
     <title>권한 구분</title>
 
-    <para>이폼사인은 멤버에게 권한을 부여할 수 있어 총 5단계로 세분화된 권한별 관리가 가능합니다. 사용자별 권한은 다음과 같이
+    <para>이폼사인은 멤버에게 권한을 부여할 수 있으며, 총 5단계로 세분화된 권한별 관리가 가능합니다. 사용자별 권한은 다음과 같이
     구분됩니다.</para>
 
     <itemizedlist>
@@ -816,7 +817,7 @@
 
       <para>템플릿을 등록한 템플릿 관리자는 해당 템플릿의 템플릿 소유자가 됩니다.</para>
 
-      <para>한 회사에 여러 명의 템플릿 관리자가 있는경우 템플릿 소유자와 템플릿 관리자가 다를 수있습니다.</para>
+      <para>한 회사에 여러 명의 템플릿 관리자가 있는 경우 템플릿 소유자와 템플릿 관리자가 다를 수 있습니다.</para>
 
       <para>템플릿 관리자가 템플릿 소유자가 아닌 경우 해당 템플릿의 설정 보기와 템플릿 복제만 할 수 있습니다.</para>
 
@@ -1115,7 +1116,7 @@
   <section>
     <title>내 서명 관리</title>
 
-    <para><emphasis role="bold">내 서명</emphasis>메뉴에서 <emphasis role="bold">서명,
+    <para><emphasis role="bold">내 서명</emphasis> 메뉴에서 <emphasis role="bold">서명,
     이니셜, 도장</emphasis>을 등록해두면 문서 처리시 등록된 서명으로 간편하게 처리할 수 있습니다.</para>
 
     <para><emphasis role="bold">서명/이니셜 등록하는 방법</emphasis></para>
