@@ -10,7 +10,7 @@
 
   <bridgehead>안내서의 대상</bridgehead>
 
-  <para>본 안내서는 eformsign<superscript>®</superscript>(이하 eformsign)를 사용하고자 하는
+  <para>본 안내서는 eformsign<superscript>®</superscript>(이하 eformsign)을 사용하고자 하는
   모든 사용자를 대상으로 기술하고 있습니다.</para>
 
   <para/>
@@ -29,7 +29,7 @@
 
   <bridgehead>안내서의 제한 조건</bridgehead>
 
-  <para>본 안내서는 eformsign를 사용하는데 필요한 필수 사항만을 기술하고 있습니다.</para>
+  <para>본 안내서는 eformsign을 사용하는데 필요한 필수 사항만을 기술하고 있습니다.</para>
 
   <para/>
 
@@ -74,9 +74,9 @@
     </listitem>
 
     <listitem>
-      <para>제6장: 템플릿-웹폼 빌더</para>
+      <para>제6장: 템플릿-폼 빌더</para>
 
-      <para>웹폼 빌더를 통해 생성한 템플릿의 설정 방법 및 사용 방법에 대해서 설명합니다.</para>
+      <para>폼 빌더를 통해 생성한 템플릿의 설정 방법 및 사용 방법에 대해서 설명합니다.</para>
     </listitem>
 
     <listitem>
@@ -88,15 +88,15 @@
     <listitem>
       <para>제8장: 커스터마이즈</para>
 
-      <para>eformsign에서 사용자 정의 필드를 생성 및 사용하는 방법과 알림 템플릿을 관리하는 방법에에 대해서
+      <para>eformsign에서 사용자 정의 필드를 생성 및 사용하는 방법과 알림 템플릿을 관리하는 방법에 대해서
       설명합니다.</para>
     </listitem>
 
     <listitem>
       <para>제9장: 외부 서비스 연동 방법</para>
 
-      <para>완료된 문서를 외부의 클라우드 스토리지 서비스에 저장하는 방법과 입력된 데이터를 Google 스프레트 시트와
-      Office 365의 엑셀 문서에 저장하는 방법에에 대해서 설명합니다.</para>
+      <para>완료된 문서를 외부의 클라우드 스토리지 서비스에 저장하는 방법과 입력된 데이터를 Google 스프레드 시트와
+      Office 365의 엑셀 문서에 저장하는 방법에 대해서 설명합니다.</para>
     </listitem>
   </itemizedlist>
 
@@ -229,7 +229,7 @@
           <entry><para><olink targetdoc="installation"
           targetptr="book">eformsign 설치 안내서</olink></para></entry>
 
-          <entry>설치형 패키지 제품인 eformsign on-pre 제품을 설치하는 방법에 대해 기술한
+          <entry>설치형 패키지 제품인 eformsign on-premise 제품을 설치하는 방법에 대해 기술한
           안내서입니다.</entry>
         </row>
       </tbody>
