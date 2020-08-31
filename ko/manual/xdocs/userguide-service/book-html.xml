@@ -34,4 +34,6 @@
   <xi:include href="chapter6.xml"></xi:include>
 
   <xi:include href="chapter7.xml"></xi:include>
+  
+  <index xml:id="idx"></index>
 </book>
