@@ -9,7 +9,9 @@
   <title>커스터마이즈</title>
 
   <section>
-    <title>사용자 정의 필드 관리</title>
+    <title>사용자 정의 필드 관리<indexterm class="singular">
+        <primary>사용자 정의 필드 관리</primary>
+      </indexterm></title>
 
     <para><emphasis role="bold">회사관리 </emphasis><emphasis role="bold">&gt;
     </emphasis><emphasis role="bold">사용자 정의 필드 관리</emphasis>에서는 회사, 그룹, 멤버에 관한
@@ -129,7 +131,9 @@
   <section>
     <title>알림 템플릿 관리</title>
 
-    <para>문서 요청시 발송되는 메일/SMS 템플릿을 회사 맞춤형으로 편집할 수 있습니다.</para>
+    <para><indexterm class="singular">
+        <primary>알림 템플릿 관리</primary>
+      </indexterm>문서 요청시 발송되는 메일/SMS 템플릿을 회사 맞춤형으로 편집할 수 있습니다.</para>
 
     <para>알림 템플릿 변경은 <emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis>에서
     설정하거나 <emphasis role="bold">템플릿 관리 &gt; 템플릿 설정 &gt; 알림 설정</emphasis>에서 편집할

@@ -11,7 +11,9 @@
   <section>
     <title>문서함</title>
 
-    <para>작성한 문서는 상태에 따라 다음의 3개의 문서함에 저장됩니다.</para>
+    <para><indexterm class="singular">
+        <primary>문서함</primary>
+      </indexterm>작성한 문서는 상태에 따라 다음의 3개의 문서함에 저장됩니다.</para>
 
     <para>문서함에서 각각의 문서의 상태와 이력을 쉽게 확인하고 문서를 관리하며, 필터 및 검색 기능을 통해 문서를 찾고 문서를 다시
     보내거나 워크플로우에 있는 문서에 대한 삭제/반려 요청 등 추가 작업을 수행할 수 있습니다. 임시 저장한 문서도 문서함에 나타나며
@@ -22,19 +24,31 @@
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">진행 중 문서함:</emphasis> 내가 작성 또는 처리한 문서 중
-        완료되지 않은 문서 목록을 확인할 수 있습니다.</para>
+        <para><emphasis role="bold">진행 중 문서함:</emphasis> <indexterm
+            class="singular">
+            <primary>문서함</primary>
+
+            <secondary>진행 중 문서함</secondary>
+          </indexterm>내가 작성 또는 처리한 문서 중 완료되지 않은 문서 목록을 확인할 수 있습니다.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">처리할 문서함:</emphasis> 임시 저장한 문서, 내가 처리해야 할
-        문서(다른 구성원이 나에게 작성 또는 결재 요청한 문서), 또는 외부자에게 보낸 문서 중 처리되지 않은 문서 목록을 확인할 수
-        있습니다.</para>
+        <para><emphasis role="bold">처리할 문서함:</emphasis> <indexterm
+            class="singular">
+            <primary>문서함</primary>
+
+            <secondary>처리할 문서함</secondary>
+          </indexterm>임시 저장한 문서, 내가 처리해야 할 문서(다른 구성원이 나에게 작성 또는 결재 요청한 문서), 또는
+        외부자에게 보낸 문서 중 처리되지 않은 문서 목록을 확인할 수 있습니다.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">전체 문서함:</emphasis> 내가 작성 또는 처리한 모든 문서 목록을
-        확인할 수 있습니다.</para>
+        <para><emphasis role="bold">전체 문서함:</emphasis> <indexterm
+            class="singular">
+            <primary>문서함</primary>
+
+            <secondary>전체 문서함</secondary>
+          </indexterm>내가 작성 또는 처리한 모든 문서 목록을 확인할 수 있습니다.</para>
       </listitem>
     </itemizedlist>
 
@@ -42,8 +56,11 @@
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">문서 관리:</emphasis> 문서 관리자만 접근 가능한 메뉴입니다. 문서
-        관리자는 권한이 있는 템플릿에서 만들어진 모든 문서를 조회할 수 있습니다.</para>
+        <para><emphasis role="bold">문서 관리:</emphasis> <indexterm
+            class="singular">
+            <primary>문서 관리</primary>
+          </indexterm>문서 관리자만 접근 가능한 메뉴입니다. 문서 관리자는 권한이 있는 템플릿에서 만들어진 모든 문서를
+        조회할 수 있습니다.</para>
       </listitem>
     </itemizedlist>
 
@@ -187,7 +204,11 @@
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">카테고리 검색 </emphasis></para>
+      <para><emphasis role="bold">카테고리 검색 <indexterm class="singular">
+          <primary>문서함</primary>
+
+          <secondary>카테고리 검색</secondary>
+        </indexterm></emphasis></para>
 
       <para>카테고리 검색 콤보박스를 활용하면 템플릿 관리 메뉴에서 설정한 카테고리별로 문서를 표시하고 이 중 원하는 카테고리나
       문서를 확인할 수 있습니다.</para>
@@ -205,7 +226,11 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">키워드 및 필터 검색</emphasis></para>
+      <para><emphasis role="bold">키워드 및 필터 검색<indexterm class="singular">
+          <primary>문서함</primary>
+
+          <secondary>키워드 및 필터 검색</secondary>
+        </indexterm></emphasis></para>
 
       <para>검색은 키워드 검색뿐 아니라, 상세 검색을 통해 제목이나 내용을 조합해서 검색하거나, 숫자, 날짜 범위를 지정해 검색,
       사용자 지정 필터를 통한 검색 등 다양한 검색 방법을 제공하고 있습니다. 또한, 사용자 지정 필터를 설정해서 문서의 입력필드 값을
@@ -377,7 +402,11 @@
 
       <para/>
 
-      <para><emphasis role="bold">사용자 지정 필터 사용 방법</emphasis></para>
+      <para><emphasis role="bold">사용자 지정 필터 사용 방법<indexterm class="singular">
+          <primary>문서함</primary>
+
+          <secondary>사용자 지정 필터</secondary>
+        </indexterm></emphasis></para>
 
       <para>1. 상세 콤보박스에서 “사용자 지정 필터”를 선택합니다.</para>
 
@@ -591,7 +620,11 @@
     </section>
 
     <section xml:id="document_download">
-      <title>문서 다운로드</title>
+      <title>문서 다운로드<indexterm class="singular">
+          <primary>문서함</primary>
+
+          <secondary>문서 다운로드</secondary>
+        </indexterm></title>
 
       <para>eformsign에서 작성된 문서는 대부분 오랜 기간 안전하게 보관해야 하는 문서들입니다. 모든 문서는 장기 보관용
       파일 형식(PDF/A)으로 저장되며 지정된 관리자만 문서와 데이터를 열람하거나 삭제할 수 있습니다.</para>
@@ -698,8 +731,12 @@
   <section>
     <title>일괄 작성</title>
 
-    <para>일괄 작성 기능을 사용하면 한 번에 여러 장의 문서를 작성할 수 있습니다. 작성을 완료하기 전 미리보기를 통해 작성될
-    문서를 확인할 수 있습니다.</para>
+    <para><indexterm class="singular">
+        <primary>문서함</primary>
+
+        <secondary>일괄 작성</secondary>
+      </indexterm>일괄 작성 기능을 사용하면 한 번에 여러 장의 문서를 작성할 수 있습니다. 작성을 완료하기 전 미리보기를
+    통해 작성될 문서를 확인할 수 있습니다.</para>
 
     <note>
       <para>이 작업은 문서작성자 또는 대표관리자 권한이 필요합니다.</para>

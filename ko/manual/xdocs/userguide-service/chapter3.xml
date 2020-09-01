@@ -12,8 +12,10 @@
   <section>
     <title>폼 빌더 개요</title>
 
-    <para>폼 빌더는 OZ in Office라고도 합니다. OZ in Office는 Microsoft Office로 만든 문서를 입력
-    기능을 갖춘 전자 문서로 변환하는 폼 에디터입니다. OZ in Office를 사용하면 기존에 Excel, Word,
+    <para><indexterm class="singular">
+        <primary>폼 빌더</primary>
+      </indexterm>폼 빌더는 OZ in Office라고도 합니다. OZ in Office는 Microsoft Office로
+    만든 문서를 입력 기능을 갖춘 전자 문서로 변환하는 폼 에디터입니다. OZ in Office를 사용하면 기존에 Excel, Word,
     PowerPoint로 만들어진 업무 양식(계약서, 신청서, 동의서, 품의서 등)을 간단하고 쉽게 전자 문서로 변환할 수
     있습니다.</para>
 
@@ -39,7 +41,9 @@
     <section>
       <title>폼 빌더 다운로드</title>
 
-      <para>1. 이폼사인 로그인 후 대시보드 화면 왼쪽 상단의 메뉴 아이콘(<inlinemediaobject>
+      <para><indexterm class="singular">
+          <primary>폼 빌더 다운로드</primary>
+        </indexterm>1. 이폼사인 로그인 후 대시보드 화면 왼쪽 상단의 메뉴 아이콘(<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
@@ -254,8 +258,10 @@
   <section>
     <title>입력항목 개요</title>
 
-    <para>입력항목은 전자 문서에서 사용자가 내용을 입력할 수 있는 입력란을 만들어주는 역할을 합니다. 서명, 체크, 날짜, 텍스트
-    등의 다양한 형식의 입력항목이 있으며 각각의 입력항목은 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
+    <para><indexterm class="singular">
+        <primary>입력항목</primary>
+      </indexterm>입력항목은 전자 문서에서 사용자가 내용을 입력할 수 있는 입력란을 만들어주는 역할을 합니다. 서명, 체크,
+    날짜, 텍스트 등의 다양한 형식의 입력항목이 있으며 각각의 입력항목은 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
 
     <section>
       <title>입력항목 종류</title>
@@ -277,91 +283,148 @@
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold"><link linkend="check">체크</link>:
-          </emphasis>체크할 항목이 있을 때 사용합니다.</para>
+          </emphasis><indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>체크</secondary>
+            </indexterm>체크할 항목이 있을 때 사용합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link linkend="select">선택</link>:
-          </emphasis>여러가지 항목 중 한가지를 선택합니다. 다중 선택도 설정 가능합니다.</para>
+          </emphasis><indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>선택</secondary>
+            </indexterm>여러가지 항목 중 한가지를 선택합니다. 다중 선택도 설정 가능합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="text">텍스트</link>:</emphasis> 1~2단어의 짧은 텍스트를 입력합니다.</para>
+          linkend="text">텍스트</link>:</emphasis> <indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>텍스트</secondary>
+            </indexterm>1~2단어의 짧은 텍스트를 입력합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link linkend="text">멀티라인</link>:
-          </emphasis>여러 줄의 긴 텍스트를 입력합니다.</para>
+          </emphasis><indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>멀티라인</secondary>
+            </indexterm>여러 줄의 긴 텍스트를 입력합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="combo">콤보</link>:</emphasis> 클릭하면 드롭다운 메뉴가 나타나며 여러 항목 중 하나를
-          선택합니다.</para>
+          linkend="combo">콤보</link>:</emphasis> <indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>콤보</secondary>
+            </indexterm>클릭하면 드롭다운 메뉴가 나타나며 여러 항목 중 하나를 선택합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="date">날짜</link>:</emphasis> 특정 날짜를 입력합니다.</para>
+          linkend="date">날짜</link>:</emphasis> <indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>날짜</secondary>
+            </indexterm>특정 날짜를 입력합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="numeric">숫자</link>:</emphasis> 숫자를 입력합니다.</para>
+          linkend="numeric">숫자</link>:</emphasis> <indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>숫자</secondary>
+            </indexterm>숫자를 입력합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="toggle">토글</link>:</emphasis> 2개 이상의 값을 입력하면 버튼을 클릭할 때마다 다른
-          값으로 전환됩니다.</para>
+          linkend="toggle">토글</link>:</emphasis> <indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>토글</secondary>
+            </indexterm>2개 이상의 값을 입력하면 버튼을 클릭할 때마다 다른 값으로 전환됩니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="signature">서명</link>:</emphasis> 서명을 입력합니다.</para>
+          linkend="signature">서명</link>:</emphasis> <indexterm
+              class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>서명</secondary>
+            </indexterm>서명을 입력합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="camera">카메라</link>:</emphasis> 카메라가 연결된 기기(스마트폰, 태블릿 등)에서는
-          카메라로 사진을 찍거나 사진첩에서 사진을 선택합니다. 카메라가 없는 기기(일반 PC)에서는 이미지 파일을
-          선택합니다.</para>
+          linkend="camera">카메라</link>:</emphasis> <indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>카메라</secondary>
+            </indexterm>카메라가 연결된 기기(스마트폰, 태블릿 등)에서는 카메라로 사진을 찍거나 사진첩에서 사진을
+          선택합니다. 카메라가 없는 기기(일반 PC)에서는 이미지 파일을 선택합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="record">녹음</link>:</emphasis> 녹음 기능이 있는 기기에서 버튼을 클릭해 녹음을
-          진행합니다.</para>
+          linkend="record">녹음</link>:</emphasis> <indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>녹음</secondary>
+            </indexterm>녹음 기능이 있는 기기에서 버튼을 클릭해 녹음을 진행합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="attach">첨부</link>:</emphasis> 파일 첨부 기능을 추가합니다. 사용자: 문서를 작성한
-          사람의 정보를 입력합니다.</para>
+          linkend="attach">첨부</link>:</emphasis> <indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>첨부</secondary>
+            </indexterm>파일 첨부 기능을 추가합니다. 사용자: 문서를 작성한 사람의 정보를 입력합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="user">사용자</link></emphasis>: 문서를 작성 또는 수정한 멤버의 정보를
-          입력합니다.</para>
+          linkend="user">사용자</link></emphasis>: <indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>사용자</secondary>
+            </indexterm>문서를 작성 또는 수정한 멤버의 정보를 입력합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="usedate">사용일</link>:</emphasis> 문서를 작성하거나 수정한 날짜를
-          입력합니다.</para>
+          linkend="usedate">사용일</link>:</emphasis> <indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>사용일</secondary>
+            </indexterm>문서를 작성하거나 수정한 날짜를 입력합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="document">문서</link>:</emphasis> 문서 내에 문서 번호나 문서 ID를
-          입력합니다.</para>
+          linkend="document">문서</link>:</emphasis> <indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>문서</secondary>
+            </indexterm>문서 내에 문서 번호나 문서 ID를 입력합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="label">레이블</link>:</emphasis> 폼 ID를 설정합니다.</para>
+          linkend="label">레이블</link>:</emphasis> <indexterm class="singular">
+              <primary>입력항목</primary>
+
+              <secondary>레이블</secondary>
+            </indexterm>폼 ID를 설정합니다.</para>
         </listitem>
       </itemizedlist>
 
@@ -547,14 +610,22 @@
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">ID: </emphasis>입력 기능의 값을 외부 프로그램에서 추출할 때
-        사용하는 고유한 키(Key)입니다</para>
+        <para><emphasis role="bold">ID: </emphasis><indexterm class="singular">
+            <primary>입력항목</primary>
+
+            <secondary>ID</secondary>
+          </indexterm>입력 기능의 값을 외부 프로그램에서 추출할 때 사용하는 고유한 키(Key)입니다</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">툴팁 텍스트: </emphasis>수신자에게 문서가 표시될 때 Windows
-        환경에서는 입력항목에 마우스를 올려놓으면 툴팁 텍스트가 말풍선 형태로 표시되며, 모바일 환경에서는 입력항목이 다이얼로그로
-        실행될 때 툴팁 텍스트가 다이얼로그의 제목으로 표시됩니다.</para>
+        <para><emphasis role="bold">툴팁 텍스트: </emphasis><indexterm
+            class="singular">
+            <primary>입력항목</primary>
+
+            <secondary>툴립 텍스트</secondary>
+          </indexterm>수신자에게 문서가 표시될 때 Windows 환경에서는 입력항목에 마우스를 올려놓으면 툴팁 텍스트가
+        말풍선 형태로 표시되며, 모바일 환경에서는 입력항목이 다이얼로그로 실행될 때 툴팁 텍스트가 다이얼로그의 제목으로
+        표시됩니다.</para>
       </listitem>
     </itemizedlist>
 
@@ -578,9 +649,13 @@
     <section xml:id="check">
       <title>체크</title>
 
-      <para>체크 입력항목은 각 항목의 체크 여부를 확인하고자 할때 사용합니다. 비슷한 입력항목 중 ‘선택’ 입력항목이 있으며,
-      체크 입력항목은 해당 항목의 체크 여부를 확인할 때 사용하고, 선택 입력항목은 선택한 항목이 무엇인지 알아야 할 때 사용한다는
-      차이가 있습니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>체크</secondary>
+        </indexterm>체크 입력항목은 각 항목의 체크 여부를 확인하고자 할때 사용합니다. 비슷한 입력항목 중 ‘선택’
+      입력항목이 있으며, 체크 입력항목은 해당 항목의 체크 여부를 확인할 때 사용하고, 선택 입력항목은 선택한 항목이 무엇인지 알아야
+      할 때 사용한다는 차이가 있습니다.</para>
 
       <para/>
 
@@ -643,8 +718,12 @@
     <section xml:id="select">
       <title>선택</title>
 
-      <para>선택 입력항목은 여러 항목 중 어떤 항목을 선택했는지 확인해야 할 때 사용합니다. 선택 입력항목의 선택값은 데이터
-      다운로드 시 여러 항목 중 선택한 항목명이 나타납니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>선택</secondary>
+        </indexterm>선택 입력항목은 여러 항목 중 어떤 항목을 선택했는지 확인해야 할 때 사용합니다. 선택 입력항목의
+      선택값은 데이터 다운로드 시 여러 항목 중 선택한 항목명이 나타납니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -708,7 +787,11 @@
     <section xml:id="combo">
       <title>콤보</title>
 
-      <para>여러가지 항목 중에서 한 항목을 선택해야 할 때, 콤보 입력항목을 사용합니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>콤보</secondary>
+        </indexterm>여러가지 항목 중에서 한 항목을 선택해야 할 때, 콤보 입력항목을 사용합니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -774,8 +857,16 @@
     <section xml:id="text">
       <title>텍스트와 멀티라인</title>
 
-      <para>텍스트 입력항목와 멀티라인 입력항목 모두 텍스트 입력란을 만들 때에 사용합니다. 텍스트 입력항목은 1~2 단어의 짧은
-      텍스트, 멀티라인은 1줄 이상의 긴 텍스트에 적합합니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>텍스트</secondary>
+        </indexterm><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>멀티라인</secondary>
+        </indexterm>텍스트 입력항목와 멀티라인 입력항목 모두 텍스트 입력란을 만들 때에 사용합니다. 텍스트 입력항목은 1~2
+      단어의 짧은 텍스트, 멀티라인은 1줄 이상의 긴 텍스트에 적합합니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -824,7 +915,11 @@
     <section xml:id="date">
       <title>날짜</title>
 
-      <para>날짜를 입력해야 할 때 사용합니다. 입력란을 클릭하면 날짜 선택창이 나타나며 원하는 날짜를 선택할 수
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>날짜</secondary>
+        </indexterm>날짜를 입력해야 할 때 사용합니다. 입력란을 클릭하면 날짜 선택창이 나타나며 원하는 날짜를 선택할 수
       있습니다.</para>
 
       <mediaobject>
@@ -908,9 +1003,13 @@
     <section xml:id="numeric">
       <title>숫자</title>
 
-      <para>숫자를 입력해야 할 때 사용합니다. 입력란을 클릭하면 오른쪽에 두 개의 화살표가 나타나며, 위 아래 화살표 버튼을 눌러
-      숫자를 증감시킬 수 있습니다. PC 키보드 환경에서는 입력란에 직접 원하는 숫자를 입력할 수 있습니다. 스마트폰, 태블릿
-      환경에서는 입력 범위 숫자 리스트에서 스크롤하여 원하는 숫자를 선택할 수 있습니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>숫자</secondary>
+        </indexterm>숫자를 입력해야 할 때 사용합니다. 입력란을 클릭하면 오른쪽에 두 개의 화살표가 나타나며, 위 아래
+      화살표 버튼을 눌러 숫자를 증감시킬 수 있습니다. PC 키보드 환경에서는 입력란에 직접 원하는 숫자를 입력할 수 있습니다.
+      스마트폰, 태블릿 환경에서는 입력 범위 숫자 리스트에서 스크롤하여 원하는 숫자를 선택할 수 있습니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -973,8 +1072,12 @@
     <section xml:id="toggle">
       <title>토글</title>
 
-      <para>켜짐(ON), 꺼짐(OFF)과 같은 특정한 상태를 나타낼 때 사용합니다. 토글 입력항목을 사용하면 입력항목을 클릭할
-      때마다 미리 설정한 항목의 순서대로 입력값이 전환됩니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>토글</secondary>
+        </indexterm>켜짐(ON), 꺼짐(OFF)과 같은 특정한 상태를 나타낼 때 사용합니다. 토글 입력항목을 사용하면
+      입력항목을 클릭할 때마다 미리 설정한 항목의 순서대로 입력값이 전환됩니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1037,7 +1140,11 @@
     <section xml:id="signature">
       <title>서명</title>
 
-      <para>서명 입력항목은 문서에 서명을 받아야 할 때 사용합니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>서명</secondary>
+        </indexterm>서명 입력항목은 문서에 서명을 받아야 할 때 사용합니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1139,8 +1246,12 @@
     <section xml:id="camera">
       <title>카메라</title>
 
-      <para>스마트폰, 태블릿 등 카메라가 있는 기기로 사진을 찍어 문서에 올릴 때에 사용합니다. 카메라가 없는 PC 환경에서는
-      입력항목을 클릭하면 이미지 파일을 선택할 수 있는 선택창이 나타납니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>카메라</secondary>
+        </indexterm>스마트폰, 태블릿 등 카메라가 있는 기기로 사진을 찍어 문서에 올릴 때에 사용합니다. 카메라가 없는 PC
+      환경에서는 입력항목을 클릭하면 이미지 파일을 선택할 수 있는 선택창이 나타납니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1186,8 +1297,12 @@
     <section xml:id="record">
       <title>녹음</title>
 
-      <para>문서에 사용자의 녹음 데이터를 저장해야 할 때 사용합니다. 최대 녹음 시간을 설정할 수 있으며 사용자가 이미 녹음된
-      내용을 듣기만 할 수 있도록 설정할 수도 있습니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>녹음</secondary>
+        </indexterm>문서에 사용자의 녹음 데이터를 저장해야 할 때 사용합니다. 최대 녹음 시간을 설정할 수 있으며 사용자가
+      이미 녹음된 내용을 듣기만 할 수 있도록 설정할 수도 있습니다.</para>
 
       <para>OZ in Office에서 녹음 입력항목을 추가하면 뷰어에서 다음과 같이 녹음된 내용을 재생하거나 새로운 녹음을 할 수
       있습니다.</para>
@@ -1231,8 +1346,12 @@
     <section xml:id="attach">
       <title>첨부</title>
 
-      <para>문서에 별도로 첨부하는 문서가 있을 때 사용합니다. 첨부 입력항목을 통해 문서를 첨부할 경우 문서의 맨 끝에 첨부한
-      문서가 새로운 페이지로 추가됩니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>첨부</secondary>
+        </indexterm>문서에 별도로 첨부하는 문서가 있을 때 사용합니다. 첨부 입력항목을 통해 문서를 첨부할 경우 문서의 맨
+      끝에 첨부한 문서가 새로운 페이지로 추가됩니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1277,8 +1396,12 @@
     <section xml:id="user">
       <title>사용자</title>
 
-      <para>문서를 작성 또는 수정한 멤버의 정보가 문서에 자동으로 입력되게 할 때 사용합니다. 설정에 따라 이름, 연락처와 같은
-      멤버의 기본 정보 또는 사용자 정의 필드 정보가 사용자 입력항목에 자동으로 입력됩니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>사용자</secondary>
+        </indexterm>문서를 작성 또는 수정한 멤버의 정보가 문서에 자동으로 입력되게 할 때 사용합니다. 설정에 따라 이름,
+      연락처와 같은 멤버의 기본 정보 또는 사용자 정의 필드 정보가 사용자 입력항목에 자동으로 입력됩니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1365,8 +1488,12 @@
     <section xml:id="document">
       <title>문서</title>
 
-      <para>문서 입력항목은 문서 내에 문서 관련 정보를 입력해야 할 때 사용합니다. 문서 ID와 문서 번호 중 원하는 정보를
-      선택해 입력할 수 있습니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>문서</secondary>
+        </indexterm>문서 입력항목은 문서 내에 문서 관련 정보를 입력해야 할 때 사용합니다. 문서 ID와 문서 번호 중
+      원하는 정보를 선택해 입력할 수 있습니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1417,8 +1544,12 @@
     <section xml:id="usedate">
       <title>사용일</title>
 
-      <para>문서를 작성 또는 수정한 날짜가 문서에 자동으로 입력되게 할 때 사용합니다. 설정에 따라 문서를 만든 날짜, 문서에
-      접근한 날짜, 또는 특정 입력항목을 입력한 날짜가 자동으로 입력됩니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>사용일</secondary>
+        </indexterm>문서를 작성 또는 수정한 날짜가 문서에 자동으로 입력되게 할 때 사용합니다. 설정에 따라 문서를 만든
+      날짜, 문서에 접근한 날짜, 또는 특정 입력항목을 입력한 날짜가 자동으로 입력됩니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1507,7 +1638,11 @@
     <section xml:id="label">
       <title>레이블</title>
 
-      <para>문서의 폼 ID를 설정할 수 있습니다.</para>
+      <para><indexterm class="singular">
+          <primary>입력항목</primary>
+
+          <secondary>레이블</secondary>
+        </indexterm>문서의 폼 ID를 설정할 수 있습니다.</para>
 
       <para><emphasis role="bold">입력항목 속성</emphasis></para>
 
