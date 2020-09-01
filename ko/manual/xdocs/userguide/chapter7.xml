@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<chapter>
+  <title>외부 서비스 연동 방법</title>
+
+  <section>
+    <title>외부 스토리지 연동 방법</title>
+
+    <para>eformsign에서는 완료된 문서를 외부의 클라우드 스토리지 서비스에 자동으로 저장할 수 있습니다. 현재 Dropbox,
+    Google Drive, OneDrive, box를 지원하고 있습니다.</para>
+
+    <para>외부 스토리지 연동은 대표관리자만 설정할 수 있습니다.</para>
+
+    <para>1. 메뉴의 커넥트&gt; 파일 저장소로 이동합니다.</para>
+
+    <para> </para>
+
+    <figure>
+      <title/>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="???"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <para>2. 완료 문서를 저장할 클라우드 스토리지를 선택한 다음 "접속하기" 버튼을 눌러 로그인합니다.</para>
+
+    <para>3. 필요에 따라 "저장 경로 설정" 버튼을 눌러 저장 경로를 설정합니다. </para>
+
+    <para>4. 템플릿 관리 메뉴로 이동합니다.</para>
+
+    <para>5. 클라우드 스토리지에 문서를 저장하고자 하는 템플릿을 클릭하여 "템플릿 설정" 화면으로 이동합니다.</para>
+
+    <para>6. "워크플로우 설정" 메뉴로 이동합니다.</para>
+
+    <para>7. "완료" 단계 속성 탭에서 "클라우드 스토리지에 저장"에 체크를 넣습니다.</para>
+  </section>
+
+  <section>
+    <title>분석 및 리포트</title>
+
+    <para>매번 새로운 문서가 추가될 때마다 CSV 파일을 다운로드하는 것이 귀찮을 때 이 기능을 사옹하면 좋습니다. 입력된 데이터를
+    Google 스프레트시트와 Office 365의 </para>
+  </section>
+</chapter>

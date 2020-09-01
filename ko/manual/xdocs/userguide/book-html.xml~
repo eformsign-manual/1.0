@@ -11,7 +11,7 @@
 
   <subtitle></subtitle>
 
-  <titleabbrev>eformsign 서비스</titleabbrev>
+  <titleabbrev>WebtoB v4.1 SP6 Fix#0</titleabbrev>
 
   <xi:include href="../common/bookinfo.xml"></xi:include>
 
@@ -19,21 +19,11 @@
 
   <xi:include href="chapter1.xml"></xi:include>
 
-  <xi:include href="chapter2.xml"></xi:include>
-
-  <xi:include href="chapter3_1_web.xml"></xi:include>
+  <xi:include href="chapter2_1.xml"></xi:include>
 
   <xi:include href="chapter3.xml"></xi:include>
-
-  <xi:include href="Chapter4_1_WD.xml"></xi:include>
-
-  <xi:include href="Chapter4_2_FB.xml"></xi:include>
-
-  <xi:include href="chapter5.xml"></xi:include>
-
-  <xi:include href="chapter6.xml"></xi:include>
-
-  <xi:include href="chapter7.xml"></xi:include>
+  
+  <xi:include href="chapter4.xml"></xi:include>
   
   <index xml:id="idx"></index>
 </book>

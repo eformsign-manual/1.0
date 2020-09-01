@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xml:id="chapter1" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>설치 개요</title>
+
+  <para>본 장에서는 eformsign의 특징과 설치 구성 요소에 대해 기술합니다.<indexterm class="singular">
+      <primary>eformsign</primary>
+    </indexterm></para>
+
+  <section>
+    <title>eformsign의 시스템 모듈 구성</title>
+
+    <para>eformsign은 front, service server, daemon server, iam server, db의 크게
+    5가지 모듈로 구성되어 있습니다. </para>
+
+    <para/>
+
+    <table>
+      <title>eformsign 모듈 구성</title>
+
+      <tgroup cols="3">
+        <colspec align="center" colwidth="150"/>
+
+        <colspec align="left" colwidth="200"/>
+
+        <thead>
+          <row>
+            <entry align="center">모듈명</entry>
+
+            <entry align="center">역할</entry>
+
+            <entry align="center">비고</entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry>front (home)</entry>
+
+            <entry>UI 프론트 화면 표시</entry>
+
+            <entry>사용자에게 보여질 프론트 화면으로 Web server에 설치됨</entry>
+          </row>
+
+          <row>
+            <entry>service server</entry>
+
+            <entry>사용자의 요청 처리(동기식)</entry>
+
+            <entry><para>WAS에 설치하며 사용자의 전반적인 요청에 대한 응답 처리</para></entry>
+          </row>
+
+          <row>
+            <entry>daemon server</entry>
+
+            <entry>비동기적 요청 처리</entry>
+
+            <entry><para>WAS에 설치하며 email 등 알림, 일괄 비동기 작성, 문서 pdf 생성 등 비동기적인 배치
+            및 스케줄(Batch, scheduler) 작업에 대한 응답 처리</para></entry>
+          </row>
+
+          <row>
+            <entry>iam server</entry>
+
+            <entry>계정 관리</entry>
+
+            <entry><para>Oauth 방식으로 사용자의 계정 관리 </para></entry>
+          </row>
+
+          <row>
+            <entry>db</entry>
+
+            <entry>수집 데이터 저장 및 보관</entry>
+
+            <entry><para>3개의 서버가 사용하는 DB로 데이터를 통합 저장 및 관리하며 생성 문서에 대한 플 텍스트 검색
+            등에 활용</para></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <para/>
+  </section>
+
+  <section>
+    <title>설치 유형</title>
+
+    <para>사용자 수에 따라 monolithic 방식부터 모듈을 분산시켜 서버를 구성하는 방식이 다 가능합니다.</para>
+
+    <para>일체형 방식의 경우 서버 구축 비용을 최소화할 수 있는 장점이 있는 반면 문제 발생 시 fail-over가 되지 않는
+    단점이 있습니다. DB와 WAS도 서버 한 대에 구성하는 것과 각각 다른 서버에 구성해 안정성을 확보하는 이중화 방식을 둘 다
+    지원합니다. 사용자 수가 많고 트래픽이 다량으로 발생하는 경우에 대비해 Auto Scale도 지원 가능합니다. </para>
+
+    <note>
+      <para>사용자 수에 따른 서버 구축 방식에 대해서는 별도 문의가 필요합니다.</para>
+    </note>
+
+    <para/>
+  </section>
+
+  <section>
+    <title>시스템 최소 및 권장 요건</title>
+
+    <para>다음은 eformsign 설치를 위한 하드웨어 및 소프트웨어에 대한 최소 및 권장 요건에 설명입니다.</para>
+
+    <table>
+      <title>하드웨어 최소 및 권장 사양</title>
+
+      <tgroup cols="3">
+        <colspec align="center" colwidth="150"/>
+
+        <thead>
+          <row>
+            <entry align="center"/>
+
+            <entry align="center">최소 사양</entry>
+
+            <entry align="center">권장 사양</entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry>CPU</entry>
+
+            <entry><para>4 Core</para><para>Intel Xeon E5 2620 V3
+            이상</para></entry>
+
+            <entry><para>8 Core</para><para>Intel Xeon E5 2620 V3
+            이상</para></entry>
+          </row>
+
+          <row>
+            <entry>메모리</entry>
+
+            <entry>8G</entry>
+
+            <entry>16G</entry>
+          </row>
+
+          <row>
+            <entry>저장장치</entry>
+
+            <entry><para>HDD 1TB</para></entry>
+
+            <entry>SSD 1TB</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <para/>
+
+    <table>
+      <title>소프트웨어 최소 및 권장 사양</title>
+
+      <tgroup cols="3">
+        <colspec align="center" colwidth="150"/>
+
+        <thead>
+          <row>
+            <entry align="center"/>
+
+            <entry align="center">최소 사양</entry>
+
+            <entry align="center">권장 사양</entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry>OS</entry>
+
+            <entry>Debian 10/RHEL(Red Hat Enterprise Linux) 7/CentOS 7</entry>
+
+            <entry>Debian 10/RHEL 7/CentOS 7</entry>
+          </row>
+
+          <row>
+            <entry>WAS</entry>
+
+            <entry>JDK 1.8 이상 지원하는 WAS 시스템</entry>
+
+            <entry>Tomcat 8.5</entry>
+          </row>
+
+          <row>
+            <entry>Web Server</entry>
+
+            <entry>Web Server 전체</entry>
+
+            <entry>nginx 1.14.2</entry>
+          </row>
+
+          <row>
+            <entry>DB</entry>
+
+            <entry/>
+
+            <entry>CouchDB 3.0</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <note>
+      <para>DB 분리 설치 시에는 서버 장비의 OS는 제한이 없지만, 분리 설치되는 DB 장비의 OS는
+      Debian/RHEL/CentOS여야 합니다.</para>
+
+      <para>도메인을 반드시 생성해야 하며 SSL를 필수로 적용해야 합니다.</para>
+    </note>
+  </section>
+</chapter>
