@@ -211,9 +211,7 @@
   <section>
     <title>템플릿 설정</title>
 
-    <para><indexterm class="singular">
-        <secondary>템플릿 설정</secondary>
-      </indexterm>업로드한 파일로 생성될 템플릿에 대한 상세 사항을 설정할 수 있습니다.</para>
+    <para>업로드한 파일로 생성될 템플릿에 대한 상세 사항을 설정할 수 있습니다.</para>
 
     <note>
       <para>이 작업은 대표 관리자 또는 템플릿 관리 권한이 필요합니다.</para>
@@ -1023,7 +1021,7 @@
         <para>워크플로우 단계는 개수 제한없이 추가할 수 있습니다. 워크플로우 단계 옆에 위치한 화살표를 클릭하여 단계의 순서를
         조정할 수 있습니다.</para>
 
-        <para>단계를 삭제하려면 단계 버튼 오른쪽에 위치한<emphasis role="bold"> X </emphasis>를
+        <para>단계를 삭제하려면 단계 버튼 오른쪽에 위치한<emphasis role="bold"> X</emphasis>를
         클릭하면 삭제됩니다.</para>
 
         <mediaobject>
