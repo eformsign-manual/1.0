@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<book label="" version="5.0" xml:id="book" xml:lang="ko-KR"
+<book label="" version="5.0" xml:id="book" xml:lang="en"
       xmlns="http://docbook.org/ns/docbook"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -13,27 +13,27 @@
 
   <titleabbrev>eformsign 서비스</titleabbrev>
 
-  <xi:include href="../common/bookinfo.xml" />
+  <xi:include href="../common/bookinfo.xml"/>
 
-  <xi:include href="about-this-document.xml" />
+  <xi:include href="about-this-document.xml"/>
 
-  <xi:include href="chapter1.xml" />
+  <xi:include href="chapter1.xml"/>
 
-  <xi:include href="chapter2.xml" />
+  <xi:include href="chapter2.xml"/>
 
-  <xi:include href="chapter3_1_web.xml" />
+  <xi:include href="chapter3_1_web.xml"/>
 
-  <xi:include href="chapter3.xml" />
+  <xi:include href="chapter3.xml"/>
 
-  <xi:include href="Chapter4_1_WD.xml" />
+  <xi:include href="Chapter4_1_WD.xml"/>
 
-  <xi:include href="Chapter4_2_FB.xml" />
+  <xi:include href="Chapter4_2_FB.xml"/>
 
-  <xi:include href="chapter5.xml" />
+  <xi:include href="chapter5.xml"/>
 
-  <xi:include href="chapter6.xml" />
-    
-  <xi:include href="chapter7.xml"></xi:include>
-  
-  <index xml:id="idx"></index>
+  <xi:include href="chapter6.xml"/>
+
+  <xi:include href="chapter7.xml"/>
+
+  <index xml:id="idx"/>
 </book>
