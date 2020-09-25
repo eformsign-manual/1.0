@@ -15,16 +15,15 @@
     <para><indexterm class="singular">
         <primary>Form Builder</primary>
       </indexterm>Also known as OZ in Office, Form Builder is a form editor
-    which converts electronic documents created using Microsoft Office into
-    electronic documents containing components (fields). By using OZ in
-    Office, you can easily convert existing Excel, Word, and PowerPoint forms
-    such as contracts, applications, and agreements into electronic
-    documents.</para>
+    which converts documents created using Microsoft Office into electronic
+    documents containing components (fields). By using OZ in Office, you can
+    easily convert existing Excel, Word, and PowerPoint forms such as
+    contracts, applications, and agreements into electronic documents.</para>
 
     <para>Previously, converting Excel, Word, or PowerPoint documents into
     electronic documents required the use of a document development tool
-    requiring a high degree of programming knowledge. Now, with OZ in Office,
-    anyone with the ability to use Microsoft Office an easily create
+    needing a high degree of programming knowledge to operate. Now, with OZ in
+    Office, anyone with the ability to use Microsoft Office can easily create
     electronic documents.</para>
 
     <para>OZ in Office, provided as a Microsoft Office add-in, is easy to use
@@ -55,8 +54,8 @@
             <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
         </inlinemediaobject>) on the top right corner of the dashboard screen
-      to open the sidebar. Then, click on the Download eformsign Form Builder.
-      <emphasis role="bold"/></para>
+      to open the sidebar. Then, click on the 'Download eformsign Form
+      Builder' button at the bottom. </para>
 
       <figure>
         <title>Location of the Download eformsign Form Builder Button</title>
@@ -69,9 +68,9 @@
         </mediaobject>
       </figure>
 
-      <para>2. The "Download eformsign form builder" page will be displayed as
-      shown below. Click on the "Download form builder" button at the bottom
-      of the page. </para>
+      <para>2. The 'Download eformsign form builder' page will be displayed as
+      shown below. Click on the 'Download form builder' button at the bottom
+      of the page.</para>
 
       <figure>
         <title>eformsign Form Builder Download Page</title>
@@ -96,7 +95,7 @@
       <para>1. Click on the Form Builder execution file to run it.</para>
 
       <para>2. When the Wizard screen shown below is displayed, select the
-      "Complete" option and then click the "Next" button. </para>
+      'Complete' option and then click the 'Next' button.</para>
 
       <figure>
         <title>Form Builder Installation Screen (1)</title>
@@ -124,8 +123,8 @@
       </figure>
 
       <para>4. When the installation is completed, the following screen is
-      displayed. Click the Finish button to close the installation screen.
-      </para>
+      displayed. Click the 'Finish' button to close the installation
+      screen.</para>
 
       <figure>
         <title>Form Builder Installation Screen (3)</title>
@@ -200,20 +199,20 @@
         <listitem>
           <para><emphasis role="bold">Drawing: </emphasis>Draws components in
           the location and size you want. <emphasis
-          role="bold">Drawing</emphasis>is supported only in Word and
+          role="bold">Drawing</emphasis> is supported only in Word and
           PowerPoint.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Deletion: </emphasis>Deletes components
-          after selecting components and then clicking the Delete
+          after selecting components and then clicking the 'Delete'
           button.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Window: </emphasis>Allows to open the
           properties tab of the selected component or select a component in
-          the Selection tab.</para>
+          the 'Selection' tab.</para>
         </listitem>
 
         <listitem>
@@ -234,7 +233,7 @@
       </indexterm>Components are used to create fields in electronic documents
     that users can enter information. Many different components including
     signature, check, date, and text are provided in Form Builder, and each
-    component can be configured in detail by using the Component Properties
+    component can be configured in detail by using the 'Component Properties'
     tab.</para>
 
     <section>
@@ -310,7 +309,7 @@
               <primary>Components</primary>
 
               <secondary>Datetime</secondary>
-            </indexterm>Enter a specific date.</para>
+            </indexterm>Enters a specific date.</para>
         </listitem>
 
         <listitem>
@@ -375,8 +374,7 @@
               <primary>Components</primary>
 
               <secondary>Attachment</secondary>
-            </indexterm>Attaches a file. User: Enters information of the
-          document user.</para>
+            </indexterm>Attaches a file.</para>
         </listitem>
 
         <listitem>
@@ -426,10 +424,10 @@
     <section>
       <title>Accessing Component Properties</title>
 
-      <para>Every component has its own detailed settings called 'properties'.
-      The properties of each component can be accessed by selecting a
-      component and then clicking the Property icon or the Properties
-      menu.</para>
+      <para>Every component has its own detailed settings called 'OZ Component
+      Properties'. The properties of each component can be accessed by
+      selecting a component and then clicking the property icon or the
+      'Properties' menu.</para>
 
       <para/>
 
@@ -446,7 +444,7 @@
 
       <note>
         <para>All components must have an ID. An ID is automatically generated
-        when you create a component, but it's good idea to rename it to
+        when you create a component, but it's a good idea to rename it to
         something you can easily recognize. For example, you can rename the ID
         of a component for entering John Doe, Jane Doe, etc. as 'name'.</para>
       </note>
@@ -464,7 +462,7 @@
       <section>
         <title>Adding Components in Excel</title>
 
-        <para>1. Open Excel and go to the OZ in Excel ribbon menu. </para>
+        <para>1. Open Excel and go to the OZ in Excel ribbon menu.</para>
 
         <figure>
           <title>Adding Components in Excel (1)</title>
@@ -500,8 +498,8 @@
           </mediaobject>
         </figure>
 
-        <para>4. Check that the component has been added by viewing the OZ
-        Component Properties tab.</para>
+        <para>4. Check that the component has been added by viewing the 'OZ
+        Component Properties' tab.</para>
 
         <para/>
       </section>
@@ -510,7 +508,7 @@
         <title>Adding Components in Word or PowerPoint</title>
 
         <para><emphasis role="bold">Method 1: Adding Components by Clicking a
-        Component Type you Want</emphasis></para>
+        Component Type You Want</emphasis></para>
 
         <para>1. Open Word or PowerPoint and select the location in the
         document where you want to add the component.</para>
@@ -526,9 +524,9 @@
           </mediaobject>
         </figure>
 
-        <para>2.<emphasis role="bold">OZ in Word</emphasis> or <emphasis
-        role="bold">OZ in PowerPoint</emphasis> Click the component type you
-        want to add in the ribbon menu.</para>
+        <para>2.Click the component type you want to add in the ribbon menu of
+        <emphasis role="bold">OZ in Word</emphasis> or <emphasis
+        role="bold">OZ in PowerPoint</emphasis>.</para>
 
         <figure>
           <title>Method 1: Adding Components by Clicking a Component Type in
@@ -558,7 +556,7 @@
         Component</emphasis></para>
 
         <para>1. Open Word or PowerPoint and go to the OZ in Word/Powerpoint
-        ribbon menu. </para>
+        ribbon menu.</para>
 
         <para>2. Click the Draw Component icon and select the component type
         you want to add in the drop-down menu displayed.</para>
@@ -607,7 +605,7 @@
 
     <para>eformsign provides various types of components such as check box,
     combo box, text, and signature through the MS Office’s <emphasis
-    role="bold">OZ in Office</emphasis> ribbon menu. </para>
+    role="bold">OZ in Office</emphasis> ribbon menu.</para>
 
     <para>All components of <emphasis role="bold">OZ in Office</emphasis> have
     both common and unique properties. You can view both the common and unique
@@ -632,7 +630,7 @@
 
             <secondary>Tooltip Text</secondary>
           </indexterm>In Windows, the text in the Tooltip Text box of a
-        component is displayed in the form of a speech bubble when hovering
+        component is displayed on the form of a speech bubble when hovering
         the mouse over the component. In mobile, the text is displayed on the
         quick type bar when clicking on the component.</para>
       </listitem>
@@ -719,9 +717,9 @@
 
       <para><emphasis role="bold">② Check Style</emphasis></para>
 
-      <para>You can specify the style of each component in Component
-      Properties. The checkbox is set as the default style, and you can change
-      it to another style (radio button or red circle).</para>
+      <para>You can specify the style of each component in 'Component
+      Properties'. The check box is set as the default style, and you can
+      change it to another style (radio button or red circle).</para>
 
       <para>The below example shows how check boxes are displayed according to
       the selected style.</para>
@@ -773,8 +771,8 @@
       buttons are assigned the same ID.</para>
 
       <para>For example, if there are six choices available in a multiple
-      choice question, assign ‘question1’ as the ID for all of them. Set the
-      ID of all the items shown in the following example as ‘select
+      choice question, assign ‘question1’ as the ID for all of them. In the
+      example shown below, the ID of all the items is set to ‘select
       age’.</para>
 
       <figure>
@@ -790,8 +788,8 @@
       <para><emphasis role="bold">② Check Style</emphasis></para>
 
       <para>You can choose the style of the radio button component in
-      Component Properties. The default style is the red circle, and you can
-      change it to another style (checkbox and radio button).</para>
+      'Component Properties'. The default style is the red circle, and you can
+      change it to another style (check box and radio button).</para>
 
       <para><emphasis role="bold">③ Multiselectable</emphasis></para>
 
@@ -808,8 +806,8 @@
 
       <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
 
-      <para>Displays the description in the tooltip text when you hover the
-      mouse over a component.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="combo">
@@ -858,7 +856,7 @@
       <para><emphasis role="bold">② Items</emphasis></para>
 
       <para>Enters the items you want. You can separate the items by pressing
-      (Enter).</para>
+      Enter.</para>
 
       <note>
         <para>If you want to display a message such as ‘Please select a color’
@@ -867,10 +865,10 @@
         before sending the document.</para>
       </note>
 
-      <para><emphasis role="bold">④ Tooltip Text</emphasis></para>
+      <para><emphasis role="bold">③ Tooltip Text</emphasis></para>
 
-      <para>Displays the description in the tooltip text when you hover the
-      mouse over a component.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="text">
@@ -911,13 +909,13 @@
 
       <para>Enters the ID of the text/multiline component. For example, the ID
       of the component in which John Doe, Jane Doe, etc. are entered can be
-      named ‘personName’</para>
+      named ‘personName’.</para>
 
       <para><emphasis role="bold">② Max Length</emphasis></para>
 
       <para>Sets the maximum length of characters (including space) that can
-      be entered. By default is set to ‘0’, and there is no character limit if
-      it is set to ‘0’.</para>
+      be entered. By default, it is set to ‘0’, and there is no character
+      limit if it is set to ‘0’.</para>
 
       <para><emphasis role="bold">③ Keyboard Type</emphasis></para>
 
@@ -934,8 +932,8 @@
 
       <para><emphasis role="bold">④ Tooltip Text</emphasis></para>
 
-      <para>Displays the description in the tooltip text when you hover the
-      mouse over a component.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="date">
@@ -1013,12 +1011,12 @@
 
       <para><emphasis role="bold">⑤ Allow Empty Value</emphasis></para>
 
-      <para>Checking this option allows you to clear the number displayed on
-      the numeric component. In a Datetime component, once you select a date,
-      you can change it to another date but cannot clear the date. Checking
-      this option allows you to clear the date displayed on the Datetime
-      component. However, if no date is selected in the Datetime component but
-      the ‘Display Today for Empty Value’ option is checked, then the date
+      <para>Checking this option allows you to clear the number displayed on a
+      numeric component. In a Datetime component, once you select a date, you
+      can change it to another date but cannot clear the date. Checking this
+      option allows you to clear the date displayed on the Datetime component.
+      However, if no date is selected in the Datetime component but the
+      ‘Display Today for Empty Value’ option is checked, then the date
       component is automatically filled in with the date in which the document
       is opened.</para>
 
@@ -1035,8 +1033,8 @@
 
       <para><emphasis role="bold">⑥ Tooltip Text</emphasis></para>
 
-      <para>Displays the description in the tooltip text when you hover the
-      mouse over an input field.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="numeric">
@@ -1116,8 +1114,8 @@
 
       <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
 
-      <para>Displays the description in the tooltip text when you hover the
-      mouse over an input field.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="toggle">
@@ -1192,8 +1190,8 @@
 
       <para><emphasis role="bold">④ Tooltip Text</emphasis></para>
 
-      <para>Displays the description in the tooltip text when you hover the
-      mouse over a component.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="signature">
@@ -1276,12 +1274,11 @@
         </note></para>
 
       <note>
-        <para>In some cases, you may need to use a personal seal or stamp on
-        the document rather than your own signature. With eformsign, you can
-        also use a stamp image to stamp the signature on a document. To use a
-        stamp image when submitting a document, click the Stamp tab in the
-        signature pop-up, and then select a stamp image and click OK.
-        <emphasis role="bold"/></para>
+        <para>In some cases, you may need to use a seal or stamp on a document
+        rather than your own signature. With eformsign, you can also use a
+        stamp image to stamp the signature on a document. To use a stamp image
+        when submitting a document, click the Stamp tab in the signature
+        pop-up, and then select a stamp image and click OK.</para>
       </note>
 
       <para><emphasis role="bold">③ Signature Pen Thick</emphasis></para>
@@ -1294,8 +1291,8 @@
 
       <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
 
-      <para>Displays the description in the tooltip text when you hover the
-      mouse over a component.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
 
       <note>
         <para>You can set the signature date to be automatically entered in
@@ -1314,7 +1311,7 @@
         <para>4. Add the date (not to be confused with datetime) component
         where the signature date will be entered.</para>
 
-        <para>5. Open the Component Properties tab of the date
+        <para>5. Open the 'Component Properties' tab of the date
         component.</para>
 
         <para>6. Select the Date Type as 'Last modified date of the
@@ -1325,8 +1322,8 @@
         ‘signature1’.</para>
 
         <para>※ You can select the type of date to be displayed on the date
-        component by selecting the desired Date Type in the Component
-        Properties tab.</para>
+        component by selecting the desired date type in the 'Component
+        Properties' tab.</para>
       </note>
     </section>
 
@@ -1365,7 +1362,7 @@
       <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>Setting the Camera Component Properties</title>
+        <title>Setting Camera Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -1420,7 +1417,7 @@
       <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <para><figure>
-          <title>Setting the Voice Component Properties</title>
+          <title>Setting Voice Component Properties</title>
 
           <mediaobject>
             <imageobject>
@@ -1436,8 +1433,8 @@
 
       <para><emphasis role="bold">② Tooltip Text</emphasis></para>
 
-      <para>Displays the description in the tooltip text when you hover the
-      mouse over a component.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="attach">
@@ -1490,8 +1487,8 @@
 
       <para><emphasis role="bold">② Tooltip Text</emphasis></para>
 
-      <para>Displays the description in the tooltip text when you hover the
-      mouse over a component.</para>
+      <para>Displays the description Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="user">
@@ -1572,11 +1569,11 @@
         <para>To automatically fill in the signer’s name in the user
         component, create a signature component and then name the ID (for
         example, signer1). Then, create the user component that will display
-        the signer’s name when triggered and name the ID (for example
+        the signer’s name when triggered and name the ID (for example,
         signer1name). Then, select <emphasis role="bold">‘Last modified user
         of the content’</emphasis> under User Type and enter the ID of the
-        signature component (in this case, signer1) under Input Component
-        ID.</para>
+        signature component (in this case, signer1) under 'Input Component
+        ID'.</para>
       </note>
 
       <para><emphasis role="bold">③ User Field Name</emphasis></para>
@@ -1651,14 +1648,15 @@
           <para><emphasis role="bold">Document ID: </emphasis>A unique ID
           containing 32 digits of alphanumeric characters assigned to all
           documents in the system. E.g.
-          0077af27a98846c8872f5333920679b7</para>
+          0077af27a98846c8872f5333920679b7.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Document Document no.:</emphasis>
-          <emphasis role="bold">The document number set in Template settings
-          &gt; General.</emphasis> For information on how to set a document
-          number, go to <xref linkend="docnumber_wd"/>. </para>
+          <para><emphasis role="bold">Document Document
+          no.:</emphasis><emphasis role="bold"> </emphasis>The document number
+          set in <emphasis role="bold">Template settings &gt;
+          General.</emphasis> For information on how to set a document number,
+          go to <xref linkend="docnumber_wd"/>.</para>
         </listitem>
       </itemizedlist>
     </section>
@@ -1746,8 +1744,8 @@
         </listitem>
       </itemizedlist>
 
-      <para>If ‘Last modified date of the content’ is selected, the Input
-      Component ID field is displayed. In this field, enter the ID of the
+      <para>If ‘Last modified date of the content’ is selected, the 'Input
+      Component ID' field is displayed. In this field, enter the ID of the
       component that will display the information when triggered.</para>
 
       <mediaobject>
@@ -1766,8 +1764,8 @@
           component which will display the signature date when the signature
           is signed and name the ID (e.g. signDate). Then, select ‘Last
           modified date of the content’ under Date Type and enter the ID of
-          the signature component (in this case ‘contractSign’) in the Input
-          Component ID field.</para>
+          the signature component (in this case ‘contractSign’) in the 'Input
+          Component ID' field.</para>
         </note></para>
     </section>
 
@@ -1815,7 +1813,7 @@
           <imagedata fileref="resources/excute_button.png"/>
         </imageobject>
       </inlinemediaobject>) in the File group. The login page will be
-    displayed as a pop-up window. </para>
+    displayed as a pop-up window.</para>
 
     <figure>
       <title>Login Page</title>
@@ -1846,8 +1844,8 @@
         <imageobject>
           <imagedata fileref="resources/upload_button.png"/>
         </imageobject>
-      </inlinemediaobject>) icon in the ribbon menu. The Template list page
-    with the Create template card will be displayed. </para>
+      </inlinemediaobject>) icon in the ribbon menu. The 'Template list' page
+    with the 'Create template' card will be displayed.</para>
 
     <figure>
       <title>Template List Screen</title>
@@ -1861,9 +1859,9 @@
 
     <para/>
 
-    <para>4. Click the Create template card. The screen for configuring the
-    template settings will be displayed. To create a template, click the Save
-    button on the top right corner.</para>
+    <para>4. Click the 'Create template' card. The screen for configuring the
+    template settings will be displayed. To create a template, click the
+    'Save' button on the top right corner.</para>
 
     <figure>
       <title>Create Template Screen</title>
@@ -1881,15 +1879,15 @@
   <section>
     <title>Configuring Template Settings</title>
 
-    <para>After uploading the template, you can configure additional settings
+    <para>After uploading a template, you can configure additional settings
     for documents created from the template such as the template title,
     document number, and workflow.</para>
 
     <para>1. Login to eformsign.</para>
 
-    <para>2. Go to the Manage templates menu.</para>
+    <para>2. Go to the 'Manage templates' menu.</para>
 
-    <para>3. Click the Template Settings icon (gear icon) of the desired
+    <para>3. Click the template settings icon (gear icon) of the desired
     template.</para>
 
     <itemizedlist>
@@ -1901,7 +1899,7 @@
       <listitem>
         <para><emphasis role="bold">Set permissions:</emphasis> Sets the
         permissions for who can create documents created from the template and
-        who can open, void, or permanently remove documents created from this
+        who can open, void, or permanently remove documents created from the
         template.</para>
       </listitem>
 
@@ -1921,8 +1919,8 @@
       </listitem>
     </itemizedlist>
 
-    <para>4. After configuring all settings, <emphasis
-    role="bold">Save</emphasis> Click the button to save the settings.</para>
+    <para>4. After configuring all settings, click the<emphasis role="bold">
+    Save</emphasis> button to save the settings.</para>
 
     <note>
       <para>For a detailed explanation of templates please refer to <xref
