@@ -6,27 +6,25 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>외부 서비스 연동 방법</title>
+  <title>外部サービスを連動する方法</title>
 
   <section>
-    <title>외부 파일저장소 연동 방법</title>
+    <title>クラウドストレージの連動方法</title>
 
     <para><indexterm class="singular">
-        <primary>파일저장소</primary>
-      </indexterm>eformsign에서는 완료된 문서를 외부의 클라우드 스토리지 서비스에 자동으로 저장할 수 있습니다. 현재
-    Dropbox, Google Drive, OneDrive, box를 지원하고 있습니다.</para>
+        <primary>クラウドストレージ</primary>
+      </indexterm>eformsign は、完了文書を外部のクラウドストレージサービスに自動で保存するように設定できます。現在、Dropbox、Google Drive、OneDrive、boxに対応しています。</para>
 
     <note>
-      <para>외부 파일저장소 연동은 대표관리자만 설정할 수 있습니다.</para>
+      <para>外部のクラウドストレージへの連動は代表管理者のみ設定できます。</para>
     </note>
 
-    <para>1. 메뉴의<emphasis role="bold"> 커넥트&gt; 파일 저장소</emphasis>로
-    이동합니다.</para>
+    <para>1.メニューの<emphasis role="bold"> コネクト > クラウドストレージ</emphasis>に移動します。</para>
 
     <para/>
 
     <figure>
-      <title>파일 저장소 화면</title>
+      <title>クラウドストレージの画面</title>
 
       <mediaobject>
         <imageobject>
@@ -35,15 +33,14 @@
       </mediaobject>
     </figure>
 
-    <para>2. 완료 문서를 저장할 클라우드 스토리지를 선택한 다음<emphasis role="bold"> 계정
-    연결</emphasis> 버튼을 눌러 로그인합니다.</para>
+    <para>2.完了文書を保存するクラウドストレージを選択した後、<emphasis role="bold"> アカウント接続</emphasis> ボタンをクリックしてログインします。</para>
 
-    <para>3. 로그인을 하게 되면 <emphasis role="bold">연결 해제</emphasis>와<emphasis
-    role="bold"> 저장 경로 설정</emphasis> 버튼이 나타납니다. 필요에 따라 <emphasis
-    role="bold">저장 경로 설정</emphasis> 버튼을 눌러 저장 경로를 설정합니다.</para>
+    <para>3.ログインすると、 <emphasis role="bold">接続解除</emphasis>と<emphasis
+    role="bold"> 保存パスの設定</emphasis> ボタンが表示されます。必要に応じて <emphasis
+    role="bold">保存パスの設定</emphasis> ボタンをクリックして、保存パスを設定します。</para>
 
     <para><figure>
-        <title>파일 저장소의 계정 연결과 연결 해제</title>
+        <title>クラウドストレージのアカウント接続と接続解除</title>
 
         <mediaobject>
           <imageobject>
@@ -53,10 +50,9 @@
       </figure></para>
 
     <note>
-      <para>저장 경로 설정 팝업은 다음과 같습니다.</para>
+      <para>保存パスの設定ポップアップは、次の通りです。</para>
 
-      <para>기본 경로는 eformsign 하위 폴더로 회사명이 들어갑니다. <emphasis role="bold">새
-      폴더</emphasis> 버튼을 눌러 새로운 폴더를 만들고 저장 경로를 변경할 수도 있습니다.</para>
+      <para>デフォルトのパスは、eformsignのサブフォルダーとして会社名が入ります。<emphasis role="bold">新しいフォルダー</emphasis> ボタンをクリックして、新しいフォルダーを作成し、保存パスを変更することもできます。</para>
 
       <mediaobject>
         <imageobject>
@@ -65,15 +61,14 @@
       </mediaobject>
     </note>
 
-    <para>4. 템플릿 관리 메뉴로 이동합니다.</para>
+    <para>4.テンプレート管理メニューに移動します。</para>
 
-    <para>5. 클라우드 스토리지에 문서를 저장하고자 하는 템플릿을 클릭하여 <emphasis role="bold">템플릿
-    설정</emphasis> 화면으로 이동합니다.</para>
+    <para>5.クラウドストレージに保存したい文書のテンプレートをクリックし、 <emphasis role="bold">テンプレートの設定</emphasis> メニューに移動します。</para>
 
-    <para>6. <emphasis role="bold">워크플로우 설정</emphasis> 메뉴로 이동합니다.</para>
+    <para>6.<emphasis role="bold">ワークフローの設定</emphasis> メニューに移動します。</para>
 
     <para><figure>
-        <title>워크플로우 설정 중 완료 단계 설정</title>
+        <title>ワークフロー設定時の完了ステップの設定</title>
 
         <mediaobject>
           <imageobject>
@@ -82,13 +77,11 @@
         </mediaobject>
       </figure></para>
 
-    <para>7. <emphasis role="bold">완료</emphasis> 단계 속성 탭에서 <emphasis
-    role="bold">별도의 파일 저장소에 완료 문서 저장하기</emphasis>를 체크합니다. 상기의 파일 저장소 메뉴에서 설정한
-    클라우드 저장소가 연결되어 있는 것을 확인할 수 있으며, 문서가 완료되면 eformsign 외에도 연결된 외부 파일 저장소에도 자동
-    저장되게 됩니다.</para>
+    <para>7.<emphasis role="bold">完了</emphasis> ステップの属性タブで <emphasis
+    role="bold">別のクラウドストレージに完了文書を保存する</emphasis>にチェックを入れます。上記のクラウドストレージメニューで設定したクラウドストレージが接続されていることが確認でき、文書が完了すれば、eformsign に加えて連動中の外部のクラウドストレージにも自動的に保存されます。</para>
 
     <para><figure>
-        <title>별도의 파일 저장소에 완료 문서 저장하기 체크박스</title>
+        <title>別のクラウドストレージに完了文書を保存するのチェックボックス</title>
 
         <mediaobject>
           <imageobject>
@@ -99,21 +92,19 @@
   </section>
 
   <section>
-    <title>분석 및 리포팅</title>
+    <title>分析およびレポート</title>
 
     <para><indexterm class="singular">
-        <primary>분석 및 리포팅</primary>
-      </indexterm>매번 새로운 문서가 추가될 때마다 CSV 파일을 다운로드하는 것이 번거로울 경우 이 기능을 사용하면
-    좋습니다. 입력된 데이터를 Google 스프레드 시트와 Office 365의 엑셀 문서에 자동으로 저장되도록 설정할 수
-    있습니다.</para>
+        <primary>分析およびレポート</primary>
+      </indexterm>新しい文書を追加するたびに CSV ファイルをダウンロードするのが面倒な場合は、この機能の使用を推奨します。入力データが、Google スプレッドシートやOffice 365 の Excel 文書に自動的に保存されるように設定することができます。</para>
 
     <para><note>
-        <para><emphasis role="bold">분석 및 리포팅</emphasis>은 <emphasis
-        role="bold">대표 관리자</emphasis>만 설정할 수 있습니다.</para>
+        <para><emphasis role="bold">分析およびレポート</emphasis>は <emphasis
+        role="bold">代表管理者</emphasis>のみ設定できます。</para>
       </note></para>
 
     <figure>
-      <title>분석 및 리포팅 메뉴 화면</title>
+      <title>分析およびレポートの画面</title>
 
       <mediaobject>
         <imageobject>
@@ -122,14 +113,13 @@
       </mediaobject>
     </figure>
 
-    <para>1. 메뉴의 <emphasis role="bold">커넥트&gt; 분석 및 리포트</emphasis>로
-    이동합니다.</para>
+    <para>1.メニューの <emphasis role="bold">コネクト > 分析およびレポート</emphasis>に移動します。</para>
 
-    <para>2. Google Spread와 Office 365 중 원하는 서비스를 선택하고 <emphasis
-    role="bold">계정 연결</emphasis> 버튼을 클릭하여 로그인합니다.</para>
+    <para>2.Google スプレッドシートまたは Office 365 のうち、連動したいサービスを選択し、 <emphasis
+    role="bold">アカウント接続</emphasis> ボタンをクリックしてログインします。</para>
 
     <para><figure>
-        <title>분석 및 리포팅 메뉴 화면</title>
+        <title>分析およびレポートの画面</title>
 
         <mediaobject>
           <imageobject>
@@ -138,10 +128,10 @@
         </mediaobject>
       </figure></para>
 
-    <para>3. <emphasis role="bold">데이터 연결 관리</emphasis> 버튼을 클릭합니다.</para>
+    <para>3.<emphasis role="bold">データの連動管理</emphasis> ボタンをクリックします。</para>
 
     <para><figure>
-        <title>데이터 연결 관리 화면</title>
+        <title>データの連動管理の画面</title>
 
         <mediaobject>
           <imageobject>
@@ -150,11 +140,10 @@
         </mediaobject>
       </figure></para>
 
-    <para>4. 화면 중앙 또는 오른쪽 상단의 <emphasis role="bold">데이터 연결 추가</emphasis> 버튼을
-    클릭합니다.</para>
+    <para>4.中央または右上にある <emphasis role="bold">データ連動の追加</emphasis> ボタンをクリックします。</para>
 
     <figure>
-      <title>데이터 연결 관리 화면</title>
+      <title>データの連動管理の画面</title>
 
       <mediaobject>
         <imageobject>
@@ -163,11 +152,11 @@
       </mediaobject>
     </figure>
 
-    <para>5. 이름, 데이터 연결 시트, 데이터 전송 시점, 템플릿을 설정하고 <emphasis
-    role="bold">저장</emphasis> 버튼을 클릭합니다.</para>
+    <para>5.接続名、データ連動シート、データ送信時点、テンプレートを設定し <emphasis
+    role="bold">保存</emphasis> ボタンをクリックします。</para>
 
     <para><figure>
-        <title>데이터 연결 관리 화면</title>
+        <title>データの連動管理の画面</title>
 
         <mediaobject>
           <imageobject>
@@ -177,7 +166,7 @@
       </figure></para>
 
     <para><figure>
-        <title>데이터 연결 관리 화면</title>
+        <title>データの連動管理の画面</title>
 
         <mediaobject>
           <imageobject>
@@ -187,14 +176,13 @@
       </figure></para>
 
     <note>
-      <para>데이터 연동 시트란, Google 시트를 예로 들면 해당 시트의 URL에 해당합니다.</para>
+      <para>データ連動シートについては、Google シートにたとえば、そのシートの URLを意味します。</para>
     </note>
 
-    <para>6. <emphasis role="bold">데이터 연결 관리</emphasis> 화면에 데이터 연결이 된 시트가
-    표시됩니다.</para>
+    <para>6.<emphasis role="bold">データの連動管理</emphasis> 画面に、データが連動されるシートが表示されます。</para>
 
     <para><figure>
-        <title>데이터 연결 관리 화면</title>
+        <title>データの連動管理の画面</title>
 
         <mediaobject>
           <imageobject>
@@ -203,10 +191,10 @@
         </mediaobject>
       </figure></para>
 
-    <para>7. 연결된 시트에 가면 데이터를 가져올 컬럼(필드)이 표시된 것을 확인할 수 있습니다.</para>
+    <para>7.連動されたシートに移動すると、データをインポートするカラム（フィールド）が表示されていることが確認できます。</para>
 
     <para><figure>
-        <title>데이터 연결 관리 화면</title>
+        <title>データの連動管理の画面</title>
 
         <mediaobject>
           <imageobject>
