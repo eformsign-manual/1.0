@@ -15,16 +15,16 @@
     は、会社で発生する紙の文書を誰もが簡単に電子文書化し、いつ、どこでも、業務に活用できる上、保存されている情報を多様に活用できる電子文書サービスです。</para>
 
     <para>eformsignサービスが提供するWebエディタ--であるWebフォームデザイナー（Web form
-    designer)を使って文書（PDF）をアップロードや電子文書に変換することができる上、Microsoft
+    designer）を使って文書（PDF）をアップロードや電子文書に変換することができる上、Microsoft
     Officeのアドイン（Add-in）モジュールであるフォームビルダー（Form builder）も提供するので、Microsoft
     Officeの文書を作成できるのであれば、誰でもMicrosoft
     Officeで作成した既存の文書を使って電子フォームを作成することができます。</para>
 
-    <para>また、会社の業務プロセスに合わせてワークフローを設定することもできます。契約書・同意書・申請書などの外部文書だけでなく、決裁などの内部文書に対しても、文書の処理過程を自由に設定でき、多様な業務に適用可能です。また、ワークフローのステップや受信者ごとの詳細な通知、必須入力項目などの細部設定が可能で、文書の進行状態や処理状態もリアルタイムで確認できます。</para>
+    <para>また、会社の業務プロセスに合わせてワークフローを設定することもできます。契約書・同意書・申込書などの外部文書だけでなく、決裁などの内部文書に対しても、文書の処理プロセスを自由に設定でき、多様な業務に適用可能です。また、ワークフローのステップや受信者ごとの詳細な通知、必須入力コンポーネントなどの細部設定が可能で、文書の進行状態や処理状態もリアルタイムで確認できます。</para>
 
-    <para>文書の改ざん（偽造・変造）を防ぐために、文書のすべてのログを含む監査証跡証明書を提供します。</para>
+    <para>文書の改ざん（偽造・変造）を防ぐために、文書のすべてのログを含む監査証跡（オーディットトレイル）証明書を提供します。</para>
 
-    <para>さらに、作成者情報、グループ関連情報、最近の入力値や日付情報の自動入力をサポートし、繰り返し入力が必要な作業を最小限に抑え、複数の文書を一括で作成することもできます。会社のメンバーと権限を管理できる他、文書の通知方法を詳細に設定でき、収集したデータを抽出して別途管理および活用できます。</para>
+    <para>さらに、作成者情報、グループ関連情報、直近の入力値や日付情報の自動入力をサポートし、繰り返し入力が必要な退屈な作業を最小限に抑えられる上、複数の文書を一括で作成することもできます。会社のメンバーと権限を管理できる他、文書の通知方法を詳細に設定でき、収集したデータを抽出して別途管理および活用できます。</para>
 
     <figure>
       <title>主要機能</title>
@@ -38,30 +38,30 @@
 
     <para>eformsignサービスは、電子文書に署名するための電子署名機能も提供します。</para>
 
-    <para>電子署名とは、紙に描く署名と同じ役割をする電子的な形態の署名のことです。紙に署名するときに本人が直接署名する必要があるように、電子署名も、署名者が本人であることを証明する証明段階を踏む必要があります。本人確認には、本人確認の手段として、電子メール、住民登録番号（社会保障番号、マイナンバー）、パスワード、電話番号、証明書などが用いられます。</para>
+    <para>電子署名とは、紙に描く署名と同じ役割をする電子的な形態の署名のことです。紙に署名するときに本人が直接署名する必要があるように、電子署名も、署名者が本人であることを識別および証明する証明段階を踏む必要があります。本人確認には、本人確認の手段として、電子メール、住民登録番号（社会保障番号、マイナンバーなど）、パスワード、電話番号や証明書などが用いられます。</para>
 
     <para>電子署名の法的効力は、多くの国で段階的に適用されつつあります。eformsignの電子署名は、個人と個人、法人と個人の間で法的効力を持ち、否認防止のための多様な追加機能を提供しています。</para>
 
     <note>
-      <para>電子署名の国別の法的効力については、以下をご参照ください。</para>
+      <para>電子署名の国別の法的効力（法的拘束力）については、以下をご参照ください。</para>
 
       <itemizedlist>
         <listitem>
-          <para>韓国:PKIベースの電子署名は、法的な地位が強く、認証された電子署名以外の電子署名であっても、署名としての効力を否定することはありません。電子署名法第3条第3項に基づき、電子署名は、当事者間の合意に従う署名、署名捺印または記名捺印としての効力を有するものとします。</para>
+          <para>韓国：PKIベースの電子署名は、法的な地位が強く、認証された電子署名以外の電子署名であっても、署名としての効力（拘束力）を否定することはありません。電子署名法第3条第3項に基づき、電子署名は、当事者間の合意に従う署名、署名捺印または記名捺印としての効力を有するものとします。</para>
         </listitem>
       </itemizedlist>
 
       <itemizedlist>
         <listitem>
-          <para>米国:電子署名の技術的中立性の原則のもと、PKIベースの電子署名に対しては別途の法的効力を与えておらず、本人確認または認証サービスを通じて電子署名の信憑性を高める方法を取ることが多いです。</para>
+          <para>米国：電子署名の技術的中立性の原則のもと、PKIベースの電子署名に対しては別途の法的効力を与えておらず、本人確認（識別）または認証サービスを通じて電子署名の信憑性を高める方法を取ることが多いです。</para>
         </listitem>
 
         <listitem>
-          <para>EU:適格な電子署名、高度な電子署名、一般的な電子署名の３つの署名で区分し、文書の性質に応じて法的な地位を与えています。</para>
+          <para>EU：適格な電子署名、高度な電子署名、一般的な電子署名の３つの署名で区分し、文書の性質に応じて法的効力を与えています。</para>
         </listitem>
 
         <listitem>
-          <para>日本:特定認証業務制度があり、事業ごとに国務大臣の認可を得た電子署名に対してはより強力な法的効力を与えています。</para>
+          <para>日本：特定認証業務制度があり、事業ごとに国務大臣の認可を得た電子署名に対してはより強力な法的効力を与えています。</para>
         </listitem>
       </itemizedlist>
     </note>
@@ -70,29 +70,29 @@
   <section>
     <title>基本用語</title>
 
-    <para>eformsign を使用する前に知っている必要のあるeformsign の基本用語を紹介します。</para>
+    <para>eformsign サービスで使用する基本用語を紹介します。</para>
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">Web フォームデザイナー(Web form
-        designer)</emphasis></para>
+        <para><emphasis role="bold">Web フォームデザイナー（Web form
+        designer）</emphasis></para>
 
         <para>Web フォームデザイナー<indexterm class="singular">
             <primary>Web フォームデザイナー</primary>
-          </indexterm>は、既存の文書ファイルをeformsignサービスにアップロードし、簡単に電子形式で作成できるツールです。申請書、契約書、同意書などの
-        PDF
-        形式の文書の上に、署名、テキストボックスやチェックボックスを配置してテンプレートとして保存するか、作成した電子文書を他の受信者に送信して文書の作成または署名を依頼することができます。</para>
+          </indexterm>は、既存の文書ファイルを eformsign
+        サービスにアップロードし、簡単に電子形式で作成できるツールです。申込書、契約書、同意書などの PDF
+        形式の文書の上に、署名、テキストボックスやチェックボックスを追加してテンプレートとして保存するか、作成した電子文書を他の受信者に送信して文書の作成または署名を依頼することができます。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">フォームビルダー(Form builder)</emphasis></para>
+        <para><emphasis role="bold">フォームビルダー（Form builder）</emphasis></para>
 
         <para>フォームビルダー<indexterm class="singular">
             <primary>フォームビルダー</primary>
-          </indexterm>は、eformsign で使用される電子書式を作成するためのツールです。既存のMicrosoft
-        Officeで作成したフォーム（申請書、契約書、同意書など）を、署名ボックスやテキストボックスなどを挿入している電子文書に変換し、eformsign
-        にアップロードするときに使用します。Microsoft Officeにリボンメニューの形でアドイン(Add-in)され、 <emphasis
-        role="bold">OZ in office</emphasis>ともいいます。</para>
+          </indexterm>は、eformsign で使われる電子書式を作成するためのツールです。既存の Microsoft Office
+        で作成したフォーム（申込書、契約書、同意書など）に署名ボックスやテキストボックスなどを挿入して電子文書に変換した後、eformsign
+        にアップロードするときに使用します。Microsoft Office にリボンメニューの形でアドイン（Add-in）され、
+        <emphasis role="bold">OZ in office </emphasis>ともいいます。</para>
       </listitem>
 
       <listitem>
@@ -106,7 +106,7 @@
               <imagedata fileref="resources/menu_icon.png"/>
             </imageobject>
           </inlinemediaobject>)
-        をクリックしたら、メニューにアクセスできます。ダッシュボードのメニュー表示は、ユーザーの権限に応じて異なります。</para>
+        をクリックしたら、メニューにアクセスできます。ダッシュボードのメニューの表示は、ユーザーの権限によって異なります。</para>
 
         <figure>
           <title>eformsignのダッシュボード画面</title>
@@ -134,9 +134,9 @@
 
         <para><indexterm class="singular">
             <primary>文書</primary>
-          </indexterm>テンプレートで <emphasis role="bold">文書の新規作成</emphasis>
-        メニューから複数の文書を作成することができます。eformsign
-        で文書の作成数を集計する基準が、このように生成された文書です。</para>
+          </indexterm><emphasis role="bold">文書の新規作成</emphasis>
+        メニューのテンプレートを使用し、複数の文書を作成することができます。このように作成された文書が、eformsign
+        で文書の作成数を集計する基準になります。</para>
       </listitem>
 
       <listitem>
@@ -144,7 +144,7 @@
 
         <para><indexterm class="singular">
             <primary>文書トレイ</primary>
-          </indexterm>作成された文書を保存および閲覧できるクラウド空間です。文書の状態によって3つの文書トレイに分かれて保存されます。</para>
+          </indexterm>作成された文書を保存および閲覧できる空間です。文書の状態によって3つの文書トレイに分かれて保存されます。</para>
 
         <itemizedlist>
           <listitem>
@@ -158,14 +158,14 @@
             <para><emphasis role="bold">要処理文書:</emphasis> <indexterm
                 class="singular">
                 <primary>要処理文書</primary>
-              </indexterm>自分が作成または処理済みの文書で、決裁、作成、依頼（要請）など、自分が処理する必要のある文書のリストを表示します。</para>
+              </indexterm>決裁依頼や作成依頼など、自分が処理する必要のある文書のリストを表示します。</para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">すべての文書:</emphasis><indexterm
+            <para><emphasis role="bold">完了文書:</emphasis><indexterm
                 class="singular">
-                <primary>すべての文書</primary>
-              </indexterm>自分が作成または処理済みの文書のリストをすべて表示します。</para>
+                <primary>完了文書</primary>
+              </indexterm>自分が作成または処理済みの文書のうち、完了文書のリストを表示します。</para>
           </listitem>
         </itemizedlist>
       </listitem>
@@ -177,7 +177,7 @@
 
         <para><indexterm class="singular">
             <primary>ワークフロー</primary>
-          </indexterm>文書の作成から完了までの処理プロセスをいいます。テンプレート管理者は、テンプレートごとにワークフローのステップを設定できます。ワークフローは
+          </indexterm>文書の作成から完了までの処理プロセスをいいます。テンプレート管理者は、テンプレートごとにワークフローのステップを設定できます。ワークフローの
         <emphasis role="bold">開始 — 完了</emphasis><indexterm class="singular">
             <primary>開始</primary>
           </indexterm><indexterm class="singular">
@@ -193,17 +193,17 @@
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">内部メンバー:</emphasis><indexterm
+            <para><emphasis role="bold">内部受信者:</emphasis><indexterm
                 class="singular">
-                <primary>内部メンバー</primary>
-              </indexterm>会社の他のメンバーによって文書が作成または検討されるステップです。</para>
+                <primary>内部受信者</primary>
+              </indexterm>会社の他のメンバーが文書を作成または検討するステップです。</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">外部受信者:</emphasis><indexterm
                 class="singular">
                 <primary>外部受信者</primary>
-              </indexterm>メンバー以外の外部の人によって文書が作成または検討されるステップです。</para>
+              </indexterm>メンバー以外の外部の人が文書を作成または検討するステップです。</para>
           </listitem>
         </itemizedlist>
 
@@ -223,19 +223,19 @@
 
         <para><indexterm class="singular">
             <primary>代表管理者</primary>
-          </indexterm>会社の代表者で、eformsignの使用を完全に制御できる権限を持ちます。</para>
+          </indexterm>会社の代表者で、eformsign の使用を完全に制御できる権限を持ちます。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">テンプレート管理権限</emphasis></para>
+        <para><emphasis role="bold">テンプレート管理の権限</emphasis></para>
 
-        <para>テンプレート管理権限がある場合、「テンプレート管理」メニューにアクセスでき、テンプレートの作成、変更、配布および削除を行うことができます。</para>
+        <para>テンプレートの使用権限がある場合、「テンプレート管理」メニューにアクセスでき、テンプレートの作成、変更、配布および削除を行うことができます。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">文書管理権限</emphasis></para>
+        <para><emphasis role="bold">文書の管理権限</emphasis></para>
 
-        <para>文書管理権限がある場合、「文書管理」メニューにアクセスでき、テンプレートごとに作成された文書の閲覧、完了文書の無効化の承認、システムから文書の永久削除ができます。文書管理権限は、テンプレートごとに別途で指定できます。</para>
+        <para>文書の管理権限がある場合、「文書管理」メニューにアクセスでき、テンプレートごとに作成された文書の閲覧、完了文書の無効化の承認、システムから文書の永久削除ができます。文書の管理権限は、テンプレートごとに別途で指定できます。</para>
       </listitem>
     </itemizedlist>
 
@@ -243,14 +243,16 @@
   </section>
 
   <section>
-    <title>使用フロー</title>
+    <title>使用フロセス</title>
 
-    <para>eformsignを使用するには、eformsignサービスにPDFファイルをアップロードしてeformsignサービス内で電子フォームを作成するか、あるいは、Microsoft
-    Office（Word、Excel、PowerPoint）経由でフォームを作成し、eformsignサービスにアップロードする必要があります。</para>
+    <para>eformsign を使用するには、eformsign サービスに PDF ファイルをアップロードして、eformsign
+    サービス内で電子フォームを作成するか、あるいは、Microsoft
+    Office（Word、Excel、PowerPoint）経由でフォームを作成し、eformsign
+    サービスにアップロードする必要があります。</para>
 
     <note>
-      <para>サービスからファイルをアップロードする場合、現在としてはPDFファイルのみに対応していますが、今後継続してMicrosoft
-      Officeファイル、JPG、PNGなどのイメージファイルなど、さまざまなファイル形式に対応していく予定です。</para>
+      <para>サービスからファイルをアップロードする場合、現在としては PDF ファイルのみに対応していますが、今後継続して Microsoft
+      Office ファイル、JPG、PNG などの画像（イメージ）ファイルなど、さまざまなファイル形式に対応していく予定です。</para>
     </note>
 
     <section>
@@ -258,14 +260,15 @@
 
       <para><indexterm class="singular">
           <primary>Web フォームデザイナー</primary>
-        </indexterm>PDFファイルをeformsignにアップロードした後、サービス内の文書の上にテキスト、署名、日付ボックスなどの必要なコンポーネントを配置することで、テンプレートを作成できます。</para>
+        </indexterm>PDF ファイルを eformsign
+      にアップロードした後、サービス内の文書の上にテキスト、署名、日付ボックスなどの必要なコンポーネントを配置することで、テンプレートを作成できます。</para>
 
-      <para>アップロードされた文書にコンポーネントを配置した後は、「テンプレート管理」&gt;「設定」メニューに移動し、全般、ワークフローの設定、通知の設定などを変更して配布します。</para>
+      <para>アップロードした文書にコンポーネントを配置した後は、「テンプレート管理」&gt;「設定」メニューに移動し、「全般」、「ワークフローの設定」、「通知の設定」などを変更して配布します。</para>
 
-      <para>「文書の新規作成」 メニューに移動すると、配布済みのテンプレートを使って文書を作成し、受信者に送信できます。</para>
+      <para>「文書の新規作成」 メニューに移動すると、配布済みのテンプレートを使って文書を作成して受信者に送信できます。</para>
 
       <figure>
-        <title>Webフォームデザイナーとeformsignの間の使用フロー</title>
+        <title>Webフォームデザイナーとeformsignの間の使用フロセス</title>
 
         <mediaobject>
           <imageobject>
@@ -281,18 +284,18 @@
       <para><indexterm class="singular">
           <primary>フォームビルダー</primary>
         </indexterm>Microsoft
-      Office（Word、Excel、PowerPoint）で文書を作成するか、文書ファイルをロードした後、Microsoft
-      Officeのリボン（OZ in
-      Office）のテキスト、署名、日付ボックスなど必要なコンポーネントを文書の上に配置することでテンプレートを作成します。次に、リボンの「実行]」メニューを使って、サービスにログインし、テンプレートをアップロードした後、eformsign
+      Office（Word、Excel、PowerPoint）で文書を作成するか、文書ファイルをロードした後、Microsoft Office
+      のリボン（OZ in
+      Office）のテキスト、署名、日付ボックスなど必要なコンポーネントを文書の上に配置することでテンプレートを作成します。次に、リボンの「実行」メニューを使って、サービスにログインし、テンプレートをアップロードした後、eformsign
       サイトに移動します。</para>
 
       <para>eformsign サイトの
-      「テンプレート管理]」メニューに移動し、テンプレートがアップロードされていることを確認し、全般、ワークフローの設定、通知の設定などを変更した後、配布します。</para>
+      「テンプレート管理」メニューに移動し、テンプレートがアップロードされていることを確認し、「全般」、「ワークフローの設定」、「通知の設定」などを変更した後、配布します。</para>
 
       <para>「文書の新規作成」メニューに移動して、文書を作成し、受信者に送信します。</para>
 
       <figure>
-        <title>フォームビルダーとeformsignの間の使用フロー</title>
+        <title>フォームビルダーとeformsignの間の使用フロセス</title>
 
         <mediaobject>
           <imageobject>
@@ -303,9 +306,9 @@
     </section>
 
     <section>
-      <title>使用最低仕様</title>
+      <title>最小仕様</title>
 
-      <para>フォームビルダーとeformsignの使用最低仕様は次のとおりです。</para>
+      <para>フォームビルダーと eformsign の最低仕様は次のとおりです。</para>
 
       <itemizedlist>
         <listitem>
@@ -313,12 +316,12 @@
 
           <itemizedlist>
             <listitem>
-              <para><emphasis role="bold">PC OS：</emphasis>Windows 7以降</para>
+              <para><emphasis role="bold">PC OS：</emphasis>Windows 7 以降</para>
             </listitem>
 
             <listitem>
               <para><emphasis role="bold">Microsoft
-              Office：</emphasis>Microsoft Office 2010以降</para>
+              Office：</emphasis>Microsoft Office 2010 以降</para>
             </listitem>
           </itemizedlist>
         </listitem>
@@ -331,23 +334,23 @@
 
           <itemizedlist>
             <listitem>
-              <para><emphasis role="bold">PC OS：</emphasis>Windows 7以降、OS X
-              Mavericks以降</para>
+              <para><emphasis role="bold">PC OS：</emphasis>Windows 7 以降、OS X
+              Mavericks 以降</para>
             </listitem>
 
             <listitem>
               <para><emphasis role="bold">ブラウザー：</emphasis>Internet Explorer
-              11以降、Chrome 49以降、Safari 9以降</para>
+              11 以降、Chrome 49 以降、Safari 9 以降</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">モバイルOS：</emphasis>
-              iOS：6.1.6以降、Android：5.0 (Lollipop)以降</para>
+              <para><emphasis role="bold">モバイルOS：</emphasis> iOS 6.1.6
+              以降、Android 5.0 （Lollipop）以降</para>
             </listitem>
           </itemizedlist>
 
           <note>
-            <para>eformsign を使用するために、モバイルアプリのインストールが必須ではありません。</para>
+            <para>eformsign の使用において、モバイルアプリのインストールが必須ではありません。</para>
           </note>
         </listitem>
       </itemizedlist>
@@ -357,12 +360,13 @@
   <section>
     <title>活用分野</title>
 
-    <para>eformsignは、契約書、同意書、申請書や申込書などに活用できます。すべての文書は暗号化（AES-256）されて、PDF/A形式で保存されます。PDF/A形式は国際的に約束された長期保存のアーカイブ形式です。</para>
+    <para>eformsign は、契約書、同意書、申請書や申込書などに活用できます。すべての文書は暗号化（AES-256）されて、PDF/A
+    形式で保存されます。PDF/A 形式は国際的に約束された長期保存のアーカイブ形式です。</para>
 
     <section>
       <title>契約書</title>
 
-      <para>電子文書を使用して、労務契約、購入/レンタル契約、加盟店（マーチャント）契約、保守契約などのさまざまな契約を締結できます。契約プロセスは記録され、監査証跡証明書などをもって文書の改ざんを防止できます。また、顧客や契約の当事者と直面することなく、数百の契約を簡素化して行えます。</para>
+      <para>電子文書を使用して、労務契約、購入/レンタル契約、加盟店（マーチャント）契約、保守契約などの様々な契約を締結できます。契約プロセスが記録される上、監査証跡証明書などをもって文書の改ざんを防止できます。また、顧客や契約の当事者と直面することなく、数百の契約を簡素化して行えます。</para>
 
       <para>契約プロセスは次のとおりです。</para>
 

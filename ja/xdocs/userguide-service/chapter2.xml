@@ -14,14 +14,14 @@
     <section>
       <title>メニューの構成</title>
 
-      <para>eformsignにログインした後、ダッシュボード<indexterm class="singular">
+      <para>eformsign にログインした後、ダッシュボード<indexterm class="singular">
           <primary>ダッシュボード</primary>
-        </indexterm> 画面左上のメニュー (<inlinemediaobject>
+        </indexterm> 画面の左上のメニュー (<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
         </inlinemediaobject>)
-      をクリックすれば、次のようなサイドバーメニューが表示されます。各メニューは、ユーザーの権限によって異なって表示される場合があります。代表管理者には、すべてのメニューが表示され、すべての権限を保持します。</para>
+      をクリックすれば、次のようなサイドバーメニューが表示されます。各メニューは、ユーザーの権限によって異なって表示される場合があります。代表管理者には、すべてのメニューが表示され、代表管理者がすべての権限を持ちます。</para>
 
       <figure>
         <title>eformsignのメニューの構成</title>
@@ -29,7 +29,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/dashboard_menu_expand.png"
-                       width="800"/>
+                       width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -48,7 +48,7 @@
           <para><emphasis role="bold">文書トレイ：</emphasis><indexterm
               class="singular">
               <primary>文書トレイ</primary>
-            </indexterm>各個人に関連する文書のリストを表示します。</para>
+            </indexterm>文書の状態によって文書のリストを表示します。</para>
 
           <itemizedlist>
             <listitem>
@@ -66,10 +66,10 @@
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">すべての文書：</emphasis><indexterm
+              <para><emphasis role="bold">完了文書：</emphasis><indexterm
                   class="singular">
                   <primary>すべての文書</primary>
-                </indexterm>個人が作成または処理済みのすべての文書のリストを表示します。</para>
+                </indexterm>自分が作成または処理済みの文書のうち、完了文書のリストを表示します。</para>
             </listitem>
           </itemizedlist>
         </listitem>
@@ -78,7 +78,7 @@
           <para><emphasis role="bold">文書管理：</emphasis> <indexterm
               class="singular">
               <primary>文書管理</primary>
-            </indexterm>このメニューには、文書の管理権限がある場合にのみアクセスできます。テンプレートから作成された文書は、文書を管理する権限を持つすべての文書を表示できます。ただし、代表管理者の場合は、すべての文書を表示および管理できます。</para>
+            </indexterm>このメニューには、文書の管理権限がある場合にのみアクセスできます。文書の管理権限を持っている文書については、すべて表示します。ただし、代表管理者の場合は、すべての文書を確認および管理できます。</para>
         </listitem>
 
         <listitem>
@@ -92,7 +92,7 @@
           <para><emphasis role="bold">テンプレート管理：</emphasis><indexterm
               class="singular">
               <primary>テンプレート管理</primary>
-            </indexterm>このメニューには、テンプレートの管理権限がある場合にのみアクセスできます。テンプレートのリストを確認でき、テンプレートを設定できます。</para>
+            </indexterm>このメニューには、テンプレート管理の権限がある場合にのみアクセスできます。テンプレートのリストを確認でき、テンプレートを設定できます。</para>
         </listitem>
 
         <listitem>
@@ -113,7 +113,7 @@
               <para><emphasis role="bold">グループ管理：</emphasis><indexterm
                   class="singular">
                   <primary>グループ管理</primary>
-                </indexterm>メンバーグループを作成でき、グループ情報を変更できます。</para>
+                </indexterm>メンバーのグループを作成でき、グループ情報を変更できます。</para>
             </listitem>
 
             <listitem>
@@ -135,7 +135,14 @@
                   class="singular">
                   <primary>通知テンプレート管理</primary>
                 </indexterm>eformsign から送信されるメールおよび SMS
-              通知テンプレートのリストを表示および変更できます。</para>
+              の通知テンプレートのリストを確認および変更できます。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">署名の設定：</emphasis><indexterm
+                  class="singular">
+                  <primary>署名の設定</primary>
+                </indexterm>文書の署名欄に直接署名するときに使用可能な署名方法が選択できます。</para>
             </listitem>
           </itemizedlist>
         </listitem>
@@ -144,7 +151,7 @@
           <para><emphasis role="bold">コネクト：</emphasis> <indexterm
               class="singular">
               <primary>コネクト</primary>
-            </indexterm>このメニューには、代表管理者のみがアクセスできます。外部サービスと連携して使用する機能を確認することができます。</para>
+            </indexterm>このメニューには、代表管理者のみがアクセスできます。外部サービスと連動して使用する機能を確認することができます。</para>
 
           <itemizedlist>
             <listitem>
@@ -152,15 +159,15 @@
                   class="singular">
                   <primary>クラウドストレージ</primary>
                 </indexterm>Dropbox、Google ドライブ、Box
-              のアカウントに接続して最終完了した文書を保存します。</para>
+              のアカウントに接続して、完了文書を保存します。</para>
             </listitem>
 
             <listitem>
               <para><emphasis role="bold">分析およびレポート：</emphasis><indexterm
                   class="singular">
                   <primary>分析およびレポート</primary>
-                </indexterm>文書に入力されたデータをGoogleスプレッドシートとOffice 365
-              Excelに自動保存するように設定することができます。</para>
+                </indexterm>文書に入力されたデータを Google スプレッドシートと Office 365 Excel
+              に自動保存するように設定することができます。</para>
             </listitem>
 
             <listitem>
@@ -189,12 +196,10 @@
           <para><emphasis role="bold">フォームビルダーをダウンロード：</emphasis><indexterm
               class="singular">
               <primary>フォームビルダーをダウンロード</primary>
-            </indexterm>Microsoft Officeで電子フォーム (テンプレート)
+            </indexterm>Microsoft Office で電子フォーム (テンプレート)
           を作成時に必要なフォームビルダーをダウンロードします。</para>
         </listitem>
       </itemizedlist>
-
-      <para/>
     </section>
 
     <section>
@@ -202,7 +207,8 @@
 
       <para><indexterm class="singular">
           <primary>ダッシュボード</primary>
-        </indexterm>eformsignにログインすれば、ダッシュボード画面が表示されます。処理が必要な文書や進行中の文書などをリスト表示しており、<emphasis
+        </indexterm>eformsign
+      にログインすれば、ダッシュボード画面が表示されます。処理が必要な文書や進行中の文書などをリスト表示しており、<emphasis
       role="bold">文書の新規作成</emphasis> などのメインメニューへのショートカットを提供します。</para>
 
       <figure>
@@ -210,7 +216,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/dashboard_main.png" width="800"/>
+            <imagedata fileref="resources/dashboard_main.png" width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -233,9 +239,9 @@
           <listitem>
             <para><indexterm class="singular">
                 <primary>進行中の文書</primary>
-              </indexterm>現在進行中の文書の数が表示され、クリックすれば、<emphasis role="bold">
+              </indexterm>現在進行中の文書の数が表示され、クリックすると、<emphasis role="bold">
             </emphasis>進行中の文書のリストが確認できる <emphasis
-            role="bold">進行中の文書</emphasis>に移動します。</para>
+            role="bold">進行中の文書</emphasis> に移動します。</para>
           </listitem>
         </varlistentry>
 
@@ -245,19 +251,19 @@
           <listitem>
             <para><indexterm class="singular">
                 <primary>要処理文書</primary>
-              </indexterm>処理する必要がある文書の数を表示します。クリックすると <emphasis
-            role="bold">要処理文書</emphasis>に移動します。</para>
+              </indexterm>処理する必要のある文書の数を表示します。クリックすると <emphasis
+            role="bold">要処理文書 </emphasis>に移動します。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">④ すべての文書</emphasis></term>
+          <term><emphasis role="bold">④ 完了文書</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
                 <primary>すべての文書</primary>
-              </indexterm>完了した文書を含め、すべての文書を確認できる <emphasis
-            role="bold">すべての文書</emphasis>に移動します。</para>
+              </indexterm>完了文書を確認できる <emphasis role="bold">完了文書</emphasis>
+            に移動します。</para>
           </listitem>
         </varlistentry>
 
@@ -266,8 +272,8 @@
 
           <listitem>
             <para>進行中の文書の数と、最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
-            role="bold">More</emphasis>] をクリックすると、<emphasis role="bold">
-            進行中の文書</emphasis>に移動します。</para>
+            role="bold">More</emphasis> をクリックすると、<emphasis role="bold">
+            進行中の文書</emphasis> に移動します。</para>
           </listitem>
         </varlistentry>
 
@@ -276,18 +282,18 @@
 
           <listitem>
             <para>処理する必要のある文書の数と、最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
-            role="bold">More</emphasis>] をクリックすると、<emphasis role="bold">
-            要処理文書</emphasis>に移動します。</para>
+            role="bold">More</emphasis> をクリックすると、<emphasis role="bold">
+            要処理文書</emphasis> に移動します。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">⑦ すべての文書</emphasis></term>
+          <term><emphasis role="bold">⑦ 完了文書</emphasis></term>
 
           <listitem>
-            <para>すべての文書の最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
-            role="bold">More</emphasis>] をクリックすると、<emphasis role="bold">
-            すべての文書</emphasis>に移動します。</para>
+            <para>完了文書の最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
+            role="bold">More</emphasis> をクリックすると、<emphasis role="bold">
+            完了文書</emphasis> に移動します。</para>
           </listitem>
         </varlistentry>
 
@@ -318,17 +324,17 @@
         <para><emphasis
         role="bold">使用頻度の高いテンプレートをお気に入りに登録する方法！</emphasis></para>
 
-        <para>頻繁に使用するテンプレートをお気に入りとして追加して文書を作成できます。テンプレート <emphasis
-        role="bold">お気に入り</emphasis>への登録は、ダッシュボードで行います。</para>
+        <para>頻繁に使用するテンプレートをお気に入りとして追加して文書を作成できます。テンプレートの <emphasis
+        role="bold">お気に入り</emphasis> への登録は、ダッシュボードで行います。</para>
 
         <orderedlist>
           <listitem>
-            <para>ダッシュボードの 「お気に入り]」ボックスで、追加アイコン ( <inlinemediaobject>
+            <para>ダッシュボードの「お気に入り」ボックスで、追加アイコン ( <inlinemediaobject>
                 <imageobject>
                   <imagedata contentwidth="17"
                              fileref="resources/favorites-add.PNG"/>
                 </imageobject>
-              </inlinemediaobject>) をクリックしてください。</para>
+              </inlinemediaobject>) をクリックします。</para>
           </listitem>
 
           <listitem>
@@ -366,7 +372,8 @@
 
     <para><indexterm class="singular">
         <primary>マイ情報</primary>
-      </indexterm>eformsignに会員登録する時に入力した個人情報や登録会社を確認するには、サイドバーメニューの右上のアイコン（<inlinemediaobject>
+      </indexterm>eformsign
+    に会員登録する時に入力した個人情報や登録会社を確認するには、サイドバーメニューの右上のアイコン（<inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="17"
                      fileref="resources/menu-hamberger-icon.png"/>
@@ -374,7 +381,7 @@
       </inlinemediaobject>) をクリックして確認します。</para>
 
     <figure>
-      <title>「マイ情報」を含む アイコン</title>
+      <title>マイ情報を含むメニューアイコン</title>
 
       <mediaobject>
         <imageobject>
@@ -405,22 +412,23 @@
         <para><emphasis role="bold">会社の変更：</emphasis><indexterm
             class="singular">
             <primary>会社の変更</primary>
-          </indexterm>複数の会社がある場合は、「会社の変更」
-        をクリックして会社の一覧を表示し、変更したい会社をクリックして会社を変更できます。</para>
+          </indexterm>eformsign
+        に登録している複数の会社がある場合は、「会社の変更」をクリックして会社の一覧を表示し、変更したい会社をクリックして会社を変更できます。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">マイ情報:</emphasis><indexterm
+        <para><emphasis role="bold">マイ情報：</emphasis><indexterm
             class="singular">
             <primary>マイ情報</primary>
-          </indexterm>eformsignに会員登録するに入力した個人情報を確認および変更し、所属会社の情報を確認することができます。</para>
+          </indexterm>eformsign
+        に会員登録するときに入力した個人情報を確認および変更し、所属会社の情報を確認することができます。</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">ログアウト：</emphasis><indexterm
             class="singular">
             <primary>ログアウト</primary>
-          </indexterm>eformsignからログアウトできます。</para>
+          </indexterm>eformsign からログアウトできます。</para>
       </listitem>
     </itemizedlist>
 
@@ -453,7 +461,7 @@
           <term><emphasis role="bold">SNSアカウントで接続</emphasis></term>
 
           <listitem>
-            <para>SNSアカウントは、GoogleやFacebook アカウントから接続、追加、接続解除できます。</para>
+            <para>SNSアカウントは、GoogleやFacebook のアカウントを使用して接続、追加、接続解除できます。</para>
           </listitem>
         </varlistentry>
 
@@ -461,16 +469,16 @@
           <term><emphasis role="bold">お知らせ</emphasis></term>
 
           <listitem>
-            <para>「マーケティング情報の受信」を確認し、同意するまたは同意しないを選択できます。</para>
+            <para>「マーケティング情報の受信」を確認し、「同意する」または「同意しない」を選択できます。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">会員脱退</emphasis></term>
+          <term><emphasis role="bold">eformsignから脱退</emphasis></term>
 
           <listitem>
             <para>eformsignから会員脱退をしようとする場合は、画面の下部の <emphasis
-            role="bold">eformsign から脱退</emphasis>をクリックして、会員を脱退できます。</para>
+            role="bold">eformsign から脱退＞</emphasis>をクリックして、会員を脱退できます。</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -492,7 +500,7 @@
           <term><emphasis role="bold">基本情報</emphasis></term>
 
           <listitem>
-            <para>会社名、国、言語、連絡先情報などの基本情報を確認することができます。</para>
+            <para>会社名、国、言語、連絡先などの基本情報を確認することができます。</para>
           </listitem>
         </varlistentry>
 
@@ -500,28 +508,29 @@
           <term><emphasis role="bold">詳細情報</emphasis></term>
 
           <listitem>
-            <para>会社の住所、事業者登録番号、ホームページのURL、代表管理者の名前、メールアドレスの詳細を確認することができます。</para>
+            <para>会社の住所、事業者登録番号、ホームページのURL、代表管理者の名前とメールアドレスを確認することができます。</para>
 
             <note>
-              <para>マイ情報では、会社情報の確認のみ可能で、会社関連情報の修正については、 <emphasis
+              <para>マイ情報では、会社情報を確認することのみ可能で、会社関連情報の修正については、 <emphasis
               role="bold">会社管理 &gt; 会社情報</emphasis>
-              メニューで行います。会社情報の修正は、代表管理者または会社管理権限を有するメンバーのみが実行できます。</para>
+              メニューで行います。会社情報の修正は、代表管理者または会社管理の権限を有するメンバーのみが実行できます。</para>
             </note>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">会社から脱退する</emphasis></term>
+          <term><emphasis role="bold">この会社を脱退する</emphasis></term>
 
           <listitem>
-            <para>会社を脱退したい場合は、画面下部の <emphasis role="bold">この会社</emphasis>
-            <emphasis role="bold">脱退する</emphasis>をクリックして脱退できます。<emphasis
-            role="bold">この会社脱退する</emphasis>をクリックすると、所属している会社のリストが表示され、そのリストから脱退したい会社を選択して撤退を行うことができます。</para>
+            <para>会社を脱退したい場合は、画面下部の <emphasis
+            role="bold">この会社</emphasis><emphasis role="bold">脱退する</emphasis>
+            をクリックして脱退できます。<emphasis role="bold">この会社脱退する</emphasis>
+            をクリックすると、所属している会社のリストが表示され、そのリストから脱退したい会社を選択して撤退を行うことができます。</para>
 
             <important>
-              <para>一般メンバーの場合、所属会社を退社する場合、個人のアカウントは保持され、別の会社に入会したり、新しい会社を作成したりできます。</para>
+              <para>一般メンバーの場合、所属会社を退社する場合、個人のアカウントは保持され、別の会社に入会したり、新しい会社を作成したりすることができます。</para>
 
-              <para>代表管理者の場合は、脱退時に会社が削除されます。会社を削除せずに会社を脱退する場合は、代理管理者を別の人に委任した後、会社を脱退する必要があります。</para>
+              <para>代表管理者の場合は、脱退時に会社が削除されます。会社を削除せずに会社を脱退したい場合は、代理管理者を別の人に委任した後、会社を脱退する必要があります。</para>
             </important>
           </listitem>
         </varlistentry>
@@ -531,23 +540,24 @@
     <section>
       <title>会社情報の修正および追加</title>
 
-      <para><emphasis role="bold">マイ情報</emphasis>で確認可能な会社情報については <emphasis
-      role="bold">会社管理 &gt; 会社情報</emphasis>で修正できます。<indexterm class="singular">
+      <para><emphasis role="bold">マイ情報</emphasis> で確認可能な会社情報については、 <emphasis
+      role="bold">会社管理 &gt; 会社情報 </emphasis>で修正できます。<indexterm
+          class="singular">
           <primary>会社情報</primary>
         </indexterm></para>
 
       <note>
         <para>この作業は <emphasis role="bold">代表管理者</emphasis> または <emphasis
-        role="bold">会社の管理権限</emphasis>が必要です。</para>
+        role="bold">会社管理の権限</emphasis>が必要です。</para>
       </note>
 
       <figure>
-        <title>会社管理 &gt; 会社情報 メニュー</title>
+        <title>会社管理 &gt; 会社情報メニュー</title>
 
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/managecompany-companyinfo-menu.png"
-                       width="750"/>
+                       width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -556,8 +566,8 @@
 
       <orderedlist>
         <listitem>
-          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt;
-          会社情報</emphasis>に移動します。</para>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; 会社情報
+          </emphasis>に移動します。</para>
         </listitem>
 
         <listitem>
@@ -567,7 +577,7 @@
 
         <listitem>
           <para>修正が完了したら、各領域の下部の <emphasis role="bold">保存</emphasis>
-          ボタンをクリックしてください。</para>
+          ボタンをクリックします。</para>
         </listitem>
       </orderedlist>
 
@@ -577,12 +587,10 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/managecompany-companyinfo-edit_1.png"
-                       width="750"/>
+                       width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
-
-      <para/>
     </section>
 
     <section>
@@ -590,14 +598,15 @@
 
       <para><indexterm class="singular">
           <primary>ブランド</primary>
-        </indexterm>会社のロゴやシンボルを登録して、eformsignのダッシュボードやサイドバーメニューに表示することができ、文書を依頼するときなどに送信するメールのテンプレートに表示することができます。</para>
+        </indexterm>会社のロゴやシンボルを登録して、eformsign
+      のダッシュボードやサイドバーメニューに表示することができ、文書を依頼するときなどに送信するメールのテンプレートに表示することもできます。</para>
 
       <note>
         <para><emphasis role="bold">ロゴとシンボルの違い</emphasis></para>
 
-        <para>ロゴもシンボルも会社を代表するイメージです。ロゴは通常、ブランド名を書いている縦長の形で、記号は画像のみで表した正方形の形です。</para>
+        <para>ロゴもシンボルも会社を代表するイメージです。ロゴは通常、ブランド名を書いている縦長の形であり、シンボルは画像のみで表した正方形の形です。</para>
 
-        <para>eformsignは、ロゴには 512 x 128 の縦の画像を、シンボルには 120 x 120
+        <para>eformsign は、ロゴには 512 x 128 の縦の画像を、シンボルには 120 x 120
         の正方形の画像を使用することを推奨します。</para>
       </note>
 
@@ -608,15 +617,15 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/managecompany-brand.png" width="750"/>
+            <imagedata fileref="resources/managecompany-brand.png" width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
 
       <orderedlist>
         <listitem>
-          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt;
-          会社情報</emphasis>に移動します。</para>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; 会社情報
+          </emphasis>に移動します。</para>
         </listitem>
 
         <listitem>
@@ -629,12 +638,12 @@
         </listitem>
 
         <listitem>
-          <para>画像のアップロードのポップアップが表示されたら、PC
+          <para>画像アップロードのポップアップが表示されたら、PC
           に保存されているロゴの画像ファイルを選択してアップロードします。</para>
 
           <itemizedlist>
             <listitem>
-              <para>画像サイズ：幅512px、縦128pxを推奨</para>
+              <para>画像サイズ：幅 512 px、縦 128 px を推奨</para>
             </listitem>
 
             <listitem>
@@ -647,19 +656,6 @@
               <para>ファイル形式：PNG, JPG, JPEG, GIF</para>
             </listitem>
           </itemizedlist>
-
-          <para/>
-
-          <figure>
-            <title>画像をアップロードするポップアップ画面</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="resources/managecompany-logo-upload.png"
-                           width="650"/>
-              </imageobject>
-            </mediaobject>
-          </figure>
         </listitem>
 
         <listitem>
@@ -674,7 +670,7 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/logo-change.png" width="750"/>
+                <imagedata fileref="resources/logo-change.png" width="730"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -696,7 +692,7 @@
 
         <para><indexterm class="singular">
             <primary>代表者管理者の権限</primary>
-          </indexterm>会社の代表者は、eformsignの使用を完全に制御できる権限を持ちます。</para>
+          </indexterm>会社の代表者は、eformsign の使用を完全に制御できる権限を持ちます。</para>
       </listitem>
 
       <listitem>
@@ -704,15 +700,15 @@
 
         <para><emphasis role="bold">会社管理</emphasis> <indexterm
             class="singular">
-            <primary>会社の管理権限</primary>
+            <primary>会社管理の権限</primary>
           </indexterm>メニューにアクセスできます。会社情報、メンバー、グループなどを管理でき、<emphasis
-        role="bold">メンバー管理</emphasis>では権限を設定できます。</para>
+        role="bold">メンバー管理 </emphasis>では権限を設定できます。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">テンプレートの管理</emphasis></para>
+        <para><emphasis role="bold">テンプレート管理</emphasis></para>
 
-        <para><emphasis role="bold">テンプレートの管理</emphasis> <indexterm
+        <para><emphasis role="bold">テンプレート管理</emphasis> <indexterm
             class="singular">
             <primary>テンプレート管理の権限</primary>
           </indexterm>メニューにアクセスできます。フォームビルダーを使用して、フォームファイルを作成したり、Webフォームデザイナーでファイルをアップロードして新しいテンプレートを登録したりすることができます。テンプレートを修正、配布、および削除できます。</para>
@@ -723,18 +719,18 @@
 
         <para><emphasis role="bold">文書の管理</emphasis> <indexterm
             class="singular">
-            <primary>文書管理の権限</primary>
+            <primary>文書の管理権限</primary>
           </indexterm>メニューにアクセスして、テンプレート別に作成された文書を表示およびダウンロードできます。</para>
 
         <para><emphasis
-        role="bold">文書管理の権限</emphasis>は、テンプレート別に異なる方法で指定できます。</para>
+        role="bold">文書の管理権限</emphasis>は、テンプレート別に異なる方法で指定できます。</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">文書の作成</emphasis></para>
 
         <para><indexterm class="singular">
-            <primary>文書作成の権限</primary>
+            <primary>テンプレートの使用権限</primary>
           </indexterm><indexterm class="singular">
             <primary>テンプレートの使用権限</primary>
           </indexterm>テンプレート別に <emphasis role="bold">テンプレートの使用権限
@@ -747,7 +743,8 @@
 
       <para><indexterm class="singular">
           <primary>代表管理者</primary>
-        </indexterm>代表管理者は、会員登録時に会社を新規登録したユーザーが代表管理者となります。eformsignの使用に関するすべての権限を持つ最上位レベルの管理者です。</para>
+        </indexterm>会員登録時に会社を新規登録したユーザーが代表管理者となります。eformsign
+      の使用に関するすべての権限を持つ最上位レベルの管理者です。</para>
 
       <para>代表管理者</para>
 
@@ -774,7 +771,7 @@
           <primary>代表管理者の権限の委任</primary>
         </indexterm></para>
 
-      <para><emphasis role="bold">代理人管理者の権限を委任する方法</emphasis></para>
+      <para><emphasis role="bold">代表管理者の権限を委任する方法</emphasis></para>
 
       <note>
         <para>この作業は <emphasis role="bold">代表管理者</emphasis> の権限が必要です。</para>
@@ -782,18 +779,19 @@
 
       <orderedlist>
         <listitem>
-          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt;
-          会社情報</emphasis>に移動します。</para>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; 会社情報</emphasis>
+          に移動します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">詳細情報</emphasis>の<emphasis role="bold">
+          <para><emphasis role="bold">詳細情報</emphasis> の<emphasis role="bold">
           </emphasis><emphasis role="bold">修正 </emphasis>ボタンをクリックすると、
-          <emphasis role="bold">代表管理者</emphasis> の右側に表示される <emphasis
-          role="bold">委任権限</emphasis> のリンクをクリックします。</para>
+          <emphasis role="bold">代表管理者</emphasis> の右側に<emphasis
+          role="bold">委任権限</emphasis> のリンクボタンが表示されます。その <emphasis
+          role="bold">委任権限</emphasis> のリンクボタンをクリックします。</para>
 
           <figure>
-            <title>代表管理者の権限委任の位置</title>
+            <title>代表管理者の権限委任ボタンの位置</title>
 
             <mediaobject>
               <imageobject>
@@ -805,10 +803,8 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">委任権限</emphasis>
-          ポップアップウィンドウで、権限を委任するメンバーを検索および選択します。</para>
-
-          <para/>
+          <para><emphasis role="bold">権限委任</emphasis>
+          ポップアップウィンドウで、権限を委任したいメンバーを検索および選択します。</para>
 
           <figure>
             <title>権限委任のポップアップ画面</title>
@@ -850,23 +846,21 @@
 
       <orderedlist>
         <listitem>
-          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt;
-          メニュー管理</emphasis>に移動します。</para>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; メンバー管理</emphasis>
+          に移動します。</para>
         </listitem>
 
         <listitem>
-          <para>メンバーリストからテンプレート管理の権限を付与するメンバーを選択します。</para>
+          <para>メンバーリストからテンプレート管理の権限を付与したいメンバーを選択します。</para>
         </listitem>
 
         <listitem>
-          <para>右側の <emphasis role="bold">メンバー情報</emphasis>の詳細 画面の下部の<emphasis
-          role="bold">権限</emphasis>で <emphasis
-          role="bold">会社管理</emphasis>にチェックを入れます。</para>
-
-          <para/>
+          <para>右側の <emphasis role="bold">メンバー情報</emphasis> の詳細
+          画面の下部の<emphasis role="bold">権限</emphasis> で <emphasis
+          role="bold">会社管理 </emphasis>にチェックを入れます。</para>
 
           <figure>
-            <title>会社管理の権限の位置</title>
+            <title>会社管理の権限</title>
 
             <mediaobject>
               <imageobject>
@@ -878,11 +872,9 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">保存</emphasis> ボタンをクリックしてください。</para>
+          <para><emphasis role="bold">保存</emphasis> ボタンをクリックします。</para>
         </listitem>
       </orderedlist>
-
-      <para/>
     </section>
 
     <section>
@@ -935,29 +927,29 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">保存</emphasis> ボタンをクリックしてください。</para>
+          <para><emphasis role="bold">保存</emphasis> ボタンをクリックします。</para>
         </listitem>
       </orderedlist>
     </section>
 
     <section>
-      <title>テンプレートの使用（=文書の作成）と文書管理の権限</title>
+      <title>テンプレートの使用権限（=文書の作成）と文書の管理権限</title>
 
       <para><indexterm class="singular">
           <primary>テンプレートの使用権限</primary>
         </indexterm><indexterm class="singular">
-          <primary>文書管理の権限</primary>
+          <primary>文書の管理権限</primary>
         </indexterm>テンプレート別に文書を作成できる権限と作成された文書とその文書に入力されたデータを管理する権限を付与できます。</para>
 
-      <para><emphasis role="bold">テンプレートの使用権限</emphasis>を付与されたメンバーは <emphasis
+      <para><emphasis role="bold">テンプレートの使用権限 </emphasis>を付与されたメンバーは <emphasis
       role="bold">文書の新規作成</emphasis> メニュー画面から、そのテンプレートで文書を作成できます。</para>
 
-      <para><emphasis role="bold">文書管理の権限</emphasis>を付与されたメンバーは <emphasis
-      role="bold">文書の管理
-      </emphasis>メニュー画面から、テンプレートで作成した文書を表示、削除、ダウンロードできます。</para>
+      <para><emphasis role="bold">文書の管理権限</emphasis> を付与されたメンバーは <emphasis
+      role="bold">文書管理
+      </emphasis>メニュー画面からテンプレートで作成した文書を表示、削除、ダウンロードできます。</para>
 
       <para><emphasis
-      role="bold">文書の作成およびテンプレートの使用権限および文書管理の権限を付与する方法</emphasis></para>
+      role="bold">文書の作成およびテンプレートの使用権限、文書の管理権限を付与する方法</emphasis></para>
 
       <note>
         <para>この作業は <emphasis role="bold">代表管理者</emphasis> または <emphasis
@@ -966,8 +958,8 @@
 
       <orderedlist>
         <listitem>
-          <para>サイドバーのメニューで<emphasis role="bold">
-          テンプレート管理</emphasis>に移動します。</para>
+          <para>サイドバーのメニューで<emphasis role="bold"> テンプレート管理
+          </emphasis>に移動します。</para>
         </listitem>
 
         <listitem>
@@ -979,10 +971,8 @@
               </imageobject>
             </inlinemediaobject>) をクリックします。</para>
 
-          <para/>
-
           <figure>
-            <title>テンプレート設定ボタンの位置</title>
+            <title>テンプレートの設定ボタンの位置</title>
 
             <mediaobject>
               <imageobject>
@@ -1013,7 +1003,7 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">保存 </emphasis>ボタンをクリックしてください。</para>
+          <para><emphasis role="bold">保存 </emphasis>ボタンをクリックします。</para>
         </listitem>
       </orderedlist>
     </section>
@@ -1126,27 +1116,28 @@
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">⑧ メンバーの一括招待</emphasis></term>
-
-            <listitem>
-              <para><indexterm class="singular">
-                  <primary>メンバーの一括招待</primary>
-                </indexterm>メンバーを招待するとき、一度に複数のメンバーを招待できます。</para>
-            </listitem>
-          </varlistentry>
-
-          <varlistentry>
-            <term>⑨ メンバー招待</term>
+            <term><emphasis role="bold">⑧ メンバー招待</emphasis></term>
 
             <listitem>
               <para><indexterm class="singular">
                   <primary>メンバー招待</primary>
-                </indexterm>メールまたはIDでメンバーを招待できます。</para>
+                </indexterm>メールまたはIDでメンバーを招待できます。メンバーを招待するとき、一度に複数のメンバーを招待することもできます。</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>⑨ メンバーの削除</term>
+
+            <listitem>
+              <para><indexterm class="singular">
+                  <primary>メンバーの削除</primary>
+                </indexterm><emphasis role="bold">ごみ箱</emphasis>
+              アイコンをクリックすれば、メンバーリストの左側にあるチェックボックスが活性化します。削除したいメンバーを選択し、
+              <emphasis
+              role="bold">削除</emphasis>ボタンをクリックすれば、メンバーが削除されます。</para>
             </listitem>
           </varlistentry>
         </variablelist></para>
-
-      <para/>
     </section>
 
     <section>
@@ -1169,7 +1160,7 @@
           <term>① グループ情報</term>
 
           <listitem>
-            <para>グループリストから情報を表示したいグループをクリックしたら、右側のグループ情報タブでグループ名と説明を変更できます。</para>
+            <para>グループリストから情報を表示したいグループをクリックしたら、右側のグループ情報タブでグループ名とグループの詳細を変更できます。</para>
           </listitem>
         </varlistentry>
 
@@ -1194,7 +1185,7 @@
 
           <listitem>
             <para>グループの追加をクリックすると、<emphasis role="bold"> グループの追加</emphasis>
-            ポップアップウィンドウが表示されたら、グループ名と説明を入力し、メンバーを検索して追加すれば、グループが作成されます。</para>
+            ポップアップウィンドウが表示されたら、グループ名とグループの詳細を入力し、メンバーを検索して追加すれば、グループが作成されます。</para>
           </listitem>
         </varlistentry>
 
@@ -1215,16 +1206,16 @@
     <title>マイ署名の管理</title>
 
     <para><emphasis role="bold">マイ署名</emphasis> メニューで <emphasis
-    role="bold">署名、イニシャル、印鑑・スタンプ</emphasis>を登録しておくと、文書を処理する際に登録された署名で簡単に処理できます。<indexterm
-        class="singular">
+    role="bold">署名、イニシャル、印鑑・スタンプ</emphasis>
+    を登録しておくと、文書を処理する際に登録された署名で簡単に処理できます。<indexterm class="singular">
         <primary>マイ署名</primary>
       </indexterm></para>
 
     <para><emphasis role="bold">署名/イニシャルを登録する方法</emphasis></para>
 
     <note>
-      <para>作業は <emphasis
-      role="bold">PC、モバイル、アプリケーション</emphasis>から進めることができます。</para>
+      <para>作業は <emphasis role="bold">PC、モバイル、アプリケーション</emphasis>
+      から進めることができます。</para>
     </note>
 
     <para><figure>
@@ -1245,13 +1236,11 @@
 
     <orderedlist>
       <listitem>
-        <para>サイドバーのメニューで<emphasis role="bold"> マイ署名</emphasis>に移動します。</para>
+        <para>サイドバーのメニューで<emphasis role="bold"> マイ署名</emphasis> に移動します。</para>
       </listitem>
 
       <listitem>
         <para>登録ボタンをクリックします。</para>
-
-        <para/>
 
         <figure>
           <title>署名の登録画面</title>
@@ -1291,7 +1280,8 @@
             <para><indexterm class="singular">
                 <primary>アプリプッシュ通知</primary>
               </indexterm>接続したいモバイルデバイスを選択した後、 <emphasis
-            role="bold">送信（伝送）</emphasis>ボタンをクリックすると、そのデバイスのeformsignアプリで署名を入力できます。</para>
+            role="bold">送信（伝送）</emphasis>ボタンをクリックすると、そのデバイスの eformsign
+            アプリで署名を入力することができます。</para>
           </listitem>
         </itemizedlist>
       </listitem>
@@ -1310,14 +1300,15 @@
 
     <para><indexterm class="singular">
         <primary>印鑑・スタンプを登録</primary>
-      </indexterm>文書に直接署名するのではなく、印鑑やスタンプを使用する必要がある場合があります。eformsignでは、印鑑やスタンプ画像を使用して文書の署名欄に印鑑やスタンプを押すことができます。</para>
+      </indexterm>文書に直接署名するのではなく、印鑑やスタンプを使用する必要がある場合があります。eformsign
+    では、印鑑やスタンプ画像を使用して文書の署名欄に印鑑やスタンプを押すことができます。</para>
 
     <note>
       <para>印鑑・スタンプの画像イメージを事前に準備する必要があります。</para>
 
       <itemizedlist>
         <listitem>
-          <para>イメージ形式:PNG、JPG</para>
+          <para>イメージ形式：PNG、JPG</para>
         </listitem>
 
         <listitem>
@@ -1328,13 +1319,11 @@
 
     <orderedlist>
       <listitem>
-        <para>サイドバーのメニューで <emphasis role="bold">マイ署名</emphasis>に移動します。</para>
+        <para>サイドバーのメニューで <emphasis role="bold">マイ署名</emphasis> に移動します。</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">印鑑・スタンプを登録 </emphasis>ボタンをクリックします</para>
-
-        <para/>
 
         <figure>
           <title>印鑑・スタンプを登録ボタン</title>
@@ -1349,9 +1338,8 @@
       </listitem>
 
       <listitem>
-        <para>のイメージ領域をクリックすると、ローカルPCに保存されている画像をアップロードできるポップアップウィンドウが表示されます。目的の印鑑・スタンプ画像を選択します。</para>
-
-        <para/>
+        <para>印鑑・スタンプのイメージ領域をクリックすると、ローカル PC
+        に保存されている画像をアップロードできるポップアップウィンドウが表示されます。目的の印鑑・スタンプ画像を選択します。</para>
 
         <figure>
           <title>マイ署名 &gt; 印鑑・スタンプを登録</title>
