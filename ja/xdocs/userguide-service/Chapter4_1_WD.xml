@@ -286,7 +286,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>③ カテゴリー</term>
+          <term>③ カテゴリ</term>
 
           <listitem>
             <para>テンプレートをタイプごとに区分するために使用します。カテゴリー名で<emphasis
@@ -654,13 +654,13 @@
         </listitem>
 
         <listitem>
-          <para>テンプレートの <emphasis role="bold">設定 </emphasis>アイコン
-          (<inlinemediaobject>
+          <para>テンプレートの <emphasis role="bold">設定
+          </emphasis>アイコン（<inlinemediaobject>
               <imageobject>
                 <imagedata contentwidth="33"
                            fileref="resources/config-icon.PNG"/>
               </imageobject>
-            </inlinemediaobject>) をクリックして <emphasis
+            </inlinemediaobject>）をクリックして <emphasis
           role="bold">テンプレートの設定</emphasis> メニューに移動します。</para>
         </listitem>
 
@@ -824,14 +824,13 @@
             </mediaobject>
           </figure>
 
-          <para>文書番号は、文書リストを表示する文書トレイ (進行中文書、要処理文書、完了文書) と 文書管理 メニュー
-          (文書の管理権限が必要) で確認できます。</para>
+          <para>文書番号は、文書リストを表示する文書トレイ（進行中文書、要処理文書、完了文書）と 文書管理
+          メニュー（文書の管理権限が必要）で確認できます。</para>
 
           <orderedlist>
             <listitem>
-              <para>サイドバーのメニューで <emphasis
-              role="bold">文書トレイ</emphasis>または<emphasis
-              role="bold">文書管理</emphasis> メニューに移動します。</para>
+              <para>サイドバーのメニューで <emphasis role="bold">文書トレイ</emphasis>
+              または<emphasis role="bold">文書管理</emphasis> メニューに移動します。</para>
             </listitem>
 
             <listitem>
@@ -925,7 +924,7 @@
       <para><emphasis role="bold">文書の管理権限</emphasis></para>
 
       <para><indexterm class="singular">
-          <primary>文書の管理権限</primary>
+          <primary sortas="ぶんしょのかんりけんげん">文書の管理権限</primary>
         </indexterm>グループまたはメンバーを選択して、テンプレートを使用して作成された文書を閲覧したり、完了文書の無効化の依頼を承認したりでき、文書を永久削除する権限をすべて、または各々を設定できます。</para>
 
       <itemizedlist>
@@ -1050,7 +1049,7 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">開始：文書を作成するステップです。<indexterm
+          <term><emphasis role="bold">開始：文書を作成するステップ<indexterm
               class="singular">
               <primary>ワークフロー</primary>
 

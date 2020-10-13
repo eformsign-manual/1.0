@@ -23,7 +23,7 @@
       <listitem>
         <para><emphasis role="bold">進行中の文書：</emphasis> <indexterm
             class="singular">
-            <primary>文書トレイ</primary>
+            <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
             <secondary>進行中の文書</secondary>
           </indexterm>作成または処理済みで、完了していない文書のリストを確認できます。</para>
@@ -32,7 +32,7 @@
       <listitem>
         <para><emphasis role="bold">要処理文書：</emphasis> <indexterm
             class="singular">
-            <primary>文書トレイ</primary>
+            <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
             <secondary>要処理文書</secondary>
           </indexterm>下書きとして保存した文書、処理が必要な文書（他のメンバーから作成または決裁の依頼のあった文書）、または外部受信者に送信した文書のうち処理を待機中の文書のリストを確認できます。</para>
@@ -41,7 +41,7 @@
       <listitem>
         <para><emphasis role="bold">完了文書：</emphasis> <indexterm
             class="singular">
-            <primary>文書トレイ</primary>
+            <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
             <secondary>完了文書</secondary>
           </indexterm>自分が作成または処理したすべての文書のリストを確認できます。</para>
@@ -54,7 +54,7 @@
       <listitem>
         <para><emphasis role="bold">文書管理：</emphasis> <indexterm
             class="singular">
-            <primary>文書管理</primary>
+            <primary sortas="ぶんしょかんり">文書管理</primary>
           </indexterm>このメニューには、文書の管理権限を持つ場合だけアクセスできます。文書管理者は、権限を持つテンプレートで作成されたすべての文書を照会できます。</para>
       </listitem>
     </itemizedlist>
@@ -195,7 +195,7 @@
       </itemizedlist>
 
       <para><emphasis role="bold">カテゴリー検索 <indexterm class="singular">
-          <primary>文書トレイ</primary>
+          <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
           <secondary>カテゴリー検索</secondary>
         </indexterm></emphasis></para>
@@ -216,7 +216,7 @@
       </figure>
 
       <para><emphasis role="bold">キーワードおよびフィルターの検索<indexterm class="singular">
-          <primary>文書トレイ</primary>
+          <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
           <secondary>キーワードおよびフィルターの検索</secondary>
         </indexterm></emphasis></para>
@@ -388,7 +388,7 @@
       <para/>
 
       <para><emphasis role="bold">カスタムフィルターの使用方法<indexterm class="singular">
-          <primary>文書トレイ</primary>
+          <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
           <secondary>カスタムフィルター</secondary>
         </indexterm></emphasis></para>
@@ -471,7 +471,7 @@
         <listitem>
           <para><emphasis role="bold">キーワード</emphasis></para>
 
-          <para>複数の値をコンマ（ , `）で区切って設定できます。デフォルト値は空の値です。</para>
+          <para>複数の値をコンマ（ , ）で区切って設定できます。デフォルト値は空の値です。</para>
 
           <para>設定したテキストを含む値が検索されます。これは、複数の文書のうち1つ以上を含む文書を検索します。</para>
 
@@ -588,7 +588,7 @@
 
     <section xml:id="document_download">
       <title>文書のダウンロード<indexterm class="singular">
-          <primary>文書トレイ</primary>
+          <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
           <secondary>文書のダウンロード</secondary>
         </indexterm></title>
@@ -667,7 +667,7 @@
 
     <para><emphasis role="bold">文書の新規作成</emphasis></para>
 
-    <para>1.[文書の新規作成] メニューに移動します。</para>
+    <para>1.「文書の新規作成」メニューに移動します。</para>
 
     <para>2.作成したいテンプレートの作成 アイコンをクリックします。</para>
 
@@ -692,7 +692,7 @@
     <title>一括生成</title>
 
     <para><indexterm class="singular">
-        <primary>文書トレイ</primary>
+        <primary sortas="ぶんしょとれい">文書トレイ</primary>
 
         <secondary>一括生成</secondary>
       </indexterm>一括生成の機能を使用すると、一度に複数の文書を作成できます。作成を完了する前に、作成する文書をプレビューできます。</para>
@@ -758,7 +758,7 @@
       <para>1.一括生成で入力できないコンポーネント：カメラ、録音、およびグループ化されている選択コンポーネントは、一括生成では作成できないコンポーネントです。</para>
 
       <para>2.作成ステップでアクセスが許可されているコンポーネント：<emphasis role="bold">テンプレート管理 &gt;
-      テンプレートの設定 (⚙) &gt; ワークフローの設定</emphasis>
+      テンプレートの設定 &gt; ワークフローの設定</emphasis>
       でアクセスが許可されているコンポーネントのみが表示されます。</para>
     </tip>
   </section>

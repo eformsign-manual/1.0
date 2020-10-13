@@ -40,7 +40,7 @@
         <listitem>
           <para><emphasis role="bold">文書の新規作成：</emphasis><indexterm
               class="singular">
-              <primary>文書の新規作成</primary>
+              <primary sortas="ぶんしょのしんきさくせい">文書の新規作成</primary>
             </indexterm>文書を作成可能なテンプレートのリストが表示されます。リストからテンプレートを選択して文書を作成します。</para>
         </listitem>
 
@@ -54,21 +54,21 @@
             <listitem>
               <para><emphasis role="bold">進行中の文書：</emphasis><indexterm
                   class="singular">
-                  <primary>進行中の文書</primary>
+                  <primary sortas="しんこうちゅうのぶんしょ">進行中の文書</primary>
                 </indexterm>作成または処理済みで、完了はしていない文書のリストを表示します。</para>
             </listitem>
 
             <listitem>
               <para><emphasis role="bold">要処理文書：</emphasis><indexterm
                   class="singular">
-                  <primary>要処理文書</primary>
+                  <primary sortas="ようしょりぶんしょ">要処理文書</primary>
                 </indexterm>下書きとして保存した文書や、他のメンバーが作成または決裁を依頼した文書のリストを表示します。</para>
             </listitem>
 
             <listitem>
               <para><emphasis role="bold">完了文書：</emphasis><indexterm
                   class="singular">
-                  <primary>すべての文書</primary>
+                  <primary sortas="かんりょうぶんしょ">完了文書</primary>
                 </indexterm>自分が作成または処理済みの文書のうち、完了文書のリストを表示します。</para>
             </listitem>
           </itemizedlist>
@@ -77,7 +77,7 @@
         <listitem>
           <para><emphasis role="bold">文書管理：</emphasis> <indexterm
               class="singular">
-              <primary>文書管理</primary>
+              <primary sortas="ぶんしょかんり">文書管理</primary>
             </indexterm>このメニューには、文書の管理権限がある場合にのみアクセスできます。文書の管理権限を持っている文書については、すべて表示します。ただし、代表管理者の場合は、すべての文書を確認および管理できます。</para>
         </listitem>
 
@@ -98,14 +98,14 @@
         <listitem>
           <para><emphasis role="bold">会社管理：</emphasis><indexterm
               class="singular">
-              <primary>会社管理</primary>
+              <primary sortas="かいしゃかんり">会社管理</primary>
             </indexterm>このメニューには、会社の代表管理者のみがアクセスできます。会社情報を照会し、情報を変更できます。</para>
 
           <itemizedlist>
             <listitem>
               <para><emphasis role="bold">会社情報：</emphasis><indexterm
                   class="singular">
-                  <primary>会社情報</primary>
+                  <primary sortas="かいしゃじょうほう">会社情報</primary>
                 </indexterm>会社情報を確認することができます。</para>
             </listitem>
 
@@ -133,7 +133,7 @@
             <listitem>
               <para><emphasis role="bold">通知テンプレート管理：</emphasis><indexterm
                   class="singular">
-                  <primary>通知テンプレート管理</primary>
+                  <primary sortas="つうちてんぷれーとかんり">通知テンプレート管理</primary>
                 </indexterm>eformsign から送信されるメールおよび SMS
               の通知テンプレートのリストを確認および変更できます。</para>
             </listitem>
@@ -141,7 +141,7 @@
             <listitem>
               <para><emphasis role="bold">署名の設定：</emphasis><indexterm
                   class="singular">
-                  <primary>署名の設定</primary>
+                  <primary sortas="しょめいのせってい">署名の設定</primary>
                 </indexterm>文書の署名欄に直接署名するときに使用可能な署名方法が選択できます。</para>
             </listitem>
           </itemizedlist>
@@ -165,7 +165,7 @@
             <listitem>
               <para><emphasis role="bold">分析およびレポート：</emphasis><indexterm
                   class="singular">
-                  <primary>分析およびレポート</primary>
+                  <primary sortas="ぶんせきおよびれぽーと">分析およびレポート</primary>
                 </indexterm>文書に入力されたデータを Google スプレッドシートと Office 365 Excel
               に自動保存するように設定することができます。</para>
             </listitem>
@@ -227,7 +227,7 @@
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>文書の新規作成</primary>
+                <primary sortas="ぶんしょのしんきさくせい">文書の新規作成</primary>
               </indexterm>保存したテンプレートを使用して、文書を新規作成できる<emphasis role="bold">
             文書の新規作成</emphasis> 画面に移動します。</para>
           </listitem>
@@ -238,7 +238,7 @@
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>進行中の文書</primary>
+                <primary sortas="しんこうちゅうのぶんしょ">進行中の文書</primary>
               </indexterm>現在進行中の文書の数が表示され、クリックすると、<emphasis role="bold">
             </emphasis>進行中の文書のリストが確認できる <emphasis
             role="bold">進行中の文書</emphasis> に移動します。</para>
@@ -250,7 +250,7 @@
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>要処理文書</primary>
+                <primary sortas="ようしょりぶんしょ">要処理文書</primary>
               </indexterm>処理する必要のある文書の数を表示します。クリックすると <emphasis
             role="bold">要処理文書 </emphasis>に移動します。</para>
           </listitem>
@@ -261,7 +261,7 @@
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>すべての文書</primary>
+                <primary sortas="かんりょうぶんしょ">完了文書</primary>
               </indexterm>完了文書を確認できる <emphasis role="bold">完了文書</emphasis>
             に移動します。</para>
           </listitem>
@@ -411,7 +411,7 @@
       <listitem>
         <para><emphasis role="bold">会社の変更：</emphasis><indexterm
             class="singular">
-            <primary>会社の変更</primary>
+            <primary sortas="かいしゃのへんこう">会社の変更</primary>
           </indexterm>eformsign
         に登録している複数の会社がある場合は、「会社の変更」をクリックして会社の一覧を表示し、変更したい会社をクリックして会社を変更できます。</para>
       </listitem>
@@ -693,7 +693,7 @@
         <para><emphasis role="bold">代表管理者</emphasis></para>
 
         <para><indexterm class="singular">
-            <primary>代表者管理者の権限</primary>
+            <primary sortas="だいひょうかんりしゃのけんげｎ">代表者管理者の権限</primary>
           </indexterm>会社の代表者は、eformsign の使用を完全に制御できる権限を持ちます。</para>
       </listitem>
 
@@ -702,7 +702,7 @@
 
         <para><emphasis role="bold">会社管理</emphasis> <indexterm
             class="singular">
-            <primary>会社管理の権限</primary>
+            <primary sortas="かいしゃかんりのけんげん">会社管理の権限</primary>
           </indexterm>メニューにアクセスできます。会社情報、メンバー、グループなどを管理でき、<emphasis
         role="bold">メンバー管理 </emphasis>では権限を設定できます。</para>
       </listitem>
@@ -722,7 +722,7 @@
 
         <para><emphasis role="bold">文書の管理</emphasis> <indexterm
             class="singular">
-            <primary>文書の管理権限</primary>
+            <primary sortas="ぶんしょのかんりけんげん">文書の管理権限</primary>
           </indexterm>メニューにアクセスして、テンプレート別に作成された文書を表示およびダウンロードできます。</para>
 
         <para><emphasis
@@ -772,7 +772,7 @@
 
       <para>代表管理者が脱退した場合、会社は削除されます。会社を削除せずに脱退するには、他のメンバーに代表管理者の権限を委任してから脱退する必要があります。<indexterm
           class="singular">
-          <primary>代表管理者の権限の委任</primary>
+          <primary sortas="だいひょうかんりしゃのけんげんのいにん">代表管理者の権限の委任</primary>
         </indexterm></para>
 
       <para><emphasis role="bold">代表管理者の権限を委任する方法</emphasis></para>
@@ -942,7 +942,7 @@
       <para><indexterm class="singular">
           <primary>テンプレートの使用権限</primary>
         </indexterm><indexterm class="singular">
-          <primary>文書の管理権限</primary>
+          <primary sortas="ぶんしょのかんりけんげん">文書の管理権限</primary>
         </indexterm>テンプレート別に文書を作成できる権限と作成された文書とその文書に入力されたデータを管理する権限を付与できます。</para>
 
       <para><emphasis role="bold">テンプレートの使用権限 </emphasis>を付与されたメンバーは <emphasis
@@ -1060,7 +1060,7 @@
 
             <listitem>
               <para><indexterm class="singular">
-                  <primary>活性メンバー</primary>
+                  <primary sortas="かっせいめんばー">活性メンバー</primary>
                 </indexterm>招待を承諾して活性化しているメンバーのリストと情報を確認できます。</para>
             </listitem>
           </varlistentry>
@@ -1070,7 +1070,7 @@
 
             <listitem>
               <para><indexterm class="singular">
-                  <primary>非活性メンバー</primary>
+                  <primary sortas="ひかっせいめんばー">非活性メンバー</primary>
                 </indexterm>非活性メンバーのリストと情報を確認できます。</para>
             </listitem>
           </varlistentry>
@@ -1080,7 +1080,7 @@
 
             <listitem>
               <para><indexterm class="singular">
-                  <primary>招待メンバー</primary>
+                  <primary sortas="しょうたいめんばー">招待メンバー</primary>
                 </indexterm>招待したメンバーのリストと情報を確認できます。</para>
             </listitem>
           </varlistentry>
@@ -1114,7 +1114,7 @@
 
             <listitem>
               <para><indexterm class="singular">
-                  <primary>文書の移管</primary>
+                  <primary sortas="ぶんしょのいかん">文書の移管</primary>
                 </indexterm>メンバーが eformsign
               を使用しなくなった場合は、そのメンバーが処理または処理予定の文書を別のメンバーに移管できます。</para>
             </listitem>
@@ -1305,7 +1305,7 @@
     <para><emphasis role="bold">印鑑・スタンプを登録する方法</emphasis></para>
 
     <para><indexterm class="singular">
-        <primary>印鑑・スタンプを登録</primary>
+        <primary sortas="いんかんすたんぷをとうろく">印鑑・スタンプを登録</primary>
       </indexterm>文書に直接署名するのではなく、印鑑やスタンプを使用する必要がある場合があります。eformsign
     では、印鑑やスタンプ画像を使用して文書の署名欄に印鑑やスタンプを押すことができます。</para>
 
@@ -1329,7 +1329,7 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">印鑑・スタンプを登録 </emphasis>ボタンをクリックします</para>
+        <para><emphasis role="bold">印鑑・スタンプを登録 </emphasis>ボタンをクリックします。</para>
 
         <figure>
           <title>印鑑・スタンプを登録ボタン</title>

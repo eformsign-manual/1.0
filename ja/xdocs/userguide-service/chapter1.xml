@@ -137,7 +137,7 @@
         <para><emphasis role="bold">文書 </emphasis></para>
 
         <para><indexterm class="singular">
-            <primary>文書</primary>
+            <primary sortas="ぶんしょ">文書</primary>
           </indexterm><emphasis role="bold">文書の新規作成</emphasis>
         メニューのテンプレートを使用し、複数の文書を作成することができます。このように作成された文書が、eformsign
         で文書の作成数を集計する基準になります。</para>
@@ -147,28 +147,28 @@
         <para><emphasis role="bold">文書トレイ</emphasis></para>
 
         <para><indexterm class="singular">
-            <primary>文書トレイ</primary>
+            <primary sortas="ぶんしょとれい">文書トレイ</primary>
           </indexterm>作成された文書を保存および閲覧できる空間です。文書の状態によって3つの文書トレイに分かれて保存されます。</para>
 
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">進行中の文書:</emphasis><indexterm
                 class="singular">
-                <primary>進行中の文書</primary>
+                <primary sortas="しんこうちゅうのぶんしょ">進行中の文書</primary>
               </indexterm>自分が作成または処理済みの文書で、完了はしていない文書のリストを表示します。</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">要処理文書:</emphasis> <indexterm
                 class="singular">
-                <primary>要処理文書</primary>
+                <primary sortas="ようしょりぶんしょ">要処理文書</primary>
               </indexterm>決裁依頼や作成依頼など、自分が処理する必要のある文書のリストを表示します。</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">完了文書:</emphasis><indexterm
                 class="singular">
-                <primary>完了文書</primary>
+                <primary sortas="かんりょうぶんしょ">完了文書</primary>
               </indexterm>自分が作成または処理済みの文書のうち、完了文書のリストを表示します。</para>
           </listitem>
         </itemizedlist>
@@ -183,30 +183,30 @@
             <primary>ワークフロー</primary>
           </indexterm>文書の作成から完了までの処理プロセスをいいます。テンプレート管理者は、テンプレートごとにワークフローのステップを設定できます。ワークフローの
         <emphasis role="bold">開始 — 完了</emphasis><indexterm class="singular">
-            <primary>開始</primary>
+            <primary sortas="かいし">開始</primary>
           </indexterm><indexterm class="singular">
-            <primary>完了</primary>
+            <primary sortas="かんりょう">完了</primary>
           </indexterm>はデフォルトのステップであり、次の 3 つのステップを追加できます。</para>
 
         <itemizedlist>
           <listitem>
             <para><emphasis role="bold">決裁者:</emphasis><indexterm
                 class="singular">
-                <primary>決裁者</primary>
+                <primary sortas="けっさいしゃ">決裁者</primary>
               </indexterm>メンバーが文書の決裁と承認を行うステップです。</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">内部受信者:</emphasis><indexterm
                 class="singular">
-                <primary>内部受信者</primary>
+                <primary sortas="ないぶじゅしんしゃ">内部受信者</primary>
               </indexterm>会社の他のメンバーが文書を作成または検討するステップです。</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">外部受信者:</emphasis><indexterm
                 class="singular">
-                <primary>外部受信者</primary>
+                <primary sortas="がいぶじゅしんしゃ">外部受信者</primary>
               </indexterm>メンバー以外の外部の人が文書を作成または検討するステップです。</para>
           </listitem>
         </itemizedlist>
