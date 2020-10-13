@@ -13,13 +13,16 @@
 
     <para><indexterm class="singular">
         <primary>クラウドストレージ</primary>
-      </indexterm>eformsign は、完了文書を外部のクラウドストレージサービスに自動で保存するように設定できます。現在、Dropbox、Google Drive、OneDrive、boxに対応しています。</para>
+      </indexterm>eformsign
+    は、完了文書を外部のクラウドストレージサービスに自動で保存するように設定できます。現在、Dropbox、Google
+    Drive、OneDrive、box に対応しています。</para>
 
     <note>
       <para>外部のクラウドストレージへの連動は代表管理者のみ設定できます。</para>
     </note>
 
-    <para>1.メニューの<emphasis role="bold"> コネクト > クラウドストレージ</emphasis>に移動します。</para>
+    <para>1.メニューの<emphasis role="bold"> コネクト &gt; クラウドストレージ
+    </emphasis>に移動します。</para>
 
     <para/>
 
@@ -33,7 +36,8 @@
       </mediaobject>
     </figure>
 
-    <para>2.完了文書を保存するクラウドストレージを選択した後、<emphasis role="bold"> アカウント接続</emphasis> ボタンをクリックしてログインします。</para>
+    <para>2.完了文書を保存するクラウドストレージを選択した後、<emphasis role="bold"> アカウント接続</emphasis>
+    ボタンをクリックしてログインします。</para>
 
     <para>3.ログインすると、 <emphasis role="bold">接続解除</emphasis>と<emphasis
     role="bold"> 保存パスの設定</emphasis> ボタンが表示されます。必要に応じて <emphasis
@@ -52,7 +56,9 @@
     <note>
       <para>保存パスの設定ポップアップは、次の通りです。</para>
 
-      <para>デフォルトのパスは、eformsignのサブフォルダーとして会社名が入ります。<emphasis role="bold">新しいフォルダー</emphasis> ボタンをクリックして、新しいフォルダーを作成し、保存パスを変更することもできます。</para>
+      <para>デフォルトのパスは、eformsign のサブフォルダーとして会社名が入ります。<emphasis
+      role="bold">新しいフォルダー</emphasis>
+      ボタンをクリックして、新しいフォルダーを作成し、保存パスを変更することもできます。</para>
 
       <mediaobject>
         <imageobject>
@@ -63,7 +69,8 @@
 
     <para>4.テンプレート管理メニューに移動します。</para>
 
-    <para>5.クラウドストレージに保存したい文書のテンプレートをクリックし、 <emphasis role="bold">テンプレートの設定</emphasis> メニューに移動します。</para>
+    <para>5.クラウドストレージに保存したい文書のテンプレートをクリックし、 <emphasis
+    role="bold">テンプレートの設定</emphasis> メニューに移動します。</para>
 
     <para>6.<emphasis role="bold">ワークフローの設定</emphasis> メニューに移動します。</para>
 
@@ -78,7 +85,9 @@
       </figure></para>
 
     <para>7.<emphasis role="bold">完了</emphasis> ステップの属性タブで <emphasis
-    role="bold">別のクラウドストレージに完了文書を保存する</emphasis>にチェックを入れます。上記のクラウドストレージメニューで設定したクラウドストレージが接続されていることが確認でき、文書が完了すれば、eformsign に加えて連動中の外部のクラウドストレージにも自動的に保存されます。</para>
+    role="bold">別のクラウドストレージに完了文書を保存する</emphasis>
+    にチェックを入れます。上記のクラウドストレージメニューで設定したクラウドストレージが接続されていることが確認でき、文書が完了すれば、eformsign
+    に加えて連動中の外部のクラウドストレージにも自動的に保存されます。</para>
 
     <para><figure>
         <title>別のクラウドストレージに完了文書を保存するのチェックボックス</title>
@@ -96,11 +105,13 @@
 
     <para><indexterm class="singular">
         <primary>分析およびレポート</primary>
-      </indexterm>新しい文書を追加するたびに CSV ファイルをダウンロードするのが面倒な場合は、この機能の使用を推奨します。入力データが、Google スプレッドシートやOffice 365 の Excel 文書に自動的に保存されるように設定することができます。</para>
+      </indexterm>新しい文書を追加するたびに CSV
+    ファイルをダウンロードするのが面倒な場合は、この機能の使用を推奨します。入力データが、Google スプレッドシートやOffice 365 の
+    Excel 文書に自動的に保存されるように設定することができます。</para>
 
     <para><note>
         <para><emphasis role="bold">分析およびレポート</emphasis>は <emphasis
-        role="bold">代表管理者</emphasis>のみ設定できます。</para>
+        role="bold">代表管理者 </emphasis>のみ設定できます。</para>
       </note></para>
 
     <figure>
@@ -113,7 +124,8 @@
       </mediaobject>
     </figure>
 
-    <para>1.メニューの <emphasis role="bold">コネクト > 分析およびレポート</emphasis>に移動します。</para>
+    <para>1.メニューの <emphasis role="bold">コネクト &gt; 分析およびレポート</emphasis>
+    に移動します。</para>
 
     <para>2.Google スプレッドシートまたは Office 365 のうち、連動したいサービスを選択し、 <emphasis
     role="bold">アカウント接続</emphasis> ボタンをクリックしてログインします。</para>
@@ -140,7 +152,8 @@
         </mediaobject>
       </figure></para>
 
-    <para>4.中央または右上にある <emphasis role="bold">データ連動の追加</emphasis> ボタンをクリックします。</para>
+    <para>4.中央または右上にある <emphasis role="bold">データ連動の追加</emphasis>
+    ボタンをクリックします。</para>
 
     <figure>
       <title>データの連動管理の画面</title>
@@ -176,10 +189,11 @@
       </figure></para>
 
     <note>
-      <para>データ連動シートについては、Google シートにたとえば、そのシートの URLを意味します。</para>
+      <para>データ連動シートについては、Google シートにたとえば、そのシートの URL を意味します。</para>
     </note>
 
-    <para>6.<emphasis role="bold">データの連動管理</emphasis> 画面に、データが連動されるシートが表示されます。</para>
+    <para>6.<emphasis role="bold">データの連動管理</emphasis>
+    画面に、データが連動されるシートが表示されます。</para>
 
     <para><figure>
         <title>データの連動管理の画面</title>

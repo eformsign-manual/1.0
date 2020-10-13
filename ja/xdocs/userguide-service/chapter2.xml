@@ -461,7 +461,8 @@
           <term><emphasis role="bold">SNSアカウントで接続</emphasis></term>
 
           <listitem>
-            <para>SNSアカウントは、GoogleやFacebook のアカウントを使用して接続、追加、接続解除できます。</para>
+            <para>SNS アカウントは、Google や Facebook
+            のアカウントを使用して接続、追加、接続解除できます。</para>
           </listitem>
         </varlistentry>
 
@@ -477,8 +478,8 @@
           <term><emphasis role="bold">eformsignから脱退</emphasis></term>
 
           <listitem>
-            <para>eformsignから会員脱退をしようとする場合は、画面の下部の <emphasis
-            role="bold">eformsign から脱退＞</emphasis>をクリックして、会員を脱退できます。</para>
+            <para>eformsign から会員脱退をしようとする場合は、画面の下部の <emphasis
+            role="bold">eformsign から脱退＞</emphasis> をクリックして、会員を脱退できます。</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -548,7 +549,7 @@
 
       <note>
         <para>この作業は <emphasis role="bold">代表管理者</emphasis> または <emphasis
-        role="bold">会社管理の権限</emphasis>が必要です。</para>
+        role="bold">会社管理の権限</emphasis> が必要です。</para>
       </note>
 
       <figure>
@@ -653,7 +654,7 @@
 
           <itemizedlist>
             <listitem>
-              <para>ファイル形式：PNG, JPG, JPEG, GIF</para>
+              <para>ファイル形式：PNG、JPG、JPEG、GIF</para>
             </listitem>
           </itemizedlist>
         </listitem>
@@ -684,7 +685,8 @@
   <section>
     <title>権限の区分</title>
 
-    <para>eformsignはメンバーに権限を付与することができ、合計5つのレベルで権限別の管理ができます。各ユーザーの権限は、次のように区分できます。</para>
+    <para>eformsign
+    はメンバーに権限を付与することができ、合計5つのレベルで権限別の管理ができます。各ユーザーの権限は、次のように区分できます。</para>
 
     <itemizedlist>
       <listitem>
@@ -711,7 +713,8 @@
         <para><emphasis role="bold">テンプレート管理</emphasis> <indexterm
             class="singular">
             <primary>テンプレート管理の権限</primary>
-          </indexterm>メニューにアクセスできます。フォームビルダーを使用して、フォームファイルを作成したり、Webフォームデザイナーでファイルをアップロードして新しいテンプレートを登録したりすることができます。テンプレートを修正、配布、および削除できます。</para>
+          </indexterm>メニューにアクセスできます。フォームビルダーを使用して、フォームファイルを作成したり、Web
+        フォームデザイナーでファイルをアップロードして新しいテンプレートを登録したりすることができます。テンプレートを修正、配布、および削除できます。</para>
       </listitem>
 
       <listitem>
@@ -733,8 +736,9 @@
             <primary>テンプレートの使用権限</primary>
           </indexterm><indexterm class="singular">
             <primary>テンプレートの使用権限</primary>
-          </indexterm>テンプレート別に <emphasis role="bold">テンプレートの使用権限
-        (文書作成の権限)</emphasis>が付与できます。権限を付与されたメンバーのみがそのテンプレートで文書を作成できます。</para>
+          </indexterm>テンプレート別に <emphasis
+        role="bold">テンプレートの使用権限（文書作成の権限）</emphasis>
+        が付与できます。権限を付与されたメンバーのみがそのテンプレートで文書を作成できます。</para>
       </listitem>
     </itemizedlist>
 
@@ -900,8 +904,8 @@
 
       <orderedlist>
         <listitem>
-          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt;
-          メニュー管理</emphasis>に移動します。</para>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; メニュー管理
+          </emphasis>に移動します。</para>
         </listitem>
 
         <listitem>
@@ -911,8 +915,8 @@
         <listitem>
           <para>右側の <emphasis role="bold">メンバー情報 </emphasis>詳細を表示<emphasis
           role="bold"> </emphasis>画面下部の <emphasis
-          role="bold">権限</emphasis>で<emphasis
-          role="bold">テンプレート管理</emphasis>にチェックを入れます。</para>
+          role="bold">権限</emphasis>で<emphasis role="bold">テンプレート管理</emphasis>
+          にチェックを入れます。</para>
 
           <figure>
             <title>テンプレート管理の権限の位置</title>
@@ -1111,7 +1115,8 @@
             <listitem>
               <para><indexterm class="singular">
                   <primary>文書の移管</primary>
-                </indexterm>メンバーがeformsignを使用しなくなった場合は、そのメンバーが処理または処理予定の文書を別のメンバーに移管できます。</para>
+                </indexterm>メンバーが eformsign
+              を使用しなくなった場合は、そのメンバーが処理または処理予定の文書を別のメンバーに移管できます。</para>
             </listitem>
           </varlistentry>
 
@@ -1121,7 +1126,8 @@
             <listitem>
               <para><indexterm class="singular">
                   <primary>メンバー招待</primary>
-                </indexterm>メールまたはIDでメンバーを招待できます。メンバーを招待するとき、一度に複数のメンバーを招待することもできます。</para>
+                </indexterm>メールまたは ID
+              でメンバーを招待できます。メンバーを招待するとき、一度に複数のメンバーを招待することもできます。</para>
             </listitem>
           </varlistentry>
 
@@ -1133,8 +1139,8 @@
                   <primary>メンバーの削除</primary>
                 </indexterm><emphasis role="bold">ごみ箱</emphasis>
               アイコンをクリックすれば、メンバーリストの左側にあるチェックボックスが活性化します。削除したいメンバーを選択し、
-              <emphasis
-              role="bold">削除</emphasis>ボタンをクリックすれば、メンバーが削除されます。</para>
+              <emphasis role="bold">削除
+              </emphasis>ボタンをクリックすれば、メンバーが削除されます。</para>
             </listitem>
           </varlistentry>
         </variablelist></para>
@@ -1195,7 +1201,7 @@
           <listitem>
             <para><emphasis role="bold">ごみ箱</emphasis>
             アイコンをクリックすれば、グループリストの左側にあるチェックボックスが活性化します。削除したいグループを選択し、 <emphasis
-            role="bold">削除</emphasis>ボタンをクリックすれば、グループが削除されます。</para>
+            role="bold">削除 </emphasis>ボタンをクリックすれば、グループが削除されます。</para>
           </listitem>
         </varlistentry>
       </variablelist>
