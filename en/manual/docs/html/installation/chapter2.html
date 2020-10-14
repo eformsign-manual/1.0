@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta xmlns=""
+          http-equiv="Content-Type" content="text/html;
+          charset=utf-8"/><title>Chapter 2. Pre-installation Task 1: Java Installation and Environment Variable Configuration</title><link rel="stylesheet" href="../stylesheet.css" type="text/css"/><meta name="generator" content="DocBook XSL Stylesheets V1.72.0"/><link rel="start" href="index.html" title="eformsign 설치 안내서"/><link rel="up" href="index.html" title="eformsign 설치 안내서"/><link rel="prev" href="chapter1.html" title="Chapter 1. Installation Overview"/><link rel="next" href="chapter3.html" title="Chapter 3. Pre-installation Task 2: Server Environment Configuration"/></head><body><div xmlns="" class="navheader"><table width="100%" summary="Navigation header"><tr><td class="navbar-title" colspan="3" align="center">Chapter 2. Pre-installation Task 1: Java Installation and Environment Variable
+  Configuration</td></tr><tr><td width="20%" align="left"><a accesskey="p" href="chapter1.html">Prev</a> </td><td class="navbar-title" width="60%" align="center"> </td><td width="20%" align="right"> <a accesskey="n" href="chapter3.html">Next</a></td></tr></table><hr/></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a id="chapter2"/>Chapter 2. Pre-installation Task 1: Java Installation and Environment Variable
+  Configuration</h2></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="section"><a href="chapter2.html#d5e290">2.1. Installing Java</a></span></dt><dt><span class="section"><a href="chapter2.html#d5e319">2.2. Verifying Java Installation</a></span></dt><dt><span class="section"><a href="chapter2.html#d5e328">2.3. Configuring the Java Environment Variable</a></span></dt></dl></div>
+  
+
+  <p>This chapter describes how to install Java and configure the
+  environment variable as part of the pre-installation tasks for installing
+  eformsign.</p>
+
+  <div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="d5e290"/>2.1. Installing Java</h2></div></div></div>
+    
+
+    <p>Java 8 installation is required before installing eformsign as it
+    runs on Java 8.</p>
+
+    <p>The following describes how to install Java for each OS.</p>
+
+    <div class="itemizedlist"><ul type="disc"><li>
+        <p>RHEL 7</p>
+
+        <pre class="programlisting">$ sudo -i
+$ yum install java-1.8.0-openjdk -y</pre>
+      </li><li>
+        <p>CentOS 7</p>
+
+        <pre class="programlisting">$<span class="bold"><strong> </strong></span>sudo<span class="bold"><strong> </strong></span>-i
+$ yum install -y wget
+$ yum install java-1.8.0-openjdk-devel.x86_64 -y</pre>
+      </li><li>
+        <p>Debian 10</p>
+
+        <p>1. Update the package list and then add repositories and install
+        dependencies.</p>
+
+        <pre class="programlisting">$ sudo -i
+$ apt update
+$ apt install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common</pre>
+
+        <div class="note" style="margin-left: 0in; margin-right: 0in;"><h3 class="title">Note</h3>
+          <p>In Debian, the<span class="bold"><strong> apt</strong></span> command
+          can be used to automatically resolve dependency problems between
+          packages. Use the <span class="bold"><strong>apt</strong></span> (short for
+          advanced package manager) command to automatically install and
+          upgrade packages.</p>
+        </div>
+
+        <p>2. Add the AdoptOpenJDK APT repository.</p>
+
+        <pre class="programlisting">$ wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
+$ add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/</pre><p>3.
+        Update and install Java 8.</p>
+
+        <pre class="programlisting">$ apt update
+$ apt install adoptopenjdk-8-hotspot</pre>
+      </li></ul></div>
+  </div>
+
+  <div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="d5e319"/>2.2. Verifying Java Installation</h2></div></div></div>
+    
+
+    <p>After installing Java, verify whether it's been installed properly
+    by executing the following command.</p>
+
+    <pre class="programlisting">$ java -version</pre><p>If the following
+    message is displayed, then Java is properly installed.</p>
+
+    <pre class="programlisting">Openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (Build 1.8.0_242-b08)
+OpenJDK 64-Bit Server VM (Build 25.242-b08, mixed mode)</pre>
+
+    <div class="note" style="margin-left: 0in; margin-right: 0in;"><h3 class="title">Note</h3>
+      <p>Messages can differ for each OS. If a message such as the one
+      above is displayed, then the Java environment variable does not need to
+      be configured. However, if such a message is not displayed, then the
+      Java environment variable must be configured.</p>
+    </div>
+  </div>
+
+  <div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="d5e328"/>2.3. Configuring the Java Environment Variable</h2></div></div></div>
+    
+
+    <p>Configure the JAVA_HOME environment variable by OS as
+    follows.</p>
+
+    <div class="itemizedlist"><ul type="disc"><li>
+          <p>RHEL 7</p>
+
+          <pre class="programlisting">$ alternatives --config java
+$ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.1.13-3.el7_6.x86_64
+$ echo $JAVA_HOME
+</pre>
+        </li><li>
+          <p>CentOS 7 / Debian 10</p>
+
+          <p>1. Execute the following command.</p>
+
+          <pre class="programlisting">$ update-alternatives --config java</pre>
+
+          <p>2. Add the following text.</p>
+
+          <pre class="programlisting">$ vi /etc/environment
+JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el7_7.x86_64/jre"</pre><p>3.
+          Execute the following command.</p>
+
+          <pre class="programlisting">$ source /etc/environment
+$ echo $JAVA_HOME</pre>
+        </li></ul></div>
+
+    <div class="note" style="margin-left: 0in; margin-right: 0in;"><h3 class="title">Note</h3>
+      <p>The method for configuring JAVA_HOME is the same in CentOS 7 and
+      Debian 10.</p>
+    </div>
+  </div>
+</div><div class="navfooter"><hr/><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="chapter1.html">Prev</a> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="chapter3.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter 1. Installation Overview </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Chapter 3. Pre-installation Task 2: Server Environment Configuration</td></tr></table></div><div xmlns="" align="center"/></body></html>

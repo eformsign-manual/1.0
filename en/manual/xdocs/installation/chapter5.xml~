@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xml:id="chapter5" xml:lang="en"
+         xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Company Registration</title>
+
+  <section>
+    <title>Registering Your Company</title>
+
+    <para>The following screen will be displayed when entering the IP
+    address/config.html in a browser.</para>
+
+    <para>Enter the email, user name, password, company name, and country to
+    finish registering<?xxe-remark sychoi
+2020-06-05T07:52:28Z
+to register?> your company.</para>
+
+    <para/>
+
+    <figure>
+      <title>Registering Your Company</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/company_regi.png" width="700"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </section>
+</chapter>

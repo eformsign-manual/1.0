@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta xmlns=""
+          http-equiv="Content-Type" content="text/html;
+          charset=utf-8"/><title>Chapter 3. Pre-installation Task 2: Server Environment Configuration</title><link rel="stylesheet" href="../stylesheet.css" type="text/css"/><meta name="generator" content="DocBook XSL Stylesheets V1.72.0"/><link rel="start" href="index.html" title="eformsign 설치 안내서"/><link rel="up" href="index.html" title="eformsign 설치 안내서"/><link rel="prev" href="chapter2.html" title="Chapter 2. Pre-installation Task 1: Java Installation and Environment Variable Configuration"/><link rel="next" href="chapter4.html" title="Chapter 4. eformsign Installation and Configuration"/></head><body><div xmlns="" class="navheader"><table width="100%" summary="Navigation header"><tr><td class="navbar-title" colspan="3" align="center">Chapter 3. Pre-installation Task 2: Server Environment Configuration</td></tr><tr><td width="20%" align="left"><a accesskey="p" href="chapter2.html">Prev</a> </td><td class="navbar-title" width="60%" align="center"> </td><td width="20%" align="right"> <a accesskey="n" href="chapter4.html">Next</a></td></tr></table><hr/></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a id="chapter3"/>Chapter 3. Pre-installation Task 2: Server Environment Configuration</h2></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="section"><a href="chapter3.html#webserver_install">3.1. Installing the Web Server</a></span></dt><dd><dl><dt><span class="section"><a href="chapter3.html#d5e367">3.1.1. Installing nginx</a></span></dt><dt><span class="section"><a href="chapter3.html#d5e441">3.1.2. Verifying the Installation</a></span></dt></dl></dd><dt><span class="section"><a href="chapter3.html#unix-install-webtob">3.2. Installing WAS</a></span></dt><dd><dl><dt><span class="section"><a href="chapter3.html#d5e459">3.2.1. Installing Tomcat</a></span></dt><dt><span class="section"><a href="chapter3.html#d5e530">3.2.2. Verifying the Installation</a></span></dt></dl></dd><dt><span class="section"><a href="chapter3.html#db_install">3.3. Installing the DB</a></span></dt><dd><dl><dt><span class="section"><a href="chapter3.html#d5e548">3.3.1. Installing CouchDB</a></span></dt><dt><span class="section"><a href="chapter3.html#d5e596">3.3.2. Default Settings</a></span></dt><dt><span class="section"><a href="chapter3.html#d5e613">3.3.3. Verifying the Installation</a></span></dt></dl></dd></dl></div>
+  
+
+  <p>This chapter describes how to install server-side software as part of
+  the pre-installation tasks for installing eformsign.</p>
+
+  <p>The installation is command-based and proceeds in the order of web
+  server, WAS, and DB. The installation order is the same for all OS.</p>
+
+  <div class="figure"><a id="d5e353"/><p class="title"><b>[Figure 3.1] Installation Order</b></p><div class="figure-contents">
+    
+
+    <div xmlns="" class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="700"><tr><td><img src="resources/install_order.png" width="700" alt="Installation Order"/></td></tr></table></div>
+  </div></div><br class="figure-break"/>
+
+  <p/>
+
+  <div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="webserver_install"/>3.1. Installing the Web Server</h2></div></div></div>
+    
+
+    <p>This section describes how to install the web server and verify its
+    installation.</p>
+
+    <p>eformsign uses nginx<a id="d5e363" class="indexterm"/> as the web server.</p>
+
+    <div class="note" style="margin-left: 0in; margin-right: 0in;"><h3 class="title">Note</h3>
+      <p>The recommended nginx version is 1.14.2.</p>
+    </div>
+
+    <div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="d5e367"/>3.1.1. Installing nginx</h3></div></div></div>
+      
+
+      <p>The nginx installation process is as follows.</p>
+
+      <div class="orderedlist"><ol type="1"><li>
+          <p>Create a repository.</p>
+
+          <div class="itemizedlist"><ul type="disc"><li>
+              <p>RHEL 7</p>
+
+              <pre class="programlisting">$ vi /etc/yum.repos.d/nginx.repo
+[nginx]
+name=nginx repo
+baseurl=https://nginx.org/packages/<span class="bold"><strong>rhel</strong></span>/7/$basearch/
+gpgcheck=0
+enabled=1</pre>
+            </li><li>
+              <p>CentOS 7</p>
+
+              <pre class="programlisting">$ vi /etc/yum.repos.d/nginx.repo
+
+[nginx]
+name=nginx repo
+baseurl=http://nginx.org/packages/<span class="bold"><strong>centos</strong></span>/7/$basearch/
+gpgcheck=0
+enabled=1</pre>
+
+              <div class="note" style="margin-left: 0in; margin-right: 0in;"><h3 class="title">Note</h3>
+                <p>Create a repository only in RHEL 7 and CentOS 7.</p>
+              </div>
+            </li></ul></div>
+
+          <p/>
+        </li><li>
+          <p>Install nginx.</p>
+
+          <div class="itemizedlist"><ul type="disc"><li>
+                <p>RHEL 7 / CentOS 7</p>
+
+                <pre class="programlisting">$ yum install nginx -y</pre>
+              </li><li>
+                <p>Debian 10</p>
+
+                <pre class="programlisting">$ apt install nginx -y</pre>
+
+                <div class="note" style="margin-left: 0in; margin-right: 0in;"><h3 class="title">Note</h3>
+                  <p>RHEL and CentOS (both are Red Hat-based) both use the
+                  <span class="bold"><strong>yum</strong></span> command, and Debian (in
+                  which Ubuntu is derived from) uses the <span class="bold"><strong>apt</strong></span> command.</p>
+                </div>
+              </li></ul></div>
+
+          <p/>
+        </li><li>
+          <p>Execute nginx.</p>
+
+          <p>Execute nginx using the following command regardless of the OS
+          .</p>
+
+          <pre class="programlisting">$ service nginx start</pre>
+        </li><li>
+          <p>Open the firewall.</p>
+
+          <p>The method for opening the firewall and port differs for RHEL
+          7, CentOS, and Debian 10.</p>
+
+          <p>Open the firewall in the method appropriate for each
+          OS.</p>
+
+          <div class="itemizedlist"><ul type="disc"><li>
+                <p>RHEL 7/CentOS 7</p>
+
+                <p>1. Check if the firewall is running.</p>
+
+                <pre class="programlisting">$ systemctl status firewalld.service</pre>
+
+                <p>2. Check the default zone.</p>
+
+                <pre class="programlisting">$ firewall-cmd --get-default-zone</pre><p>3.
+                Check for active zones.</p>
+
+                <pre class="programlisting">$ firewall-cmd --get-active-zone</pre><p>4.
+                Check for open ports.</p>
+
+                <pre class="programlisting">$ firewall-cmd --list-ports</pre><p>5.
+                Open port number 80.</p>
+
+                <pre class="programlisting">$ firewall-cmd --permanent --zone=public --add-port=80/tcp</pre><p>6.
+                Restart the firewall.</p>
+
+                <pre class="programlisting">$ firewall-cmd --reload</pre>
+              </li><li>
+                <p>Debian 10</p>
+
+                <p>1. Check for open ports.</p>
+
+                <pre class="programlisting">$ iptables -L</pre>
+
+                <p>2. Open port number 80.</p>
+
+                <pre class="programlisting">$ iptables -I INPUT -p tcp --dport 80 -j ACCEPT</pre><p>3.
+                Allow firewall settings to be applied automatically at boot
+                time.</p>
+
+                <pre class="programlisting">$ apt install iptables-persistent
+$ netfilter-persistent save
+$ netfilter-persistent reload
+</pre>
+
+                <p/>
+              </li></ul></div>
+        </li></ol></div>
+    </div>
+
+    <div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="d5e441"/>3.1.2. Verifying the Installation</h3></div></div></div>
+      
+
+      <p>Enter your IP address in a web browser.</p>
+
+      <p>If the following screen is displayed, then the installation is
+      successfully completed.</p>
+
+      <p/>
+
+      <div class="figure"><a id="d5e446"/><p class="title"><b>[Figure 3.2] nginx Installation Verification Screen</b></p><div class="figure-contents">
+        
+
+        <div xmlns="" class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="750"><tr><td><img src="resources/Nginx_install_check.png" width="750" alt="nginx Installation Verification Screen"/></td></tr></table></div>
+      </div></div><br class="figure-break"/>
+    </div>
+  </div>
+
+  <div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="unix-install-webtob"/>3.2. Installing WAS</h2></div></div></div>
+    
+
+    <p>This section describes how to install WAS and verify its
+    installation.</p>
+
+    <p>eformsign uses Tomcat<a id="d5e455" class="indexterm"/> as the WAS.</p>
+
+    <div class="note" style="margin-left: 0in; margin-right: 0in;"><h3 class="title">Note</h3>
+      <p>The recommended Tomcat version is 8.5.</p>
+    </div>
+
+    <div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="d5e459"/>3.2.1. Installing Tomcat</h3></div></div></div>
+      
+
+      <p>The Tomcat installation process is as follows.</p>
+
+      <div class="orderedlist"><ol type="1"><li>
+          <p>Install Tomcat by executing the following commands for each
+          OS.</p>
+
+          <div class="itemizedlist"><ul type="disc"><li>
+              <p>RHEL 7</p>
+
+              <pre class="programlisting">$ cd /opt
+$ yum install wget unzip -y
+$ wget https://www-us.apache.org/dist/tomcat/tomcat-8/v8.5.54/bin/apache-tomcat-8.5.54.zip
+$ unzip apache-tomcat-8.5.54.zip</pre>
+            </li><li>
+              <p>CentOS 7</p>
+
+              <pre class="programlisting">$ yum -y install tomcat
+$ yum install -y tomcat-webapps tomcat-admin-webapps</pre>
+            </li><li>
+              <p>Debian 10</p>
+
+              <pre class="programlisting">$ useradd -m -U -d /opt/tomcat -s /bin/false tomcat
+$ cd /tmp
+$ wget http://apache.mirror.cdnetworks.com/tomcat/tomcat-8/v8.5.54/bin/apache-tomcat-8.5.54.tar.gz
+$ tar -xf apache-tomcat-8.5.54.tar.gz
+$ mv apache-tomcat-8.5.54 /opt/tomcat/
+$ ln -s /opt/tomcat/apache-tomcat-8.5.54 /opt/tomcat/latest
+</pre>
+            </li></ul></div>
+
+          <p/>
+        </li><li>
+          <p>Configure the basic settings and create a user.</p>
+
+          <div class="itemizedlist"><ul type="disc"><li>
+                <p>RHEL 7</p>
+
+                <pre class="programlisting">$ ln -s /opt/apache-tomcat-8.5.54 /opt/tomcat
+$ ln -s /opt/tomcat/logs /var/log/tomcat
+$ useradd tomcat
+$ chown –R tomcat:tomcat /opt/apache-tomcat-8.5.54
+$ chown -R tomcat:tomcat /opt/tomcat
+$ chown -R tomcat:tomcat /var/log/tomcat
+$ chmod +x /opt/tomcat/bin/*.sh
+</pre>
+              </li><li>
+                <p>Debian 10</p>
+
+                <pre class="programlisting">$ chown -R tomcat: /opt/tomcat
+$ sh -c 'chmod +x /opt/tomcat/latest/bin/*.sh'
+</pre>
+              </li></ul></div>
+
+          <div class="note" style="margin-left: 0in; margin-right: 0in;"><h3 class="title">Note</h3>
+              <p>This process is performed only in RHEL 7 and Debian
+              10.</p>
+            </div>
+        </li><li>
+          <p>Create a service file.</p>
+
+          <div class="itemizedlist"><ul type="disc"><li>
+                <p>RHEL 7</p>
+
+                <pre class="programlisting">$vi /etc/systemd/system/tomcat.service
+[Unit]
+Description=Tomcat
+After=syslog.target network.target
+  
+[Service]
+Type=forking
+  
+User=tomcat
+Group=tomcat
+  
+ExecStart=/opt/tomcat/bin/catalina.sh start
+ExecStop=/opt/tomcat/bin/catalina.sh stop
+  
+[Install]
+WantedBy=multi-user.target</pre>
+              </li><li>
+                <p>Debian 10</p>
+
+                <pre class="programlisting">$vi /etc/systemd/system/tomcat.service
+[Unit]
+Description=Tomcat 8.5 servlet container
+After=network.target
+  
+[Service]
+Type=forking
+  
+User=tomcat
+Group=tomcat
+  
+Environment="JAVA_HOME=/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64"
+Environment="JAVA_OPTS=-Djava.security.egd=file:///dev/urandom"
+  
+Environment="CATALINA_BASE=/opt/tomcat/latest"
+Environment="CATALINA_HOME=/opt/tomcat/latest"
+Environment="CATALINA_PID=/opt/tomcat/latest/temp/tomcat.pid"
+Environment="CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC"
+  
+ExecStart=/opt/tomcat/latest/bin/startup.sh
+ExecStop=/opt/tomcat/latest/bin/shutdown.sh
+  
+[Install]
+WantedBy=multi-user.target</pre>
+              </li></ul></div>
+
+          <div class="note" style="margin-left: 0in; margin-right: 0in;"><h3 class="title">Note</h3>
+              <p>This process is performed only in RHEL 7 and Debian
+              10.</p>
+            </div>
+        </li><li>
+          <p>Reload the service file created with the following
+          command.</p>
+
+          <pre class="programlisting">$ systemctl daemon-reload</pre>
+        </li><li>
+          <p>Open the firewall.</p>
+
+          <p>The method for opening the firewall and port differs between
+          RHEL 7/CentOS 7 and Debian 10, but the port number is 8080 for all
+          of them.</p>
+
+          <div class="itemizedlist"><ul type="disc"><li>
+                <p>RHEL 7/CentOS 7</p>
+
+                <pre class="programlisting">$ firewall-cmd --zone=public --add-port=8080/tcp --permanent
+$ firewall-cmd --reload</pre>
+              </li><li>
+                <p>Debian 10</p>
+
+                <pre class="programlisting">$ iptables -I INPUT -p tcp --dport 8080 -j ACCEPT
+$ netfilter-persistent save
+$ netfilter-persistent reload
+</pre>
+              </li></ul></div>
+        </li><li>
+          <p>Execute Tomcat.</p>
+
+          <p>Execute Tomcat with the following command, regardless of the
+          OS.</p>
+
+          <pre class="programlisting">$ service tomcat start</pre>
+        </li></ol></div>
+    </div>
+
+    <div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="d5e530"/>3.2.2. Verifying the Installation</h3></div></div></div>
+      
+
+      <p>Enter your IP address in a web browser.</p>
+
+      <p>If the following screen is displayed, then the installation is
+      successfully completed.</p>
+
+      <p/>
+
+      <div class="figure"><a id="d5e535"/><p class="title"><b>[Figure 3.3] Tomcat Installation Verification Screen</b></p><div class="figure-contents">
+        
+
+        <div xmlns="" class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="750"><tr><td><img src="resources/Tomcat_install_check.png" width="750" alt="Tomcat Installation Verification Screen"/></td></tr></table></div>
+      </div></div><br class="figure-break"/>
+    </div>
+  </div>
+
+  <div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="db_install"/>3.3. Installing the DB</h2></div></div></div>
+    
+
+    <p>This section describes how to install the DB and verify its
+    installation.</p>
+
+    <p>eformsign uses CouchDB<a id="d5e544" class="indexterm"/> as the DB.</p>
+
+    <div class="note" style="margin-left: 0in; margin-right: 0in;"><h3 class="title">Note</h3>
+      <p>The recommended CouchDB version is 3.0.</p>
+    </div>
+
+    <div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="d5e548"/>3.3.1. Installing CouchDB</h3></div></div></div>
+      
+
+      <p>The CouchDB installation process is as follows.</p>
+
+      <div class="orderedlist"><ol type="1"><li>
+          <p>Create the EPEL Repository.</p>
+
+          <div class="itemizedlist"><ul type="disc"><li>
+              <p>RHEL 7/CentOS 7</p>
+
+              <pre class="programlisting">$ yum update -y
+$ wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+$ yum install -y epel-release-latest-7.noarch.rpm</pre>
+            </li></ul></div>
+
+          <div class="note" style="margin-left: 0in; margin-right: 0in;"><h3 class="title">Note</h3>
+              <p>EPEL is short for Extra Packages of Enterprise Linux and
+              is a repository provided by Fedora Project. It is a
+              community-based storage that provides the latest version of
+              various packages. It can be used to install and use the packages
+              in the latest version that cannot be installed using the
+              <span class="bold"><strong>yum</strong></span> command.</p>
+            </div>
+        </li><li>
+          <p>Enable the CouchDB package repository.</p>
+
+          <div class="itemizedlist"><ul type="disc"><li>
+                <p>RHEL 7/CentOS 7</p>
+
+                <pre class="programlisting">$ vi /etc/yum.repos.d/bintray-apache-couchdb-rpm.repo
+[bintray--apache-couchdb-rpm]
+name=bintray--apache-couchdb-rpm
+baseurl=http://apache.bintray.com/couchdb-rpm/el7/$basearch/
+gpgcheck=0
+repo_gpgcheck=0
+enabled=1</pre>
+              </li><li>
+                <p>Debian 10</p>
+
+                <pre class="programlisting">$ apt-get install -y apt-transport-https gnupg ca-certificates
+$ echo "deb https://apache.bintray.com/couchdb-deb buster main" \
+    | sudo tee -a /etc/apt/sources.list.d/couchdb.list</pre>
+              </li></ul></div>
+
+          <p/>
+        </li><li>
+          <p>Install the CouchDB package.</p>
+
+          <div class="itemizedlist"><ul type="disc"><li>
+                <p>RHEL 7/CentOS 7</p>
+
+                <pre class="programlisting">$ yum -y install epel-release &amp;&amp; sudo yum -y install couchdb</pre>
+              </li><li>
+                <p>Debian 10</p>
+
+                <pre class="programlisting">$ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
+  8756C4F765C9AC3CB6B85D62379CE192D401AB61
+$ apt update
+$ apt install -y couchdb
+</pre>
+              </li></ul></div>
+
+          <p>4. When prompted to select a CouchDB type during installation,
+          select <span class="bold"><strong>none</strong></span>.</p>
+
+          <p/>
+
+          <div class="figure"><a id="d5e591"/><p class="title"><b>[Figure 3.4] The CouchDB Type Selection Window</b></p><div class="figure-contents">
+            
+
+            <div xmlns="" class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="700"><tr><td><img src="resources/couchdb_none.png" width="700" alt="The CouchDB Type Selection Window"/></td></tr></table></div>
+          </div></div><br class="figure-break"/>
+        </li></ol></div>
+    </div>
+
+    <div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="d5e596"/>3.3.2. Default Settings</h3></div></div></div>
+      
+
+      <p>Modify the local.ini<a id="d5e599" class="indexterm"/> file and the default.ini<a id="d5e601" class="indexterm"/> file as follows. The method is the same for all
+      OS.</p>
+
+      <div class="itemizedlist"><ul type="disc"><li>
+            <p>local.ini file</p>
+
+            <pre class="programlisting">$ vi /opt/couchdb/etc/local.ini
+[admins]
+admin = mysecretpassword // Remove the [admins] comment at the bottom and change the ID and PW to the ones you want.</pre>
+          </li><li>
+            <p>default.ini file</p>
+
+            <pre class="programlisting">$ vi /opt/couchdb/etc/default.ini
+[cluster]
+q=2             // Change the q=2, n=3 in the middle [cluster] to q=2, n=1(search using /cluster)
+n=1            
+...
+[chttpd]
+port = 8308     // Change port = 5984 to port = 8308.
+
+</pre>
+          </li></ul></div>
+    </div>
+
+    <div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="d5e613"/>3.3.3. Verifying the Installation</h3></div></div></div>
+      
+
+      <p>Check the connection by running CouchDB.</p>
+
+      <div class="itemizedlist"><ul type="disc"><li>
+            <p>Run the DB.</p>
+
+            <pre class="programlisting">$ service couchdb start</pre>
+          </li><li>
+            <p>Check the connection.</p>
+
+            <pre class="programlisting">$ curl http://localhost:8308</pre>
+          </li></ul></div>
+    </div>
+  </div>
+</div><div class="navfooter"><hr/><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="chapter2.html">Prev</a> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="chapter4.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter 2. Pre-installation Task 1: Java Installation and Environment Variable
+  Configuration </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Chapter 4. eformsign Installation and Configuration</td></tr></table></div><div xmlns="" align="center"/></body></html>
