@@ -6,7 +6,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Connecting external services</title>
+  <title>Connecting with external services</title>
 
   <section>
     <title>How to connect with external cloud storages</title>
@@ -66,9 +66,9 @@
       </mediaobject>
 
       <para>The default path is the subfolder named with your company name,
-      which is under the eformsign folder. You can also click the <emphasis
-      role="bold">New folder</emphasis> button to create a new folder and
-      change the storage path.</para>
+      which is located under the eformsign folder. You can also click the
+      <emphasis role="bold">New folder</emphasis> button to create a new
+      folder and change the storage path.</para>
     </note>
 
     <para>4. Go to the <emphasis role="bold">Manage templates</emphasis>
