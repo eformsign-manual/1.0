@@ -41,7 +41,7 @@
           <term>① Manage custom fields &gt; Company</term>
 
           <listitem>
-            <para>You can add fields related to the company, such as the
+            <para>You can add fields related to the company such as the
             company representative name, company phone number, stamp and
             seals, and then set the values.</para>
           </listitem>
@@ -51,8 +51,8 @@
           <term>② Manage custom fields &gt; Group</term>
 
           <listitem>
-            <para>You can add fields related to the group, such as department
-            name and manager, and then set the values.</para>
+            <para>You can add fields related to groups such as department name
+            and manager, and then set the values.</para>
           </listitem>
         </varlistentry>
 
@@ -61,7 +61,7 @@
 
           <listitem>
             <para>You can add fields related to members such as job title,
-            email address, and phone number, and then set the values.</para>
+            email address and phone number, and then set the values.</para>
           </listitem>
         </varlistentry>
 
@@ -231,7 +231,7 @@
       role="bold"> </emphasis>If you upload your company's logo in the
       <emphasis role="bold">Manage company &gt; Company profile &gt; Company
       brand</emphasis> tab menu, the logo is applied to the email
-      template.</para>
+      templates.</para>
     </tip>
 
     <para><emphasis role="bold">How to add a new notification
