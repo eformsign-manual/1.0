@@ -13,13 +13,13 @@
 
     <para><indexterm class="singular">
         <primary>Cloud storage</primary>
-      </indexterm>eformsign can automatically save completed documents to an
+      </indexterm>eformsign can automatically save completed documents in an
     external cloud storage service. Currently, Dropbox, Google Drive,
     OneDrive, and box are supported.</para>
 
     <note>
-      <para>Only Company administrator can connect with the external cloud
-      storages.</para>
+      <para>Only Company administrator can connect eformsign with the external
+      cloud storages.</para>
     </note>
 
     <para>1. Go to the <emphasis role="bold">Integration &gt; Cloud
@@ -39,7 +39,7 @@
     documents, and then click the <emphasis role="bold">Connect</emphasis>
     button to log in.<emphasis role="bold"> </emphasis></para>
 
-    <para>3. When you log in, the <emphasis role="bold">Disconnect</emphasis>
+    <para>3. After logging in, the <emphasis role="bold">Disconnect</emphasis>
     button and the <emphasis role="bold">Storage path settings</emphasis>
     button will be displayed. If you need to save the storage path, click the
     <emphasis role="bold">Storage path settings</emphasis> button.</para>
@@ -65,10 +65,10 @@
         </imageobject>
       </mediaobject>
 
-      <para>The default path is the sub folder under eformsign, and the
-      default folder name is your company name. You can also click the
-      <emphasis role="bold">New folder</emphasis> button to create a new
-      folder and change the storage path.</para>
+      <para>The default path is the subfolder named with your company name,
+      which is under the eformsign folder. You can also click the <emphasis
+      role="bold">New folder</emphasis> button to create a new folder and
+      change the storage path.</para>
     </note>
 
     <para>4. Go to the <emphasis role="bold">Manage templates</emphasis>
@@ -117,8 +117,8 @@
         <primary>Analytics and reporting</primary>
       </indexterm>If you find it cumbersome to download a CSV file every time
     a new document is added, using this feature is recommended. You can set
-    the entered data to be automatically saved in the Google Sheets file and
-    the Excel file of Microsoft Office 365.</para>
+    the entered data to be automatically saved in the sheet of Google Sheets
+    and the Excel sheet of Microsoft Office 365.</para>
 
     <para><note>
         <para><emphasis role="bold">Analytics and reporting</emphasis> can be
@@ -223,7 +223,8 @@
       </figure></para>
 
     <para>7. If you go to the connected sheet, you can see the columns
-    displayed to which field data will be imported from eformsign.</para>
+    displayed to which field data will be automatically imported from
+    eformsign.</para>
 
     <para><figure>
         <title>Manage data connections screen (6)</title>
