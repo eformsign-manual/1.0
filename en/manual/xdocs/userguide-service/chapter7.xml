@@ -57,18 +57,18 @@
 
     <note>
       <para>The <emphasis role="bold">Storage path settings</emphasis> pop-up
-      window is displayed as follows.</para>
-
-      <para>The default path is the sub folder under eformsign, and the
-      default folder name is your company name. You can also click the
-      <emphasis role="bold">New folder</emphasis> button to create a new
-      folder and change the storage path.</para>
+      window is displayed as follows:</para>
 
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/connect_3.png" width="450"/>
         </imageobject>
       </mediaobject>
+
+      <para>The default path is the sub folder under eformsign, and the
+      default folder name is your company name. You can also click the
+      <emphasis role="bold">New folder</emphasis> button to create a new
+      folder and change the storage path.</para>
     </note>
 
     <para>4. Go to the <emphasis role="bold">Manage templates</emphasis>
@@ -139,9 +139,9 @@
     <para>1. Go to the <emphasis role="bold">Integration &gt; Analytics and
     reporting</emphasis> menu.</para>
 
-    <para>2. Select a service among Google Sheets and Microsoft Office 365,
-    and then click the <emphasis role="bold">Connect account</emphasis> button
-    to log in.</para>
+    <para>2. Select a service from Google Sheets and Microsoft Office 365, and
+    then click the <emphasis role="bold">Connect account</emphasis> button to
+    log in.</para>
 
     <para><figure>
         <title>Analytics and reporting menu screen (2)</title>
@@ -167,8 +167,8 @@
       </figure></para>
 
     <para>4. Click the <emphasis role="bold">Add data connection</emphasis>
-    button<emphasis role="bold"> </emphasis>in the center of the screen or in
-    the upper right of the screen.</para>
+    button<emphasis role="bold"> </emphasis>in the center of the screen or at
+    the top right of the screen.</para>
 
     <figure>
       <title>Manage data connections screen (2)</title>

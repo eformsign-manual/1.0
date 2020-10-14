@@ -15,7 +15,7 @@
 
     <para>You can add and edit fields for companies, groups, and members in
     the <emphasis role="bold">Manage company &gt; Manage custom
-    fields</emphasis> menu. </para>
+    fields</emphasis> menu.</para>
 
     <tip>
       <para>By using the custom fields, you can set frequently used company,
@@ -24,7 +24,7 @@
       documents. After adding the custom fields in the Manage custom fields
       menu, go to the <emphasis role="bold">Template settings &gt; Field
       settings</emphasis> menu to set which information to be entered
-      automatically in the documents. </para>
+      automatically in the documents.</para>
     </tip>
 
     <figure>
@@ -69,11 +69,12 @@
           <term>④ Add field</term>
 
           <listitem>
-            <para>Add a new field. If you click the <emphasis role="bold">Add
-            field</emphasis> button, a pop-up window will be displayed where
-            you can add a custom field. Enter the field name, field type
-            (select from text or image), and field value, and then click the
-            <emphasis role="bold">OK</emphasis> button to add the field to the
+            <para>If you click the <emphasis role="bold">Add field</emphasis>
+            button, the <emphasis role="bold">Add custom field</emphasis>
+            pop-up window will be displayed where you can add a new field.
+            Enter the field name, field type (select from text or image), and
+            field value, and then click the <emphasis
+            role="bold">OK</emphasis> button to add the field to the custom
             field list.<emphasis role="bold"> </emphasis></para>
           </listitem>
         </varlistentry>
@@ -91,9 +92,9 @@
           <term>⑤ Field list</term>
 
           <listitem>
-            <para>The field list shows the field names and the field values
-            that you added. You can also delete the fields and edit the field
-            values.</para>
+            <para>The custom field list shows the field names and the field
+            values that you added. You can also delete the fields and edit the
+            field values.</para>
 
             <para>To delete a field, click the icon (<inlinemediaobject>
                 <imageobject>
@@ -114,12 +115,12 @@
             and the field value.</para>
 
             <para>You can also change the field order. Select a field that you
-            want to change the order, and then click the arrow button
-            ().<inlinemediaobject>
+            want to change the order, and then click the arrow
+            (<inlinemediaobject>
                 <imageobject>
                   <imagedata fileref="resources/customfield-list-order.PNG"/>
                 </imageobject>
-              </inlinemediaobject></para>
+              </inlinemediaobject>) button.</para>
 
             <mediaobject>
               <imageobject>
@@ -156,7 +157,7 @@
     role="bold">Manage company &gt; Notification template
     management</emphasis> menu or in the <emphasis role="bold">Manage
     templates &gt; Template settings &gt; Notification settings</emphasis>
-    menu. </para>
+    menu.</para>
 
     <figure>
       <title>Manage company &gt; Notification template management</title>
@@ -229,7 +230,8 @@
       <para>The header is set with the eformsign logo by default.<emphasis
       role="bold"> </emphasis>If you upload your company's logo in the
       <emphasis role="bold">Manage company &gt; Company profile &gt; Company
-      brand</emphasis> menu, the logo is applied to the email template.</para>
+      brand</emphasis> tab menu, the logo is applied to the email
+      template.</para>
     </tip>
 
     <para><emphasis role="bold">How to add a new notification
@@ -241,7 +243,7 @@
     <orderedlist>
       <listitem>
         <para>In the sidebar menu, click the <emphasis role="bold">Manage
-        company &gt; Manage Notification Templates</emphasis> menu. </para>
+        company &gt; Manage Notification Templates</emphasis> menu.</para>
       </listitem>
 
       <listitem>
@@ -254,7 +256,7 @@
       <listitem>
         <para>Select the appropriate <emphasis role="bold">Type</emphasis> and
         <emphasis role="bold">Status</emphasis> (see the Template types and
-        status table). </para>
+        status table).</para>
 
         <mediaobject>
           <imageobject>
@@ -267,7 +269,7 @@
       <listitem>
         <para>Select the <emphasis role="bold">Channel</emphasis> (select from
         Mail or SMS) and enter the <emphasis role="bold">Notification template
-        name</emphasis>. </para>
+        name</emphasis>.</para>
       </listitem>
 
       <listitem>
