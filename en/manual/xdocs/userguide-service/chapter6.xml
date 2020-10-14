@@ -21,10 +21,10 @@
       <para>By using the custom fields, you can set frequently used company,
       group, and member information (e.g., Company phone number, address,
       company representative name, etc.) to be added automatically in
-      documents. After adding the custom fields in the Manage custom fields
-      menu, go to the <emphasis role="bold">Template settings &gt; Field
-      settings</emphasis> menu to set which information to be entered
-      automatically in the documents.</para>
+      documents. After adding the custom fields in the <emphasis
+      role="bold">Manage custom fields</emphasis> menu, go to the <emphasis
+      role="bold">Template settings &gt; Field settings</emphasis> menu to set
+      which information to be entered automatically in the documents.</para>
     </tip>
 
     <figure>
