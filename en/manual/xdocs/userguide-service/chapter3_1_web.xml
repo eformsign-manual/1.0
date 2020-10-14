@@ -420,7 +420,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/signature.png"/>
+          <imagedata fileref="resources/signature.png" width="500"/>
         </imageobject>
       </mediaobject>
 
@@ -573,8 +573,6 @@
           </mediaobject>
         </figure></para>
 
-      <para/>
-
       <para><emphasis role="bold">① ID</emphasis></para>
 
       <para>Each check component must be given a different ID. If multiple
@@ -632,8 +630,8 @@
 
       <para>For example, if there are six choices available in a multiple
       choice question, assign ‘question1’ as the ID for all of them. In the
-      example shown below, the ID of all the items is set to ‘select
-      age’.</para>
+      example shown below, the ID of all the items is set to
+      ‘question1’.</para>
 
       <figure>
         <title>Example of Setting a Radio Component</title>
@@ -641,7 +639,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/radio-items-should-have-same-ID_web.png"
-                       width="700"/>
+                       width="900"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -735,8 +733,8 @@
       <para><emphasis role="bold">① ID</emphasis></para>
 
       <para>Enter the ID of the combo component. For example, the ID of the
-      component for selecting the favorite color can be
-      ‘favoriteColor’.</para>
+      component for selecting the favorite color can be ‘Favorite
+      color’.</para>
 
       <para><emphasis role="bold">② Items</emphasis></para>
 
@@ -783,7 +781,7 @@
 
       <para>Enters the ID of the Datetime component. For example, the ID of
       the component for selecting the vacation start date can be named
-      ‘vacationStartDate’.</para>
+      ‘Vacation start date’.</para>
 
       <para><emphasis role="bold">② Format</emphasis></para>
 
@@ -922,8 +920,8 @@
       <para><emphasis role="bold">① ID</emphasis></para>
 
       <para>Enters the ID of the toggle component. For example, the ID of the
-      component for the first inspection item can be named
-      ‘inspection1’.</para>
+      component for the first inspection item can be named ‘APT inspection
+      1’.</para>
 
       <para><emphasis role="bold">② Items</emphasis></para>
 
@@ -1190,7 +1188,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/component_web_2.png" width="750"/>
+            <imagedata fileref="resources/component_web_2.png" width="1000"/>
           </imageobject>
         </mediaobject>
       </figure></para>
