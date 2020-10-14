@@ -345,7 +345,7 @@
             <para>You can set multi-level categories with separator (
             <emphasis role="bold">/ </emphasis>). For example, if you set the
             category <emphasis role="bold">HR Team/Vacation</emphasis>, the
-            Vacation category in the HR category are created. </para>
+            Vacation category in the HR category are created.</para>
           </listitem>
         </varlistentry>
 
@@ -568,9 +568,9 @@
             <para>This symbol adds document-related information into the
             document name.</para>
 
-            <para><emphasis role="bold"/> Enter <emphasis role="bold">$$
-            </emphasis>in the Document naming rule field to display the
-            drop-down menu and then select the desired information.</para>
+            <para>Enter <emphasis role="bold">$$ </emphasis>in the Document
+            naming rule field to display the drop-down menu and then select
+            the desired information.</para>
 
             <informaltable>
               <tgroup cols="2">
