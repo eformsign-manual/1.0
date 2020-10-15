@@ -10,25 +10,23 @@
   <title>Introduction to Form Builder</title>
 
   <section>
-    <title>Overview of Form Builder</title>
+    <title>Form Builder Overview</title>
 
     <para><indexterm class="singular">
         <primary>Form Builder</primary>
       </indexterm>Also known as OZ in Office, Form Builder is a form editor
-    which converts electronic documents created using Microsoft Office into
-    electronic documents containing components (fields).</para>
-
-    <para>By using OZ in Office, you can easily convert existing Excel, Word,
-    and PowerPoint forms such as contracts, applications, and agreements into
-    electronic documents.</para>
+    which converts documents created using Microsoft Office into electronic
+    documents containing components (fields). By using OZ in Office, you can
+    easily convert existing Excel, Word, and PowerPoint forms such as
+    contracts, applications, and agreements into electronic documents.</para>
 
     <para>Previously, converting Excel, Word, or PowerPoint documents into
     electronic documents required the use of a document development tool
-    requiring a high degree of programming knowledge. Now, with OZ in Office,
-    anyone with the ability to use Microsoft Office an easily create
+    needing a high degree of programming knowledge to operate. Now, with OZ in
+    Office, anyone with the ability to use Microsoft Office can easily create
     electronic documents.</para>
 
-    <para>OZ in Office, provided as a Microsoft Office add-on, is easy to use
+    <para>OZ in Office, provided as a Microsoft Office add-in, is easy to use
     as it is displayed as a ribbon menu and contains various components
     including signature, check box, text box, camera, and voice.</para>
 
@@ -56,9 +54,8 @@
             <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
         </inlinemediaobject>) on the top right corner of the dashboard screen
-      to open the sidebar. Then, click on the <emphasis role="bold">Download
-      eformsign form builder</emphasis> button on the bottom of the sidebar
-      menu.</para>
+      to open the sidebar. Then, click on the 'Download eformsign Form
+      Builder' button at the bottom.</para>
 
       <figure>
         <title>Location of the Download eformsign Form Builder Button</title>
@@ -71,8 +68,8 @@
         </mediaobject>
       </figure>
 
-      <para>2. The "Download eformsign form builder" page will be displayed as
-      shown below. Click on the "Download form builder" button at the bottom
+      <para>2. The 'Download eformsign form builder' page will be displayed as
+      shown below. Click on the 'Download form builder' button at the bottom
       of the page.</para>
 
       <figure>
@@ -98,7 +95,7 @@
       <para>1. Click on the Form Builder execution file to run it.</para>
 
       <para>2. When the Wizard screen shown below is displayed, select the
-      "Complete" option and then click the "Next" button.</para>
+      'Complete' option and then click the 'Next' button.</para>
 
       <figure>
         <title>Form Builder Installation Screen (1)</title>
@@ -126,8 +123,8 @@
       </figure>
 
       <para>4. When the installation is completed, the following screen is
-      displayed. Click the <emphasis role="bold">Finish</emphasis> button to
-      close the installation screen.</para>
+      displayed. Click the 'Finish' button to close the installation
+      screen.</para>
 
       <figure>
         <title>Form Builder Installation Screen (3)</title>
@@ -175,8 +172,6 @@
         </mediaobject>
       </figure>
 
-      <para/>
-
       <orderedlist>
         <listitem>
           <para><emphasis role="bold">File: </emphasis>Allows to execute
@@ -210,14 +205,14 @@
 
         <listitem>
           <para><emphasis role="bold">Deletion: </emphasis>Deletes components
-          after selecting components and then clicking the Delete
+          after selecting components and then clicking the 'Delete'
           button.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Window: </emphasis>Allows to open the
           properties tab of the selected component or select a component in
-          the Selection tab.</para>
+          the 'Selection' tab.</para>
         </listitem>
 
         <listitem>
@@ -225,6 +220,8 @@
           Form Builder and performs updates.</para>
         </listitem>
       </orderedlist>
+
+      <para/>
     </section>
   </section>
 
@@ -232,18 +229,17 @@
     <title>Overview of Components</title>
 
     <para><indexterm class="singular">
-        <primary>Input Components</primary>
+        <primary>Components</primary>
       </indexterm>Components are used to create fields in electronic documents
-    that users can enter information. </para>
-
-    <para>Many different components including signature, check, date, and text
-    are provided in Form Builder, and each component can be configured in
-    detail by using the Component Properties tab.</para>
+    that users can enter information. Many different components including
+    signature, check, date, and text are provided in Form Builder, and each
+    component can be configured in detail by using the 'Component Properties'
+    tab.</para>
 
     <section>
       <title>Component Types</title>
 
-      <para>The input components provided in eformsign are as follows.</para>
+      <para>The components provided in eformsign are as follows.</para>
 
       <figure>
         <title>Component Types</title>
@@ -259,8 +255,8 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold"><link linkend="check">Check</link>:
-          </emphasis><indexterm class="singular">
+          <para><emphasis role="bold"><link
+          linkend="check">Check</link>:</emphasis><indexterm class="singular">
               <primary>Components</primary>
 
               <secondary>Check</secondary>
@@ -268,8 +264,8 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold"><link linkend="select">Radio</link>:
-          </emphasis><indexterm class="singular">
+          <para><emphasis role="bold"><link
+          linkend="select">Radio</link>:</emphasis><indexterm class="singular">
               <primary>Components</primary>
 
               <secondary>Radio</secondary>
@@ -287,8 +283,9 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold"><link linkend="text">Multiline</link>:
-          </emphasis><indexterm class="singular">
+          <para><emphasis role="bold"><link
+          linkend="text">Multiline</link>:</emphasis><indexterm
+              class="singular">
               <primary>Components</primary>
 
               <secondary>Multiline</secondary>
@@ -317,11 +314,11 @@
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="numeric">Numeric</link>:</emphasis> <indexterm
+          linkend="numeric">number</link>:</emphasis> <indexterm
               class="singular">
               <primary>Components</primary>
 
-              <secondary>Numeric</secondary>
+              <secondary>number</secondary>
             </indexterm>Enters a number.</para>
         </listitem>
 
@@ -363,7 +360,7 @@
           <para><emphasis role="bold"><link
           linkend="record">Voice</link>:</emphasis> <indexterm
               class="singular">
-              <primary>IComponents</primary>
+              <primary>Components</primary>
 
               <secondary>Voice</secondary>
             </indexterm>Records audio in devices with a voice recording
@@ -381,7 +378,8 @@
         </listitem>
 
         <listitem>
-          <para>User: <indexterm class="singular">
+          <para><emphasis role="bold"><link
+          linkend="user">User</link></emphasis>: <indexterm class="singular">
               <primary>Components</primary>
 
               <secondary>User</secondary>
@@ -426,10 +424,10 @@
     <section>
       <title>Accessing Component Properties</title>
 
-      <para>Every component has its own detailed settings called 'properties'.
-      The properties of each component can be accessed by selecting a
-      component and then clicking the Property icon or the Properties
-      menu.</para>
+      <para>Every component has its own detailed settings called 'OZ Component
+      Properties'. The properties of each component can be accessed by
+      selecting a component and then clicking the property icon or the
+      'Properties' menu.</para>
 
       <para/>
 
@@ -446,28 +444,28 @@
 
       <note>
         <para>All components must have an ID. An ID is automatically generated
-        when you create a component, but it's good idea to rename it to
+        when you create a component, but it's a good idea to rename it to
         something you can easily recognize. For example, you can rename the ID
         of a component for entering John Doe, Jane Doe, etc. as 'name'.</para>
       </note>
     </section>
 
     <section>
-      <title>입력항목을 추가하는 방법</title>
+      <title>How to Add Components</title>
 
-      <para>입력항목은 크게 엑셀에서 추가하는 방법과 워드 또는 파워포인트에서 추가하는 방법이 있습니다. 워드 또는 파워포인트에서는
-      다시 두 가지의 방법으로 입력항목을 추가할 수 있습니다.</para>
+      <para>There are two different ways of adding components: adding
+      components in Excel, and adding components in Word/PowerPoint. In Word
+      or PowerPoint, you can add components in two different ways.</para>
 
       <para/>
 
       <section>
-        <title>엑셀에서 추가하기</title>
+        <title>Adding Components in Excel</title>
 
-        <para>1. 엑셀을 열고 <emphasis role="bold">OZ in Excel</emphasis> 리본 메뉴로
-        이동합니다.</para>
+        <para>1. Open Excel and go to the OZ in Excel ribbon menu.</para>
 
         <figure>
-          <title>엑셀에서 입력항목을 추가하는 방법(1)</title>
+          <title>Adding Components in Excel (1)</title>
 
           <mediaobject>
             <imageobject>
@@ -476,10 +474,10 @@
           </mediaobject>
         </figure>
 
-        <para>2. 입력항목을 추가할 셀을 선택합니다.</para>
+        <para>2. Select the cell in which you want to add a component.</para>
 
         <figure>
-          <title>엑셀에서 입력항목을 추가하는 방법(2)</title>
+          <title>Adding Components in Excel (2)</title>
 
           <mediaobject>
             <imageobject>
@@ -488,10 +486,10 @@
           </mediaobject>
         </figure>
 
-        <para>3. 원하는 입력항목을 클릭합니다.</para>
+        <para>3. Click the component you want.</para>
 
         <figure>
-          <title>엑셀에서 입력항목을 추가하는 방법(3)</title>
+          <title>Adding Components in Excel (3)</title>
 
           <mediaobject>
             <imageobject>
@@ -500,80 +498,89 @@
           </mediaobject>
         </figure>
 
-        <para>4. 입력항목 속성에서 입력항목이 추가된 것을 확인합니다.</para>
+        <para>4. Check that the component has been added by viewing the 'OZ
+        Component Properties' tab.</para>
 
         <para/>
       </section>
 
       <section>
-        <title>워드 또는 파워포인트에서 추가하기</title>
+        <title>Adding Components in Word or PowerPoint</title>
 
-        <para><emphasis role="bold">방법 1: 입력항목을 클릭하여 추가하기</emphasis></para>
+        <para><emphasis role="bold">Method 1: Adding Components by Clicking a
+        Component Type You Want</emphasis></para>
 
-        <para>1. 워드 또는 파워포인트를 열고 문서 중 입력항목을 추가할 위치를 선택합니다.</para>
+        <para>1. Open Word or PowerPoint and select the location in the
+        document where you want to add the component.</para>
 
         <figure>
-          <title>방법 1: 워드 또는 파워포인트에서 입력항목을 클릭하여 추가하기(1)</title>
+          <title>Method 1: Adding Components by Clicking a Component Type in
+          Word or PowerPoint (1)</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_1.png"/>
+              <imagedata fileref="resources/ozinword_1.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
 
-        <para>2.<emphasis role="bold">OZ in Word</emphasis> 또는 <emphasis
-        role="bold">OZ in PowerPoint</emphasis> 리본 메뉴에서 추가하고자 하는 입력항목을
-        클릭합니다.</para>
+        <para>2.Click the component type you want to add in the ribbon menu of
+        <emphasis role="bold">OZ in Word</emphasis> or <emphasis
+        role="bold">OZ in PowerPoint</emphasis>.</para>
 
         <figure>
-          <title>방법 1: 워드 또는 파워포인트에서 입력항목을 클릭하여 추가하기(2)</title>
+          <title>Method 1: Adding Components by Clicking a Component Type in
+          Word or PowerPoint (2)</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_2.png"/>
+              <imagedata fileref="resources/ozinword_2.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
 
-        <para>3. 추가된 입력항목의 크기를 조절합니다.</para>
+        <para>3. Adjust the size of the component.</para>
 
         <figure>
-          <title>방법 1: 워드 또는 파워포인트에서 입력항목을 클릭하여 추가하기(3)</title>
+          <title>Method 1: Adding Components by Clicking a Component Type in
+          Word or PowerPoint (2)</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_3.png"/>
+              <imagedata fileref="resources/ozinword_3.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
 
-        <para><emphasis role="bold">방법 2: 입력항목을 그려서 추가하기</emphasis></para>
+        <para><emphasis role="bold">Method 2: Adding Components by Drawing a
+        Component</emphasis></para>
 
-        <para>1. 워드 또는 파워포인트를 열고 <emphasis role="bold">OZ in Word</emphasis>
-        또는 <emphasis role="bold">OZ in PowerPoint</emphasis> 리본 메뉴로
-        이동합니다.</para>
+        <para>1. Open Word or PowerPoint and go to the OZ in Word/Powerpoint
+        ribbon menu.</para>
 
-        <para>2. 입력항목 그리기 아이콘을 클릭하여 나타나는 드롭다운 목록에서 추가할 입력항목을 선택합니다.</para>
+        <para>2. Click the Draw Component icon and select the component type
+        you want to add in the drop-down menu displayed.</para>
 
         <figure>
-          <title>방법 2: 워드 또는 파워포인트에서 입력항목을 그려서 추가하기(1)</title>
+          <title>Method 2: Adding Components by Drawing a Component in Word or
+          PowerPoint (1)</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_2_1.png"/>
+              <imagedata fileref="resources/ozinword_2_1.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
 
-        <para>3. 원하는 위치와 크기로 입력항목을 추가합니다.</para>
+        <para>3. Add the component in the position and size you want.</para>
 
         <figure>
-          <title>방법 2: 워드 또는 파워포인트에서 입력항목을 그려서 추가하기(2)</title>
+          <title>Method 2: Adding Components by Drawing a Component in Word or
+          PowerPoint (2)</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_2_2.png"/>
+              <imagedata fileref="resources/ozinword_2_2.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -581,104 +588,118 @@
     </section>
 
     <section>
-      <title>입력항목을 삭제하는 방법</title>
+      <title>How to Delete Components</title>
 
-      <para>삭제하고자 하는 입력항목을 선택하고 <emphasis role="bold">OZ in Office</emphasis>
-      메뉴의 <emphasis role="bold">삭제</emphasis>(<inlinemediaobject>
+      <para>Select the component you want to delete and then click the
+      <emphasis role="bold">Delete</emphasis> icon (<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/delete-icon.png"/>
           </imageobject>
-        </inlinemediaobject>) 아이콘을 클릭합니다. 입력항목은 여러 개를 선택해서 삭제하는 것도
-      가능합니다.</para>
+        </inlinemediaobject>) in the OZ in Office menu. You can also select
+      and delete multiple components.</para>
     </section>
   </section>
 
   <section>
-    <title>입력항목별 사용 방법</title>
+    <title>How to Use Each Component Type</title>
 
-    <para>eformsign은 MS Office의 <emphasis role="bold">OZ in Office</emphasis>
-    리본 메뉴를 통해 체크박스, 콤보박스, 텍스트, 서명 등 다양한 입력항목을 지원하고 있습니다.</para>
+    <para>eformsign provides various types of components such as check box,
+    combo box, text, and signature through the MS Office’s <emphasis
+    role="bold">OZ in Office</emphasis> ribbon menu.</para>
 
-    <para><emphasis role="bold">OZ in Office</emphasis>의 모든 입력 기능은 공통 속성과 고유
-    속성을 가지고 있으며, OZ 입력항목 속성 창에서 공통 속성과 각 입력 기능의 고유 속성을 확인할 수 있습니다. 공통 속성으로는
-    ID와 툴팁 텍스트가 있으며, 각 속성의 의미는 다음과 같습니다.</para>
+    <para>All components of <emphasis role="bold">OZ in Office</emphasis> have
+    both common and unique properties. You can view both the common and unique
+    properties of components in the OZ Component Properties tab. Common
+    properties include ID and Tooltip Text, and the meaning of each property
+    is as follows.</para>
 
     <itemizedlist>
       <listitem>
         <para><emphasis role="bold">ID: </emphasis><indexterm class="singular">
-            <primary>입력항목</primary>
+            <primary>Components</primary>
 
             <secondary>ID</secondary>
-          </indexterm>입력 기능의 값을 외부 프로그램에서 추출할 때 사용하는 고유한 키(Key)입니다</para>
+          </indexterm>Unique key for using an entered value in
+        eformsign.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">툴팁 텍스트: </emphasis><indexterm
+        <para><emphasis role="bold">Tooltip Text: </emphasis><indexterm
             class="singular">
-            <primary>입력항목</primary>
+            <primary>Components</primary>
 
-            <secondary>툴립 텍스트</secondary>
-          </indexterm>수신자에게 문서가 표시될 때 Windows 환경에서는 입력항목에 마우스를 올려놓으면 툴팁 텍스트가
-        말풍선 형태로 표시되며, 모바일 환경에서는 입력항목이 다이얼로그로 실행될 때 툴팁 텍스트가 다이얼로그의 제목으로
-        표시됩니다.</para>
+            <secondary>Tooltip Text</secondary>
+          </indexterm>In Windows, the text in the Tooltip Text box of a
+        component is displayed on the form of a speech bubble when hovering
+        the mouse over the component. In mobile, the text is displayed on the
+        quick type bar when clicking on the component.</para>
       </listitem>
     </itemizedlist>
 
     <note>
-      <para>OZ 입력항목 속성 창은 입력 기능이 적용된 위치를 선택한 후 OZ in Office 메뉴의 <emphasis
-      role="bold">속성</emphasis> 아이콘(<inlinemediaobject>
+      <para>To open the OZ Component Properties window, click on a component
+      and then click the <emphasis role="bold">Properties</emphasis> icon
+      (<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/property-icon.png"/>
           </imageobject>
-        </inlinemediaobject> )을 클릭하면 표시됩니다.</para>
+        </inlinemediaobject> ) in the<emphasis role="bold"> </emphasis>OZ in
+      Office ribbon menu.</para>
     </note>
 
     <note>
-      <para>정보 타입인 사용자, 사용일, 문서, 레이블에는 툴팁이 없습니다.</para>
+      <para>The Tooltip Text feature is not provided for the User, Date,
+      Document, and Label component types.</para>
     </note>
 
-    <para>eformsign이 제공 중인 각 입력항목에 대한 설명은 다음과 같습니다.</para>
+    <para>The description of each component type provided in eformsign is as
+    follows.</para>
 
     <para/>
 
     <section xml:id="check">
-      <title>체크</title>
+      <title>Check</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>체크</secondary>
-        </indexterm>체크 입력항목은 각 항목의 체크 여부를 확인하고자 할때 사용합니다. 비슷한 입력항목 중 ‘선택’
-      입력항목이 있으며, 체크 입력항목은 해당 항목의 체크 여부를 확인할 때 사용하고, 선택 입력항목은 선택한 항목이 무엇인지 알아야
-      할 때 사용한다는 차이가 있습니다.</para>
+          <secondary>Check</secondary>
+        </indexterm>The check component is used to check whether an item is
+      checked or not. This component is similar to the radio component, but it
+      is used for checking the status of an item (whether it is checked or
+      not) while the radio component is used for checking which item among
+      multiple items is checked.</para>
 
       <para/>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form-builder-components_check.png"/>
+          <imagedata fileref="resources/form-builder-components_check.png"
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
-      <para>체크 입력항목의 입력값은 데이터 다운로드 시 다음과 같이 나타납니다.</para>
+      <para>When data is downloaded in CSV format, the check component’s input
+      value is displayed as follows.</para>
 
       <itemizedlist>
         <listitem>
-          <para>항목에 체크한 경우: true</para>
+          <para>When the item is checked: true</para>
         </listitem>
 
         <listitem>
-          <para>항목에 체크하지 않은 경우: false</para>
+          <para>When the item is not checked: false</para>
         </listitem>
       </itemizedlist>
 
-      <para>워드, 파워포인트에서는 체크 입력항목이 직사각형 도형처럼 나타납니다. 항목의 내용은 입력항목 도형 안에 입력해야
-      합니다.</para>
+      <para>In Word and PowerPoint, the radio component is shown as a
+      rectangular shape. Make sure to enter data inside the rectangular
+      shape.</para>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <para><figure>
-          <title>체크 입력항목 속성 설정하기</title>
+          <title>Setting Check Component Properties</title>
 
           <mediaobject>
             <imageobject>
@@ -691,16 +712,18 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>체크 입력항목은 각 항목 별로 다른 ID를 부여해야 합니다. 여러 개의 체크 입력항목에 같은 ID가 부여될 경우 해당
-      입력항목 중 마지막 입력항목의 입력값만 표시됩니다.</para>
+      <para>Each check component must be given a different ID. If multiple
+      check components are given the same ID, then only the value of the last
+      component is displayed.</para>
 
-      <para><emphasis role="bold">② 체크 스타일</emphasis></para>
+      <para><emphasis role="bold">② Check Style</emphasis></para>
 
-      <para>선택 입력항목은 속성에서 스타일을 지정할 수 있습니다. 체크를 선택하면 속성에서 체크박스가 기본으로 설정되어 있으며,
-      이외에 라디오 버튼, 빨간 원 표시를 선택할 수 있습니다.</para>
+      <para>You can specify the style of each component in 'Component
+      Properties'. The check box is set as the default style, and you can
+      change it to another style (radio button or red circle).</para>
 
-      <para>다음의 예시를 보면, 왼쪽부터 체크 / 라디오 / 원 선택 시 각각 체크박스가 어떻게 표시되는지를 알 수
-      있습니다.</para>
+      <para>The below example shows how check boxes are displayed according to
+      the selected style.</para>
 
       <mediaobject>
         <imageobject>
@@ -711,14 +734,15 @@
     </section>
 
     <section xml:id="select">
-      <title>선택</title>
+      <title>Radio</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>선택</secondary>
-        </indexterm>선택 입력항목은 여러 항목 중 어떤 항목을 선택했는지 확인해야 할 때 사용합니다. 선택 입력항목의
-      선택값은 데이터 다운로드 시 여러 항목 중 선택한 항목명이 나타납니다.</para>
+          <secondary>Radio</secondary>
+        </indexterm>The radio component is used for checking which radio
+      button is selected among multiple radio buttons. When data is downloaded
+      in CSV format, the selected radio button will be displayed.</para>
 
       <mediaobject>
         <imageobject>
@@ -726,13 +750,14 @@
         </imageobject>
       </mediaobject>
 
-      <para>워드, 파워포인트에서는 선택 입력항목이 직사각형 도형처럼 나타납니다. 항목의 내용은 입력항목 도형 안에 입력해야
-      합니다.</para>
+      <para>In Word and PowerPoint, the radio component is shown as a
+      rectangular shape. Make sure to enter data inside the rectangular
+      shape.</para>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <para><figure>
-          <title>선택 입력항목 속성 설정하기</title>
+          <title>Setting Radio Component Properties</title>
 
           <mediaobject>
             <imageobject>
@@ -743,14 +768,16 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>선택 입력항목의 선택 항목에는 선택 그룹마다 모두 같은 ID를 부여해야 합니다.</para>
+      <para>In Component Properties, make sure that all the selected radio
+      buttons are assigned the same ID.</para>
 
-      <para>예를 들어, 1번 문제에 대해 1, 2, 3, 4, 5의 보기가 있는 경우 1, 2, 3, 4, 5 항목에 같은 ID
-      ‘1번’을 부여합니다. 2번 문제의 1, 2, 3, 4, 5 보기에는 ‘2번’ ID를 부여합니다. 다음 예시 화면의 모든 선택
-      항목의 ID는 ‘나이 선택’으로 지정합니다.</para>
+      <para>For example, if there are six choices available in a multiple
+      choice question, assign ‘question1’ as the ID for all of them. In the
+      example shown below, the ID of all the items is set to ‘select
+      age’.</para>
 
       <figure>
-        <title>선택 입력항목의 설정 예</title>
+        <title>Example of Setting a Radio Component</title>
 
         <mediaobject>
           <imageobject>
@@ -759,34 +786,40 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">② 선택 스타일</emphasis></para>
+      <para><emphasis role="bold">② Check Style</emphasis></para>
 
-      <para>선택 입력항목은 속성에서 스타일을 지정할 수 있습니다. 빨간 동그라미가 나타나는 ‘원’이 기본으로 설정되어 있으며
-      이외에 체크박스, 라디오 버튼 표시를 선택할 수 있습니다.</para>
+      <para>You can choose the style of the radio button component in
+      'Component Properties'. The default style is the red circle, and you can
+      change it to another style (check box and radio button).</para>
 
-      <para><emphasis role="bold">③ 다중 선택 가능</emphasis></para>
+      <para><emphasis role="bold">③ Multiselectable</emphasis></para>
 
-      <para><emphasis role="bold">다중 선택 가능</emphasis>을 체크하면 1개 이상의 항목을 선택할 수
-      있습니다. 1개 이상의 항목을 선택한 경우 데이터 저장 시 선택된 여러 개의 항목이 콤마(,)로 구분되어 저장됩니다.</para>
+      <para>Checking the <emphasis role="bold">‘Multi-selectable’</emphasis>
+      option allows you to select multiple items.<emphasis role="bold">
+      </emphasis>If<emphasis role="bold"> </emphasis>you select more than one
+      item, then when data is saved, each item is separated with a comma
+      (,).</para>
 
-      <para><emphasis role="bold">④ 선택 안 함 가능</emphasis></para>
+      <para><emphasis role="bold">④ Uncheckable</emphasis></para>
 
-      <para><emphasis role="bold">선택 안 함 가능</emphasis>을 체크하면 선택한 항목을 다시 클릭해 선택
-      해제를 할 수 있습니다.</para>
+      <para>Checking the <emphasis role="bold">‘Uncheckable’</emphasis> option
+      allows you to deselect a selected item by clicking it again.</para>
 
-      <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
 
-      <para>해당 입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="combo">
-      <title>콤보</title>
+      <title>Combo</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>콤보</secondary>
-        </indexterm>여러가지 항목 중에서 한 항목을 선택해야 할 때, 콤보 입력항목을 사용합니다.</para>
+          <secondary>Combo</secondary>
+        </indexterm>The combo component is used when you need to select one of
+      multiple items.</para>
 
       <mediaobject>
         <imageobject>
@@ -794,7 +827,8 @@
         </imageobject>
       </mediaobject>
 
-      <para>다음과 같이 선택란을 클릭하면 항목 리스트가 나타납니다.</para>
+      <para>If you click a combo component, a list of items is displayed as
+      follows.</para>
 
       <mediaobject>
         <imageobject>
@@ -802,10 +836,10 @@
         </imageobject>
       </mediaobject>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>콤보 입력항목 속성 설정하기</title>
+        <title>Setting Combo Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -816,52 +850,43 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>콤보 입력항목의 ID를 입력합니다. 예를 들어, 좋아하는 색을 고르는 입력항목의 ID는 ‘좋아하는 색’으로
-      합니다.</para>
+      <para>Enters the ID of the combo component. For example, the ID of the
+      component for selecting the favorite color can be
+      ‘favoriteColor’.</para>
 
       <para><emphasis role="bold">② Items</emphasis></para>
 
-      <para>선택 항목들을 입력합니다. 엔터(Enter)로 여러 항목을 구분합니다.</para>
+      <para>Enters the items you want. You can separate the items by pressing
+      Enter.</para>
 
       <note>
-        <para>콤보 입력항목의 선택란에 ‘선택하세요’를 표시하려면, Items 항목 가장 위에 ‘선택하세요’를 입력하고 입력항목
-        안에도 동일하게 ‘선택하세요’를 입력합니다.</para>
+        <para>If you want to display a message such as ‘Please select a color’
+        in a combo box in a document for recipients to view, then enter the
+        message at the top of the list of items in the combo box and select it
+        before sending the document.</para>
       </note>
 
-      <para><emphasis role="bold">③ 입력 데이터 초기화 가능</emphasis></para>
+      <para><emphasis role="bold">③ Tooltip Text</emphasis></para>
 
-      <para><emphasis role="bold">입력 데이터 초기화 가능</emphasis>에 체크하면 선택한 항목을 선택
-      해제할 수 있습니다. 입력 데이터 초기화는 다음과 같이 실행할 수 있습니다.</para>
-
-      <itemizedlist>
-        <listitem>
-          <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 ‘입력 데이터 초기화’를
-          선택합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para>모바일 환경: 휴지통 아이콘을 클릭합니다.</para>
-        </listitem>
-      </itemizedlist>
-
-      <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
-
-      <para>선택란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="text">
-      <title>텍스트와 멀티라인</title>
+      <title>Text and Multiline</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>텍스트</secondary>
+          <secondary>Text</secondary>
         </indexterm><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>멀티라인</secondary>
-        </indexterm>텍스트 입력항목와 멀티라인 입력항목 모두 텍스트 입력란을 만들 때에 사용합니다. 텍스트 입력항목은 1~2
-      단어의 짧은 텍스트, 멀티라인은 1줄 이상의 긴 텍스트에 적합합니다.</para>
+          <secondary>Multiline</secondary>
+        </indexterm>Both text and multiline components are used to create text
+      fields. The text component is suitable for short text with 1 to 2 words,
+      and the multiline component is suitable for long text with more than 1
+      line.</para>
 
       <mediaobject>
         <imageobject>
@@ -869,10 +894,10 @@
         </imageobject>
       </mediaobject>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>텍스트와 멀티라인 입력항목 속성 설정하기</title>
+        <title>Setting Text and Multiline Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -883,39 +908,45 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>텍스트/멀티라인 입력항목의 ID를 입력합니다. 예를 들어, 홍길동, 이순신 등이 입력되는 입력항목의 ID는 ‘이름’으로
-      합니다.</para>
+      <para>Enters the ID of the text/multiline component. For example, the ID
+      of the component in which John Doe, Jane Doe, etc. are entered can be
+      named ‘personName’.</para>
 
-      <para><emphasis role="bold">② 입력 가능 최대 글자 수</emphasis></para>
+      <para><emphasis role="bold">② Max Length</emphasis></para>
 
-      <para>입력 가능한 최대 글자 수(공백 포함)를 설정할 수 있습니다. 기본으로 ‘0’이 설정되어 있으며 이 경우 글자 수
-      제한이 없습니다.</para>
+      <para>Sets the maximum length of characters (including space) that can
+      be entered. By default, it is set to ‘0’, and there is no character
+      limit if it is set to ‘0’.</para>
 
-      <para><emphasis role="bold">③ 키보드 타입</emphasis></para>
+      <para><emphasis role="bold">③ Keyboard Type</emphasis></para>
 
-      <para>입력항목에 입력할 때 실행할 키보드 타입을 선택합니다. 키보드 타입은 스마트폰, 태블릿과 같은 모바일 환경에서만
-      동작합니다.</para>
+      <para>Selects the keyboard type to be used when entering text in the
+      component. Keyboard Type can only be used in mobile devices such as
+      smartphones and tablets.</para>
 
-      <para><emphasis role="bold">④ 패스워드 문자로 표시</emphasis></para>
+      <para><emphasis role="bold">④ Show Password Characters</emphasis></para>
 
-      <para>텍스트 입력항목에서만 설정 가능한 속성입니다. 텍스트 입력 시 입력한 내용이 패스워드 문자(●)로 입력되어 입력 내용을
-      숨길 수 있습니다. 입력된 내용은 PDF에서도 패스워드 문자로 숨겨지며, CSV 데이터를 다운로드 받을 때에만 확인할 수
-      있습니다.</para>
+      <para>This option can be set only in the text component. By checking
+      this option, the password is hidden with the password symbol (●) when
+      entering text. The password is also hidden with the password symbol in
+      PDFs, and can only be seen when downloaded in CSV format.</para>
 
-      <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">④ Tooltip Text</emphasis></para>
 
-      <para>해당 입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="date">
-      <title>날짜</title>
+      <title>Datetime</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>날짜</secondary>
-        </indexterm>날짜를 입력해야 할 때 사용합니다. 입력란을 클릭하면 날짜 선택창이 나타나며 원하는 날짜를 선택할 수
-      있습니다.</para>
+          <secondary>Datetime</secondary>
+        </indexterm>This component is used for entering a date. Clicking the
+      component displays a date selection window where you can select the date
+      you want.</para>
 
       <mediaobject>
         <imageobject>
@@ -923,10 +954,10 @@
         </imageobject>
       </mediaobject>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>날짜 입력항목 속성 설정하기</title>
+        <title>Setting Datetime Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -937,74 +968,89 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>날짜 입력항목의 ID를 입력합니다. 예를 들어, 휴가 시작일을 선택하는 입력항목의 ID는 ‘휴가 시작일’로
-      합니다.</para>
+      <para>Enters the ID of the Datetime component. For example, the ID of
+      the component for selecting the vacation start date can be named
+      ‘vacationStartDate’.</para>
 
-      <para><emphasis role="bold">② 표시형식</emphasis></para>
+      <para><emphasis role="bold">② Format</emphasis></para>
 
-      <para>날짜가 표시되는 형식을 지정합니다.</para>
-
-      <itemizedlist>
-        <listitem>
-          <para><emphasis role="bold">yyyy: </emphasis>연도’를 표시합니다. (yyyy년 =
-          2020년)</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">MM:</emphasis> ‘월’을 표시합니다. 반드시 대문자로 표기해야
-          합니다. (MM월 = 8월)</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">dd:</emphasis> ‘일’을 표시합니다. (dd일 =
-          10일)</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>‘2020년 2월 5일’처럼 나타나게 하려면, 표시형식에 ‘yyyy년 MM월 dd일’로 입력합니다.</para>
-
-      <para><emphasis role="bold">③ 입력 가능 최소/최대 날짜</emphasis></para>
-
-      <para>날짜 선택 시 선택할 수 있는 최소, 최대 날짜를 지정하여 입력 가능한 날짜의 범위를 설정합니다.</para>
-
-      <para><emphasis role="bold">④ 빈 값일 때 오늘 날짜 표시</emphasis></para>
-
-      <para>문서를 열었을 때 자동으로 오늘 날짜가 입력되도록 설정합니다. 날짜 입력항목 추가 시 기본으로 체크되어 있습니다. 오늘
-      날짜가 입력된 입력란을 다시 클릭하면 다른 날짜를 선택할 수 있습니다.</para>
-
-      <para><emphasis role="bold">⑤ 입력 데이터 초기화 가능</emphasis></para>
-
-      <para>입력 데이터 초기화 가능을 체크하면 선택한 날짜를 삭제할 수 있습니다. 날짜 입력항목은 한 번 날짜를 선택하면 다른
-      날짜로 변경할 수는 있으나 날짜 선택을 취소할 수는 없습니다. 그러나 입력 데이터 초기화 가능 속성을 체크하면 아무것도 선택되지
-      않은 상태로 변경할 수 있습니다. 단, 아무것도 선택되지 않은 상태일 때 빈 값일 때 오늘 날짜 표시 속성이 체크된 경우 오늘
-      날짜로 선택됩니다.</para>
+      <para>Sets the format in which date is displayed.</para>
 
       <itemizedlist>
         <listitem>
-          <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 ‘입력 데이터 초기화’를
-          선택합니다.</para>
+          <para><emphasis role="bold">yyyy: </emphasis>Displays the year (e.g.
+          yyyy = 2020).</para>
         </listitem>
 
         <listitem>
-          <para>모바일 환경: 휴지통 아이콘을 클릭합니다.</para>
+          <para><emphasis role="bold">MM:</emphasis> Displays the month. Must
+          be in uppercase (e.g. MM = August).</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">dd:</emphasis> Displays the days. (e.g.
+          dd = 10 days)</para>
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">⑥ 툴팁 텍스트</emphasis></para>
+      <para>For example, if you want to display the date in the format of
+      ‘2020-02-05’, then enter yyyy-MM-dd in the Format field.</para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para><emphasis role="bold">③ Minimum Date/Maximum
+      Date</emphasis></para>
+
+      <para>Sets the range of dates that can be selected in the component by
+      specifying the minimum and maximum dates.</para>
+
+      <para><emphasis role="bold">④ Display Today for Empty
+      Value</emphasis></para>
+
+      <para>Checking this option automatically enters the date (the date in
+      which the document is opened) when the document is opened. This option
+      is checked by default when you add a Datetime component. You can change
+      the date by clicking the component.</para>
+
+      <para><emphasis role="bold">⑤ Allow Empty Value</emphasis></para>
+
+      <para>Checking this option allows you to clear the number displayed on a
+      numeric component. In a Datetime component, once you select a date, you
+      can change it to another date but cannot clear the date. Checking this
+      option allows you to clear the date displayed on the Datetime component.
+      However, if no date is selected in the Datetime component but the
+      ‘Display Today for Empty Value’ option is checked, then the date
+      component is automatically filled in with the date in which the document
+      is opened.</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>PC: Right-click on the component to display the pop-up menu
+          and then select the ‘Initialize Input Data’ menu.</para>
+        </listitem>
+
+        <listitem>
+          <para>Mobile: Click the trash can icon.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">⑥ Tooltip Text</emphasis></para>
+
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="numeric">
-      <title>숫자</title>
+      <title>Numeric</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>숫자</secondary>
-        </indexterm>숫자를 입력해야 할 때 사용합니다. 입력란을 클릭하면 오른쪽에 두 개의 화살표가 나타나며, 위 아래
-      화살표 버튼을 눌러 숫자를 증감시킬 수 있습니다. PC 키보드 환경에서는 입력란에 직접 원하는 숫자를 입력할 수 있습니다.
-      스마트폰, 태블릿 환경에서는 입력 범위 숫자 리스트에서 스크롤하여 원하는 숫자를 선택할 수 있습니다.</para>
+          <secondary>Numeric</secondary>
+        </indexterm>This component is used for entering a number. Hovering
+      over the component displays two arrows on the right, and you can
+      increase or decrease the number by clicking them. In PCs, you can
+      directly enter the desired number into the component by using a
+      keyboard. In smartphones and tablets, you can scroll through the list of
+      numbers and select the one you want.</para>
 
       <mediaobject>
         <imageobject>
@@ -1012,10 +1058,10 @@
         </imageobject>
       </mediaobject>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>숫자 입력항목 속성 설정하기</title>
+        <title>Setting Numeric Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -1026,53 +1072,64 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>숫자 입력항목의 ID를 입력합니다. 예를 들어, 예약 인원을 입력하는 입력항목의 ID는 ‘예약 인원’으로
-      합니다.</para>
+      <para>Enters the ID of the numeric component. For example, the ID of the
+      component for entering the number of people in a reservation can be
+      named ‘peopleCount’.</para>
 
-      <para><emphasis role="bold">② 증감 단위</emphasis></para>
+      <para><emphasis role="bold">② Unit of Change</emphasis></para>
 
-      <para>입력란의 증가/감소 아이콘을 클릭할 때마다 현재 입력된 값에서 증감시킬 값을 입력합니다. 예를 들어, 증감 단위를
-      100으로 설정하고 문서를 작성할 때 입력란 오른쪽의 위 화살표(▲)를 클릭하면 입력된 값에서 200, 300, …으로
-      증가합니다.</para>
+      <para>Enters the unit of number that will increase/decrease the number
+      whenever the up/down arrow icon is clicked. For example, if the ‘Unit of
+      Change’ is set to 100, then when you click the up arrow icon (▲), the
+      number is increased by 100 such as 200, 300, 400, and so on.</para>
 
-      <para><emphasis role="bold">③ 입력 가능 최솟값/최댓값</emphasis></para>
+      <para><emphasis role="bold">③ Minimum/Maximum Value</emphasis></para>
 
-      <para>입력 가능 최솟값/최댓값을 지정하여 입력 가능한 숫자의 범위를 설정합니다. 예를 들어, 생년월일의 경우 보통 최솟값을
-      1900, 최댓값을 현재 년도, 증감 단위를 1로 지정합니다. 최솟값 또는 최댓값이 지정된 상태에서 범위 외의 숫자를 입력하면
-      자동으로 최솟값 또는 최댓값이 입력됩니다. 즉, 최댓값이 100으로 지정되었을 때, 입력란에 101을 입력하면 숫자가 자동으로
-      최댓값인 100으로 변경됩니다.</para>
+      <para>Sets the range of numbers that can be entered into the component
+      by specifying the minimum and maximum values. For example, for the date
+      of birth, setting the minimum value to 1900, maximum value to the
+      current year, and the unit of change to 1. Also, if you enter a value
+      that is lower/higher than the minimum/maximum value, then the
+      minimum/maximum value will be automatically entered. For example, if the
+      maximum value is set to 100 and you enter 101, then the number will
+      automatically change to 100.</para>
 
-      <para><emphasis role="bold">④ 입력 데이터 초기화 가능</emphasis></para>
+      <para><emphasis role="bold">④ Allow Empty Value</emphasis></para>
 
-      <para>입력 데이터 초기화 가능을 체크하면 입력된 숫자를 삭제할 수 있습니다. 숫자 입력항목은 한 번 숫자를 입력하면 다른
-      숫자로 변경할 수는 있으나 숫자를 삭제할 수는 없습니다. 그러나 입력 데이터 초기화 가능을 체크하면 아무것도 입력되지 않은 상태로
-      변경할 수 있습니다.</para>
+      <para>Checking the ‘Allow Empty Value’ option allows you to clear the
+      number displayed on the numeric component. After entering a number in a
+      numeric component, you can change the number again, but cannot clear the
+      number. However, by checking this option, you can clear the number
+      displayed on the component as described below.</para>
 
       <para><itemizedlist>
           <listitem>
-            <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 ‘입력 데이터 초기화’를
-            선택합니다.</para>
+            <para>PC: Right-click on the component to display the pop-up menu
+            and then select the ‘Initialize Input Data’ menu.</para>
           </listitem>
 
           <listitem>
-            <para>모바일 환경: 휴지통 아이콘을 클릭합니다.</para>
+            <para>Mobile: Click the trash can icon.</para>
           </listitem>
         </itemizedlist></para>
 
-      <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="toggle">
-      <title>토글</title>
+      <title>Toggle</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>토글</secondary>
-        </indexterm>켜짐(ON), 꺼짐(OFF)과 같은 특정한 상태를 나타낼 때 사용합니다. 토글 입력항목을 사용하면
-      입력항목을 클릭할 때마다 미리 설정한 항목의 순서대로 입력값이 전환됩니다.</para>
+          <secondary>Toggle</secondary>
+        </indexterm>This component is used for indicating a specific status
+      such as ON/OFF. If you use this component, then the input value is
+      switched according to a defined order whenever the component is
+      clicked.</para>
 
       <mediaobject>
         <imageobject>
@@ -1080,7 +1137,8 @@
         </imageobject>
       </mediaobject>
 
-      <para>다음과 같이 입력항목을 클릭하여 양호, 불량 상태로 변경할 수 있습니다.</para>
+      <para>You can change the status to good or bad by clicking the
+      components as follows.</para>
 
       <mediaobject>
         <imageobject>
@@ -1088,10 +1146,10 @@
         </imageobject>
       </mediaobject>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>토글 입력항목 속성</title>
+        <title>Toggle Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -1102,44 +1160,50 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>토글 입력항목의 ID를 입력합니다. 예를 들어, 첫번째 점검 항목에 대한 입력항목인 경우 ‘점검항목 1’로
-      합니다.</para>
+      <para>Enters the ID of the toggle component. For example, the ID of the
+      component for the first inspection item can be named
+      ‘inspection1’.</para>
 
       <para><emphasis role="bold">② Items</emphasis></para>
 
-      <para>토글 입력항목을 클릭할 때마다 전환될 항목 리스트를 입력합니다. 엔터(Enter)로 여러 항목을
-      구분합니다.</para>
+      <para>Enters the list of items that will be toggled whenever the toggle
+      component is clicked. You can separate each item by pressing
+      Enter.</para>
 
-      <para><emphasis role="bold">③ 입력 데이터 초기화 가능</emphasis></para>
+      <para><emphasis role="bold">③ Allow Empty Value</emphasis></para>
 
-      <para>입력 데이터 초기화 가능을 체크하면 입력된 항목을 삭제할 수 있습니다. 토글 입력항목은 한 번 항목을 선택하면 다른
-      항목으로 변경할 수는 있으나 항목 선택을 취소할 수는 없습니다. 그러나 입력 데이터 초기화 가능을 체크하면 아무것도 입력되지 않은
-      상태로 변경할 수 있습니다.</para>
+      <para>Checking this option allows you to clears the item displayed on
+      the toggle component. When you select a toggle component, you can toggle
+      to another item but cannot clear the item displayed on the component.
+      However, by checking this option, you can clear the item displayed on
+      the component as described below.</para>
 
       <itemizedlist>
         <listitem>
-          <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 ‘입력 데이터 초기화’를
-          선택합니다.</para>
+          <para>PC: Right-click on the component to display the pop-up menu
+          and then select the ‘Initialize Input Data’ menu.</para>
         </listitem>
 
         <listitem>
-          <para>모바일 환경: 휴지통 아이콘을 클릭합니다.</para>
+          <para>Mobile: Click the trash can icon.</para>
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">④ Tooltip Text</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="signature">
-      <title>서명</title>
+      <title>Signature</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>서명</secondary>
-        </indexterm>서명 입력항목은 문서에 서명을 받아야 할 때 사용합니다.</para>
+          <secondary>Signature</secondary>
+        </indexterm>This component is used for signing a signature on a
+      document.</para>
 
       <mediaobject>
         <imageobject>
@@ -1147,8 +1211,9 @@
         </imageobject>
       </mediaobject>
 
-      <para>서명 입력항목을 넣으면 서명이 필요한 문서에서 아래와 같이 서명 팝업이 뜨고 서명을 직접 그리거나 텍스트를 입력해
-      서명을 생성할 수 있으며, 기존에 등록한 서명이 있는 경우 이를 사용할 수도 있습니다.</para>
+      <para>Clicking the signature area displays the signature pop-up which
+      allows you to sign a signature by drawing, entering text, or using a
+      previously registered signature.</para>
 
       <mediaobject>
         <imageobject>
@@ -1156,10 +1221,10 @@
         </imageobject>
       </mediaobject>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>서명 입력항목 속성 설정하기</title>
+        <title>Setting Signature Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -1170,83 +1235,110 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>서명 입력항목의 ID를 입력합니다. 예를 들어, 계약자의 서명인 경우 입력항목 ID는 ‘계약자 서명’으로
-      합니다.</para>
+      <para>Enters the ID of the signature component. For example, the ID of
+      the component can be ‘signerSignature’ for contract signers.</para>
 
-      <para><emphasis role="bold">② 서명 유형</emphasis></para>
+      <para><emphasis role="bold">② Signature Type</emphasis></para>
 
-      <para>서명 시 어떤 서명을 사용할 것인지 선택합니다.</para>
+      <para>Selects the signature type to be used when signing.</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">직접 서명:</emphasis> 서명란을 클릭하면 서명 팝업이 나타나며
-          그리기, 텍스트, 모바일, 도장, 등록된 서명 탭 중 원하는 방식으로 서명을 입력합니다.</para>
+          <para><emphasis role="bold">Enter Directly:</emphasis> Clicking the
+          signature area displays the signature pop-up which allows you to
+          sign by selecting one of the multiple signing methods which are
+          ‘Draw’, ‘Text’, ‘Mobile’, ‘Stamp’, and ‘Registered
+          signature’.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">등록된 서명:</emphasis> 문서를 작성하는 사람이 미리 등록해 둔
-          ‘내 서명’이 있는 경우 서명란을 클릭하면 등록된 서명이 자동으로 입력됩니다.</para>
+          <para><emphasis role="bold">Registered Signature:</emphasis> If the
+          user has already registered a signature on eformsign, then clicking
+          the signature area inserts the registered signature into the
+          document.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">등록된 이니셜:</emphasis> 등록된 서명과 마찬가지로 ‘내
-          서명’에 등록된 이니셜이 있는 경우 서명란을 클릭하면 등록된 이니셜이 자동으로 입력됩니다.</para>
+          <para><emphasis role="bold">Registered Initials:</emphasis> If the
+          user has already registered an initial on eformsign, then clicking
+          the signature area inserts the registered initial into the
+          document.</para>
         </listitem>
       </itemizedlist>
 
       <para><note>
-          <para>등록된 서명과 이니셜이 있는 경우에는 해당 서명이 서명란에 자동으로 입력되지만, 등록된 서명과 이니셜이 없는
-          경우 직접 서명과 동일한 서명 팝업이 나타납니다.</para>
+          <para>If there is a registered signature or initial, then it will be
+          automatically entered in the signature area when a signature area is
+          clicked. However, if there is no registered signature or initial,
+          then a regular signature pop-up will be displayed when a signature
+          area is clicked.</para>
         </note></para>
 
       <note>
-        <para>문서에 직접 서명이 아닌 직인이나 개인 도장을 사용해야 하는 경우가 있습니다. eformsign에서는 도장 이미지를
-        사용해 문서의 서명란에 도장을 찍을 수도 있습니다. 도장 이미지를 사용하려면, 서명 팝업에서 <emphasis
-        role="bold">도장</emphasis> 탭을 클릭하고 도장 이미지를 선택한 후 확인 버튼을 누릅니다.</para>
+        <para>In some cases, you may need to use a seal or stamp on a document
+        rather than your own signature. With eformsign, you can also use a
+        stamp image to stamp the signature on a document. To use a stamp image
+        when submitting a document, click the Stamp tab in the signature
+        pop-up, and then select a stamp image and click OK.</para>
       </note>
 
-      <para><emphasis role="bold">③ 서명펜 두께</emphasis></para>
+      <para><emphasis role="bold">③ Signature Pen Thick</emphasis></para>
 
-      <para>서명을 그릴 때 표시되는 선의 두께를 설정합니다.</para>
+      <para>Sets the signature pen thickness.</para>
 
-      <para><emphasis role="bold">④ 서명펜 색</emphasis></para>
+      <para><emphasis role="bold">④ Signature Pen Color</emphasis></para>
 
-      <para>서명을 그릴 때 표시하는 선의 색을 설정합니다.</para>
+      <para>Sets the signature pen color.</para>
 
-      <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
 
       <note>
-        <para>전자 계약서, 전자 동의서 등 서명이 들어가는 문서에 서명일이 자동으로 입력되도록 설정할 수 있습니다.</para>
+        <para>You can set the signature date to be automatically entered in
+        documents that require signature, such as electronic contracts and
+        electronic agreements.</para>
 
-        <para>1. 전자 서식으로 변환할 문서 파일(워드, 엑셀, 파워포인트)을 열거나 혹은 새 문서를 만듭니다.</para>
+        <para>1. Open the document file (Word, Excel, PowerPoint) to be
+        converted into an electronic form or create a new document.</para>
 
-        <para>2. 서명할 곳에 서명 입력항목을 추가합니다.</para>
+        <para>2. Add a signature component in the area of the document you
+        want to sign.</para>
 
-        <para>3. 추가한 서명 입력항목의 속성창에 입력항목 ID를 입력합니다. 예) 서명</para>
+        <para>3. Enter the ID of the signature component in the Component
+        Properties tab. For example, the ID can be named ‘signature1’.</para>
 
-        <para>4. 서명일이 입력될 곳에 사용일 입력항목을 추가합니다.</para>
+        <para>4. Add the date (not to be confused with datetime) component
+        where the signature date will be entered.</para>
 
-        <para>5. 사용일 입력항목의 속성창을 엽니다.</para>
+        <para>5. Open the 'Component Properties' tab of the date
+        component.</para>
 
-        <para>6. 사용일 표시 유형을 ‘입력 값을 수정한 날짜’로 선택합니다.</para>
+        <para>6. Select the Date Type as 'Last modified date of the
+        content'.</para>
 
-        <para>7. 하단에 나타나는 입력항목 ID 입력란에 서명 입력항목 ID인 ‘서명’을 입력합니다.</para>
+        <para>7. Enter the ID of the signature component in the Input
+        Component ID field on the bottom. In this case, it would be
+        ‘signature1’.</para>
 
-        <para>※ 사용일 입력항목의 ‘표시형식’을 설정하여 날짜 표시 형식을 원하는 형태로 변경할 수 있습니다.</para>
+        <para>※ You can select the type of date to be displayed on the date
+        component by selecting the desired date type in the 'Component
+        Properties' tab.</para>
       </note>
     </section>
 
     <section xml:id="camera">
-      <title>카메라</title>
+      <title>Camera</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>카메라</secondary>
-        </indexterm>스마트폰, 태블릿 등 카메라가 있는 기기로 사진을 찍어 문서에 올릴 때에 사용합니다. 카메라가 없는 PC
-      환경에서는 입력항목을 클릭하면 이미지 파일을 선택할 수 있는 선택창이 나타납니다.</para>
+          <secondary>Camera</secondary>
+        </indexterm>This component is for uploading photos (taken with a
+      device with a built-in camera such as smartphones and tablets) on a
+      document. In PCs without a camera, clicking the component displays a
+      window for selecting the desired image file.</para>
 
       <mediaobject>
         <imageobject>
@@ -1254,11 +1346,12 @@
         </imageobject>
       </mediaobject>
 
-      <para>선택한 이미지의 크기가 입력란의 크기보다 클 경우 입력란 안에 들어갈 수 있도록 축소되어 올라갑니다.</para>
+      <para>If the size of the selected image is larger than the size of the
+      text box, it is reduced to fit inside the text box.</para>
 
       <note>
-        <para>카메라 입력항목의 경우 카메라가 연결된 환경에서는 카메라 기능이 실행되고, 카메라가 연결되지 않은 환경에서는 이미지
-        파일 선택 창이 실행됩니다.</para>
+        <para>If the size of the selected image is larger than the size of the
+        component, then it is resized to fit the component.</para>
       </note>
 
       <mediaobject>
@@ -1267,10 +1360,10 @@
         </imageobject>
       </mediaobject>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>카메라 입력항목 속성 설정하기</title>
+        <title>Setting Camera Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -1281,26 +1374,29 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>카메라 입력항목의 ID를 입력합니다. 예를 들어, 신분증 사진을 촬영하는 입력항목의 ID는 ‘신분증 사진’으로
-      합니다.</para>
+      <para>Enters the ID of the camera component. For example, the ID of the
+      component that takes the photo of a driver’s license can be
+      ‘driverLicense’.</para>
 
-      <para><emphasis role="bold">② 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">② Tooltip Text</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>Displays the description in the tooltip text when you hover the
+      mouse over a component.</para>
     </section>
 
     <section xml:id="record">
-      <title>녹음</title>
+      <title>Voice</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>녹음</secondary>
-        </indexterm>문서에 사용자의 녹음 데이터를 저장해야 할 때 사용합니다. 최대 녹음 시간을 설정할 수 있으며 사용자가
-      이미 녹음된 내용을 듣기만 할 수 있도록 설정할 수도 있습니다.</para>
+          <secondary>Voice</secondary>
+        </indexterm>This component is used for storing recorded voice. You can
+      set the maximum recording time and you can also configure the settings
+      to allow users to only listen to the voice recording.</para>
 
-      <para>OZ in Office에서 녹음 입력항목을 추가하면 뷰어에서 다음과 같이 녹음된 내용을 재생하거나 새로운 녹음을 할 수
-      있습니다.</para>
+      <para>When you add a voice component in OZ in Office, you can record
+      voice or play a voice recording as follows.</para>
 
       <mediaobject>
         <imageobject>
@@ -1309,18 +1405,20 @@
       </mediaobject>
 
       <note>
-        <para>녹음 제한시간이 1 이상 설정되어 있는 경우, 설정된 시간(단위:초) 만큼 녹음이 되면 자동으로 녹음 완료가
-        됩니다.</para>
+        <para>If the recording time limit is set to 1 or more, recording is
+        completed automatically at the time set (unit:seconds).</para>
 
-        <para>ActiveX 뷰어인 경우 녹음 재생 UI는 Windows 8 이상부터 지원합니다.</para>
+        <para>In the case of ActiveX viewer, the recording playback UI is
+        supported from Windows 8 and later.</para>
 
-        <para>녹음 입력항목은 PC 환경에서 실행 시 음성 녹음기가 연결된 경우에만 동작합니다.</para>
+        <para>In PCs, the recording component works only when a voice
+        recording device is connected to a PC.</para>
       </note>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <para><figure>
-          <title>녹음 입력항목 속성 설정하기</title>
+          <title>Setting Voice Component Properties</title>
 
           <mediaobject>
             <imageobject>
@@ -1331,22 +1429,26 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>녹음 입력항목의 ID를 입력합니다. 예를 들어, 녹음을 재생하는 입력항목의 ID를 ‘녹음’으로 합니다.</para>
+      <para>Enter the ID of the voice component. For example, the ID of the
+      component that plays voice recordings can be named 'Record1'.</para>
 
-      <para><emphasis role="bold">② 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">② Tooltip Text</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>Displays the description in Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="attach">
-      <title>첨부</title>
+      <title>Attachment</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>첨부</secondary>
-        </indexterm>문서에 별도로 첨부하는 문서가 있을 때 사용합니다. 첨부 입력항목을 통해 문서를 첨부할 경우 문서의 맨
-      끝에 첨부한 문서가 새로운 페이지로 추가됩니다.</para>
+          <secondary>Attachment</secondary>
+        </indexterm>This component is used for attaching a file to a document.
+      When attaching a file to a document by using the attachment component,
+      the file will be attached at the very end of the document as a new
+      page.</para>
 
       <mediaobject>
         <imageobject>
@@ -1354,22 +1456,23 @@
         </imageobject>
       </mediaobject>
 
-      <para>첨부 가능한 파일의 종류와 크기는 다음과 같습니다.</para>
+      <para>The types and sizes of files that can be attached are as
+      follows.</para>
 
       <itemizedlist>
         <listitem>
-          <para>파일 종류: PDF, JPG, PNG, GIF</para>
+          <para>File type: PDF, JPG, PNG, and GIF</para>
         </listitem>
 
         <listitem>
-          <para>파일 크기: 최대 5MB까지</para>
+          <para>File size: Up to 5MB</para>
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>첨부 입력항목 속성 설정하기</title>
+        <title>Setting Attachment Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -1380,23 +1483,27 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>첨부 입력항목의 ID를 입력합니다. 예를 들어, 재직증명서를 첨부하는 입력항목의 ID는 ‘재직증명서 첨부’로
-      합니다.</para>
+      <para>Enters the ID of the attachment component. For example, the ID of
+      the component that attaches a resume can be named ‘myResume’.</para>
 
-      <para><emphasis role="bold">② 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">② Tooltip Text</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>Displays the description Tooltip Text when you hover the mouse
+      over a component.</para>
     </section>
 
     <section xml:id="user">
-      <title>사용자</title>
+      <title>User</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>사용자</secondary>
-        </indexterm>문서를 작성 또는 수정한 멤버의 정보가 문서에 자동으로 입력되게 할 때 사용합니다. 설정에 따라 이름,
-      연락처와 같은 멤버의 기본 정보 또는 사용자 정의 필드 정보가 사용자 입력항목에 자동으로 입력됩니다.</para>
+          <secondary>User</secondary>
+        </indexterm>This component is used for entering the information of the
+      user who created or modified a document. The user’s basic information
+      such as name or contact information, or custom field information is
+      automatically entered into the user component based on the
+      settings.</para>
 
       <mediaobject>
         <imageobject>
@@ -1404,10 +1511,10 @@
         </imageobject>
       </mediaobject>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>사용자 입력항목 속성 설정하기</title>
+        <title>Setting User Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -1418,30 +1525,35 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>사용자 입력항목의 ID를 입력합니다. 예를 들어, 문서를 작성한 멤버의 이름을 표시하는 입력항목의 ID는 ‘작성자
-      이름’으로 합니다.</para>
+      <para>Enters the ID of the user component. For example, the ID of the
+      component that displays the name of the document creator can be named
+      ‘documentCreator’.</para>
 
-      <para><emphasis role="bold">② 사용자 표시 유형</emphasis></para>
+      <para><emphasis role="bold">② User Type</emphasis></para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">만든 사람:</emphasis> 문서를 최초로 작성한 멤버의 정보를
-          표시합니다.</para>
+          <para><emphasis role="bold">Document Creator:</emphasis> Displays
+          the information of the user who created the document.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">액세스한 사람:</emphasis> 문서를 가장 최근에 열람하거나 수정한
-          멤버의 정보를 표시합니다.</para>
+          <para><emphasis role="bold">Current User:</emphasis> Displays the
+          information of the user who has most recently opened or modified the
+          document.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">입력 값을 수정한 사람:</emphasis> 특정 입력항목에 내용을
-          입력한 멤버의 정보를 표시합니다.</para>
+          <para><emphasis role="bold">Last modified user of the
+          content:</emphasis> Displays the information of the user who entered
+          information in a specific component.</para>
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">입력 값을 수정한 사람</emphasis>을 선택하면, 다음과 같이 입력항목
-      ID 입력란이 나타납니다. 여기에 연결할 입력항목 ID를 입력합니다.</para>
+      <para>If you select <emphasis role="bold">‘Last modified user of the
+      content’</emphasis>, then the ‘Input Component ID’ field will be
+      displayed. In this field, enter the ID of the component that will
+      display the information when triggered.</para>
 
       <mediaobject>
         <imageobject>
@@ -1450,45 +1562,55 @@
       </mediaobject>
 
       <note>
-        <para>이 작업을 수행하려면 회사 관리(대표 관리자) 권한 또는 템플릿 관리자 권한이 필요합니다.</para>
+        <para>You need to have company administrator or template manager
+        permission to perform this operation.</para>
       </note>
 
       <note>
-        <para>담당자 서명란에 서명한 담당자의 이름을 자동으로 입력되도록 하려면, 먼저 담당자 서명란에 서명 입력항목을 생성한 후
-        서명 입력항목의 ID를 ‘담당자 서명’으로 지정합니다. 담당자의 이름을 입력할 사용자 입력항목을 하나 더 생성합니다. 사용자
-        입력항목의 사용자 표시 유형 속성을 <emphasis role="bold">입력 값을 수정한 사람</emphasis>으로
-        선택하고, 입력항목 ID 입력란에 ‘담당자 서명’을 입력합니다.</para>
+        <para>To automatically fill in the signer’s name in the user
+        component, create a signature component and then name the ID (for
+        example, signer1). Then, create the user component that will display
+        the signer’s name when triggered and name the ID (for example,
+        signer1name). Then, select <emphasis role="bold">‘Last modified user
+        of the content’</emphasis> under User Type and enter the ID of the
+        signature component (in this case, signer1) under 'Input Component
+        ID'.</para>
       </note>
 
-      <para><emphasis role="bold">③ 사용자 표시 정보</emphasis></para>
+      <para><emphasis role="bold">③ User Field Name</emphasis></para>
 
-      <para>멤버의 정보 중 어떤 정보를 표시할지 선택합니다. 멤버 기본 정보 또는 사용자 정의 필드에 추가로 입력한 정보들 중
-      원하는 정보를 선택합니다.</para>
+      <para>This field allows to select the type of member information that
+      will be displayed. You can select information in a basic member field or
+      information in a custom field.</para>
 
       <itemizedlist>
         <listitem>
-          <para>멤버 기본 정보 종류: 이름, ID, 부서, 직책, 휴대폰, 전화번호</para>
+          <para>Basic member information types: Name, ID, Department,
+          Title/Position, Mobile, and Phone</para>
         </listitem>
       </itemizedlist>
 
       <note>
-        <para>멤버 기본 정보를 수정하려면 회사 관리(대표 관리자) 권한이 필요합니다.</para>
+        <para>You need to have company administrator permission to change
+        basic member information.</para>
 
-        <para>멤버 기본 정보를 수정하려면 eformsign에 로그인한 후 <emphasis role="bold">회사 관리
-        &gt; 멤버 관리</emphasis> 메뉴로 이동합니다. 멤버 목록에서 멤버를 선택하고 화면 오른쪽에 나타나는 상세 보기
-        영역의 정보를 수정한 후 <emphasis role="bold">저장</emphasis> 버튼을 클릭합니다.</para>
+        <para>To modify a member's basic information, login to eformsign and
+        go to the Manage company &gt; Manage members menu. Select a member in
+        the member list and edit the information in the Member info tab on the
+        right. Then, click the Save button.</para>
       </note>
     </section>
 
     <section xml:id="document">
-      <title>문서</title>
+      <title>Document</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>문서</secondary>
-        </indexterm>문서 입력항목은 문서 내에 문서 관련 정보를 입력해야 할 때 사용합니다. 문서 ID와 문서 번호 중
-      원하는 정보를 선택해 입력할 수 있습니다.</para>
+          <secondary>Document</secondary>
+        </indexterm>This component is used for entering document-related
+      information in the document itself. You can select either one of the
+      document ID or document number.</para>
 
       <mediaobject>
         <imageobject>
@@ -1496,14 +1618,15 @@
         </imageobject>
       </mediaobject>
 
-      <para>문서 ID는 시스템에서 부여하는 문서 고유의 ID이기 때문에 별도의 설정이 필요하지 않습니다. 문서 번호와 관련된
-      설정은 템플릿을 업로드한 뒤, <emphasis role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 할
-      수 있습니다.</para>
+      <para>The document ID is a unique document ID assigned in the system, so
+      it does not require separate settings. For settings related to document
+      number, upload a template and then go to <emphasis role="bold">Template
+      settings &gt; General</emphasis>.</para>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>문서 입력항목 속성 설정하기</title>
+        <title>Setting Document Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -1514,37 +1637,45 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>문서 입력항목의 ID를 입력합니다. 예를 들어, 문서 번호를 입력하는 경우 입력항목 ID는 ‘문서 번호’로
-      합니다.</para>
+      <para>Enters the ID of the document component. For example, the
+      component ID can be ‘docNum’ for document number.</para>
 
-      <para><emphasis role="bold">② 문서 정보 유형</emphasis></para>
+      <para><emphasis role="bold">② Document info type</emphasis></para>
 
-      <para>어떤 문서 정보를 사용할 것인지 선택합니다.</para>
+      <para>Selects the type of information that will be used.</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">문서 ID: </emphasis>시스템에서 모든 문서에 부여하는 문서의
-          고유한 ID로, 32자리의 알파벳과 숫자의 조합으로 나타납니다. 예)
-          0077af27a98846c8872f5333920679b7</para>
+          <para><emphasis role="bold">Document ID: </emphasis>A unique ID
+          containing 32 digits of alphanumeric characters assigned to all
+          documents in the system. E.g.
+          0077af27a98846c8872f5333920679b7.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 번호:</emphasis> <emphasis
-          role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 설정된 문서 번호입니다. 문서 번호를 설정하는
-          방법은 <xref linkend="docnumber_wd"/>를 참고하세요.</para>
+          <para><emphasis role="bold">Document Document
+          no.:</emphasis><emphasis role="bold"> </emphasis>The document number
+          set in <emphasis role="bold">Template settings &gt;
+          General.</emphasis> For information on how to set a document number,
+          go to <xref linkend="docnumber_wd"/>.</para>
         </listitem>
       </itemizedlist>
     </section>
 
     <section xml:id="usedate">
-      <title>사용일</title>
+      <title>Date</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>사용일</secondary>
-        </indexterm>문서를 작성 또는 수정한 날짜가 문서에 자동으로 입력되게 할 때 사용합니다. 설정에 따라 문서를 만든
-      날짜, 문서에 접근한 날짜, 또는 특정 입력항목을 입력한 날짜가 자동으로 입력됩니다.</para>
+          <secondary>Date</secondary>
+        </indexterm>This component is used for automatically entering the date
+      in which a document is created, accessed, or modified into the document.
+      You can automatically enter one of the following dates according to the
+      date type selected: the date in which the document is created (Date
+      created), the date in which the document is last accessed (Date
+      accessed), or the date in which a specific component is filled in (Last
+      modified date of the content).</para>
 
       <mediaobject>
         <imageobject>
@@ -1552,10 +1683,10 @@
         </imageobject>
       </mediaobject>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>사용일 입력항목 속성 설정하기</title>
+        <title>Setting Date Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -1566,53 +1697,57 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>사용일 입력항목의 ID를 입력합니다. 예를 들어, 문서에 서명한 날짜를 표시하는 입력항목의 ID는 ‘서명일’로
-      합니다.</para>
+      <para>Enters the ID of the date component. For example, the ID of the
+      component that displays the date in which the document is signed can be
+      named ‘signed date’.</para>
 
-      <para><emphasis role="bold">② 표시형식</emphasis></para>
+      <para><emphasis role="bold">② Format</emphasis></para>
 
-      <para>날짜가 표시되는 형식을 지정합니다.</para>
-
-      <itemizedlist>
-        <listitem>
-          <para><emphasis role="bold">yyyy:</emphasis> 연도’를 표시합니다. (yyyy년 =
-          2020년)</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">MM:</emphasis> ‘월’을 표시합니다. 반드시 대문자로 표기해야
-          합니다. (MM월 = 8월)</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">dd:</emphasis> ‘일’을 표시합니다. (dd일 =
-          10일)</para>
-        </listitem>
-      </itemizedlist>
-
-      <para>‘2020년 2월 5일’처럼 나타나게 하려면, 표시형식에 ‘yyyy년 MM월 dd일’로 입력합니다.</para>
-
-      <para><emphasis role="bold">③ 사용일 표시 유형</emphasis></para>
+      <para>Sets the format in which date will be displayed.</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">만든 날짜:</emphasis> 문서를 최초 작성한 날짜를
-          표시합니다.</para>
+          <para><emphasis role="bold">yyyy:</emphasis> Displays the year (e.g.
+          yyyy = 2020).</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">액세스한 날짜:</emphasis> 문서를 수정하거나 열람한 가장 최근의
-          날짜를 표시합니다.</para>
+          <para><emphasis role="bold">MM:</emphasis> Displays the month. Must
+          be in uppercase (e.g. MM = August).</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">입력 값을 수정한 날짜: </emphasis>특정 입력항목에 내용을
-          입력한 날짜를 표시합니다.</para>
+          <para><emphasis role="bold">dd:</emphasis> Displays the day. (e.g.
+          dd = 10 days)</para>
         </listitem>
       </itemizedlist>
 
-      <para>'입력 값을 수정한 날짜'를 선택하면, 다음과 같이 입력항목 ID 입력란이 나타납니다. 여기에 연결할 입력항목 ID를
-      입력합니다.</para>
+      <para>For example, if you want to display the date in the format of
+      ‘2020-02-05’, then enter yyyy-MM-dd in the Format field.</para>
+
+      <para><emphasis role="bold">③ Date Type</emphasis></para>
+
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Date created:</emphasis> Displays the
+          date in which the document is created for the first time.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Date accessed:</emphasis> Displays the
+          most recent date in which the document is modified or opened.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">Last modified date of the content:
+          </emphasis>Displays the date in which the information of a specific
+          component is filled in.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para>If ‘Last modified date of the content’ is selected, the 'Input
+      Component ID' field is displayed. In this field, enter the ID of the
+      component that will display the information when triggered.</para>
 
       <mediaobject>
         <imageobject>
@@ -1621,28 +1756,34 @@
       </mediaobject>
 
       <para><note>
-          <para>이 작업을 수행하려면 회사 관리(대표 관리자) 권한 또는 템플릿 관리자 권한이 필요합니다.</para>
+          <para>You need to have company administrator or template manager
+          permission to perform this operation.</para>
         </note> <note>
-          <para>계약자 서명일이 자동으로 입력되도록 하려면, 먼저 계약서 서명란에 서명 입력항목을 생성한 후 서명 입력항목의
-          ID를 ‘계약자 서명’으로 지정합니다. 서명일을 입력할 사용일 입력항목을 하나 더 생성합니다. 사용일 입력항목의 사용일
-          표시 유형 속성을 ‘입력 값을 수정한 날짜’로 선택하고, 입력항목정 ID 입력란에 ‘계약자 서명’을
-          입력합니다.</para>
+          <para>If you want the signature date of a signer to be displayed
+          automatically in a contract, first create a signature component and
+          then name the ID (e.g. 'contractSign'). Then, create a date
+          component which will display the signature date when the signature
+          is signed and name the ID (e.g. signDate). Then, select ‘Last
+          modified date of the content’ under Date Type and enter the ID of
+          the signature component (in this case ‘contractSign’) in the 'Input
+          Component ID' field.</para>
         </note></para>
     </section>
 
     <section xml:id="label">
-      <title>레이블</title>
+      <title>Label</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>Components</primary>
 
-          <secondary>레이블</secondary>
-        </indexterm>문서의 폼 ID를 설정할 수 있습니다.</para>
+          <secondary>Label</secondary>
+        </indexterm>This component is used for setting the form ID of a
+      document.</para>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">Component Properties</emphasis></para>
 
       <figure>
-        <title>레이블 입력항목 속성 설정하기</title>
+        <title>Setting Label Component Properties</title>
 
         <mediaobject>
           <imageobject>
@@ -1653,27 +1794,30 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>문서의 폼 ID가 자동으로 생성되어 나타나며 변경도 가능합니다.</para>
+      <para>The form ID of the document is automatically generated and
+      displayed. It can also be changed.</para>
 
-      <para>여기에서 정의된 폼 ID를 문서 편집 시에 적용할 수 있습니다.</para>
+      <para>The form ID defined here can be applied when editing the
+      document.</para>
     </section>
   </section>
 
   <section>
-    <title>폼 파일 업로드</title>
+    <title>Upload Form File</title>
 
-    <para>OZ in Office를 통해 작성 완료된 폼 파일은 다음의 순서로 업로드합니다.</para>
+    <para>Form files created using OZ in Office are uploaded in the following
+    order.</para>
 
-    <para>1. 파일 그룹에 있는 <emphasis role="bold">실행</emphasis>(<inlinemediaobject>
+    <para>1. Click the <emphasis role="bold">Execution</emphasis> icon
+    (<inlinemediaobject>
         <imageobject>
           <imagedata fileref="resources/excute_button.png"/>
         </imageobject>
-      </inlinemediaobject>) 아이콘을 클릭하면 다음의 로그인 페이지가 팝업 창으로 표시됩니다.</para>
-
-    <para/>
+      </inlinemediaobject>) in the File group. The login page will be
+    displayed as a pop-up window.</para>
 
     <figure>
-      <title>로그인 페이지</title>
+      <title>Login Page</title>
 
       <mediaobject>
         <imageobject>
@@ -1682,10 +1826,11 @@
       </mediaobject>
     </figure>
 
-    <para>2. 로그인하면 폼으로 변환된 문서가 미리보기 형태로 표시됩니다.</para>
+    <para>2. After you log in, the document converted to a form will be
+    displayed as a preview.</para>
 
     <figure>
-      <title>폼 파일 미리보기</title>
+      <title>Preview Form File</title>
 
       <mediaobject>
         <imageobject>
@@ -1694,15 +1839,17 @@
       </mediaobject>
     </figure>
 
-    <para>3. 업로드 미리보기 화면에서 <emphasis role="bold">폼파일 업로드</emphasis>를 클릭하거나 리본
-    메뉴의 <emphasis role="bold">업로드</emphasis>(<inlinemediaobject>
+    <para>3. Click the <emphasis role="bold">Upload form file</emphasis>
+    button or click the <emphasis role="bold">Upload</emphasis>
+    (<inlinemediaobject>
         <imageobject>
           <imagedata fileref="resources/upload_button.png"/>
         </imageobject>
-      </inlinemediaobject>) 아이콘을 클릭하면 템플릿 목록과 함께 새 템플릿 추가 카드가 나타납니다.</para>
+      </inlinemediaobject>) icon in the ribbon menu. The 'Template list' page
+    with the 'Create template' card will be displayed.</para>
 
     <figure>
-      <title>새 템플릿 추가 리스트 화면</title>
+      <title>Template List Screen</title>
 
       <mediaobject>
         <imageobject>
@@ -1713,11 +1860,12 @@
 
     <para/>
 
-    <para>4. 새 템플릿 카드를 클릭하면 작성한 폼이 업로드된 상태에서 템플릿을 설정하는 화면이 나타납니다. 우측 상단의 저장
-    버튼을 눌러 템플릿을 생성합니다.</para>
+    <para>4. Click the 'Create template' card. The screen for configuring the
+    template settings will be displayed. To create a template, click the
+    'Save' button on the top right corner.</para>
 
     <figure>
-      <title>새 템플릿 저장 화면</title>
+      <title>Create Template Screen</title>
 
       <mediaobject>
         <imageobject>
@@ -1730,44 +1878,54 @@
   </section>
 
   <section>
-    <title>업로드한 템플릿 추가 설정하기</title>
+    <title>Configuring Template Settings</title>
 
-    <para>템플릿을 업로드하고 나면, 템플릿 제목, 문서 번호, 워크플로우 등 템플릿으로 생성되는 문서에 대한 추가 설정을 할 수
-    있습니다.</para>
+    <para>After uploading a template, you can configure additional settings
+    for documents created from the template such as the template title,
+    document number, and workflow.</para>
 
-    <para>1. 이폼사인에 로그인합니다.</para>
+    <para>1. Login to eformsign.</para>
 
-    <para>2 템플릿 관리 메뉴로 이동합니다.</para>
+    <para>2. Go to the 'Manage templates' menu.</para>
 
-    <para>3 템플릿 설정 아이콘을 클릭합니다.</para>
+    <para>3. Click the template settings icon (gear icon) of the desired
+    template.</para>
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">일반 설정: </emphasis>템플릿 이름, 약칭, 문서 제목, 문서 번호
-        등을 설정합니다.</para>
+        <para><emphasis role="bold">General: </emphasis>Sets the template
+        name, abbreviation, document title, document number, etc.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">워크플로우 설정: </emphasis>문서의 작성부터 완료까지 작성된 문서가
-        거쳐갈 단계를 설정합니다.</para>
+        <para><emphasis role="bold">Set permissions:</emphasis> Sets the
+        permissions for who can create documents created from the template and
+        who can open, void, or permanently remove documents created from the
+        template.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">필드 설정: </emphasis>필드의 기본값, 자동 입력 값 등을
-        설정합니다.</para>
+        <para><emphasis role="bold">Workflow: </emphasis>Sets the steps of the
+        document workflow from creation to completion.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">문서 관리자 설정: </emphasis>해당 템플릿으로 생성된 문서를 관리할
-        멤버나 그룹을 지정합니다.</para>
+        <para><emphasis role="bold">Field: </emphasis>Sets the field default
+        values, auto-populate values, etc.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Notification settings: </emphasis>Sets the
+        notification settings for documents created from the template.</para>
       </listitem>
     </itemizedlist>
 
-    <para>4 모든 설정이 완료된 후 <emphasis role="bold">저장</emphasis> 버튼을 클릭해 설정을
-    저장합니다.</para>
+    <para>4. After configuring all settings, click the<emphasis role="bold">
+    Save</emphasis> button to save the settings.</para>
 
     <note>
-      <para>템플릿에 대한 상세한 설명은 <xref linkend="template_fb"/>를 참고하시기 바랍니다.</para>
+      <para>For a detailed explanation of templates please refer to <xref
+      linkend="template_fb"/>.</para>
     </note>
   </section>
 </chapter>
