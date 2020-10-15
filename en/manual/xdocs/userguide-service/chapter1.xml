@@ -45,7 +45,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/main_feature.png" width="700"/>
+          <imagedata fileref="resources/main_feature.png" width="800"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -163,7 +163,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/dashboard.png" width="750"/>
+              <imagedata fileref="resources/dashboard.png" width="800"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -341,7 +341,7 @@
         </indexterm>You can create a template by uploading a document (in PDF
       format) on eformsign and then adding the components you want such as
       text, signature, and date onto the document. After adding components to
-      the uploaded document, set the template settings and deploy the
+      the uploaded document, configure the template settings and deploy the
       template. You can set the template settings by going to the "Manage
       templates" menu &gt; selecting the template you want &gt; setting the
       "General", "Set permissions", "Workflow", "Field", and "Notification
@@ -354,7 +354,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/use_flow_web.png" width="700"/>
+            <imagedata fileref="resources/use_flow_web.png" width="800"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -383,7 +383,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/use_flow.png" width="700"/>
+            <imagedata fileref="resources/use_flow.png" width="800"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -495,7 +495,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/usecase-process.PNG" width="730"/>
+              <imagedata fileref="resources/usecase-process.PNG" width="800"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -520,7 +520,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/workflow_ex1.png" width="330"/>
+            <imagedata fileref="resources/workflow_ex1.png" width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
