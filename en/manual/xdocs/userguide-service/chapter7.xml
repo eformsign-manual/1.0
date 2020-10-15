@@ -6,10 +6,10 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Connecting with external services</title>
+  <title>Connecting with External Services</title>
 
   <section>
-    <title>How to connect with external cloud storages</title>
+    <title>How to Connect with External Cloud Storages</title>
 
     <para><indexterm class="singular">
         <primary>Cloud storage</primary>
@@ -26,7 +26,7 @@
     storage</emphasis> menu.<emphasis role="bold"> </emphasis></para>
 
     <figure>
-      <title>Cloud storage screen</title>
+      <title>Cloud storage Screen</title>
 
       <mediaobject>
         <imageobject>
@@ -45,8 +45,8 @@
     <emphasis role="bold">Storage path settings</emphasis> button.</para>
 
     <para><figure>
-        <title>Connecting and disconnecting accounts with the file
-        storages</title>
+        <title>Connecting and Disconnecting Accounts with the File
+        Storages</title>
 
         <mediaobject>
           <imageobject>
@@ -81,7 +81,7 @@
     <para>6. Go to the <emphasis role="bold">Workflow</emphasis> menu.</para>
 
     <para><figure>
-        <title>Setting the Complete step of the Workflow</title>
+        <title>Setting the Complete Step of the Workflow</title>
 
         <mediaobject>
           <imageobject>
@@ -100,7 +100,7 @@
 
     <para><figure>
         <title>The Backup completed documents in external cloud storages
-        checkbox</title>
+        Checkbox</title>
 
         <mediaobject>
           <imageobject>
@@ -111,7 +111,7 @@
   </section>
 
   <section>
-    <title>Analytics and reporting</title>
+    <title>Analytics and Reporting</title>
 
     <para><indexterm class="singular">
         <primary>Analytics and reporting</primary>
@@ -127,7 +127,7 @@
       </note></para>
 
     <figure>
-      <title>Analytics and reporting menu screen (1)</title>
+      <title>Analytics and reporting Menu Screen (1)</title>
 
       <mediaobject>
         <imageobject>
@@ -144,7 +144,7 @@
     log in.</para>
 
     <para><figure>
-        <title>Analytics and reporting menu screen (2)</title>
+        <title>Analytics and reporting Menu Screen (2)</title>
 
         <mediaobject>
           <imageobject>
@@ -157,7 +157,7 @@
     connections</emphasis> button.</para>
 
     <para><figure>
-        <title>Manage data connections screen (1)</title>
+        <title>Manage data connections Screen (1)</title>
 
         <mediaobject>
           <imageobject>
@@ -171,7 +171,7 @@
     the top right of the screen.</para>
 
     <figure>
-      <title>Manage data connections screen (2)</title>
+      <title>Manage data connections Screen (2)</title>
 
       <mediaobject>
         <imageobject>
@@ -185,7 +185,7 @@
     role="bold">Save</emphasis> button.</para>
 
     <para><figure>
-        <title>Manage data connections screen (3)</title>
+        <title>Manage data connections Screen (3)</title>
 
         <mediaobject>
           <imageobject>
@@ -195,7 +195,7 @@
       </figure></para>
 
     <para><figure>
-        <title>Manage data connections screen (4)</title>
+        <title>Manage data connections Screen (4)</title>
 
         <mediaobject>
           <imageobject>
@@ -213,7 +213,7 @@
     role="bold">Manage data connections</emphasis> screen.</para>
 
     <para><figure>
-        <title>Manage data connections screen (5)</title>
+        <title>Manage data connections Screen (5)</title>
 
         <mediaobject>
           <imageobject>
@@ -227,7 +227,7 @@
     eformsign.</para>
 
     <para><figure>
-        <title>Manage data connections screen (6)</title>
+        <title>Manage data connections Screen (6)</title>
 
         <mediaobject>
           <imageobject>

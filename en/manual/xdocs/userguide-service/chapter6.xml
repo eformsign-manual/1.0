@@ -9,7 +9,7 @@
   <title>Customizing eformsign</title>
 
   <section>
-    <title>Manage custom fields<indexterm class="singular">
+    <title>Manage Custom Fields<indexterm class="singular">
         <primary>Manage custom fields</primary>
       </indexterm></title>
 
@@ -146,7 +146,7 @@
   </section>
 
   <section>
-    <title>Notification template management</title>
+    <title>Notification Template Management</title>
 
     <para><indexterm class="singular">
         <primary>Notification template management</primary>
@@ -179,7 +179,7 @@
     SMS)</emphasis></para>
 
     <table>
-      <title>Template type and status</title>
+      <title>Template Types and Status</title>
 
       <tgroup cols="2">
         <colspec align="center" colwidth="298*"/>
