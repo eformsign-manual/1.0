@@ -55,7 +55,7 @@
           </imageobject>
         </inlinemediaobject>) on the top right corner of the dashboard screen
       to open the sidebar. Then, click on the 'Download eformsign Form
-      Builder' button at the bottom. </para>
+      Builder' button at the bottom.</para>
 
       <figure>
         <title>Location of the Download eformsign Form Builder Button</title>
@@ -519,7 +519,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_1.png"/>
+              <imagedata fileref="resources/ozinword_1.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -534,7 +534,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_2.png"/>
+              <imagedata fileref="resources/ozinword_2.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -547,7 +547,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_3.png"/>
+              <imagedata fileref="resources/ozinword_3.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -567,7 +567,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_2_1.png"/>
+              <imagedata fileref="resources/ozinword_2_1.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -580,7 +580,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_2_2.png"/>
+              <imagedata fileref="resources/ozinword_2_2.png" width="700"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -591,7 +591,7 @@
       <title>How to Delete Components</title>
 
       <para>Select the component you want to delete and then click the
-      <emphasis role="bold">Delete</emphasis> icon(<inlinemediaobject>
+      <emphasis role="bold">Delete</emphasis> icon (<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/delete-icon.png"/>
           </imageobject>
@@ -674,7 +674,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form-builder-components_check.png"/>
+          <imagedata fileref="resources/form-builder-components_check.png"
+                     width="700"/>
         </imageobject>
       </mediaobject>
 
