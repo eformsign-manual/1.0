@@ -12,33 +12,33 @@
     <title>Product Introduction</title>
 
     <para>eformsign is an electronic document solution which allows anyone to
-    easily create electronic documents from paper documents generated from
-    companies and utilize various data stored in electronic documents. You can
-    easily create electronic forms by uploading their PDF files to eformsign
-    and converting them to electronic forms by using eformsign's Web Form
-    Designer feature. You can also create electronic forms by using
-    eformsign's MS Office Add-in named Form Builder which allows anyone who
-    knows how to use the Office Suite to easily convert existing documents to
-    electronic forms.</para>
+    easily create electronic documents from paper documents in companies and
+    utilize various data stored in electronic documents. You can easily create
+    electronic documents by uploading your PDF files onto eformsign and
+    converting the files to electronic forms via eformsign's Web Form Designer
+    feature. You can also create electronic forms by using eformsign's add-in
+    feature set in Microsoft Office (named Form builder or OZ in Office). The
+    Form builder feature allows anyone who knows how to use the Microsoft
+    Office Suite to easily convert existing documents to electronic
+    forms.</para>
 
-    <para>eformsign allows to create a work for each template according to
-    your company's business process. You can flexibly set a document signing
-    process for internal documents as well as for external documents such as
-    contracts, agreements, and applications. Furthermore, detailed
-    configurations such as alerts and required fields can be set for each
-    workflow step or recipient, and the progress status of documents can be
-    monitored. Moreover, an audit trail certificate containing all logs is
+    <para>eformsign allows you to create a workflow for each template
+    according to your company's business process. You can flexibly set a
+    document signing process for internal documents as well as for external
+    documents such as contracts, agreements, and applications. Furthermore,
+    detailed configurations such as alerts and required input fields can be
+    set for each workflow step or recipient, and the progress status of
+    documents is logged as history. Moreover, an audit trail certificate is
     provided for documents for the prevention of document forgery and
     falsification.</para>
 
     <para>eformsign also provides a bulk send feature which allows to create
-    and send multiple documents at once by minimizing repetitive input. This
-    is done as fields in documents such as author, group, recent input value,
-    and date are automatically filled in. Furthermore, eformsign allows to
-    easily companies' members and their permission, configure detailed alerts
-    settings for documents, and manage and utilize extracted data.</para>
-
-    <para/>
+    and send multiple documents at once by minimizing repetitive input. Also,
+    fields in documents such as author, group, recent input value, and date
+    are automatically filled in by adding custom fields. Furthermore,
+    eformsign allows to easily manage companies' members and their permission,
+    configure detailed alerts settings for documents, and manage and utilize
+    extracted data.</para>
 
     <figure>
       <title>Key Features</title>
@@ -53,20 +53,18 @@
     <para>The eformsign solution also provides an electronic signature feature
     which allows you to sign e-signatures on electronic documents.</para>
 
-    <para>Electronic signature is a signature in electronic form that replaces
+    <para>Digital signature is a signature in electronic form that replaces
     the traditional wet-ink signature. Just as when signing a signature on
     paper, you need to prove that the signer is you, and this is done by going
-    through an identify verification step. In the case of identity
-    verification, email, social security number, password, phone number,
-    certificate, etc. are used as a means of identity verification.</para>
+    through an identity verification step. Email, social security number,
+    password, phone number, certificate, etc. are used as a means of identity
+    verification.</para>
 
-    <para/>
-
-    <para>E-signatures are legally binding in the vast majority of countries
-    around the world, and the rest are implementing its legality in
+    <para>Digital signatures are legally binding in the vast majority of
+    countries around the world, and the rest are implementing its legality in
     phases.</para>
 
-    <para>eformsign’s e-signatures are legally-binding for
+    <para>eformsign’s e-signatures are legally binding for
     individual-individual and corporation-individual matters. As well, it
     provides various additional features for non-repudiation.</para>
 
@@ -76,34 +74,36 @@
 
       <itemizedlist>
         <listitem>
-          <para>South Korea: E-signatures based on PKI standards have a strong
-          legal status, and their legality is not discriminated against.
-          According to Article 3 Clause 3 of the Electronic Signature Act,
-          electronic signatures are effective as signatures and seals
-          according to the agreement between the parties.</para>
+          <para>South Korea: Digital signatures based on PKI standards have a
+          strong legal status, and their legality is not discriminated
+          against. According to Section 3.3 of the Digital Signature Act, a
+          digital signature other than a certified digital signature shall
+          have such an effect of a signature, signature and seal, or name and
+          seal, as is agreed between the parties concerned.</para>
         </listitem>
       </itemizedlist>
 
       <itemizedlist>
         <listitem>
-          <para>USA: E-signatures based on PKI standards carry the same weight
-          and legal effect as wet-ink signatures, and there are many cases of
-          increasing the reliability of e-signatures through identity
-          verification or authentication services.</para>
+          <para>USA: Under the principle of “technologically neutral”, any
+          preference to more sophisticated or more secure technologies such as
+          PKI is not given. There are many cases of increasing the reliability
+          of e-signatures through identity verification or authentication
+          services.</para>
         </listitem>
 
         <listitem>
-          <para>EU: E-signatures are categorized into qualified electronic
-          signatures, advanced electronic signatures, and general electronic
-          signatures, and their legal status is applied accordingly,
-          corresponding to the characteristics of each type of
+          <para>EU: Digital signatures are categorized into Qualified
+          Electronic Signatures (QES), Advanced Electronic Signatures (AdES),
+          and general electronic signatures, and their legal status is applied
+          accordingly, corresponding to the characteristics of each type of
           document.</para>
         </listitem>
 
         <listitem>
           <para>Japan: With the existence of a specific verification system, a
-          stronger legal effect is given to E-signatures authorized by the
-          state for each type of task.</para>
+          stronger legal effect is given to digital signatures authorized by
+          the secretary of the state for each type of task.</para>
         </listitem>
       </itemizedlist>
     </note>
@@ -134,13 +134,13 @@
 
         <para>Form Builder<indexterm class="singular">
             <primary>Form Builder</primary>
-          </indexterm> is a tool used for created electronic forms to be used
-        in eformsign and it is used to convert MS Office files such as
+          </indexterm> is a tool used to create electronic forms to be used in
+        eformsign and it is used to convert Microsoft Office files such as
         applications, contracts, and agreements into electronic forms that
         contain components such as signature and text box, which are then
-        uploaded onto eformsign. Form Builder is an MS Office add-in, it is
-        shown as a ribbon menu which is called <emphasis role="bold">OZ in
-        Office</emphasis>.</para>
+        uploaded onto eformsign. Form Builder is an Microsoft Office add-in,
+        and it is shown as a ribbon menu which is called <emphasis
+        role="bold">OZ in Office</emphasis>.</para>
       </listitem>
 
       <listitem>
@@ -148,7 +148,7 @@
 
         <para><indexterm class="singular">
             <primary>Dashboard</primary>
-          </indexterm> This is the main screen shown when logging into
+          </indexterm>This is the main screen shown when logging into
         eformsign. You can access the sidebar menu by clicking the menu
         icon(<inlinemediaobject>
             <imageobject>
@@ -174,11 +174,23 @@
 
         <para><indexterm class="singular">
             <primary>Templates</primary>
-          </indexterm> This is an electronic form that serves as a starting
+          </indexterm>This is an electronic form that serves as a starting
         point for a new document. From a template, you can create as many
-        documents from it. You can create templates by converting existing MS
-        Office files using Form Builder or by uploading PDF files directly
-        onto eformsign.</para>
+        documents from it. You can create templates by converting existing
+        Microsoft Office files using Form Builder or by uploading PDF files
+        directly onto eformsign.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">New document</emphasis></para>
+
+        <para><indexterm class="singular">
+            <primary>Documents</primary>
+          </indexterm>Multiple documents can be created using a template by
+        going to the <emphasis role="bold">New document</emphasis> menu or
+        clicking <emphasis role="bold">Create new document</emphasis> button.
+        The number of documents created in eformsign refers to the documents
+        created here.</para>
       </listitem>
 
       <listitem>
@@ -186,18 +198,7 @@
 
         <para><indexterm class="singular">
             <primary>Documents</primary>
-          </indexterm> Multiple documents can be created using a template by
-        going to the <emphasis role="bold">New document</emphasis> menu. The
-        number of documents created in eformsign refers to the documents
-        created here.</para>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">Inbox</emphasis></para>
-
-        <para><indexterm class="singular">
-            <primary>Inbox</primary>
-          </indexterm> This is is a cloud space for storing and viewing
+          </indexterm>This is is a cloud space for storing and viewing
         documents and it consists of 3 spaces according to the document
         status.</para>
 
@@ -220,11 +221,11 @@
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">All documents: </emphasis><indexterm
+            <para><emphasis role="bold">Completed: </emphasis><indexterm
                 class="singular">
-                <primary>All documents</primary>
-              </indexterm> Shows the list of all the documents you have
-            created or participated in.</para>
+                <primary>Completed</primary>
+              </indexterm> Shows the list of all the completed documents you
+            have created or participated in.</para>
           </listitem>
         </itemizedlist>
       </listitem>
