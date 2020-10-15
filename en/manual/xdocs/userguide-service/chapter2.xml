@@ -19,7 +19,7 @@
           <primary>Dashboard</primary>
         </indexterm> When you click the menu icon(<inlinemediaobject>
           <imageobject>
-            <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/menu_icon.png"/>
+            <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
         </inlinemediaobject>) on the top left, you will see a side menu as
       shown below. Each menu may appear differently depending on the
@@ -31,7 +31,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-dashboard-side-menu.png"
+            <imagedata fileref="resources/en-dashboard-side-menu.png"
                        width="800"/>
           </imageobject>
         </mediaobject>
@@ -232,8 +232,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-dashboard-main.png"
-                       width="800"/>
+            <imagedata fileref="resources/en-dashboard-main.png" width="800"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -335,13 +334,13 @@
             to Favorites by clicking the add icon(<inlinemediaobject>
                 <imageobject>
                   <imagedata contentwidth="17"
-                             fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/favorites-add.PNG"/>
+                             fileref="resources/favorites-add.PNG"/>
                 </imageobject>
               </inlinemediaobject>). You can delete the template from the
             favorite by clicking edit icon(<inlinemediaobject>
                 <imageobject>
                   <imagedata contentwidth="18"
-                             fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/favorites-edit.PNG"/>
+                             fileref="resources/favorites-edit.PNG"/>
                 </imageobject>
               </inlinemediaobject>).</para>
           </listitem>
@@ -361,7 +360,7 @@
             <para>Click the add icon ( <inlinemediaobject>
                 <imageobject>
                   <imagedata contentwidth="17"
-                             fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/favorites-add.PNG"/>
+                             fileref="resources/favorites-add.PNG"/>
                 </imageobject>
               </inlinemediaobject>) in the Favorites box in the
             Dashboard.</para>
@@ -373,7 +372,7 @@
 
             <para><inlinemediaobject>
                 <imageobject>
-                  <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-dashboard-add-favorites.png"
+                  <imagedata fileref="resources/en-dashboard-add-favorites.png"
                              width="700"/>
                 </imageobject>
               </inlinemediaobject></para>
@@ -385,7 +384,7 @@
 
             <para><inlinemediaobject>
                 <imageobject>
-                  <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-dashboard-add-favorites-select.png"
+                  <imagedata fileref="resources/en-dashboard-add-favorites-select.png"
                              width="700"/>
                 </imageobject>
               </inlinemediaobject></para>
@@ -410,7 +409,7 @@
     the icon(<inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="17"
-                     fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/menu-hamberger-icon.png"/>
+                     fileref="resources/menu-hamberger-icon.png"/>
         </imageobject>
       </inlinemediaobject> at the top right corner of the sidebar menu.</para>
 
@@ -419,7 +418,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-dashboard-side-menu-icon.png"
+          <imagedata fileref="resources/en-dashboard-side-menu-icon.png"
                      width="700"/>
         </imageobject>
       </mediaobject>
@@ -430,7 +429,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-dashboard-side-menu-icon-drop-down.png"
+          <imagedata fileref="resources/en-dashboard-side-menu-icon-drop-down.png"
                      width="700"/>
         </imageobject>
       </mediaobject>
@@ -473,7 +472,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-myprofile-personal.png"
+            <imagedata fileref="resources/en-myprofile-personal.png"
                        width="730"/>
           </imageobject>
         </mediaobject>
@@ -525,7 +524,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-myprofile-company.png"
+            <imagedata fileref="resources/en-myprofile-company.png"
                        width="730"/>
           </imageobject>
         </mediaobject>
@@ -606,7 +605,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manage-company-profile.png"
+            <imagedata fileref="resources/en-manage-company-profile.png"
                        width="700"/>
           </imageobject>
         </mediaobject>
@@ -636,7 +635,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manage-company-profile-edit.png"
+            <imagedata fileref="resources/en-manage-company-profile-edit.png"
                        width="750"/>
           </imageobject>
         </mediaobject>
@@ -646,7 +645,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manage-company-profile-edit2.png"
+          <imagedata fileref="resources/en-manage-company-profile-edit2.png"
                      width="700"/>
         </imageobject>
       </mediaobject>
@@ -681,7 +680,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manage-company-brand.png"
+            <imagedata fileref="resources/en-manage-company-brand.png"
                        width="750"/>
           </imageobject>
         </mediaobject>
@@ -730,7 +729,7 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manage-company-brand-logo-popup.png"
+                <imagedata fileref="resources/en-manage-company-brand-logo-popup.png"
                            width="650"/>
               </imageobject>
             </mediaobject>
@@ -750,7 +749,7 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manage-company-brand-logo-changed.png"
+                <imagedata fileref="resources/en-manage-company-brand-logo-changed.png"
                            width="750"/>
               </imageobject>
             </mediaobject>
@@ -896,7 +895,7 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manage-company-delegate-admin-role.png"
+                <imagedata fileref="resources/en-manage-company-delegate-admin-role.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
@@ -913,7 +912,7 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manage-company-delegate-admin-role-popup.png"
+                <imagedata fileref="resources/en-manage-company-delegate-admin-role-popup.png"
                            width="500"/>
               </imageobject>
             </mediaobject>
@@ -966,14 +965,14 @@
           <para>On the Member info section which is displayed on the right
           side of the member list, tick the<emphasis role="bold"> Manage
           company </emphasis>checkbox in the Permission item which is on the
-          bottom of the Member info. </para>
+          bottom of the Member info.</para>
 
           <figure>
             <title>Company manager</title>
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manage-company-member-permission.png"
+                <imagedata fileref="resources/en-manage-company-member-permission.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
@@ -1032,14 +1031,14 @@
           which is displayed on the right side of the member list, tick the
           Manage templates checkbox in the Permission item which is on the
           bottom of the Member info. <emphasis role="bold">
-          </emphasis><emphasis role="bold"> </emphasis> </para>
+          </emphasis><emphasis role="bold"> </emphasis></para>
 
           <figure>
             <title>Template manager permissions</title>
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manage-company-member-permission-template.png"
+                <imagedata fileref="resources/en-manage-company-member-permission-template.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
@@ -1094,7 +1093,7 @@
           (<inlinemediaobject>
               <imageobject>
                 <imagedata contentwidth="25"
-                           fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/config-icon.PNG"/>
+                           fileref="resources/config-icon.PNG"/>
               </imageobject>
             </inlinemediaobject>) icon.</para>
 
@@ -1103,7 +1102,7 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manage-template-settings-icon.png"
+                <imagedata fileref="resources/en-manage-template-settings-icon.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
@@ -1119,7 +1118,7 @@
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-template-setting-set-permissions.png"
+                <imagedata fileref="resources/en-template-setting-set-permissions.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
@@ -1154,7 +1153,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-side-menu-manage-group-members.png"
+          <imagedata fileref="resources/en-side-menu-manage-group-members.png"
                      width="700"/>
         </imageobject>
       </mediaobject>
@@ -1174,7 +1173,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manage-members-page.png"
+            <imagedata fileref="resources/en-manage-members-page.png"
                        width="700"/>
           </imageobject>
         </mediaobject>
@@ -1302,7 +1301,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-manag-groups-page.png"
+            <imagedata fileref="resources/en-manag-groups-page.png"
                        width="700"/>
           </imageobject>
         </mediaobject>
@@ -1377,7 +1376,7 @@
     signature/initial</emphasis></para>
 
     <note>
-      <para>This work can be done in the PC, mobile, and application. </para>
+      <para>This work can be done in the PC, mobile, and application.</para>
     </note>
 
     <orderedlist>
@@ -1391,14 +1390,14 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-side-menu-my-signature.png"
+              <imagedata fileref="resources/en-side-menu-my-signature.png"
                          width="700"/>
             </imageobject>
           </mediaobject>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-my-signature-main.png"
+              <imagedata fileref="resources/en-my-signature-main.png"
                          width="700"/>
             </imageobject>
           </mediaobject>
@@ -1414,7 +1413,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-my-signature-register.png"
+              <imagedata fileref="resources/en-my-signature-register.png"
                          width="500"/>
             </imageobject>
           </mediaobject>
@@ -1508,7 +1507,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-my-signature-register-stamp.png"
+              <imagedata fileref="resources/en-my-signature-register-stamp.png"
                          width="700"/>
             </imageobject>
           </mediaobject>
@@ -1527,7 +1526,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="../../../Docbook/1.0/en/manual/xdocs/userguide-service/resources/en-my-signature-register-stamp-popup.png"
+              <imagedata fileref="resources/en-my-signature-register-stamp-popup.png"
                          width="700"/>
             </imageobject>
           </mediaobject>
