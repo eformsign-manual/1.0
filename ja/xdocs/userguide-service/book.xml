@@ -9,9 +9,9 @@
       xmlns:db="http://docbook.org/ns/docbook">
   <title>eformsign</title>
 
-  <subtitle>사용자 안내서</subtitle>
+  <subtitle>ユーザーガイド</subtitle>
 
-  <titleabbrev>eformsign 서비스</titleabbrev>
+  <titleabbrev>eformsign サービス</titleabbrev>
 
   <xi:include href="../common/bookinfo.xml"/>
 

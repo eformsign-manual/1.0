@@ -6,25 +6,29 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>커스터마이즈</title>
+  <title>Customizing eformsign</title>
 
   <section>
-    <title>사용자 정의 필드 관리<indexterm class="singular">
-        <primary>사용자 정의 필드 관리</primary>
+    <title>Manage Custom Fields<indexterm class="singular">
+        <primary>Manage custom fields</primary>
       </indexterm></title>
 
-    <para><emphasis role="bold">회사관리 </emphasis><emphasis role="bold">&gt;
-    </emphasis><emphasis role="bold">사용자 정의 필드 관리</emphasis>에서는 회사, 그룹, 멤버에 관한
-    필드를 추가하고 편집할 수 있습니다.</para>
+    <para>You can add and edit fields for companies, groups, and members in
+    the <emphasis role="bold">Manage company &gt; Manage custom
+    fields</emphasis> menu.</para>
 
     <tip>
-      <para>문서에서 자주 사용되는 회사, 그룹, 멤버에 관한 정보(예, 회사 대표번호, 주소, 대표자 명 등)를 사용자 정의
-      필드에서 추가하고 <emphasis role="bold">템플릿 설정 &gt; 필드 설정</emphasis>에서 필요 정보를
-      자동으로 입력되도록 설정할 수 있습니다.</para>
+      <para>By using the custom fields, you can set frequently used company,
+      group, and member information (e.g., Company phone number, address,
+      company representative name, etc.) to be added automatically in
+      documents. After adding the custom fields in the <emphasis
+      role="bold">Manage custom fields</emphasis> menu, go to the <emphasis
+      role="bold">Template settings &gt; Field settings</emphasis> menu to set
+      which information to be entered automatically in the documents.</para>
     </tip>
 
     <figure>
-      <title>회사 관리 &gt; 사용자 정의 필드 관리</title>
+      <title>Manage company &gt; Manage custom fields</title>
 
       <mediaobject>
         <imageobject>
@@ -34,37 +38,44 @@
 
       <variablelist>
         <varlistentry>
-          <term>① 사용자 정의 필드 관리 &gt; 회사</term>
+          <term>① Manage custom fields &gt; Company</term>
 
           <listitem>
-            <para>회사 대표, 대표 전화번호, 직인 등 회사와 관련된 필드를 추가하고 값을 설정할 수 있습니다.</para>
+            <para>You can add fields related to the company such as the
+            company representative name, company phone number, stamp and
+            seals, and then set the values.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>② 사용자 정의 필드 관리 &gt; 그룹</term>
+          <term>② Manage custom fields &gt; Group</term>
 
           <listitem>
-            <para>부서명, 책임자 등 그룹과 관련된 필드를 추가하고 값을 설정할 수 있습니다.</para>
+            <para>You can add fields related to groups such as department name
+            and manager, and then set the values.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>③ 사용자 정의 필드 관리 &gt; 멤버</term>
+          <term>③ Manage custom fields &gt; Member</term>
 
           <listitem>
-            <para>직급, 메일 주소, 전화번호 등 멤버와 관련된 필드를 추가하고 값을 설정할 수 있습니다.</para>
+            <para>You can add fields related to members such as job title,
+            email address and phone number, and then set the values.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>④ 필드 추가</term>
+          <term>④ Add field</term>
 
           <listitem>
-            <para>새로운 필드를 추가합니다. 필드 추가 버튼을 클릭하면 사용자 정의 필드를 추가할 수있는 팝업창이 나타납니다.
-            <emphasis role="bold">필드 이름</emphasis>과 <emphasis role="bold">필드
-            타입</emphasis>(텍스트/ 이미지), <emphasis role="bold">필드 값</emphasis>을
-            입력하여 확인을 클릭하면 목록에 필드가 추가됩니다.</para>
+            <para>If you click the <emphasis role="bold">Add field</emphasis>
+            button, the <emphasis role="bold">Add custom field</emphasis>
+            pop-up window will be displayed where you can add a new field.
+            Enter the field name, field type (select from text or image), and
+            field value, and then click the <emphasis
+            role="bold">OK</emphasis> button to add the field to the custom
+            field list.<emphasis role="bold"> </emphasis></para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -76,35 +87,40 @@
         </imageobject>
       </mediaobject>
 
-      <para/>
-
       <variablelist>
         <varlistentry>
-          <term>⑤ 필드 목록</term>
+          <term>⑤ Field list</term>
 
           <listitem>
-            <para>필드 목록으로 필드 이름과 필드 값을 보여주며, 필드 삭제, 필드값 편집을 할 수 있습니다.</para>
+            <para>The custom field list shows the field names and the field
+            values that you added. You can also delete the fields and edit the
+            field values.</para>
 
-            <para>필드를 삭제하려면 해당 필드 목록 왼쪽에 위치한 아이콘(<inlinemediaobject>
+            <para>To delete a field, click the icon (<inlinemediaobject>
                 <imageobject>
                   <imagedata fileref="resources/customfield-list-delete.png"/>
                 </imageobject>
-              </inlinemediaobject>)을 클릭합니다.</para>
+              </inlinemediaobject>) located to the left of the field
+            list.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>⑥ 필드 편집</term>
+          <term>⑥ Edit field</term>
 
           <listitem>
-            <para>수정할 필드를 선택하여 수정 아이콘을 클릭하면 사용자 정의 필드 수정 팝업 창이 표시되어 필드 이름, 타입,
-            값 등을 수정할 수 있습니다.</para>
+            <para>If you select a field to edit and click the edit icon, the
+            <emphasis role="bold">Edit custom field</emphasis> pop-up window
+            will be displayed where you can edit the field name, field type,
+            and the field value.</para>
 
-            <para>필드의 순서는 해당 필드를 선택한 후 화살표(<inlinemediaobject>
+            <para>You can also change the field order. Select a field that you
+            want to change the order, and then click the arrow
+            (<inlinemediaobject>
                 <imageobject>
                   <imagedata fileref="resources/customfield-list-order.PNG"/>
                 </imageobject>
-              </inlinemediaobject>)를 클릭하여 순서를 조정할 수 있습니다.</para>
+              </inlinemediaobject>) button.</para>
 
             <mediaobject>
               <imageobject>
@@ -117,11 +133,12 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑦ 저장</term>
+          <term>⑦ Save</term>
 
           <listitem>
-            <para>사용자 정의 필드 편집이 완료되면<emphasis role="bold"> 저장 </emphasis>버튼을
-            클릭해 변경사항을 저장합니다.</para>
+            <para>After editing the custom field, click the <emphasis
+            role="bold">Save</emphasis> button to save your changes.<emphasis
+            role="bold"> </emphasis></para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -129,18 +146,21 @@
   </section>
 
   <section>
-    <title>알림 템플릿 관리</title>
+    <title>Notification Template Management</title>
 
     <para><indexterm class="singular">
-        <primary>알림 템플릿 관리</primary>
-      </indexterm>문서 요청시 발송되는 메일/SMS 템플릿을 회사 맞춤형으로 편집할 수 있습니다.</para>
+        <primary>Notification template management</primary>
+      </indexterm>You can customize the mail and SMS notification messages to
+    be suitable for your company.</para>
 
-    <para>알림 템플릿 변경은 <emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis>에서
-    설정하거나 <emphasis role="bold">템플릿 관리 &gt; 템플릿 설정 &gt; 알림 설정</emphasis>에서 편집할
-    수 있습니다.</para>
+    <para>Notification templates can be edited in the <emphasis
+    role="bold">Manage company &gt; Notification template
+    management</emphasis> menu or in the <emphasis role="bold">Manage
+    templates &gt; Template settings &gt; Notification settings</emphasis>
+    menu.</para>
 
     <figure>
-      <title>회사 관리 &gt; 알림 템플릿 관리</title>
+      <title>Manage company &gt; Notification template management</title>
 
       <mediaobject>
         <imageobject>
@@ -150,13 +170,16 @@
       </mediaobject>
     </figure>
 
-    <para><emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis>에는 기본적인 메일/SMS
-    템플릿이 설정되어 있으며, 기본 템플릿의 내용 등 변경 및 새로운 알림 템플릿을 추가할 수 있습니다.</para>
+    <para>Default templates are shown in the<emphasis role="bold"> Manage
+    company &gt; Notification template management</emphasis> menu. You can
+    change the contents of the default templates and add new notification
+    templates.</para>
 
-    <para><emphasis role="bold">기본 템플릿 종류(메일/SMS)</emphasis></para>
+    <para><emphasis role="bold">Basic template types (select from Mail or
+    SMS)</emphasis></para>
 
     <table>
-      <title>템플릿 타입 및 상태</title>
+      <title>Template Types and Status</title>
 
       <tgroup cols="2">
         <colspec align="center" colwidth="298*"/>
@@ -165,64 +188,75 @@
 
         <thead>
           <row>
-            <entry align="center">타입</entry>
+            <entry align="center">Type</entry>
 
-            <entry align="center">상태</entry>
+            <entry align="center">Status</entry>
           </row>
         </thead>
 
         <tbody>
           <row>
-            <entry>문서 처리 요청</entry>
+            <entry>Notification messages</entry>
 
-            <entry>결재 요청/문서 검토 및 작성 요청(내부/외부)/문서 반려로 인한 수정 요청/문처 취소 요청 수신/문서
-            취소 요청 거절</entry>
+            <entry>Request approval, Acceptance request, External user
+            processing request, Reject approval, Document void requested,
+            Document void request rejected</entry>
           </row>
 
           <row>
-            <entry>문서 처리 상태</entry>
+            <entry>Document status notifications</entry>
 
-            <entry>문서 승인/문서 삭제/문서 반려/문서 검토 및 작성 완료/문서 최종 완료(내부/외부)/문서 이관 완료/문서
-            수정/문서 최종 완료(PDF 전송)/문서 취</entry>
+            <entry>Approval, Acceptance approval, Approve decline request,
+            External user complete document, Complete document, Correct
+            document, Void document, Deletion notification, Document transfer
+            completion, Complete document (Send as PDF)</entry>
           </row>
 
           <row>
-            <entry>멤버 초대</entry>
+            <entry>Member</entry>
 
-            <entry>멤버 초대/멤버 초대 수락/멤버 초대 거절/멤버 회사 탈퇴</entry>
+            <entry>Invite a member, Accept the member invitation, Refuse the
+            member invitation, Withdraw from company</entry>
           </row>
 
           <row>
-            <entry>헤더/풋터</entry>
+            <entry>Header and footer</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
 
     <tip>
-      <para>헤더는 이폼사인의 로고가 기본으로 설정되어 있습니다. <emphasis role="bold">회사 관리 &gt; 회사
-      정보 &gt; 브랜드</emphasis>에서 회사의 로고를 등록하면 이메일 템플릿에 회사의 로고가 함께 적용됩니다</para>
+      <para>The header is set with the eformsign logo by default.<emphasis
+      role="bold"> </emphasis>If you upload your company's logo in the
+      <emphasis role="bold">Manage company &gt; Company profile &gt; Company
+      brand</emphasis> tab menu, the logo is applied to the email
+      templates.</para>
     </tip>
 
-    <para><emphasis role="bold">새 알림 템플릿 추가하는 방법</emphasis></para>
+    <para><emphasis role="bold">How to add a new notification
+    template</emphasis></para>
 
-    <para>기존에 등록된 메일/SMS 템플릿 외에 새 알림 템플릿을 추가할 수 있습니다.</para>
+    <para>In addition to the default templates, you can add a new notification
+    template.</para>
 
     <orderedlist>
       <listitem>
-        <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis>를
-        클릭합니다.</para>
+        <para>In the sidebar menu, click the <emphasis role="bold">Manage
+        company &gt; Manage Notification Templates</emphasis> menu.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">알림 템플릿 관리</emphasis> 화면의 오른쪽 상단에 위치한
-        <emphasis role="bold">알림 템플릿 추가</emphasis> 버튼을 클릭합니다.</para>
+        <para>Click the <emphasis role="bold">Add notification
+        template</emphasis> button located at the top right of the <emphasis
+        role="bold">Notification template management</emphasis>
+        screen.<emphasis role="bold"> </emphasis></para>
       </listitem>
 
       <listitem>
-        <para>해당하는 <emphasis role="bold">타입</emphasis>을 선택하고 <emphasis
-        role="bold">상태</emphasis>를 선택합니다(<emphasis role="bold">표 템플릿 타입 및 상태
-        참고</emphasis>).</para>
+        <para>Select the appropriate <emphasis role="bold">Type</emphasis> and
+        <emphasis role="bold">Status</emphasis> (see the Template types and
+        status table).</para>
 
         <mediaobject>
           <imageobject>
@@ -233,21 +267,24 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">채널</emphasis>(메일 또는 SMS)을 선택하고 <emphasis
-        role="bold">알림 템플릿 이름</emphasis>을 입력합니다.</para>
+        <para>Select the <emphasis role="bold">Channel</emphasis> (select from
+        Mail or SMS) and enter the <emphasis role="bold">Notification template
+        name</emphasis>.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">헤터</emphasis>와 <emphasis
-        role="bold">풋터</emphasis>를 선택합니다.</para>
+        <para>Select the <emphasis role="bold">Header</emphasis> and <emphasis
+        role="bold">Footer</emphasis>.<emphasis role="bold">
+        </emphasis></para>
       </listitem>
 
       <listitem>
-        <para>내용을 작성합니다.</para>
+        <para>Write a new notification message.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">저장</emphasis> 버튼을 클릭하여 템플릿으로 추가합니다.</para>
+        <para>Click the <emphasis role="bold">Save</emphasis> button to add it
+        as the Notification template.</para>
       </listitem>
     </orderedlist>
   </section>

@@ -6,167 +6,168 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>기본정보</title>
+  <title>基本情報</title>
 
   <section>
-    <title>대시보드</title>
+    <title>ダッシュボード</title>
 
     <section>
-      <title>메뉴 구성</title>
+      <title>メニューの構成</title>
 
-      <para>이폼사인 로그인 후 대시보드<indexterm class="singular">
-          <primary>대시보드</primary>
-        </indexterm> 화면 왼쪽 상단의 메뉴(<inlinemediaobject>
+      <para>eformsign にログインした後、ダッシュボード<indexterm class="singular">
+          <primary>ダッシュボード</primary>
+        </indexterm> 画面の左上のメニュー (<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
-        </inlinemediaobject>)를 클릭하면, 아래와 같은 사이드바 메뉴를 볼 수 있습니다. 각각의 메뉴는 사용자가
-      가지고 있는 권한에 따라 다르게 나타날 수 있습니다. 대표 관리자는 모든 메뉴를 볼 수 있으며, 모든 권한이
-      있습니다.</para>
+        </inlinemediaobject>)
+      をクリックすれば、次のようなサイドバーメニューが表示されます。各メニューは、ユーザーの権限によって異なって表示される場合があります。代表管理者には、すべてのメニューが表示され、代表管理者がすべての権限を持ちます。</para>
 
       <figure>
-        <title>이폼사인 메뉴 구성</title>
+        <title>eformsignのメニューの構成</title>
 
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/dashboard_menu_expand.png"
-                       width="800"/>
+                       width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para>각각의 메뉴는 다음과 같습니다.</para>
+      <para>各メニューは次のとおりです。</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">새 문서 작성: </emphasis><indexterm
+          <para><emphasis role="bold">文書の新規作成：</emphasis><indexterm
               class="singular">
-              <primary>새 문서 작성</primary>
-            </indexterm>문서를 작성할 수 있는 템플릿 목록이 조회되고, 템플릿을 선택하여 문서를 작성합니다.</para>
+              <primary sortas="ぶんしょのしんきさくせい">文書の新規作成</primary>
+            </indexterm>文書を作成可能なテンプレートのリストが表示されます。リストからテンプレートを選択して文書を作成します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서함: </emphasis><indexterm
+          <para><emphasis role="bold">文書トレイ：</emphasis><indexterm
               class="singular">
-              <primary>문서함</primary>
-            </indexterm>나와 관련된 문서 목록을 확인합니다.</para>
+              <primary>文書トレイ</primary>
+            </indexterm>文書の状態によって文書のリストを表示します。</para>
 
           <itemizedlist>
             <listitem>
-              <para><emphasis role="bold">진행 중 문서함: </emphasis><indexterm
+              <para><emphasis role="bold">進行中の文書：</emphasis><indexterm
                   class="singular">
-                  <primary>진행 중 문서함</primary>
-                </indexterm>내가 작성 또는 처리한 문서 중 완료되지 않은 문서 목록을 확인할 수
-              있습니다.</para>
+                  <primary sortas="しんこうちゅうのぶんしょ">進行中の文書</primary>
+                </indexterm>作成または処理済みで、完了はしていない文書のリストを表示します。</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">처리할 문서함: </emphasis><indexterm
+              <para><emphasis role="bold">要処理文書：</emphasis><indexterm
                   class="singular">
-                  <primary>처리할 문서함</primary>
-                </indexterm>임시 저장한 문서, 다른 멤버가 나에게 작성 또는 결재 요청한 문서 목록을 확인할 수
-              있습니다.</para>
+                  <primary sortas="ようしょりぶんしょ">要処理文書</primary>
+                </indexterm>下書きとして保存した文書や、他のメンバーが作成または決裁を依頼した文書のリストを表示します。</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">전체 문서함: </emphasis><indexterm
+              <para><emphasis role="bold">完了文書：</emphasis><indexterm
                   class="singular">
-                  <primary>전체 문서함</primary>
-                </indexterm>내가 작성 또는 처리한 모든 문서 목록을 확인할 수 있습니다.</para>
+                  <primary sortas="かんりょうぶんしょ">完了文書</primary>
+                </indexterm>自分が作成または処理済みの文書のうち、完了文書のリストを表示します。</para>
             </listitem>
           </itemizedlist>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 관리:</emphasis> <indexterm
+          <para><emphasis role="bold">文書管理：</emphasis> <indexterm
               class="singular">
-              <primary>문서 관리</primary>
-            </indexterm>문서 관리 권한이 있어야만 접근 가능한 메뉴입니다. 문서 관리 권한이 있는 템플릿으로 만들어진
-          모든 문서를 조회할 수 있습니다. 단, 대표관리자의 경우, 모든 문서를 조회하고 관리할 수 있습니다.</para>
+              <primary sortas="ぶんしょかんり">文書管理</primary>
+            </indexterm>このメニューには、文書の管理権限がある場合にのみアクセスできます。文書の管理権限を持っている文書については、すべて表示します。ただし、代表管理者の場合は、すべての文書を確認および管理できます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">내 서명: </emphasis><indexterm
+          <para><emphasis role="bold">マイ署名：</emphasis><indexterm
               class="singular">
-              <primary>내 서명</primary>
-            </indexterm>내 서명을 등록하고 문서 작성 시 편리하게 서명란에 적용할 수 있습니다.</para>
+              <primary>マイ署名</primary>
+            </indexterm>マイ署名を登録し、文書の作成時に便利に署名欄に適用することができます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">템플릿 관리: </emphasis><indexterm
+          <para><emphasis role="bold">テンプレート管理：</emphasis><indexterm
               class="singular">
-              <primary>템플릿 관리</primary>
-            </indexterm>템플릿 관리 권한이 있어야만 접근 가능한 메뉴입니다. 템플릿 목록을 확인하고 템플릿 설정을 할 수
-          있습니다.</para>
+              <primary>テンプレート管理</primary>
+            </indexterm>このメニューには、テンプレート管理の権限がある場合にのみアクセスできます。テンプレートのリストを確認でき、テンプレートを設定できます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">회사 관리: </emphasis><indexterm
+          <para><emphasis role="bold">会社管理：</emphasis><indexterm
               class="singular">
-              <primary>회사 관리</primary>
-            </indexterm>회사 대표관리자만 접근 가능한 메뉴입니다. 회사 정보를 조회하고 수정할 수 있습니다.</para>
+              <primary sortas="かいしゃかんり">会社管理</primary>
+            </indexterm>このメニューには、会社の代表管理者のみがアクセスできます。会社情報を照会し、情報を変更できます。</para>
 
           <itemizedlist>
             <listitem>
-              <para><emphasis role="bold">회사 정보: </emphasis><indexterm
+              <para><emphasis role="bold">会社情報：</emphasis><indexterm
                   class="singular">
-                  <primary>회사 정보</primary>
-                </indexterm>회사 정보를 확인할 수 있습니다.</para>
+                  <primary sortas="かいしゃじょうほう">会社情報</primary>
+                </indexterm>会社情報を確認することができます。</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">그룹 관리: </emphasis><indexterm
+              <para><emphasis role="bold">グループ管理：</emphasis><indexterm
                   class="singular">
-                  <primary>그룹 관리</primary>
-                </indexterm>멤버 그룹을 생성하거나 그룹 정보를 수정할 수 있습니다.</para>
+                  <primary>グループ管理</primary>
+                </indexterm>メンバーのグループを作成でき、グループ情報を変更できます。</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">멤버 관리: </emphasis><indexterm
+              <para><emphasis role="bold">メンバー管理：</emphasis><indexterm
                   class="singular">
-                  <primary>멤버 관리</primary>
-                </indexterm>멤버를 추가하거나 멤버 정보를 수정할 수 있습니다.</para>
+                  <primary>メンバー管理</primary>
+                </indexterm>メンバーを追加し、メンバー情報を修正できます。</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">사용자 정의 필드 관리:</emphasis> <indexterm
+              <para><emphasis role="bold">カスタムフィールド管理：</emphasis> <indexterm
                   class="singular">
-                  <primary>사용자 정의 필드 관리</primary>
-                </indexterm>회사, 그룹, 멤버에 대한 추가 정보를 입력하거나 수정할 수 있습니다.</para>
+                  <primary>カスタムフィールド管理</primary>
+                </indexterm>会社、グループ、またはメンバーに関する追加情報を入力または変更できます。</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">알림 템플릿 관리: </emphasis><indexterm
+              <para><emphasis role="bold">通知テンプレート管理：</emphasis><indexterm
                   class="singular">
-                  <primary>알림 템플릿 관리</primary>
-                </indexterm>eformsign에서 발송되는 이메일, SMS 알림 템플릿 목록을 확인하고 수정할 수
-              있습니다.</para>
+                  <primary sortas="つうちてんぷれーとかんり">通知テンプレート管理</primary>
+                </indexterm>eformsign から送信されるメールおよび SMS
+              の通知テンプレートのリストを確認および変更できます。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">署名の設定：</emphasis><indexterm
+                  class="singular">
+                  <primary sortas="しょめいのせってい">署名の設定</primary>
+                </indexterm>文書の署名欄に直接署名するときに使用可能な署名方法が選択できます。</para>
             </listitem>
           </itemizedlist>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">커넥트:</emphasis> <indexterm
+          <para><emphasis role="bold">コネクト：</emphasis> <indexterm
               class="singular">
-              <primary>커넥트</primary>
-            </indexterm>대표관리자만 접근 가능한 메뉴입니다. 외부 서비스와 연계하여 사용하는 기능들을 확인할 수
-          있습니다.</para>
+              <primary>コネクト</primary>
+            </indexterm>このメニューには、代表管理者のみがアクセスできます。外部サービスと連動して使用する機能を確認することができます。</para>
 
           <itemizedlist>
             <listitem>
-              <para><emphasis role="bold">파일 저장소: </emphasis><indexterm
+              <para><emphasis role="bold">クラウドストレージ：</emphasis><indexterm
                   class="singular">
-                  <primary>파일 저장소</primary>
-                </indexterm>드롭박스, 구글 드라이브, 박스 계정을 연동하여 최종 완료된 문서를
-              저장합니다.</para>
+                  <primary>クラウドストレージ</primary>
+                </indexterm>Dropbox、Google ドライブ、Box
+              のアカウントに接続して、完了文書を保存します。</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">분석 및 리포팅: </emphasis><indexterm
+              <para><emphasis role="bold">分析およびレポート：</emphasis><indexterm
                   class="singular">
-                  <primary>분석 및 리포팅</primary>
-                </indexterm>구글 스프레드시트, 오피스365 엑셀로 문서에 입력된 데이터를 자동으로 저장하도록 설정할
-              수 있습니다.</para>
+                  <primary sortas="ぶんせきおよびれぽーと">分析およびレポート</primary>
+                </indexterm>文書に入力されたデータを Google スプレッドシートと Office 365 Excel
+              に自動保存するように設定することができます。</para>
             </listitem>
 
             <listitem>
@@ -175,170 +176,169 @@
                   <primary>API</primary>
                 </indexterm><indexterm class="singular">
                   <primary>Webhook</primary>
-                </indexterm>이폼사인 API를 사용할 때 필요한 API 및 웹훅 키 관리를 할 수
-              있습니다.</para>
+                </indexterm>eformsign API を使用する際に必要な API と Webhook
+              キーを管理できます。</para>
             </listitem>
           </itemizedlist>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">요금 관리:</emphasis> 요금제 및 결제 내역을 조회하고 요금제나
-          결제 수단을 변경할 수 있습니다.</para>
+          <para><emphasis role="bold">料金管理：</emphasis>
+          料金プランと決済履歴を照会し、料金プランや決済手段を変更できます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">이용 현황:</emphasis> 주간, 월간, 연간 이용 현황을 조회할
-          수 있습니다.</para>
+          <para><emphasis role="bold">利用状況：</emphasis>
+          毎週、毎月、および年間の利用状況を表示します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">eformsign 폼 빌더 다운로드:
-          </emphasis><indexterm class="singular">
-              <primary>폼 빌더 다운로드</primary>
-            </indexterm>전자 서식(템플릿)을 생성하기 위한 폼 빌더를 다운로드합니다.</para>
+          <para><emphasis role="bold">フォームビルダーをダウンロード：</emphasis><indexterm
+              class="singular">
+              <primary>フォームビルダーをダウンロード</primary>
+            </indexterm>Microsoft Office で電子フォーム (テンプレート)
+          を作成時に必要なフォームビルダーをダウンロードします。</para>
         </listitem>
       </itemizedlist>
-
-      <para/>
     </section>
 
     <section>
-      <title>대시보드 화면 구성</title>
+      <title>ダッシュボード画面の構成</title>
 
       <para><indexterm class="singular">
-          <primary>대시보드</primary>
-        </indexterm>이폼사인 로그인 후 나타나는 대시보드 화면은 권한에 관계없이 모두 동일하게 나타납니다. 내가 처리해야 할
-      문서, 진행 중인 문서 등을 한눈에 확인할 수 있으며, <emphasis role="bold">새 문서 작성</emphasis>
-      등 주요 메뉴로 바로가기를 제공합니다.</para>
+          <primary>ダッシュボード</primary>
+        </indexterm>eformsign
+      にログインすれば、ダッシュボード画面が表示されます。処理が必要な文書や進行中の文書などをリスト表示しており、<emphasis
+      role="bold">文書の新規作成</emphasis> などのメインメニューへのショートカットを提供します。</para>
 
       <figure>
-        <title>대시보드 화면</title>
+        <title>ダッシュボード画面</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/dashboard_main.png" width="800"/>
+            <imagedata fileref="resources/dashboard_main.png" width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">① 새 문서 작성</emphasis></term>
+          <term><emphasis role="bold">① 文書の新規作成</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>새 문서 작성</primary>
-              </indexterm>저장된 템플릿을 사용하여 새 문서를 작성할 수 있는<emphasis role="bold"> 새
-            문서 작성</emphasis> 화면으로 이동합니다.</para>
+                <primary sortas="ぶんしょのしんきさくせい">文書の新規作成</primary>
+              </indexterm>保存したテンプレートを使用して、文書を新規作成できる<emphasis role="bold">
+            文書の新規作成</emphasis> 画面に移動します。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">② 진행 중 문서함</emphasis></term>
+          <term><emphasis role="bold">② 進行中の文書</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>진행 중 문서함</primary>
-              </indexterm>현재 진행 중인 문서의 개수를 보여주며, 클릭시<emphasis role="bold">
-            </emphasis>진행 중인 문서의 목록을 확인할 수 있는 <emphasis role="bold">진행 중
-            문서함</emphasis>으로 이동합니다.</para>
+                <primary sortas="しんこうちゅうのぶんしょ">進行中の文書</primary>
+              </indexterm>現在進行中の文書の数が表示され、クリックすると、<emphasis role="bold">
+            </emphasis>進行中の文書のリストが確認できる <emphasis
+            role="bold">進行中の文書</emphasis> に移動します。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">③ 처리할 문서함</emphasis></term>
+          <term><emphasis role="bold">③ 要処理文書</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>처리할 문서함</primary>
-              </indexterm>내가 처리해야 하는 문서의 개수를 보여주며, 클릭시 <emphasis
-            role="bold">처리할 문서함</emphasis>으로 이동합니다.</para>
+                <primary sortas="ようしょりぶんしょ">要処理文書</primary>
+              </indexterm>処理する必要のある文書の数を表示します。クリックすると <emphasis
+            role="bold">要処理文書 </emphasis>に移動します。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">④ 전체 문서함</emphasis></term>
+          <term><emphasis role="bold">④ 完了文書</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>전체 문서함</primary>
-              </indexterm>완료된 문서를 포함하여 모든 문서를 확인할 수 있는 <emphasis
-            role="bold">전체 문서함</emphasis>으로 이동합니다.</para>
+                <primary sortas="かんりょうぶんしょ">完了文書</primary>
+              </indexterm>完了文書を確認できる <emphasis role="bold">完了文書</emphasis>
+            に移動します。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">⑤ 진행 중 문서</emphasis></term>
+          <term><emphasis role="bold">⑤ 進行中の文書</emphasis></term>
 
           <listitem>
-            <para>진행 중인 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당 문서로 바로
-            이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
-            role="bold"> 진행 중 문서함</emphasis>으로 이동합니다.</para>
+            <para>進行中の文書の数と、最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
+            role="bold">More</emphasis> をクリックすると、<emphasis role="bold">
+            進行中の文書</emphasis> に移動します。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">⑥ 처리할 문서</emphasis></term>
+          <term><emphasis role="bold">⑥ 要処理文書</emphasis></term>
 
           <listitem>
-            <para>내가 처리해야 하는 문서의 개수와 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당
-            문서로 바로 이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
-            role="bold"> 처리할 문서함</emphasis>으로 이동합니다.</para>
+            <para>処理する必要のある文書の数と、最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
+            role="bold">More</emphasis> をクリックすると、<emphasis role="bold">
+            要処理文書</emphasis> に移動します。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">⑦ 전체 문서</emphasis></term>
+          <term><emphasis role="bold">⑦ 完了文書</emphasis></term>
 
           <listitem>
-            <para>전체 문서함에 있는 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당 문서로 바로
-            이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
-            role="bold"> 전체 문서함</emphasis>으로 이동합니다.</para>
+            <para>完了文書の最新の3つの文書のリストを表示します。リスト内の文書名をクリックすると、その文書に直接移動します。そして、<emphasis
+            role="bold">More</emphasis> をクリックすると、<emphasis role="bold">
+            完了文書</emphasis> に移動します。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">⑧ 즐겨찾기</emphasis></term>
+          <term><emphasis role="bold">⑧ お気に入り</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>즐겨찾기</primary>
-              </indexterm>내가 즐겨찾기로 등록한 템플릿을 보여줍니다. 해당 템플릿을 클릭하면 템플릿을 사용하여 새
-            문서를 작성할 수 있는 화면으로 바로 이동합니다. 즐겨찾기에 템플릿을 추가하려면 추가
-            아이콘(<inlinemediaobject>
+                <primary>お気に入り</primary>
+              </indexterm>お気に入りに登録したテンプレートを表示します。テンプレートをクリックすると、「文書の新規作成」画面に直接移動し、そのテンプレートで文書を新規作成できます。テンプレートをお気に入りに追加するには、追加アイコン
+            (<inlinemediaobject>
                 <imageobject>
                   <imagedata contentwidth="17"
                              fileref="resources/favorites-add.PNG"/>
                 </imageobject>
-              </inlinemediaobject>)을 클릭하여 새로 등록할 수 있습니다. 즐겨찾기에 등록된 템플릿을 삭제하려면
-            편집 아이콘(<inlinemediaobject>
+              </inlinemediaobject>)
+            をクリックして新規登録します。お気に入りに登録したテンプレートを削除するには、編集アイコン (<inlinemediaobject>
                 <imageobject>
                   <imagedata contentwidth="18"
                              fileref="resources/favorites-edit.PNG"/>
                 </imageobject>
-              </inlinemediaobject>)을 클릭하여 삭제할 수 있습니다.</para>
+              </inlinemediaobject>) をクリックして削除します。</para>
           </listitem>
         </varlistentry>
       </variablelist>
 
       <tip>
-        <para><emphasis role="bold">자주 사용하는 템플릿 즐겨찾기 방법!</emphasis></para>
+        <para><emphasis
+        role="bold">使用頻度の高いテンプレートをお気に入りに登録する方法！</emphasis></para>
 
-        <para>자주 사용하는 템플릿은 즐겨찾기에 등록하여 바로 문서를 작성할 수 있습니다. 템플릿 <emphasis
-        role="bold">즐겨찾기</emphasis>는 대시보드에서 할 수 있습니다.</para>
+        <para>頻繁に使用するテンプレートをお気に入りとして追加して文書を作成できます。テンプレートの <emphasis
+        role="bold">お気に入り</emphasis> への登録は、ダッシュボードで行います。</para>
 
         <orderedlist>
           <listitem>
-            <para>대시보드의 즐겨찾기 박스에서 추가 아이콘( <inlinemediaobject>
+            <para>ダッシュボードの「お気に入り」ボックスで、追加アイコン ( <inlinemediaobject>
                 <imageobject>
                   <imagedata contentwidth="17"
                              fileref="resources/favorites-add.PNG"/>
                 </imageobject>
-              </inlinemediaobject>)을 클릭하세요.</para>
+              </inlinemediaobject>) をクリックします。</para>
           </listitem>
 
           <listitem>
-            <para>클릭시 즐겨찾기에 등록이 안된 템플릿의 목록이 팝업창으로 뜹니다.</para>
+            <para>クリックすると、お気に入りにリスト化されていないテンプレートのリストがポップアップ表示されます。</para>
 
             <para><inlinemediaobject>
                 <imageobject>
@@ -349,7 +349,7 @@
           </listitem>
 
           <listitem>
-            <para>즐겨찾기에 추가하고자 하는 템플릿의 체크박스를 클릭합니다.</para>
+            <para>お気に入りに追加するテンプレートのチェックボックスをクリックします。</para>
 
             <para><inlinemediaobject>
                 <imageobject>
@@ -360,7 +360,7 @@
           </listitem>
 
           <listitem>
-            <para>선택을 클릭하면 즐겨찾기에 등록됩니다.</para>
+            <para>「選択」をクリックして、お気に入りに追加します。</para>
           </listitem>
         </orderedlist>
       </tip>
@@ -368,20 +368,20 @@
   </section>
 
   <section>
-    <title>기본 정보 확인 및 변경</title>
+    <title>基本情報の表示と変更</title>
 
     <para><indexterm class="singular">
-        <primary>내 정보</primary>
-      </indexterm>이폼사인 가입시 입력한 개인 정보 및 내가 등록된 회사의 정보를 확인하려면 사이드바 메뉴의 우측 상단에 있는
-    아이콘(<inlinemediaobject>
+        <primary>マイ情報</primary>
+      </indexterm>eformsign
+    に会員登録する時に入力した個人情報や登録会社を確認するには、サイドバーメニューの右上のアイコン（<inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="17"
                      fileref="resources/menu-hamberger-icon.png"/>
         </imageobject>
-      </inlinemediaobject>)을 클릭하여 확인할 수 있습니다.</para>
+      </inlinemediaobject>) をクリックして確認します。</para>
 
     <figure>
-      <title>내 정보 확인 아이콘 위</title>
+      <title>マイ情報を含むメニューアイコン</title>
 
       <mediaobject>
         <imageobject>
@@ -390,15 +390,15 @@
       </mediaobject>
     </figure>
 
-    <para>메뉴에서 아이콘(<inlinemediaobject>
+    <para>メニューツリーの右上のアイコン (<inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="17"
                      fileref="resources/menu-hamberger-icon.png"/>
         </imageobject>
-      </inlinemediaobject>)을 클릭하면 다음과 같이 하위 메뉴가 표시됩니다.</para>
+      </inlinemediaobject>) をクリックすると、サブメニューが次のように表示されます。</para>
 
     <figure>
-      <title>내 정보 확인 및 변경 메뉴</title>
+      <title>マイ情報の表示および変更メニュー</title>
 
       <mediaobject>
         <imageobject>
@@ -409,36 +409,36 @@
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">회사 변경: </emphasis><indexterm
+        <para><emphasis role="bold">会社の変更：</emphasis><indexterm
             class="singular">
-            <primary>회사 변경</primary>
-          </indexterm>내가 소속된 회사가 여러 개일 경우 회사 변경을 클릭하면 회사의 목록이 나타나며 변경할 회사를
-        클릭하여 소속 회사를 변경할 수 있습니다.</para>
+            <primary sortas="かいしゃのへんこう">会社の変更</primary>
+          </indexterm>eformsign
+        に登録している複数の会社がある場合は、「会社の変更」をクリックして会社の一覧を表示し、変更したい会社をクリックして会社を変更できます。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">내 정보: </emphasis><indexterm
+        <para><emphasis role="bold">マイ情報：</emphasis><indexterm
             class="singular">
-            <primary>내 정보</primary>
-          </indexterm>이폼사인 가입시 등록한 내 개인 정보를 확인 및 수정할 수 있으며, 내가 소속된 회사의 정보를 확인할
-        수 있습니다.</para>
+            <primary>マイ情報</primary>
+          </indexterm>eformsign
+        に会員登録するときに入力した個人情報を確認および変更し、所属会社の情報を確認することができます。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">로그아웃: </emphasis><indexterm
+        <para><emphasis role="bold">ログアウト：</emphasis><indexterm
             class="singular">
-            <primary>로그아웃</primary>
-          </indexterm>이폼사인을 로그아웃할 수 있습니다.</para>
+            <primary>ログアウト</primary>
+          </indexterm>eformsign からログアウトできます。</para>
       </listitem>
     </itemizedlist>
 
     <section>
-      <title>내 정보</title>
+      <title>マイ情報</title>
 
-      <para><emphasis role="bold">내 정보 &gt; 개인 정보 </emphasis></para>
+      <para><emphasis role="bold">マイ情報 &gt; 個人情報 </emphasis></para>
 
       <figure>
-        <title>내 정보 &gt; 개인 정보 화면</title>
+        <title>マイ情報 &gt; 個人情報画面</title>
 
         <mediaobject>
           <imageobject>
@@ -450,45 +450,44 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">개인 정보</emphasis></term>
+          <term><emphasis role="bold">個人情報</emphasis></term>
 
           <listitem>
-            <para>회원가입시 입력한 이름, 이메일 또는 아이디, 비밀번호 및 연락처를 확인 및 수정할 수
-            있습니다.</para>
+            <para>会員登録時に入力した名前、メールまたはID、パスワード、連絡先の詳細を表示および編集できます。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">소셜 계정 연결</emphasis></term>
+          <term><emphasis role="bold">SNSアカウントで接続</emphasis></term>
 
           <listitem>
-            <para>구글, 페이스북의 소셜 계정을 새로 연결, 계정 추가, 연결 해제를 할 수 있습니다.</para>
+            <para>SNS アカウントは、Google や Facebook
+            のアカウントを使用して接続、追加、接続解除できます。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">알림</emphasis></term>
+          <term><emphasis role="bold">お知らせ</emphasis></term>
 
           <listitem>
-            <para>마케팅 정보 수신 동의 여부를 확인할 수 있으며, 동의 및 해제할 수 있습니다.</para>
+            <para>「マーケティング情報の受信」を確認し、「同意する」または「同意しない」を選択できます。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">회원 탈퇴</emphasis></term>
+          <term><emphasis role="bold">eformsignから脱退</emphasis></term>
 
           <listitem>
-            <para>이폼사인의 회원 탈퇴를 하고자 하는 경우 화 면 하단의 <emphasis
-            role="bold">eformsign 탈퇴하기</emphasis>를 클릭하여 회원 탈퇴를 할 수
-            있습니다.</para>
+            <para>eformsign から会員脱退をしようとする場合は、画面の下部の <emphasis
+            role="bold">eformsign から脱退＞</emphasis> をクリックして、会員を脱退できます。</para>
           </listitem>
         </varlistentry>
       </variablelist>
 
-      <para><emphasis role="bold">내 정보 &gt; 회사 정보 </emphasis></para>
+      <para><emphasis role="bold">マイ情報 &gt; 会社情報 </emphasis></para>
 
       <figure>
-        <title>내 정보 &gt; 회사 정보 화면</title>
+        <title>マイ情報 &gt; 会社情報画面</title>
 
         <mediaobject>
           <imageobject>
@@ -499,43 +498,40 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">기본 정보</emphasis></term>
+          <term><emphasis role="bold">基本情報</emphasis></term>
 
           <listitem>
-            <para>내가 소속된 회사의 회사명, 국가, 언어, 연락처 등 기본 정보를 확인할 수 있습니다.</para>
+            <para>会社名、国、言語、連絡先などの基本情報を確認することができます。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">상세 정보</emphasis></term>
+          <term><emphasis role="bold">詳細情報</emphasis></term>
 
           <listitem>
-            <para>내가 소속된 회사의 주소, 사업자 등록번호, 홈페이지, 대표관리자 이름 및 이메일 등 상세한 정보를 확인할
-            수 있습니다.</para>
+            <para>会社の住所、事業者登録番号、ホームページのURL、代表管理者の名前とメールアドレスを確認することができます。</para>
 
             <note>
-              <para>내 정보에서는 회사정보를 확인만 할 수 있으며, 회사 관련 정보의 수정은 <emphasis
-              role="bold">회사 관리 &gt; 회사 정보</emphasis> 메뉴에서 할 수 있습니다. 회사 정보 수정은
-              대표 관리자 또는 회사 관리 권한이 있는 회원만 가능합니다.</para>
+              <para>マイ情報では、会社情報を確認することのみ可能で、会社関連情報の修正については、 <emphasis
+              role="bold">会社管理 &gt; 会社情報</emphasis>
+              メニューで行います。会社情報の修正は、代表管理者または会社管理の権限を有するメンバーのみが実行できます。</para>
             </note>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">회사 탈퇴</emphasis></term>
+          <term><emphasis role="bold">この会社を脱退する</emphasis></term>
 
           <listitem>
-            <para>소속된 회사를 탈퇴하고자 하는 경우, 화면 하단의 <emphasis role="bold">이
-            회사</emphasis> <emphasis role="bold">탈퇴하기</emphasis>를 클릭하여 탈퇴할 수
-            있습니다. <emphasis role="bold">이 회사 탈퇴하기</emphasis>를 클릭하면 소속된 회사의 목록이
-            표시되고, 목록 중 선택하여 해당 회사의 탈퇴를 진행할 수 있습니다.</para>
+            <para>会社を脱退したい場合は、画面下部の <emphasis
+            role="bold">この会社</emphasis><emphasis role="bold">脱退する</emphasis>
+            をクリックして脱退できます。<emphasis role="bold">この会社脱退する</emphasis>
+            をクリックすると、所属している会社のリストが表示され、そのリストから脱退したい会社を選択して撤退を行うことができます。</para>
 
             <important>
-              <para>일반 회원의 경우 소속 회사에서 탈퇴할 경우 개인의 계정은 유지되며 다른 회사에 가입하거나 신규로 회사를
-              생성할 수 있습니다.</para>
+              <para>一般メンバーの場合、所属会社を退社する場合、個人のアカウントは保持され、別の会社に入会したり、新しい会社を作成したりすることができます。</para>
 
-              <para>대표 관리자의 경우 회사 탈퇴시 회사가 삭제됩니다. 회사 삭제를 하지 않고 회사를 탈퇴하려면 대표 관리자
-              권한을 다른 사람에게 위임한 후 회사를 탈퇴해야 합니다.</para>
+              <para>代表管理者の場合は、脱退時に会社が削除されます。会社を削除せずに会社を脱退したい場合は、代理管理者を別の人に委任した後、会社を脱退する必要があります。</para>
             </important>
           </listitem>
         </varlistentry>
@@ -543,154 +539,139 @@
     </section>
 
     <section>
-      <title>회사 정보 수정 및 추가</title>
+      <title>会社情報の修正および追加</title>
 
-      <para><emphasis role="bold">내 정보</emphasis>에서 확인가능한 회사 정보는 <emphasis
-      role="bold">회사 관리 &gt; 회사 정보</emphasis>에서 수정할 수 있습니다.<indexterm
+      <para><emphasis role="bold">マイ情報</emphasis> で確認可能な会社情報については、 <emphasis
+      role="bold">会社管理 &gt; 会社情報 </emphasis>で修正できます。<indexterm
           class="singular">
-          <primary>회사 정보</primary>
+          <primary>会社情報</primary>
         </indexterm></para>
 
       <note>
-        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
-        role="bold">회사 관리 권한</emphasis>이 필요합니다.</para>
+        <para>この作業は <emphasis role="bold">代表管理者</emphasis> または <emphasis
+        role="bold">会社管理の権限</emphasis> が必要です。</para>
       </note>
 
       <figure>
-        <title>회사 관리 &gt; 회사 정보 메뉴</title>
+        <title>会社管理 &gt; 会社情報メニュー</title>
 
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/managecompany-companyinfo-menu.png"
-                       width="750"/>
+                       width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">등록된 회사 정보를 수정하는 방법</emphasis></para>
+      <para><emphasis role="bold">登録会社の情報を修正する方法</emphasis></para>
 
       <orderedlist>
         <listitem>
-          <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 회사 정보</emphasis>로
-          이동합니다.</para>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; 会社情報
+          </emphasis>に移動します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">회사 정보 &gt; 기본 정보</emphasis> 화면에서 수정하고자
-          하는 정보를 수정합니다.</para>
+          <para><emphasis role="bold">会社情報 &gt; 基本情報</emphasis>
+          画面上で修正したい情報を変更します。</para>
         </listitem>
 
         <listitem>
-          <para>수정이 끝났으면 각 영역 하단의 <emphasis role="bold">저장</emphasis> 버튼을
-          클릭합니다.</para>
+          <para>修正が完了したら、各領域の下部の <emphasis role="bold">保存</emphasis>
+          ボタンをクリックします。</para>
         </listitem>
       </orderedlist>
 
       <figure>
-        <title>회사 정보 화면</title>
+        <title>会社情報画面</title>
 
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/managecompany-companyinfo-edit_1.png"
-                       width="750"/>
+                       width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
-
-      <para/>
     </section>
 
     <section>
-      <title>브랜드</title>
+      <title>ブランド</title>
 
       <para><indexterm class="singular">
-          <primary>브랜드</primary>
-        </indexterm>회사의 로고와 심볼을 등록하여 이폼사인의 대시보드와 사이드바 메뉴에 표시되도록 할 수 있으며, 문서
-      요청시 등 발송하는 이메일 템플릿 등에 표시할 수 있습니다.</para>
+          <primary>ブランド</primary>
+        </indexterm>会社のロゴやシンボルを登録して、eformsign
+      のダッシュボードやサイドバーメニューに表示することができ、文書を依頼するときなどに送信するメールのテンプレートに表示することもできます。</para>
 
       <note>
-        <para><emphasis role="bold">로고와 심볼의 차이</emphasis></para>
+        <para><emphasis role="bold">ロゴとシンボルの違い</emphasis></para>
 
-        <para>로고와 심볼 모두 회사를 대표하는 이미지입니다. 로고는 대체로 브랜드명을 기재하는 가로로 긴 형식, 심볼은
-        이미지만으로 표현한 정사각형 형식입니다.</para>
+        <para>ロゴもシンボルも会社を代表するイメージです。ロゴは通常、ブランド名を書いている縦長の形であり、シンボルは画像のみで表した正方形の形です。</para>
 
-        <para>이폼사인에서도 로고는 512 x 128의 가로이미지, 심볼은 120 x 120의 정사각형 이미지를 권장하고
-        있습니다.</para>
+        <para>eformsign は、ロゴには 512 x 128 の縦の画像を、シンボルには 120 x 120
+        の正方形の画像を使用することを推奨します。</para>
       </note>
 
-      <para><emphasis role="bold">회사 로고 등록하는 방법</emphasis></para>
+      <para><emphasis role="bold">会社のロゴを登録する方法</emphasis></para>
 
       <figure>
-        <title>회사 정보 &gt; 브랜드 이미지 등록</title>
+        <title>会社情報 &gt; ブランドイメージの登録</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/managecompany-brand.png" width="750"/>
+            <imagedata fileref="resources/managecompany-brand.png" width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
 
       <orderedlist>
         <listitem>
-          <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 회사 정보</emphasis>로
-          이동합니다.</para>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; 会社情報
+          </emphasis>に移動します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">브랜드 </emphasis>탭을 클릭합니다.</para>
+          <para><emphasis role="bold">ブランド </emphasis>タブを選択します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">브랜드 이미지 &gt; 로고</emphasis> 영역의 이미지를
-          클릭합니다.</para>
+          <para><emphasis role="bold">ブランドイメージ &gt; ロゴ</emphasis>
+          領域の画像をクリックします。</para>
         </listitem>
 
         <listitem>
-          <para>이미지 업로드 팝업창이 뜨면 내 PC에 저장된 로고 이미지 파일을 선택하여 업로드 합니다.</para>
+          <para>画像アップロードのポップアップが表示されたら、PC
+          に保存されているロゴの画像ファイルを選択してアップロードします。</para>
 
           <itemizedlist>
             <listitem>
-              <para>이미지 크기: 가로 512px, 세로 128px 권장</para>
+              <para>画像サイズ：幅 512 px、縦 128 px を推奨</para>
             </listitem>
 
             <listitem>
-              <para>파일 크기: 최대 300KB</para>
+              <para>ファイルサイズ：最大 300 KB</para>
             </listitem>
           </itemizedlist>
 
           <itemizedlist>
             <listitem>
-              <para>파일 형식: PNG, JPG, JPEG, GIF</para>
+              <para>ファイル形式：PNG、JPG、JPEG、GIF</para>
             </listitem>
           </itemizedlist>
-
-          <para/>
-
-          <figure>
-            <title>이미지 업로드 팝업 화면</title>
-
-            <mediaobject>
-              <imageobject>
-                <imagedata fileref="resources/managecompany-logo-upload.png"
-                           width="650"/>
-              </imageobject>
-            </mediaobject>
-          </figure>
         </listitem>
 
         <listitem>
-          <para>화면 오른쪽 상단의 저장 버튼을 클릭합니다.</para>
+          <para>画面右上の「保存」ボタンをクリックします。</para>
         </listitem>
 
         <listitem>
-          <para>대시보드에서 변경된 로고를 확인합니다.</para>
+          <para>ダッシュボードで変更されたロゴを確認します。</para>
 
           <figure>
-            <title>로고 변경된 대시보드</title>
+            <title>ロゴが変更されたダッシュボード</title>
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/logo-change.png" width="750"/>
+                <imagedata fileref="resources/logo-change.png" width="730"/>
               </imageobject>
             </mediaobject>
           </figure>
@@ -702,118 +683,119 @@
   </section>
 
   <section>
-    <title>권한 구분</title>
+    <title>権限の区分</title>
 
-    <para>이폼사인은 멤버에게 권한을 부여할 수 있으며, 총 5단계로 세분화된 권한별 관리가 가능합니다. 사용자별 권한은 다음과 같이
-    구분됩니다.</para>
+    <para>eformsign
+    はメンバーに権限を付与することができ、合計5つのレベルで権限別の管理ができます。各ユーザーの権限は、次のように区分できます。</para>
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">대표 관리자</emphasis></para>
+        <para><emphasis role="bold">代表管理者</emphasis></para>
 
         <para><indexterm class="singular">
-            <primary>대표 관리자 권한</primary>
-          </indexterm>회사의 대표자로 이폼사인 사용에 대한 모든 권한이 있습니다.</para>
+            <primary sortas="だいひょうかんりしゃのけんげｎ">代表者管理者の権限</primary>
+          </indexterm>会社の代表者は、eformsign の使用を完全に制御できる権限を持ちます。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">회사 관리</emphasis></para>
+        <para><emphasis role="bold">会社管理</emphasis></para>
 
-        <para><emphasis role="bold">회사 관리</emphasis> <indexterm
+        <para><emphasis role="bold">会社管理</emphasis> <indexterm
             class="singular">
-            <primary>회사 관리 권한</primary>
-          </indexterm>메뉴에 접근할 수 있습니다. 회사 정보, 멤버, 그룹 등을 관리할 수 있으며, <emphasis
-        role="bold">멤버 관리</emphasis>에서 권한을 설정할 수 있습니다.</para>
+            <primary sortas="かいしゃかんりのけんげん">会社管理の権限</primary>
+          </indexterm>メニューにアクセスできます。会社情報、メンバー、グループなどを管理でき、<emphasis
+        role="bold">メンバー管理 </emphasis>では権限を設定できます。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">템플릿 관리</emphasis></para>
+        <para><emphasis role="bold">テンプレート管理</emphasis></para>
 
-        <para><emphasis role="bold">템플릿 관리</emphasis> <indexterm
+        <para><emphasis role="bold">テンプレート管理</emphasis> <indexterm
             class="singular">
-            <primary>템플릿 관리 권한</primary>
-          </indexterm>메뉴에 접근할 수 있습니다. 폼 빌더를 사용하여 폼파일을 만들거나 웹폼 디자이너로 파일을 업로드하여
-        새로운 템플릿을 등록할 수 있으며, 템플릿을 수정, 배포 및 삭제할 수 있습니다.</para>
+            <primary>テンプレート管理の権限</primary>
+          </indexterm>メニューにアクセスできます。フォームビルダーを使用して、フォームファイルを作成したり、Web
+        フォームデザイナーでファイルをアップロードして新しいテンプレートを登録したりすることができます。テンプレートを修正、配布、および削除できます。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">문서 관리</emphasis></para>
+        <para><emphasis role="bold">文書の管理</emphasis></para>
 
-        <para><emphasis role="bold">문서 관리</emphasis> <indexterm
+        <para><emphasis role="bold">文書の管理</emphasis> <indexterm
             class="singular">
-            <primary>문서 관리 권한</primary>
-          </indexterm>메뉴에 접근하여 템플릿 별로 생성된 문서를 열람하고 다운로드 받을 수 있습니다.</para>
+            <primary sortas="ぶんしょのかんりけんげん">文書の管理権限</primary>
+          </indexterm>メニューにアクセスして、テンプレート別に作成された文書を表示およびダウンロードできます。</para>
 
-        <para><emphasis role="bold">문서 관리 권한</emphasis>은 템플릿 별로 다르게 지정할 수
-        있습니다.</para>
+        <para><emphasis
+        role="bold">文書の管理権限</emphasis>は、テンプレート別に異なる方法で指定できます。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">문서 작성</emphasis></para>
+        <para><emphasis role="bold">文書の作成</emphasis></para>
 
         <para><indexterm class="singular">
-            <primary>문서 작성 권한</primary>
+            <primary>テンプレートの使用権限</primary>
           </indexterm><indexterm class="singular">
-            <primary>템플릿 사용 권한</primary>
-          </indexterm>템플릿 별로 <emphasis role="bold">템플릿 사용 권한(문서 작성
-        권한)</emphasis>을 부여할 수 있습니다. 권한을 부여 받은 멤버만 해당 템플릿으로 문서를 작성할 수
-        있습니다.</para>
+            <primary>テンプレートの使用権限</primary>
+          </indexterm>テンプレート別に <emphasis
+        role="bold">テンプレートの使用権限（文書作成の権限）</emphasis>
+        が付与できます。権限を付与されたメンバーのみがそのテンプレートで文書を作成できます。</para>
       </listitem>
     </itemizedlist>
 
     <section>
-      <title>대표 관리자</title>
+      <title>代表管理者</title>
 
       <para><indexterm class="singular">
-          <primary>대표 관리자</primary>
-        </indexterm>대표 관리자는 가입시 회사를 생성한 사용자가 대표 관리자로 등록되며, 이폼사인 사용에 대한 모든 권한을
-      갖고 있는 최고 관리자입니다.</para>
+          <primary>代表管理者</primary>
+        </indexterm>会員登録時に会社を新規登録したユーザーが代表管理者となります。eformsign
+      の使用に関するすべての権限を持つ最上位レベルの管理者です。</para>
 
-      <para>대표관리자는</para>
+      <para>代表管理者</para>
 
       <itemizedlist>
         <listitem>
-          <para>모든 메뉴에 접근할 수 있습니다.</para>
+          <para>すべてのメニューにアクセスできます。</para>
         </listitem>
 
         <listitem>
-          <para>템플릿을 생성, 수정, 삭제, 관리할 수 있습니다.</para>
+          <para>テンプレートの作成、変更、削除、管理を行えます。</para>
         </listitem>
 
         <listitem>
-          <para>모든 문서를 작성, 열람, 관리할 수 있습니다.</para>
+          <para>すべての文書を作成、表示、および管理できます。</para>
         </listitem>
 
         <listitem>
-          <para>대표 관리자 변경이 필요한 경우 다른 멤버에게 권한을 위임할 수 있습니다.</para>
+          <para>代表管理者の変更が必要な場合は、他のメンバーに権限を委任できます。</para>
         </listitem>
       </itemizedlist>
 
-      <para>대표 관리자가 탈퇴를 할 경우, 회사가 삭제되며 회사를 삭제하지 않고 계정 탈퇴를 하려면 대표 관리자에 대한 권한은
-      다른 멤버에게 위임해야 합니다.<indexterm class="singular">
-          <primary>대표 관리자 권한 위임</primary>
+      <para>代表管理者が脱退した場合、会社は削除されます。会社を削除せずに脱退するには、他のメンバーに代表管理者の権限を委任してから脱退する必要があります。<indexterm
+          class="singular">
+          <primary sortas="だいひょうかんりしゃのけんげんのいにん">代表管理者の権限の委任</primary>
         </indexterm></para>
 
-      <para><emphasis role="bold">대표 관리자 권한 위임하는 방법</emphasis></para>
+      <para><emphasis role="bold">代表管理者の権限を委任する方法</emphasis></para>
 
       <note>
-        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 권한이 필요합니다.</para>
+        <para>この作業は <emphasis role="bold">代表管理者</emphasis> の権限が必要です。</para>
       </note>
 
       <orderedlist>
         <listitem>
-          <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 회사 정보</emphasis>로
-          이동합니다.</para>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; 会社情報</emphasis>
+          に移動します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">상세 정보</emphasis>의<emphasis role="bold">
-          </emphasis><emphasis role="bold">수정 </emphasis>버튼을 클릭하면 <emphasis
-          role="bold">대표관리자</emphasis> 항목의 오른쪽에 나타나는 <emphasis role="bold">권한
-          위임</emphasis> 링크를 클릭합니다.</para>
+          <para><emphasis role="bold">詳細情報</emphasis> の<emphasis role="bold">
+          </emphasis><emphasis role="bold">修正 </emphasis>ボタンをクリックすると、
+          <emphasis role="bold">代表管理者</emphasis> の右側に<emphasis
+          role="bold">委任権限</emphasis> のリンクボタンが表示されます。その <emphasis
+          role="bold">委任権限</emphasis> のリンクボタンをクリックします。</para>
 
           <figure>
-            <title>대표 관리자 권한 위임 위치</title>
+            <title>代表管理者の権限委任ボタンの位置</title>
 
             <mediaobject>
               <imageobject>
@@ -825,13 +807,11 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">권한 위임</emphasis> 팝업창에서 권한을 위임할 멤버를 검색 및
-          선택합니다.</para>
-
-          <para/>
+          <para><emphasis role="bold">権限委任</emphasis>
+          ポップアップウィンドウで、権限を委任したいメンバーを検索および選択します。</para>
 
           <figure>
-            <title>권한 위임 팝업 화면</title>
+            <title>権限委任のポップアップ画面</title>
 
             <mediaobject>
               <imageobject>
@@ -843,51 +823,48 @@
         </listitem>
 
         <listitem>
-          <para>대표관리자 계정의 비밀번호를 입력합니다.</para>
+          <para>代表管理者アカウントのパスワードを入力します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">저장</emphasis> 버튼을 클릭해 변경사항을
-          저장합니다.</para>
+          <para><emphasis role="bold">保存</emphasis>
+          ボタンをクリックして、変更内容を保存します。</para>
         </listitem>
       </orderedlist>
     </section>
 
     <section>
-      <title>회사 관리 권한</title>
+      <title>会社の管理権限</title>
 
       <para><indexterm class="singular">
-          <primary>회사 관리 권한</primary>
-        </indexterm>회사 관리자는 <emphasis role="bold">회사 관리 </emphasis>메뉴에 접근 권한을
-      가지며, 회사와 관련된 정보 및 멤버/그룹 등의 정보를 열람, 수정, 삭제 등을 할 수 있습니다. 회사 관리자는 대표 관리자 또는
-      회사 관리자가 멤버에게 권한을 부여할 수 있습니다.</para>
+          <primary>会社の管理権限</primary>
+        </indexterm>会社管理者は <emphasis role="bold">会社管理
+      </emphasis>メニューへのアクセス権限を持ち、会社やメンバー/グループに関連する情報を表示、変更、削除することができます。会社管理者は、代表管理者または会社管理者がメンバーに権限を付与できます。</para>
 
-      <para><emphasis role="bold">회사 관리 권한 부여하는 방법</emphasis></para>
+      <para><emphasis role="bold">会社管理の権限を付与する方法</emphasis></para>
 
       <note>
-        <para>이 작업은 <emphasis role="bold">대표 관리자 </emphasis>또는 <emphasis
-        role="bold">회사 관리 </emphasis>권한이 필요합니다.</para>
+        <para>この作業は <emphasis role="bold">代表管理者 </emphasis>または <emphasis
+        role="bold">会社管理 </emphasis>の権限が必要です。</para>
       </note>
 
       <orderedlist>
         <listitem>
-          <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 멤버 관리</emphasis>로
-          이동합니다.</para>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; メンバー管理</emphasis>
+          に移動します。</para>
         </listitem>
 
         <listitem>
-          <para>멤버 목록에서 템플릿 관리 권한을 부여할 멤버를 선택합니다.</para>
+          <para>メンバーリストからテンプレート管理の権限を付与したいメンバーを選択します。</para>
         </listitem>
 
         <listitem>
-          <para>오른쪽 <emphasis role="bold">멤버 정보</emphasis> 상세 보기 화면 하단의
-          <emphasis role="bold">권한</emphasis>에서 <emphasis role="bold">회사
-          관리</emphasis>를 체크합니다.</para>
-
-          <para/>
+          <para>右側の <emphasis role="bold">メンバー情報</emphasis> の詳細
+          画面の下部の<emphasis role="bold">権限</emphasis> で <emphasis
+          role="bold">会社管理 </emphasis>にチェックを入れます。</para>
 
           <figure>
-            <title>회사 관리 권한 위치</title>
+            <title>会社管理の権限</title>
 
             <mediaobject>
               <imageobject>
@@ -899,51 +876,50 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">저장</emphasis> 버튼을 클릭합니다.</para>
+          <para><emphasis role="bold">保存</emphasis> ボタンをクリックします。</para>
         </listitem>
       </orderedlist>
-
-      <para/>
     </section>
 
     <section>
-      <title>템플릿 관리 권한</title>
+      <title>テンプレート管理の権限</title>
 
       <para><indexterm class="singular">
-          <primary>템플릿 관리 권한</primary>
-        </indexterm>템플릿 관리자는 <emphasis role="bold">템플릿 관리</emphasis> 메뉴에 접근
-      권한을 가지며, 템플릿을 등록, 수정, 배포, 삭제할 수 있습니다.</para>
+          <primary>テンプレート管理の権限</primary>
+        </indexterm>テンプレート管理者は <emphasis role="bold">テンプレート管理</emphasis>
+      メニューへのアクセス権限を持ち、テンプレートの登録、修正、配布、削除ができます。</para>
 
-      <para>템플릿을 등록한 템플릿 관리자는 해당 템플릿의 템플릿 소유자가 됩니다.</para>
+      <para>テンプレートを登録したテンプレート管理者が、そのテンプレートのテンプレートのオーナーになります。</para>
 
-      <para>한 회사에 여러 명의 템플릿 관리자가 있는 경우 템플릿 소유자와 템플릿 관리자가 다를 수 있습니다.</para>
+      <para>会社に複数のテンプレート管理者が存在する場合、テンプレートオーナーとテンプレート管理者は異なる場合があります。</para>
 
-      <para>템플릿 관리자가 템플릿 소유자가 아닌 경우 해당 템플릿의 설정 보기와 템플릿 복제만 할 수 있습니다.</para>
+      <para>テンプレート管理者がテンプレートオーナーでない場合、テンプレート設定を表示して設定内容を確認することとテンプレートを複製することだけ可能です。</para>
 
-      <para><emphasis role="bold">템플릿 관리 권한 부여하는 방법</emphasis></para>
+      <para><emphasis role="bold">テンプレート管理の権限を付与する方法</emphasis></para>
 
       <note>
-        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
-        role="bold">템플릿 관리</emphasis> 권한이 필요합니다.</para>
+        <para>この作業は <emphasis role="bold">代表管理者</emphasis> または <emphasis
+        role="bold">テンプレート管理</emphasis> の権限が必要です。</para>
       </note>
 
       <orderedlist>
         <listitem>
-          <para>사이드바 메뉴에서 <emphasis role="bold">회사 관리 &gt; 멤버 관리</emphasis>로
-          이동합니다.</para>
+          <para>サイドバーのメニューで <emphasis role="bold">会社管理 &gt; メニュー管理
+          </emphasis>に移動します。</para>
         </listitem>
 
         <listitem>
-          <para>멤버 목록에서 템플릿 관리 권한을 부여할 멤버를 선택합니다.</para>
+          <para>メンバーリストからテンプレート管理の権限を付与するメンバーを選択します。</para>
         </listitem>
 
         <listitem>
-          <para>오른쪽 <emphasis role="bold">멤버 정보 </emphasis>상세 보기<emphasis
-          role="bold"> </emphasis>화면 하단의 <emphasis role="bold">권한</emphasis>에서
-          <emphasis role="bold">템플릿 관리</emphasis>를 체크합니다.</para>
+          <para>右側の <emphasis role="bold">メンバー情報 </emphasis>詳細を表示<emphasis
+          role="bold"> </emphasis>画面下部の <emphasis
+          role="bold">権限</emphasis>で<emphasis role="bold">テンプレート管理</emphasis>
+          にチェックを入れます。</para>
 
           <figure>
-            <title>템플릿 관리 권한 위치</title>
+            <title>テンプレート管理の権限の位置</title>
 
             <mediaobject>
               <imageobject>
@@ -955,54 +931,52 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">저장</emphasis> 버튼을 클릭합니다.</para>
+          <para><emphasis role="bold">保存</emphasis> ボタンをクリックします。</para>
         </listitem>
       </orderedlist>
     </section>
 
     <section>
-      <title>템플릿 사용(=문서 생성) 및 문서 관리 권한</title>
+      <title>テンプレートの使用権限（=文書の作成）と文書の管理権限</title>
 
       <para><indexterm class="singular">
-          <primary>템플릿 사용 권한</primary>
+          <primary>テンプレートの使用権限</primary>
         </indexterm><indexterm class="singular">
-          <primary>문서 관리 권한</primary>
-        </indexterm>각 템플릿 별로 문서를 생성할 수 있는 권한과 생성된 문서와 문서에 입력된 데이터를 관리하는 권한을
-      부여할 수 있습니다.</para>
+          <primary sortas="ぶんしょのかんりけんげん">文書の管理権限</primary>
+        </indexterm>テンプレート別に文書を作成できる権限と作成された文書とその文書に入力されたデータを管理する権限を付与できます。</para>
 
-      <para><emphasis role="bold">템플릿 사용 권한</emphasis>이 부여된 멤버는 <emphasis
-      role="bold">새 문서 작성</emphasis> 메뉴 화면에서 해당 템플릿으로 문서를 작성할 수 있습니다.</para>
+      <para><emphasis role="bold">テンプレートの使用権限 </emphasis>を付与されたメンバーは <emphasis
+      role="bold">文書の新規作成</emphasis> メニュー画面から、そのテンプレートで文書を作成できます。</para>
 
-      <para><emphasis role="bold">문서 관리 권한</emphasis>이 부여된 멤버는 <emphasis
-      role="bold">문서 관리 </emphasis>메뉴 화면에서 해당 템플릿으로 작성된 문서를 열람, 삭제, 다운로드할 수
-      있습니다.</para>
+      <para><emphasis role="bold">文書の管理権限</emphasis> を付与されたメンバーは <emphasis
+      role="bold">文書管理
+      </emphasis>メニュー画面からテンプレートで作成した文書を表示、削除、ダウンロードできます。</para>
 
-      <para><emphasis role="bold">문서 작성을 위한 템플릿 사용 권한 및 문서 관리 권한 부여하는
-      방법</emphasis></para>
+      <para><emphasis
+      role="bold">文書の作成およびテンプレートの使用権限、文書の管理権限を付与する方法</emphasis></para>
 
       <note>
-        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
-        role="bold">템플릿 관리 </emphasis>권한이 필요합니다.</para>
+        <para>この作業は <emphasis role="bold">代表管理者</emphasis> または <emphasis
+        role="bold">テンプレート管理 </emphasis>の権限が必要です。</para>
       </note>
 
       <orderedlist>
         <listitem>
-          <para>사이드바 메뉴에서<emphasis role="bold"> 템플릿 관리</emphasis>로
-          이동합니다.</para>
+          <para>サイドバーのメニューで<emphasis role="bold"> テンプレート管理
+          </emphasis>に移動します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">템플릿 설정</emphasis> 버튼( <inlinemediaobject>
+          <para><emphasis role="bold">テンプレートの設定</emphasis> ボタン (
+          <inlinemediaobject>
               <imageobject>
                 <imagedata contentwidth="25"
                            fileref="resources/config-icon.PNG"/>
               </imageobject>
-            </inlinemediaobject>)을 클릭합니다.</para>
-
-          <para/>
+            </inlinemediaobject>) をクリックします。</para>
 
           <figure>
-            <title>템플릿 설정 버튼 위치</title>
+            <title>テンプレートの設定ボタンの位置</title>
 
             <mediaobject>
               <imageobject>
@@ -1014,10 +988,10 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">권한 설정</emphasis> 탭으로 이동합니다.</para>
+          <para><emphasis role="bold">権限の設定</emphasis> タブを選択します。</para>
 
           <figure>
-            <title>템플릿 설정 &gt; 권한 설정 탭 위치</title>
+            <title>テンプレート設定 &gt; 権限の設定タブの位置</title>
 
             <mediaobject>
               <imageobject>
@@ -1029,28 +1003,29 @@
         </listitem>
 
         <listitem>
-          <para>각각의 권한을 부여할 그룹 또는 멤버를 선택합니다.</para>
+          <para>各権限を付与するグループまたはメンバーを選択します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">저장 </emphasis>버튼을 클릭합니다.</para>
+          <para><emphasis role="bold">保存 </emphasis>ボタンをクリックします。</para>
         </listitem>
       </orderedlist>
     </section>
   </section>
 
   <section>
-    <title>멤버 및 그룹 관리</title>
+    <title>メンバーおよびグループの管理</title>
 
-    <para><emphasis role="bold">회사 관리 </emphasis>메뉴에서 멤버를 초대, 삭제, 수정 및 그룹 생성,
-    추가, 삭제 등을 관리할 수 있습니다.<indexterm class="singular">
-        <primary>그룹 관리</primary>
+    <para><emphasis role="bold">会社管理
+    </emphasis>メニューでは、メンバーの招待、削除、変更、およびグループの作成、追加、および削除を行うことができます。<indexterm
+        class="singular">
+        <primary>グループ管理</primary>
       </indexterm><indexterm class="singular">
-        <primary>멤버 관리</primary>
+        <primary>メンバー管理</primary>
       </indexterm></para>
 
     <figure>
-      <title>회사관리 &gt; 그룹/멤버 관리</title>
+      <title>企業管理 &gt; グループ/メンバー管理</title>
 
       <mediaobject>
         <imageobject>
@@ -1061,15 +1036,16 @@
     </figure>
 
     <section>
-      <title>멤버 관리</title>
+      <title>メンバー管理</title>
 
-      <para><emphasis role="bold">멤버 관리 </emphasis>메뉴에서는 멤버를 회사 소속으로 초대하거나,
-      초대된 멤버를 관리할 수 있습니다.<indexterm class="singular">
-          <primary>멤버 관리</primary>
+      <para><emphasis role="bold">メンバー管理
+      </emphasis>メニューでは、メンバーを会社に招待したり、招待したメンバーを管理したりすることができます。<indexterm
+          class="singular">
+          <primary>メンバー管理</primary>
         </indexterm></para>
 
       <figure>
-        <title>회사 관리 &gt; 멤버 관리</title>
+        <title>会社管理 &gt; メニュー管理</title>
 
         <mediaobject>
           <imageobject>
@@ -1080,104 +1056,103 @@
 
       <para><variablelist>
           <varlistentry>
-            <term><emphasis role="bold">① 활성 멤버</emphasis></term>
+            <term><emphasis role="bold">① 活性メンバー</emphasis></term>
 
             <listitem>
               <para><indexterm class="singular">
-                  <primary>활성 멤버</primary>
-                </indexterm>초대를 수락하여 현재 활성화된 멤버 목록 및 정보를 확인할 수 있습니다.</para>
+                  <primary sortas="かっせいめんばー">活性メンバー</primary>
+                </indexterm>招待を承諾して活性化しているメンバーのリストと情報を確認できます。</para>
             </listitem>
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">② 비활성 멤버</emphasis></term>
+            <term><emphasis role="bold">② 非活性メンバー</emphasis></term>
 
             <listitem>
               <para><indexterm class="singular">
-                  <primary>빌활성 멤버</primary>
-                </indexterm>비활성된 멤버 목록 및 정보를 확인할 수 있습니다.</para>
+                  <primary sortas="ひかっせいめんばー">非活性メンバー</primary>
+                </indexterm>非活性メンバーのリストと情報を確認できます。</para>
             </listitem>
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">③ 초대 멤버</emphasis></term>
+            <term><emphasis role="bold">③ 招待メンバー</emphasis></term>
 
             <listitem>
               <para><indexterm class="singular">
-                  <primary>초대 멤버</primary>
-                </indexterm>초대한 멤버 목록 및 정보를 확인할 수 있습니다.</para>
+                  <primary sortas="しょうたいめんばー">招待メンバー</primary>
+                </indexterm>招待したメンバーのリストと情報を確認できます。</para>
             </listitem>
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">④ 멤버 목록</emphasis></term>
+            <term><emphasis role="bold">④ メンバーリスト</emphasis></term>
 
             <listitem>
-              <para>목록에서 멤버를 클릭하여 오른쪽 멤버 정보 탭에서 정보를 확인, 수정하거나 삭제할 수
-              있습니다.</para>
+              <para>リスト内のメンバーをクリックすると、右側のメンバー情報タブで情報を確認、修正、または削除できます。</para>
             </listitem>
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">⑤ 멤버 정보</emphasis></term>
+            <term><emphasis role="bold">⑤ メンバー情報</emphasis></term>
 
             <listitem>
-              <para>멤버 정보를 확인할 수 있으며, 멤버 상태 변경, 회사 관리, 템플릿 관리 등 권한을 부여할 수
-              있습니다. .</para>
+              <para>メンバー情報の表示や、メンバー状態の変更、会社管理とテンプレート管理の権限を付与できます。</para>
             </listitem>
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">⑥ 필드 값 설정</emphasis></term>
+            <term><emphasis role="bold">⑥ フィールド値の設定</emphasis></term>
 
             <listitem>
-              <para>멤버와 관련된 필드 값을 설정할 수 있습니다.</para>
+              <para>メンバーに関連付けられたフィールドの値を設定できます。</para>
             </listitem>
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">⑦ 문서 이관</emphasis></term>
+            <term><emphasis role="bold">⑦ 文書の移管</emphasis></term>
 
             <listitem>
               <para><indexterm class="singular">
-                  <primary>문서 이관</primary>
-                </indexterm>멤버가 이폼사인을 더 이상 사용하지 않는 경우, 해당 멤버가 처리했거나 처리할 문서를 다른
-              멤버에게 이관할 수 있습니다.</para>
+                  <primary sortas="ぶんしょのいかん">文書の移管</primary>
+                </indexterm>メンバーが eformsign
+              を使用しなくなった場合は、そのメンバーが処理または処理予定の文書を別のメンバーに移管できます。</para>
             </listitem>
           </varlistentry>
 
           <varlistentry>
-            <term><emphasis role="bold">⑧ 멤버 일괄 초대</emphasis></term>
+            <term><emphasis role="bold">⑧ メンバー招待</emphasis></term>
 
             <listitem>
               <para><indexterm class="singular">
-                  <primary>멤버 일괄 초대</primary>
-                </indexterm>멤버 초대시 여러명의 멤버를 한꺼번에 초대할 수 있습니다.</para>
+                  <primary>メンバー招待</primary>
+                </indexterm>メールまたは ID
+              でメンバーを招待できます。メンバーを招待するとき、一度に複数のメンバーを招待することもできます。</para>
             </listitem>
           </varlistentry>
 
           <varlistentry>
-            <term>⑨ 멤버 초대</term>
+            <term>⑨ メンバーの削除</term>
 
             <listitem>
               <para><indexterm class="singular">
-                  <primary>멤버 초대</primary>
-                </indexterm>이메일 또는 ID를 사용하여 멤버를 초대할 수 있습니다.</para>
+                  <primary>メンバーの削除</primary>
+                </indexterm><emphasis role="bold">ごみ箱</emphasis>
+              アイコンをクリックすれば、メンバーリストの左側にあるチェックボックスが活性化します。削除したいメンバーを選択し、
+              <emphasis role="bold">削除
+              </emphasis>ボタンをクリックすれば、メンバーが削除されます。</para>
             </listitem>
           </varlistentry>
         </variablelist></para>
-
-      <para/>
     </section>
 
     <section>
-      <title>그룹 관리</title>
+      <title>グループ管理</title>
 
-      <para>그룹 관리 메뉴에서는 회사내 그룹을 생성할 수 있으며, 그룹 정보 확인, 수정 및 삭제 등을 할 수
-      있습니다.</para>
+      <para>グループ管理 メニューでは、会社内のグループの作成、グループ情報の表示、変更、および削除を行うことができます。</para>
 
       <figure>
-        <title>회사관리 &gt; 그룹 관리</title>
+        <title>企業管理 &gt; グループ管理</title>
 
         <mediaobject>
           <imageobject>
@@ -1188,46 +1163,45 @@
 
       <variablelist>
         <varlistentry>
-          <term>① 그룹 정보</term>
+          <term>① グループ情報</term>
 
           <listitem>
-            <para>그룹 목록에서 정보를 확인하고자 하는 그룹을 클릭하면 오른쪽 그룹 정보 탭에서 그룹 이름 및 설명을 확인 및
-            수정할 수 있습니다.</para>
+            <para>グループリストから情報を表示したいグループをクリックしたら、右側のグループ情報タブでグループ名とグループの詳細を変更できます。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>② 멤버 목록</term>
+          <term>② メンバーリスト</term>
 
           <listitem>
-            <para>그룹에 속한 멤버 목록을 보여주며, 멤버를 추가 및 삭제할 수 있습니다.</para>
+            <para>グループに属するメンバーのリストが表示され、メンバーを追加または削除できます。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>③ 필드 값 설정</term>
+          <term>③ フィールド値の設定</term>
 
           <listitem>
-            <para>그룹과 관련된 필드 값을 설정할 수 있습니다.</para>
+            <para>グループに関連付けられたフィールドの値を設定できます。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>④ 그룹 추가</term>
+          <term>④ グループの追加</term>
 
           <listitem>
-            <para>그룹 추가를 클릭하면<emphasis role="bold"> 그룹 추가</emphasis> 팝업창이 뜨고
-            그룹 이름 및 설명을 입력, 멤버를 검색하여 추가하면 그룹이 생성됩니다.</para>
+            <para>グループの追加をクリックすると、<emphasis role="bold"> グループの追加</emphasis>
+            ポップアップウィンドウが表示されたら、グループ名とグループの詳細を入力し、メンバーを検索して追加すれば、グループが作成されます。</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>⑤ 그룹 삭제</term>
+          <term>⑤ グループの削除</term>
 
           <listitem>
-            <para><emphasis role="bold">휴지통</emphasis> 아이콘을 클릭하면 그룹 목록 왼쪽에
-            체크박스가 활성화됩니다. 삭제할 그룹을 체크한 후 <emphasis role="bold">삭제</emphasis>
-            버튼을 클릭하면 그룹이 삭제됩니다.</para>
+            <para><emphasis role="bold">ごみ箱</emphasis>
+            アイコンをクリックすれば、グループリストの左側にあるチェックボックスが活性化します。削除したいグループを選択し、 <emphasis
+            role="bold">削除 </emphasis>ボタンをクリックすれば、グループが削除されます。</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -1235,23 +1209,23 @@
   </section>
 
   <section>
-    <title>내 서명 관리</title>
+    <title>マイ署名の管理</title>
 
-    <para><emphasis role="bold">내 서명</emphasis> 메뉴에서 <emphasis role="bold">서명,
-    이니셜, 도장</emphasis>을 등록해두면 문서 처리시 등록된 서명으로 간편하게 처리할 수 있습니다.<indexterm
-        class="singular">
-        <primary>내 서명</primary>
+    <para><emphasis role="bold">マイ署名</emphasis> メニューで <emphasis
+    role="bold">署名、イニシャル、印鑑・スタンプ</emphasis>
+    を登録しておくと、文書を処理する際に登録された署名で簡単に処理できます。<indexterm class="singular">
+        <primary>マイ署名</primary>
       </indexterm></para>
 
-    <para><emphasis role="bold">서명/이니셜 등록하는 방법</emphasis></para>
+    <para><emphasis role="bold">署名/イニシャルを登録する方法</emphasis></para>
 
     <note>
-      <para>작업은 <emphasis role="bold">PC, 모바일, 애플리케이션</emphasis>에서 진행할 수
-      있습니다.</para>
+      <para>作業は <emphasis role="bold">PC、モバイル、アプリケーション</emphasis>
+      から進めることができます。</para>
     </note>
 
     <para><figure>
-        <title>내 서명 관리 화면</title>
+        <title>マイ署名の管理画面</title>
 
         <mediaobject>
           <imageobject>
@@ -1268,16 +1242,14 @@
 
     <orderedlist>
       <listitem>
-        <para>사이드바 메뉴에서<emphasis role="bold"> 내 서명</emphasis>으로 이동합니다.</para>
+        <para>サイドバーのメニューで<emphasis role="bold"> マイ署名</emphasis> に移動します。</para>
       </listitem>
 
       <listitem>
-        <para>서명 등록 버튼을 클릭합니다.</para>
-
-        <para/>
+        <para>登録ボタンをクリックします。</para>
 
         <figure>
-          <title>서명 등록 화면</title>
+          <title>署名の登録画面</title>
 
           <mediaobject>
             <imageobject>
@@ -1289,80 +1261,78 @@
 
         <itemizedlist>
           <listitem>
-            <para><emphasis role="bold">그리기</emphasis></para>
+            <para><emphasis role="bold">手書き</emphasis></para>
 
-            <para>화면에 서명을 직접 그려서 입력합니다.</para>
+            <para>画面に署名を描画して入力します。</para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">텍스트</emphasis></para>
+            <para><emphasis role="bold">キーボード</emphasis></para>
 
-            <para>내 이름을 입력하여 원하는 스타일의 폰트가 적용된 서명을 선택합니다.</para>
+            <para>名前を入力して、目的のスタイルのフォントが適用された署名を選択します。</para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">QR 코드로 서명</emphasis></para>
+            <para><emphasis role="bold">QRコード</emphasis></para>
 
             <para><indexterm class="singular">
-                <primary>QR 코드로 서명</primary>
-              </indexterm>스마트폰 카메라를 통해 QR 코드를 인식하면 서명 패드 화면으로 연결됩니다. 서명 패드에 직접
-            서명을 그려서 입력합니다.</para>
+                <primary>QRコード</primary>
+              </indexterm>スマートフォンのカメラでQRコードを認識すると、署名パッド画面に移動します。署名パッドに直接署名を描画して入力します。</para>
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">앱에서 서명</emphasis></para>
+            <para><emphasis role="bold">アプリプッシュ通知</emphasis></para>
 
             <para><indexterm class="singular">
-                <primary>앱에서 서명</primary>
-              </indexterm>연결하고자 하는 모바일 기기를 선택한 뒤 <emphasis role="bold">전송
-            </emphasis>버튼을 누르면 해당 기기의 이폼사인 앱에서 서명을 입력할 수 있습니다.</para>
+                <primary>アプリプッシュ通知</primary>
+              </indexterm>接続したいモバイルデバイスを選択した後、 <emphasis
+            role="bold">送信（伝送）</emphasis>ボタンをクリックすると、そのデバイスの eformsign
+            アプリで署名を入力することができます。</para>
           </listitem>
         </itemizedlist>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">확인</emphasis> 버튼을 클릭해 서명을 저장합니다.</para>
+        <para><emphasis role="bold">OK</emphasis> ボタンをクリックして、署名を保存します。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">편집, 삭제 </emphasis>버튼으로 서명을 편집하거나
-        삭제합니다.</para>
+        <para><emphasis role="bold">編集、削除
+        </emphasis>ボタンをクリックして、署名を編集または削除します。</para>
       </listitem>
     </orderedlist>
 
-    <para><emphasis role="bold">도장 등록하는 방법</emphasis></para>
+    <para><emphasis role="bold">印鑑・スタンプを登録する方法</emphasis></para>
 
     <para><indexterm class="singular">
-        <primary>도장 등록</primary>
-      </indexterm>문서에 직접 서명이 아닌 직인이나 개인 도장을 사용해야 하는 경우가 있습니다. 이폼사인에서는 도장 이미지를
-    사용해 문서의 서명란에 도장을 찍을 수 있습니다.</para>
+        <primary sortas="いんかんすたんぷをとうろく">印鑑・スタンプを登録</primary>
+      </indexterm>文書に直接署名するのではなく、印鑑やスタンプを使用する必要がある場合があります。eformsign
+    では、印鑑やスタンプ画像を使用して文書の署名欄に印鑑やスタンプを押すことができます。</para>
 
     <note>
-      <para>도장 이미지를 미리 준비해야 합니다.</para>
+      <para>印鑑・スタンプの画像イメージを事前に準備する必要があります。</para>
 
       <itemizedlist>
         <listitem>
-          <para>이미지 형식: PNG, JPG</para>
+          <para>イメージ形式：PNG、JPG</para>
         </listitem>
 
         <listitem>
-          <para>파일 크기: 최대 300KB</para>
+          <para>ファイルサイズ：最大 300 KB</para>
         </listitem>
       </itemizedlist>
     </note>
 
     <orderedlist>
       <listitem>
-        <para>사이드바 메뉴에서 <emphasis role="bold">내 서명</emphasis>으로 이동합니다.</para>
+        <para>サイドバーのメニューで <emphasis role="bold">マイ署名</emphasis> に移動します。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">도장 등록 </emphasis>버튼을 클릭합니다</para>
-
-        <para/>
+        <para><emphasis role="bold">印鑑・スタンプを登録 </emphasis>ボタンをクリックします。</para>
 
         <figure>
-          <title>도장 등록 버튼</title>
+          <title>印鑑・スタンプを登録ボタン</title>
 
           <mediaobject>
             <imageobject>
@@ -1374,13 +1344,11 @@
       </listitem>
 
       <listitem>
-        <para>이미지 영역을 클릭하면 내 PC에 저장된 이미지를 업로드 할 수 있는 팝업창이 뜹니다. 원하는 도장 이미지를
-        선택합니다.</para>
-
-        <para/>
+        <para>印鑑・スタンプのイメージ領域をクリックすると、ローカル PC
+        に保存されている画像をアップロードできるポップアップウィンドウが表示されます。目的の印鑑・スタンプ画像を選択します。</para>
 
         <figure>
-          <title>내 서명 &gt; 도장 등록</title>
+          <title>マイ署名 &gt; 印鑑・スタンプを登録</title>
 
           <mediaobject>
             <imageobject>
@@ -1392,12 +1360,13 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">확인</emphasis> 버튼을 클릭해 도장을 저장합니다.</para>
+        <para><emphasis role="bold">OK</emphasis>
+        ボタンをクリックして、印鑑・スタンプを保存します。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">편집, 삭제</emphasis> 버튼으로 등록된 도장을 편집 또는
-        삭제합니다.</para>
+        <para><emphasis role="bold">編集、削除</emphasis>
+        ボタンをクリックして、登録した印鑑・スタンプを編集または削除します。</para>
       </listitem>
     </orderedlist>
   </section>

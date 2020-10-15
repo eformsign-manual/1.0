@@ -7,61 +7,69 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>템플릿-웹폼 디자이너</title>
+  <title>Template - Web form designer</title>
 
   <section>
-    <title>템플릿 소개</title>
+    <title>About Template</title>
 
     <para><indexterm class="singular">
-        <primary>웹폼 디자이너</primary>
+        <primary>Web form designer</primary>
 
-        <secondary>템플릿</secondary>
-      </indexterm>템플릿은 이폼사인에서 사용하는 <emphasis role="bold">전자문서
-    서식</emphasis>입니다. 기존에 종이로 작성하던 계약서, 신청서, 동의서와 같이 기본 서식을 전자문서 형태로 만든 것을
-    템플릿이라고 합니다. 템플릿은 이폼사인 서비스내 웹폼 디자이너 또는 이폼사인 폼 빌더를 통해 만들고 업로드 할 수 있습니다. 폼
-    빌더를 통한 템플릿 설정 및 관리 방법은 <xref linkend="template_fb"/>를 참고해 주세요.</para>
+        <secondary>Template</secondary>
+      </indexterm>A template is an <emphasis role="bold">electronic document
+    form</emphasis> used for the eformsign service. It is an e-document
+    converted from existing paper forms such as applications, contracts, and
+    agreements. You can create and upload templates in the eformsign service
+    with its Web form designer or Form builder. For more information about the
+    Form builder, please refer to Chapter 6 <xref
+    linkend="template_fb"/>.</para>
 
     <section>
-      <title>템플릿 개요</title>
+      <title>Overview of Template</title>
 
-      <para>이폼사인을 통해 전자문서를 작성 및 전송하려면 전자문서를 생성할 수 있는 템플릿을 우선 만들어서 배포해야
-      합니다.</para>
+      <para>To create and send electronic documents via eformsign, you have to
+      create a template first which can be converted into an
+      e-document.</para>
 
-      <para><emphasis role="bold">웹폼 디자이너로 템플릿 만드는 방법</emphasis></para>
+      <para><emphasis role="bold">How to create a template with Web form
+      designer</emphasis></para>
 
-      <para>템플릿을 온라인에서 바로 문서를 업로드하여 만들수 있습니다.</para>
+      <para>You can easily create a template by uploading a file
+      online.</para>
 
       <note>
-        <para>웹폼 디자이너에 대한 상세한 설명은 <xref linkend="webform"/>를 참고하시기
-        바랍니다.</para>
+        <para>For more information about the Web form designer, please refer
+        to <xref linkend="webform"/></para>
       </note>
 
-      <para>기존 문서를 PDF파일로 변환하고 웹폼 디자이너에 업로드하여 쉽게 템플릿을 만들수 있습니다.</para>
+      <para>Convert the file you want to upload into a PDF file and upload it
+      to the eformsign Web form designer.</para>
 
       <orderedlist>
         <listitem>
-          <para>템플릿으로 만들 PDF 파일을 직접 드래그하거나 <emphasis role="bold">내 컴퓨터에서 파일
-          선택</emphasis>을 클릭하여 해당 파일 선택 후 업로드 합니다.</para>
+          <para>Drag and drop the PDF file that you want to create as a
+          template, or <emphasis role="bold">Select a file </emphasis>from My
+          PC to select the file and upload it.</para>
 
           <para/>
 
           <figure>
-            <title>템플릿 관리&gt;파일 업로드(1)</title>
+            <title>Manage templates &gt; Uploading File (1)</title>
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/template-manage-upload.png"
+                <imagedata fileref="resources/managetemplate-upload-en.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
           </figure>
 
           <figure>
-            <title>템플릿 관리&gt;파일 업로드(2)</title>
+            <title>Manage templates &gt; Uploading File (2)</title>
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/template-manage-upload-popup.png"
+                <imagedata fileref="resources/en-managetemplate-upload-popup.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
@@ -69,16 +77,17 @@
         </listitem>
 
         <listitem>
-          <para>업로드된 파일에 입력항목 종류를 선택하여 드래그합니다.</para>
+          <para>Select a component that you want to add and drag it on the
+          uploaded file.</para>
 
           <para/>
 
           <figure>
-            <title>입력항목 드래그 방법</title>
+            <title>Drag a component</title>
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/web-form-designer1.png"
+                <imagedata fileref="resources/en-template-settings-wfdesign.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
@@ -86,122 +95,142 @@
         </listitem>
 
         <listitem>
-          <para>입력항목의 크기와 위치를 조정합니다.</para>
+          <para>Adjust the size and position of the component.</para>
         </listitem>
 
         <listitem>
-          <para>해당 입력항목의 속성에서 상세 설정을 합니다.</para>
+          <para>Set the details in the property of the component.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">미리보기</emphasis> 버튼을 클릭해 문서를
-          확인합니다.</para>
+          <para>View the document by clicking the <emphasis
+          role="bold">Preview</emphasis> button.</para>
         </listitem>
 
         <listitem>
-          <para>폼 디자인을 마친 후 <emphasis role="bold">다음</emphasis>을 클릭하여 템플릿 설정으로
-          이동합니다.</para>
+          <para>Click the<emphasis role="bold"> Save </emphasis>button after
+          finishing form design and go to the <emphasis role="bold">Template
+          settings</emphasis>.</para>
         </listitem>
       </orderedlist>
 
       <para><emphasis role="bold"/></para>
 
-      <para><emphasis role="bold">템플릿 설정</emphasis></para>
+      <para><emphasis role="bold">Template settings</emphasis></para>
 
-      <para>생성할 템플릿에 대한 상세 설정을 할 수 있습니다.</para>
+      <para>You can set the details for the template to be created.</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">일반 설정</emphasis></para>
+          <para><emphasis role="bold">General</emphasis></para>
 
-          <para>템플릿 이름, 약칭, 문서 제목, 문서 번호등을 설정합니다.</para>
+          <para>Set the template name, abbreviation, document name, document
+          number, etc.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">권한 설정</emphasis></para>
+          <para><emphasis role="bold">Set permissions</emphasis></para>
 
-          <para>해당 템플릿을 사용해 문서를 생성할 수 있는 템플릿 사용 권한과 생성된 문서를 관리할 멤버 또는 그룹을
-          지정합니다.</para>
+          <para>Assign members or groups to grant permission to use the
+          template to create documents and to manage documents created by the
+          template.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">워크플로우 설정</emphasis></para>
+          <para><emphasis role="bold">Workflow</emphasis></para>
 
-          <para>문서의 작성부터 완료까지 작성된 문서가 처리될 단계를 설정합니다.</para>
+          <para>Sets the workflow for the document from its creation to
+          completion.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">필드 설정</emphasis></para>
+          <para><emphasis role="bold">Field</emphasis></para>
 
-          <para>필드의 기본값, 자동 입력 값 등을 설정합니다.</para>
+          <para>Sets default values, and auto-filled values for fields.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">알림 설정 </emphasis></para>
+          <para><emphasis role="bold">Notification settings </emphasis></para>
 
-          <para>해당 템플릿을 통해 생성되는 문서의 요청 또는 상태 변경시 알림을 수신할 채널, 수신자, 또는 알림 메시지 내용
-          등을 설정합니다</para>
+          <para>Sets channels, recipients, or notification messages of the
+          notification to send when requesting or notifying status of
+          documents created from the template.</para>
         </listitem>
       </itemizedlist>
     </section>
 
     <section>
-      <title>워크플로우 개요</title>
+      <title>Overview of Workflow</title>
 
       <para><indexterm class="singular">
-          <primary>워크플로우</primary>
-        </indexterm>워크플로우란 문서가 작성되어 완료되기까지의 문서의 요청 및 처리 과정을 말합니다.</para>
+          <primary>Workflow</primary>
+        </indexterm>A workflow is a document process from its creation to
+      completion.</para>
 
-      <para>워크플로우는 템플릿 관리자가 템플릿 별로 <emphasis role="bold">템플릿 설정</emphasis>
-      &gt; <emphasis role="bold">워크플로우 설정</emphasis>에서 설정할 수 있습니다.</para>
+      <para>The workflow can be set in <emphasis role="bold">Template
+      settings</emphasis> &gt; <emphasis role="bold">Workflow </emphasis>for
+      each template by a template manager.</para>
 
-      <para>워크플로우는 <emphasis role="bold">시작 - 완료</emphasis>가 기본 단계이며, 아래와
-      같이<emphasis role="bold"> 결재</emphasis>, <emphasis role="bold">내부
-      수신자</emphasis>, <emphasis role="bold">외부 수신자</emphasis> 3가지 단계를 원하는 대로
-      추가하여 워크플로우를 생성할 수 있습니다.</para>
+      <para>The default workflow consists of <emphasis role="bold">Start
+      </emphasis>and<emphasis role="bold"> Complete </emphasis>steps. You can
+      add as many of the steps as you like including <emphasis role="bold">
+      Approver</emphasis>, <emphasis role="bold">Internal
+      recipients</emphasis>, <emphasis role="bold">External
+      recipients</emphasis> and create customized workflow for each
+      template.</para>
 
       <figure>
-        <title>워크플로우 단계</title>
+        <title>Workflow Steps</title>
 
         <mediaobject>
           <imageobject>
             <imagedata contentwidth="276"
-                       fileref="resources/workflow-step-basic.PNG"/>
+                       fileref="resources/en-workflow-steps.png"/>
           </imageobject>
         </mediaobject>
       </figure>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">결재</emphasis></para>
+          <para><emphasis role="bold">Approver</emphasis></para>
 
-          <para>동일한 회사에 소속된 멤버에게 문서의 결재를 요청하는 단계입니다.</para>
+          <para>Step to request an approval of e-document to a member of your
+          company.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">내부 수신자</emphasis></para>
+          <para><emphasis role="bold">Internal recipient</emphasis></para>
 
-          <para>멤버에게 문서의 처리를 요청하는 단계입니다.</para>
+          <para>Sending an e-document to a member of your company to review
+          and sign.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">외부 수신자</emphasis></para>
+          <para><emphasis role="bold">External recipient</emphasis></para>
 
-          <para>회사 소속 멤버가 아닌 외부 사용자에게 문서의 처리를 요청하는 단계입니다.</para>
+          <para>Sending an e-document to a user outside of your company to
+          review and sign.</para>
 
           <para/>
 
           <important>
-            <para><emphasis role="bold">결재와 내부 수신자의 차이!</emphasis></para>
+            <para><emphasis role="bold">What is difference between Approval
+            and Internal recipient step?</emphasis></para>
 
-            <para>결재자와 내부 수신자는 모두 요청받은 문서에 대한 승인 또는 반려할 수 있지만, 내부 수신자로 요청 받은
-            멤버의 경우 문서 검토 및 작성 후 다음 담당자를 지정할 수 있습니다.</para>
+            <para>Both the approver and internal recipients can approve or
+            reject the requested document, but internal recipients can
+            designate the next person to process the document.</para>
 
-            <para>즉, 내부 수신자 단계 이후의 외부 수신자, 내부 수신자 또는 결재자를 지정할 수 있습니다.</para>
+            <para>That is, internal recipients can designate external
+            recipient, internal recipient, or approver after the Internal
+            recipient step.</para>
 
-            <para>예를 들어, 타 부서의 결재라인을 지정하지 않은 상태에서 해당 문서에 대해 타 부서에 협조 요청을 할 경우
-            내부 수신자 단계로 해당 타 부서의 담당자를 지정하면 됩니다. 문서 처리시 타 부서의 담당자가 해당 부서의 결재라인을
-            따로 설정하여 문서를 처리할 수 있습니다.</para>
+            <para>For example, if you do not specify an approval line for
+            another department, and you want to request to another department
+            for that document, you can specify a contact for that other
+            department as an internal recipient step. When processing
+            documents, personnel from other department can set up separate
+            approval lines for that department to process documents.</para>
           </important>
         </listitem>
       </itemizedlist>
@@ -209,49 +238,53 @@
   </section>
 
   <section>
-    <title>템플릿 설정</title>
+    <title>Template settings</title>
 
-    <para>업로드한 파일로 생성될 템플릿에 대한 상세 사항을 설정할 수 있습니다.</para>
+    <para>You can set the details for the template created with the uploaded
+    file.</para>
 
     <note>
-      <para>이 작업은 대표 관리자 또는 템플릿 관리 권한이 필요합니다.</para>
+      <para>Only the Company administrator or Template manager can perform
+      this action.</para>
 
-      <para>이 작업은 PC, 모바일, 애플리케이션에서 진행할 수 있습니다.</para>
+      <para>This work can be done in the PC, mobile, and application.</para>
     </note>
 
     <section>
-      <title>일반 설정</title>
+      <title>General</title>
 
       <figure>
-        <title>템플릿 설정 &gt; 일반 설정</title>
+        <title>Template settings &gt; General</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/template-setting-general.png"
-                       width="700"/>
+            <imagedata fileref="resources/en-create-template.png" width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
 
       <variablelist>
         <varlistentry>
-          <term>템플릿 기본정보 설정</term>
+          <term>Configure basic settings for template</term>
 
           <listitem>
-            <para>템플릿 이름, 카테고리, 유효기간 등 템플릿에 대한 기본 정보를 설정합니다.</para>
+            <para>Set basic information about the template including the
+            template name, category, validity period, and etc.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>① 템플릿 이름</term>
+          <term>① Template name</term>
 
           <listitem>
-            <para><emphasis role="bold">템플릿 관리</emphasis>, <emphasis
-            role="bold">새 문서 작성</emphasis> 메뉴 화면에 나타날 템플릿의 이름입니다.</para>
+            <para>The template name will be displayed on the <emphasis
+            role="bold">Manage Templates </emphasis>and <emphasis
+            role="bold">New document</emphasis> menu pages.</para>
 
-            <para><emphasis role="bold">템플릿 이름</emphasis>은 공백 포함 11글자 정도를
-            권장합니다. 11글자 이상 입력할 경우 전체 템플릿 이름은 이름 위에 마우스를 위치시킨 뒤 잠시 기다리면 확인할 수
-            있습니다.</para>
+            <para><emphasis role="bold">Template Name</emphasis> should be 11
+            characters, including spaces. If the name is longer than 11
+            characters, you can see the full name by hovering the mouse over
+            the name.</para>
           </listitem>
         </varlistentry>
 
@@ -260,11 +293,12 @@
 
           <listitem>
             <figure>
-              <title>템플릿 이름</title>
+              <title>Template Name</title>
 
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="resources/template-name.png" width="250"/>
+                  <imagedata fileref="resources/en-template-name.png"
+                             width="250"/>
                 </imageobject>
               </mediaobject>
             </figure>
@@ -272,20 +306,22 @@
         </varlistentry>
 
         <varlistentry>
-          <term>② 템플릿 약칭</term>
+          <term>② Template abbreviation</term>
 
           <listitem>
-            <para>템플릿을 간단히 표시하는 짧은 이름입니다. 2~3글자 정도의 짧은 단어를 권장합니다.</para>
+            <para>A short name that briefly describing the template. It is
+            recommended to use two or three words.</para>
 
-            <para><emphasis role="bold">탬플릿 약칭</emphasis>은 문서번호, 문서 제목, 메일 템플릿
-            등에서 <emphasis role="bold">$$</emphasis>를 입력해 사용할 수 있습니다.</para>
+            <para><emphasis role="bold">Template abbreviation </emphasis>can
+            be used in the document number, document name, mail template, etc.
+            by entering <emphasis role="bold">$$</emphasis>.</para>
 
             <figure>
-              <title>템플릿 약칭</title>
+              <title>Template abbreviation</title>
 
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="resources/template-short-name.png"/>
+                  <imagedata fileref="resources/en-template-name-abb.png"/>
                 </imageobject>
               </mediaobject>
             </figure>
@@ -293,142 +329,163 @@
         </varlistentry>
 
         <varlistentry>
-          <term>③ 카테고리</term>
+          <term>③ Category</term>
 
           <listitem>
-            <para>템플릿을 종류별로 구분할 때 사용합니다. 카테고리 이름으로 <emphasis role="bold">템플릿
-            관리 </emphasis>화면의 템플릿이나 <emphasis role="bold">문서함</emphasis>,
-            <emphasis role="bold">문서 관리</emphasis> 메뉴의 문서들을 필터링할 수 있습니다. 기존의
-            카테고리에서 선택하거나 새로운 이름을 입력해 새로운 카테고리를 생성할 수 있습니다.</para>
+            <para>Category is used to sort templates by type. With the
+            category name,<emphasis role="bold"> </emphasis>templates in the
+            <emphasis role="bold">Manage templates </emphasis>and documents
+            in<emphasis role="bold"> Document box</emphasis> and <emphasis
+            role="bold">Manage documents </emphasis>can be filtered. You can
+            choose from an existing category or create a new category by
+            entering a new name.</para>
 
-            <para>구분자( <emphasis role="bold">/ </emphasis>)를 사용하면 다단계 카테고리를
-            설정할 수 있습니다. 예를 들어, 카테고리를 <emphasis
-            role="bold">인사팀/휴가관련</emphasis>으로 설정하면 1단계 카테고리인 <emphasis
-            role="bold">인사팀</emphasis> 안에 2단계 카테고리인 <emphasis
-            role="bold">휴가관련</emphasis> 카테고리가 생성됩니다.</para>
+            <para>You can set multi-level categories with separator (
+            <emphasis role="bold">/ </emphasis>). For example, if you set the
+            category <emphasis role="bold">HR Team/Vacation</emphasis>, the
+            Vacation category in the HR category are created. </para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>④ 설명</term>
+          <term>④ Description</term>
 
           <listitem>
-            <para>템플릿에 대한 추가적인 설명을 입력합니다. 이 설명 내용은 목록 및 새 문서 작성의 템플릿 이름 하단에
-            나타납니다.</para>
+            <para>Enter additional comments about the template. This
+            description is displayed in the list and at the bottom of the
+            template name in New document.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>⑤ 문서작성 유효기간</term>
+          <term>⑤ Template validity period</term>
 
           <listitem>
-            <para>템플릿으로 문서를 생성할 수 있는 기한을 설정합니다. 시작일은 템플릿을 업로드한 날로 기본 설정되며 날짜를
-            변경할 수 있습니다.</para>
+            <para>Sets the time period in which documents can be created from
+            this template. The start date is set to the uploaded date as a
+            default and you can change the date.</para>
 
-            <para><emphasis role="bold">기간 제한 없음</emphasis>을 체크하면 계속해서 문서를 작성할
-            수 있습니다. <emphasis role="bold">기간 제한 없음</emphasis> 체크를 해제한 후 날짜를
-            설정하면 설정된 날짜까지만 문서 생성이 가능합니다.</para>
+            <para>When <emphasis role="bold">No expiry date</emphasis> is
+            checked, the document can be created with out time limit.
+            <emphasis role="bold">No expiry date</emphasis> is unchecked and
+            set the date, the document can only be created until the set
+            date.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>문서 설정</term>
+          <term>Document settings</term>
 
           <listitem>
-            <para>템플릿으로 생성한 문서에 대한 제목 설정 규칙 등 추가 설정을 합니다.</para>
+            <para>Configure additional settings including document naming
+            rules for documents created from the template.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>⑥ 문서 제목 자동 설정 규칙</term>
+          <term>⑥ Document naming rule</term>
 
           <listitem>
-            <para>템플릿으로 문서를 작성할 때 입력된 문서의 제목을 설정합니다. 문서 제목 규칙을 설정하지 않을 경우 템플릿
-            이름이 문서 제목이 됩니다.</para>
+            <para>Sets the document name when creating the document from the
+            template. If a document naming rule is not set, the template name
+            will be the document name.</para>
 
-            <para>문서 제목에는 <emphasis role="bold">$$</emphasis>와 <emphasis
-            role="bold">{{</emphasis>를 사용하여 예약어를 추가할 수 있습니다.</para>
+            <para>You can add reserved words in the document name using
+            <emphasis role="bold">$$</emphasis> and <emphasis
+            role="bold">{{</emphasis>.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>⑦ 문서 제목 변경 허용</term>
+          <term>⑦ Allow document name change</term>
 
           <listitem>
-            <para><emphasis role="bold">문서 제목 변경 허용</emphasis>을 체크하면 <emphasis
-            role="bold">작성</emphasis> 단계의 문서 작성자가 문서 제목을 수정할 수 있습니다.</para>
+            <para>If <emphasis role="bold">Allow document name change
+            </emphasis>is checked,<emphasis role="bold"> </emphasis>the
+            document creator can change the document name.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>⑧ 문서 번호 자동 부여</term>
+          <term>⑧ Generate a document number</term>
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>템플릿</primary>
+                <primary>Template</primary>
 
-                <secondary>문서 번호 자동 부여</secondary>
-              </indexterm>문서 번호 자동 부여를 체크하면 생성된 문서에 대해 자동으로 문서번호가 부여됩니다. 문서번호
-            표현식 중 원하는 표현식을 선택하고, 언제 문서번호를 생성할 지 문서번호 채번 시점을 선택합니다.</para>
+                <secondary>Generate a document number</secondary>
+              </indexterm>If Generate a document number is checked, documents
+            are automatically numbered. Select the document number format that
+            you want and when to be numbered.</para>
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/template-setting-general-doc-numering.png"/>
+                <imagedata fileref="resources/en-generate-document-no.png"/>
               </imageobject>
             </mediaobject>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term>⑨ 문서 전송 시 팝업 생략</term>
+          <term>⑨ Skip pop-up window when sending documents</term>
 
           <listitem>
-            <para>문서를 빨리 작성하고 제출하는 일이 많을 때 사용합니다. 이 설정을 체크하지 않으면 문서 전송
-            시<emphasis role="bold"> 확인 메시지 입력</emphasis> 팝업창이 나타납니다. <emphasis
-            role="bold">문서 전송 시 팝업 생략</emphasis>을 체크하면 <emphasis
-            role="bold">메시지 입력</emphasis> 팝업창이 나타나지 않고 바로 다음 단계로 진행됩니다.</para>
+            <para>Use it when many documents are created and submitted. If
+            this option is unchecked,<emphasis role="bold"> </emphasis>a
+            pop-up window to enter message will appear.<emphasis role="bold">
+            </emphasis><emphasis role="bold">When Skip pop-up window when
+            sending documents </emphasis>is checked, the pop-up window does
+            not appear and go to the next step.</para>
           </listitem>
         </varlistentry>
       </variablelist>
     </section>
 
     <section>
-      <title>일반 설정 &gt; 문서 제목 규칙 만들기</title>
+      <title>General &gt; Setting document naming rule</title>
 
-      <para><emphasis role="bold">템플릿 설정</emphasis>에서 해당 템플릿으로 생성되는 문서의 제목 규칙을
-      설정할 수 있습니다.<indexterm class="singular">
-          <primary>템플릿</primary>
+      <para>In<emphasis role="bold"> Template settings, </emphasis>you can set
+      the document naming rule for which created by the template.<indexterm
+          class="singular">
+          <primary>Template</primary>
 
-          <secondary>문서 제목 규칙</secondary>
+          <secondary>Document naming rules</secondary>
         </indexterm></para>
 
-      <para>문서에 입력된 내용, 또는 문서 작성 관련 정보가 문서 제목에 자동으로 입력되도록 설정할 수 있습니다. 문서 제목
-      규칙을 설정하면 문서 작성 시점의 정보를 바탕으로 문서 제목이 생성되며 이 제목은 모든 문서함(진행중 문서함, 처리할 문서함,
-      전체 문서함)과 문서 관리 메뉴의 문서 목록에서 확인할 수 있습니다</para>
+      <para>You can make a piece of information entered into a document or
+      document-related information to be automatically entered into the
+      document name. If you set the document naming rule, then the document
+      name is automatically entered based on the information of the document.
+      As well, you can see this name in all document pages (In progress,
+      Action required and Completed) and the <emphasis role="bold">Manage
+      document</emphasis> page.</para>
 
       <note>
-        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는<emphasis
-        role="bold"> 템플릿 관리</emphasis> 권한이 필요합니다.</para>
+        <para>Only the <emphasis role="bold">Company administrator </emphasis>
+        or<emphasis role="bold"> Template manager</emphasis> can perform this
+        action.</para>
       </note>
 
       <figure>
-        <title>문서 관리 &gt; 문서 목록</title>
+        <title>Manage documents &gt; Documents list</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/document-list.png" width="700"/>
+            <imagedata fileref="resources/en-manage-documents-document-list.png"
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">문서 제목 규칙 설정하는 방법</emphasis></para>
+      <para><emphasis role="bold">How to set the document naming
+      rule</emphasis></para>
 
       <figure>
-        <title>템플릿 설정 &gt; 문서 제목 규칙 설정</title>
+        <title>Template settings &gt; Setting the document naming rule</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/template-setting-general-doc-numering_rule.png"
+            <imagedata fileref="resources/en-document-naming-rule.png"
                        width="600"/>
           </imageobject>
         </mediaobject>
@@ -436,45 +493,48 @@
 
       <orderedlist>
         <listitem>
-          <para>사이드바 메뉴에서<emphasis role="bold"> 템플릿 관리</emphasis>로
-          이동합니다.</para>
+          <para>In the sidebar menu, click<emphasis role="bold"> Manage
+          templates </emphasis>menu.</para>
         </listitem>
 
         <listitem>
-          <para>템플릿의 <emphasis role="bold">설정</emphasis>
-          아이콘(<inlinemediaobject>
+          <para>Click on the settings<emphasis role="bold"> </emphasis>icon
+          (<inlinemediaobject>
               <imageobject>
                 <imagedata contentwidth="33"
                            fileref="resources/config-icon.PNG"/>
               </imageobject>
-            </inlinemediaobject>)을 클릭하여 <emphasis role="bold">템플릿
-          설정</emphasis> 화면으로 이동합니다.</para>
+            </inlinemediaobject>) of the desired template<emphasis
+          role="bold"> </emphasis>to go to the <emphasis role="bold">Template
+          settings</emphasis> page.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">일반 설정 </emphasis>화면의 <emphasis
-          role="bold">문서 제목 자동 설정 규칙</emphasis> 입력란에 원하는 제목 규칙을 입력합니다.</para>
+          <para><emphasis role="bold"> </emphasis>Enter the desired naming
+          rule in the <emphasis role="bold">Document naming rule</emphasis>
+          field in the<emphasis role="bold"> General</emphasis> tab.</para>
         </listitem>
 
         <listitem>
-          <para>오른쪽 상단에<emphasis role="bold"> 저장 </emphasis>버튼을 클릭하여 변경 사항을
-          저장합니다.</para>
+          <para>Click the<emphasis role="bold"> Save </emphasis>button on the
+          top right corner to save the changes.</para>
         </listitem>
       </orderedlist>
 
-      <para><emphasis role="bold">예약어 사용하는 방법<indexterm class="singular">
-          <primary>템플릿</primary>
+      <para><emphasis role="bold">How to use reserved words<indexterm
+          class="singular">
+          <primary>Template</primary>
 
-          <secondary>예약어</secondary>
+          <secondary>Reserved word</secondary>
         </indexterm></emphasis></para>
 
       <figure>
-        <title>예약어 사용해서 문서 제목 규칙 설정</title>
+        <title>Setting document naming rules using reserved words</title>
 
         <mediaobject>
           <imageobject>
             <imagedata contentwidth="500"
-                       fileref="resources/template-setting-general-doc-numering_rule_reserved.png"/>
+                       fileref="resources/en-document-naming-rule-reserved.png"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -484,11 +544,14 @@
           <term><emphasis role="bold">{{</emphasis></term>
 
           <listitem>
-            <para>문서에 입력된 내용을 문서 제목에 추가하고자 할 때</para>
+            <para>This symbol adds a piece of information in the document into
+            the document name.</para>
 
-            <para><emphasis role="bold">문서 제목 규칙 </emphasis>입력란에 <emphasis
-            role="bold">{{</emphasis>를 입력하면 템플릿의 컴포넌트 ID 리스트가 나타나며, 원하는 ID를
-            선택하면 해당 컴포넌트에 입력된 내용이 문서 제목에 추가됩니다.</para>
+            <para><emphasis role="bold"> </emphasis>Enter <emphasis
+            role="bold">{{ </emphasis>in the Document naming rule field to
+            display the list of Component IDs and then select the desired
+            component ID. The information in that particular component will be
+            added to the document name.</para>
           </listitem>
         </varlistentry>
 
@@ -496,11 +559,12 @@
           <term><emphasis role="bold">$$</emphasis></term>
 
           <listitem>
-            <para>문서와 관련된 정보를 제목에 추가하고자 할 때</para>
+            <para>This symbol adds document-related information into the
+            document name.</para>
 
-            <para><emphasis role="bold">문서 제목 규칙</emphasis> 입력란에 <emphasis
-            role="bold">$$</emphasis>를 입력하면 드롭다운 메뉴가 나타나며 아래 정보 중 원하는 정보를 선택할
-            수 있습니다.</para>
+            <para><emphasis role="bold"/> Enter <emphasis role="bold">$$
+            </emphasis>in the Document naming rule field to display the
+            drop-down menu and then select the desired information.</para>
 
             <informaltable>
               <tgroup cols="2">
@@ -510,96 +574,109 @@
 
                 <thead>
                   <row>
-                    <entry align="center">정보 종류</entry>
+                    <entry align="center">Information types</entry>
 
-                    <entry align="center">설명</entry>
+                    <entry align="center">Description</entry>
                   </row>
                 </thead>
 
                 <tbody>
                   <row>
-                    <entry>현재_날짜</entry>
+                    <entry>Current_date</entry>
 
-                    <entry>문서 작성 시점의 날짜 (예. 2020년 02월 20일)</entry>
+                    <entry>The date in which the document is created (e.g. Feb
+                    20, 2020)</entry>
                   </row>
 
                   <row>
-                    <entry>현재_시간</entry>
+                    <entry>Current_time</entry>
 
-                    <entry>문서 작성 시점의 시간 (예. 오후 02:59)</entry>
+                    <entry>The time in which the document is created (e.g.
+                    02:59 pm)</entry>
                   </row>
 
                   <row>
-                    <entry>현재_날짜시간</entry>
+                    <entry>Current_datetime</entry>
 
-                    <entry>문서 작성 시점의 날짜와 시간 (예. 2020년 02월 20일 오후
-                    02:59)</entry>
+                    <entry>The date and time in which the document is created
+                    (e.g. Feb 20, 2020, 02:59 pm)</entry>
                   </row>
 
                   <row>
-                    <entry>최초_작성자_ID</entry>
+                    <entry>Creator_ID</entry>
 
-                    <entry>문서를 작성한 멤버의 ID</entry>
+                    <entry>The ID of the member who created the
+                    document</entry>
                   </row>
 
                   <row>
-                    <entry>최초_작성자_이름</entry>
+                    <entry>Creator_name</entry>
 
-                    <entry>문서를 작성한 멤버의 이름</entry>
+                    <entry>The name of the member who created the
+                    document</entry>
                   </row>
 
                   <row>
-                    <entry>최초_작성자_부서</entry>
+                    <entry>Creator_dept</entry>
 
-                    <entry>문서를 작성한 멤버의 부서</entry>
+                    <entry>The department of the member who created the
+                    document</entry>
                   </row>
 
                   <row>
-                    <entry>최초_작성자_회사명</entry>
+                    <entry>Creator_company Name</entry>
 
-                    <entry>문서를 작성한 멤버의 회사명</entry>
+                    <entry>The name of the company in which the member who
+                    created the document belongs to.</entry>
                   </row>
 
                   <row>
-                    <entry>템플릿명</entry>
+                    <entry>Template_name</entry>
 
-                    <entry>템플릿 설정 &gt; 일반설정에 입력된 템플릿명</entry>
+                    <entry>The template name entered in Template settings &gt;
+                    General</entry>
                   </row>
 
                   <row>
-                    <entry>템플릿_약칭</entry>
+                    <entry>Template_abbreviation</entry>
 
-                    <entry>템플릿 설정 &gt; 일반설정에 입력된 템플릿 약칭</entry>
+                    <entry>The template abbreviation entered in Template
+                    settings &gt; General</entry>
                   </row>
 
                   <row>
-                    <entry>회사명</entry>
+                    <entry>Company</entry>
 
-                    <entry>회사 관리 &gt; 회사 정보에 입력된 회사명</entry>
+                    <entry>The company name entered in Manage company &gt;
+                    Company profile</entry>
                   </row>
 
                   <row>
-                    <entry>회사_주소</entry>
+                    <entry>Company_address</entry>
 
-                    <entry>회사 관리 &gt; 회사 정보에 입력된 주소</entry>
+                    <entry>The address entered in Manage company &gt; Company
+                    profile</entry>
                   </row>
 
                   <row>
-                    <entry>회사_연락처</entry>
+                    <entry>Company_contact_no</entry>
 
-                    <entry>회사 관리 &gt; 회사 정보에 입력된 연락처</entry>
+                    <entry>The contact information entered in Manage company
+                    &gt; Company profile</entry>
                   </row>
 
                   <row>
-                    <entry>회사_사업자_등록_번호</entry>
+                    <entry>Company_registration_no</entry>
 
-                    <entry>회사 관리 &gt; 회사 정보에 입력된 사업자 등록번호</entry>
+                    <entry>The business registration number entered in Manage
+                    company &gt; Company profile</entry>
                   </row>
 
                   <row>
-                    <entry>회사_홈페이지</entry>
+                    <entry>Company_homepage</entry>
 
-                    <entry>회사 관리 &gt; 회사 정보에 입력된 홈페이지 URL</entry>
+                    <entry>Homepage URL entered in Manage company &gt; Company
+                    profile</entry>
                   </row>
                 </tbody>
               </tgroup>
@@ -609,49 +686,58 @@
       </variablelist>
 
       <tip>
-        <para><emphasis role="bold">문서 제목 변경 허용</emphasis> 여부를 확인하세요!</para>
+        <para><emphasis role="bold">Check the status of Allow document name
+        change field.</emphasis></para>
 
-        <para>문서 제목 규칙을 설정해 놓더라도 <emphasis role="bold">문서 제목 변경 허용</emphasis>이
-        체크되어 있으면 문서 작성자가 임의로 문서 제목을 변경할 수 있습니다. 문서 제목이 변경되는 것을 원하지 않는 경우
-        <emphasis role="bold">문서 제목 변경 허용</emphasis>을 체크 해지하시기 바랍니다.</para>
+        <para>Even if the document naming rule is set, if the <emphasis
+        role="bold">Allow document name change </emphasis>option is checked,
+        the document creator can arbitrarily change the document name. If you
+        do not want the document name to be changed, then make sure to untick
+        the <emphasis role="bold">Allow document name change</emphasis>
+        option.</para>
       </tip>
 
       <figure>
-        <title>문서 제목 변경 허용 여부 확인</title>
+        <title>Tick the Allow document name change</title>
 
         <mediaobject>
           <imageobject>
             <imagedata contentwidth="427"
-                       fileref="resources/template-setting-general-doc-numering_rule_allow_change.png"/>
+                       fileref="resources/en-allow-document-name-change.png"/>
           </imageobject>
         </mediaobject>
       </figure>
     </section>
 
     <section xml:id="docnumber_wd">
-      <title>일반 설정 &gt; 문서번호 생성 및 확인하기</title>
+      <title>General &gt; Generating and viewing a document number</title>
 
-      <para>이폼사인에서 생성되는 문서에 연속되는 문서번호를 부여할 수 있습니다. 템플릿 별로 문서 번호 자동 생성 여부를 설정할
-      수 있으며 번호 형식 4가지 중 한 가지를 선택해야 합니다. 문서 번호는 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다.
-      또한 문서 목록에서 별도의 컬럼으로 확인할 수 있으며 문서 번호로 문서를 검색할 수 있습니다.</para>
+      <para>You can set a document number for documents created in eformsign.
+      You can set to generate document number automatically for each template,
+      and can select one of four document number formats. The document number
+      can be entered within the document using the document component. You can
+      also see a separate column in the document list and search documents by
+      the document number.</para>
 
-      <para><emphasis role="bold">문서번호 생성하는 방법<indexterm class="singular">
-          <primary>템플릿</primary>
+      <para><emphasis role="bold">Generating a document number<indexterm
+          class="singular">
+          <primary>Template</primary>
 
-          <secondary>문서 번호 자동 부여</secondary>
+          <secondary>Generate a document number</secondary>
         </indexterm></emphasis></para>
 
       <note>
-        <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는 <emphasis
-        role="bold">템플릿 관리</emphasis> 권한이 필요합니다.</para>
+        <para>Only the <emphasis role="bold">Company administrator </emphasis>
+        or <emphasis role="bold">Template manager</emphasis> can perform this
+        action.</para>
       </note>
 
       <figure>
-        <title>문서번호 설정하기</title>
+        <title>Setting document number</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/template-setting-general-doc-numering1.png"
+            <imagedata fileref="resources/en-generate-document-number.png"
                        width="600"/>
           </imageobject>
         </mediaobject>
@@ -659,246 +745,273 @@
 
       <orderedlist>
         <listitem>
-          <para>사이드바 메뉴에서 <emphasis role="bold">템플릿 관리</emphasis>로
-          이동합니다.</para>
+          <para>In the sidebar menu, click <emphasis role="bold">Manage
+          templates </emphasis>menu.</para>
         </listitem>
 
         <listitem>
-          <para>템플릿의 <emphasis role="bold">설정
-          </emphasis>아이콘(<inlinemediaobject>
+          <para>Click on the<emphasis role="bold">
+          </emphasis>settings<emphasis role="bold"> </emphasis>icon
+          (<inlinemediaobject>
               <imageobject>
                 <imagedata contentwidth="33"
                            fileref="resources/config-icon.PNG"/>
               </imageobject>
-            </inlinemediaobject>)을 클릭하여 <emphasis role="bold">템플릿
-          설정</emphasis> 화면으로 이동합니다.</para>
+            </inlinemediaobject>) of the desired template to go to
+          the<emphasis role="bold"> Template settings</emphasis> page.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">일반 설정</emphasis> 화면의 <emphasis
-          role="bold">문서 번호 자동 부여</emphasis>를 체크합니다.</para>
+          <para>Tick the <emphasis role="bold">Generate a document
+          number</emphasis> checkbox in the<emphasis role="bold"> General
+          </emphasis>page.</para>
 
           <para><itemizedlist>
               <listitem>
-                <para><emphasis role="bold">문서번호 규칙 선택하기</emphasis></para>
+                <para><emphasis role="bold">Selecting a document numbering
+                rule</emphasis></para>
               </listitem>
             </itemizedlist><figure>
-              <title>문서번호 규칙 선택</title>
+              <title>Select a document numbering rule</title>
 
               <mediaobject>
                 <imageobject>
                   <imagedata contentwidth="400"
-                             fileref="resources/template-setting-general-doc-numering1_1.png"/>
+                             fileref="resources/en-generate-document-number-select.png"/>
                 </imageobject>
               </mediaobject>
             </figure><variablelist>
               <varlistentry>
-                <term><emphasis role="bold">▪ 일련번호</emphasis></term>
+                <term><emphasis role="bold">▪ Serial number</emphasis></term>
 
                 <listitem>
-                  <para>문서 생성 순서대로 1번부터 생성</para>
+                  <para>Generated in the format of document creation
+                  order</para>
 
-                  <para>예) 1, 2, 3...</para>
+                  <para>E.g. 1, 2, 3...</para>
                 </listitem>
               </varlistentry>
 
               <varlistentry>
-                <term><emphasis role="bold">▪ 년도 일련번호</emphasis></term>
+                <term><emphasis role="bold">▪ Year_serial
+                number</emphasis></term>
 
                 <listitem>
-                  <para>문서가 생성된 년도 + 번호 1번부터 생성</para>
+                  <para>Generated in the format of document creation year +
+                  document creation order</para>
 
-                  <para>예) 2020_1, 2020_2...</para>
+                  <para>E.g. 2020_1, 2020_2...</para>
                 </listitem>
               </varlistentry>
             </variablelist><variablelist>
               <varlistentry>
-                <term><emphasis role="bold">▪ 템플릿약칭 일련번호</emphasis></term>
+                <term><emphasis role="bold">▪ Template_serial
+                number</emphasis></term>
 
                 <listitem>
-                  <para>템플릿 약칭 + 번호 1번부터 생성</para>
+                  <para>Generated in the format of template abbreviation +
+                  document creation order</para>
 
-                  <para>예) 신청서 1, 신청서 2...</para>
+                  <para>E.g. Application 1, Application 2...</para>
                 </listitem>
               </varlistentry>
 
               <varlistentry>
-                <term><emphasis role="bold">▪ 템플릿약칭 년도 일련번호</emphasis></term>
+                <term><emphasis role="bold">▪ Template_year_serial
+                number</emphasis></term>
 
                 <listitem>
-                  <para>템플릿 약칭 + 문서가 생성된 년도 + 번호 1번부터 생성</para>
+                  <para>Generated in the format of template abbreviation +
+                  document creation year + document creation order</para>
 
-                  <para>예) 신청서 2020_1, 신청서 2020_2...</para>
+                  <para>E.g. Application 2020_1, Application 2020_2...</para>
                 </listitem>
               </varlistentry>
             </variablelist><itemizedlist>
               <listitem>
-                <para><emphasis role="bold">문서 번호 부여 시점 선택하기</emphasis></para>
+                <para><emphasis role="bold">Choosing when to number a
+                document</emphasis></para>
               </listitem>
             </itemizedlist><variablelist>
               <varlistentry>
-                <term>▪ <emphasis role="bold">시작</emphasis></term>
+                <term>▪ <emphasis role="bold">Start</emphasis></term>
 
                 <listitem>
-                  <para>문서를 작성하기 시작할 때 문서번호를 생성합니다.</para>
+                  <para>A number is generated when a document is start being
+                  created.</para>
                 </listitem>
               </varlistentry>
 
               <varlistentry>
-                <term>▪ <emphasis role="bold">완료</emphasis></term>
+                <term>▪ <emphasis role="bold">Complete</emphasis></term>
 
                 <listitem>
-                  <para>문서가 모든 워크플로우를 거쳐 완료가 될 때 문서번호를 생성합니다.</para>
+                  <para>A number is generated when a document has been
+                  completed after going through all the steps in the
+                  workflow.</para>
                 </listitem>
               </varlistentry>
             </variablelist></para>
         </listitem>
 
         <listitem>
-          <para>오른쪽 상단의 <emphasis role="bold">저장</emphasis> 버튼을 클릭해 설정을
-          저장합니다.</para>
+          <para>Click the <emphasis role="bold">Save</emphasis> button at the
+          top right corner of the page to apply your changes.</para>
         </listitem>
       </orderedlist>
 
-      <para><emphasis role="bold">문서번호 확인하는 방법</emphasis></para>
+      <para><emphasis role="bold">Viewing a document number</emphasis></para>
 
-      <para>생성된 문서번호는 문서 컴포넌트를 사용하여 문서 내에 입력하거나 문서 목록에서 확인할 수 있습니다.</para>
+      <para>A document number can be viewed on a document itself by using the
+      document component and can also be viewed in the document list.</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">문서 내에 문서번호 표시하기</emphasis></para>
+          <para><emphasis role="bold">Viewing a document number on the
+          document itself</emphasis></para>
 
-          <para>문서번호는 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다.</para>
+          <para>You can generate a document number on the document itself by
+          using the document component.</para>
 
           <orderedlist>
             <listitem>
-              <para>웹폼 디자이너에 PDF 파일을 업로드 합니다.</para>
+              <para>Upload a PDF file to the Web form designer.</para>
             </listitem>
 
             <listitem>
-              <para>문서번호가 들어갈 위치에 문서 컴포넌트를 추가합니다.</para>
+              <para>Add the document component in the desired location where
+              the document number will be placed.</para>
 
               <mediaobject>
                 <imageobject>
-                  <imagedata fileref="resources/web-form-designer-document-component.png"
+                  <imagedata fileref="resources/en-document-number-component.png"
                              width="750"/>
                 </imageobject>
               </mediaobject>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">다음 </emphasis>버튼을 눌러<emphasis
-              role="bold"> 템플릿 설정</emphasis>으로 이동합니다.</para>
+              <para>Click the<emphasis role="bold"> Next </emphasis>button to
+              go to the<emphasis role="bold"> Template
+              settings.</emphasis></para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서
-              <emphasis role="bold">문서 번호 자동 부여</emphasis>를 체크합니다.</para>
+              <para>In <emphasis role="bold">Template settings &gt;
+              General,</emphasis><emphasis role="bold"> </emphasis>tick the
+              <emphasis role="bold">Generate a document number</emphasis>
+              checkbox.</para>
             </listitem>
 
             <listitem>
-              <para>문서 번호 규칙을 선택합니다.</para>
+              <para>Select a document number rule.</para>
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">저장</emphasis> 버튼을 눌러 설정을
-              저장합니다.</para>
+              <para>Click the <emphasis role="bold">Save</emphasis> button to
+              save the settings.</para>
             </listitem>
           </orderedlist>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 목록에서 문서번호 확인하기</emphasis></para>
+          <para><emphasis role="bold">Viewing a document number in the
+          Completed and Manage document</emphasis></para>
 
           <figure>
-            <title>전체 문서함 - 문서 목록</title>
+            <title>Completed - Document list</title>
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/doc-list-docnumber1.PNG"
+                <imagedata fileref="resources/en-completed-document-box-docno.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
           </figure>
 
           <figure>
-            <title>전체 문서함 - 문서 목록 - 문서번호 확인</title>
+            <title>Completed - Document list - Document number</title>
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/doc-list-docnumber2.png"
+                <imagedata fileref="resources/en-completed-document-list-docno-column.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
           </figure>
 
-          <para>문서번호는 문서 목록을 볼 수 있는 문서함(진행 중 문서함, 처리할 문서함, 전체 문서함) 및 문서 관리
-          메뉴(문서 관리 권한 필요)에서 확인할 수 있습니다.</para>
+          <para>A document number can be viewed in the All documents menu (In
+          progress, Action required, and Completed) and the Manage documents
+          menu (requires document management permission).</para>
 
           <orderedlist>
             <listitem>
-              <para>사이드바 메뉴에서 <emphasis role="bold">문서함</emphasis> 또는
-              <emphasis role="bold">문서 관리</emphasis> 메뉴로 이동합니다.</para>
+              <para>In the sidebar menu, click and go to the <emphasis
+              role="bold">Completed </emphasis>or <emphasis role="bold">Manage
+              documents</emphasis> menu.</para>
             </listitem>
 
             <listitem>
-              <para>오른쪽 상단의 <emphasis role="bold">컬럼 설정</emphasis> 아이콘을
-              클릭합니다.</para>
+              <para>Click the <emphasis role="bold">column settings</emphasis>
+              icon at the top right corner of the page.</para>
             </listitem>
 
             <listitem>
-              <para>컬럼 리스트의 <emphasis role="bold">문서번호</emphasis>를
-              체크합니다.</para>
+              <para>Check <emphasis role="bold">Document number </emphasis>in
+              the column list.</para>
 
               <para><inlinemediaobject>
                   <imageobject>
                     <imagedata contentwidth="147"
-                               fileref="resources/columnlist-docnum.png"/>
+                               fileref="resources/en-document-number-list.png"/>
                   </imageobject>
                 </inlinemediaobject></para>
             </listitem>
 
             <listitem>
-              <para>문서 목록에 <emphasis role="bold">문서번호</emphasis> 컬럼이 추가된 것을
-              확인합니다.</para>
+              <para>Check that <emphasis role="bold">the document
+              number</emphasis> column is added.</para>
             </listitem>
           </orderedlist>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서번호로 문서 검색하기</emphasis></para>
+          <para><emphasis role="bold">Searching for a document using a
+          document number</emphasis></para>
 
           <para><inlinemediaobject>
               <imageobject>
-                <imagedata fileref="resources/doc-number-search.png"
-                           width="600"/>
+                <imagedata fileref="resources/en-manage-template-search-advanced.png"
+                           width="700"/>
               </imageobject>
             </inlinemediaobject></para>
 
-          <para>문서번호 검색은 상세 검색 기능을 통해 확인할 수 있습니다.</para>
+          <para>You can search a document by its document number via advanced
+          search.</para>
 
           <orderedlist>
             <listitem>
-              <para><emphasis role="bold">문서함</emphasis> 또는 <emphasis
-              role="bold">문서 관리</emphasis> 메뉴로 이동합니다.</para>
+              <para>Go to the <emphasis role="bold">Completed</emphasis> or
+              <emphasis role="bold">Manage documents</emphasis> menu.</para>
             </listitem>
 
             <listitem>
-              <para>문서 목록 상단의 <emphasis role="bold">상세</emphasis> 버튼을
-              클릭합니다.</para>
+              <para>Click<emphasis role="bold"> </emphasis>the <emphasis
+              role="bold">Advanced</emphasis> button at the top right corner
+              of the page.</para>
             </listitem>
 
             <listitem>
-              <para>검색 기준 중 <emphasis role="bold">문서번호</emphasis>를
-              선택합니다.</para>
+              <para>Select <emphasis role="bold">Document number</emphasis>
+              among the search condition.</para>
             </listitem>
 
             <listitem>
-              <para>검색할 단어나 숫자를 입력합니다.</para>
+              <para>Type in the word or number to be searched.</para>
             </listitem>
 
             <listitem>
-              <para>검색 결과를 확인합니다.</para>
+              <para>View the search results.</para>
             </listitem>
           </orderedlist>
         </listitem>
@@ -906,149 +1019,166 @@
     </section>
 
     <section>
-      <title>권한 설정</title>
+      <title>Set permissions</title>
 
-      <para>권한 설정 화면에서는 템플릿 사용 권한과 문서 관리 권한을 설정할 수 있습니다.</para>
+      <para>You can set the permissions for the template usage and document
+      management.</para>
 
       <figure>
-        <title>템플릿 설정 &gt; 권한 설정</title>
+        <title>Template Settings &gt; Set permissions</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/template-setting-auth-new.PNG"
+            <imagedata fileref="resources/en-template-settings-permissions.png"
                        width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">템플릿 사용 권한</emphasis></para>
+      <para><emphasis role="bold">Template usage</emphasis></para>
 
       <para><indexterm class="singular">
-          <primary>템플릿 사용 권한</primary>
-        </indexterm>템플릿을 사용해서 문서를 생성할 수 있는 권한을 설정하며, 회사에 속한 모든 멤버가 사용할 수 있도록
-      <emphasis role="bold">전체</emphasis> 설정을 하거나 <emphasis role="bold">그룹 또는
-      멤버</emphasis>를 검색하여 선택할 수 있습니다.</para>
+          <primary>Template usage</primary>
+        </indexterm>This permission is to create documents using the template,
+      and you can select <emphasis role="bold">Allow all</emphasis> or
+      <emphasis role="bold">Group or member </emphasis>to allow all the
+      members or some members in the company to create documents using the
+      template.</para>
 
-      <para><emphasis role="bold">문서 관리 권한</emphasis></para>
+      <para><emphasis role="bold">Document management</emphasis></para>
 
       <para><indexterm class="singular">
-          <primary>문서 관리 권한</primary>
-        </indexterm>그룹 또는 멤버를 선택하여 템플릿을 사용해서 생성된 문서를 열람하거나 완료 문서에 대한 취소 요청을
-      승인하거나 문서를 영구적으로 제거할 수 있는 권한을 모두 또는 각각 설정할 수 있습니다.</para>
+          <primary>Document management</primary>
+        </indexterm>You can select groups or members to open documents created
+      using the template, void completed documents, or remove documents
+      permanently and these permissions can be set all or individually.</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">모든 문서 열람(기본권한):</emphasis> 문서 관리자의 기본
-          권한으로 선택에 관계없이 문서 관리 권한이 부여된 그룹 또는 멤버는 모든 문서를 열람할 수 있는 권한</para>
+          <para><emphasis role="bold">Open all documents
+          </emphasis>(default):<emphasis role="bold"> </emphasis>It is a
+          default permission granted to a document manager regardless of
+          selection, and it gives a permission to open all documents to the
+          authorized groups or members.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">완료 문서 취소 승인(선택시):</emphasis> 완료된 문서에 대해
-          문서 작성자가 취소를 요청할 경우 문서 관리 권한</para>
+          <para><emphasis role="bold">Void completed documents
+          </emphasis>(when selecting):<emphasis role="bold">
+          </emphasis>Document management permission to approve voiding
+          completed documents upon request of the document creator.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 영구 제거(선택시):</emphasis> 시스템에서 문서를
-          영구적으로 제거할 수 있는 권한</para>
+          <para><emphasis role="bold">Remove documents</emphasis> (when
+          selecting): Permission to permanently remove the document from the
+          system</para>
         </listitem>
       </itemizedlist>
-
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/template-setting-auth-doc-new.PNG"
-                     width="700"/>
-        </imageobject>
-      </mediaobject>
     </section>
 
     <section>
-      <title>워크플로우 설정</title>
+      <title>Workflow settings</title>
 
-      <para><emphasis role="bold">템플릿 설정</emphasis> 화면에서 <emphasis
-      role="bold">워크플로우 설정</emphasis> 탭을 클릭해 해당 템플릿의 워크플로우를 생성 또는 수정할 수
-      있습니다.<indexterm class="singular">
-          <primary>워크플로우</primary>
+      <para><emphasis role="bold"/> <emphasis role="bold"/> You can create or
+      modify workflow of the template by clicking <emphasis
+      role="bold">Workflow </emphasis>tab in the <emphasis
+      role="bold">Template setting</emphasis>s page.<indexterm
+          class="singular">
+          <primary>Workflow</primary>
         </indexterm></para>
 
       <para/>
 
       <figure>
-        <title>템플릿 설정 &gt; 워크플로우 설정</title>
+        <title>Template Settings &gt; Workflow</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/workflow-setting_new.PNG"
-                       width="700"/>
+            <imagedata fileref="resources/en-template-settings-workflow.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">워크플로우 단계 추가하는 방법</emphasis></para>
+      <para><emphasis role="bold">Adding steps to the
+      workflow</emphasis></para>
 
       <orderedlist>
         <listitem>
-          <para><emphasis role="bold">워크플로우 설정</emphasis> 탭을 클릭해 이동합니다.</para>
+          <para>Go to the <emphasis role="bold">Workflow </emphasis>setting
+          page by clicking the<emphasis role="bold"> Workflow </emphasis>tab
+          .</para>
         </listitem>
 
         <listitem>
-          <para>시작과 완료 사이의 단계 추가(<inlinemediaobject>
+          <para>Click the add button (<inlinemediaobject>
               <imageobject>
                 <imagedata contentwidth="30"
                            fileref="resources/workflow-addstep-plus-button.png"/>
               </imageobject>
-            </inlinemediaobject>) 버튼을 클릭합니다.</para>
+            </inlinemediaobject>) which is in between the <emphasis
+          role="bold">Start </emphasis>and <emphasis
+          role="bold">Complete</emphasis> step.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">수신자 타입 선택</emphasis>에서<emphasis
-          role="bold"> </emphasis>추가하고자 하는 <emphasis role="bold">수신자
-          타입</emphasis>을 선택합니다.</para>
+          <para>Select the type of recipient<emphasis role="bold">
+          </emphasis>which<emphasis role="bold"> </emphasis>you want to add.
+          <emphasis role="bold"/></para>
 
           <para><mediaobject>
               <imageobject>
-                <imagedata fileref="resources/workflow-addstep-type2.png"
+                <imagedata fileref="resources/en-template-settings-workflow-add-step.png"
                            width="700"/>
               </imageobject>
             </mediaobject></para>
         </listitem>
 
         <listitem>
-          <para>선택 시 워크플로우에 단계가 추가됩니다</para>
+          <para>When selected, a step is added to the workflow.</para>
         </listitem>
       </orderedlist>
 
       <tip>
-        <para>워크플로우 단계는 개수 제한없이 추가할 수 있습니다. 워크플로우 단계 옆에 위치한 화살표를 클릭하여 단계의 순서를
-        조정할 수 있습니다.</para>
+        <para>You can add as many steps as you want to add. You can adjust
+        order of steps by clicking the arrow next to a workflow step.</para>
 
-        <para>단계를 삭제하려면 단계 버튼 오른쪽에 위치한<emphasis role="bold"> X</emphasis>를
-        클릭하면 삭제됩니다.</para>
+        <para>To delete a step, click<emphasis role="bold"> X</emphasis> on
+        the right side of the step button.</para>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/workflow-step-added.png" width="700"/>
+            <imagedata fileref="resources/en-template-settings-workflow-order.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </tip>
 
-      <para><emphasis role="bold">워크플로우 단계별 상세 설정</emphasis></para>
+      <para><emphasis role="bold">Configuring details for each workflow
+      step</emphasis></para>
 
-      <para>단계를 클릭하여 각 워크플로우 단계별로 속성, 항목 제어, 알림 등 상세 내용을 설정할 수 있습니다.</para>
+      <para>You can click a step to set details such as properties and manage
+      items for each workflow step.</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">속성</emphasis>은 단계 이름, 상태 설정 외에도 단계별로 설정이
-          필요한 항목을 세부적으로 설정할 수 있습니다.</para>
+          <para><emphasis role="bold">Properties </emphasis>are to configure
+          details of each step which are required including the step
+          name.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">항목 제어</emphasis>는 워크플로우 각 단계별로 수신자가 편집할
-          수 있도록 허용하는 <emphasis role="bold">편집 허용</emphasis> 필드와 필수로 입력해야 하는
-          <emphasis role="bold">입력 필수</emphasis> 필드를 설정할 수 있습니다.</para>
+          <para>In the <emphasis role="bold">Manage items
+          </emphasis>tap<emphasis role="bold">, </emphasis>you can set fields
+          to <emphasis role="bold">Allow access </emphasis>which allows
+          recipient of the step to edit the fields, and<emphasis role="bold">
+          Required field</emphasis> to make recipient to fill in the
+          fields.</para>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/workflow-step-item-manage.png"
+              <imagedata fileref="resources/en-template-settings-workflow-item.png"
                          width="700"/>
             </imageobject>
           </mediaobject>
@@ -1057,41 +1187,47 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">시작: 문서를 작성하는 단계입니다.<indexterm
-              class="singular">
-              <primary>워크플로우</primary>
+          <term><emphasis role="bold">Start: Step to create a
+          document.<indexterm class="singular">
+              <primary>Workflow</primary>
 
-              <secondary>시작</secondary>
+              <secondary>Start</secondary>
             </indexterm></emphasis></term>
 
           <listitem>
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/workflow-step-start-property.png"
+                <imagedata fileref="resources/en-template-settings-workflow-start.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
 
             <itemizedlist>
               <listitem>
-                <para><emphasis role="bold">단계 이름</emphasis>(공통): 기본 이름으로 설정된
-                단계의 이름을 변경할 수 있습니다..</para>
+                <para><emphasis role="bold">Step name</emphasis>(common): You
+                can change the name of the step which is set to the default
+                name.</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">문서 생성 수 제한</emphasis>: 체크하여 해당
-                템플릿으로 생성되는 최대 문서 개수를 설정할 수 습니다.</para>
+                <para><emphasis role="bold">Limit the number of
+                documents</emphasis> : You can set the maximum number of
+                documents that can be created from the template.</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">URL로 문서 생성 허용</emphasis>: 멤버가 아닌
-                외부 사용자에게 요청시 이폼사인에 로그인하지 않고 URL을 통해 바로 접속하여 문서를 처리할 수 있는 공개
-                링크를 생성합니다.</para>
+                <para><emphasis role="bold">Create documents from
+                URL</emphasis> : When requesting to an external user who are
+                not a member, create a public link for external recipients
+                that they can access directly via the URL and view the
+                document without signing in to the eformsign service.</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">문서 중복 전송 방지</emphasis>: 문서를 중복으로
-                전송는 것을 방지하며, 필드를 선택해 해당 필드를 기준으로 중복 여부를 확인합니다.</para>
+                <para><emphasis role="bold">Do not allow duplicate
+                documents</emphasis>: Prevents sending duplicate documents,
+                and selects a field that determines whether a document is
+                duplicated or not.</para>
               </listitem>
             </itemizedlist>
           </listitem>
@@ -1100,29 +1236,31 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">결재자: 회사 내부 결재자에게 문서 결재를 요청하는
-          단계입니다.<indexterm class="singular">
-              <primary>워크플로우</primary>
+          <term><emphasis role="bold">Approver: Step for requesting the
+          approval of a document to the approver<indexterm class="singular">
+              <primary>Workflow</primary>
 
-              <secondary>결재자</secondary>
+              <secondary>Approver</secondary>
             </indexterm></emphasis></term>
 
           <listitem>
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/workflow-step-approval-property.png"
+                <imagedata fileref="resources/en-template-settings-workflow-approver.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
 
             <itemizedlist>
               <listitem>
-                <para><emphasis role="bold">표시 이름</emphasis>: 문서 작성 후 결재 또는
-                외부자 처리시 표시되는 이름을 설정합니다. 입력을 안할 경우 아래와 같이 기본값으로 나타납니다.</para>
+                <para><emphasis role="bold">Display name</emphasis>: Sets the
+                name(text) to be displayed in the text box when requesting a
+                document for an approval or external recipients. If you do not
+                enter it, the default text will appear as shown below.</para>
 
                 <mediaobject>
                   <imageobject>
-                    <imagedata fileref="resources/template-approval-property-displayname.png"
+                    <imagedata fileref="resources/en-template-settings-approver-display-name.png"
                                width="250"/>
                   </imageobject>
                 </mediaobject>
@@ -1132,35 +1270,39 @@
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">내부 수신자(멤버): 회사 내부 멤버에게 문서 처리를 요청하는
-          단계입니다. <indexterm class="singular">
-              <primary>워크플로우</primary>
+          <term><emphasis role="bold">Internal recipient (member): Step for
+          requesting document to be reviewed and signed to internal members of
+          your company. <indexterm class="singular">
+              <primary>Workflow</primary>
 
-              <secondary>내부 수신자(멤버)</secondary>
+              <secondary>Internal recipient (member)</secondary>
             </indexterm></emphasis></term>
 
           <listitem>
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/workflow-step-internal-recipient-property.png"
+                <imagedata fileref="resources/en-template-settings-workflow-internal.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
 
             <itemizedlist>
               <listitem>
-                <para><emphasis role="bold">수신자</emphasis>: 내부 수신자 단계를 처리할 멤버를
-                설정합니다.</para>
+                <para><emphasis role="bold">Recipient</emphasis>: Select the
+                member to receive the document for this step.</para>
 
                 <itemizedlist>
                   <listitem>
-                    <para><emphasis role="bold">이전 단계 처리자</emphasis>: 시작 단계 포함
-                    이전 단계의 내부 수신자가 문서를 처리하도록 설정합니다. 단계를 선택할 수 있습니다.</para>
+                    <para><emphasis role="bold">Handler of a previous
+                    step</emphasis>: Select the member to receive the document
+                    among the internal recipients of the previous steps
+                    including the Start step. You can select a step.</para>
                   </listitem>
 
                   <listitem>
-                    <para><emphasis role="bold">그룹 및 멤버</emphasis>: 그룹 또는 멤버 중
-                    한 사람이 문서를 처리하도록 설정합니다. 그룹 또는 멤버는 여러명을 선택할 수 있습니다.</para>
+                    <para><emphasis role="bold">Group and member</emphasis>:
+                    Set the document to be handled by one of the groups or
+                    members. You can select multiple groups or members.</para>
                   </listitem>
                 </itemizedlist>
               </listitem>
@@ -1171,54 +1313,56 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">외부 수신자: 멤버가 아닌 외부 사용자에게 문서 처리를 요청하는
-          단계입니다.<indexterm class="singular">
-              <primary>워크플로우</primary>
+          <term><emphasis role="bold">External recipient: Step for requesting
+          document to be reviewed and signed to external users who are not
+          members of your company.<indexterm class="singular">
+              <primary>Workflow</primary>
 
-              <secondary>외부 수신자</secondary>
+              <secondary>External recipients</secondary>
             </indexterm></emphasis></term>
 
           <listitem>
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/workflow-step-external-recipient-property.png"
+                <imagedata fileref="resources/en-template-settings-workflow-external.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
 
             <itemizedlist>
               <listitem>
-                <para><emphasis role="bold">문서 전송 기한</emphasis>: 일정 기간이 지나면 외부
-                수신자에게 보낸 URL 링크가 만료되도록 설정합니다.</para>
+                <para><emphasis role="bold">Document expiration</emphasis>:
+                Set URL link sent to external recipients to be expired after a
+                period of time.</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">수신자 정보 자동 설정</emphasis>: 외부 수신자에게
-                문서 요청시 문서에 입력된 정보를 바탕으로 외부 수신자의 이름 및 연락처를 자동으로 설정할 수
-                있습니다.</para>
+                <para><emphasis role="bold">Automatically adds
+                contacts</emphasis>: When requesting a document to an external
+                recipient, you can set to add automatically the name and
+                contact of the external recipient based on the information
+                entered in the document.</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">문서 열람 전 비밀번호 설정</emphasis>: 수신자의
-                이름, 보내는 사람이 직접 입력 또는 입력항목 중 하나를 선택하여 사용 등의 방법으로 외부 수신자가 문서 처리시
-                입력해야 할 인증 비밀번호를 설정할 수 있습니다.</para>
+                <para><emphasis role="bold">Set password</emphasis>: You can
+                set an verification password that external recipients must
+                enter when viewing the document, such as the recipient's name,
+                entered by the sender, or select a field in the
+                document.</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">비밀번호 힌트</emphasis>: 외부 수신자가 문서 열람시
-                비밀번호를 입력할때 표시될 안내 문구를 설정할 수 있습니다.</para>
-
-                <mediaobject>
-                  <imageobject>
-                    <imagedata fileref="resources/workflow-step-external-recipient-property-pw.png"
-                               width="400"/>
-                  </imageobject>
-                </mediaobject>
+                <para><emphasis role="bold">Password hint</emphasis>: You can
+                set the help message that will be displayed when an external
+                recipient enters a password to view the document.</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">문서 검토 전 휴대폰 본인확인: </emphasis>외부
-                수신자가 문서 열람을 위해 휴대폰 본인확인을 받도록 설정합니다. 본 기능은 추가 요금이 발생합니다.</para>
+                <para><emphasis role="bold">Require mobile verification to
+                review documents: </emphasis>Set external recipients to verify
+                identity using mobile to open the document. This feature will
+                incur an extra charge.</para>
               </listitem>
             </itemizedlist>
           </listitem>
@@ -1227,32 +1371,35 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">완료: 문서가 모든 워크플로우 단계를 거쳐 최종 완료되는
-          단계입니다.<indexterm class="singular">
-              <primary>워크플로우</primary>
+          <term><emphasis role="bold">Complete: Step at which a document is
+          finally completed.<indexterm class="singular">
+              <primary>Workflow</primary>
 
-              <secondary>완료</secondary>
+              <secondary>Complete</secondary>
             </indexterm></emphasis></term>
 
           <listitem>
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/workflow-step-complete-property.png"
+                <imagedata fileref="resources/en-template-settings-workflow-complete.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
 
             <itemizedlist>
               <listitem>
-                <para><emphasis role="bold">별도의 파일 저장소에 완료 문서 저장하기</emphasis>:
-                대표 관리자 또는 회사 관리자가 별도로 설정한 외부 클라우드 저장소에 문서된 문서가 저장되도록
-                설정합니다.</para>
+                <para><emphasis role="bold">Backup completed documents in
+                external cloud storages</emphasis>: Sets the documents to be
+                stored in an external cloud storage which is connected
+                separately by the administrator or company manager.</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">완료 문서에 타임스탬프 찍기</emphasis>: 완료된
-                문서가 그 이후 변경되지 않았음을 증명하는 타임스탬프를 설정합니다. 본 기능은 추가 요금이
-                발생합니다.</para>
+                <para><emphasis role="bold">Timestamp the document when
+                completed</emphasis>: Sets the completed document to be
+                timestamped which proves that the document remains unchanged
+                since that time. This feature will incur an extra
+                charge.</para>
               </listitem>
             </itemizedlist>
           </listitem>
@@ -1261,134 +1408,150 @@
     </section>
 
     <section>
-      <title>필드 설정</title>
+      <title>Field</title>
 
       <para><emphasis role="bold"><indexterm class="singular">
-          <primary>템플릿</primary>
+          <primary>Template</primary>
 
-          <secondary>필드 설정</secondary>
-        </indexterm>필드 설정</emphasis>에서는 템플릿에 들어가는 필드의 기본값 또는 자동입력 값을 설정하고 필드의
-      순서를 조정할 수 있습니다.</para>
+          <secondary>Field</secondary>
+        </indexterm></emphasis>In the <emphasis role="bold">Field</emphasis>
+      menu, you can set default values or autofill values for fields in the
+      template, and adjust the order of the fields.</para>
 
       <figure>
-        <title>템플릿 설정 &gt; 필드 설정</title>
+        <title>Template settings &gt; Field</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/template-field-setting.png"
+            <imagedata fileref="resources/en-template-settings-field.png"
                        width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para>필드의 기본값은 사용자 정의 필드 관리에 저장되어 있는 회사/그룹/멤버 정보를 입력되도록 설정하거나, 최근 입력값 선택
-      또는 사용자가 직접 입력하도록 설정할 수 있습니다.</para>
+      <para>You can set the default value for the field to be entered
+      company/group/member information saved in <emphasis role="bold">Manage
+      custom fields</emphasis>, or set to choose from a recent input value, or
+      set to type in by the user.</para>
 
       <para/>
 
-      <para><emphasis role="bold">자동 입력 설정하는 방법</emphasis></para>
+      <para><emphasis role="bold">How to configure autofill</emphasis></para>
 
-      <para>문서에 자주 입력하는 정보를 미리 저장하고 자동으로 입력되도록 설정할 수 있습니다.</para>
+      <para>You can save information that are frequently entered into a
+      document in advance and set to be auto-filled.</para>
 
-      <para>예를 들어 작성자의 이름, 연락처 등 작성자 정보, 부서명, 책임자, 회사 대표 번호 등 회사 또는 그룹에 대한 정보를
-      미리 저장하여 자동으로 입력되도록 설정할 수 있습니다. 관련 필드의 항목 추가 및 기본 값 설정은 <emphasis
-      role="bold">회사 관리 &gt; 사용자 정의 필드 관리</emphasis>에서 할 수 있습니다.</para>
+      <para>For example, you can pre-save information about your company or
+      group, such as department name, leader, representative number and
+      information on document creator including name, contact details and etc.
+      You can add items for related fields and set default values in <emphasis
+      role="bold">Manage company &gt; Manage custom fields</emphasis></para>
 
       <orderedlist>
         <listitem>
-          <para><emphasis role="bold">사용자 정의 필드 관리</emphasis> 화면에서 필드를
-          추가합니다.</para>
+          <para>In the<emphasis role="bold"> Manage custom fields
+          </emphasis>screen<emphasis role="bold">,</emphasis> add a
+          field.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">템플릿 관리</emphasis> 메뉴로 이동합니다.</para>
+          <para>Go to <emphasis role="bold">Manage templates</emphasis>
+          menu.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">템플릿 설정</emphasis> 아이콘을 클릭합니다.</para>
+          <para>Click the<emphasis role="bold"> Template settings</emphasis>
+          icon.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">필드 설정</emphasis> 메뉴로 이동합니다.</para>
+          <para>Go to the <emphasis role="bold">Field</emphasis> menu.</para>
         </listitem>
 
         <listitem>
-          <para>자동 입력이 되도록 설정할 필드의 기본값을 입력합니다.</para>
+          <para>Enter a default value for the field that you want to set to be
+          auto-filled.</para>
         </listitem>
 
         <listitem>
-          <para>모든 설정을 완료한 후 <emphasis role="bold">저장</emphasis> 버튼을
-          클릭합니다</para>
+          <para>After completing all the settings, click the<emphasis
+          role="bold"> Save</emphasis> button.</para>
         </listitem>
       </orderedlist>
     </section>
 
     <section>
-      <title>알림 설정</title>
+      <title>Notification settings</title>
 
       <para><indexterm class="singular">
-          <primary>템플릿</primary>
+          <primary>Template</primary>
 
-          <secondary>알림 설정</secondary>
-        </indexterm>템플릿으로 생성되는 문서의 요청 또는 상태 알림을 수신할 채널, 수신자 설정 및 내용 확인, 편집 등을
-      할 수 있습니다.</para>
+          <secondary>Notification settings</secondary>
+        </indexterm>You can select the method to send request or status
+      notification message to recipients, view and edit the messages for
+      documents created from the template.</para>
 
-      <para><emphasis role="bold">알림 채널 설정</emphasis></para>
+      <para><emphasis role="bold">Notification methods</emphasis></para>
 
-      <para>내부 수신자 및 외부 수신자에게 보낼 알림 채널을 설정합니다. <emphasis
-      role="bold">이메일</emphasis> 또는 <emphasis role="bold">SMS </emphasis>중 하나
-      또는 모두를 선택할 수 있습니다.</para>
+      <para>Select the methods to send notifications to internal and external
+      recipients. You can select<emphasis role="bold"> </emphasis>either
+      emai<emphasis role="bold">l </emphasis>or<emphasis role="bold">
+      </emphasis>SMS or both.</para>
 
       <note>
-        <para><emphasis role="bold">SMS</emphasis>는 유료 요금제 구독 회사만 선택할 수 있으며,
-        선택시 추가 요금이 발생됩니다.</para>
+        <para><emphasis role="bold">SMS</emphasis> can only be selected by a
+        company subscribed a paid plan and extra charges will apply.</para>
       </note>
 
-      <para>SMS 선택 시, <emphasis role="bold">문자로 보내기</emphasis>와 <emphasis
-      role="bold">카카오톡으로 보내고 전송 실패시 문자로 보내기</emphasis>가 활성화 됩니다.</para>
+      <para>When SMS is selected, <emphasis role="bold">Send via SMS
+      </emphasis>and <emphasis role="bold">Send via SMS if failed to send via
+      KakaoTalk</emphasis> are enabled. <emphasis role="bold"/></para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">문자로 보내기</emphasis>: 수신자에게 SMS로 알람 메시지를
-          전송합니다.</para>
+          <para><emphasis role="bold">Send SMS</emphasis>: Send a notification
+          to recipients via SMS.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">카카오톡으로 보내고 전송 실패시 문자로 보내기</emphasis>:
-          수신자에게 카카오톡으로 알람 메시지를 전송하고 카카오톡을 사용하지 않는 수신자에게는 SMS로 전송됩니다.</para>
+          <para><emphasis role="bold">Send via KakaoTalk and if fails, send
+          via SMS</emphasis>: Send a notification to recipients via KakaoTalk
+          and to the recipient who does not use KakaoTalk, send via
+          SMS.</para>
         </listitem>
       </itemizedlist>
 
       <para/>
 
       <figure>
-        <title>알림 채널 설정</title>
+        <title>Notification methods</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/template-setting-notification-channel.png"/>
+            <imagedata fileref="resources/en-template-settings-notification.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">요청 알림 설정</emphasis></para>
+      <para><emphasis role="bold">Edit notification messages</emphasis></para>
 
-      <para>해당 템플릿으로 생성된 문서를 수신자에게 요청시 발송되는 알림 메시지를 확인하고 편집할 수 있습니다. 각 알림 템플릿
-      메시지는 <emphasis role="bold">회사 관리 &gt; 알림 템플릿 관리</emphasis> 페이지에 설정된 내용에
-      따라 기본적으로 반영되어 있으며, <emphasis role="bold">편집 </emphasis>버튼을 클릭해 직접 메시지를
-      편집할 수 있습니다.</para>
+      <para>You can view and edit notification messages that will be sent to
+      recipients when requesting documents created from the template. Each
+      notification template message is set as a default that is in <emphasis
+      role="bold">Manage company &gt; Notification template
+      management</emphasis> page. Click the <emphasis role="bold">Edit
+      </emphasis>button to edit the message directly.</para>
 
       <note>
-        <para>SMS 템플릿은 유료 요금제 구독 회사만 편집할 수 있습니다.</para>
+        <para>SMS templates can only be edited by companies subscribed a paid
+        plan.</para>
       </note>
-
-      <para>각 알림 템플릿 메시지는 <emphasis role="bold">회사 관리 &gt; 알림 템플릿
-      관리</emphasis> 페이지에 설정된 내용에 따라 기본적으로 반영되어 있으며, <emphasis
-      role="bold">편집</emphasis> 버튼을 클릭해 직접 메시지를 편집할 수 있습니다.</para>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/template-setting-notification-edit.png"/>
+          <imagedata fileref="resources/en-template-settings-edit-notification-messages.png"
+                     width="400"/>
         </imageobject>
       </mediaobject>
 
@@ -1396,7 +1559,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/template-setting-notification-edit-email.png"
+          <imagedata fileref="resources/en-template-settings-edit-notification-messages-popup.png"
                      width="700"/>
         </imageobject>
       </mediaobject>
@@ -1405,41 +1568,54 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">문서 검토 및 작성 요청 &gt; 내부</emphasis>: 내부
-          수신자에게 문서 검토 및 작성 요청 시 내부 수신자에게 전송하는 요청 알림 메시지를 편집할 수 있습니다.</para>
+          <para><emphasis role="bold">When sending for review and sign &gt;
+          Internal</emphasis>: You can edit request notification messages
+          sending to internal recipients when requesting for review and
+          sign.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 검토 및 작성 요청 &gt; 외부</emphasis>: 외부
-          수신자에게 문서 검토 및 작성 요청 시 외부 수신자에게 전송하는 요청 알림 메시지를 편집할 수 있습니다.</para>
+          <para><emphasis role="bold">When sending for review and sign &gt;
+          External</emphasis>: You can edit request notification messages
+          sending to external recipients when requesting for review and
+          sign.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 결재 요청</emphasis>: 결재자에게 문서 결재 요청 시
-          결재자에게 전송하는 요청 알림 메시지를 편집할 수 있습니다</para>
+          <para><emphasis role="bold">When sending for approval</emphasis>:
+          You can edit the request notification message sending to approvers
+          when requesting approval.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 반려로 인한 수정 요청</emphasis>: 결재자, 내부 수신자,
-          외부 수신자가 문서 반려 시 문서 요청자에게 전송하는 요청 알림 메시지를 편집할 수 있습니다.</para>
+          <para><emphasis role="bold">When rejecting documents</emphasis>: You
+          can edit the request notification message sent to document
+          requestors when a document is rejected by the approver, internal
+          recipients, or external recipients.</para>
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">상태 알림 설정</emphasis></para>
+      <para><emphasis role="bold">Document status
+      notifications</emphasis></para>
 
-      <para>해당 템플릿으로 생성된 문서의 진행 상태 알림의 수신자를 설정하고 알림 메시지의 미리보기(문서 승인/검토 및
-      작성/반려/취소/수정 알림) 또는 편집(문서 최종 완료 알림)이 가능합니다.</para>
+      <para>You can select recipients of status notifications for documents
+      created from the template and allows you to preview (notification for
+      approve/review and create/reject/void/correct) or edit (notification
+      sent when documents are completed) messages.</para>
 
       <note>
-        <para>문서 반려 알림, 문서 취소 알림, 문서 수정 알림은 이메일 템플릿만 제공되고 SMS으로는 전송되지
-        않습니다.</para>
+        <para>For the notifications sent when documents are rejected, voided,
+        and corrected, only email templates are provided and they are not sent
+        via SMS.</para>
 
-        <para>문서 최종 완료 알림(내부/외부)의 SMS 템플릿은 유료 요금제 구독 회사만 편집할 수 있습니다.</para>
+        <para>SMS templates for document completion notification
+        (internal/external) can only be edited by companies subscribed a paid
+        plan.</para>
       </note>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/template-setting-notification-status.png"
+          <imagedata fileref="resources/en-template-settings-notification-status.png"
                      width="500"/>
         </imageobject>
       </mediaobject>
@@ -1447,65 +1623,84 @@
       <para/>
 
       <note>
-        <para><emphasis role="bold">최초 작성자 </emphasis>옵션에 체크, <emphasis
-        role="bold">단계별 처리자 </emphasis>옵션 체크 해제 시, 문서를 최초 작성한 사람에게 상태 알림을
-        전송합니다.</para>
+        <para>When<emphasis role="bold"> Document creator </emphasis>option is
+        checked and <emphasis role="bold">Step handler </emphasis>option is
+        unchecked, a status notification is sent to the person who originally
+        created the document.</para>
 
-        <para><emphasis role="bold">최초 작성자</emphasis> 옵션 체크 해제, <emphasis
-        role="bold">단계별 처리자 </emphasis>옵션에 체크 시, 최초 작성한 사람을 제외하고 현재 단계 이전에 문서를
-        처리한 사람들에게 상태 알림을 전송합니다.</para>
+        <para>When<emphasis role="bold"> Document creator</emphasis> option is
+        unchecked and <emphasis role="bold">Step handler </emphasis>option is
+        checked, status notifications are sent to people who have processed
+        the document before the current step, except the document
+        creator.</para>
 
-        <para><emphasis role="bold">최초 작성자</emphasis>, <emphasis
-        role="bold">단계별 처리자</emphasis> 옵션 모두 체크 시, 최초 작성한 사람, 현재 단계 이전에 문서를
-        처리한 사람 모두에게 상태 알림을 전송합니다.</para>
+        <para>When the options for<emphasis role="bold"> Document creator
+        </emphasis>and <emphasis role="bold">Step handler</emphasis> are both
+        checked, status notifications are sent to both the document creator
+        and the people who have processed the document before the current
+        step.</para>
 
-        <para><emphasis role="bold">최초 작성자</emphasis>, <emphasis
-        role="bold">단계별 처리자</emphasis> 옵션 모두 체크 해제 시, 해당 단계의 상태 알림을 전송하지
-        않습니다.</para>
+        <para>When<emphasis role="bold"> Document creator</emphasis> and
+        <emphasis role="bold">Step handler</emphasis> options are both
+        unchecked, no status notification of that step will be sent.</para>
       </note>
 
       <para/>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">문서 승인 알림</emphasis>: 결재자가 문서 승인 시, 문서가
-          승인되었다는 알림을 전송합니다.</para>
+          <para><emphasis role="bold">When documents are approved</emphasis>:
+          When the document is approved by approver, a notification will be
+          sent that the document has been approved.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 검토 및 작성 알림</emphasis>: 내부 수신자 또는 외부
-          수신자가 문서 처리 시, 문서가 검토 및 작성되었다는 알림을 전송합니다.</para>
+          <para><emphasis role="bold">When documents are reviewed and
+          signed</emphasis>: When the documents are reviewed and signed by
+          internal or external recipients, the notification will be sent that
+          the document has been reviewed and signed.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 반려 알림</emphasis>: 결재자, 내부 수신자, 외부
-          수신자가 문서 반려 시, 문서가 반려되었다는 알림을 전송합니다.</para>
+          <para><emphasis role="bold">When documents are rejected</emphasis>:
+          When the document is rejected by approver, internal or external
+          recipients, a notification will be sent that the document has been
+          rejected.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 취소 알림</emphasis>: 취소 요청된 문서에 대해 취소가
-          승인되었을 경우, 문서가 취소되었다는 알림을 전송합니다.</para>
+          <para><emphasis role="bold">Document void notification</emphasis>:
+          When the request for voiding document is approved, a notification
+          will be sent that the document has been voided.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 수정 알림</emphasis>: 최초 작성자가 문서를 수정한 경우,
-          문서가 수정되었다는 알림을 전송합니다.</para>
+          <para><emphasis role="bold">When documents are corrected</emphasis>:
+          When the document is corrected by document creator, a notification
+          will be sent that the document has been corrected.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 최종 완료 알림 &gt; 내부</emphasis>: 문서가 최종
-          완료된 경우, 해당 문서의 최초 작성자, 결재자, 내부 수신자에게 문서가 최종 완료되었다는 알림을 전송합니다.</para>
+          <para><emphasis role="bold">When documents are completed &gt;
+          Internal</emphasis>: When the document is completed, a notification
+          will be sent to the document creator, approvers, and internal
+          recipients that the document has been completed.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 최종 완료 알림 &gt; 외부</emphasis>: 문서가 최종
-          완료된 경우, 외부 수신자에게 문서가 최종 완료되었다는 알림을 전송합니다.</para>
+          <para><emphasis role="bold">When documents are completed &gt;
+          External</emphasis>: When the document is completed, a notification
+          will be sent to external recipients that the document has been
+          completed.</para>
 
           <note>
-            <para><emphasis role="bold">문서 최종 완료 알림 &gt; 외부</emphasis>의
-            <emphasis role="bold">최초 작성자</emphasis> 옵션에 체크된 경우, 외부 사용자가 URL을
-            통해 문서를 생성 후 제출할 때, 최종 완료 알림을 수신할 정보를 입력해야 하며, 입력한 외부 수신자에게 상태 알림을
-            전송합니다.</para>
+            <para>When the<emphasis role="bold"> Document creator
+            </emphasis>option for <emphasis role="bold">When the document is
+            completed &gt; External </emphasis>is checked and external
+            recipients create and submit a document via a URL, an information
+            to receive a notification when the document is completed should be
+            entered and the notification will be sent to the external
+            recipients.<emphasis role="bold"/></para>
           </note>
         </listitem>
       </itemizedlist>
@@ -1513,19 +1708,21 @@
   </section>
 
   <section>
-    <title>개별 템플릿 메뉴</title>
+    <title>Menus for each template</title>
 
-    <para><emphasis role="bold">템플릿 관리</emphasis> 화면에서 템플릿 이름 오른쪽에 위치한 메뉴
-    아이콘(<inlinemediaobject>
+    <para>Go to<emphasis role="bold"> Manage templates</emphasis> page, click
+    the menu icon(<inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="14"
                      fileref="resources/template-hamburgericon.png"/>
         </imageobject>
-      </inlinemediaobject>)을 클릭하면 각 템플릿별 설정할 수 있는 메뉴가 나타납니다.</para>
+      </inlinemediaobject>) right next to the template name to see the menus
+    that can be set for each template.</para>
 
     <mediaobject>
       <imageobject>
-        <imagedata fileref="resources/template-manage-menu.png" width="700"/>
+        <imagedata fileref="resources/en-manage-template-menu-icon-wd.png"
+                   width="700"/>
       </imageobject>
     </mediaobject>
 
@@ -1533,47 +1730,49 @@
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">복제</emphasis>: 템플릿을 복제합니다. 해당 템플릿의 폼 파일과
-        상세 템플릿 설정이 복제되며 상세 설정을 변경하여 저장할 수 있습니다.</para>
+        <para><emphasis role="bold">Duplicate</emphasis>: Duplicates the
+        template. The template's file and detailed settings for template are
+        duplicated, and you can change and save the detailed settings.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">삭제</emphasis>: 템플릿을 삭제합니다. 템플릿이 삭제되면 더 이상
-        해당 템플릿으로 문서를 생성할 수 없습니다.</para>
+        <para><emphasis role="bold">Delete</emphasis>: Deletes the template.
+        Once a template is deleted, you can no longer create a document from
+        that template.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">파일 다운로드</emphasis>: 파일 다운로드를 클릭하면 업로드한 파일
-        양식으로 다운로드 됩니다.(예, 워드, 엑셀 파일 등)</para>
+        <para><emphasis role="bold">Deactivate</emphasis>: When a template is
+        deactivated, it will not be shown in the<emphasis role="bold"> New
+        document </emphasis>page for other members.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">비활성화</emphasis>: 템플릿을 비활성화하면 다른
-        멤버의<emphasis role="bold"> 새 문서 작성 </emphasis>페이지에 표시되지 않습니다.</para>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">소유자 변경</emphasis>: 템플릿의 소유자를 변경할 수 있습니다.
-        기본적으로 템플릿 소유자는 템플릿을 생성한 사람으로 자동 지정됩니다. 이후 변경하고자 할 경우 소유자 변경을 통해 다른 멤버로
-        소유자를 변경할 수 있습니다. 템플릿 소유자는 템플릿 관리 권한을 가진 멤버 중에 선택할 수 있습니다.</para>
+        <para><emphasis role="bold">Change owner</emphasis>: You can change
+        the owner of the template. By default, the template owner is
+        automatically assigned as the person who created the template. If you
+        want to make changes later, you can change the owner to another member
+        by clicking this menu. Template owners can be selected from members
+        who have permission to manage templates.</para>
 
         <mediaobject>
           <imageobject>
             <imagedata contentwidth="300"
-                       fileref="resources/template-owner-change.PNG"/>
+                       fileref="resources/en-manage-template-menu-icon-change-owner.png"/>
           </imageobject>
         </mediaobject>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">문서 관리자 설정: </emphasis>해당 템플릿으로 작성되는 문서의
-        관리자를 설정할 수 있습니다. <emphasis role="bold">템플릿 설정 &gt; 문서 관리자
-        설정</emphasis>과 동일합니다.</para>
+        <para><emphasis role="bold">Document Manager: </emphasis>You can
+        select members or groups to manage the documents created from the
+        template. You can also set the document manager in<emphasis
+        role="bold"> Template settings &gt; Set permissions.</emphasis></para>
 
         <mediaobject>
           <imageobject>
             <imagedata contentwidth="400"
-                       fileref="resources/document-manager-setting.PNG"/>
+                       fileref="resources/en-manage-template-menu-icon-document-manager.png"/>
           </imageobject>
         </mediaobject>
       </listitem>
@@ -1583,43 +1782,49 @@
   </section>
 
   <section>
-    <title>템플릿 검색</title>
+    <title>Search Templates</title>
 
-    <para><emphasis role="bold">템플릿 관리</emphasis> 화면에서는 템플릿 카테고리별 조회, 검색 등을 할
-    수 있습니다.</para>
+    <para>In<emphasis role="bold"> Manage template</emphasis> page, you can
+    lookup and search by template category.</para>
 
     <mediaobject>
       <imageobject>
-        <imagedata fileref="resources/template-manage-search.png" width="700"/>
+        <imagedata depth="resources/en-manage-template-search.png"
+                   fileref="resources/en-manage-template-search.png"
+                   width="700"/>
       </imageobject>
     </mediaobject>
 
     <variablelist>
       <varlistentry>
-        <term>① <emphasis role="bold">템플릿 조회</emphasis></term>
+        <term>① <emphasis role="bold">Lookup Templates</emphasis></term>
 
         <listitem>
-          <para>클릭하여 템플릿 상태, 카테고리 별로 템플릿을 조회할 수 있습니다. <emphasis role="bold">X
-          </emphasis>를 클릭하면 전체 카테고리로 돌아갑니다.</para>
+          <para>Click the box to lookup templates by template status,
+          category. Click<emphasis role="bold"> X </emphasis>to return to view
+          all categories.</para>
 
-          <para>템플릿은 Sample 카테고리에 기본 템플릿이 저장됩니다. 카테고리의 생성은 <emphasis
-          role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 할 수 있습니다.</para>
+          <para>Template is saved in the Sample category as a default. You can
+          create a category<emphasis role="bold"> </emphasis>in<emphasis
+          role="bold"> Template settings &gt; General.</emphasis></para>
         </listitem>
       </varlistentry>
 
       <varlistentry>
-        <term><emphasis role="bold">② 템플릿 검색</emphasis></term>
+        <term><emphasis role="bold">② Search templates</emphasis></term>
 
         <listitem>
-          <para>검색 키워드를 입력하여 템플릿을 검색합니다.</para>
+          <para>You can search templates by entering keywords such as template
+          name and category name.</para>
         </listitem>
       </varlistentry>
 
       <varlistentry>
-        <term>③ <emphasis role="bold">정렬</emphasis></term>
+        <term>③ <emphasis role="bold">Sort</emphasis></term>
 
         <listitem>
-          <para>템플릿 정렬 순서를 템플릿 이름 또는 카테고리 기준으로 오름차순, 내림차순을 설정합니다.</para>
+          <para>You can select the template sorting order in ascending or
+          descending by template name or category.</para>
         </listitem>
       </varlistentry>
     </variablelist>

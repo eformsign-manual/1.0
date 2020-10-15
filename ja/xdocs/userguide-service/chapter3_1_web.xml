@@ -6,33 +6,34 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>웹폼 디자이너 소개</title>
+  <title>Web フォームデザイナーの紹介</title>
 
   <section>
-    <title>웹폼 디자이너 개요</title>
+    <title>Web フォームデザイナーの概要</title>
 
     <para><indexterm class="singular">
-        <primary>웹폼 디자이너</primary>
-      </indexterm>eformsign 템플릿 관리 메뉴에서 전자문서의 배경서식이 되는 PDF 파일을 업로드하면 웹폼 디자이너가
-    나타납니다. 왼쪽 트리의 다양한 입력항목 중 원하는 입력항목을 드래그해서 웹폼 디자이너에서 나타나는 배경 파일에 올리고 난 후, 각
-    입력항목에 대한 속성을 설정하면 템플릿을 손쉽게 생성할 수 있습니다.</para>
+        <primary>Webフォームデザイナー</primary>
+      </indexterm>eformsign のテンプレート管理メニューで、電子文書の背景書式になる PDF ファイルをアップロードすると、Web
+    フォームデザイナーが表示されます。左側のツリーの様々なコンポーネントから目的のコンポーネントを選択して、Web
+    フォームデザイナーに表示される背景ファイルの上にドラッグアンドドロップし、各コンポーネントのプロパティを詳細設定することで、テンプレートを簡単に作成できます。</para>
 
     <note>
-      <para>현재는 PDF 파일만 지원하나, 추후 MS Office, 한글, JPG, PNG 등의 이미지 파일 등 다양한 파일
-      형식을 지원할 예정입니다.</para>
+      <para>現在は PDF ファイルのみをサポートしていますが、今後 Microsoft Office、JPG、PNG
+      などの画像ファイルを含め、様々なファイル形式にも対応していく予定です。</para>
     </note>
 
     <note>
-      <para>MS Office에서 바로 전자문서를 생성할 수 있도록 하는 MS Office Add-in 기능(OZ in Office
-      폼 빌더)도 제공하고 있습니다. 폼 빌더를 사용하려면 <xref linkend="formbuilder"/>를 참고하여 폼 빌더를
-      MS Office에 설치하신 후 사용하시기 바랍니다.</para>
+      <para>Microsoft Office アドイン（Add-in）機能（OZ in
+      Office：フォームビルダー）も用意されており、Microsoft Office
+      から直接電子文書を生成することもできます。フォームビルダーについては、 <xref linkend="formbuilder"/>
+      を参考に、Microsoft Office にフォームビルダーをインストールしてから使用してください。</para>
     </note>
 
-    <para>1. 메뉴 중 <emphasis role="bold">템플릿 관리</emphasis> 화면으로 들어가면 다음과 같은 화면이
-    나타납니다.</para>
+    <para>1.メニューのうち、<emphasis role="bold">テンプレート管理</emphasis>
+    画面に移動すれば、次のような画面が表示されます。</para>
 
     <figure>
-      <title>웹폼 디자이너 화면</title>
+      <title>Web フォームデザイナーの画面</title>
 
       <mediaobject>
         <imageobject>
@@ -41,11 +42,12 @@
       </mediaobject>
     </figure>
 
-    <para>2. 템플릿 관리 화면에 바로 파일을 드래그하거나 <emphasis role="bold">내 컴퓨터에서 파일
-    선택</emphasis>을 눌러 자신의 컴퓨터에서 업로드하고자 하는 파일을 선택합니다.</para>
+    <para>2.テンプレート管理 画面に直接ファイルをドラッグするか、<emphasis
+    role="bold">PCからファイルを選択</emphasis>
+    をクリックして、ローカルコンピューターからアップロードしたいファイルを選択します。</para>
 
     <figure>
-      <title>웹폼 디자이너 화면</title>
+      <title>Web フォームデザイナーの画面</title>
 
       <mediaobject>
         <imageobject>
@@ -54,10 +56,10 @@
       </mediaobject>
     </figure>
 
-    <para>3. 파일이 업로드되면 다음과 같이 문서 화면이 나타납니다.</para>
+    <para>3.ファイルがアップロードされれば、次のような画面が表示されます。</para>
 
     <figure>
-      <title>웹폼 디자이너 화면</title>
+      <title>Web フォームデザイナーの画面</title>
 
       <mediaobject>
         <imageobject>
@@ -67,12 +69,13 @@
     </figure>
 
     <section>
-      <title>웹폼 디자이너 메뉴 구성</title>
+      <title>Web フォームデザイナーのメニューの構成</title>
 
-      <para>웹폼 디자이너는 크게 문서를 보여주는 화면과, 상단 바 외에 왼쪽 및 오른쪽 화면으로 구성되어 있습니다.</para>
+      <para>Web
+      フォームデザイナーは、大きく、文書を全面表示する文書表示ペイン、トップバー、そして左側と右側のペインの４つの領域で構成されています。</para>
 
       <figure>
-        <title>웹폼 디자이너 메뉴 구성</title>
+        <title>Web フォームデザイナーのメニューの構成</title>
 
         <mediaobject>
           <imageobject>
@@ -83,42 +86,39 @@
 
       <orderedlist>
         <listitem>
-          <para><emphasis role="bold">문서 표시 창: </emphasis>업로드한 배경서식 문서가
-          나타납니다.</para>
+          <para><emphasis
+          role="bold">文書表示ペイン：</emphasis>アップロードした背景書式の文書が表示されます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">상단 바: </emphasis>폼 디자인하기, 설정하기의 단계가
-          표시되며, 템플릿 관리 리스트 화면으로 돌아가거나 입력항목을 올린 템플릿의 표시 형태를 미리보기할 수
-          있습니다.</para>
+          <para><emphasis
+          role="bold">トップバー：</emphasis>「デザインする」と「設定する」の手順が表示され、テンプレート管理のリスト画面に戻ったり、コンポーネントを追加したテンプレートをプレビューしたりすることができます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">입력항목 리스트: </emphasis>텍스트, 멀티라인, 서명, 체크,
-          선택 등 14개의 입력항목을 현재 지원하고 있으며, 사용자 정의 항목, 도형 등의 신규 항목이 계속해서 추가될
-          예정입니다.</para>
+          <para><emphasis
+          role="bold">コンポーネントのリスト：</emphasis>現在の時点では、1行テキスト、複数行テキスト、署名、チェック、選択を含む
+          14
+          のコンポーネントをサポートしていますが、今後、カスタムアイテムや図形などの新しいコンポーネントを継続して追加する予定です。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">속성: </emphasis>서명, 텍스트, 체크 등 입력항목을 드래그하여
-          배경서식에 올리면 각 입력항목의 속성을 설정할 수 있습니다.</para>
+          <para><emphasis
+          role="bold">プロパティ：</emphasis>署名、テキスト、チェックなどのコンポーネントを背景書式にドラッグして、各コンポーネントのプロパティを設定します。</para>
         </listitem>
       </orderedlist>
-
-      <para/>
     </section>
   </section>
 
   <section>
-    <title>입력항목 개요</title>
+    <title>コンポーネントの概要</title>
 
     <para><indexterm class="singular">
-        <primary>입력항목</primary>
-      </indexterm>입력항목은 전자 문서에서 사용자가 내용을 입력할 수 있는 입력란을 만들어주는 역할을 합니다. 서명, 체크,
-    날짜, 텍스트 등의 다양한 형식의 입력항목이 있으며 각각의 입력항목은 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
+        <primary>コンポーネント</primary>
+      </indexterm>コンポーネントは、ユーザーが電子文書に内容を入力するための入力欄として機能します。署名、チェック、日付、テキストなど多様な種類のコンポーネントがあり、各コンポーネントは、プロパティタブを介して詳細に設定することができます。</para>
 
     <para><figure>
-        <title>웹폼 디자이너에 입력항목을 배치한 모습</title>
+        <title>Webフォームデザイナーでコンポーネントを追加した例</title>
 
         <mediaobject>
           <imageobject>
@@ -128,138 +128,141 @@
       </figure></para>
 
     <section>
-      <title>입력항목 종류</title>
+      <title>コンポーネントのタイプ</title>
 
-      <para>eformsign은 다음의 입력항목을 지원합니다.</para>
+      <para>eformsign は次ようなのコンポーネントをサポートしています。</para>
 
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="text2">텍스트</link>:</emphasis> <indexterm class="singular">
-              <primary>입력항목</primary>
-
-              <secondary>텍스트</secondary>
-            </indexterm>1~2단어의 짧은 텍스트를 입력합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link linkend="text2">멀티라인</link>:
-          </emphasis><indexterm class="singular">
-              <primary>입력항목</primary>
-
-              <secondary>멀티라인</secondary>
-            </indexterm>여러 줄이 되는 긴 텍스트를 입력합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="signature2">서명</link>:</emphasis> <indexterm
+          linkend="text2">1行テキスト</link>：</emphasis> <indexterm
               class="singular">
-              <primary>입력항목</primary>
+              <primary>コンポーネント</primary>
 
-              <secondary>서명</secondary>
-            </indexterm>서명을 입력합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link linkend="check2">체크</link>:
-          </emphasis><indexterm class="singular">
-              <primary>입력항목</primary>
-
-              <secondary>체크</secondary>
-            </indexterm>체크할 항목이 있을 때 사용합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link linkend="select2">선택</link>:
-          </emphasis><indexterm class="singular">
-              <primary>입력항목</primary>
-
-              <secondary>선택</secondary>
-            </indexterm>여러가지 항목 중 한가지를 선택합니다. 다중 선택도 설정 가능합니다.</para>
+              <secondary>1行テキスト</secondary>
+            </indexterm>1つまたは2つの短い単語を入力します。</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="label2">레이블</link>:</emphasis> <indexterm class="singular">
-              <primary>입력항목</primary>
-
-              <secondary>레이블</secondary>
-            </indexterm>폼 ID를 설정합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="combo2">콤보</link>:</emphasis> <indexterm class="singular">
-              <primary>입력항목</primary>
-
-              <secondary>콤보</secondary>
-            </indexterm>클릭하면 드롭다운 메뉴가 나타나며 여러 항목 중 하나를 선택합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="date2">날짜</link>:</emphasis> <indexterm class="singular">
-              <primary>입력항목</primary>
-
-              <secondary>날짜</secondary>
-            </indexterm>특정 날짜를 입력합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="numeric2">숫자</link>:</emphasis> <indexterm class="singular">
-              <primary>입력항목</primary>
-
-              <secondary>숫자</secondary>
-            </indexterm>숫자를 입력합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="toggle2">토글</link>:</emphasis> <indexterm class="singular">
-              <primary>입력항목</primary>
-
-              <secondary>토글</secondary>
-            </indexterm>2개 이상의 값을 입력하면 버튼을 클릭할 때마다 다른 값으로 전환됩니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="camera2">카메라</link>:</emphasis> <indexterm class="singular">
-              <primary>입력항목</primary>
-
-              <secondary>카메라</secondary>
-            </indexterm>카메라가 연결된 기기(스마트폰, 태블릿 등)에서는 카메라로 사진을 찍거나 사진첩에서 사진을
-          선택합니다. 카메라가 없는 기기(일반 PC)에서는 이미지 파일을 선택합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="record2">녹음</link>:</emphasis> <indexterm class="singular">
-              <primary>입력항목</primary>
-
-              <secondary>녹음</secondary>
-            </indexterm>녹음 기능이 있는 기기에서 버튼을 클릭해 녹음을 진행합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="attach2">첨부</link>:</emphasis> <indexterm class="singular">
-              <primary>입력항목</primary>
-
-              <secondary>첨부</secondary>
-            </indexterm>파일 첨부 기능을 추가합니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold"><link
-          linkend="document2">문서</link>:</emphasis> <indexterm
+          linkend="text2">複数行テキスト</link>：</emphasis><indexterm
               class="singular">
-              <primary>입력항목</primary>
+              <primary>コンポーネント</primary>
 
-              <secondary>문서</secondary>
-            </indexterm>문서 내에 문서 번호나 문서 ID를 입력합니다.</para>
+              <secondary>複数行テキスト</secondary>
+            </indexterm>複数行の長いテキストを入力します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="signature2">署名</link>：</emphasis> <indexterm
+              class="singular">
+              <primary>コンポーネント</primary>
+
+              <secondary>署名</secondary>
+            </indexterm>署名を入力します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="check2">チェック</link>：</emphasis><indexterm class="singular">
+              <primary>コンポーネント</primary>
+
+              <secondary>チェック</secondary>
+            </indexterm>チェックする項目がある場合に使用します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="select2">選択</link>：</emphasis><indexterm class="singular">
+              <primary>コンポーネント</primary>
+
+              <secondary>選択</secondary>
+            </indexterm>複数の項目から1つを選択します。複数選択も設定できます。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="label2">ラベル</link>：</emphasis> <indexterm class="singular">
+              <primary>コンポーネント</primary>
+
+              <secondary>ラベル</secondary>
+            </indexterm>フォーム ID を設定します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="combo2">リスト選択</link>：</emphasis> <indexterm
+              class="singular">
+              <primary>コンポーネント</primary>
+
+              <secondary>リスト選択</secondary>
+            </indexterm>クリックすると、ドロップダウンメニューが表示され、複数の項目のうち1つを選択します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="date2">日付</link>：</emphasis> <indexterm class="singular">
+              <primary>コンポーネント</primary>
+
+              <secondary>日付</secondary>
+            </indexterm>特定の日付を入力します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="numeric2">数字</link>：</emphasis> <indexterm class="singular">
+              <primary>コンポーネント</primary>
+
+              <secondary>数字</secondary>
+            </indexterm>数字を入力します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="toggle2">トグル</link>：</emphasis> <indexterm class="singular">
+              <primary>コンポーネント</primary>
+
+              <secondary>トグル</secondary>
+            </indexterm>複数の値を入力すると、ボタンをクリックするたびに異なる値に切り替わります。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="camera2">カメラ</link>：</emphasis> <indexterm class="singular">
+              <primary>コンポーネント</primary>
+
+              <secondary>カメラ</secondary>
+            </indexterm>カメラを搭載しているデバイス（スマートフォン、タブレットなど）では、カメラで写真を撮るか、アルバムから写真を選択します。カメラのないデバイス（通常の
+          PC ）では、画像ファイルを選択します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="record2">録音</link>：</emphasis> <indexterm class="singular">
+              <primary>コンポーネント</primary>
+
+              <secondary>録音</secondary>
+            </indexterm>録音機能を搭載している端末でボタンをクリックして録音します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="attach2">添付</link>：</emphasis> <indexterm class="singular">
+              <primary>コンポーネント</primary>
+
+              <secondary>添付</secondary>
+            </indexterm>ファイル添付機能を追加します。</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold"><link
+          linkend="document2">文書</link>：</emphasis> <indexterm
+              class="singular">
+              <primary>コンポーネント</primary>
+
+              <secondary>文書</secondary>
+            </indexterm>文書内の文書番号または文書 ID を入力します。</para>
         </listitem>
       </itemizedlist>
 
@@ -268,56 +271,54 @@
   </section>
 
   <section>
-    <title>입력항목별 사용 방법</title>
+    <title>コンポーネント別の使用方法</title>
 
-    <para>모든 입력항목은 공통 속성과 고유 속성을 가지고 있으며, 속성 창에서 공통 속성과 각 입력 기능의 고유 속성을 확인할 수
-    있습니다. 공통 속성으로는 ID와 툴팁 텍스트가 있으며, 각 속성의 의미는 다음과 같습니다.</para>
+    <para>すべてのコンポーネントには、共通のプロパティと固有なプロパティがあります。コンポーネントのプロパティウィンドウで、各コンポーネントの共通のプロパティと固有なプロパティを表示できます。共通のプロパティには、「名前」と「ツールヒントのテキスト」があり、各プロパティの意味は次のとおりです。</para>
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">ID: </emphasis><indexterm class="singular">
-            <primary>입력항목</primary>
+        <para><emphasis role="bold">名前：</emphasis><indexterm class="singular">
+            <primary>コンポーネント</primary>
 
-            <secondary>ID</secondary>
-          </indexterm>입력 기능의 값을 외부 프로그램에서 추출할 때 사용하는 고유한 키(Key)입니다</para>
+            <secondary>名前</secondary>
+          </indexterm>外部プログラムがコンポーネントの値を抽出するときに使用する固有なキーです。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">툴팁 텍스트: </emphasis><indexterm
+        <para><emphasis role="bold">ツールヒントのテキスト：</emphasis><indexterm
             class="singular">
-            <primary>입력항목</primary>
+            <primary>コンポーネント</primary>
 
-            <secondary>툴팁 텍스트</secondary>
-          </indexterm>수신자에게 문서가 표시될 때 Windows 환경에서는 입력항목에 마우스를 올려놓으면 툴팁 텍스트가
-        말풍선 형태로 표시되며, 모바일 환경에서는 입력항목이 다이얼로그로 실행될 때 툴팁 텍스트가 다이얼로그의 제목으로
-        표시됩니다.</para>
+            <secondary>ツールヒントのテキスト</secondary>
+          </indexterm>文書が受信者に表示される Windows
+        環境では、コンポーネントにカーソルを合わせるとツールヒントのテキストが吹き出しの形で表示されます。モバイル環境では、コンポーネントがダイアログで起動されるときにツールヒントのテキストがダイアログのタイトルとして表示されます。</para>
       </listitem>
     </itemizedlist>
 
     <note>
-      <para>정보 타입인 문서에는 툴팁 텍스트 속성이 없습니다.</para>
+      <para>情報タイプの文書には、「ツールヒントのテキスト」プロパティがありません。</para>
     </note>
 
-    <para>각 입력항목에 대한 설명은 다음과 같습니다.</para>
+    <para>各コンポーネントの説明は次のとおりです。</para>
 
     <section xml:id="text2">
-      <title>텍스트와 멀티라인</title>
+      <title>1行テキストと複数行テキスト</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>텍스트</secondary>
+          <secondary>1行テキスト</secondary>
         </indexterm><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>멀티라인</secondary>
-        </indexterm>텍스트 입력항목와 멀티라인 입력항목 모두 텍스트 입력란을 만들 때 사용합니다. 텍스트 입력항목은 1~2
-      단어의 짧은 텍스트, 멀티라인은 1줄 이상의 긴 텍스트에 적합합니다.</para>
+          <secondary>複数行テキスト</secondary>
+        </indexterm>1行テキストのコンポーネントと複数行テキストのコンポーネントの両方とも、テキストの入力欄を作成するときに使用します。1行テキストのコンポーネントは
+      1 ～ 2単語の短いテキストに適用し、複数行テキストのコンポーネントは1行以上の長いテキストに適用します。</para>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <figure>
-        <title>텍스트와 멀티라인 입력항목 속성 설정하기</title>
+        <title>1行テキストと複数行テキストのプロパティの設定</title>
 
         <mediaobject>
           <imageobject>
@@ -326,48 +327,48 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>텍스트/멀티라인 입력항목의 ID를 입력합니다. 예를 들어, 홍길동, 이순신 등이 입력되는 입력항목의 ID는 ‘이름’으로
-      합니다.</para>
+      <para>1行テキストもしくは複数行テキストのコンポーネント項目の「名前」を入力します。たとえば、木村、鈴木などが入力されるコンポーネントの名前は「氏名」です。</para>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="resources/text-component-properties_web_name.png"/>
+        </imageobject>
+      </mediaobject>
 
       <note>
-        <para>ID는 자동으로도 부여되나, 입력항목 배치 후 각 입력항목에 대해 수신자에게 입력 요청을 할지 여부를 결정할 때
-        해당 ID의 명칭이 표시되므로 사용자 자신이 인식하기 쉬운 ID를 설정하는 것을 권장합니다.</para>
+        <para>「名前」も自動的に付与されますが、コンポーネントを追加した後、受信者の入力を依頼するかどうかを決定する際に、その「名前」が表示されるので、認識しやすい名前を設定することを推奨します。</para>
       </note>
 
-      <para><emphasis role="bold">② 입력 가능 최대 글자 수</emphasis></para>
+      <para><emphasis role="bold">② 入力可能な最大文字数</emphasis></para>
 
-      <para>입력 가능한 최대 글자 수(공백 포함)를 설정할 수 있습니다. 기본으로 ‘0’이 설정되어 있으며 이 경우 글자 수
-      제한이 없습니다.</para>
+      <para>入力可能な最大文字数（空白を含む）を設定できます。デフォルトは「0」が設定されており、文字数に制限はありません。</para>
 
-      <para><emphasis role="bold">③ 키보드 타입</emphasis></para>
+      <para><emphasis role="bold">③ キーボードタイプ</emphasis></para>
 
-      <para>입력항목에 입력할 때 실행할 키보드 타입을 선택합니다. 키보드 타입은 스마트폰, 태블릿과 같은 모바일 환경에서만
-      동작합니다.</para>
+      <para>コンポーネントに入力時に実行するキーボードのタイプを選択します。キーボードタイプは、スマートフォンやタブレットなどのモバイル環境でのみ動作します。</para>
 
-      <para><emphasis role="bold">④ 패스워드 문자로 표시</emphasis></para>
+      <para><emphasis role="bold">④ パスワード文字で表示</emphasis></para>
 
-      <para>텍스트 입력항목에서만 설정 가능한 속성입니다. 텍스트 입력 시 입력한 내용이 패스워드 문자(●)로 입력되어 입력 내용을
-      숨길 수 있습니다. 입력된 내용은 PDF에서도 패스워드 문자로 숨겨지며, CSV 데이터를 다운로드 받을 때에만 확인할 수
-      있습니다.</para>
+      <para>テキストのコンポーネントでのみ設定可能なプロパティです。テキスト入力時に入力した内容がパスワード文字（●）で入力され、入力内容を隠すことができます。入力された内容は
+      PDF ではパスワード文字で表示されます。ただし、CSV データをダウンロードしたときには入力内容が表示されます。</para>
 
-      <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">④ ツールヒントのテキスト</emphasis></para>
 
-      <para>해당 입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
     </section>
 
     <section xml:id="signature2">
-      <title>서명</title>
+      <title>署名</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>서명</secondary>
-        </indexterm>서명 입력항목은 문서에 서명을 받아야 할 때 사용합니다.</para>
+          <secondary>署名</secondary>
+        </indexterm>文書への署名依頼をする必要がある場合は、署名コンポーネントを使用します。</para>
 
-      <para>서명 입력항목을 넣으면 서명이 필요한 문서에서 아래와 같이 서명 팝업이 뜨고 서명을 직접 그리거나 텍스트를 입력해
-      서명을 생성할 수 있으며, 기존에 등록한 서명이 있는 경우 이를 사용할 수도 있습니다.</para>
+      <para>署名コンポーネントを入力すると、署名が必要な文書に次のように署名ポップアップが表示されます。署名を直接手書きで描画するか、テキストを入力して署名を生成できます。既存の署名がある場合は、その署名を使用することもできます。</para>
 
       <mediaobject>
         <imageobject>
@@ -375,10 +376,10 @@
         </imageobject>
       </mediaobject>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <figure>
-        <title>서명 입력항목 속성 설정하기</title>
+        <title>署名コンポーネントのプロパティの設定</title>
 
         <mediaobject>
           <imageobject>
@@ -387,106 +388,103 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>서명 입력항목의 ID를 입력합니다. 예를 들어, 계약자의 서명인 경우 입력항목 ID는 ‘계약자 서명’으로
-      합니다.</para>
+      <para>署名コンポーネントの「名前」を入力します。たとえば、契約者の署名である場合、コンポーネントの名前は「契約者の署名」にします。</para>
 
-      <para><emphasis role="bold">② 서명 유형</emphasis></para>
+      <para><emphasis role="bold">② 署名タイプ</emphasis></para>
 
-      <para>서명 시 어떤 서명을 사용할 것인지 선택합니다.</para>
+      <para>署名時に使用する署名を選択します。</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">직접 서명:</emphasis> 서명란을 클릭하면 서명 팝업이 나타나며
-          그리기, 텍스트, 모바일, 도장, 등록된 서명 탭 중 원하는 방식으로 서명을 입력합니다.</para>
+          <para><emphasis role="bold">直接署名：</emphasis>
+          署名欄をクリックすると、署名ポップアップが表示され、手書き、テキスト、モバイル、印鑑・スタンプ、または登録済み署名タブのうち、入力したい方式で署名を入力します。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">등록된 서명:</emphasis> 문서를 작성하는 사람이 미리 등록해 둔
-          ‘내 서명’이 있는 경우 서명란을 클릭하면 등록된 서명이 자동으로 입력됩니다.</para>
+          <para><emphasis role="bold">登録の署名：</emphasis>
+          文書の作成者が「マイ署名」を事前に登録している場合は、署名欄をクリックすると、登録済みの署名が自動的に入力されます。</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">등록된 이니셜:</emphasis> 등록된 서명과 마찬가지로 ‘내
-          서명’에 등록된 이니셜이 있는 경우 서명란을 클릭하면 등록된 이니셜이 자동으로 입력됩니다.</para>
+          <para><emphasis role="bold">登録のイニシャル：</emphasis>
+          登録の署名と同様に、「マイ署名」にイニシャルが登録されている場合、署名欄をクリックすると登録済みのイニシャルが自動的に入力されます。</para>
         </listitem>
       </itemizedlist>
 
       <para><note>
-          <para>등록된 서명과 이니셜이 있는 경우에는 해당 서명이 서명란에 자동으로 입력되지만, 등록된 서명과 이니셜이 없는
-          경우 직접 서명과 동일한 서명 팝업이 나타납니다.</para>
+          <para>署名とイニシャルが登録されている場合、署名は自動的に署名欄に入力されますが、署名とイニシャルが登録されていない場合は、直接署名と同じ署名ポップアップが表示されます。</para>
         </note></para>
 
       <note>
-        <para>문서에 직접 서명이 아닌 직인이나 개인 도장을 사용해야 하는 경우가 있습니다. eformsign에서는 도장 이미지를
-        사용해 문서의 서명란에 도장을 찍을 수도 있습니다. 도장 이미지를 사용하려면, 서명 팝업에서 <emphasis
-        role="bold">도장</emphasis> 탭을 클릭하고 도장 이미지를 선택한 후 확인 버튼을 누릅니다.</para>
+        <para>署名ではなく印鑑やスタンプを使用する必要がある場合もあります。eformsign
+        では、印鑑やスタンプの画像を使用して文書の署名欄に印鑑・スタンプを入れることもできます。印鑑・スタンプの画像を使用するには、署名ポップアップで
+        <emphasis role="bold">印鑑・スタンプ</emphasis> タブをクリックして、印鑑・スタンプの画像を選択した後、OK
+        ボタンをクリックします。</para>
       </note>
 
-      <para><emphasis role="bold">③ 서명펜 두께</emphasis></para>
+      <para><emphasis role="bold">③ 署名ペンの太さ</emphasis></para>
 
-      <para>서명을 그릴 때 표시되는 선의 두께를 설정합니다.</para>
+      <para>署名を手書きで描画するときに表示される線の太さを設定します。</para>
 
-      <para><emphasis role="bold">④ 서명펜 색</emphasis></para>
+      <para><emphasis role="bold">④ 署名ペンの色</emphasis></para>
 
-      <para>서명을 그릴 때 표시하는 선의 색을 설정합니다.</para>
+      <para>署名を手書きで描画するときに表示される線の色を設定します。</para>
 
-      <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">⑤ ツールヒントのテキスト</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
 
       <note>
-        <para>전자 계약서, 전자 동의서 등 서명이 들어가는 문서에 서명일이 자동으로 입력되도록 설정할 수 있습니다.</para>
+        <para>電子契約書や電子同意書など、署名の入る文書に署名日付が自動的に入力されるように設定できます。</para>
 
-        <para>1. 전자 서식으로 변환할 문서 파일(워드, 엑셀, 파워포인트)을 열거나 혹은 새 문서를 만듭니다.</para>
+        <para>1.電子書式に変換する文書ファイル（Word、Excel、PowerPoint）を開くか、新しい文書を作成します。</para>
 
-        <para>2. 서명할 곳에 서명 입력항목을 추가합니다.</para>
+        <para>2.署名が必要な箇所に署名コンポーネントを追加します。</para>
 
-        <para>3. 추가한 서명 입력항목의 속성창에 입력항목 ID를 입력합니다. 예) 서명</para>
+        <para>3.追加した署名コンポーネントのプロパティタブにコンポーネントの 名前 を入力します。例）署名</para>
 
-        <para>4. 서명일이 입력될 곳에 사용일 입력항목을 추가합니다.</para>
+        <para>4.署名日付を入力したい箇所に使用日コンポーネントを追加します。</para>
 
-        <para>5. 사용일 입력항목의 속성창을 엽니다.</para>
+        <para>5.使用日コンポーネントの「プロパティ」タブを開きます。</para>
 
-        <para>6. 사용일 표시 유형을 ‘입력 값을 수정한 날짜’로 선택합니다.</para>
+        <para>6.使用日の書式設定を「入力値の変更日」とします。</para>
 
-        <para>7. 하단에 나타나는 입력항목 ID 입력란에 서명 입력항목 ID인 ‘서명’을 입력합니다.</para>
+        <para>7.下部に表示されるコンポーネントの「名前」の入力欄に、署名コンポーネントの 名前の「署名」を入力します。</para>
 
-        <para>※ 사용일 입력항목의 ‘표시형식’을 설정하여 날짜 표시 형식을 원하는 형태로 변경할 수 있습니다.</para>
+        <para>* 使用日コンポーネントの「書式設定」を設定することで、日付の表示形式を任意に変更できます。</para>
       </note>
     </section>
 
     <section xml:id="check2">
-      <title>체크</title>
+      <title>チェック</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>체크</secondary>
-        </indexterm>체크 입력항목은 각 항목의 체크 여부를 확인하고자 할때 사용합니다. 비슷한 입력항목 중 ‘선택’
-      입력항목이 있으며, 체크 입력항목은 해당 항목의 체크 여부를 확인할 때 사용하고, 선택 입력항목은 선택한 항목이 무엇인지 알아야
-      할 때 사용한다는 차이가 있습니다.</para>
+          <secondary>チェック</secondary>
+        </indexterm>チェックコンポーネントは、各項目にチェックが入っているかどうかを確認する場合に使用します。同様のコンポーネントには、「選択」コンポーネントがあります。両方の違いは、チェックコンポーネントは項目へのチェック有無を確認するときに使用し、選択コンポーネントは何を選択したのかを確認する必要があるときに使用することにあります。</para>
 
-      <para>체크 입력항목의 입력값은 데이터 다운로드 시 다음과 같이 나타납니다.</para>
+      <para>チェックコンポーネントの入力値は、データをダウンロードすれば、次のように表示されます。</para>
 
       <itemizedlist>
         <listitem>
-          <para>항목에 체크한 경우: true</para>
+          <para>項目にチェックが入っている場合：true</para>
         </listitem>
 
         <listitem>
-          <para>항목에 체크하지 않은 경우: false</para>
+          <para>項目にチェックが入っていない場合：false</para>
         </listitem>
       </itemizedlist>
 
-      <para>워드, 파워포인트에서는 체크 입력항목이 직사각형 도형처럼 나타납니다. 항목의 내용은 입력항목 도형 안에 입력해야
-      합니다.</para>
+      <para>Word、PowerPoint
+      では、チェックコンポーネントが長方形の図形のように表示されます。コンポーネントの内容は、コンポーネントの図形の中に入力する必要があります。</para>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <para><figure>
-          <title>체크 입력항목 속성 설정하기</title>
+          <title>チェックコンポーネントのプロパティの設定</title>
 
           <mediaobject>
             <imageobject>
@@ -495,20 +493,16 @@
           </mediaobject>
         </figure></para>
 
-      <para/>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para>チェックコンポーネントは、各コンポーネントごとに異なる 名前 を指定する必要があります。複数のチェックコンポーネントに同じ 名前
+      が与えられている場合は、最後のコンポーネントの入力値のみが表示されます。</para>
 
-      <para>체크 입력항목은 각 항목 별로 다른 ID를 부여해야 합니다. 여러 개의 체크 입력항목에 같은 ID가 부여될 경우 해당
-      입력항목 중 마지막 입력항목의 입력값만 표시됩니다.</para>
+      <para><emphasis role="bold">② チェックスタイル</emphasis></para>
 
-      <para><emphasis role="bold">② 체크 스타일</emphasis></para>
+      <para>選択コンポーネントは、プロパティでスタイルを設定できます。チェックを入れると、プロパティでチェックボックスがデフォルト設定されることになります。チェックボックス以外に、ラジオボタン、赤い丸囲みの円の形を選択することもできます。</para>
 
-      <para>선택 입력항목은 속성에서 스타일을 지정할 수 있습니다. 체크를 선택하면 속성에서 체크박스가 기본으로 설정되어 있으며,
-      이외에 라디오 버튼, 빨간 원 표시를 선택할 수 있습니다.</para>
-
-      <para>다음의 예시를 보면, 왼쪽부터 체크 / 라디오 / 원 선택 시 각각 체크박스가 어떻게 표시되는지를 알 수
-      있습니다.</para>
+      <para>次の例では、左からチェック/ラジオ/丸囲みを選択すると、各チェックボックスがどのように表示されるかが確認できます。</para>
 
       <mediaobject>
         <imageobject>
@@ -519,22 +513,21 @@
     </section>
 
     <section xml:id="select2">
-      <title>선택</title>
+      <title>選択</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>선택</secondary>
-        </indexterm>선택 입력항목은 여러 항목 중 어떤 항목을 선택했는지 확인해야 할 때 사용합니다. 선택 입력항목의
-      선택값은 데이터 다운로드 시 여러 항목 중 선택한 항목명이 나타납니다.</para>
+          <secondary>選択</secondary>
+        </indexterm>選択コンポーネントは、複数の項目のうち、どの項目が選択されているかを確認する必要がある場合に使用します。選択コンポーネントの選択値は、データがダウンロードされると、選択した項目の名前で表示されます。</para>
 
-      <para>워드, 파워포인트에서는 선택 입력항목이 직사각형 도형처럼 나타납니다. 항목의 내용은 입력항목 도형 안에 입력해야
-      합니다.</para>
+      <para>Word、PowerPoint
+      では、選択コンポーネントが長方形の図形のように表示されます。コンポーネントの内容は、コンポーネントの図形の中に入力する必要があります。</para>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <para><figure>
-          <title>선택 입력항목 속성 설정하기</title>
+          <title>選択コンポーネントのプロパティの設定</title>
 
           <mediaobject>
             <imageobject>
@@ -543,58 +536,58 @@
           </mediaobject>
         </figure></para>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>선택 입력항목의 선택 항목에는 선택 그룹마다 모두 같은 ID를 부여해야 합니다.</para>
+      <para>選択コンポーネント内の選択項目には、各選択グループに対して同じ 名前 を指定する必要があります。</para>
 
-      <para>예를 들어, 1번 문제에 대해 1, 2, 3, 4, 5의 보기가 있는 경우 1, 2, 3, 4, 5 항목에 같은 ID
-      ‘1번’을 부여합니다. 2번 문제의 1, 2, 3, 4, 5 보기에는 ‘2번’ ID를 부여합니다. 다음 예시 화면의 모든 선택
-      항목의 ID는 ‘나이 선택’으로 지정합니다.</para>
+      <para>たとえば、問題 1 に対して 1、2、3、4、5 の選択肢がある場合、1、2、3、4、5の項目に同じ 名前の
+      「問題1」を指定します。問題 2 の選択肢の1、2、3、4、5 に対しては 名前 を 「問題2」にします。次の例では、すべての選択項目の 名前
+      を 「年齢の選択」とします。</para>
 
       <figure>
-        <title>선택 입력항목의 설정 예</title>
+        <title>選択コンポーネントの設定の例</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/radio-items-should-have-same-ID_web.png"
+            <imagedata fileref="resources/radio-items-should-have-same-ID.png"
                        width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">② 선택 스타일</emphasis></para>
+      <para><emphasis role="bold">② 選択スタイル</emphasis></para>
 
-      <para>선택 입력항목은 속성에서 스타일을 지정할 수 있습니다. 빨간 동그라미가 나타나는 ‘원’이 기본으로 설정되어 있으며
-      이외에 체크박스, 라디오 버튼 표시를 선택할 수 있습니다.</para>
+      <para>選択コンポーネントは、プロパティでスタイルを設定できます。赤い丸囲みの「円」がデフォルトで設定されており、それ以外にチェックボックスとラジオボタン表示を選択することもできます。</para>
 
-      <para><emphasis role="bold">③ 다중 선택 가능</emphasis></para>
+      <para><emphasis role="bold">③ マルチ選択の可能</emphasis></para>
 
-      <para><emphasis role="bold">다중 선택 가능</emphasis>을 체크하면 1개 이상의 항목을 선택할 수
-      있습니다. 1개 이상의 항목을 선택한 경우 데이터 저장 시 선택된 여러 개의 항목이 콤마(,)로 구분되어 저장됩니다.</para>
+      <para><emphasis role="bold">マルチ選択の可能</emphasis>
+      にチェックを入れれば、複数の項目を選択できます。複数の項目が選択されている場合、データを保存するときに、選択した複数の項目がコンマ（ ,
+      ）で区切られて保存されます。</para>
 
-      <para><emphasis role="bold">④ 선택 안 함 가능</emphasis></para>
+      <para><emphasis role="bold">④ 未選択可能</emphasis></para>
 
-      <para><emphasis role="bold">선택 안 함</emphasis> 가능을 체크하면 선택한 항목을 다시 클릭해 선택
-      해제를 할 수 있습니다.</para>
+      <para><emphasis role="bold">未選択可能</emphasis>
+      にチェックを入れれば、選択した項目をもう一度クリックして選択解除できます。</para>
 
-      <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">⑤ ツールヒントのテキスト</emphasis></para>
 
-      <para>해당 입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
     </section>
 
     <section xml:id="label2">
-      <title>레이블</title>
+      <title>ラベル</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>레이블</secondary>
-        </indexterm>문서의 폼 ID를 설정할 수 있습니다.</para>
+          <secondary>ラベル</secondary>
+        </indexterm>文書のフォーム ID を設定できます。</para>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <figure>
-        <title>레이블 입력항목 속성 설정하기</title>
+        <title>ラベルコンポーネントのプロパティの設定</title>
 
         <mediaobject>
           <imageobject>
@@ -603,23 +596,23 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>문서의 폼 ID가 자동으로 생성되어 나타나며 변경도 가능합니다.</para>
+      <para>文書のフォーム ID は自動で生成され、変更もできます。</para>
 
-      <para>여기에서 정의된 폼 ID를 문서 편집 시에 적용할 수 있습니다.</para>
+      <para>ここで定義したフォーム ID は、文書を編集時に適用できます。</para>
     </section>
 
     <section xml:id="combo2">
-      <title>콤보</title>
+      <title>リスト選択</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>콤보</secondary>
-        </indexterm>여러가지 항목 중에서 한 항목을 선택해야 할 때 콤보 입력항목을 사용합니다.</para>
+          <secondary>リスト選択</secondary>
+        </indexterm>複数の項目から 1 つの項目を選択する必要がある場合は、リスト選択コンポーネントを使用します。</para>
 
-      <para>다음과 같이 선택란을 클릭하면 항목 리스트가 나타납니다.</para>
+      <para>チェックボックスをクリックすると、項目のリストが表示されます。</para>
 
       <mediaobject>
         <imageobject>
@@ -627,10 +620,10 @@
         </imageobject>
       </mediaobject>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <figure>
-        <title>콤보 입력항목 속성 설정하기</title>
+        <title>リスト選択コンポーネントのプロパティの設定</title>
 
         <mediaobject>
           <imageobject>
@@ -639,55 +632,51 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>콤보 입력항목의 ID를 입력합니다. 예를 들어, 좋아하는 색을 고르는 입력항목의 ID는 ‘좋아하는 색’으로
-      합니다.</para>
+      <para>リスト選択コンポーネントの「名前」を入力します。たとえば、お気に入りの色を選択するコンポーネントの名前は「お気に入りの色」とします。</para>
 
-      <para><emphasis role="bold">② Items</emphasis></para>
+      <para><emphasis role="bold">② リスト表示項目</emphasis></para>
 
-      <para>선택 항목들을 입력합니다. 엔터(Enter)로 여러 항목을 구분합니다.</para>
+      <para>選択肢の項目を入力します。複数の項目を Enter キーで区切ります。</para>
 
       <note>
-        <para>콤보 입력항목의 선택란에 ‘선택하세요’를 표시하려면, Items 항목 가장 위에 ‘선택하세요’를 입력하고 입력항목
-        안에도 동일하게 ‘선택하세요’를 입력합니다.</para>
+        <para>リスト選択コンポーネントの最上部に「選択してください」を表示するには、リスト表示項目の第一項目として「選択してください」と入力します。その後、文書を送信する前のプレビュー時に、そのコンポーネント内で「選択してください」を選択してから送信してください。</para>
       </note>
 
-      <para><emphasis role="bold">③ 입력 데이터 초기화 가능</emphasis></para>
+      <para><emphasis role="bold">③ 入力データを初期化可能</emphasis></para>
 
-      <para>입력 데이터 초기화 가능에 체크하면 선택한 항목을 선택 해제할 수 있습니다. 입력 데이터 초기화는 다음과 같이 실행할
-      수 있습니다.</para>
+      <para>「入力データを初期化可能」にチェックを入れると、選択した項目を選択解除できます。入力データの初期化は、次のように実行します。</para>
 
       <itemizedlist>
         <listitem>
-          <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 ‘입력 데이터 초기화’를
-          선택합니다.</para>
+          <para>PC
+          環境：コンポーネントを右クリックして表示されるポップアップメニューから「入力データを初期化可能」を選択します。</para>
         </listitem>
 
         <listitem>
-          <para>모바일 환경: 휴지통 아이콘을 클릭합니다.</para>
+          <para>モバイル環境：ごみ箱 アイコンをクリックします。</para>
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">④ ツールヒントのテキスト</emphasis></para>
 
-      <para>선택란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>選択欄にカーソルを合わせると、入力した説明がツールヒントのテキストに表示されます。</para>
     </section>
 
     <section xml:id="date2">
-      <title>날짜</title>
+      <title>日付</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>날짜</secondary>
-        </indexterm>날짜를 입력해야 할 때 사용합니다. 입력란을 클릭하면 날짜 선택창이 나타나며 원하는 날짜를 선택할 수
-      있습니다.</para>
+          <secondary>日付</secondary>
+        </indexterm>日付を入力する必要がある場合に使用します。入力欄をクリックすると、日付ピッカーが表示され、目的の日付を選択できます。</para>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <figure>
-        <title>날짜 입력항목 속성 설정하기</title>
+        <title>日付コンポーネントのプロパティの設定</title>
 
         <mediaobject>
           <imageobject>
@@ -696,63 +685,61 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>날짜 입력항목의 ID를 입력합니다. 예를 들어, 휴가 시작일을 선택하는 입력항목의 ID는 ‘휴가 시작일’로
-      합니다.</para>
+      <para>日付コンポーネントの「名前」を入力します。たとえば、休暇の開始日を選択するコンポーネントの名前 は 「休暇の開始日」
+      にします。</para>
 
-      <para><emphasis role="bold">② 표시형식</emphasis></para>
+      <para><emphasis role="bold">② 書式設定</emphasis></para>
 
-      <para>날짜가 표시되는 형식을 지정합니다. 기본 설정값은 date_yyyy-MM-dd입니다.</para>
+      <para>日付を表示する書式を指定します。デフォルト設定は、date_yyyy-MM-dd です。</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">yyyy:</emphasis> 연도’를 표시합니다. (yyyy년 =
-          2020년)</para>
+          <para><emphasis role="bold">yyyy：</emphasis>
+          「年度」を表示します。（yyyy年＝2020年）</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">MM:</emphasis> ‘월’을 표시합니다. 반드시 대문자로 표기해야
-          합니다. (MM월 = 8월)</para>
+          <para><emphasis role="bold">MM：</emphasis>
+          「月」を表示します。月の表現は大文字にする必要があります。（MM月＝8月）</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">dd:</emphasis> ‘일’을 표시합니다. (dd일 =
-          10일)</para>
+          <para><emphasis role="bold">dd：</emphasis> 「日」を表示します。（dd日 =
+          10日）</para>
         </listitem>
       </itemizedlist>
 
-      <para>‘2020년 2월 5일’처럼 나타나게 하려면, 표시형식에 ‘yyyy년 MM월 dd일’로 입력합니다.</para>
+      <para>「2020年 2月 5日」のように表示するには、書式設定に「yyyy年 MM月 dd日」と入力します。</para>
 
-      <para><emphasis role="bold">③ 입력 가능 최소/최대 날짜</emphasis></para>
+      <para><emphasis role="bold">③ 入力可能な最小/最大日付</emphasis></para>
 
-      <para>날짜 선택 시 선택할 수 있는 최소, 최대 날짜를 지정하여 입력 가능한 날짜의 범위를 설정합니다.</para>
+      <para>日付の選択時に選択可能な最小日付と最大日付を指定して、入力可能な日付の範囲を設定します。</para>
 
-      <para><emphasis role="bold">④ 빈 값일 때 오늘 날짜 표시</emphasis></para>
+      <para><emphasis role="bold">④ 空の値の場合、今日の日付を表示</emphasis></para>
 
-      <para>문서를 열었을 때 자동으로 오늘 날짜가 입력되도록 설정합니다. 날짜 입력항목 추가 시 기본으로 체크되어 있습니다. 오늘
-      날짜가 입력된 입력란을 다시 클릭하면 다른 날짜를 선택할 수 있습니다.</para>
+      <para>文書を開いたときに今日の日付が自動で入力されるように設定します。日付コンポーネントを追加すると、デフォルトでチェックが入っています。別の日付を選択するには、今日の日付が入力されている入力欄をもう一度クリックしてください。</para>
 
-      <para><emphasis role="bold">⑥ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">⑥ ツールヒントのテキスト</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
     </section>
 
     <section xml:id="numeric2">
-      <title>숫자</title>
+      <title>数字</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>숫자</secondary>
-        </indexterm>숫자를 입력해야 할 때 사용합니다. 입력란을 클릭하면 오른쪽에 두 개의 화살표가 나타나며, 위 아래
-      화살표 버튼을 눌러 숫자를 증감시킬 수 있습니다. PC 키보드 환경에서는 입력란에 직접 원하는 숫자를 입력할 수 있습니다.
-      스마트폰, 태블릿 환경에서는 입력 범위 숫자 리스트에서 스크롤하여 원하는 숫자를 선택할 수 있습니다.</para>
+          <secondary>数字</secondary>
+        </indexterm>数字を入力する必要がある場合に使用します。入力欄をクリックすると、2つの矢印が表示されます。「上へ」もしくは「下へ」の矢印ボタンを押して、数字を増減できます。PC
+      のキーボード環境では、入力欄に任意の数字を直接入力できます。スマートフォンやタブレット環境では、入力範囲の数字リストをスクロールして目的の数字を選択できます。</para>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <figure>
-        <title>숫자 입력항목 속성 설정하기</title>
+        <title>数字コンポーネントのプロパティの設定</title>
 
         <mediaobject>
           <imageobject>
@@ -761,40 +748,38 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>숫자 입력항목의 ID를 입력합니다. 예를 들어, 예약 인원을 입력하는 입력항목의 ID는 ‘예약 인원’으로
-      합니다.</para>
+      <para>数字コンポーネントの 名前 を入力します。たとえば、予約人員の数を入力するコンポーネントの 名前
+      は、「予約人員」にします。</para>
 
-      <para><emphasis role="bold">② 증감 단위</emphasis></para>
+      <para><emphasis role="bold">② 変化の増分</emphasis></para>
 
-      <para>입력란의 증가/감소 아이콘을 클릭할 때마다 현재 입력된 값에서 증감시킬 값을 입력합니다. 예를 들어, 증감 단위를
-      100으로 설정하고 문서를 작성할 때 입력란 오른쪽의 위 화살표(▲)를 클릭하면 입력된 값에서 200, 300, …으로
-      증가합니다.</para>
+      <para>入力欄の増加/減少のアイコンをクリックするたびに、現在入力されている値から増減する値を入力します。たとえば、増分の単位を 100
+      に設定して文書を作成する場合、入力欄の右側にある上への矢印（▲）をクリックすると、入力値から 200、300、...
+      に増加します。</para>
 
-      <para><emphasis role="bold">③ 입력 가능 최솟값/최댓값</emphasis></para>
+      <para><emphasis role="bold">③ 入力可能な最小値/最大値</emphasis></para>
 
-      <para>입력 가능 최솟값/최댓값을 지정하여 입력 가능한 숫자의 범위를 설정합니다. 예를 들어, 생년월일의 경우 보통 최솟값을
-      1900, 최댓값을 현재 년도, 증감 단위를 1로 지정합니다. 최솟값 또는 최댓값이 지정된 상태에서 범위 외의 숫자를 입력하면
-      자동으로 최솟값 또는 최댓값이 입력됩니다. 즉, 최댓값이 100으로 지정되었을 때, 입력란에 101을 입력하면 숫자가 자동으로
-      최댓값인 100으로 변경됩니다.</para>
+      <para>入力可能な最小値と最大値を指定して、入力可能な数字の範囲を設定します。たとえば、生年月日の場合は、通常、最小値を1900、最大値を現在の年度、増分の単位を1で指定します。最小値または最大値が指定されている状態で範囲外の数字を入力すると、最小値または最大値が自動で入力されます。つまり、最大値が
+      100 の場合、入力欄に 101 を入力すると、数字が自動的に最大値の 100 に変更されます。</para>
 
-      <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">④ ツールヒントのテキスト</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
     </section>
 
     <section xml:id="toggle2">
-      <title>토글</title>
+      <title>トグル</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>토글</secondary>
-        </indexterm>켜짐(ON), 꺼짐(OFF)과 같은 특정한 상태를 나타낼 때 사용합니다. 토글 입력항목을 사용하면
-      입력항목을 클릭할 때마다 미리 설정한 항목의 순서대로 입력값이 전환됩니다.</para>
+          <secondary>トグル</secondary>
+        </indexterm>ON や OFF
+      など、特定の状態を示すために使用します。トグルコンポーネントを使用すれば、コンポーネントをクリックするたびに、予め設定しておいた項目順で入力値が切り替わります。</para>
 
-      <para>다음과 같이 입력항목을 클릭하여 양호, 불량 상태로 변경할 수 있습니다.</para>
+      <para>次のようにコンポーネントをクリックして、「良好」または「不良」に変更できます。</para>
 
       <mediaobject>
         <imageobject>
@@ -802,10 +787,10 @@
         </imageobject>
       </mediaobject>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <figure>
-        <title>토글 입력항목 속성</title>
+        <title>トグルコンポーネントのプロパティの設定</title>
 
         <mediaobject>
           <imageobject>
@@ -814,48 +799,41 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>토글 입력항목의 ID를 입력합니다. 예를 들어, 첫번째 점검 항목에 대한 입력항목인 경우 ‘점검항목 1’로
-      합니다.</para>
+      <para>トグルコンポーネントの 名前 を入力します。たとえば、最初の点検項目に対するコンポーネントであれば、「点検項目
+      1」にします。</para>
 
-      <para><emphasis role="bold">② Items</emphasis></para>
+      <para><emphasis role="bold">② リスト表示項目</emphasis></para>
 
-      <para>토글 입력항목을 클릭할 때마다 전환될 항목 리스트를 입력합니다. 엔터(Enter)로 여러 항목을
-      구분합니다.</para>
+      <para>トグルコンポーネントをクリックするたびに、切り替わる項目のリストを入力します。複数の項目を Enter
+      キーで区切ります。</para>
 
-      <para><emphasis role="bold">③ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">③ ツールヒントのテキスト</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
     </section>
 
     <section xml:id="camera2">
-      <title>카메라</title>
+      <title>写真</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>카메라</secondary>
-        </indexterm>스마트폰, 태블릿 등 카메라가 있는 기기로 사진을 찍어 문서에 올릴 때에 사용합니다. 카메라가 없는 PC
-      환경에서는 입력항목을 클릭하면 이미지 파일을 선택할 수 있는 선택창이 나타납니다.</para>
+          <secondary>写真</secondary>
+        </indexterm>スマートフォンやタブレットなどのカメラを搭載したデバイスで写真を撮り、文書にアップロードするときに使用します。カメラのない
+      PC 環境では、コンポーネントをクリックすると選択ウィンドウが表示され、画像ファイルを選択できます。</para>
 
-      <para>선택한 이미지의 크기가 입력란의 크기보다 클 경우 입력란 안에 들어갈 수 있도록 축소되어 올라갑니다.</para>
+      <para>選択した画像のサイズが入力欄のサイズより大きい場合、入力欄内に入るサイズに縮小してアップロードされます。</para>
 
       <note>
-        <para>카메라 입력항목의 경우 카메라가 연결된 환경에서는 카메라 기능이 실행되고, 카메라가 연결되지 않은 환경에서는 이미지
-        파일 선택 창이 실행됩니다.</para>
+        <para>写真コンポーネントの場合、カメラを利用できる環境ではカメラ機能が実行され、カメラの利用できない環境では画像ファイルの選択ウィンドウが実行されます。</para>
       </note>
 
-      <mediaobject>
-        <imageobject>
-          <imagedata fileref="resources/camera1.png"/>
-        </imageobject>
-      </mediaobject>
-
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <figure>
-        <title>카메라 입력항목 속성 설정하기</title>
+        <title>カメラコンポーネントのプロパティの設定</title>
 
         <mediaobject>
           <imageobject>
@@ -864,48 +842,46 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>카메라 입력항목의 ID를 입력합니다. 예를 들어, 신분증 사진을 촬영하는 입력항목의 ID는 ‘신분증 사진’으로
-      합니다.</para>
+      <para>カメラコンポーネントの 名前
+      を入力します。たとえば、IDカードの写真を撮影するコンポーネントの名前は「身分証明のための写真」です。</para>
 
-      <para><emphasis role="bold">② 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">② ツールヒントのテキスト</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
     </section>
 
     <section xml:id="record2">
-      <title>녹음</title>
+      <title>録音</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>녹음</secondary>
-        </indexterm>문서에 사용자의 녹음 데이터를 저장해야 할 때 사용합니다. 최대 녹음 시간을 설정할 수 있으며 사용자가
-      이미 녹음된 내용을 듣기만 할 수 있도록 설정할 수도 있습니다.</para>
+          <secondary>録音</secondary>
+        </indexterm>ユーザーの録音データを文書に保存する必要がある場合に使用します。最大録音時間を設定することも、すでに録音された内容を聴けるように設定することもできます。</para>
 
-      <para>OZ in Office에서 녹음 입력항목을 추가하면 뷰어에서 다음과 같이 녹음된 내용을 재생하거나 새로운 녹음을 할 수
-      있습니다.</para>
+      <para>OZ in Office
+      に録音コンポーネントを追加すると、ビューアーで録音したコンテンツを再生したり、新しい録音を行ったりすることができます。</para>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/record1.png" width="400"/>
+          <imagedata fileref="resources/record1.png" width="300"/>
         </imageobject>
       </mediaobject>
 
       <note>
-        <para>녹음 제한시간이 1 이상 설정되어 있는 경우, 설정된 시간(단위:초) 만큼 녹음이 되면 자동으로 녹음 완료가
-        됩니다.</para>
+        <para>録音のタイムアウトが1以上に設定されている場合、設定した時間（単位：秒）の分だけ録音したら、自動で録音が完了します。</para>
 
-        <para>ActiveX 뷰어인 경우 녹음 재생 UI는 Windows 8 이상부터 지원합니다.</para>
+        <para>ActiveX ビューアーでは、Windows 8 以降から、録音の再生 UI をサポートしています。</para>
 
-        <para>녹음 입력항목은 PC 환경에서 실행 시 음성 녹음기가 연결된 경우에만 동작합니다.</para>
+        <para>録音コンポーネントを PC 環境で実行する場合、ボイスレコーダーを利用できるときだけ機能します。</para>
       </note>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <para><figure>
-          <title>녹음 입력항목 속성 설정하기</title>
+          <title>録音コンポーネントのプロパティの設定</title>
 
           <mediaobject>
             <imageobject>
@@ -914,41 +890,40 @@
           </mediaobject>
         </figure></para>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>녹음 입력항목의 ID를 입력합니다. 예를 들어, 녹음을 재생하는 입력항목의 ID를 ‘녹음’으로 합니다.</para>
+      <para>録音コンポーネントの「名前」を入力します。たとえば、録音を再生するコンポーネントの 名前 を「録音」に設定します。</para>
 
-      <para><emphasis role="bold">② 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">② ツールヒントのテキスト</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
     </section>
 
     <section xml:id="attach2">
-      <title>첨부</title>
+      <title>添付</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>첨부</secondary>
-        </indexterm>문서에 별도로 첨부하는 문서가 있을 때 사용합니다. 첨부 입력항목을 통해 문서를 첨부할 경우 문서의 맨
-      끝에 첨부한 문서가 새로운 페이지로 추가됩니다.</para>
+          <secondary>添付</secondary>
+        </indexterm>文書に添付が必要な他の文書がある場合に使用します。添付コンポーネントを使用して文書を添付すると、添付した文書は元来の文書の最後に新しいページとして追加されます。</para>
 
-      <para>첨부 가능한 파일의 종류와 크기는 다음과 같습니다.</para>
+      <para>添付可能なファイルのタイプとサイズは次のとおりです。</para>
 
       <itemizedlist>
         <listitem>
-          <para>파일 종류: PDF, JPG, PNG, GIF</para>
+          <para>ファイルタイプ：PDF、JPG、PNG、GIF</para>
         </listitem>
 
         <listitem>
-          <para>파일 크기: 최대 5MB까지</para>
+          <para>ファイルサイズ：最大 5 MB までサポート</para>
         </listitem>
       </itemizedlist>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <figure>
-        <title>첨부 입력항목 속성 설정하기</title>
+        <title>添付コンポーネントのプロパティの設定</title>
 
         <mediaobject>
           <imageobject>
@@ -957,34 +932,34 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>첨부 입력항목의 ID를 입력합니다. 예를 들어, 재직증명서를 첨부하는 입력항목의 ID는 ‘재직증명서 첨부’로
-      합니다.</para>
+      <para>添付コンポーネントの 名前 を入力します。たとえば、在職証明書を添付するコンポーネントの 名前
+      は「在職証明書」とします。</para>
 
-      <para><emphasis role="bold">② 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">② ツールヒントのテキスト</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>入力欄にカーソルを合わせると、入力した説明がツールヒントのテキストとして表示されます。</para>
     </section>
 
     <section xml:id="document2">
-      <title>문서</title>
+      <title>文書</title>
 
       <para><indexterm class="singular">
-          <primary>입력항목</primary>
+          <primary>コンポーネント</primary>
 
-          <secondary>문서</secondary>
-        </indexterm>문서 입력항목은 문서 내에 문서 관련 정보를 입력해야 할 때 사용합니다. 문서 ID와 문서 번호 중
-      원하는 정보를 선택해 입력할 수 있습니다.</para>
+          <secondary>文書</secondary>
+        </indexterm>文書コンポーネントは、文書内に文書関連の情報を入力する必要がある場合に使用します。文書 ID
+      と文書番号のいずれかを選択した後、必要な情報を入力します。</para>
 
-      <para>문서 ID는 시스템에서 부여하는 문서 고유의 ID이기 때문에 별도의 설정이 필요하지 않습니다. 문서 번호와 관련된
-      설정은 템플릿을 업로드한 뒤 <emphasis role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 할 수
-      있습니다.</para>
+      <para>文書 ID は、システムが付与する文書固有の ID
+      であるため、設定を必要としません。文書番号に関する設定は、テンプレートをアップロードした後、 <emphasis
+      role="bold">テンプレートの設定 &gt; 全般</emphasis> で行えます。</para>
 
-      <para><emphasis role="bold">입력항목 속성</emphasis></para>
+      <para><emphasis role="bold">コンポーネントのプロパティ</emphasis></para>
 
       <figure>
-        <title>문서 입력항목 속성 설정하기</title>
+        <title>文書コンポーネントのプロパティの設定</title>
 
         <mediaobject>
           <imageobject>
@@ -993,69 +968,68 @@
         </mediaobject>
       </figure>
 
-      <para><emphasis role="bold">① ID</emphasis></para>
+      <para><emphasis role="bold">① 名前</emphasis></para>
 
-      <para>문서 입력항목의 ID를 입력합니다. 예를 들어, 문서 번호를 입력하는 경우 입력항목 ID는 ‘문서 번호’로
-      합니다.</para>
+      <para>文書コンポーネントの 名前 を入力します。たとえば、文書番号を入力すると、コンポーネントの 名前
+      は「文書番号」になります。</para>
 
-      <para><emphasis role="bold">② 문서 정보 유형</emphasis></para>
+      <para><emphasis role="bold">② 文書情報のタイプ</emphasis></para>
 
-      <para>어떤 문서 정보를 사용할 것인지 선택합니다.</para>
+      <para>使用したい文書情報を選択します。</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">문서 ID: </emphasis>시스템에서 모든 문서에 부여하는 문서의
-          고유한 ID로, 32자리의 알파벳과 숫자의 조합으로 나타납니다. 예)
-          0077af27a98846c8872f5333920679b7</para>
+          <para><emphasis role="bold">文書 ID：</emphasis>システムがすべての文書に付与する文書固有の
+          ID で、32 桁の英数字の組み合わせで表示されます。例）0077af27a98846c8872f5333920679b7</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">문서 번호:</emphasis> <emphasis
-          role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 설정된 문서 번호입니다. 문서 번호를 설정하는
-          방법은 <xref linkend="docnumber_wd"/>를 참고하세요.</para>
+          <para><emphasis role="bold">文書番号：</emphasis> <emphasis
+          role="bold">テンプレートの設定 &gt;
+          全般</emphasis>で設定した文書番号です。文書番号の設定については、<xref
+          linkend="docnumber_wd"/>をご参照ください。</para>
         </listitem>
       </itemizedlist>
     </section>
   </section>
 
   <section>
-    <title>템플릿에 대한 추가 설정하기</title>
+    <title>テンプレートを追加設定する</title>
 
-    <para>배경서식 위에 입력항목을 배치하고 나면, 템플릿 제목, 문서 번호, 워크플로우 등 템플릿으로 생성되는 문서에 대한 추가
-    설정을 할 수 있습니다.</para>
+    <para>背景書式の上にコンポーネントを追加したら、テンプレートで作成した文書について、テンプレートのタイトル、文書番号、ワークフローなどの追加設定を行うことができます。</para>
 
-    <para>폼 디자인하기 화면에서 <emphasis role="bold">다음</emphasis> 버튼을 눌러 설정하기로 이동합니다.
-    설정하기 화면에서는 다음의 5가지 설정을 하여 템플릿을 설정할 수 있습니다.</para>
+    <para>「デザインする」の画面で、 <emphasis role="bold">次へ</emphasis> ボタンをクリックして設定する
+    に移動します。「設定する」画面では、次の5つの設定を行い、テンプレートを設定することができます。</para>
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">일반 설정: </emphasis>템플릿 이름, 약칭, 문서 제목, 문서 번호
-        등을 설정합니다.</para>
+        <para><emphasis
+        role="bold">全般：</emphasis>テンプレート名、略称、文書のタイトル、文書番号などを設定します。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">권한 설정: </emphasis>해당 템플릿으로 생성된 문서를 관리할 멤버나
-        그룹을 지정합니다.</para>
+        <para><emphasis
+        role="bold">権限の設定：</emphasis>このテンプレートで作成した文書を管理するメンバーまたはグループを指定します。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">워크플로우 설정: </emphasis>문서의 작성부터 완료까지 작성된 문서가
-        거쳐갈 단계를 설정합니다.</para>
+        <para><emphasis
+        role="bold">ワークフローの設定：</emphasis>文書の作成から完了までのステップをを設定します。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">필드 설정: </emphasis>필드의 기본값, 자동 입력 값 등을
-        설정합니다.</para>
+        <para><emphasis
+        role="bold">フィールドの設定：</emphasis>フィールドの基本値、自動入力値などのデフォルト値を設定します。</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">알림 설정: </emphasis>템플릿으로 생성된 문서에 대한 요청과 알림을
-        보낼 메시지를 설정합니다.</para>
+        <para><emphasis
+        role="bold">通知の設定：</emphasis>テンプレートを利用して作成した文書を依頼するときとその文書に関する通知を送信するときの通知メッセージを設定します。</para>
       </listitem>
     </itemizedlist>
 
     <para><figure>
-        <title>템플릿의 5가지 설정 항목</title>
+        <title>テンプレートの 5つの設定項目</title>
 
         <mediaobject>
           <imageobject>
@@ -1064,11 +1038,11 @@
         </mediaobject>
       </figure></para>
 
-    <para>4 모든 설정을 완료하면 <emphasis role="bold">저장</emphasis> 버튼을 눌러 설정을
-    저장합니다.</para>
+    <para>4 すべての設定が完了したら、 <emphasis role="bold">保存</emphasis>
+    ボタンをクリックして設定を保存します。</para>
 
     <note>
-      <para>템플릿에 대한 상세한 설명은 <xref linkend="template_wd"/>를 참고하시기 바랍니다.</para>
+      <para>テンプレートの詳細な説明については、<xref linkend="template_wd"/>をご参照ください。</para>
     </note>
   </section>
 </chapter>
