@@ -188,9 +188,9 @@
             <primary>Documents</primary>
           </indexterm>Multiple documents can be created using a template by
         going to the <emphasis role="bold">New document</emphasis> menu or
-        clicking <emphasis role="bold">Create new document</emphasis> button.
-        The number of documents created in eformsign refers to the documents
-        created here.</para>
+        clicking the <emphasis role="bold">Create new document</emphasis>
+        button. The number of documents created in eformsign refers to the
+        documents created here.</para>
       </listitem>
 
       <listitem>
@@ -199,7 +199,7 @@
         <para><indexterm class="singular">
             <primary>Documents</primary>
           </indexterm>This is is a cloud space for storing and viewing
-        documents and it consists of 3 spaces according to the document
+        documents and it consists of three spaces according to the document
         status.</para>
 
         <itemizedlist>
