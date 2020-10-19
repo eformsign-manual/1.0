@@ -16,12 +16,12 @@
       </indexterm>Documents are stored in the following three menus according
     to the document status. By using these menus, you can easily view the
     status and history of each document, find the documents you want by
-    filtering and searching, resend documents, delete/reject documents that
-    have yet to be completed in the workflow, and edit draft documents.</para>
+    filtering and searching, resend documents, void/reject documents that have
+    yet to be completed in the workflow, and edit draft documents.</para>
 
-    <para>By using the documents menus, you can store all documents and
-    related activities as well as well as viewing detailed information about
-    the document status and history.</para>
+    <para>By using the<emphasis role="bold"> Documents</emphasis> menus, you
+    can store all documents and related activities as well as well as viewing
+    detailed information about the document status and history.</para>
 
     <itemizedlist>
       <listitem>
@@ -65,9 +65,7 @@
             class="singular">
             <primary>Manage documents</primary>
           </indexterm>View and manage all documents created from a template in
-        which you have been given access permission. By default, the company
-        administrator can view and manage all the documents of all templates
-        in the company.</para>
+        which you have been given access permission.</para>
       </listitem>
     </itemizedlist>
 
@@ -75,8 +73,6 @@
       <para>The company administrator can view and manage all documents in the
       company.</para>
     </note>
-
-    <para/>
 
     <figure>
       <title>Location of the Documents Menus and the Manage Documents
@@ -89,13 +85,13 @@
       </mediaobject>
     </figure>
 
-    <para>The layout of the three documents menus and the 'Manage documents'
+    <para>The layout of the three Documents menus and the Manage documents
     menu are laid out almost the same.</para>
 
     <para><note>
-        <para>The layout of the documents menus are very similar to each
+        <para>The layout of the Documents menus are very similar to each
         other, but the documents that are displayed differ according to the
-        document status or permission.</para>
+        document status or granted permission to users.</para>
       </note></para>
 
     <figure>
@@ -112,7 +108,7 @@
 
     <orderedlist>
       <listitem>
-        <para><emphasis role="bold">Menu and home icons, and document menu
+        <para><emphasis role="bold">Menu and home icon, and document menu
         name</emphasis></para>
 
         <para>You can go to another menu by clicking the menu
@@ -151,7 +147,7 @@
 
         <para>The information of each document are provided in columns and
         contain information such as the document status, name, step, creator,
-        processed date, document date, and document number. You can sort the
+        created date, processed date, and document number. You can sort the
         documents by clicking the column icon (<inlinemediaobject>
             <imageobject>
               <imagedata fileref="resources/column_icon.png" width="35"/>
@@ -170,11 +166,13 @@
 
         <para>You can check the documents status and history.</para>
 
-        <para>In the 'Document status' tab, you can see what happens to a
-        document in each step of the workflow.</para>
+        <para>In the <emphasis role="bold">Document status</emphasis> tab, you
+        can see what happens to a document in each step of the
+        workflow.</para>
 
-        <para>In the 'History' tab, you can see the activities of the document
-        creator and recipients from document creation to completion.</para>
+        <para>In the<emphasis role="bold"> History</emphasis> tab, you can see
+        the activities of the document creator and recipients from document
+        creation to completion.</para>
       </listitem>
 
       <listitem>
@@ -183,37 +181,45 @@
         download</link> icon, and <link
         linkend="document_delete">delete</link> icon </emphasis></para>
 
-        <para>Clicking the (<inlinemediaobject>
+        <para>Clicking the column selection (<inlinemediaobject>
             <imageobject>
               <imagedata fileref="resources/column_icon.png" width="35"/>
             </imageobject>
-          </inlinemediaobject>) icon displays the the column types which you
-        can check to select which columns will be displayed in the document
+          </inlinemediaobject>) icon displays the column types which you can
+        check to select which columns will be displayed in the document
         list.</para>
 
-        <para>Clicking the download icon allows to select the documents in the
-        list you want to download. You can select multiple documents to
-        download at once and choose the file type including the PDF of the
-        completed documents, audit certificate, and CSV of selected
-        fields.</para>
+        <para>Clicking the download icon (<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/download-icon.PNG" width="30"/>
+            </imageobject>
+          </inlinemediaobject>) allows to select the documents in the list you
+        want to download. You can select multiple documents to download at
+        once and choose the file type including the PDF of the completed
+        documents, audit certificate, and CSV of selected fields.</para>
 
-        <para>Note that the delete icon is disabled in the three document
-        menus, but is enabled in the 'Manage documents' menu.</para>
+        <para>Note that the delete icon (<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="resources/delete_icon1.png" width="30"/>
+            </imageobject>
+          </inlinemediaobject>) is disabled in the three document menus, but
+        is enabled in the<emphasis role="bold"> Manage documents</emphasis>
+        menu.</para>
 
         <note>
           <para>Documents can be deleted only in the <emphasis
-          role="bold">'Manage documents'</emphasis> menu and you can only
-          delete documents in which you have document management permission.
-          The company administrator or the template manager of a template can
+          role="bold">Manage documents</emphasis> menu and you can only delete
+          documents in which you have document management permission. The
+          company administrator or the template manager of a template can
           grant you document management permission for all documents created
-          from a template in <emphasis role="bold">'Manage templates' &gt;
-          'Template settings' &gt; 'Set permissions' &gt; 'Document
-          management' </emphasis>and selecting the groups/members you want to
-          grant permission.<emphasis role="bold"> </emphasis>Document
-          management permission can be set for each template. Members with
-          this permission can open, delete, and download (PDF, CSV) the
-          documents created from this template in the '<emphasis
-          role="bold">Manage documents</emphasis>' menu.</para>
+          from a template in <emphasis role="bold">Manage templates &gt;
+          Template settings &gt; Set permissions &gt; Document management
+          </emphasis>and selecting the groups/members you want to grant
+          permission.<emphasis role="bold"> </emphasis>Document management
+          permission can be set for each template. Members with this
+          permission can open, delete, and download (PDF, CSV) the documents
+          created from this template in the <emphasis role="bold">Manage
+          documents</emphasis>' menu.</para>
         </note>
       </listitem>
     </orderedlist>
@@ -223,8 +229,9 @@
       and Search Box</title>
 
       <para>The template category combo box, document status filter combo box,
-      and search box are located at the top left side of the documents menus
-      and the 'Manage documents' menu.</para>
+      and search box are located at the top left side of the<emphasis
+      role="bold"> Documents</emphasis> menus and the <emphasis
+      role="bold">Manage documents</emphasis> menu.</para>
 
       <itemizedlist>
         <listitem>
@@ -256,10 +263,12 @@
 
       <para>By using the template category combo box, you can display the list
       of documents by template category by selecting the desired template
-      available in the 'Manage templates' menu.</para>
+      available in the <emphasis role="bold">Manage templates</emphasis>
+      menu.</para>
 
-      <para>Clicking the 'X' icon of the template category combo displays the
-      templates according to categories as shown below.</para>
+      <para>Clicking the <emphasis role="bold">X</emphasis> icon of the
+      template category combo displays the templates according to categories
+      as shown below.</para>
 
       <figure>
         <title>Template Category Combo Box</title>
@@ -288,10 +297,11 @@
 
       <para>The following table describes the filters that can be used for
       performing searches. However, custom filters can only be used in the
-      'Manage documents' and 'Completed' menus.</para>
+      <emphasis role="bold">Manage documents</emphasis> and <emphasis
+      role="bold">Completed</emphasis> menus.</para>
 
       <table>
-        <title>List of Filter Types</title>
+        <title>List of filter types</title>
 
         <tgroup cols="4">
           <thead>
@@ -410,7 +420,7 @@
             <row>
               <entry>Processed by</entry>
 
-              <entry>Processed by</entry>
+              <entry>Requested by</entry>
 
               <entry>Step status</entry>
 
@@ -420,7 +430,7 @@
             <row>
               <entry>Processed on</entry>
 
-              <entry>Processed on</entry>
+              <entry>Requested on</entry>
 
               <entry>Custom filter</entry>
 
@@ -459,7 +469,8 @@
           <secondary>Using the custom filter</secondary>
         </indexterm></emphasis></para>
 
-      <para>1. Select 'Custom Filter' in the Advanced search combo box.</para>
+      <para>1. Select <emphasis role="bold">Custom Filter</emphasis> in the
+      <emphasis role="bold">Advanced</emphasis> search combo box.</para>
 
       <figure>
         <title>Custom Filter</title>
@@ -476,28 +487,31 @@
 
       <para>The default value of the field name is an empty value.</para>
 
-      <para>Make sure to manually enter the field name of the document you
-      want to search for.</para>
+      <para>Make sure to manually enter the Display name of the field in the
+      document you want to search for. You can view the Display name for
+      fields in the <emphasis role="bold">Template settings &gt;
+      Field</emphasis> setting menu.</para>
 
       <note>
         <para>1. Documents may not be searched if you search for a document by
-        entering the field name that does not exist.</para>
+        entering the display name of the field that does not exist.</para>
 
-        <para>2. You cannot enter special characters in the field name(", ',
+        <para>2. You cannot enter special characters in the display name(", ',
         ;, &lt;, &gt;, \).</para>
 
-        <para>3. Empty spaces before and after the field name are all removed.
-        For example, “Time off ”  “Time off”</para>
+        <para>3. Empty spaces before and after the display name are all
+        removed. E.g. “ Time off ”  “Time off”</para>
 
         <para>4. When adding or editing a search value, if you enter a
         duplicate value in the custom filter, then the previously entered
         field type and field search value will be displayed. For example, when
-        adding a custom filter again while 'years worked' was entered in the
-        custom filter, if you enter 'years worked' in the field name, then the
-        default values are displayed.</para>
+        adding a custom filter again while 'years worked: 5~10' was entered in
+        the custom filter, if you enter 'years worked' in the field name, then
+        the previous value such as Range for Type, 5 for Min value, and 10 for
+        Max value are displayed.</para>
       </note>
 
-      <para>You can choose one of keyword, range, and period for the field
+      <para>You can choose one of Keyword, Range, and Period for the field
       type. Keyword is the default.</para>
 
       <para>Note that the input boxes displayed differ according to the field
@@ -549,27 +563,32 @@
         <listitem>
           <para><emphasis role="bold">Keyword</emphasis></para>
 
+<<<<<<< HEAD
           <para>Used for searching multiple values by and a comma (,) is used
           the delimiter. The default value is empty.</para>
+=======
+          <para>Used for searching multiple values by a comma (,) which is
+          used as the delimeter. The default value is empty.</para>
+>>>>>>> 11ce32b7af940932f1a81a37aae921f6b4000cbd
 
           <para>When used, it searches for the text entered. In other words,
-          it searches for documents that contain at least one of the two
-          values entered. For example, field name: fruit / field type: keyword
-          / value1: strawberries, apple  searches for documents that contain
-          at least one of 'strawberries' and ' apple'.</para>
+          it searches for documents that contain at least one of the multiple
+          values entered. E.g. Field name: fruit / Field type: keyword /
+          Value1: strawberries, apple  searches for documents that contain at
+          least one of 'strawberries' and/or ' apple'.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Range</emphasis></para>
 
-          <para>Used for searching for values between numbers or dates. E.g.
-          number: 100~200, period: 2019/01/01~2019/06/30.</para>
+          <para>Used for searching values of range such as numbers or dates.
+          E.g. number: 100 ~ 200, period: 01/01/2019 ~ 06/30/2019</para>
 
           <para>When used, it searches for values between the min and max. If
           you only enter the min, then only the values larger than the min
           value are searched, while if you only enter the max then only the
-          values smaller than the max are searched. E.g. salary: 1000~ ,
-          salary: ~5000</para>
+          values smaller than the max are searched. E.g. salary: 1000 ~ ,
+          salary: ~ 5000</para>
         </listitem>
       </itemizedlist>
 
@@ -578,23 +597,19 @@
           <para><emphasis role="bold">Period</emphasis></para>
 
           <para>Selects the period in the calendar displayed. The default
-          value of the period length is 1 week.</para>
+          value of the period length is set to one week.</para>
 
           <para>Searches for the date between the start and end date
           selected.</para>
         </listitem>
       </itemizedlist>
 
-      <para/>
-
-      <para>3. Clicking the search button (<inlinemediaobject>
+      <para>3. Click the add search (<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/searchplus.png"/>
           </imageobject>
-        </inlinemediaobject>) adds the keyword entered and documents are
-      searched according to the conditions set.</para>
-
-      <para/>
+        </inlinemediaobject>) button to add the keyword entered and documents
+      are searched according to the conditions set.</para>
 
       <note>
         <para>1. You can add multiple custom filters, and can modify/delete
@@ -629,42 +644,48 @@
       </itemizedlist>
 
       <para>2. Modify the custom filter by selecting a search keyword added.
-      When modifying, the Advanced filter item is changed to "Customer
-      Filter", and the selected filter's field name, field type, and search
-      value are displayed.</para>
+      When modifying, the<emphasis role="bold"> Advanced</emphasis> filter
+      item is changed to <emphasis role="bold">Customer filter</emphasis>, and
+      the selected filter's field name, field type, and search value are
+      displayed.</para>
 
-      <para>3. Added keywords can be deleted by pressing the "X" icon on the
-      right.</para>
+      <para>3. Added keywords can be deleted by clicking the<emphasis
+      role="bold"> X </emphasis>icon on the right.</para>
     </section>
 
     <section xml:id="additional_work">
+<<<<<<< HEAD
       <title>Actions on Documents That Can Be Performed in the Document List
       by Menu</title>
+=======
+      <title>Actions that can be performed in the document list by Documents
+      menu</title>
+>>>>>>> 11ce32b7af940932f1a81a37aae921f6b4000cbd
 
       <para>Actions on documents that can be performed in the document list
-      include preview, review, delete, correct, void, resend, and send final
-      copy.</para>
+      include preview, correct, void, resend, send final copy, and
+      download.</para>
 
       <para><emphasis role="bold">In progress</emphasis></para>
 
-      <para>Can perform actions including preview, review, correct, void,
-      delete, and send final copy.</para>
+      <para>Can perform actions including preview, correct, void, send final
+      copy, and download.</para>
 
       <para><emphasis role="bold">Action required</emphasis></para>
 
-      <para>Can perform actions including preview, review, edit, correct,
-      void, delete, and send final copy.</para>
+      <para>Can perform actions including preview, correct, void, review,
+      resend, and download.</para>
 
       <para><emphasis role="bold">Completed</emphasis></para>
 
-      <para>Can perform actions including preview, void, and send final
-      copy.</para>
+      <para>Can perform actions including preview, void, send final copy, and
+      download.</para>
 
       <para><emphasis role="bold">Manage documents</emphasis></para>
 
-      <para>Can perform actions including preview, remove, and send final
-      copy. Documents can only be deleted in the 'Manage documents'
-      menu.</para>
+      <para>Can perform actions including preview, void, send final copy,
+      remove, download, and delete. Documents can only be deleted in
+      the<emphasis role="bold"> Manage documents</emphasis> menu.</para>
 
       <para/>
     </section>
@@ -676,9 +697,10 @@
       status and history of that document on the right side of the
       screen.</para>
 
-      <para>In the 'Document status' tab, you can see what happens to a
-      document in each step of the workflow. In the 'History' tab, you can see
-      the activities of the document creator and recipients from document
+      <para>In the <emphasis role="bold">Document status</emphasis> tab, you
+      can see when and what happens to a document in each step of the
+      workflow. In the <emphasis role="bold">History</emphasis> tab, you can
+      see the activities of the document creator and recipients from document
       creation to completion.</para>
 
       <para><figure>
@@ -724,7 +746,7 @@
       list.</para>
 
       <para>2. Select the document to be downloaded and then click the
-      download button.</para>
+      <emphasis role="bold">Download</emphasis> button.</para>
 
       <para/>
 
@@ -739,9 +761,11 @@
       </figure>
 
       <note>
-        <para>CSV files can also be downloaded in the 'Download' pop-up where
-        PDF files can be downloaded. Select 'CSV' in the pop-up and check the
-        fields to be downloaded and then click the download button.</para>
+        <para>CSV files can also be downloaded in the <emphasis
+        role="bold">Download</emphasis> pop-up where PDF files can be
+        downloaded. Select <emphasis role="bold">CSV download</emphasis> in
+        the pop-up and check the fields(columns) to be downloaded and then
+        click the <emphasis role="bold">Download</emphasis> button.</para>
       </note>
 
       <para/>
@@ -759,7 +783,11 @@
           </imageobject>
         </inlinemediaobject>) on the right side of the document list.</para>
 
-      <para>2. Select the document and then click the delete icon.</para>
+      <para>2. Select the document and then click the <emphasis
+      role="bold">Delete </emphasis>button.</para>
+
+      <para>3. Click the <emphasis role="bold">Yes</emphasis> button in the
+      Delete pop-up window to delete the document.</para>
     </section>
 
     <section xml:id="document_column">
@@ -770,7 +798,11 @@
             <imagedata fileref="resources/column_icon.png" width="35"/>
           </imageobject>
         </inlinemediaobject>) icon on the right side of the document list, you
+<<<<<<< HEAD
       can select which column can be displayed on the list.</para>
+=======
+      can select which column to be displayed on the list.</para>
+>>>>>>> 11ce32b7af940932f1a81a37aae921f6b4000cbd
 
       <figure>
         <title>Document Column Selection Icon</title>
@@ -796,9 +828,15 @@
 
     <para><emphasis role="bold">Creating a new document</emphasis></para>
 
-    <para>1. Go to the 'New document' menu.</para>
+    <para>1. Go to the<emphasis role="bold"> New document
+    </emphasis>menu.</para>
 
-    <para>2. Click the template you want to create a document from.</para>
+    <para>2. Click the create icon(<inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="27" fileref="resources/create-icon.PNG"/>
+        </imageobject>
+      </inlinemediaobject>) of the template you want to create a document
+    from.</para>
 
     <para/>
 
@@ -812,8 +850,10 @@
       </mediaobject>
     </figure>
 
-    <para>3. Create a document and then click the 'Complete' or 'Request'
-    button at the top right corner of the screen.</para>
+    <para>3. Create a document and then click the <emphasis
+    role="bold">Complete</emphasis> or <emphasis
+    role="bold">Request</emphasis> button at the top right corner of the
+    screen.</para>
 
     <note>
       <para>Different buttons are displayed at the top right corner of the
@@ -830,9 +870,9 @@
         <primary>Documents</primary>
 
         <secondary>Send in bulk</secondary>
-      </indexterm>You can send multiple documents at once by using the 'Send
-    in bulk' feature. Also, you can preview the documents before sending them
-    to recipients.</para>
+      </indexterm>You can send multiple documents at once by using the
+    <emphasis role="bold">Send in bulk</emphasis> feature. Also, you can
+    preview the documents before sending them to recipients.</para>
 
     <note>
       <para>This action requires either one of document management or company
@@ -841,7 +881,8 @@
 
     <para><emphasis role="bold">Send in bulk</emphasis></para>
 
-    <para>1 Go to the 'New document' menu.</para>
+    <para>1. Go to the <emphasis role="bold">New document</emphasis>
+    menu.</para>
 
     <para>2. Click the send in bulk icon of the template you want to create
     documents from.</para>
@@ -873,20 +914,21 @@
     <para/>
 
     <note>
-      <para>Each row contains all the fields of a document. The IDs of
-      components (which are fields in a template) are shown as the name of
-      each column. The last row of the first column (No.) indicates the number
-      of documents to be created.</para>
+      <para>Each column of the table contains all the fields of a document.
+      The IDs of components (which are fields in a template) are shown as the
+      name of each column. The last row of the first column (No.) indicates
+      the number of documents to be created.</para>
 
       <para>Tables are filled in a similar way as in Excel. You can
-      double-click on each cell and right-click on the mouse to add or delete
-      columns. The value entered in a cell can be copied, pasted, and dragged
-      to another cell.</para>
+      double-click on each cell to enter value and right-click on the mouse to
+      add or delete columns. The value entered in a cell can be copied and
+      pasted, and dragged to another cell.</para>
     </note>
 
-    <para>4. Click the 'Preview' button on the top right corner of the screen
-    to view the documents you created and then click the 'Create' button to
-    send the documents.</para>
+    <para>4. Click the <emphasis role="bold">Preview</emphasis> button on the
+    top right corner of the screen to view the documents you created and then
+    click the <emphasis role="bold">Create</emphasis> button to send the
+    documents.</para>
 
     <para/>
 
@@ -906,16 +948,18 @@
     <para/>
 
     <tip>
-      <para>If there is an input item that is not shown in the ‘Send in bulk’
-      screen, then the following must be checked.</para>
+      <para>If there is a component that is not shown in the <emphasis
+      role="bold">Send in bulk </emphasis>screen, then the following must be
+      checked.</para>
 
-      <para>1. The components that cannot be entered in ‘Send in bulk’:
-      camera, voice, and grouped radio components cannot be used in ‘Send in
-      bulk’.</para>
+      <para>1. The components that cannot be entered in <emphasis
+      role="bold">Send in bulk</emphasis>: camera, voice, and grouped radio
+      components cannot be used in ‘Send in bulk’.</para>
 
       <para>2. Check whether the components are allowed access in Template
       settings: Only the components that are checked to be allowed access in
-      the 'Manage items' tab of Template settings(⚙) &gt; Workflow are
+      the <emphasis role="bold">Manage items</emphasis> tab of <emphasis
+      role="bold">Template settings(⚙) &gt; Workflow</emphasis> are
       shown.</para>
     </tip>
 
