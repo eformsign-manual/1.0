@@ -103,7 +103,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/inbox_layout.png" width="750"/>
+          <imagedata fileref="resources/inbox_layout.png" width="1000"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -219,8 +219,8 @@
     </orderedlist>
 
     <section xml:id="category">
-      <title>Template category combo box, document status filter combo box,
-      and search box</title>
+      <title>Template Category Combo Box, Document Status Filter Combo Box,
+      and Search Box</title>
 
       <para>The template category combo box, document status filter combo box,
       and search box are located at the top left side of the documents menus
@@ -262,7 +262,7 @@
       templates according to categories as shown below.</para>
 
       <figure>
-        <title>Template category combo box</title>
+        <title>Template Category Combo Box</title>
 
         <mediaobject>
           <imageobject>
@@ -462,11 +462,11 @@
       <para>1. Select 'Custom Filter' in the Advanced search combo box.</para>
 
       <figure>
-        <title>Custom filter</title>
+        <title>Custom Filter</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/userdefined_search1.png"/>
+            <imagedata fileref="resources/userdefined_search1.png" width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -550,7 +550,7 @@
           <para><emphasis role="bold">Keyword</emphasis></para>
 
           <para>Used for searching multiple values by and a comma (,) is used
-          the delimeter. The default value is empty.</para>
+          the delimiter. The default value is empty.</para>
 
           <para>When used, it searches for the text entered. In other words,
           it searches for documents that contain at least one of the two
@@ -638,8 +638,8 @@
     </section>
 
     <section xml:id="additional_work">
-      <title>Actions on documents that can be performed in the document list
-      by menu</title>
+      <title>Actions on Documents That Can Be Performed in the Document List
+      by Menu</title>
 
       <para>Actions on documents that can be performed in the document list
       include preview, review, delete, correct, void, resend, and send final
@@ -670,7 +670,7 @@
     </section>
 
     <section xml:id="history">
-      <title>Document status and history</title>
+      <title>Document Status and History</title>
 
       <para>If you select a document in the document list, you can view the
       status and history of that document on the right side of the
@@ -682,7 +682,7 @@
       creation to completion.</para>
 
       <para><figure>
-          <title>Document status tab</title>
+          <title>Document Status Tab</title>
 
           <mediaobject>
             <imageobject>
@@ -690,11 +690,11 @@
             </imageobject>
           </mediaobject>
         </figure><figure>
-          <title>History tab</title>
+          <title>History Tab</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/document_history.png"/>
+              <imagedata fileref="resources/document_history.png" width="400"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -703,10 +703,10 @@
     </section>
 
     <section xml:id="document_download">
-      <title>Document download<indexterm class="singular">
+      <title>Document Download<indexterm class="singular">
           <primary>Documents</primary>
 
-          <secondary>Document download</secondary>
+          <secondary>Document Download</secondary>
         </indexterm></title>
 
       <para>Documents created in eformsign can be safely stored for long
@@ -729,11 +729,11 @@
       <para/>
 
       <figure>
-        <title>Document download pop-up</title>
+        <title>Document Download Pop-up</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/download_popup.png"/>
+            <imagedata fileref="resources/download_popup.png" width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -748,7 +748,7 @@
     </section>
 
     <section xml:id="document_delete">
-      <title>Deleting documents</title>
+      <title>Deleting Documents</title>
 
       <para>In eformsign, only members with document management permission can
       delete documents.</para>
@@ -763,17 +763,17 @@
     </section>
 
     <section xml:id="document_column">
-      <title>Document menu column selection</title>
+      <title>Document Menu Column Selection</title>
 
       <para>If you click the column (<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/column_icon.png" width="35"/>
           </imageobject>
         </inlinemediaobject>) icon on the right side of the document list, you
-      can select which column can be displayed on the list. </para>
+      can select which column can be displayed on the list.</para>
 
       <figure>
-        <title>Document column selection icon</title>
+        <title>Document Column Selection Icon</title>
 
         <mediaobject>
           <imageobject>
@@ -785,7 +785,7 @@
   </section>
 
   <section>
-    <title>Creating new documents</title>
+    <title>Creating New Documents</title>
 
     <para>You can create new documents by using uploaded templates.</para>
 
@@ -803,11 +803,11 @@
     <para/>
 
     <figure>
-      <title>New document list</title>
+      <title>New Document List</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/create_newdocument1.png" width="700"/>
+          <imagedata fileref="resources/create_newdocument1.png" width="1000"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -824,7 +824,7 @@
   </section>
 
   <section>
-    <title>Send in bulk</title>
+    <title>Send in Bulk</title>
 
     <para><indexterm class="singular">
         <primary>Documents</primary>
@@ -849,11 +849,11 @@
     <para/>
 
     <figure>
-      <title>Send in bulk icon</title>
+      <title>Send in Bulk Icon</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/bulk-creation-icon.png"/>
+          <imagedata fileref="resources/bulk-creation-icon.png" width="300"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -861,11 +861,11 @@
     <para>3. Enter the values in the columns displayed on the screen.</para>
 
     <figure>
-      <title>Send in bulk screen</title>
+      <title>Send in Bulk Screen</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/bulk_create.png" width="700"/>
+          <imagedata fileref="resources/bulk_create.png" width="1400"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -893,9 +893,7 @@
     <note>
       <para>If there is an external process step in a template, then the left
       area of the table is highlighted in blue. This area is for entering the
-      external recipients’ names, emails, etc. Depending on the external
-      process settings, there can be phone numbers, verification passwords,
-      etc.</para>
+      external recipients’ names, emails, etc.</para>
 
       <mediaobject>
         <imageobject>
