@@ -16,7 +16,7 @@
       </indexterm>작성한 문서는 상태에 따라 다음의 3개의 문서함에 저장됩니다.</para>
 
     <para>문서함에서 각각의 문서의 상태와 이력을 쉽게 확인하고 문서를 관리하며, 필터 및 검색 기능을 통해 문서를 찾고 문서를 다시
-    보내거나 워크플로우에 있는 문서에 대한 삭제/반려 요청 등 추가 작업을 수행할 수 있습니다. 임시 저장한 문서도 문서함에 나타나며
+    보내거나 워크플로우에 있는 문서에 대한 취소/반려 요청 등 추가 작업을 수행할 수 있습니다. 임시 저장한 문서도 문서함에 나타나며
     목록에서 다시 작성을 시작할 수 있습니다.</para>
 
     <para>문서함을 통해 모든 문서 및 관련 작업을 기록하고 저장할 수 있고 문서의 상태와 이력에 대한 상세 정보를 확인할 수
@@ -43,12 +43,12 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">전체 문서함:</emphasis> <indexterm
+        <para><emphasis role="bold">완료 문서함:</emphasis> <indexterm
             class="singular">
             <primary>문서함</primary>
 
-            <secondary>전체 문서함</secondary>
-          </indexterm>내가 작성 또는 처리한 모든 문서 목록을 확인할 수 있습니다.</para>
+            <secondary>완료 문서함</secondary>
+          </indexterm>내가 작성한 문서 중 완료된 문서 목록을 확인할 수 있습니다.</para>
       </listitem>
     </itemizedlist>
 
@@ -174,11 +174,10 @@
         <note>
           <para>문서 삭제는 <emphasis role="bold">문서 관리</emphasis> 메뉴에서만 가능하며, 삭제를
           위해서는 문서 관리 권한이 필요합니다. 문서 관리 권한은, 대표 관리자 또는 템플릿 관리자가 <emphasis
-          role="bold">템플릿 관리 &gt; 템플릿 설정 &gt; 문서 관리자 설정 &gt;
-          템플릿</emphasis><emphasis role="bold">으로 작성된 문서를 관리할 수 있는 그룹 및 구성원
-          설정</emphasis>에서 권한을 부여할 수 있습니다. 문서 관리자는 각 템플릿 별로 지정이 가능하며, 지정되면
-          <emphasis role="bold">문서 관리</emphasis> 메뉴에서 해당 템플릿으로 작성된 문서를 열람, 삭제
-          및 다운로드(PDF, CSV)할 수 있는 권한을 가지게 됩니다.</para>
+          role="bold">템플릿 관리 &gt; 템플릿 설정 &gt; 권한 설정 &gt;</emphasis> <emphasis
+          role="bold">문서 관리 권한</emphasis>에서 부여할 수 있습니다. 문서 관리자는 각 템플릿 별로 지정이
+          가능하며, 지정되면 <emphasis role="bold">문서 관리</emphasis> 메뉴에서 해당 템플릿으로 작성된
+          문서를 열람, 삭제 및 다운로드(PDF, CSV)할 수 있는 권한을 가지게 됩니다.</para>
         </note>
       </listitem>
     </orderedlist>
@@ -237,7 +236,7 @@
       상세 검색할 수 있습니다. 또한, 사용자 지정 필터를 통해 숫자의 범위, 날짜의 기간을 설정해서 검색할 수도
       있습니다.</para>
 
-      <para>필터를 사용해서 검색 가능한 필터는 다음과 같습니다. 한편, 사용자 지정 필터는 전체 문서함과 문서 관리에서만 사용할
+      <para>필터를 사용해서 검색 가능한 필터는 다음과 같습니다. 한편, 사용자 지정 필터는 완료 문서함과 문서 관리에서만 사용할
       수 있습니다.</para>
 
       <table>
@@ -250,7 +249,7 @@
 
               <entry align="center">처리할 문서함</entry>
 
-              <entry align="center">전체 문서함</entry>
+              <entry align="center">완료 문서함</entry>
 
               <entry align="center">문서 관리</entry>
             </row>
@@ -408,7 +407,8 @@
           <secondary>사용자 지정 필터</secondary>
         </indexterm></emphasis></para>
 
-      <para>1. 상세 콤보박스에서 “사용자 지정 필터”를 선택합니다.</para>
+      <para>1. 상세 콤보박스에서 <emphasis role="bold">사용자 지정 필터</emphasis>를
+      선택합니다.</para>
 
       <figure>
         <title>사용자 지정 필터</title>
@@ -433,8 +433,8 @@
         <para>3. 필드 이름의 앞/뒤 공백은 모두 제거되어 추가됩니다. 예) “ 휴가신청서 ”  “휴가신청서”</para>
 
         <para>4. 추가/수정 시, 기존에 추가된 사용자 지정 필터와 동일한 필드 이름을 입력하면, 필드 타입, 필드 검색 값이
-        기존에 설정한 정보로 표시됩니다. 예) 기존에 사용자 지정 필터 ‘근속년수 : 5~10’가 추가된 상태에서 다시 사용자 지정
-        필터를 추가할 때, 필드 이름에 동일한 이름의 ‘근속년수’를 입력하면 필드 타입은 ‘범위’, 검색 값1은 ‘5’, 값2는
+        기존에 설정한 정보로 표시됩니다. 예) 기존에 사용자 지정 필터 ‘근속연수 : 5~10’가 추가된 상태에서 다시 사용자 지정
+        필터를 추가할 때, 필드 이름에 동일한 이름의 ‘근속연수’를 입력하면 필드 타입은 ‘범위’, 검색 값1은 ‘5’, 값2는
         ‘10’으로 기존 설정이 표시됩니다.</para>
       </note>
 
@@ -490,7 +490,7 @@
 
           <para>콤마(,)로 구분해서 복수 개의 값을 설정할 수 있습니다. 기본값은 빈 값입니다.</para>
 
-          <para>설정한 텍스트를 포함하는 값이 검색됩니다. 즉, 복수 개 중 하나 이상을 포함하는 문서를
+          <para>설정한 텍스트를 포함하는 값이 검색됩니다. 즉, 복수의 값 중 하나 이상을 포함하는 문서를
           검색합니다.</para>
 
           <para>예) 필드 이름: 과일 / 필드 타입: 키워드 / 값1: 딸기 , 사과  과일에 ‘딸기’와 ‘사과’ 둘 중
@@ -513,7 +513,8 @@
         <listitem>
           <para><emphasis role="bold">기간</emphasis></para>
 
-          <para>표시되는 달력에서 날짜의 기간을 설정합니다. 기본값은 1주일의 차이가 있습니다.</para>
+          <para>표시되는 달력에서 날짜의 기간을 설정합니다. 기본값은 현재일 기준으로 이전 1주일로 설정되어
+          있습니다.</para>
 
           <para>설정한 시작일과 종료일 사이에 있는 날짜를 검색합니다.</para>
         </listitem>
@@ -550,7 +551,7 @@
         </listitem>
 
         <listitem>
-          <para>범위: “근속년수 : 5~10”</para>
+          <para>범위: “근속연수 : 5~10”</para>
         </listitem>
 
         <listitem>
@@ -561,7 +562,7 @@
       <para>2.. 추가한 검색 키워드를 선택해서 사용자 지정 필터를 수정합니다. 수정 시에는 상세 검색 필터 항목이 “사용자 지정
       필터”로 변경되고 선택한 필터의 필드 이름, 필드 타입, 검색 값이 표시됩니다.</para>
 
-      <para>3. 추가한 검색 키워드는 오른쪽의 X 아이콘을 눌러 삭제합니다.</para>
+      <para>3. 추가한 검색 키워드는 오른쪽의 X 아이콘을 클릭해 삭제합니다.</para>
     </section>
 
     <section xml:id="additional_work">
@@ -572,20 +573,20 @@
 
       <para><emphasis role="bold">진행 중 문서함</emphasis></para>
 
-      <para>미리보기, 반려 요청, 삭제 요청, 요청 취소, 재요청을 할 수 있습니다.</para>
+      <para>미리보기, 수정, 취소, 완료 문서 전송, 다운로드를 할 수 있습니다.</para>
 
       <para><emphasis role="bold">처리할 문서함</emphasis></para>
 
-      <para>승인하기, 재요청 외 미리보기, 삭제 요청을 할 수 있습니다.</para>
+      <para>미리보리, 수정, 취소, 재요청, 완료 문서 전송, 다운로드를 할 수 있습니다.</para>
 
-      <para><emphasis role="bold">전체 문서함</emphasis></para>
+      <para><emphasis role="bold">완료 문서함</emphasis></para>
 
-      <para>미리보기, 반려 요청, 삭제 요청, 요청 취소, 재요청 외 완료 문서 PDF 전송을 할 수 있습니다.</para>
+      <para>미리보기, 취소, 완료 문서 전송, 다운로드를 할 수 있습니다.</para>
 
       <para><emphasis role="bold">문서 관리</emphasis></para>
 
-      <para>미리보기, 완료 문서 PDF 전송 외 문서를 삭제할 수 있습니다. 문서는 문서 관리에서만 삭제할 수
-      있습니다.</para>
+      <para>미리보기, 취소, 완료 문서 전송, 제거, 다운로드 및 문서를 삭제할 수 있습니다. 문서는 <emphasis
+      role="bold">문서 관리</emphasis>에서만 삭제할 수 있습니다.</para>
 
       <para/>
     </section>
@@ -593,7 +594,7 @@
     <section xml:id="history">
       <title>상태 및 이력보기</title>
 
-      <para>문서함 리스트 중 한 문서를 선택하면 그 분서의 상태와 이력을 화면 오른쪽에서 확인할 수 있습니다.</para>
+      <para>문서함 리스트 중 한 문서를 선택하면 해당 문서의 상태와 이력을 화면 오른쪽에서 확인할 수 있습니다.</para>
 
       <para>문서 상태에서는 문서의 관점에서 언제 문서가 만들어지고 처리되고 완료되었는지를 확인할 수 있으며, 이력에서는 작성자 및
       수신자 입장에서 누가 어떤 작업을 수행했는지를 확인할 수 있습니다.</para>
@@ -669,6 +670,9 @@
         </inlinemediaobject>) 아이콘을 클릭합니다.</para>
 
       <para>2. 삭제할 문서를 선택하고 삭제 버튼을 클릭합니다.</para>
+
+      <para>3. 삭제 확인 팝업창에서 <emphasis role="bold">예</emphasis>를 클릭하면 문서가
+      삭제됩니다.</para>
     </section>
 
     <section xml:id="document_column">
@@ -705,7 +709,11 @@
 
     <para>1. '새 문서 작성' 메뉴로 이동합니다.</para>
 
-    <para>2. 작성할 템플릿의 작성 아이콘을 클릭합니다.</para>
+    <para>2. 작성할 템플릿의 작성 아이콘(<inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="30" fileref="resources/create-icon.PNG"/>
+        </imageobject>
+      </inlinemediaobject>)을 클릭합니다.</para>
 
     <para/>
 
@@ -719,7 +727,9 @@
       </mediaobject>
     </figure>
 
-    <para>3. 문서를 작성하고 우측 상단의 '작성 완료', '제출' 혹은 '요청' 버튼을 클릭합니다.</para>
+    <para>3. 문서를 작성하고 우측 상단의 <emphasis role="bold">완료</emphasis>,<emphasis
+    role="bold"> 제출</emphasis> 혹은 <emphasis role="bold">요청 </emphasis>버튼을
+    클릭합니다.</para>
 
     <note>
       <para>템플릿에 설정되어 있는 워크플로우에 따라 다른 버튼이 나타납니다.</para>
@@ -744,7 +754,7 @@
 
     <para><emphasis role="bold">일괄 작성하기</emphasis></para>
 
-    <para>1 '새 문서 작성' 메뉴로 이동합니다.</para>
+    <para>1. <emphasis role="bold">새 문서 작성</emphasis> 메뉴로 이동합니다.</para>
 
     <para>2. 작성할 템플릿의 일괄 작성 아이콘을 클릭합니다.</para>
 
@@ -775,15 +785,15 @@
     <para/>
 
     <note>
-      <para>문서의 입력항목이 각각의 열로 표시된 표입니다. 템플릿의 입력항목인 컴포넌트들의 ID가 각 열의 제목으로 나타납니다.
+      <para>문서의 입력항목이 각각의 열로 표시된 표입니다. 템플릿의 입력항목인 컴포넌트의 ID가 각 열의 제목으로 나타납니다.
       첫번째 열인 번호 열 가장 하단 행의 숫자가 작성될 문서의 수입니다.</para>
 
       <para>표는 엑셀과 비슷한 방법으로 입력합니다. 각 셀을 더블클릭하여 내용을 입력하고 마우스 오른쪽을 클릭하여 행을 추가하거나
       삭제할 수 있습니다. 셀에 입력된 값을 복사 – 붙여넣기, 끌어서 입력하기를 할 수 있습니다.</para>
     </note>
 
-    <para>4. 오른쪽 상단 미리보기 버튼을 클릭하여 작성된 문서를 확인하고 작성 버튼을 클릭하여 문서 작성을
-    완료합니다.</para>
+    <para>4. 오른쪽 상단 <emphasis role="bold">미리보기</emphasis> 버튼을 클릭하여 작성된 문서를
+    확인하고 <emphasis role="bold">작성</emphasis> 버튼을 클릭하여 문서 작성을 완료합니다.</para>
 
     <para/>
 
@@ -802,13 +812,15 @@
     <para/>
 
     <tip>
-      <para>템플릿의 입력항목 중 일부가 일괄 작성 화면에 나타나지 않는 경우에는 아래 두가지 경우를 확인해야 합니다.</para>
+      <para>템플릿의 입력항목 중 일부가 <emphasis role="bold">일괄 작성</emphasis> 화면에 나타나지 않는
+      경우에는 아래 두가지 경우를 확인해야 합니다.</para>
 
-      <para>1. 일괄 작성에서 입력할 수 없는 컴포넌트 : 카메라, 녹음, 그룹으로 묶인 선택 컴포넌트는 일괄 작성으로 작성할 수
+      <para>1. 일괄 작성에서 입력할 수 없는 컴포넌트: 카메라, 녹음, 그룹으로 묶인 선택 컴포넌트는 일괄 작성으로 작성할 수
       없는 컴포넌트입니다.</para>
 
-      <para>2. 작성 단계에서 접근 허용된 컴포넌트 확인 : 템플릿 관리 &gt; 템플릿 설정(⚙) &gt; 워크플로우 설정
-      &gt; 작성 단계에 접근 허용된 컴포넌트만 나타납니다.</para>
+      <para>2. 작성 단계에서 접근 허용된 컴포넌트 확인:<emphasis role="bold"> 템플릿 관리 &gt; 템플릿
+      설정(⚙) &gt; 워크플로우 설정 &gt; </emphasis>해당<emphasis role="bold">
+      </emphasis>워크플로우 단계에 접근 허용된 컴포넌트만 나타납니다.</para>
     </tip>
 
     <para/>
