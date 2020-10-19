@@ -14,10 +14,10 @@
 
     <para><indexterm class="singular">
         <primary>Form Builder</primary>
-      </indexterm>Also known as OZ in Office, Form Builder is a form editor
-    which converts documents created using Microsoft Office into electronic
-    documents containing components (fields). By using OZ in Office, you can
-    easily convert existing Excel, Word, and PowerPoint forms such as
+      </indexterm>Also known as OZ in Office, Form builder is a form editor
+    which converts a document created using Microsoft Office into an
+    electronic document containing components (fields). By using OZ in Office,
+    you can easily convert existing Excel, Word, and PowerPoint forms such as
     contracts, applications, and agreements into electronic documents.</para>
 
     <para>Previously, converting Excel, Word, or PowerPoint documents into
@@ -54,11 +54,12 @@
             <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
         </inlinemediaobject>) on the top right corner of the dashboard screen
-      to open the sidebar. Then, click on the 'Download eformsign Form
-      Builder' button at the bottom.</para>
+      to open the sidebar menu. Then, click on the <emphasis
+      role="bold">Download eformsign form builder</emphasis> button at the
+      bottom.</para>
 
       <figure>
-        <title>Location of the Download eformsign Form Builder Button</title>
+        <title>Location of the Download eformsign form builder button</title>
 
         <mediaobject>
           <imageobject>
@@ -68,9 +69,10 @@
         </mediaobject>
       </figure>
 
-      <para>2. The 'Download eformsign form builder' page will be displayed as
-      shown below. Click on the 'Download form builder' button at the bottom
-      of the page.</para>
+      <para>2. The<emphasis role="bold"> Download eformsign form builder
+      </emphasis>page will be displayed as shown below. Click on the<emphasis
+      role="bold"> Download form builder</emphasis> button at the bottom of
+      the page.</para>
 
       <figure>
         <title>eformsign Form Builder Download Page</title>
@@ -83,7 +85,7 @@
         </mediaobject>
       </figure>
 
-      <para>3. Select a location to save the Form Builder execution file and
+      <para>3. Select a location to save the Form builder execution file and
       download it.</para>
 
       <para/>
@@ -92,10 +94,11 @@
     <section>
       <title>Install Form Builder</title>
 
-      <para>1. Click on the Form Builder execution file to run it.</para>
+      <para>1. Click on the Form builder execution file to run it.</para>
 
       <para>2. When the Wizard screen shown below is displayed, select the
-      'Complete' option and then click the 'Next' button.</para>
+      <emphasis role="bold">Complete </emphasis>option and then click
+      the<emphasis role="bold"> Next</emphasis> button.</para>
 
       <figure>
         <title>Form Builder Installation Screen (1)</title>
@@ -123,8 +126,8 @@
       </figure>
 
       <para>4. When the installation is completed, the following screen is
-      displayed. Click the 'Finish' button to close the installation
-      screen.</para>
+      displayed. Click the <emphasis role="bold">Finish</emphasis> button to
+      close the installation screen.</para>
 
       <figure>
         <title>Form Builder Installation Screen (3)</title>
@@ -137,7 +140,7 @@
         </mediaobject>
       </figure>
 
-      <para>5. Check whether Form Builder was installed properly by running MS
+      <para>5. Check whether Form builder was installed properly by running MS
       Office (Word, Excel, PowerPoint). If <emphasis role="bold">OZ in
       Word/Excel/PowerPoint</emphasis> is displayed as below, then it was
       installed properly.</para>
@@ -159,8 +162,9 @@
       <title>Form Builder Menu Layout</title>
 
       <para>If you run Microsoft Office Excel, Word, or PowerPoint after Form
-      Builder is installed, you can see that the OZ in Excel, OZ in Word, or
-      OZ in PowerPoint tab is added to the OZ in Office ribbon menu.</para>
+      builder is installed, you can see that the<emphasis role="bold"> OZ in
+      Excel, OZ in Word, or OZ in PowerPoint</emphasis> tab is added to the OZ
+      in Office ribbon menu.</para>
 
       <figure>
         <title>Microsoft Office OZ in Office Ribbon Menu</title>
@@ -176,24 +180,24 @@
         <listitem>
           <para><emphasis role="bold">File: </emphasis>Allows to execute
           (preview) the document as an electronic form, upload the document to
-          eformsign as an electronic form, or download an electronic form from
+          eformsign as a template, or download an electronic form from
           eformsign.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Property: </emphasis>Sets the component
-          ID.</para>
+          properties including ID, and Items.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Input: </emphasis>Adds components used
-          in electronic forms.</para>
+          in templates.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Info: </emphasis>Adds the necessary
           components in order to have information such as user and date to be
-          automatically entered into electronic forms.</para>
+          automatically entered into templates.</para>
         </listitem>
 
         <listitem>
@@ -205,19 +209,20 @@
 
         <listitem>
           <para><emphasis role="bold">Deletion: </emphasis>Deletes components
-          after selecting components and then clicking the 'Delete'
-          button.</para>
+          after selecting components and then clicking the <emphasis
+          role="bold">Delete </emphasis>button.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Window: </emphasis>Allows to open the
-          properties tab of the selected component or select a component in
-          the 'Selection' tab.</para>
+          <emphasis role="bold">Properties </emphasis>tab of the selected
+          component or select a component in the <emphasis
+          role="bold">Selection </emphasis>tab.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Help:</emphasis> Checks the version of
-          Form Builder and performs updates.</para>
+          Form builder and performs updates.</para>
         </listitem>
       </orderedlist>
 
@@ -232,9 +237,9 @@
         <primary>Components</primary>
       </indexterm>Components are used to create fields in electronic documents
     that users can enter information. Many different components including
-    signature, check, date, and text are provided in Form Builder, and each
-    component can be configured in detail by using the 'Component Properties'
-    tab.</para>
+    signature, check, date, and text are provided in Form builder, and each
+    component can be configured in detail by using the <emphasis
+    role="bold">Component Properties</emphasis> tab.</para>
 
     <section>
       <title>Component Types</title>
@@ -424,10 +429,11 @@
     <section>
       <title>Accessing Component Properties</title>
 
-      <para>Every component has its own detailed settings called 'OZ Component
-      Properties'. The properties of each component can be accessed by
-      selecting a component and then clicking the property icon or the
-      'Properties' menu.</para>
+      <para>Every component has its own detailed settings called <emphasis
+      role="bold">OZ Component Properties</emphasis>. The properties of each
+      component can be accessed by selecting a component and then clicking the
+      property icon or the <emphasis role="bold">Properties</emphasis>
+      menu.</para>
 
       <para/>
 
@@ -462,7 +468,8 @@
       <section>
         <title>Adding Components in Excel</title>
 
-        <para>1. Open Excel and go to the OZ in Excel ribbon menu.</para>
+        <para>1. Open Excel and go to the <emphasis role="bold">OZ in
+        Excel</emphasis> ribbon menu.</para>
 
         <figure>
           <title>Adding Components in Excel (1)</title>
@@ -498,8 +505,8 @@
           </mediaobject>
         </figure>
 
-        <para>4. Check that the component has been added by viewing the 'OZ
-        Component Properties' tab.</para>
+        <para>4. Check that the component has been added by viewing the
+        <emphasis role="bold">OZ Component Properties</emphasis> tab.</para>
 
         <para/>
       </section>
@@ -508,7 +515,7 @@
         <title>Adding Components in Word or PowerPoint</title>
 
         <para><emphasis role="bold">Method 1: Adding Components by Clicking a
-        Component Type You Want</emphasis></para>
+        Component Type</emphasis></para>
 
         <para>1. Open Word or PowerPoint and select the location in the
         document where you want to add the component.</para>
@@ -555,11 +562,12 @@
         <para><emphasis role="bold">Method 2: Adding Components by Drawing a
         Component</emphasis></para>
 
-        <para>1. Open Word or PowerPoint and go to the OZ in Word/Powerpoint
-        ribbon menu.</para>
+        <para>1. Open Word or PowerPoint and go to the <emphasis
+        role="bold">OZ in Word/Powerpoint</emphasis> ribbon menu.</para>
 
-        <para>2. Click the Draw Component icon and select the component type
-        you want to add in the drop-down menu displayed.</para>
+        <para>2. Click the <emphasis role="bold">Drawing Component</emphasis>
+        icon and select the component type you want to add in the drop-down
+        menu displayed.</para>
 
         <figure>
           <title>Method 2: Adding Components by Drawing a Component in Word or
@@ -595,8 +603,9 @@
           <imageobject>
             <imagedata fileref="resources/delete-icon.png"/>
           </imageobject>
-        </inlinemediaobject>) in the OZ in Office menu. You can also select
-      and delete multiple components.</para>
+        </inlinemediaobject>) in the<emphasis role="bold"> OZ in
+      Office</emphasis> menu. You can also select and delete multiple
+      components.</para>
     </section>
   </section>
 
@@ -609,9 +618,9 @@
 
     <para>All components of <emphasis role="bold">OZ in Office</emphasis> have
     both common and unique properties. You can view both the common and unique
-    properties of components in the OZ Component Properties tab. Common
-    properties include ID and Tooltip Text, and the meaning of each property
-    is as follows.</para>
+    properties of components in the <emphasis role="bold">OZ Component
+    Properties</emphasis> tab. Common properties include ID and Tooltip Text,
+    and the meaning of each property is as follows.</para>
 
     <itemizedlist>
       <listitem>
@@ -637,14 +646,15 @@
     </itemizedlist>
 
     <note>
-      <para>To open the OZ Component Properties window, click on a component
-      and then click the <emphasis role="bold">Properties</emphasis> icon
-      (<inlinemediaobject>
+      <para>To open the <emphasis role="bold">OZ Component
+      Properties</emphasis> window, click on a component and then click the
+      <emphasis role="bold">Properties</emphasis> icon (<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/property-icon.png"/>
           </imageobject>
-        </inlinemediaobject> ) in the<emphasis role="bold"> </emphasis>OZ in
-      Office ribbon menu.</para>
+        </inlinemediaobject> ) in the<emphasis role="bold">
+      </emphasis><emphasis role="bold">OZ in Office </emphasis>ribbon
+      menu.</para>
     </note>
 
     <note>
@@ -664,11 +674,12 @@
           <primary>Components</primary>
 
           <secondary>Check</secondary>
-        </indexterm>The check component is used to check whether an item is
-      checked or not. This component is similar to the radio component, but it
+        </indexterm>The<emphasis role="bold"> Check</emphasis> component is
+      used to check whether an item is checked or not. This component is
+      similar to the <emphasis role="bold">Radio</emphasis> component, but it
       is used for checking the status of an item (whether it is checked or
-      not) while the radio component is used for checking which item among
-      multiple items is checked.</para>
+      not) while the <emphasis role="bold">Radio</emphasis> component is used
+      for checking which item among multiple items is checked.</para>
 
       <para/>
 
@@ -679,8 +690,9 @@
         </imageobject>
       </mediaobject>
 
-      <para>When data is downloaded in CSV format, the check component’s input
-      value is displayed as follows.</para>
+      <para>When data is downloaded in CSV format, the <emphasis
+      role="bold">Check </emphasis>component’s input value is displayed as
+      follows.</para>
 
       <itemizedlist>
         <listitem>
