@@ -6,7 +6,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Documents(test)</title>
+  <title>Documents</title>
 
   <section>
     <title>Documents</title>
@@ -20,8 +20,8 @@
     yet to be completed in the workflow, and edit draft documents.</para>
 
     <para>By using the<emphasis role="bold"> Documents</emphasis> menus, you
-    can store all documents and related activities as well as well as viewing
-    detailed information about the document status and history.</para>
+    can store all documents and related activities as well as viewing detailed
+    information about the document status and history.</para>
 
     <itemizedlist>
       <listitem>
@@ -181,13 +181,12 @@
         download</link> icon, and <link
         linkend="document_delete">delete</link> icon </emphasis></para>
 
-        <para>Clicking the column selection (<inlinemediaobject>
+        <para>Clicking the column selection icon (<inlinemediaobject>
             <imageobject>
               <imagedata fileref="resources/column_icon.png" width="35"/>
             </imageobject>
-          </inlinemediaobject>) icon displays the column types which you can
-        check to select which columns will be displayed in the document
-        list.</para>
+          </inlinemediaobject>) displays the column types which you can check
+        to select which columns will be displayed in the document list.</para>
 
         <para>Clicking the download icon (<inlinemediaobject>
             <imageobject>
@@ -219,14 +218,14 @@
           permission can be set for each template. Members with this
           permission can open, delete, and download (PDF, CSV) the documents
           created from this template in the <emphasis role="bold">Manage
-          documents</emphasis>' menu.</para>
+          documents</emphasis> menu.</para>
         </note>
       </listitem>
     </orderedlist>
 
     <section xml:id="category">
-      <title>Template category combo box, document status filter combo box,
-      and search box</title>
+      <title>Template Category Combo Box, Document Status Filter Combo Box,
+      and Search Box</title>
 
       <para>The template category combo box, document status filter combo box,
       and search box are located at the top left side of the<emphasis
@@ -460,8 +459,6 @@
         </tgroup>
       </table>
 
-      <para/>
-
       <para><emphasis role="bold">Using the custom filter<indexterm
           class="singular">
           <primary>Documents</primary>
@@ -477,7 +474,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/userdefined_search1.png"/>
+            <imagedata fileref="resources/userdefined_search1.png" width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -496,8 +493,8 @@
         <para>1. Documents may not be searched if you search for a document by
         entering the display name of the field that does not exist.</para>
 
-        <para>2. You cannot enter special characters in the display name(", ',
-        ;, &lt;, &gt;, \).</para>
+        <para>2. You cannot enter special characters in the display name (",
+        ', ;, &lt;, &gt;, \).</para>
 
         <para>3. Empty spaces before and after the display name are all
         removed. E.g. “ Time off ”  “Time off”</para>
@@ -556,8 +553,6 @@
           </tbody>
         </tgroup>
       </informaltable>
-
-      <para/>
 
       <itemizedlist>
         <listitem>
@@ -649,8 +644,8 @@
     </section>
 
     <section xml:id="additional_work">
-      <title>Actions that can be performed in the document list by Documents
-      menu</title>
+      <title>Actions that Can Be Performed in the Document List by Documents
+      Menu</title>
 
       <para>Actions on documents that can be performed in the document list
       include preview, correct, void, resend, send final copy, and
@@ -676,12 +671,10 @@
       <para>Can perform actions including preview, void, send final copy,
       remove, download, and delete. Documents can only be deleted in
       the<emphasis role="bold"> Manage documents</emphasis> menu.</para>
-
-      <para/>
     </section>
 
     <section xml:id="history">
-      <title>Document status and history</title>
+      <title>Document Status and History</title>
 
       <para>If you select a document in the document list, you can view the
       status and history of that document on the right side of the
@@ -698,7 +691,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/document_status.png"/>
+              <imagedata fileref="resources/document_status.png" width="400"/>
             </imageobject>
           </mediaobject>
         </figure><figure>
@@ -706,16 +699,14 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/document_history.png"/>
+              <imagedata fileref="resources/document_history.png" width="400"/>
             </imageobject>
           </mediaobject>
         </figure></para>
-
-      <para/>
     </section>
 
     <section xml:id="document_download">
-      <title>Document download<indexterm class="singular">
+      <title>Document Download<indexterm class="singular">
           <primary>Documents</primary>
 
           <secondary>Document download</secondary>
@@ -728,24 +719,21 @@
       (PDF/A) and only members with document management permission can open
       and delete them.</para>
 
-      <para>1. Click the download (<inlinemediaobject>
+      <para>1. Click the download icon (<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/download_icon.png"/>
           </imageobject>
-        </inlinemediaobject>) icon on the right side of the document
-      list.</para>
+        </inlinemediaobject>) on the right side of the document list.</para>
 
-      <para>2. Select the document to be downloaded and then click the
+      <para>2. Select the document to be downloaded, and then click the
       <emphasis role="bold">Download</emphasis> button.</para>
-
-      <para/>
 
       <figure>
         <title>Document download pop-up</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/download_popup.png"/>
+            <imagedata fileref="resources/download_popup.png" width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -757,12 +745,10 @@
         the pop-up and check the fields(columns) to be downloaded and then
         click the <emphasis role="bold">Download</emphasis> button.</para>
       </note>
-
-      <para/>
     </section>
 
     <section xml:id="document_delete">
-      <title>Deleting documents</title>
+      <title>Deleting Documents</title>
 
       <para>In eformsign, only members with document management permission can
       delete documents.</para>
@@ -781,7 +767,7 @@
     </section>
 
     <section xml:id="document_column">
-      <title>Document menu column selection</title>
+      <title>Document Menu Column Selection</title>
 
       <para>If you click the column (<inlinemediaobject>
           <imageobject>
@@ -803,7 +789,7 @@
   </section>
 
   <section>
-    <title>Creating new documents</title>
+    <title>Creating New Documents</title>
 
     <para>You can create new documents by using uploaded templates.</para>
 
@@ -824,8 +810,6 @@
       </inlinemediaobject>) of the template you want to create a document
     from.</para>
 
-    <para/>
-
     <figure>
       <title>New document list</title>
 
@@ -845,12 +829,10 @@
       <para>Different buttons are displayed at the top right corner of the
       screen according to the workflow set in the template.</para>
     </note>
-
-    <para/>
   </section>
 
   <section>
-    <title>Send in bulk</title>
+    <title>Send in Bulk</title>
 
     <para><indexterm class="singular">
         <primary>Documents</primary>
@@ -873,14 +855,12 @@
     <para>2. Click the send in bulk icon of the template you want to create
     documents from.</para>
 
-    <para/>
-
     <figure>
       <title>Send in bulk icon</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/bulk-creation-icon.png"/>
+          <imagedata fileref="resources/bulk-creation-icon.png" width="300"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -896,8 +876,6 @@
         </imageobject>
       </mediaobject>
     </figure>
-
-    <para/>
 
     <note>
       <para>Each column of the table contains all the fields of a document.
@@ -916,8 +894,6 @@
     click the <emphasis role="bold">Create</emphasis> button to send the
     documents.</para>
 
-    <para/>
-
     <note>
       <para>If there is an external process step in a template, then the left
       area of the table is highlighted in blue. This area is for entering the
@@ -932,8 +908,6 @@
         </imageobject>
       </mediaobject>
     </note>
-
-    <para/>
 
     <tip>
       <para>If there is a component that is not shown in the <emphasis
@@ -950,7 +924,5 @@
       role="bold">Template settings(⚙) &gt; Workflow</emphasis> are
       shown.</para>
     </tip>
-
-    <para/>
   </section>
 </chapter>
