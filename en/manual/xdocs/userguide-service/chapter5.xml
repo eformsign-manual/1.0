@@ -6,7 +6,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Documents</title>
+  <title>Documents(test)</title>
 
   <section>
     <title>Documents</title>
@@ -99,7 +99,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/inbox_layout.png" width="1000"/>
+          <imagedata fileref="resources/inbox_layout.png" width="750"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -225,8 +225,8 @@
     </orderedlist>
 
     <section xml:id="category">
-      <title>Template Category Combo Box, Document Status Filter Combo Box,
-      and Search Box</title>
+      <title>Template category combo box, document status filter combo box,
+      and search box</title>
 
       <para>The template category combo box, document status filter combo box,
       and search box are located at the top left side of the<emphasis
@@ -271,7 +271,7 @@
       as shown below.</para>
 
       <figure>
-        <title>Template Category Combo Box</title>
+        <title>Template category combo box</title>
 
         <mediaobject>
           <imageobject>
@@ -473,11 +473,11 @@
       <emphasis role="bold">Advanced</emphasis> search combo box.</para>
 
       <figure>
-        <title>Custom Filter</title>
+        <title>Custom filter</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/userdefined_search1.png" width="600"/>
+            <imagedata fileref="resources/userdefined_search1.png"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -563,13 +563,8 @@
         <listitem>
           <para><emphasis role="bold">Keyword</emphasis></para>
 
-<<<<<<< HEAD
-          <para>Used for searching multiple values by and a comma (,) is used
-          the delimiter. The default value is empty.</para>
-=======
           <para>Used for searching multiple values by a comma (,) which is
           used as the delimeter. The default value is empty.</para>
->>>>>>> 11ce32b7af940932f1a81a37aae921f6b4000cbd
 
           <para>When used, it searches for the text entered. In other words,
           it searches for documents that contain at least one of the multiple
@@ -654,13 +649,8 @@
     </section>
 
     <section xml:id="additional_work">
-<<<<<<< HEAD
-      <title>Actions on Documents That Can Be Performed in the Document List
-      by Menu</title>
-=======
       <title>Actions that can be performed in the document list by Documents
       menu</title>
->>>>>>> 11ce32b7af940932f1a81a37aae921f6b4000cbd
 
       <para>Actions on documents that can be performed in the document list
       include preview, correct, void, resend, send final copy, and
@@ -691,7 +681,7 @@
     </section>
 
     <section xml:id="history">
-      <title>Document Status and History</title>
+      <title>Document status and history</title>
 
       <para>If you select a document in the document list, you can view the
       status and history of that document on the right side of the
@@ -704,7 +694,7 @@
       creation to completion.</para>
 
       <para><figure>
-          <title>Document Status Tab</title>
+          <title>Document status tab</title>
 
           <mediaobject>
             <imageobject>
@@ -712,11 +702,11 @@
             </imageobject>
           </mediaobject>
         </figure><figure>
-          <title>History Tab</title>
+          <title>History tab</title>
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/document_history.png" width="400"/>
+              <imagedata fileref="resources/document_history.png"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -725,10 +715,10 @@
     </section>
 
     <section xml:id="document_download">
-      <title>Document Download<indexterm class="singular">
+      <title>Document download<indexterm class="singular">
           <primary>Documents</primary>
 
-          <secondary>Document Download</secondary>
+          <secondary>Document download</secondary>
         </indexterm></title>
 
       <para>Documents created in eformsign can be safely stored for long
@@ -751,11 +741,11 @@
       <para/>
 
       <figure>
-        <title>Document Download Pop-up</title>
+        <title>Document download pop-up</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/download_popup.png" width="400"/>
+            <imagedata fileref="resources/download_popup.png"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -772,7 +762,7 @@
     </section>
 
     <section xml:id="document_delete">
-      <title>Deleting Documents</title>
+      <title>Deleting documents</title>
 
       <para>In eformsign, only members with document management permission can
       delete documents.</para>
@@ -791,21 +781,17 @@
     </section>
 
     <section xml:id="document_column">
-      <title>Document Menu Column Selection</title>
+      <title>Document menu column selection</title>
 
       <para>If you click the column (<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/column_icon.png" width="35"/>
           </imageobject>
         </inlinemediaobject>) icon on the right side of the document list, you
-<<<<<<< HEAD
-      can select which column can be displayed on the list.</para>
-=======
       can select which column to be displayed on the list.</para>
->>>>>>> 11ce32b7af940932f1a81a37aae921f6b4000cbd
 
       <figure>
-        <title>Document Column Selection Icon</title>
+        <title>Document column selection icon</title>
 
         <mediaobject>
           <imageobject>
@@ -817,7 +803,7 @@
   </section>
 
   <section>
-    <title>Creating New Documents</title>
+    <title>Creating new documents</title>
 
     <para>You can create new documents by using uploaded templates.</para>
 
@@ -841,11 +827,11 @@
     <para/>
 
     <figure>
-      <title>New Document List</title>
+      <title>New document list</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/create_newdocument1.png" width="1000"/>
+          <imagedata fileref="resources/create_newdocument1.png" width="700"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -864,7 +850,7 @@
   </section>
 
   <section>
-    <title>Send in Bulk</title>
+    <title>Send in bulk</title>
 
     <para><indexterm class="singular">
         <primary>Documents</primary>
@@ -890,11 +876,11 @@
     <para/>
 
     <figure>
-      <title>Send in Bulk Icon</title>
+      <title>Send in bulk icon</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/bulk-creation-icon.png" width="300"/>
+          <imagedata fileref="resources/bulk-creation-icon.png"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -902,11 +888,11 @@
     <para>3. Enter the values in the columns displayed on the screen.</para>
 
     <figure>
-      <title>Send in Bulk Screen</title>
+      <title>Send in bulk screen</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/bulk_create.png" width="1400"/>
+          <imagedata fileref="resources/bulk_create.png" width="700"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -935,7 +921,9 @@
     <note>
       <para>If there is an external process step in a template, then the left
       area of the table is highlighted in blue. This area is for entering the
-      external recipients’ names, emails, etc.</para>
+      external recipients’ names, emails, etc. Depending on the external
+      process settings, there can be phone numbers, verification passwords,
+      etc.</para>
 
       <mediaobject>
         <imageobject>
