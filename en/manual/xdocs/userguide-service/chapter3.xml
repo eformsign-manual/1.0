@@ -246,7 +246,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/components-in-word.png"/>
+            <imagedata fileref="resources/components-in-word.png" width="750"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -469,7 +469,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinexcel_1.png"/>
+              <imagedata fileref="resources/ozinexcel_1.png" width="1000"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -481,7 +481,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinexcel_2.png"/>
+              <imagedata fileref="resources/ozinexcel_2.png" width="750"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -493,7 +493,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinexcel_3.png"/>
+              <imagedata fileref="resources/ozinexcel_3.png" width="750"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -675,7 +675,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_check.png"
-                     width="700"/>
+                     width="750"/>
         </imageobject>
       </mediaobject>
 
@@ -703,7 +703,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/check-component-properties-1.png"/>
+              <imagedata fileref="resources/check-component-properties-1.png"
+                         width="700"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -728,7 +729,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/check-component-style-settings.png"
-                     width="700"/>
+                     width="750"/>
         </imageobject>
       </mediaobject>
     </section>
@@ -761,7 +762,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/Radio-component-properties.png"/>
+              <imagedata fileref="resources/Radio-component-properties.png"
+                         width="500"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -823,7 +825,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form-builder-components_Combo.png"/>
+          <imagedata fileref="resources/form-builder-components_Combo.png"
+                     width="750"/>
         </imageobject>
       </mediaobject>
 
@@ -843,7 +846,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/combo-component-properties.png"/>
+            <imagedata fileref="resources/combo-component-properties.png"
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -890,7 +894,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/text-and-muliline-components.png"/>
+          <imagedata fileref="resources/text-and-muliline-components.png"
+                     width="750"/>
         </imageobject>
       </mediaobject>
 
@@ -901,7 +906,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/text-component-properties.png"/>
+            <imagedata fileref="resources/text-component-properties.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -950,7 +956,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form-builder-components_datetime.png"/>
+          <imagedata fileref="resources/form-builder-components_datetime.png"
+                     width="750"/>
         </imageobject>
       </mediaobject>
 
@@ -961,7 +968,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/datetime-component-properties_02.png"/>
+            <imagedata fileref="resources/datetime-component-properties_02.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1054,7 +1062,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form-builder-components_numeric.png"/>
+          <imagedata fileref="resources/form-builder-components_numeric.png"
+                     width="750"/>
         </imageobject>
       </mediaobject>
 
@@ -1065,7 +1074,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/number-component-properties.png"/>
+            <imagedata fileref="resources/number-component-properties.png"
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1133,7 +1143,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form-builder-components_toggle.png"/>
+          <imagedata fileref="resources/form-builder-components_toggle.png"
+                     width="750"/>
         </imageobject>
       </mediaobject>
 
@@ -1153,7 +1164,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/toggle-component-properties.png"/>
+            <imagedata fileref="resources/toggle-component-properties.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1207,7 +1219,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form-builder-components_signature.png"/>
+          <imagedata fileref="resources/form-builder-components_signature.png"
+                     width="750"/>
         </imageobject>
       </mediaobject>
 
@@ -1217,7 +1230,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/signature.png"/>
+          <imagedata fileref="resources/signature.png" width="500"/>
         </imageobject>
       </mediaobject>
 
@@ -1228,7 +1241,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/Signature-component-properties.png"/>
+            <imagedata fileref="resources/Signature-component-properties.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1342,7 +1356,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form-builder-components_camera.png"/>
+          <imagedata fileref="resources/form-builder-components_camera.png"
+                     width="750"/>
         </imageobject>
       </mediaobject>
 
@@ -1356,7 +1371,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/camera1.png"/>
+          <imagedata fileref="resources/camera1.png" width="500"/>
         </imageobject>
       </mediaobject>
 
@@ -1367,7 +1382,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/Camera-component-properties-.png"/>
+            <imagedata fileref="resources/Camera-component-properties-.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1422,7 +1438,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/record_component.png"/>
+              <imagedata fileref="resources/record_component.png" width="600"
+                         wordsize="400"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -1452,7 +1469,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form-builder-components_attachment.png"/>
+          <imagedata fileref="resources/form-builder-components_attachment.png"
+                     width="750"/>
         </imageobject>
       </mediaobject>
 
@@ -1476,7 +1494,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/Attachment-component-properties.png"/>
+            <imagedata fileref="resources/Attachment-component-properties.png"
+                       width="600"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1507,7 +1526,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form-builder-components_user.png"/>
+          <imagedata fileref="resources/form-builder-components_user.png"
+                     width="750"/>
         </imageobject>
       </mediaobject>
 
@@ -1518,7 +1538,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/user-component-properties-.png"/>
+            <imagedata fileref="resources/user-component-properties-.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1557,7 +1578,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/user-input-certain-component.png"/>
+          <imagedata fileref="resources/user-input-certain-component.png"
+                     width="500"/>
         </imageobject>
       </mediaobject>
 
@@ -1614,7 +1636,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/document-component-in-list.png"/>
+          <imagedata fileref="resources/document-component-in-list.png"
+                     width="750"/>
         </imageobject>
       </mediaobject>
 
@@ -1630,7 +1653,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/document-domponent-properties.png"/>
+            <imagedata fileref="resources/document-domponent-properties.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1679,7 +1703,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form-builder-components_date.png"/>
+          <imagedata fileref="resources/form-builder-components_date.png"
+                     width="750"/>
         </imageobject>
       </mediaobject>
 
@@ -1690,7 +1715,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/date-component-properties_.png"/>
+            <imagedata fileref="resources/date-component-properties_.png"
+                       width="500"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1751,7 +1777,8 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/date-component-connecting-other-component.png"/>
+          <imagedata fileref="resources/date-component-connecting-other-component.png"
+                     width="500"/>
         </imageobject>
       </mediaobject>
 
@@ -1808,8 +1835,8 @@
     <para>Form files created using OZ in Office are uploaded in the following
     order.</para>
 
-    <para>1. Click the <emphasis role="bold">Execution</emphasis> icon
-    (<inlinemediaobject>
+    <para>1. Click the <emphasis role="bold">Execut</emphasis><emphasis
+    role="bold">e</emphasis> icon (<inlinemediaobject>
         <imageobject>
           <imagedata fileref="resources/excute_button.png"/>
         </imageobject>
@@ -1821,7 +1848,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form_upload_login.png" width="750"/>
+          <imagedata fileref="resources/form_upload_login.png" width="1000"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -1834,7 +1861,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/upload_preview.png" width="750"/>
+          <imagedata fileref="resources/upload_preview.png" width="1000"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -1853,7 +1880,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/upload_list.png" width="750"/>
+          <imagedata fileref="resources/upload_list.png" width="1000"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -1869,7 +1896,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/upload_save.png" width="750"/>
+          <imagedata fileref="resources/upload_save.png" width="1000"/>
         </imageobject>
       </mediaobject>
     </figure>
