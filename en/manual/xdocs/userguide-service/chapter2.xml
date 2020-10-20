@@ -454,7 +454,7 @@
             <primary>Change company</primary>
           </indexterm>If you are a member of multiple companies, click the
         <emphasis role="bold">Change company</emphasis> menu to view the list
-        of your companies and select the company to change.</para>
+        of your companies and select a company to change.</para>
       </listitem>
 
       <listitem>
@@ -523,8 +523,9 @@
           account</emphasis></term>
 
           <listitem>
-            <para>You can delete your eformsign account by clicking <emphasis
-            role="bold">Delete the eformsign account</emphasis>.</para>
+            <para>You can delete your eformsign account by clicking the
+            <emphasis role="bold">Delete the eformsign account</emphasis>
+            button.</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -823,7 +824,7 @@
         </emphasis>menu to view and download documents created from each
         template.<indexterm class="singular">
             <primary>Document manager</primary>
-          </indexterm> The document managers can be set for each
+          </indexterm> The document managers can be set for each separate
         template.</para>
       </listitem>
 
@@ -833,7 +834,7 @@
         <para><indexterm class="singular">
             <primary>Template usage</primary>
           </indexterm>Template usage (=document creation) permission can be
-        granted to members by each template. Only the member with the template
+        granted to members by template. Only the member with the template
         usage permission can create documents from that template.</para>
       </listitem>
     </itemizedlist>
@@ -1001,11 +1002,11 @@
       <para><indexterm class="singular">
           <primary>Template manager permissions</primary>
         </indexterm>Template managers can access to the <emphasis
-      role="bold">Manage template</emphasis> menu, and can register, edit,
+      role="bold">Manage template</emphasis> menu, and can create, edit,
       deploy, and delete templates.</para>
 
-      <para>A template manager who registered the template is the template
-      owner by default.</para>
+      <para>A template manager who created the template is the template owner
+      by default.</para>
 
       <para>However, if several template managers exist in the company, the
       template managers and the template owners may differ.</para>

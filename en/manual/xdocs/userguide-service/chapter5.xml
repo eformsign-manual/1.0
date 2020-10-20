@@ -54,9 +54,9 @@
     resend documents, void/reject documents that have yet to be completed in
     the workflow, and edit draft documents.</para>
 
-    <para>Since all documents and related activities are stored in the
-    Documents menus, you can view detailed information about the document
-    status and history.</para>
+    <para>All documents and related activities are stored in the Documents
+    menus, and you can view detailed information about the document status and
+    history.</para>
 
     <para>Aside from the three document menus, there is another menu for
     managing documents.</para>
@@ -106,20 +106,20 @@
       </mediaobject>
     </figure>
 
-    <para>Each documents menu consists of the following five sections.</para>
+    <para>Each documents menu consists of the following five sections:</para>
 
     <orderedlist>
       <listitem>
         <para><emphasis role="bold">Menu and home icon, and document menu
         name</emphasis></para>
 
-        <para>You can go to another menu by clicking the menu
+        <para>You can go to another menu by clicking the menu icon
         (<inlinemediaobject>
             <imageobject>
               <imagedata fileref="resources/menu_icon_2.png" width="25"/>
             </imageobject>
-          </inlinemediaobject>) icon or go to the dashboard by clicking the
-        home icon (<inlinemediaobject>
+          </inlinemediaobject>) or go to the dashboard by clicking the home
+        icon (<inlinemediaobject>
             <imageobject>
               <imagedata fileref="resources/home_icon_2.png" width="25"/>
             </imageobject>
@@ -149,8 +149,9 @@
 
         <para>The information of each document such as the document status,
         name, step, creator, created date, processed date, and document number
-        is provided in columns. You can change the column information
-        displayed. Click the column icon (<inlinemediaobject>
+        is provided in columns in the document list. You can also change the
+        column information displayed. Click the column icon
+        (<inlinemediaobject>
             <imageobject>
               <imagedata fileref="resources/column_icon.png" width="35"/>
             </imageobject>
@@ -212,7 +213,7 @@
           <para>Documents can be deleted only in the <emphasis
           role="bold">Manage documents</emphasis> menu and you can only delete
           documents in which you have document management permission. The
-          company administrator or the template manager of a template can
+          company administrator or the template managers of a template can
           grant you document management permission for all documents created
           from a template in <emphasis role="bold">Manage templates &gt;
           Template settings &gt; Set permissions &gt; Document management
@@ -270,7 +271,7 @@
 
       <para>Clicking the <emphasis role="bold">X</emphasis> icon of the
       template category combo displays the templates according to categories
-      as shown below.</para>
+      as shown below:</para>
 
       <figure>
         <title>Template category combo box</title>
@@ -745,7 +746,7 @@
         <para>CSV files can also be downloaded in the <emphasis
         role="bold">Download</emphasis> pop-up where PDF files can be
         downloaded. Select <emphasis role="bold">CSV download</emphasis> in
-        the pop-up and check the fields(columns) to be downloaded and then
+        the pop-up and check the fields (columns) to be downloaded and then
         click the <emphasis role="bold">Download</emphasis> button.</para>
       </note>
     </section>
@@ -919,7 +920,7 @@
 
       <para>1. The components that cannot be entered in <emphasis
       role="bold">Send in bulk</emphasis>: camera, voice, and grouped radio
-      components cannot be used in ‘Send in bulk’.</para>
+      components cannot be used in Send in bulk.</para>
 
       <para>2. Check whether the components are allowed access in Template
       settings: Only the components that are checked to be allowed access in
