@@ -14,17 +14,21 @@
     <section>
       <title>Menu</title>
 
-      <para>After logging into the eformsign Dashboard<indexterm
+      <para>After logging into the eformsign dashboard<indexterm
           class="singular">
           <primary>Dashboard</primary>
         </indexterm>, click the menu icon (<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
-        </inlinemediaobject>) on the left top side. Then, you will see the
-      sidebar menu, as shown below. Each menu may appear differently depending
-      on the permissions you have. The company administrator can access all
-      the menus and have all the permissions.</para>
+        </inlinemediaobject>) at the top left corner of the screen. Then, you
+      will see the sidebar menu, as shown below. </para>
+
+      <note>
+        <para>Each menu may appear differently depending on the permissions
+        you have. The company administrator can access all the menus and have
+        all the permissions.</para>
+      </note>
 
       <figure>
         <title>eformsign Menus</title>
@@ -54,7 +58,7 @@
               <primary>Documents</primary>
             </indexterm>This is is a cloud space for storing and viewing
           documents. It consists of the following three spaces according to
-          the document status.</para>
+          the document status:</para>
 
           <itemizedlist>
             <listitem>
@@ -181,9 +185,9 @@
               <para><emphasis role="bold">Analytics &amp; reporting:
               </emphasis><indexterm class="singular">
                   <primary>Analytics &amp; reporting</primary>
-                </indexterm>You can connect your Google Sheets or Microsoft
-              Office 365's Excel sheets to store the data filled in the
-              documents to the sheets.</para>
+                </indexterm>You can connect sheets in Google Sheets or
+              Microsoft Office 365's Excel with eformsign to store the data
+              filled in the eformsign documents to the sheets.</para>
             </listitem>
 
             <listitem>
@@ -262,8 +266,8 @@
                 <primary>In progress</primary>
               </indexterm>Displays the number of documents that are in
             progress. Click the <emphasis role="bold">In progress</emphasis>
-            box to go to the In progress document page where you can view the
-            list of documents.<emphasis role="bold"> </emphasis></para>
+            box to go to the In progress document page.<emphasis role="bold">
+            </emphasis></para>
           </listitem>
         </varlistentry>
 
@@ -273,9 +277,9 @@
           <listitem>
             <para><indexterm class="singular">
                 <primary>Action required</primary>
-              </indexterm>Displays the number of documents that requires my
+              </indexterm>Displays the number of documents that require your
             action. Click the <emphasis role="bold">Action required</emphasis>
-            box to to to the Action required document page.</para>
+            box to go to the Action required document page.</para>
           </listitem>
         </varlistentry>
 
@@ -385,7 +389,7 @@
           </listitem>
 
           <listitem>
-            <para>Tick the checkbox of the template you want to add to the
+            <para>Tick the checkboxes of the templates you want to add to the
             Favorites.</para>
 
             <para><inlinemediaobject>
@@ -398,7 +402,7 @@
 
           <listitem>
             <para>Click the <emphasis role="bold">Select</emphasis> button,
-            and it will be saved as your Favorites.</para>
+            and the templates will be saved as your Favorites.</para>
           </listitem>
         </orderedlist>
       </tip>
@@ -421,7 +425,7 @@
     menu.</para>
 
     <figure>
-      <title>Menu Icon Location to Access the Personal and Company
+      <title>Location of the Menu Icon for Accessing the Personal and Company
       Info</title>
 
       <mediaobject>
@@ -450,7 +454,7 @@
             <primary>Change company</primary>
           </indexterm>If you are a member of multiple companies, click the
         <emphasis role="bold">Change company</emphasis> menu to view the list
-        of your companies and select to change the company.</para>
+        of your companies and select the company to change.</para>
       </listitem>
 
       <listitem>
@@ -500,8 +504,8 @@
           <term><emphasis role="bold">Link social accounts</emphasis></term>
 
           <listitem>
-            <para>You can link, or unlink your social accounts including
-            Google and Facebook.</para>
+            <para>You can link, or unlink your social accounts in Google and
+            Facebook.</para>
           </listitem>
         </varlistentry>
 
@@ -557,11 +561,11 @@
             URL, and company administrator’s email.</para>
 
             <note>
-              <para>You can only view company information on this menu. If you
-              want to edit information, go to the<emphasis role="bold"> Manage
-              company &gt; Company profile </emphasis>menu. Only the Company
-              administrator or company manager can edit the company
-              information.</para>
+              <para>You can only view the company information on this menu. If
+              you want to edit the information, go to the<emphasis
+              role="bold"> Manage company &gt; Company profile
+              </emphasis>menu. Only the Company administrator or company
+              managers can edit the company information.</para>
             </note>
           </listitem>
         </varlistentry>
@@ -573,9 +577,9 @@
           <listitem>
             <para>If you want to withdraw from the company, click the
             <emphasis role="bold">Withdraw from this company</emphasis>
-            button. Then, the list of companies that you are a member will be
-            displayed and you can select a company that you want to withdraw
-            from.</para>
+            button. Then, the list of companies that you are a member of will
+            be displayed and you can select a company that you want to
+            withdraw from.</para>
 
             <important>
               <para>Even if a member withdraws from a company, the member can
@@ -583,7 +587,7 @@
               create a new company.</para>
 
               <para>However, if the company administrator withdraws from the
-              company, the company itself will be deleted. If the
+              company, the company also will be deleted together. If the
               administrator wants to withdraw from the company without
               deleting the company, the administrator needs to delegate
               permission to another member, and then withdraw from the
@@ -774,9 +778,8 @@
   <section>
     <title>Permissions</title>
 
-    <para>eformsign provides 5 types of roles that can be granted to members
-    based on permissions they have. Types of access control are as
-    follows:</para>
+    <para>eformsign provides the following five types of roles that can be
+    granted to members based on their permissions. </para>
 
     <itemizedlist>
       <listitem>
@@ -794,12 +797,11 @@
 
         <para><indexterm class="singular">
             <primary>Company manager</primary>
-          </indexterm>Company managers<emphasis role="bold"> </emphasis>have
-        access to the <emphasis role="bold">Manage company</emphasis> menu.
-        The company managers can view and edit company, group and member
-        information<emphasis role="bold"> </emphasis>and<emphasis role="bold">
-        </emphasis>grant permissions<emphasis role="bold"> </emphasis>to
-        members.</para>
+          </indexterm>Company managers have permission to access the <emphasis
+        role="bold">Manage company</emphasis> menu. The company managers can
+        view and edit company, group and member information<emphasis
+        role="bold"> </emphasis>and<emphasis role="bold"> </emphasis>grant
+        permissions<emphasis role="bold"> </emphasis>to members.</para>
       </listitem>
 
       <listitem>
@@ -807,32 +809,32 @@
 
         <para><indexterm class="singular">
             <primary>Template manager</primary>
-          </indexterm>Template managers have access to the <emphasis
-        role="bold">Manage template</emphasis> menu. The template managers can
-        create new templates by using Form builder or Web form designer, and
-        also can edit, deploy, and delete templates.</para>
+          </indexterm>Template managers have permission to access the
+        <emphasis role="bold">Manage template</emphasis> menu. The template
+        managers can create new templates by using Form builder or Web form
+        designer, and also can edit, deploy, and delete templates.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">Document manager</emphasis></para>
 
-        <para>Document managers<emphasis role="bold"> </emphasis>can access
-        the <emphasis role="bold">Manage document </emphasis>menu to view and
-        download documents created from each template.<indexterm
-            class="singular">
+        <para>Document managers<emphasis role="bold"> </emphasis>have
+        permission to access the <emphasis role="bold">Manage document
+        </emphasis>menu to view and download documents created from each
+        template.<indexterm class="singular">
             <primary>Document manager</primary>
           </indexterm> The document managers can be set for each
         template.</para>
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">Create new document</emphasis></para>
+        <para><emphasis role="bold">Document creation</emphasis></para>
 
         <para><indexterm class="singular">
             <primary>Template usage</primary>
-          </indexterm>Template usage permission can be granted to members by
-        each template. Only the member with the template usage permission can
-        create documents from that template.</para>
+          </indexterm>Template usage (=document creation) permission can be
+        granted to members by each template. Only the member with the template
+        usage permission can create documents from that template.</para>
       </listitem>
     </itemizedlist>
 
@@ -843,7 +845,7 @@
           <primary>Company administrator</primary>
         </indexterm>The user who created the company is the company
       administrator by default, and the company administrator is a super
-      administrator with all permissions using the eformsign service.</para>
+      administrator with all permissions to use the eformsign service.</para>
 
       <para>The company administrator</para>
 
@@ -867,9 +869,9 @@
       </itemizedlist>
 
       <para>When the company administrator deletes the eformsign account, the
-      company will also be deleted. If the administrator wants to delete only
-      the account, delegate the administrator permission to another member,
-      and then delete the account.<indexterm class="singular">
+      company will also be deleted together. If the administrator wants to
+      delete only the account, delegate the administrator permission to
+      another member, and then delete the account.<indexterm class="singular">
           <primary>Delegating the Company administrator permission</primary>
         </indexterm></para>
 
@@ -891,7 +893,7 @@
         <listitem>
           <para>Click the <emphasis role="bold">Edit </emphasis>button in the
           <emphasis role="bold">Detailed information </emphasis>tab, and then
-          click the<emphasis role="bold"> Delegate role </emphasis>button to
+          click the<emphasis role="bold"> Delegate role </emphasis>button on
           the right side of the<emphasis role="bold"> Administrator</emphasis>
           item.</para>
 
@@ -925,7 +927,7 @@
         </listitem>
 
         <listitem>
-          <para>Enter the Password of the company administrator.</para>
+          <para>Enter the password of the company administrator.</para>
         </listitem>
 
         <listitem>
@@ -942,7 +944,7 @@
           <primary>Company manager</primary>
         </indexterm>Company managers can access the <emphasis
       role="bold">Manage company</emphasis> menu and can view, edit, and
-      delete the information regarding the company and groups/members. </para>
+      delete the information regarding the company and groups/members.</para>
 
       <note>
         <para>The company administrator or company managers can grant the
@@ -973,7 +975,7 @@
         <listitem>
           <para>Tick the<emphasis role="bold"> Manage company
           </emphasis>checkbox in the Permission item, displayed at the bottom
-          of the Member info tab on the member list's right side. </para>
+          of the Member info tab on the member list's right side.</para>
 
           <figure>
             <title>Company Manager</title>
@@ -1035,7 +1037,7 @@
         <listitem>
           <para>Tick the<emphasis role="bold"> Manage templates</emphasis>
           checkbox in the Permission item, displayed at the bottom of the
-          Member info tab on the member list's right side. </para>
+          Member info tab on the member list's right side.</para>
 
           <figure>
             <title>Template Manager Permissions</title>
@@ -1284,7 +1286,7 @@
             <listitem>
               <para>When you click the<emphasis role="bold"> Recycle Bin
               </emphasis>icon, the checkboxes will be activated on the member
-              list's left column. Tick the member to delete and click the
+              list's left column. Tick the members to delete and click the
               <emphasis role="bold">Delete</emphasis> button.</para>
             </listitem>
           </varlistentry>
@@ -1407,8 +1409,8 @@
       </listitem>
 
       <listitem>
-        <para>Click the OK button to add a new signature, initial or
-        stamp.</para>
+        <para>Click the <emphasis role="bold">OK</emphasis> button to add a
+        new signature, initial or stamp.</para>
 
         <figure>
           <title>Register Signature</title>
@@ -1452,7 +1454,7 @@
               </indexterm>Select a mobile device that you want to connect and
             click the <emphasis role="bold">Send </emphasis>button. You can
             draw your signature using the eformsign app installed on the
-            device connected. </para>
+            device connected.</para>
           </listitem>
         </itemizedlist>
       </listitem>
@@ -1494,7 +1496,7 @@
     <orderedlist>
       <listitem>
         <para>Click the sidebar menu icon, and go to the <emphasis
-        role="bold">My signature</emphasis> menu. </para>
+        role="bold">My signature</emphasis> menu.</para>
       </listitem>
 
       <listitem>

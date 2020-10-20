@@ -14,14 +14,7 @@
     <para><indexterm class="singular">
         <primary>Documents</primary>
       </indexterm>Documents are stored in the following three menus according
-    to the document status. By using these menus, you can easily view the
-    status and history of each document, find the documents you want by
-    filtering and searching, resend documents, void/reject documents that have
-    yet to be completed in the workflow, and edit draft documents.</para>
-
-    <para>By using the<emphasis role="bold"> Documents</emphasis> menus, you
-    can store all documents and related activities as well as viewing detailed
-    information about the document status and history.</para>
+    to the document status:</para>
 
     <itemizedlist>
       <listitem>
@@ -56,6 +49,15 @@
       </listitem>
     </itemizedlist>
 
+    <para>By using these menus, you can easily view the status and history of
+    each document, find the documents you want by filtering and searching,
+    resend documents, void/reject documents that have yet to be completed in
+    the workflow, and edit draft documents.</para>
+
+    <para>Since all documents and related activities are stored in the
+    Documents menus, you can view detailed information about the document
+    status and history.</para>
+
     <para>Aside from the three document menus, there is another menu for
     managing documents.</para>
 
@@ -85,8 +87,8 @@
       </mediaobject>
     </figure>
 
-    <para>The layout of the three Documents menus and the Manage documents
-    menu are laid out almost the same.</para>
+    <para>The three Documents menus and the Manage documents menu are laid out
+    almost the same.</para>
 
     <para><note>
         <para>The layout of the Documents menus are very similar to each
@@ -145,15 +147,16 @@
         documents in other pages by clicking the page numbers at the
         bottom.</para>
 
-        <para>The information of each document are provided in columns and
-        contain information such as the document status, name, step, creator,
-        created date, processed date, and document number. You can sort the
-        documents by clicking the column icon (<inlinemediaobject>
+        <para>The information of each document such as the document status,
+        name, step, creator, created date, processed date, and document number
+        is provided in columns. You can change the column information
+        displayed. Click the column icon (<inlinemediaobject>
             <imageobject>
               <imagedata fileref="resources/column_icon.png" width="35"/>
             </imageobject>
-          </inlinemediaobject>) and checking the columns displayed in the
-        <link linkend="document_column">column check box</link>.</para>
+          </inlinemediaobject>) displayed at the top right corner of the page,
+        and then check the columns you want to display in the <link
+        linkend="document_column">column check box</link>. </para>
 
         <para>You can also perform actions on a document such as reviewing,
         previewing, correcting, voiding, resending, and deleting a
@@ -216,7 +219,7 @@
           </emphasis>and selecting the groups/members you want to grant
           permission.<emphasis role="bold"> </emphasis>Document management
           permission can be set for each template. Members with this
-          permission can open, delete, and download (PDF, CSV) the documents
+          permission can open, delete, and download the documents (PDF, CSV)
           created from this template in the <emphasis role="bold">Manage
           documents</emphasis> menu.</para>
         </note>
@@ -820,7 +823,7 @@
       </mediaobject>
     </figure>
 
-    <para>3. Create a document and then click the <emphasis
+    <para>3. Create a document, and then click the <emphasis
     role="bold">Complete</emphasis> or <emphasis
     role="bold">Request</emphasis> button at the top right corner of the
     screen.</para>
