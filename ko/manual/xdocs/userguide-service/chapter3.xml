@@ -85,9 +85,9 @@
 
       <para>1. 폼 빌더 실행파일을 클릭해 실행합니다.</para>
 
-      <para>2. 다음과 같은 Wizard 화면이 나타나면 옵션 중 <emphasis
-      role="bold">복구(E)</emphasis>를 선택하고 <emphasis role="bold">다음(N)
-      &gt;</emphasis> 버튼을 클릭합니다.</para>
+      <para>2. 다음과 같은 Wizard 화면이 나타나면 옵션 중 <emphasis role="bold">전체
+      설치</emphasis>(C)를 선택하고 <emphasis role="bold">다음(N) &gt;</emphasis> 버튼을
+      클릭합니다.</para>
 
       <figure>
         <title>폼 빌더 설치 화면 (1)</title>
@@ -113,7 +113,7 @@
         </mediaobject>
       </figure>
 
-      <para>4. 설치가 완료되었습니다. <emphasis role="bold">완료</emphasis> 버튼을 눌러 설치 화면을
+      <para>4. 설치가 완료되었습니다. <emphasis role="bold">완료</emphasis> 버튼을 클릭해 설치 화면을
       닫습니다.</para>
 
       <figure>
@@ -136,51 +136,13 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/formbuilder_word_4.png" width="750"/>
+            <imagedata fileref="resources/formbuilder-ozinword-menu1.png"
+                       width="750"/>
           </imageobject>
         </mediaobject>
       </figure>
 
-      <para>6. OZ in Word/Excel/PowerPoint 리본 메뉴 중 <emphasis
-      role="bold">서비스</emphasis> 버튼을 클릭하여 나타나는 팝업창에 서비스명과 URL을 추가합니다.</para>
-
-      <figure>
-        <title>서비스 및 URL 추가 (1)</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/ozinoffice_service_1.png"
-                       width="350"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
-
-      <para>7. <emphasis role="bold">저장 후 전환</emphasis> 버튼을 클릭하고 신규 설정한 서비스
-      URL과 OZ in Word/Excel/PowerPoint를 연결합니다.</para>
-
-      <para><figure>
-          <title>서비스 및 URL 추가 (2)</title>
-
-          <mediaobject>
-            <imageobject>
-              <imagedata fileref="resources/ozinoffice_service_2.png"
-                         width="350"/>
-            </imageobject>
-          </mediaobject>
-        </figure>8. 연결이 완료되면 아래와 같이 리본 메뉴의 <emphasis
-      role="bold">파일</emphasis>에 <emphasis role="bold">업로드</emphasis>와
-      <emphasis role="bold">다운로드</emphasis> 버튼이 추가된 것을 확인할 수 있습니다.</para>
-
-      <figure>
-        <title>서비스 연결 후의 리본 메뉴</title>
-
-        <mediaobject>
-          <imageobject>
-            <imagedata fileref="resources/ozinoffice_service_3.png"
-                       width="700"/>
-          </imageobject>
-        </mediaobject>
-      </figure>
+      <para/>
 
       <para/>
     </section>
@@ -189,14 +151,16 @@
       <title>폼 빌더 메뉴 구성</title>
 
       <para>폼 빌더를 설치한 후 MS Office의 엑셀, 워드, 파워포인트를 실행하면 상단의 OZ in Office 리본 메뉴에
-      OZ in Excel, OZ in Word, OZ in PowerPoint 탭이 추가된 것을 확인할 수 있습니다.</para>
+      <emphasis role="bold">OZ in Excel, OZ in Word, OZ in PowerPoint
+      </emphasis>탭이 추가된 것을 확인할 수 있습니다.</para>
 
       <figure>
         <title>MS Office의 OZ in Office 리본 메뉴</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/ozinoffice.png" width="750"/>
+            <imagedata fileref="resources/formbuilder-ozinword-menu.png"
+                       width="750"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -205,27 +169,22 @@
 
       <orderedlist>
         <listitem>
-          <para><emphasis role="bold">서비스: </emphasis>사용하는 서비스의 이름과 URL을 추가해 폼
-          빌더와 서비스를 연결합니다.</para>
+          <para><emphasis role="bold">파일: </emphasis>작성한 문서를 전자서식으로 실행해보고
+          이폼사인에 템플릿으로 업로드하거나 이폼사인에서 다운로드 받을 수 있습니다.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">파일: </emphasis>작성한 문서를 전자 서식으로 실행해보고
-          이폼사인에 전자서식을 업로드하거나 이폼사인에서 다운로드 받을 수 있습니다.</para>
-        </listitem>
-
-        <listitem>
-          <para><emphasis role="bold">속성: </emphasis>입력항목에 대한 속성을
+          <para><emphasis role="bold">속성: </emphasis>입력항목에 대한 ID, 항목 등 속성을
           설정합니다.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">입력: </emphasis>전자 서식에 사용할 입력항목을
+          <para><emphasis role="bold">입력: </emphasis>템플릿에 사용할 입력항목을
           추가합니다.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">정보: </emphasis>전자 서식에 자동으로 멤버나 사용일 정보를
+          <para><emphasis role="bold">정보: </emphasis>템플릿에 자동으로 멤버나 사용일 정보를
           기입하기 위해 사용자, 사용일 정보 입력항목을 추가합니다.</para>
         </listitem>
 
@@ -559,7 +518,8 @@
         또는 <emphasis role="bold">OZ in PowerPoint</emphasis> 리본 메뉴로
         이동합니다.</para>
 
-        <para>2. 입력항목 그리기 아이콘을 클릭하여 나타나는 드롭다운 목록에서 추가할 입력항목을 선택합니다.</para>
+        <para>2. 입력항목 <emphasis role="bold">그리기</emphasis> 아이콘을 클릭하여 나타나는 드롭다운
+        목록에서 추가할 입력항목을 선택합니다.</para>
 
         <figure>
           <title>방법 2: 워드 또는 파워포인트에서 입력항목을 그려서 추가하기(1)</title>
@@ -593,7 +553,7 @@
           <imageobject>
             <imagedata fileref="resources/delete-icon.png"/>
           </imageobject>
-        </inlinemediaobject>) 아이콘을 클릭합니다. 입력항목은 여러 개를 선택해서 삭제하는 것도
+        </inlinemediaobject>) 아이콘을 클릭합니다. 여러 개의 입력항목을 선택해서 한 번에 삭제하는 것도
       가능합니다.</para>
     </section>
   </section>
@@ -604,9 +564,10 @@
     <para>eformsign은 MS Office의 <emphasis role="bold">OZ in Office</emphasis>
     리본 메뉴를 통해 체크박스, 콤보박스, 텍스트, 서명 등 다양한 입력항목을 지원하고 있습니다.</para>
 
-    <para><emphasis role="bold">OZ in Office</emphasis>의 모든 입력 기능은 공통 속성과 고유
-    속성을 가지고 있으며, OZ 입력항목 속성 창에서 공통 속성과 각 입력 기능의 고유 속성을 확인할 수 있습니다. 공통 속성으로는
-    ID와 툴팁 텍스트가 있으며, 각 속성의 의미는 다음과 같습니다.</para>
+    <para><emphasis role="bold">OZ in Office</emphasis>의 모든 입력항목은 공통 속성과 고유
+    속성을 가지고 있으며, <emphasis role="bold">OZ 입력항목 속성 </emphasis>창에서 공통 속성과 각 입력
+    기능의 고유 속성을 확인할 수 있습니다. 공통 속성으로는 ID와 툴팁 텍스트가 있으며, 각 속성의 의미는 다음과
+    같습니다.</para>
 
     <itemizedlist>
       <listitem>
@@ -653,9 +614,10 @@
           <primary>입력항목</primary>
 
           <secondary>체크</secondary>
-        </indexterm>체크 입력항목은 각 항목의 체크 여부를 확인하고자 할때 사용합니다. 비슷한 입력항목 중 ‘선택’
-      입력항목이 있으며, 체크 입력항목은 해당 항목의 체크 여부를 확인할 때 사용하고, 선택 입력항목은 선택한 항목이 무엇인지 알아야
-      할 때 사용한다는 차이가 있습니다.</para>
+        </indexterm><emphasis role="bold">체크</emphasis> 입력항목은 각 항목의 체크 여부를
+      확인하고자 할때 사용합니다. 비슷한 입력항목으로 <emphasis role="bold">선택</emphasis> 입력항목이
+      있으며, 체크 입력항목은 해당 항목의 체크 여부를 확인할 때 사용하고, 선택 입력항목은 선택한 항목이 무엇인지 알아야 할 때
+      사용한다는 차이가 있습니다.</para>
 
       <para/>
 
@@ -683,7 +645,7 @@
       <para><emphasis role="bold">입력항목 속성</emphasis></para>
 
       <para><figure>
-          <title>체크 입력항목 속성 설정하기</title>
+          <title>선택 입력항목 속성 설정하기</title>
 
           <mediaobject>
             <imageobject>
@@ -696,7 +658,7 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>체크 입력항목은 각 항목 별로 다른 ID를 부여해야 합니다. 여러 개의 체크 입력항목에 같은 ID가 부여될 경우 해당
+      <para>선택 입력항목은 각 항목 별로 다른 ID를 부여해야 합니다. 여러 개의 선택 입력항목에 같은 ID가 부여될 경우 해당
       입력항목 중 마지막 입력항목의 입력값만 표시됩니다.</para>
 
       <para><emphasis role="bold">② 체크 스타일</emphasis></para>
@@ -752,7 +714,7 @@
 
       <para>예를 들어, 1번 문제에 대해 1, 2, 3, 4, 5의 보기가 있는 경우 1, 2, 3, 4, 5 항목에 같은 ID
       ‘1번’을 부여합니다. 2번 문제의 1, 2, 3, 4, 5 보기에는 ‘2번’ ID를 부여합니다. 다음 예시 화면의 모든 선택
-      항목의 ID는 ‘나이 선택’으로 지정합니다.</para>
+      항목에 대한 ID는 ‘나이 선택’으로 지정합니다.</para>
 
       <figure>
         <title>선택 입력항목의 설정 예</title>
@@ -907,7 +869,7 @@
       숨길 수 있습니다. 입력된 내용은 PDF에서도 패스워드 문자로 숨겨지며, CSV 데이터를 다운로드 받을 때에만 확인할 수
       있습니다.</para>
 
-      <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
+      <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
 
       <para>해당 입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
@@ -951,18 +913,19 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">yyyy: </emphasis>연도’를 표시합니다. (yyyy년 =
-          2020년)</para>
+          <para><emphasis role="bold">yyyy: </emphasis><emphasis
+          role="bold">연도</emphasis>를 표시합니다. (yyyy년 = 2020년)</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">MM:</emphasis> ‘월’을 표시합니다. 반드시 대문자로 표기해야
-          합니다. (MM월 = 8월)</para>
+          <para><emphasis role="bold">MM:</emphasis> <emphasis
+          role="bold">월</emphasis>을 표시합니다. 반드시 대문자로 표기해야 합니다. (MM월 =
+          8월)</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">dd:</emphasis> ‘일’을 표시합니다. (dd일 =
-          10일)</para>
+          <para><emphasis role="bold">dd:</emphasis> <emphasis
+          role="bold">일</emphasis>을 표시합니다. (dd일 = 10일)</para>
         </listitem>
       </itemizedlist>
 
@@ -981,8 +944,8 @@
 
       <para>입력 데이터 초기화 가능을 체크하면 선택한 날짜를 삭제할 수 있습니다. 날짜 입력항목은 한 번 날짜를 선택하면 다른
       날짜로 변경할 수는 있으나 날짜 선택을 취소할 수는 없습니다. 그러나 입력 데이터 초기화 가능 속성을 체크하면 아무것도 선택되지
-      않은 상태로 변경할 수 있습니다. 단, 아무것도 선택되지 않은 상태일 때 빈 값일 때 오늘 날짜 표시 속성이 체크된 경우 오늘
-      날짜로 선택됩니다.</para>
+      않은 상태로 변경할 수 있습니다. 단, 아무것도 선택되지 않은 상태일 때 <emphasis role="bold">빈 값일 때 오늘
+      날짜 표시 </emphasis>속성이 체크된 경우 오늘 날짜로 선택됩니다.</para>
 
       <itemizedlist>
         <listitem>
@@ -1031,8 +994,8 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>숫자 입력항목의 ID를 입력합니다. 예를 들어, 예약 인원을 입력하는 입력항목의 ID는 ‘예약 인원’으로
-      합니다.</para>
+      <para>숫자 입력항목의 ID를 입력합니다. 예를 들어, 예약 인원을 입력하는 경우 ID는 ‘예약 인원’으로
+      설정합니다.</para>
 
       <para><emphasis role="bold">② 증감 단위</emphasis></para>
 
@@ -1055,8 +1018,8 @@
 
       <para><itemizedlist>
           <listitem>
-            <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 ‘입력 데이터 초기화’를
-            선택합니다.</para>
+            <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 <emphasis
+            role="bold">입력 데이터 초기화</emphasis>’를 선택합니다.</para>
           </listitem>
 
           <listitem>
@@ -1085,7 +1048,8 @@
         </imageobject>
       </mediaobject>
 
-      <para>다음과 같이 입력항목을 클릭하여 양호, 불량 상태로 변경할 수 있습니다.</para>
+      <para>다음과 같이 입력항목을 클릭하여 <emphasis role="bold">양호</emphasis>,<emphasis
+      role="bold"> 불량 </emphasis>상태로 변경할 수 있습니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1107,7 +1071,7 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>토글 입력항목의 ID를 입력합니다. 예를 들어, 첫번째 점검 항목에 대한 입력항목인 경우 ‘점검항목 1’로
+      <para>토글 입력항목의 ID를 입력합니다. 예를 들어, 첫번째 점검 항목에 대한 입력항목인 경우 ‘점검 1’로
       합니다.</para>
 
       <para><emphasis role="bold">② Items</emphasis></para>
@@ -1123,8 +1087,8 @@
 
       <itemizedlist>
         <listitem>
-          <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 ‘입력 데이터 초기화’를
-          선택합니다.</para>
+          <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 <emphasis
+          role="bold">입력 데이터 초기화</emphasis>를 선택합니다.</para>
         </listitem>
 
         <listitem>
@@ -1152,8 +1116,9 @@
         </imageobject>
       </mediaobject>
 
-      <para>서명 입력항목을 넣으면 서명이 필요한 문서에서 아래와 같이 서명 팝업이 뜨고 서명을 직접 그리거나 텍스트를 입력해
-      서명을 생성할 수 있으며, 기존에 등록한 서명이 있는 경우 이를 사용할 수도 있습니다.</para>
+      <para>서명 입력항목을 넣으면 서명이 필요한 문서에서 아래와 같이 <emphasis role="bold">서명
+      </emphasis>팝업이 뜨고 서명을 직접 그리거나 텍스트를 입력해 서명을 생성할 수 있으며, 기존에 등록한 서명이 있는 경우
+      이를 사용할 수도 있습니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1190,24 +1155,27 @@
 
         <listitem>
           <para><emphasis role="bold">등록된 서명:</emphasis> 문서를 작성하는 사람이 미리 등록해 둔
-          ‘내 서명’이 있는 경우 서명란을 클릭하면 등록된 서명이 자동으로 입력됩니다.</para>
+          <emphasis role="bold">내 서명</emphasis>이 있는 경우 서명란을 클릭하면 등록된 서명이 자동으로
+          입력됩니다.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">등록된 이니셜:</emphasis> 등록된 서명과 마찬가지로 ‘내
-          서명’에 등록된 이니셜이 있는 경우 서명란을 클릭하면 등록된 이니셜이 자동으로 입력됩니다.</para>
+          <para><emphasis role="bold">등록된 이니셜:</emphasis> 등록된 서명과 마찬가지로
+          <emphasis role="bold">내 서명</emphasis>에 등록된 이니셜이 있는 경우 서명란을 클릭하면 등록된
+          이니셜이 자동으로 입력됩니다.</para>
         </listitem>
       </itemizedlist>
 
       <para><note>
           <para>등록된 서명과 이니셜이 있는 경우에는 해당 서명이 서명란에 자동으로 입력되지만, 등록된 서명과 이니셜이 없는
-          경우 직접 서명과 동일한 서명 팝업이 나타납니다.</para>
+          경우 직접 서명과 동일한 <emphasis role="bold">서명</emphasis> 팝업이 나타납니다.</para>
         </note></para>
 
       <note>
         <para>문서에 직접 서명이 아닌 직인이나 개인 도장을 사용해야 하는 경우가 있습니다. eformsign에서는 도장 이미지를
-        사용해 문서의 서명란에 도장을 찍을 수도 있습니다. 도장 이미지를 사용하려면, 서명 팝업에서 <emphasis
-        role="bold">도장</emphasis> 탭을 클릭하고 도장 이미지를 선택한 후 확인 버튼을 누릅니다.</para>
+        사용해 문서의 서명란에 도장을 찍을 수도 있습니다. 도장 이미지를 사용하려면,<emphasis role="bold">
+        서명</emphasis> 팝업에서 <emphasis role="bold">도장</emphasis> 탭을 클릭하고 도장 이미지를
+        선택한 후 확인 버튼을 누릅니다.</para>
       </note>
 
       <para><emphasis role="bold">③ 서명펜 두께</emphasis></para>
@@ -1235,7 +1203,8 @@
 
         <para>5. 사용일 입력항목의 속성창을 엽니다.</para>
 
-        <para>6. 사용일 표시 유형을 ‘입력 값을 수정한 날짜’로 선택합니다.</para>
+        <para>6. 사용일 표시<emphasis role="bold"> </emphasis>유형을 <emphasis
+        role="bold">입력 값을 수정한 날짜</emphasis>로 선택합니다.</para>
 
         <para>7. 하단에 나타나는 입력항목 ID 입력란에 서명 입력항목 ID인 ‘서명’을 입력합니다.</para>
 
@@ -1580,18 +1549,19 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">yyyy:</emphasis> 연도’를 표시합니다. (yyyy년 =
-          2020년)</para>
+          <para><emphasis role="bold">yyyy:</emphasis> <emphasis
+          role="bold">연도</emphasis>를 표시합니다. (yyyy년 = 2020년)</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">MM:</emphasis> ‘월’을 표시합니다. 반드시 대문자로 표기해야
-          합니다. (MM월 = 8월)</para>
+          <para><emphasis role="bold">MM:</emphasis> <emphasis
+          role="bold">월</emphasis>을 표시합니다. 반드시 대문자로 표기해야 합니다. (MM월 =
+          8월)</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">dd:</emphasis> ‘일’을 표시합니다. (dd일 =
-          10일)</para>
+          <para><emphasis role="bold">dd:</emphasis> <emphasis
+          role="bold">일</emphasis>을 표시합니다. (dd일 = 10일)</para>
         </listitem>
       </itemizedlist>
 
@@ -1704,7 +1674,8 @@
         <imageobject>
           <imagedata fileref="resources/upload_button.png"/>
         </imageobject>
-      </inlinemediaobject>) 아이콘을 클릭하면 템플릿 목록과 함께 새 템플릿 추가 카드가 나타납니다.</para>
+      </inlinemediaobject>) 아이콘을 클릭하면 템플릿 목록과 함께 <emphasis role="bold">새
+    템플릿</emphasis> 추가 카드가 나타납니다.</para>
 
     <figure>
       <title>새 템플릿 추가 리스트 화면</title>
@@ -1718,8 +1689,9 @@
 
     <para/>
 
-    <para>4. 새 템플릿 카드를 클릭하면 작성한 폼이 업로드된 상태에서 템플릿을 설정하는 화면이 나타납니다. 우측 상단의 저장
-    버튼을 눌러 템플릿을 생성합니다.</para>
+    <para>4.<emphasis role="bold"> 새 템플릿</emphasis> 카드를 클릭하면 작성한 폼이 업로드된 상태에서
+    템플릿을 설정하는 화면이 나타납니다. 우측 상단의 <emphasis role="bold">저장</emphasis> 버튼을 클릭해
+    템플릿을 생성합니다.</para>
 
     <figure>
       <title>새 템플릿 저장 화면</title>
@@ -1742,9 +1714,9 @@
 
     <para>1. 이폼사인에 로그인합니다.</para>
 
-    <para>2 템플릿 관리 메뉴로 이동합니다.</para>
+    <para>2. 템플릿 관리 메뉴로 이동합니다.</para>
 
-    <para>3 템플릿 설정 아이콘을 클릭합니다.</para>
+    <para>3. 템플릿 설정 아이콘을 클릭합니다.</para>
 
     <itemizedlist>
       <listitem>
@@ -1768,7 +1740,7 @@
       </listitem>
     </itemizedlist>
 
-    <para>4 모든 설정이 완료된 후 <emphasis role="bold">저장</emphasis> 버튼을 클릭해 설정을
+    <para>4. 모든 설정을 완료한 후 <emphasis role="bold">저장</emphasis> 버튼을 클릭해 설정을
     저장합니다.</para>
 
     <note>

@@ -31,7 +31,7 @@
     including signature, check box, text box, camera, and voice.</para>
 
     <para>The process of creating electronic documents using OZ in Office's
-    components is as follows.</para>
+    components is as follows:</para>
 
     <figure>
       <title>OZ in Office Usage Flow</title>
@@ -244,7 +244,7 @@
     <section>
       <title>Component Types</title>
 
-      <para>The components provided in eformsign are as follows.</para>
+      <para>The components provided in eformsign are as follows:</para>
 
       <figure>
         <title>Component Types</title>
@@ -620,7 +620,7 @@
     both common and unique properties. You can view both the common and unique
     properties of components in the <emphasis role="bold">OZ Component
     Properties</emphasis> tab. Common properties include ID and Tooltip Text,
-    and the meaning of each property is as follows.</para>
+    and the meaning of each property is as follows:</para>
 
     <itemizedlist>
       <listitem>
@@ -663,7 +663,7 @@
     </note>
 
     <para>The description of each component type provided in eformsign is as
-    follows.</para>
+    follows:</para>
 
     <para/>
 
@@ -692,7 +692,7 @@
 
       <para>When data is downloaded in CSV format, the <emphasis
       role="bold">Check </emphasis>component’s input value is displayed as
-      follows.</para>
+      follows:</para>
 
       <itemizedlist>
         <listitem>
@@ -704,9 +704,9 @@
         </listitem>
       </itemizedlist>
 
-      <para>In Word and PowerPoint, the radio component is shown as a
-      rectangular shape. Make sure to enter data inside the rectangular
-      shape.</para>
+      <para>In Word and PowerPoint, the <emphasis role="bold">Check</emphasis>
+      component is shown as a rectangular shape. Make sure to enter data
+      inside the rectangular shape.</para>
 
       <para><emphasis role="bold">Component Properties</emphasis></para>
 
@@ -725,15 +725,16 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>Each check component must be given a different ID. If multiple
-      check components are given the same ID, then only the value of the last
-      component is displayed.</para>
+      <para>Each Check<emphasis role="bold"> </emphasis>component must be
+      given a different ID. If multiple check components are given the same
+      ID, then only the value of the last component is displayed.</para>
 
       <para><emphasis role="bold">② Check Style</emphasis></para>
 
-      <para>You can specify the style of each component in 'Component
-      Properties'. The check box is set as the default style, and you can
-      change it to another style (radio button or red circle).</para>
+      <para>You can specify the style of each component in <emphasis
+      role="bold">Component Properties</emphasis>. The check box is set as the
+      default style, and you can change it to another style (radio button or
+      red circle).</para>
 
       <para>The below example shows how check boxes are displayed according to
       the selected style.</para>
@@ -753,7 +754,7 @@
           <primary>Components</primary>
 
           <secondary>Radio</secondary>
-        </indexterm>The radio component is used for checking which radio
+        </indexterm>The Radio component is used for checking which radio
       button is selected among multiple radio buttons. When data is downloaded
       in CSV format, the selected radio button will be displayed.</para>
 
@@ -782,13 +783,14 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>In Component Properties, make sure that all the selected radio
-      buttons are assigned the same ID.</para>
+      <para>In <emphasis role="bold">Component Properties</emphasis>, make
+      sure that all the selected radio buttons are assigned the same
+      ID.</para>
 
       <para>For example, if there are six choices available in a multiple
-      choice question, assign ‘question1’ as the ID for all of them. In the
-      example shown below, the ID of all the items is set to ‘select
-      age’.</para>
+      choice question, assign "question1" as the ID for all of them. In the
+      example shown below, the ID of all the items is set to "question
+      1".</para>
 
       <figure>
         <title>Example of Setting a Radio Component</title>
@@ -802,13 +804,14 @@
 
       <para><emphasis role="bold">② Check Style</emphasis></para>
 
-      <para>You can choose the style of the radio button component in
-      'Component Properties'. The default style is the red circle, and you can
-      change it to another style (check box and radio button).</para>
+      <para>You can choose the style of the Radio component in <emphasis
+      role="bold">Component Properties</emphasis>. The default style is the
+      <emphasis role="bold">Circle</emphasis>, and you can change it to
+      another style (check box and radio button).</para>
 
       <para><emphasis role="bold">③ Multiselectable</emphasis></para>
 
-      <para>Checking the <emphasis role="bold">‘Multi-selectable’</emphasis>
+      <para>Checking the <emphasis role="bold">Multi-selectable</emphasis>
       option allows you to select multiple items.<emphasis role="bold">
       </emphasis>If<emphasis role="bold"> </emphasis>you select more than one
       item, then when data is saved, each item is separated with a comma
@@ -816,7 +819,7 @@
 
       <para><emphasis role="bold">④ Uncheckable</emphasis></para>
 
-      <para>Checking the <emphasis role="bold">‘Uncheckable’</emphasis> option
+      <para>Checking the <emphasis role="bold">Uncheckable</emphasis> option
       allows you to deselect a selected item by clicking it again.</para>
 
       <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
@@ -832,7 +835,7 @@
           <primary>Components</primary>
 
           <secondary>Combo</secondary>
-        </indexterm>The combo component is used when you need to select one of
+        </indexterm>The Combo component is used when you need to select one of
       multiple items.</para>
 
       <mediaobject>
@@ -843,7 +846,7 @@
       </mediaobject>
 
       <para>If you click a combo component, a list of items is displayed as
-      follows.</para>
+      follows:</para>
 
       <mediaobject>
         <imageobject>
@@ -866,9 +869,9 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>Enters the ID of the combo component. For example, the ID of the
+      <para>Enters the ID of the Combo component. For example, the ID of the
       component for selecting the favorite color can be
-      ‘favoriteColor’.</para>
+      'favoriteColor’.</para>
 
       <para><emphasis role="bold">② Items</emphasis></para>
 
@@ -882,7 +885,25 @@
         before sending the document.</para>
       </note>
 
-      <para><emphasis role="bold">③ Tooltip Text</emphasis></para>
+      <para><emphasis role="bold">③ Allow Empty Value</emphasis></para>
+
+      <para>Checking the <emphasis role="bold">Allow Empty Value</emphasis>
+      option allows you to deselect a selected item. Empty Value can be
+      allowed in the following ways:</para>
+
+      <itemizedlist>
+        <listitem>
+          <para>PC: Right-click on the component and select the <emphasis
+          role="bold">Allow Empty Value</emphasis> option in the pop-up
+          menu.</para>
+        </listitem>
+
+        <listitem>
+          <para>Mobile: Click the Trash can icon.</para>
+        </listitem>
+      </itemizedlist>
+
+      <para><emphasis role="bold">④ Tooltip Text</emphasis></para>
 
       <para>Displays the description in Tooltip Text when you hover the mouse
       over a component.</para>
@@ -899,9 +920,9 @@
           <primary>Components</primary>
 
           <secondary>Multiline</secondary>
-        </indexterm>Both text and multiline components are used to create text
-      fields. The text component is suitable for short text with 1 to 2 words,
-      and the multiline component is suitable for long text with more than 1
+        </indexterm>Both Text and Multiline components are used to create text
+      fields. The Text component is suitable for short text with 1 to 2 words,
+      and the Multiline component is suitable for long text with more than 1
       line.</para>
 
       <mediaobject>
@@ -933,8 +954,8 @@
       <para><emphasis role="bold">② Max Length</emphasis></para>
 
       <para>Sets the maximum length of characters (including space) that can
-      be entered. By default, it is set to ‘0’, and there is no character
-      limit if it is set to ‘0’.</para>
+      be entered. By default, it is set to ‘0’, and in this case, there is no
+      limit for the number of characters.</para>
 
       <para><emphasis role="bold">③ Keyboard Type</emphasis></para>
 
@@ -949,7 +970,7 @@
       entering text. The password is also hidden with the password symbol in
       PDFs, and can only be seen when downloaded in CSV format.</para>
 
-      <para><emphasis role="bold">④ Tooltip Text</emphasis></para>
+      <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
 
       <para>Displays the description in Tooltip Text when you hover the mouse
       over a component.</para>
@@ -1009,12 +1030,13 @@
 
         <listitem>
           <para><emphasis role="bold">dd:</emphasis> Displays the days. (e.g.
-          dd = 10 days)</para>
+          dd = 10 th)</para>
         </listitem>
       </itemizedlist>
 
       <para>For example, if you want to display the date in the format of
-      ‘2020-02-05’, then enter yyyy-MM-dd in the Format field.</para>
+      ‘2020-02-05’, then enter <emphasis role="bold">yyyy-MM-dd </emphasis>in
+      the Format field.</para>
 
       <para><emphasis role="bold">③ Minimum Date/Maximum
       Date</emphasis></para>
@@ -1027,8 +1049,9 @@
 
       <para>Checking this option automatically enters the date (the date in
       which the document is opened) when the document is opened. This option
-      is checked by default when you add a Datetime component. You can change
-      the date by clicking the component.</para>
+      is checked by default when you add a <emphasis
+      role="bold">Datetime</emphasis> component. You can change the date by
+      clicking the component.</para>
 
       <para><emphasis role="bold">⑤ Allow Empty Value</emphasis></para>
 
@@ -1037,14 +1060,15 @@
       can change it to another date but cannot clear the date. Checking this
       option allows you to clear the date displayed on the Datetime component.
       However, if no date is selected in the Datetime component but the
-      ‘Display Today for Empty Value’ option is checked, then the date
-      component is automatically filled in with the date in which the document
-      is opened.</para>
+      <emphasis role="bold">Display Today for Empty Value</emphasis> option is
+      checked, then the date component is automatically filled in with the
+      date in which the document is opened.</para>
 
       <itemizedlist>
         <listitem>
           <para>PC: Right-click on the component to display the pop-up menu
-          and then select the ‘Initialize Input Data’ menu.</para>
+          and then select the<emphasis role="bold"> Initialize Input
+          Data</emphasis> menu.</para>
         </listitem>
 
         <listitem>
@@ -1065,12 +1089,12 @@
           <primary>Components</primary>
 
           <secondary>Numeric</secondary>
-        </indexterm>This component is used for entering a number. Hovering
-      over the component displays two arrows on the right, and you can
-      increase or decrease the number by clicking them. In PCs, you can
-      directly enter the desired number into the component by using a
-      keyboard. In smartphones and tablets, you can scroll through the list of
-      numbers and select the one you want.</para>
+        </indexterm>This component is used for entering a number. Clicking the
+      component displays two arrows on the right, and you can increase or
+      decrease the number by clicking them. In PCs, you can directly enter the
+      desired number into the component by using a keyboard. In smartphones
+      and tablets, you can scroll through the list of numbers and select the
+      one you want.</para>
 
       <mediaobject>
         <imageobject>
@@ -1109,29 +1133,31 @@
 
       <para>Sets the range of numbers that can be entered into the component
       by specifying the minimum and maximum values. For example, for the date
-      of birth, setting the minimum value to 1900, maximum value to the
-      current year, and the unit of change to 1. Also, if you enter a value
-      that is lower/higher than the minimum/maximum value, then the
-      minimum/maximum value will be automatically entered. For example, if the
-      maximum value is set to 100 and you enter 101, then the number will
-      automatically change to 100.</para>
+      of birth, set the minimum value to 1900, maximum value to the current
+      year, and the unit of change to 1. Also, if you enter a value that is
+      lower/higher than the minimum/maximum value, then the minimum/maximum
+      value will be automatically entered. For example, if the maximum value
+      is set to 100 and you enter 101, then the number will automatically
+      change to 100.</para>
 
       <para><emphasis role="bold">④ Allow Empty Value</emphasis></para>
 
-      <para>Checking the ‘Allow Empty Value’ option allows you to clear the
-      number displayed on the numeric component. After entering a number in a
-      numeric component, you can change the number again, but cannot clear the
-      number. However, by checking this option, you can clear the number
-      displayed on the component as described below.</para>
+      <para>Checking the <emphasis role="bold">Allow Empty Value</emphasis>
+      option allows you to clear the number displayed on the numeric
+      component. After entering a number in a numeric component, you can
+      change the number again, but cannot clear the number. However, by
+      checking this option, you can clear the number displayed on the
+      component as described below.</para>
 
       <para><itemizedlist>
           <listitem>
             <para>PC: Right-click on the component to display the pop-up menu
-            and then select the ‘Initialize Input Data’ menu.</para>
+            and then select the <emphasis role="bold">Initialize Input
+            Data</emphasis> menu.</para>
           </listitem>
 
           <listitem>
-            <para>Mobile: Click the trash can icon.</para>
+            <para>Mobile: Click the Trash can icon.</para>
           </listitem>
         </itemizedlist></para>
 
@@ -1160,8 +1186,9 @@
         </imageobject>
       </mediaobject>
 
-      <para>You can change the status to good or bad by clicking the
-      components as follows.</para>
+      <para>You can change the status to <emphasis role="bold">Good</emphasis>
+      or <emphasis role="bold">Bad</emphasis> by clicking the components as
+      follows:</para>
 
       <mediaobject>
         <imageobject>
@@ -1205,11 +1232,12 @@
       <itemizedlist>
         <listitem>
           <para>PC: Right-click on the component to display the pop-up menu
-          and then select the ‘Initialize Input Data’ menu.</para>
+          and then select the <emphasis role="bold">Initialize Input
+          Data</emphasis> menu.</para>
         </listitem>
 
         <listitem>
-          <para>Mobile: Click the trash can icon.</para>
+          <para>Mobile: Click the Trash can icon.</para>
         </listitem>
       </itemizedlist>
 
@@ -1236,9 +1264,10 @@
         </imageobject>
       </mediaobject>
 
-      <para>Clicking the signature area displays the signature pop-up which
-      allows you to sign a signature by drawing, entering text, or using a
-      previously registered signature.</para>
+      <para>Clicking the signature area displays the <emphasis
+      role="bold">Signature</emphasis> pop-up which allows you to sign a
+      signature by drawing, entering text, or using a previously registered
+      signature.</para>
 
       <mediaobject>
         <imageobject>
@@ -1271,10 +1300,13 @@
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold">Enter Directly:</emphasis> Clicking the
-          signature area displays the signature pop-up which allows you to
-          sign by selecting one of the multiple signing methods which are
-          ‘Draw’, ‘Text’, ‘Mobile’, ‘Stamp’, and ‘Registered
-          signature’.</para>
+          signature area displays the<emphasis role="bold"> Signature
+          </emphasis>pop-up which allows you to sign by selecting one of the
+          multiple signing methods which are <emphasis
+          role="bold">Draw</emphasis>, <emphasis role="bold">Text</emphasis>,
+          <emphasis role="bold">Mobile</emphasis>, <emphasis
+          role="bold">Stamp</emphasis>, and <emphasis role="bold">Registered
+          signature</emphasis>.</para>
         </listitem>
 
         <listitem>
@@ -1296,16 +1328,18 @@
           <para>If there is a registered signature or initial, then it will be
           automatically entered in the signature area when a signature area is
           clicked. However, if there is no registered signature or initial,
-          then a regular signature pop-up will be displayed when a signature
-          area is clicked.</para>
+          then a regular <emphasis role="bold">Signature </emphasis>pop-up
+          will be displayed when a signature area is clicked.</para>
         </note></para>
 
       <note>
         <para>In some cases, you may need to use a seal or stamp on a document
         rather than your own signature. With eformsign, you can also use a
         stamp image to stamp the signature on a document. To use a stamp image
-        when submitting a document, click the Stamp tab in the signature
-        pop-up, and then select a stamp image and click OK.</para>
+        when submitting a document, click the <emphasis
+        role="bold">Stamp</emphasis> tab in the <emphasis
+        role="bold">Signature</emphasis> pop-up, and then select a stamp image
+        and click <emphasis role="bold">OK</emphasis>.</para>
       </note>
 
       <para><emphasis role="bold">③ Signature Pen Thick</emphasis></para>
@@ -1329,28 +1363,30 @@
         <para>1. Open the document file (Word, Excel, PowerPoint) to be
         converted into an electronic form or create a new document.</para>
 
-        <para>2. Add a signature component in the area of the document you
-        want to sign.</para>
+        <para>2. Add a Signature component in the area of the document to be
+        signed.</para>
 
-        <para>3. Enter the ID of the signature component in the Component
-        Properties tab. For example, the ID can be named ‘signature1’.</para>
+        <para>3. Enter the ID of the Signature component in the <emphasis
+        role="bold">Component Properties</emphasis> tab. For example, the ID
+        can be named ‘signature1’.</para>
 
-        <para>4. Add the date (not to be confused with datetime) component
+        <para>4. Add the Date (not to be confused with datetime) component
         where the signature date will be entered.</para>
 
-        <para>5. Open the 'Component Properties' tab of the date
-        component.</para>
+        <para>5. Open the <emphasis role="bold">Component
+        Properties</emphasis> tab of the Date component.</para>
 
-        <para>6. Select the Date Type as 'Last modified date of the
-        content'.</para>
+        <para>6. Select the<emphasis role="bold"> Date Type</emphasis> as
+        <emphasis role="bold">Last modified date of the
+        content</emphasis>.</para>
 
-        <para>7. Enter the ID of the signature component in the Input
+        <para>7. Enter the ID of the Signature component in the Input
         Component ID field on the bottom. In this case, it would be
         ‘signature1’.</para>
 
-        <para>※ You can select the type of date to be displayed on the date
-        component by selecting the desired date type in the 'Component
-        Properties' tab.</para>
+        <para>※ You can select the Format of date to be displayed on the Date
+        component by selecting the desired date format in the<emphasis
+        role="bold"> Component Properties</emphasis> tab.</para>
       </note>
     </section>
 
@@ -1377,8 +1413,9 @@
       text box, it is reduced to fit inside the text box.</para>
 
       <note>
-        <para>If the size of the selected image is larger than the size of the
-        component, then it is resized to fit the component.</para>
+        <para>For the device with a built-in camera, camera feature will be
+        executed, and for the devices with no camera, a window for selecting a
+        image file will be displayed.</para>
       </note>
 
       <mediaobject>
@@ -1402,7 +1439,7 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>Enters the ID of the camera component. For example, the ID of the
+      <para>Enters the ID of the Camera component. For example, the ID of the
       component that takes the photo of a driver’s license can be
       ‘driverLicense’.</para>
 
@@ -1423,8 +1460,8 @@
       set the maximum recording time and you can also configure the settings
       to allow users to only listen to the voice recording.</para>
 
-      <para>When you add a voice component in OZ in Office, you can record
-      voice or play a voice recording as follows.</para>
+      <para>When you add a Voice component in OZ in Office, you can record
+      voice or play a voice recording as follows:</para>
 
       <mediaobject>
         <imageobject>
@@ -1433,14 +1470,14 @@
       </mediaobject>
 
       <note>
-        <para>If the recording time limit is set to 1 or more, recording is
+        <para>If the recording time limit is set to 1 or higher, recording is
         completed automatically at the time set (unit:seconds).</para>
 
         <para>In the case of ActiveX viewer, the recording playback UI is
         supported from Windows 8 and later.</para>
 
-        <para>In PCs, the recording component works only when a voice
-        recording device is connected to a PC.</para>
+        <para>In PCs, the Voice component works only when a voice recording
+        device is connected to a PC.</para>
       </note>
 
       <para><emphasis role="bold">Component Properties</emphasis></para>
@@ -1458,7 +1495,7 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>Enter the ID of the voice component. For example, the ID of the
+      <para>Enter the ID of the Voice component. For example, the ID of the
       component that plays voice recordings can be named 'Record1'.</para>
 
       <para><emphasis role="bold">② Tooltip Text</emphasis></para>
@@ -1475,7 +1512,7 @@
 
           <secondary>Attachment</secondary>
         </indexterm>This component is used for attaching a file to a document.
-      When attaching a file to a document by using the attachment component,
+      When attaching a file to a document by using the Attachment component,
       the file will be attached at the very end of the document as a new
       page.</para>
 
@@ -1487,7 +1524,7 @@
       </mediaobject>
 
       <para>The types and sizes of files that can be attached are as
-      follows.</para>
+      follows:</para>
 
       <itemizedlist>
         <listitem>
@@ -1514,8 +1551,8 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>Enters the ID of the attachment component. For example, the ID of
-      the component that attaches a resume can be named ‘myResume’.</para>
+      <para>Enters the ID of the Attachment component. For example, the ID of
+      the component for attaching a resume can be named ‘myResume’.</para>
 
       <para><emphasis role="bold">② Tooltip Text</emphasis></para>
 
@@ -1583,10 +1620,10 @@
         </listitem>
       </itemizedlist>
 
-      <para>If you select <emphasis role="bold">‘Last modified user of the
-      content’</emphasis>, then the ‘Input Component ID’ field will be
-      displayed. In this field, enter the ID of the component that will
-      display the information when triggered.</para>
+      <para>If you select <emphasis role="bold">Last modified user of the
+      content</emphasis>, then the<emphasis role="bold"> Input Component
+      ID</emphasis> field will be displayed. In this field, enter the ID of
+      the component that will display the information when triggered.</para>
 
       <mediaobject>
         <imageobject>
@@ -1597,30 +1634,31 @@
 
       <note>
         <para>You need to have company administrator or template manager
-        permission to perform this operation.</para>
+        permission to perform this action.</para>
       </note>
 
       <note>
-        <para>To automatically fill in the signer’s name in the user
-        component, create a signature component and then name the ID (for
-        example, signer1). Then, create the user component that will display
+        <para>To automatically fill in the signer’s name in the User
+        component, create a Signature component and then name the ID (for
+        example, signer1). Then, create the User component that will display
         the signer’s name when triggered and name the ID (for example,
-        signer1name). Then, select <emphasis role="bold">‘Last modified user
-        of the content’</emphasis> under User Type and enter the ID of the
-        signature component (in this case, signer1) under 'Input Component
-        ID'.</para>
+        signer1name). Then, select <emphasis role="bold">Last modified user of
+        the content</emphasis> under User Type and enter the ID of the
+        Signature component (in this case, signer1) under<emphasis
+        role="bold"> Input Component ID</emphasis>.</para>
       </note>
 
       <para><emphasis role="bold">③ User Field Name</emphasis></para>
 
       <para>This field allows to select the type of member information that
-      will be displayed. You can select information in a basic member field or
+      will be displayed. You can select basic information in the <emphasis
+      role="bold">Manage member &gt; Member info</emphasis> of the member or
       information in a custom field.</para>
 
       <itemizedlist>
         <listitem>
           <para>Basic member information types: Name, ID, Department,
-          Title/Position, Mobile, and Phone</para>
+          Position, Mobile, and Telephone</para>
         </listitem>
       </itemizedlist>
 
@@ -1629,9 +1667,11 @@
         basic member information.</para>
 
         <para>To modify a member's basic information, login to eformsign and
-        go to the Manage company &gt; Manage members menu. Select a member in
-        the member list and edit the information in the Member info tab on the
-        right. Then, click the Save button.</para>
+        go to the <emphasis role="bold">Manage company &gt; Manage members
+        </emphasis>menu. Select a member in the member list and edit the
+        information in the <emphasis role="bold">Member info tab </emphasis>on
+        the right. Then, click the<emphasis role="bold"> Save</emphasis>
+        button.</para>
       </note>
     </section>
 
@@ -1689,11 +1729,11 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Document Document
-          no.:</emphasis><emphasis role="bold"> </emphasis>The document number
-          set in <emphasis role="bold">Template settings &gt;
-          General.</emphasis> For information on how to set a document number,
-          go to <xref linkend="docnumber_wd"/>.</para>
+          <para><emphasis role="bold">Document no.:</emphasis><emphasis
+          role="bold"> </emphasis>The document number set in <emphasis
+          role="bold">Template settings &gt; General.</emphasis> For
+          information on how to set a document number, go to <xref
+          linkend="docnumber_wd"/>.</para>
         </listitem>
       </itemizedlist>
     </section>
@@ -1735,7 +1775,7 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>Enters the ID of the date component. For example, the ID of the
+      <para>Enters the ID of the Date component. For example, the ID of the
       component that displays the date in which the document is signed can be
       named ‘signed date’.</para>
 
@@ -1756,7 +1796,7 @@
 
         <listitem>
           <para><emphasis role="bold">dd:</emphasis> Displays the day. (e.g.
-          dd = 10 days)</para>
+          dd = 10 th)</para>
         </listitem>
       </itemizedlist>
 
@@ -1768,7 +1808,7 @@
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold">Date created:</emphasis> Displays the
-          date in which the document is created for the first time.</para>
+          date in which the document is created.</para>
         </listitem>
 
         <listitem>
@@ -1783,8 +1823,9 @@
         </listitem>
       </itemizedlist>
 
-      <para>If ‘Last modified date of the content’ is selected, the 'Input
-      Component ID' field is displayed. In this field, enter the ID of the
+      <para>If <emphasis role="bold">Last modified date of the content
+      </emphasis>is selected, the<emphasis role="bold"> Input Component
+      ID</emphasis> field is displayed. In this field, enter the ID of the
       component that will display the information when triggered.</para>
 
       <mediaobject>
@@ -1796,16 +1837,17 @@
 
       <para><note>
           <para>You need to have company administrator or template manager
-          permission to perform this operation.</para>
-        </note> <note>
+          permission to perform this action.</para>
+        </note><note>
           <para>If you want the signature date of a signer to be displayed
-          automatically in a contract, first create a signature component and
-          then name the ID (e.g. 'contractSign'). Then, create a date
-          component which will display the signature date when the signature
-          is signed and name the ID (e.g. signDate). Then, select ‘Last
-          modified date of the content’ under Date Type and enter the ID of
-          the signature component (in this case ‘contractSign’) in the 'Input
-          Component ID' field.</para>
+          automatically in a contract, first add a Signature component and
+          then name the ID (e.g. 'contractSign'). Then, add a Date component
+          which will display the signature date when the signature is signed
+          and name the ID (e.g. signDate). Then, select<emphasis role="bold">
+          Last modified date of the content</emphasis> under Date Type and
+          enter the ID of the signature component (in this case
+          ‘contractSign’) in the <emphasis role="bold">Input Component
+          ID</emphasis> field.</para>
         </note></para>
     </section>
 
@@ -1845,7 +1887,7 @@
     <title>Upload Form File</title>
 
     <para>Form files created using OZ in Office are uploaded in the following
-    order.</para>
+    order:</para>
 
     <para>1. Click the <emphasis role="bold">Execut</emphasis><emphasis
     role="bold">e</emphasis> icon (<inlinemediaobject>
@@ -1884,8 +1926,9 @@
         <imageobject>
           <imagedata fileref="resources/upload_button.png"/>
         </imageobject>
-      </inlinemediaobject>) icon in the ribbon menu. The 'Template list' page
-    with the 'Create template' card will be displayed.</para>
+      </inlinemediaobject>) icon in the ribbon menu. The <emphasis
+    role="bold">Template list</emphasis> page with the <emphasis
+    role="bold">Create template </emphasis>card will be displayed.</para>
 
     <figure>
       <title>Template List Screen</title>
@@ -1899,9 +1942,10 @@
 
     <para/>
 
-    <para>4. Click the 'Create template' card. The screen for configuring the
-    template settings will be displayed. To create a template, click the
-    'Save' button on the top right corner.</para>
+    <para>4. Click the <emphasis role="bold">Create template</emphasis> card.
+    The screen for configuring the template settings will be displayed. To
+    create a template, click the <emphasis role="bold">Save </emphasis>button
+    on the top right corner.</para>
 
     <figure>
       <title>Create Template Screen</title>
@@ -1920,20 +1964,24 @@
     <title>Configuring Template Settings</title>
 
     <para>After uploading a template, you can configure additional settings
-    for documents created from the template such as the template title,
+    for documents created from the template such as the template name,
     document number, and workflow.</para>
 
     <para>1. Login to eformsign.</para>
 
-    <para>2. Go to the 'Manage templates' menu.</para>
+    <para>2. Go to the <emphasis role="bold">Manage templates</emphasis>
+    menu.</para>
 
-    <para>3. Click the template settings icon (gear icon) of the desired
-    template.</para>
+    <para>3. Click the Template settings icon (<inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="33" fileref="resources/config-icon.PNG"/>
+        </imageobject>
+      </inlinemediaobject>) of the desired template.</para>
 
     <itemizedlist>
       <listitem>
         <para><emphasis role="bold">General: </emphasis>Sets the template
-        name, abbreviation, document title, document number, etc.</para>
+        name, abbreviation, document name, document number, etc.</para>
       </listitem>
 
       <listitem>
@@ -1945,12 +1993,13 @@
 
       <listitem>
         <para><emphasis role="bold">Workflow: </emphasis>Sets the steps of the
-        document workflow from creation to completion.</para>
+        document workflow from <emphasis role="bold">Start</emphasis> to
+        <emphasis role="bold">Complete</emphasis>.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">Field: </emphasis>Sets the field default
-        values, auto-populate values, etc.</para>
+        values, auto-filled values, etc.</para>
       </listitem>
 
       <listitem>
@@ -1963,7 +2012,7 @@
     Save</emphasis> button to save the settings.</para>
 
     <note>
-      <para>For a detailed explanation of templates please refer to <xref
+      <para>For a detailed explanation of templates, please refer to <xref
       linkend="template_fb"/>.</para>
     </note>
   </section>
