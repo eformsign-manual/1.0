@@ -238,7 +238,7 @@
 
         <para><indexterm class="singular">
             <primary>Workflow</primary>
-          </indexterm> A workflow refers to the entire document process from
+          </indexterm>A workflow refers to the entire document process from
         when a document is created to when it is completed. Template managers
         can create the workflow steps for each template. All workflows have
         two default steps, <emphasis role="bold">Start –
@@ -262,7 +262,7 @@
             <para><emphasis role="bold">Internal recipient:
             </emphasis><indexterm class="singular">
                 <primary>Internal recipient</primary>
-              </indexterm> Step in which an internal recipient can review and
+              </indexterm>Step in which an internal recipient can review and
             sign the document submitted by the document creator.</para>
           </listitem>
 
@@ -270,7 +270,7 @@
             <para><emphasis role="bold">External recipient:
             </emphasis><indexterm class="singular">
                 <primary>External recipient</primary>
-              </indexterm> Step in which a user who is not a member of the
+              </indexterm>Step in which a user who is not a member of the
             company can review and sign the document submitted by the document
             creator (or the internal recipient).</para>
           </listitem>
