@@ -7,43 +7,43 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Template - Form builder</title>
+  <title>Template - Form Builder</title>
 
   <section>
-    <title>About Template</title>
+    <title>About Templates</title>
 
     <para><indexterm class="singular">
-        <primary>Form builder</primary>
+        <primary>Form Builder</primary>
 
-        <secondary>Template</secondary>
-      </indexterm>A template is an <emphasis role="bold">electronic document
-    form</emphasis> used for the eformsign service. It is an e-document
+        <secondary>Templates</secondary>
+      </indexterm>Templates are <emphasis role="bold">electronic
+    documents</emphasis> used for the eformsign service. They are e-documents
     converted from existing paper forms such as applications, contracts, and
     agreements. You can create and upload templates in the eformsign service
-    with its Web form designer or Form builder. For more information about the
-    Web form designer, please refer to Chapter 5 <xref
+    with its Web Form Designer or Form Builder. For more information about Web
+    Form Designer, please refer to Chapter 5 <xref
     linkend="template_wd"/>.</para>
 
     <section>
-      <title>Overview of Template</title>
+      <title>Template Overview</title>
 
       <para>To create and send electronic documents via eformsign, you have to
       create a template first which can be converted into an
       e-document.</para>
 
       <para><emphasis role="bold">How to create a template with Form
-      builder</emphasis></para>
+      Builder</emphasis></para>
 
-      <para>To create a template with Form builder, you must first download
-      eformsign Form builder.</para>
+      <para>To create a template with Form Builder, you must first download
+      eformsign Form Builder.</para>
 
       <note>
-        <para>For more information about the Form builder, please refer to
-        <xref linkend="formbuilder"/>.</para>
+        <para>For more information about Form Builder, please refer to <xref
+        linkend="formbuilder"/>.</para>
       </note>
 
       <para>MS Office files such as Word, Excel, and PowerPoint can be
-      uploaded as a template using the eformsign Form builder.</para>
+      uploaded as a template using eformsign Form Builder.</para>
 
       <orderedlist>
         <listitem>
@@ -51,11 +51,12 @@
         </listitem>
 
         <listitem>
-          <para>Go to the OZ in Word (Excel or PPT) menu in the file.</para>
+          <para>Go to the OZ in Word/Excel/PowerPoint) menu in the
+          file.</para>
         </listitem>
 
         <listitem>
-          <para>Choose a location where to add a component.</para>
+          <para>Choose a location you want to add a component.</para>
         </listitem>
 
         <listitem>
@@ -67,8 +68,8 @@
         </listitem>
 
         <listitem>
-          <para>Click the <emphasis role="bold">Action </emphasis>button to
-          see the action of component.</para>
+          <para>Click the <emphasis role="bold">Execute </emphasis>button to
+          preview the component.</para>
         </listitem>
 
         <listitem>
@@ -81,22 +82,21 @@
 
       <para><emphasis role="bold">Template settings</emphasis></para>
 
-      <para>You can set the details for the template to be created.</para>
+      <para>You can set the details for the template.</para>
 
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold">General</emphasis></para>
 
           <para>Set the template name, abbreviation, document name, document
-          number, and etc.</para>
+          number, etc.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Set permissions</emphasis></para>
 
-          <para>Assign members or groups to grant permission to use the
-          template to create documents and to manage documents created by the
-          template.</para>
+          <para>Grant members or groups the permission use the template to
+          create documents from it and manage them.</para>
         </listitem>
 
         <listitem>
@@ -109,38 +109,38 @@
         <listitem>
           <para><emphasis role="bold">Field</emphasis></para>
 
-          <para>Sets default values, and auto-filled values for fields.</para>
+          <para>Sets the default values and auto-filled values for
+          fields.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Notification settings </emphasis></para>
 
-          <para>Sets channels, recipients, or notification messages of the
-          notification to send when requesting or notifying status of
-          documents created from the template.</para>
+          <para>Sets the notification channels, recipients, and the content of
+          the notification messages for notifying requests or changes in the
+          status of documents created from the template.</para>
         </listitem>
       </itemizedlist>
     </section>
 
     <section>
-      <title>Overview of Workflow</title>
+      <title>Workflow Overview</title>
 
       <para><indexterm class="singular">
           <primary>Workflow</primary>
         </indexterm>A workflow is a document process from its creation to
       completion.</para>
 
-      <para>The workflow can be set in <emphasis role="bold">Template
-      settings</emphasis> &gt; <emphasis role="bold">Workflow</emphasis> for
-      each template by a template manager.</para>
+      <para>The workflow for each template can be set by template managers by
+      going to <emphasis role="bold">Template settings</emphasis> &gt;
+      <emphasis role="bold">Workflow</emphasis>.</para>
 
-      <para>The default workflow consists of <emphasis
-      role="bold">Start</emphasis> and <emphasis
-      role="bold">Complete</emphasis> steps. You can add as many of the steps
-      as you like including <emphasis role="bold"> Approver</emphasis>,
-      <emphasis role="bold">Internal recipients</emphasis>, <emphasis
-      role="bold">External recipients</emphasis> and create customized
-      workflow for each template.</para>
+      <para>By default, all workflows have <emphasis role="bold">Start
+      </emphasis>and<emphasis role="bold"> Complete </emphasis>steps. You can
+      add as many<emphasis role="bold"> Approver</emphasis>, <emphasis
+      role="bold">Internal recipient</emphasis>, <emphasis role="bold">and
+      External recipient</emphasis> steps as you want for each
+      workflow.</para>
 
       <figure>
         <title>Workflow steps</title>
@@ -157,41 +157,42 @@
         <listitem>
           <para><emphasis role="bold">Approver</emphasis></para>
 
-          <para>Step to request an approval of e-document to a member of your
+          <para>Sending an e-document approval request to a member in your
           company.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Internal recipients</emphasis></para>
+          <para><emphasis role="bold">Internal recipient</emphasis></para>
 
-          <para>Sending an e-document to a member of your company to review
+          <para>Sending an e-document to a member in your company to review
           and sign.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">External recipients</emphasis></para>
+          <para><emphasis role="bold">External recipient</emphasis></para>
 
           <para>Sending an e-document to a user outside of your company to
           review and sign.</para>
 
           <important>
-            <para><emphasis role="bold">What is difference between Approval
-            and Internal recipient step?</emphasis></para>
+            <para><emphasis role="bold">What's the difference between an
+            approval and internal recipient?</emphasis></para>
 
-            <para>Both the approver and internal recipients can approve or
-            reject the requested document, but internal recipients can
-            designate next person to process the document.</para>
+            <para>Both an approver and internal recipient can approve or
+            reject a requested document, but only the internal recipient can
+            designate the next recipient(s) in line in the workflow to process
+            the document.</para>
 
-            <para>That is, internal recipients can designate external
-            recipient, internal recipient, or approver after the Internal
-            recipient step.</para>
+            <para>In other words, only internal recipients can designate
+            downstream recipients whether it be external recipients, internal
+            recipients, or approvers.</para>
 
-            <para>For example, if you do not specify an approval line for
-            another department, and you want to request to another department
-            for that document, you can specify a contact for that other
-            department as an internal recipient step. When processing
-            documents, personnel from other department can set up separate
-            approval lines for that department to process documents.</para>
+            <para>For example, if you want a recipient in a workflow to have
+            the ability to choose the recipients that come after her/him in
+            the workflow, then you specify her/him as an internal recipient.
+            In this case, when the internal recipient receives a document,
+            then she/he can choose the recipient(s) that come after her/him in
+            the workflow.</para>
           </important>
         </listitem>
       </itemizedlist>
@@ -199,26 +200,27 @@
   </section>
 
   <section>
-    <title>Template settings</title>
+    <title>Template Settings</title>
 
-    <para>You can set the details for the template created with the uploaded
-    file.</para>
+    <para>You can set detailed configurations for each template you
+    create.</para>
 
     <note>
-      <para>Only the<emphasis role="bold"> Company administrator</emphasis> or
-      <emphasis role="bold">Template manager</emphasis> can perform this
+      <para>Only the <emphasis role="bold">company administrator</emphasis> or
+      <emphasis role="bold">template manager</emphasis> can perform this
       action.</para>
 
-      <para>This work can be done in the PC, mobile, and application.</para>
+      <para>This action can be performed in web browsers of computers and
+      mobile devices, and also in mobile apps.</para>
     </note>
 
-    <para><emphasis role="bold">How to go to the template setting screen
+    <para><emphasis role="bold">How to go to the template settings screen
     </emphasis></para>
 
     <orderedlist>
       <listitem>
-        <para>In the sidebar menu, click and go to the <emphasis
-        role="bold">Manage templates</emphasis> menu.</para>
+        <para>In the sidebar menu, click the <emphasis role="bold">Manage
+        templates</emphasis> menu.</para>
       </listitem>
 
       <listitem>
@@ -241,7 +243,7 @@
       <title>General</title>
 
       <figure>
-        <title>Template settings &gt; General</title>
+        <title>Template Settings &gt; General</title>
 
         <mediaobject>
           <imageobject>
@@ -258,7 +260,7 @@
 
           <listitem>
             <para>Set basic information about the template including the
-            template name, category, validity period, and etc.</para>
+            template name, category, validity period, etc.</para>
           </listitem>
         </varlistentry>
 
@@ -267,7 +269,7 @@
 
           <listitem>
             <para>The name of the form file which is uploaded to eformsign
-            from Word, Power point, or Excel using Form builder.<emphasis
+            from Word, PowerPoint, or Excel using Form Builder.<emphasis
             role="bold"> </emphasis>To change the form file name, you need to
             change the file name of the uploaded Word, PowerPoint, or Excel
             file and then update it.</para>
@@ -278,11 +280,11 @@
           <term>② Template name</term>
 
           <listitem>
-            <para>The template name will be displayed on the <emphasis
-            role="bold">Manage Templates </emphasis>and <emphasis
-            role="bold">New document</emphasis> menu pages.</para>
+            <para>The template name will be displayed in the <emphasis
+            role="bold">Manage templates </emphasis>and <emphasis
+            role="bold">New document</emphasis> pages.</para>
 
-            <para><emphasis role="bold">Template Name </emphasis>should be 11
+            <para>The recommended length of the template name is about 11
             characters, including spaces. If the name is longer than 11
             characters, you can see the full name by hovering the mouse over
             the name.</para>
@@ -310,15 +312,15 @@
           <term>③ Template abbreviation</term>
 
           <listitem>
-            <para>A short name that briefly describing the template. It is
+            <para>A short name that briefly descries the template. It is
             recommended to use two or three words.</para>
 
-            <para><emphasis role="bold">Template abbreviation</emphasis> can
+            <para><emphasis role="bold">Template abbreviation </emphasis>can
             be used in the document number, document name, mail template, etc.
             by entering <emphasis role="bold">$$</emphasis>.</para>
 
             <figure>
-              <title>Template abbreviation</title>
+              <title>Template Abbreviation</title>
 
               <mediaobject>
                 <imageobject>
@@ -334,18 +336,18 @@
 
           <listitem>
             <para>Category is used to sort templates by type. With the
-            category name,<emphasis role="bold"> </emphasis>templates in
-            the<emphasis role="bold"> Manage templates </emphasis>and
-            documents in<emphasis role="bold"> Document box
-            </emphasis>and<emphasis role="bold"> Manage documents</emphasis>
-            can be filtered. <emphasis role="bold"> </emphasis>You can choose
-            from an existing category or create a new category by entering a
-            new name.</para>
+            category name,<emphasis role="bold"> </emphasis>you can
+            filter<emphasis role="bold"> </emphasis>templates in the <emphasis
+            role="bold">Manage templates </emphasis>menu, and can filter
+            documents in the<emphasis role="bold"> Documents </emphasis>menus
+            and the <emphasis role="bold">Manage documents </emphasis>menu.
+            You can choose from an existing category or create a new category
+            by entering a new name.</para>
 
-            <para>You can set multi-level categories with separator (
-            <emphasis role="bold">/ </emphasis>). For example, if you set the
-            category <emphasis role="bold">HR Team/Vacation</emphasis>, the
-            Vacation category in the HR category are created.</para>
+            <para>You can set multi-level categories with a separator (
+            <emphasis role="bold">/ </emphasis>). For example, if you set a
+            category as <emphasis role="bold">HR Team/Vacation</emphasis>, the
+            Vacation category in the HR category is created.</para>
           </listitem>
         </varlistentry>
 
@@ -354,9 +356,8 @@
 
           <listitem>
             <para>Enter additional comments about the template. This
-            description is displayed in the list and at the bottom of the
-            template name in <emphasis role="bold">New
-            document</emphasis>.</para>
+            description is displayed under the template name in the New
+            document page.</para>
           </listitem>
         </varlistentry>
 
@@ -365,14 +366,13 @@
 
           <listitem>
             <para>Sets the time period in which documents can be created from
-            this template. The start date is set to the uploaded date as a
-            default and you can change the date.</para>
+            this template. By default, the start date is set to the uploaded
+            date and you can change the date.</para>
 
-            <para>When<emphasis role="bold"> No expiry date</emphasis> is
-            ticked, the document can be created with out time limit. If you
-            untick<emphasis role="bold"> No expiry date </emphasis>option and
-            set the date, the document can only be created until the set
-            date.</para>
+            <para>When <emphasis role="bold">No expiry date</emphasis> is
+            checked, documents can be created without a time limit. <emphasis
+            role="bold">No expiry date</emphasis> is unchecked and set the
+            date, the document can only be created until the set date.</para>
           </listitem>
         </varlistentry>
 
@@ -403,9 +403,9 @@
           <term>⑧ Allow document name change</term>
 
           <listitem>
-            <para>If <emphasis role="bold">Allow document name change
-            </emphasis>is ticked, the document creator<emphasis role="bold">
-            </emphasis>can change the document name.</para>
+            <para>If <emphasis role="bold">Allow document name
+            change</emphasis>is checked, the document creator can change the
+            document name.</para>
           </listitem>
         </varlistentry>
 
@@ -414,13 +414,13 @@
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>Template</primary>
+                <primary>Templates</primary>
 
                 <secondary>Generate a document number</secondary>
               </indexterm>If <emphasis role="bold">Generate a document
             number</emphasis> is checked, documents are automatically
-            numbered. Select the document number format that you want and when
-            to be numbered.</para>
+            numbered. You can select the document number format and the
+            workflow step in which document numbers are generated.</para>
 
             <mediaobject>
               <imageobject>
@@ -435,23 +435,23 @@
 
           <listitem>
             <para>Use it when many documents are created and submitted. If
-            this option is unchecked, a pop-up window to enter message will
-            appear.<emphasis role="bold"> </emphasis><emphasis
-            role="bold">When Skip pop-up window when sending
-            documents</emphasis> is checked, the pop-up window does not appear
-            and go to the next step.</para>
+            this option is unchecked, a pop-up window for entering a message
+            will appear when sending a document. When <emphasis
+            role="bold">Skip pop-up window when sending documents
+            </emphasis>is checked, the pop-up window does not appear and the
+            page proceeds to the next step.</para>
           </listitem>
         </varlistentry>
       </variablelist>
     </section>
 
     <section>
-      <title>General &gt; Setting document naming rule</title>
+      <title>General &gt; Setting the Document Naming Rule</title>
 
-      <para>In <emphasis role="bold">Template settings,</emphasis> you can set
-      the document naming rule for which created by the template.<indexterm
-          class="singular">
-          <primary>Template</primary>
+      <para>In <emphasis role="bold">Template settings</emphasis>, you can set
+      the document naming rule for documents created from a
+      template.<indexterm class="singular">
+          <primary>Templates</primary>
 
           <secondary>Document naming rules</secondary>
         </indexterm></para>
@@ -461,17 +461,17 @@
       document name. If you set the document naming rule, then the document
       name is automatically entered based on the information of the document.
       As well, you can see this name in all document pages (In progress,
-      Action required and All documents) and the <emphasis role="bold">Manage
-      document </emphasis>page.</para>
+      Action required and Completed) and the <emphasis role="bold">Manage
+      document</emphasis> page.</para>
 
       <note>
-        <para>Only the <emphasis role="bold">company administrator </emphasis>
-        or<emphasis role="bold"> Template manager</emphasis> can perform this
+        <para>Only the <emphasis role="bold">Company administrator</emphasis>
+        or <emphasis role="bold">Template manager</emphasis> can perform this
         action.</para>
       </note>
 
       <figure>
-        <title>Manage documents &gt; Documents list</title>
+        <title>Manage Documents &gt; Documents List</title>
 
         <mediaobject>
           <imageobject>
@@ -487,7 +487,7 @@
       rule</emphasis></para>
 
       <figure>
-        <title>Template settings &gt; Setting the document naming rule</title>
+        <title>Template Settings &gt; Setting the Document Naming Rule</title>
 
         <mediaobject>
           <imageobject>
@@ -499,26 +499,26 @@
 
       <orderedlist>
         <listitem>
-          <para>In the sidebar menu, click and go to the<emphasis role="bold">
-          Manage templates</emphasis> menu.</para>
+          <para>In the sidebar menu, click the<emphasis role="bold"> Manage
+          templates </emphasis>menu.</para>
         </listitem>
 
         <listitem>
-          <para>Click on the<emphasis role="bold">
-          </emphasis>settings<emphasis role="bold"> </emphasis>icon
+          <para>Click on the settings<emphasis role="bold"> </emphasis>icon
           (<inlinemediaobject>
               <imageobject>
                 <imagedata contentwidth="33"
                            fileref="resources/config-icon.PNG"/>
               </imageobject>
-            </inlinemediaobject>) of the desired template to go to the
-          <emphasis role="bold">Template settings</emphasis> page.</para>
+            </inlinemediaobject>) of the desired template<emphasis
+          role="bold"> </emphasis>to go to the <emphasis role="bold">Template
+          settings</emphasis> page.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold"> </emphasis>Enter the desired naming
           rule in the <emphasis role="bold">Document naming rule</emphasis>
-          field in the <emphasis role="bold">General</emphasis> tab.</para>
+          field in the<emphasis role="bold"> General</emphasis> tab.</para>
         </listitem>
 
         <listitem>
@@ -529,13 +529,13 @@
 
       <para><emphasis role="bold">How to use reserved words<indexterm
           class="singular">
-          <primary>Template</primary>
+          <primary>Templates</primary>
 
           <secondary>Reserved word</secondary>
         </indexterm></emphasis></para>
 
       <figure>
-        <title>Setting document naming rules using reserved words</title>
+        <title>Setting Document Naming Rules Using Reserved Words</title>
 
         <mediaobject>
           <imageobject>
@@ -553,11 +553,10 @@
             <para>This symbol adds a piece of information in the document into
             the document name.</para>
 
-            <para><emphasis role="bold"> </emphasis>Enter <emphasis
-            role="bold">{{</emphasis> in the Document naming rule field to
-            display the list of Component IDs and then select the desired
-            component ID. The information in that particular component will be
-            added to the document name.</para>
+            <para>Enter <emphasis role="bold">{{ </emphasis>in the Document
+            naming rule field to display the list of Component IDs and then
+            select the desired component ID. The information in that
+            particular component will be added to the document name.</para>
           </listitem>
         </varlistentry>
 
@@ -633,7 +632,7 @@
                     <entry>Creator_company Name</entry>
 
                     <entry>The name of the company in which the member who
-                    created the document belongs to.</entry>
+                    created the document belongs to</entry>
                   </row>
 
                   <row>
@@ -681,8 +680,8 @@
                   <row>
                     <entry>Company_homepage</entry>
 
-                    <entry>Homepage URL entered in Manage company &gt; Company
-                    profile</entry>
+                    <entry>The homepage URL entered in Manage company &gt;
+                    Company profile</entry>
                   </row>
                 </tbody>
               </tgroup>
@@ -692,19 +691,19 @@
       </variablelist>
 
       <tip>
-        <para><emphasis role="bold">Check the status of Allow document name
-        change field.</emphasis></para>
+        <para>Check the status of the<emphasis role="bold"> Allow document
+        name change </emphasis>field.</para>
 
         <para>Even if the document naming rule is set, if the <emphasis
         role="bold">Allow document name change </emphasis>option is checked,
         the document creator can arbitrarily change the document name. If you
-        do not want the document name to be changed, then make sure to untick
+        do not want the document name to be changed, then make sure to uncheck
         the <emphasis role="bold">Allow document name change</emphasis>
         option.</para>
       </tip>
 
       <figure>
-        <title>Check the Allow document name change</title>
+        <title>Checking the Allow Document Name Change Option</title>
 
         <mediaobject>
           <imageobject>
@@ -716,30 +715,30 @@
     </section>
 
     <section xml:id="docnumber_fb">
-      <title>General &gt; Generating and viewing a document number</title>
+      <title>General &gt; Generating and Viewing a Document Number</title>
 
       <para>You can set a document number for documents created in eformsign.
-      You can set to generate document number automatically for each template,
-      and can select one of four document number formats. The document number
-      can be entered within the document using the document component. You can
-      also see a separate column in the document list and search documents by
-      the document number.</para>
+      You can set it so that a document number is generated automatically for
+      each template, and can select one of four document numbering formats.
+      The document number can be generated in the document using the document
+      component. You can also see a separate column in the document list and
+      search documents by the document number.</para>
 
       <para><emphasis role="bold">Generating a document number<indexterm
           class="singular">
-          <primary>Template</primary>
+          <primary>Templates</primary>
 
           <secondary>Generate a document number</secondary>
         </indexterm></emphasis></para>
 
       <note>
-        <para>Only the <emphasis role="bold">Company administrator </emphasis>
+        <para>Only the <emphasis role="bold">Company administrator</emphasis>
         or <emphasis role="bold">Template manager</emphasis> can perform this
         action.</para>
       </note>
 
       <figure>
-        <title>Setting document number</title>
+        <title>Setting a Document Number</title>
 
         <mediaobject>
           <imageobject>
@@ -751,8 +750,8 @@
 
       <orderedlist>
         <listitem>
-          <para>In the sidebar menu, click and go to the <emphasis
-          role="bold">Manage templates </emphasis>menu.</para>
+          <para>In the sidebar menu, click the <emphasis role="bold">Manage
+          templates </emphasis>menu.</para>
         </listitem>
 
         <listitem>
@@ -763,15 +762,14 @@
                 <imagedata contentwidth="33"
                            fileref="resources/config-icon.PNG"/>
               </imageobject>
-            </inlinemediaobject>) of the desired template<emphasis
-          role="bold"> </emphasis>to go to the <emphasis role="bold">Template
-          settings</emphasis> page.</para>
+            </inlinemediaobject>) of the desired template to go to
+          the<emphasis role="bold"> Template settings</emphasis> page.</para>
         </listitem>
 
         <listitem>
-          <para>Tick the<emphasis role="bold"> </emphasis><emphasis
-          role="bold">Generate a document number </emphasis>checkbox in the
-          <emphasis role="bold">General </emphasis>page.</para>
+          <para>Tick the <emphasis role="bold">Generate a document
+          number</emphasis> checkbox in the<emphasis
+          role="bold">General</emphasis>page.</para>
 
           <para><itemizedlist>
               <listitem>
@@ -779,7 +777,7 @@
                 rule</emphasis></para>
               </listitem>
             </itemizedlist><figure>
-              <title>Select a document numbering rule</title>
+              <title>Selecting a Document Numbering Rule</title>
 
               <mediaobject>
                 <imageobject>
@@ -792,7 +790,7 @@
                 <term><emphasis role="bold">▪ Serial number</emphasis></term>
 
                 <listitem>
-                  <para>Generated in the format of document creation
+                  <para>Generated in the format of the document creation
                   order</para>
 
                   <para>E.g. 1, 2, 3...</para>
@@ -804,8 +802,8 @@
                 number</emphasis></term>
 
                 <listitem>
-                  <para>Generated in the format of document creation year +
-                  document creation order</para>
+                  <para>Generated in the format of the document creation year
+                  + document creation order</para>
 
                   <para>E.g. 2020_1, 2020_2...</para>
                 </listitem>
@@ -816,7 +814,7 @@
                 number</emphasis></term>
 
                 <listitem>
-                  <para>Generated in the format of template abbreviation +
+                  <para>Generated in the format of the template abbreviation +
                   document creation order</para>
 
                   <para>E.g. Application 1, Application 2...</para>
@@ -828,7 +826,7 @@
                 number</emphasis></term>
 
                 <listitem>
-                  <para>Generated in the format of template abbreviation +
+                  <para>Generated in the format of the template abbreviation +
                   document creation year + document creation order</para>
 
                   <para>E.g. Application 2020_1, Application 2020_2...</para>
@@ -844,7 +842,7 @@
                 <term>▪ <emphasis role="bold">Start</emphasis></term>
 
                 <listitem>
-                  <para>A number is generated when a document is start being
+                  <para>A number is generated when a document is
                   created.</para>
                 </listitem>
               </varlistentry>
@@ -853,8 +851,8 @@
                 <term>▪ <emphasis role="bold">Complete</emphasis></term>
 
                 <listitem>
-                  <para>A document number is generated when a document has
-                  been completed after going through all the steps in the
+                  <para>A number is generated when a document has been
+                  completed after going through all the steps in the
                   workflow.</para>
                 </listitem>
               </varlistentry>
@@ -869,17 +867,16 @@
 
       <para><emphasis role="bold">Viewing a document number</emphasis></para>
 
-      <para>A document number can be viewed on a document itself by using the
+      <para>A document number can be viewed directly on a document using the
       document component and can also be viewed in the document list.</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">Viewing a document number on the
-          document itself</emphasis></para>
+          <para><emphasis role="bold">Viewing a document number directly on a
+          document</emphasis></para>
 
-          <para>You can generate a document number on the document itself by
-          using the document component in Form builder. <emphasis
-          role="bold"/></para>
+          <para>You can generate a document number directly on a document by
+          using the document component in Form Builder.</para>
 
           <orderedlist>
             <listitem>
@@ -887,13 +884,13 @@
             </listitem>
 
             <listitem>
-              <para>Add the document component in the desired location where
-              the document number will be placed.</para>
+              <para>Add the document component in the location where the
+              document number will be displayed.</para>
             </listitem>
 
             <listitem>
               <para>Click the <emphasis role="bold">Upload </emphasis>button
-              to upload the file to eformsign.</para>
+              to upload the file on eformsign.</para>
             </listitem>
 
             <listitem>
@@ -903,7 +900,7 @@
             </listitem>
 
             <listitem>
-              <para>Select a document number rule.</para>
+              <para>Select a document numbering rule.</para>
             </listitem>
 
             <listitem>
@@ -918,7 +915,7 @@
           document list</emphasis></para>
 
           <figure>
-            <title>Completed - Document list</title>
+            <title>Completed - Document List</title>
 
             <mediaobject>
               <imageobject>
@@ -929,7 +926,7 @@
           </figure>
 
           <figure>
-            <title>Completed - Document list - Document number</title>
+            <title>Completed - Document List - Document Number</title>
 
             <mediaobject>
               <imageobject>
@@ -939,20 +936,20 @@
             </mediaobject>
           </figure>
 
-          <para>A document number can be viewed in the All documents menu (In
-          progress, Action required, and Completed) and the Manage documents
+          <para>A document number can be viewed in the Documents menus (In
+          progress, Action required, and Completed), and the Manage documents
           menu (requires document management permission).</para>
 
           <orderedlist>
             <listitem>
-              <para>In the sidebar menu, click and go to the <emphasis
-              role="bold">Completed </emphasis>or <emphasis role="bold">Manage
+              <para>In the sidebar, click the <emphasis
+              role="bold">Completed</emphasis> or <emphasis role="bold">Manage
               documents</emphasis> menu.</para>
             </listitem>
 
             <listitem>
-              <para>Click the <emphasis role="bold">column settings</emphasis>
-              icon at the top right corner of the page.</para>
+              <para>Click the column settings icon at the top right corner of
+              the page.</para>
             </listitem>
 
             <listitem>
@@ -968,8 +965,8 @@
             </listitem>
 
             <listitem>
-              <para>Check that<emphasis role="bold"> </emphasis>the<emphasis
-              role="bold"> document number</emphasis> column is added.</para>
+              <para>Check that <emphasis role="bold">the document
+              number</emphasis> column is added.</para>
             </listitem>
           </orderedlist>
         </listitem>
@@ -990,18 +987,19 @@
 
           <orderedlist>
             <listitem>
-              <para>Go to the<emphasis role="bold"> Completed</emphasis> or
-              <emphasis role="bold">Manage documents</emphasis> menu.</para>
+              <para>Go to the <emphasis role="bold">Completed</emphasis> or
+              <emphasis role="bold">Manage documents</emphasis> page.</para>
             </listitem>
 
             <listitem>
-              <para>Click the<emphasis role="bold"> Advanced</emphasis> button
-              on the top of the document list.</para>
+              <para>Click<emphasis role="bold"> </emphasis>the <emphasis
+              role="bold">Advanced</emphasis> button at the top right corner
+              of the page.</para>
             </listitem>
 
             <listitem>
               <para>Select <emphasis role="bold">Document number</emphasis>
-              among the search condition.</para>
+              among the search conditions.</para>
             </listitem>
 
             <listitem>
@@ -1017,13 +1015,13 @@
     </section>
 
     <section>
-      <title>Set permissions</title>
+      <title>Set Permissions</title>
 
       <para>You can set the permissions for the template usage and document
       management.</para>
 
       <figure>
-        <title>Template settings &gt; Set permissions</title>
+        <title>Template Settings &gt; Set Permissions</title>
 
         <mediaobject>
           <imageobject>
@@ -1037,56 +1035,57 @@
 
       <para><indexterm class="singular">
           <primary>Template usage</primary>
-        </indexterm>This permission is to create documents using the template,
-      and you can select <emphasis role="bold">Allow all</emphasis> or
-      <emphasis role="bold">Group or member </emphasis>to allow all the
-      members or some members in the company to create documents using the
-      template.Group or member</para>
+        </indexterm>This permission is needed to create documents from the
+      template, and you can select <emphasis role="bold">Allow all</emphasis>
+      or <emphasis role="bold">Group or member </emphasis>to allow all the
+      members or some members in the company to create documents from the
+      template.</para>
 
       <para><emphasis role="bold">Document management</emphasis></para>
 
       <para><indexterm class="singular">
           <primary>Document management</primary>
         </indexterm>You can select groups or members to open documents created
-      using the template, void completed documents, or remove documents
-      permanently and these permissions can be set all or individually.</para>
+      from the template, void completed documents, or remove documents
+      permanently. You can grant permission for all or some of the three
+      options described below.</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">Open all documents</emphasis> (default):
-          It is a default permission granted to a document manager regardless
-          of selection, and it gives a permission to open all documents to the
-          authorized groups or members.</para>
+          <para><emphasis role="bold">Open all documents
+          </emphasis>(default):<emphasis role="bold"> </emphasis>Default
+          permission granted to a document manager and gives the permission to
+          open all documents to authorized groups or members.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Void completed documents</emphasis>
-          (when selecting): Document management permission to approve voiding
-          completed documents upon request of the document creator.</para>
+          <para><emphasis role="bold">Void completed documents
+          </emphasis>(optional):<emphasis role="bold"> </emphasis>Permission
+          for voiding completed documents when requested by the document
+          creator.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Remove documents </emphasis>(when
-          selecting): Permission to permanently remove the document from the
-          system</para>
+          <para><emphasis role="bold">Remove documents</emphasis> (optional):
+          Permission to permanently remove documents from the system.</para>
         </listitem>
       </itemizedlist>
     </section>
 
     <section>
-      <title>Workflow settings</title>
+      <title>Workflow Settings</title>
 
-      <para>You can create or modify workflow of the template by clicking the
-      <emphasis role="bold">Workflow</emphasis> tab in the <emphasis
-      role="bold">Template settings</emphasis> page. <emphasis role="bold"/>
-      <indexterm class="singular">
+      <para>You can create or modify the workflow of the template by clicking
+      the <emphasis role="bold">Workflow</emphasis> tab in the <emphasis
+      role="bold">Template setting</emphasis><emphasis
+      role="bold">s</emphasis> page. <indexterm class="singular">
           <primary>Workflow</primary>
         </indexterm></para>
 
       <para/>
 
       <figure>
-        <title>Template settings &gt; Workflow</title>
+        <title>Template Settings &gt; Workflow</title>
 
         <mediaobject>
           <imageobject>
@@ -1101,8 +1100,8 @@
 
       <orderedlist>
         <listitem>
-          <para>Go to the <emphasis role="bold">Workflow</emphasis> setting
-          page by clicking the <emphasis role="bold">Workflow
+          <para>Go to the <emphasis role="bold">Workflow</emphasis>
+          configuration page by clicking the <emphasis role="bold">Workflow
           </emphasis>tab.</para>
         </listitem>
 
@@ -1112,14 +1111,15 @@
                 <imagedata contentwidth="30"
                            fileref="resources/workflow-addstep-plus-button.png"/>
               </imageobject>
-            </inlinemediaobject>) which is in between the Start and Complete
-          step.</para>
+            </inlinemediaobject>) which is in between the <emphasis
+          role="bold">Start</emphasis> and <emphasis
+          role="bold">Complete</emphasis> steps.</para>
         </listitem>
 
         <listitem>
           <para>Select the type of recipient<emphasis role="bold">
-          </emphasis>which<emphasis role="bold"> </emphasis>you want to add.
-          <emphasis role="bold"/></para>
+          </emphasis>which<emphasis role="bold"> </emphasis>you want to
+          add.</para>
 
           <para><mediaobject>
               <imageobject>
@@ -1133,7 +1133,7 @@
           <para>When selected, a step is added to the workflow.</para>
 
           <tip>
-            <para>You can add as many steps as you want to add. You can adjust
+            <para>You can add as many steps as you want. You can adjust the
             order of steps by clicking the arrow next to a workflow
             step.</para>
 
@@ -1150,25 +1150,24 @@
         </listitem>
       </orderedlist>
 
-      <para><emphasis role="bold">Configuring details for each workflow
+      <para><emphasis role="bold">Configuring the details of each workflow
       step</emphasis></para>
 
-      <para>You can click a step to set details such as properties and manage
-      items for each workflow step.</para>
+      <para>You can click a step to set the details such as <emphasis
+      role="bold">Properties</emphasis> and <emphasis role="bold">Manage
+      items</emphasis> for each workflow step.</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">Properties </emphasis>are to configure
-          details of each step which are required including the step
-          name.</para>
+          <para>In<emphasis role="bold"> Properties</emphasis>, you configure
+          the details of the step including the step name and
+          recipients.</para>
         </listitem>
 
         <listitem>
-          <para>In the<emphasis role="bold"> Manage items</emphasis>
-          tap,<emphasis role="bold"> </emphasis>you can set fields to
-          <emphasis role="bold">Allow access</emphasis> which allows recipient
-          of the step to edit the fields, and<emphasis role="bold"> Required
-          field</emphasis> to make recipient to fill in the fields.</para>
+          <para>In <emphasis role="bold">Manage items</emphasis>, you can set
+          the fields in which the recipient has access to or is required to
+          fill in.</para>
 
           <mediaobject>
             <imageobject>
@@ -1181,8 +1180,8 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">Start: Step to create a
-          document.<indexterm class="singular">
+          <term><emphasis role="bold">Start: Step for creating a
+          document<indexterm class="singular">
               <primary>Workflow</primary>
 
               <secondary>Start</secondary>
@@ -1198,30 +1197,28 @@
 
             <itemizedlist>
               <listitem>
-                <para><emphasis role="bold">Step name</emphasis>(common): You
-                can change the name of the step which is set to the default
-                name.</para>
+                <para><emphasis role="bold">Step name</emphasis>: Change the
+                name of the step. The default name is 'Start'.</para>
               </listitem>
 
               <listitem>
                 <para><emphasis role="bold">Limit the number of
-                documents</emphasis> : You can set the maximum number of
-                documents that can be created from the template.</para>
+                documents</emphasis>: Set the maximum number of documents that
+                can be created from the template.</para>
               </listitem>
 
               <listitem>
                 <para><emphasis role="bold">Create documents from
-                URL</emphasis> : When requesting to an external user who are
-                not a member, create a public link for external recipients
-                that they can access directly via the URL and view the
-                document without signing in to the eformsign service.</para>
+                URL</emphasis>: Create a public link for external recipients
+                (non-members) to review and sign documents directly via URL
+                without the need to login to the eformsign service.</para>
               </listitem>
 
               <listitem>
                 <para><emphasis role="bold">Do not allow duplicate
-                documents</emphasis> : Prevents sending duplicate documents,
-                and selects a field that determines whether a document is
-                duplicated or not.</para>
+                documents</emphasis>: Prevent the creation of duplicate
+                documents and allows to select a field for determining whether
+                a document is duplicated or not.</para>
               </listitem>
             </itemizedlist>
           </listitem>
@@ -1230,8 +1227,8 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">Approver: Step for requesting the
-          approval of a document to the approver<indexterm class="singular">
+          <term><emphasis role="bold">Approver: Step for requesting a document
+          for approval<indexterm class="singular">
               <primary>Workflow</primary>
 
               <secondary>Approver</secondary>
@@ -1247,10 +1244,10 @@
 
             <itemizedlist>
               <listitem>
-                <para><emphasis role="bold">Display name</emphasis>: Sets the
-                name(text) to be displayed in the text box when requesting a
-                document for an approval or external recipients. If you do not
-                enter it, the default text will appear as shown below.</para>
+                <para><emphasis role="bold">Display name</emphasis>: Set the
+                text to be displayed in the text box when requesting a
+                document for approval. If you do not enter it, the default
+                text will appear as shown below.</para>
 
                 <mediaobject>
                   <imageobject>
@@ -1265,8 +1262,8 @@
 
         <varlistentry>
           <term><emphasis role="bold">Internal recipient (member): Step for
-          requesting document to be reviewed and signed to internal members of
-          your company.<indexterm class="singular">
+          requesting a document to be reviewed and signed by internal members
+          of your company<indexterm class="singular">
               <primary>Workflow</primary>
 
               <secondary>Internal recipient (member)</secondary>
@@ -1283,20 +1280,22 @@
             <itemizedlist>
               <listitem>
                 <para><emphasis role="bold">Recipient</emphasis>: Select the
-                member to receive the document for this step.</para>
+                member that will receive the document in this step.</para>
 
                 <itemizedlist>
                   <listitem>
                     <para><emphasis role="bold">Handler of a previous
-                    step</emphasis>: Select the member to receive the document
-                    among the internal recipients of the previous steps
-                    including the Start step. You can select a step.</para>
+                    step</emphasis>: Select an internal recipient that will
+                    receive the document. You can choose an internal recipient
+                    from one of the previous internal recipient steps in the
+                    workflow or the document creator in the Start step.</para>
                   </listitem>
 
                   <listitem>
                     <para><emphasis role="bold">Group and member</emphasis>:
-                    Set the document to be handled by one of the groups or
-                    members. You can select multiple groups or members.</para>
+                    Select the groups or members in your company that will
+                    receive the document. You can select multiple groups or
+                    members.</para>
                   </listitem>
                 </itemizedlist>
               </listitem>
@@ -1307,9 +1306,9 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">External recipients: Step for requesting
-          document to be reviewed and signed to external users who are not
-          members of your company.<indexterm class="singular">
+          <term><emphasis role="bold">External recipient: Step for requesting
+          a document to be reviewed and signed by external users (recipients
+          who are not members of your company)<indexterm class="singular">
               <primary>Workflow</primary>
 
               <secondary>External recipients</secondary>
@@ -1326,37 +1325,44 @@
             <itemizedlist>
               <listitem>
                 <para><emphasis role="bold">Document expiration</emphasis>:
-                Set URL link sent to external recipients to be expired after a
-                period of time.</para>
+                Set the time period in which documents can be sent to external
+                users using this URL.</para>
               </listitem>
 
               <listitem>
                 <para><emphasis role="bold">Automatically adds
-                contacts</emphasis>: When requesting a document to an external
-                recipient, you can set to automatically add the name and
-                contact of the external recipient based on the information
-                entered in the document.</para>
-              </listitem>
-
-              <listitem>
-                <para><emphasis role="bold">Set password</emphasis>: You can
-                set an verification password that external recipients must
-                enter when viewing the document, such as the recipient's name,
-                entered by the sender, or select a field in the
+                contacts</emphasis>: When sending documents to an external
+                recipient, this option allows the name and contact of the
+                external recipient to be added automatically based on the
+                information the external recipient enters into the
                 document.</para>
               </listitem>
 
               <listitem>
-                <para><emphasis role="bold">Password hint</emphasis>: You can
-                set the help message that will be displayed when an external
-                recipient enters a password to view the document.</para>
+                <para><emphasis role="bold">Set password</emphasis>: Set a
+                verification password that external recipients must enter when
+                viewing the document. The password can be the recipient name,
+                a value entered directly by the sender, or a field in the
+                document.</para>
+              </listitem>
+
+              <listitem>
+                <para><emphasis role="bold">Password hint</emphasis>: Set the
+                help message that will be displayed when an external recipient
+                enters a password to view the document.</para>
               </listitem>
 
               <listitem>
                 <para><emphasis role="bold">Require mobile verification to
-                review documents: </emphasis>Set external recipients to verify
-                identity using mobile to open the document. This feature will
-                incur an extra charge.</para>
+                review documents:</emphasis> Require external recipients to
+                verify identity using mobile to open the document. This
+                feature will incur an extra charge.</para>
+
+                <note>
+                  <para>The <emphasis role="bold">Require mobile verification
+                  to review documents</emphasis> feature is available in Korea
+                  only.</para>
+                </note>
               </listitem>
             </itemizedlist>
           </listitem>
@@ -1365,8 +1371,8 @@
 
       <variablelist>
         <varlistentry>
-          <term><emphasis role="bold">Complete: Step at which a document is
-          finally completed.<indexterm class="singular">
+          <term><emphasis role="bold">Complete: Step in which a document is
+          finally completed<indexterm class="singular">
               <primary>Workflow</primary>
 
               <secondary>Complete</secondary>
@@ -1383,14 +1389,14 @@
             <itemizedlist>
               <listitem>
                 <para><emphasis role="bold">Backup completed documents in
-                external cloud storages</emphasis>: Sets the documents to be
-                stored in an external cloud storage which is connected
-                separately by the administrator or company manager.</para>
+                external cloud storages</emphasis>: Allow the document to be
+                stored in external cloud storages connected to eformsign by
+                the administrator or company manager.</para>
               </listitem>
 
               <listitem>
                 <para><emphasis role="bold">Timestamp the document when
-                completed</emphasis>: Sets the completed document to be
+                completed</emphasis>: Allow the completed document to be
                 timestamped which proves that the document remains unchanged
                 since that time. This feature will incur an extra
                 charge.</para>
@@ -1408,12 +1414,12 @@
           <primary>Template</primary>
 
           <secondary>Field</secondary>
-        </indexterm></emphasis>In the<emphasis role="bold"> Field</emphasis>
-      menu, you can set default values or autofill values for fields in the
-      template, and adjust the order of the fields.</para>
+        </indexterm></emphasis>In the <emphasis role="bold">Field</emphasis>
+      menu, you can set the default values or auto-fill values for fields in
+      the template, and adjust the order of the fields.</para>
 
       <figure>
-        <title>Template settings &gt; Field</title>
+        <title>Template Settings &gt; Field</title>
 
         <mediaobject>
           <imageobject>
@@ -1423,58 +1429,58 @@
         </mediaobject>
       </figure>
 
-      <para>You can set the default value for the field to be entered
-      company/group/member information saved in <emphasis role="bold">Manage
-      custom fields</emphasis>, or set to choose from a recent input value, or
-      set to type in by the user.</para>
+      <para>You can set the default value of a field to be the value saved in
+      company/group/member information in <emphasis role="bold">Manage custom
+      fields</emphasis>. You can also choose it to be the value entered
+      recently or a value entered manually.</para>
 
-      <para/>
-
-      <para><emphasis role="bold">How to configure autofill</emphasis></para>
+      <para><emphasis role="bold">How to configure auto-fill</emphasis></para>
 
       <para>You can save information that are frequently entered into a
-      document in advance and set to be auto-filled.</para>
+      document so that they can be used for auto-filling later.</para>
 
       <para>For example, you can pre-save information about your company or
-      group, such as department name, leader, representative number and
-      information on document creator including name, contact details and etc.
-      You can add items for related fields and set default values in <emphasis
-      role="bold">Manage company &gt; Manage custom fields</emphasis></para>
+      group (such as department name, leader, and representative number) and
+      information about the document creator (including name and contact
+      details). You can add items for related fields and set the default
+      values in <emphasis role="bold">Manage company &gt; Manage custom
+      fields</emphasis>.</para>
 
       <orderedlist>
         <listitem>
-          <para>In the <emphasis role="bold">Manage custom fields
-          </emphasis>screen, add a field.</para>
+          <para>In the<emphasis role="bold"> Manage custom fields
+          </emphasis>screen<emphasis role="bold">,</emphasis> add a
+          field.</para>
         </listitem>
 
         <listitem>
-          <para>Go to <emphasis role="bold">Manage templates</emphasis>
+          <para>Go to the <emphasis role="bold">Manage templates</emphasis>
           menu.</para>
         </listitem>
 
         <listitem>
-          <para>Click the <emphasis role="bold">Template settings
-          </emphasis>icon.</para>
+          <para>Click the<emphasis role="bold"> Template settings</emphasis>
+          icon.</para>
         </listitem>
 
         <listitem>
-          <para>Go to the<emphasis role="bold"> Field</emphasis> menu.</para>
+          <para>Go to the <emphasis role="bold">Field</emphasis> menu.</para>
         </listitem>
 
         <listitem>
-          <para>Enter a default value for the field that you want to set to be
+          <para>Enter the default value for the field that you want to be
           auto-filled.</para>
         </listitem>
 
         <listitem>
-          <para>After completing all the settings, click<emphasis role="bold">
-          </emphasis>the <emphasis role="bold">Save</emphasis> button.</para>
+          <para>After completing all the settings, click the<emphasis
+          role="bold"> Save</emphasis> button.</para>
         </listitem>
       </orderedlist>
     </section>
 
     <section>
-      <title>Notification settings</title>
+      <title>Notification Settings</title>
 
       <para><indexterm class="singular">
           <primary>Template</primary>
@@ -1486,36 +1492,35 @@
 
       <para><emphasis role="bold">Notification methods</emphasis></para>
 
-      <para>Select the methods to send notifications to internal and external
-      recipients. You can select either<emphasis role="bold"> </emphasis>email
-      or<emphasis role="bold"> </emphasis>SMS or both.</para>
+      <para>Select the methods for sending notification messages to internal
+      and external recipients. You can select either email<emphasis
+      role="bold">,</emphasis> SMS, or both.</para>
 
       <note>
-        <para><emphasis role="bold">SMS</emphasis>can only be selected by a
-        company subscribed a paid plan, and extra charges will apply.</para>
+        <para><emphasis role="bold">SMS</emphasis> can only be selected by a
+        company subscribed a paid plan. Extra charges will apply.</para>
       </note>
 
-      <para>When SMS is selected, <emphasis role="bold">Send via SMS
-      </emphasis>and<emphasis role="bold"> </emphasis><emphasis
-      role="bold">Send via SMS if failed to send via KakaoTalk </emphasis>are
-      enabled. <emphasis role="bold"/></para>
+      <para>When SMS is selected, <emphasis role="bold">Send via
+      SMS</emphasis>and <emphasis role="bold">Send via SMS if failed to send
+      via KakaoTalk</emphasis> are enabled.</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">Send SMS</emphasis>: Send a notification
+          <para><emphasis role="bold">Send SMS</emphasis>: Send notifications
           to recipients via SMS.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Send via KakaoTalk and if fails, send
-          via SMS</emphasis>: Send a notification to recipients via KakaoTalk
-          and to the recipient who does not use KakaoTalk, send via
-          SMS.</para>
+          via SMS</emphasis>: Send notifications via Kakaotalk for recipients
+          who use KakaoTalk and via SMS for recipients who do not use
+          KakaoTalk.</para>
         </listitem>
       </itemizedlist>
 
       <figure>
-        <title>Notification methods</title>
+        <title>Notification Methods</title>
 
         <mediaobject>
           <imageobject>
@@ -1527,12 +1532,12 @@
 
       <para><emphasis role="bold">Edit notification messages</emphasis></para>
 
-      <para>You can view and edit notification messages that will be sent to
-      recipients when requesting documents created from the template. Each
-      notification template message is set as a default that is in <emphasis
+      <para>You can view and edit notification messages to be sent to
+      recipients when sending documents created from the template. You can
+      find the default notification messages in the <emphasis
       role="bold">Manage company &gt; Notification template
-      management</emphasis> page. Click the <emphasis role="bold">Edit
-      </emphasis>button to edit the message directly.</para>
+      management</emphasis> page and can edit them by clicking the<emphasis
+      role="bold"> Edit </emphasis>button.</para>
 
       <para/>
 
@@ -1562,46 +1567,45 @@
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold">When sending for review and sign &gt;
-          Internal</emphasis>: You can edit request notification messages
-          sending to internal recipients when requesting for review and
-          sign.</para>
+          Internal</emphasis>: You can edit the notification messages to be
+          sent to internal recipients when sending a document to be reviewed
+          and signed.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">When sending for review and sign &gt;
-          External</emphasis>: You can edit request notification messages
-          sending to external recipients when requesting for review and
-          sign.</para>
+          External</emphasis>: You can edit notification messages to be sent
+          to external recipients when sending a document to be reviewed and
+          signed.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">When sending for approval</emphasis>:
-          You can edit the request notification message sending to approvers
-          when requesting approval.</para>
+          You can edit the notification messages to be sent to approvers when
+          sending an approval request.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">When rejecting documents</emphasis>: You
-          can edit the request notification message sent to document
-          requestors when a document is rejected by the approver, internal
-          recipients, or external recipients.</para>
+          can edit the notification messages to be sent to document senders
+          when a document is rejected by approvers, internal recipients, or
+          external recipients.</para>
         </listitem>
       </itemizedlist>
 
       <para><emphasis role="bold">Document status
       notifications</emphasis></para>
 
-      <para>You can select recipients of status notifications for documents
-      created from the template and allows you to preview (notification for
-      approve/review and create/reject/void/correct) or edit (notification
-      sent when documents are completed) messages.</para>
+      <para>You can select who will receive status notifications for documents
+      created from the template. You can also preview the following
+      notification message types: approved, reviewed and signed, rejected,
+      voided, and corrected. As well, you can edit and preview the
+      notification messages for completed documents.</para>
 
       <note>
-        <para>For the notifications sent when documents are rejected, voided,
-        and corrected, only email templates are provided and they are not sent
-        via SMS.</para>
-
-        <para>SMS templates for document completion notification
+        <para>For notifications sent when documents are rejected, voided, or
+        corrected, only email templates are provided and they are not sent via
+        SMS. Also, SMS templates for document completion notifications
         (internal/external) can only be edited by companies subscribed a paid
         plan.</para>
       </note>
@@ -1616,82 +1620,82 @@
       <para/>
 
       <note>
-        <para>When<emphasis role="bold"> Document creator </emphasis>option is
-        checked and <emphasis role="bold">Step handler </emphasis>option is
-        unchecked, a status notification is sent to the person who originally
-        created the document.</para>
+        <para>When<emphasis role="bold"> </emphasis>the<emphasis role="bold">
+        Document creator </emphasis>option is checked but the <emphasis
+        role="bold">Step handler </emphasis>option is unchecked, a status
+        notification is sent to the person who originally created the
+        document.</para>
 
-        <para>When <emphasis role="bold">Document creator</emphasis> option is
-        unchecked and <emphasis role="bold">Step handler </emphasis>option is
-        checked, status notifications are sent to people who have processed
-        the document before the current step, except the document
-        creator.</para>
+        <para>When the<emphasis role="bold"> Document creator</emphasis>
+        option is unchecked but the <emphasis role="bold">Step handler
+        </emphasis>option is checked, status notifications are sent to people
+        who have processed the document before the current step, except the
+        document creator.</para>
 
-        <para>When the options for <emphasis role="bold">Document creator
-        </emphasis>and <emphasis role="bold">Step handler</emphasis> are both
+        <para>When the<emphasis role="bold"> Document creator </emphasis>and
+        <emphasis role="bold">Step handler</emphasis> options are both
         checked, status notifications are sent to both the document creator
         and the people who have processed the document before the current
         step.</para>
 
-        <para>When<emphasis role="bold"> Document creator </emphasis>and
+        <para>When the<emphasis role="bold"> Document creator</emphasis> and
         <emphasis role="bold">Step handler</emphasis> options are both
-        unchecked, no status notification of that step will be sent.</para>
+        unchecked, no notifications will be sent for that status.</para>
       </note>
 
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold">When documents are approved</emphasis>:
-          When the document is approved by approver, a notification will be
-          sent that the document has been approved.</para>
+          When the document is approved by an approver, a notification will be
+          sent stating that the document has been approved.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">When documents are reviewed and
-          signed</emphasis>: When the documents are reviewed and signed by
-          internal or external recipients, the notification will be sent that
-          the document has been reviewed and signed.</para>
+          signed</emphasis>: When the document is reviewed and signed by
+          internal or external recipients, a notification will be sent stating
+          that the document has been reviewed and signed.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">When documents are rejected</emphasis>:
-          When the document is rejected by approver, internal or external
-          recipients, a notification will be sent that the document has been
-          rejected.</para>
+          When the document is rejected by an approver, internal or external
+          recipients, a notification will be sent stating that the document
+          has been rejected.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Document void notification</emphasis>:
-          When the request for voiding document is approved, a notification
-          will be sent that the document has been voided.</para>
+          When a request for voiding a document is approved, a notification
+          will be sent stating that the document has been voided.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">When documents are corrected</emphasis>:
-          When the document is corrected by document creator, a notification
-          will be sent that the document has been corrected.</para>
+          When the document is corrected by a document creator, a notification
+          will be sent stating that the document has been corrected.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">When documents are completed &gt;
           Internal</emphasis>: When the document is completed, a notification
           will be sent to the document creator, approvers, and internal
-          recipients that the document has been completed.</para>
+          recipients stating that the document has been completed.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">When documents are completed &gt;
           External</emphasis>: When the document is completed, a notification
-          will be sent to external recipients that the document has been
-          completed.</para>
+          will be sent to external recipients stating that the document has
+          been completed.</para>
 
           <note>
-            <para>When the <emphasis role="bold">Document creator
-            </emphasis>option for<emphasis role="bold"> When the document is
-            completed &gt; External </emphasis>is checked and external
-            recipients create and submit a document via a URL, an information
-            to receive a notification when the document is completed should be
-            entered and the notification will be sent to the external
-            recipients.<emphasis role="bold"/></para>
+            <para>When the<emphasis role="bold"> Document creator
+            </emphasis>option for <emphasis role="bold">When the document is
+            completed &gt; External </emphasis>is checked and an external
+            recipient creates and submits a document via a URL, the external
+            recipient must enter his/her email in which a notification will be
+            sent to when the document is completed.</para>
           </note>
         </listitem>
       </itemizedlist>
@@ -1699,10 +1703,10 @@
   </section>
 
   <section>
-    <title>Menus for each template</title>
+    <title>Menus for Each Template</title>
 
-    <para><emphasis role="bold"/> Go to <emphasis role="bold">Manage
-    templates</emphasis> page, click the menu icon(<inlinemediaobject>
+    <para>Go to the<emphasis role="bold"> Manage templates</emphasis> page,
+    click the menu icon (<inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="14"
                      fileref="resources/template-hamburgericon.png"/>
@@ -1722,20 +1726,15 @@
     <itemizedlist>
       <listitem>
         <para><emphasis role="bold">Duplicate</emphasis>: Duplicates the
-        template. The template's file and detailed settings for template are
-        duplicated, and you can change and save the detailed settings.</para>
+        template. The template's file and detailed settings for the template
+        will be duplicated. You will have a chance to change and save the
+        detailed settings before the template is duplicated.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">Delete</emphasis>: Deletes the template.
-        Once a template is deleted, you can no longer create a document from
+        Once a template is deleted, you can no longer create documents from
         that template.</para>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">Download file</emphasis>: When you click
-        Download file, it will be downloaded in the file format you
-        uploaded.(e.g. Word, Excel files, etc.)</para>
       </listitem>
 
       <listitem>
@@ -1746,11 +1745,11 @@
 
       <listitem>
         <para><emphasis role="bold">Change owner</emphasis>: You can change
-        the owner of the template. By default, the template owner is
-        automatically assigned as the person who created the template. If you
-        want to make changes later, you can change the owner to another member
-        by clicking this menu. Template owners can be selected from members
-        who have permission to manage templates.</para>
+        the owner of the template. By default, the person who created the
+        template is automatically assigned as the template owner. If you want
+        to make changes later, you can change the owner to another member by
+        clicking this menu. The new template owner can be selected among
+        members who have permission to manage templates.</para>
 
         <mediaobject>
           <imageobject>
@@ -1762,8 +1761,8 @@
 
       <listitem>
         <para><emphasis role="bold">Document Manager: </emphasis>You can
-        select members or groups to manage the documents created from the
-        template. You can also set the document manager in<emphasis
+        select the members or groups that can manage documents created from
+        the template. You can also select document managers in<emphasis
         role="bold"> Template settings &gt; Set permissions.</emphasis></para>
 
         <mediaobject>
@@ -1781,8 +1780,8 @@
   <section>
     <title>Search Templates</title>
 
-    <para>In <emphasis role="bold">Manage template </emphasis>page, you can
-    lookup and search templates.</para>
+    <para>In the <emphasis role="bold">Manage templates</emphasis> page, you
+    can lookup and search templates by template category.</para>
 
     <mediaobject>
       <imageobject>
@@ -1796,13 +1795,13 @@
         <term>① <emphasis role="bold">Lookup Templates</emphasis></term>
 
         <listitem>
-          <para>Click the box to lookup templates by template status,
-          category, and etc. Click<emphasis role="bold"> X </emphasis>to
-          return to view all categories</para>
+          <para>Click the box <emphasis role="bold">(1)</emphasis> to lookup
+          templates by template status and category. Click<emphasis
+          role="bold"> X </emphasis>to return to view all categories.</para>
 
-          <para>Template is saved in the Sample category as a default. You can
-          create a category in<emphasis role="bold"> Template settings &gt;
-          General.</emphasis></para>
+          <para>By default, templates are saved in the Sample category. You
+          can create categories<emphasis role="bold"> </emphasis>in<emphasis
+          role="bold"> Template settings &gt; General.</emphasis></para>
         </listitem>
       </varlistentry>
 
@@ -1810,7 +1809,7 @@
         <term><emphasis role="bold">② Search templates</emphasis></term>
 
         <listitem>
-          <para>You can search templates by entering keywords such as template
+          <para>You can search templates by entering keywords for the template
           name and category name.</para>
         </listitem>
       </varlistentry>

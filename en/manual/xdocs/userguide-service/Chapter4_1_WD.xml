@@ -233,19 +233,12 @@
             downstream recipients whether it be external recipients, internal
             recipients, or approvers.</para>
 
-            <para>For example, if you do not specify an approval line for
-            another department, and you want to request to another department
-            for that document, you can specify a contact for that other
-            department as an internal recipient step. When processing
-            documents, personnel from other department can set up separate
-            approval lines for that department to process documents.</para>
-
             <para>For example, if you want a recipient in a workflow to have
             the ability to choose the recipients that come after her/him in
             the workflow, then you specify her/him as an internal recipient.
             In this case, when the internal recipient receives a document,
-            then her/him can choose the recipient(s) that come after her/him
-            in the workflow.</para>
+            then she/he can choose the recipient(s) that come after her/him in
+            the workflow.</para>
           </important>
         </listitem>
       </itemizedlist>
@@ -259,8 +252,9 @@
     create.</para>
 
     <note>
-      <para>Only the company administrator or template manager can perform
-      this action.</para>
+      <para>Only the <emphasis role="bold">company administrator</emphasis> or
+      <emphasis role="bold">template manager</emphasis> can perform this
+      action.</para>
 
       <para>This action can be performed in web browsers of computers and
       mobile devices, and also in mobile apps.</para>
@@ -427,13 +421,13 @@
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>Template</primary>
+                <primary>Templates</primary>
 
                 <secondary>Generate a document number</secondary>
               </indexterm>If <emphasis role="bold">Generate a document
             number</emphasis> is checked, documents are automatically
             numbered. You can select the document number format and the
-            workflow step in which documents are numbered.</para>
+            workflow step in which document numbers are generated.</para>
 
             <mediaobject>
               <imageobject>
@@ -462,10 +456,10 @@
     <section>
       <title>General &gt; Setting the Document Naming Rule</title>
 
-      <para>In<emphasis role="bold"> Template settings, </emphasis>you can set
-      the document naming rule for documents created from a
-      template.<indexterm class="singular">
-          <primary>Template</primary>
+      <para>In<emphasis role="bold"> Template settings</emphasis>,<emphasis
+      role="bold"> </emphasis>you can set the document naming rule for
+      documents created from a template.<indexterm class="singular">
+          <primary>Templates</primary>
 
           <secondary>Document naming rules</secondary>
         </indexterm></para>
@@ -479,9 +473,9 @@
       document</emphasis> page.</para>
 
       <note>
-        <para>Only the <emphasis role="bold">Company administrator </emphasis>
-        or<emphasis role="bold"> Template manager</emphasis> can perform this
-        action.</para>
+        <para>Only the <emphasis role="bold">Company administrator
+        </emphasis>or<emphasis role="bold"> Template manager</emphasis> can
+        perform this action.</para>
       </note>
 
       <figure>
@@ -709,7 +703,7 @@
         <para>Even if the document naming rule is set, if the <emphasis
         role="bold">Allow document name change </emphasis>option is checked,
         the document creator can arbitrarily change the document name. If you
-        do not want the document name to be changed, then make sure to untick
+        do not want the document name to be changed, then make sure to uncheck
         the <emphasis role="bold">Allow document name change</emphasis>
         option.</para>
       </tip>
@@ -897,7 +891,7 @@
 
             <listitem>
               <para>Add the document component in the location where the
-              document number will be generated.</para>
+              document number will be displayed.</para>
 
               <mediaobject>
                 <imageobject>
@@ -936,7 +930,7 @@
           Completed and Manage documents pages</emphasis></para>
 
           <figure>
-            <title>Completed - Document list</title>
+            <title>Completed - Document List</title>
 
             <mediaobject>
               <imageobject>
@@ -947,7 +941,7 @@
           </figure>
 
           <figure>
-            <title>Completed - Document list - Document number</title>
+            <title>Completed - Document List - Document Number</title>
 
             <mediaobject>
               <imageobject>
@@ -1036,7 +1030,7 @@
     </section>
 
     <section>
-      <title>Set permissions</title>
+      <title>Set Permissions</title>
 
       <para>You can set the permissions for template usage and document
       management.</para>
@@ -1096,9 +1090,8 @@
     <section>
       <title>Workflow Settings</title>
 
-      <para><emphasis role="bold"/> <emphasis role="bold"/> You can create or
-      modify the workflow of the template by clicking the <emphasis
-      role="bold">Workflow </emphasis>tab in the <emphasis
+      <para>You can create or modify the workflow of the template by clicking
+      the <emphasis role="bold">Workflow </emphasis>tab in the <emphasis
       role="bold">Template setting</emphasis>s page.<indexterm
           class="singular">
           <primary>Workflow</primary>
@@ -1201,7 +1194,7 @@
       <variablelist>
         <varlistentry>
           <term><emphasis role="bold">Start: Step for creating a
-          document.<indexterm class="singular">
+          document<indexterm class="singular">
               <primary>Workflow</primary>
 
               <secondary>Start</secondary>
@@ -1283,7 +1276,7 @@
         <varlistentry>
           <term><emphasis role="bold">Internal recipient (member): Step for
           requesting a document to be reviewed and signed by internal members
-          of your company. <indexterm class="singular">
+          of your company <indexterm class="singular">
               <primary>Workflow</primary>
 
               <secondary>Internal recipient (member)</secondary>
@@ -1328,7 +1321,7 @@
         <varlistentry>
           <term><emphasis role="bold">External recipient: Step for requesting
           a document to be reviewed and signed by external users (recipients
-          who are not members of your company).<indexterm class="singular">
+          who are not members of your company)<indexterm class="singular">
               <primary>Workflow</primary>
 
               <secondary>External recipients</secondary>
@@ -1392,7 +1385,7 @@
       <variablelist>
         <varlistentry>
           <term><emphasis role="bold">Complete: Step in which a document is
-          finally completed.<indexterm class="singular">
+          finally completed<indexterm class="singular">
               <primary>Workflow</primary>
 
               <secondary>Complete</secondary>
@@ -1500,7 +1493,7 @@
     </section>
 
     <section>
-      <title>Notification settings</title>
+      <title>Notification Settings</title>
 
       <para><indexterm class="singular">
           <primary>Template</primary>
@@ -1524,7 +1517,7 @@
 
       <para>When SMS is selected, <emphasis role="bold">Send via SMS
       </emphasis>and <emphasis role="bold">Send via SMS if failed to send via
-      KakaoTalk</emphasis> are enabled. <emphasis role="bold"/></para>
+      KakaoTalk</emphasis> are enabled.</para>
 
       <itemizedlist>
         <listitem>
@@ -1543,7 +1536,7 @@
       <para/>
 
       <figure>
-        <title>Notification methods</title>
+        <title>Notification Methods</title>
 
         <mediaobject>
           <imageobject>
@@ -1711,7 +1704,7 @@
         <listitem>
           <para><emphasis role="bold">When documents are completed &gt;
           External</emphasis>: When the document is completed, a notification
-          will be sent to external recipients sating that the document has
+          will be sent to external recipients stating that the document has
           been completed.</para>
 
           <note>
@@ -1730,8 +1723,8 @@
   <section>
     <title>Menus for Each Template</title>
 
-    <para>Go to<emphasis role="bold"> Manage templates</emphasis> page, click
-    the menu icon (<inlinemediaobject>
+    <para>Go to the<emphasis role="bold"> Manage templates</emphasis> page,
+    click the menu icon (<inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="14"
                      fileref="resources/template-hamburgericon.png"/>
@@ -1752,7 +1745,7 @@
       <listitem>
         <para><emphasis role="bold">Duplicate</emphasis>: Duplicates the
         template. The template's file and detailed settings for the template
-        will be duplicated. You will have a chance to changing and saving the
+        will be duplicated. You will have a chance to change and savethe
         detailed settings before the template is duplicated.</para>
       </listitem>
 
