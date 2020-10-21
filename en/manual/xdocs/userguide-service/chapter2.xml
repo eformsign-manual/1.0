@@ -22,7 +22,7 @@
             <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
         </inlinemediaobject>) at the top left corner of the screen. Then, you
-      will see the sidebar menu, as shown below. </para>
+      will see the sidebar menu, as shown below.</para>
 
       <note>
         <para>Each menu may appear differently depending on the permissions
@@ -217,9 +217,9 @@
           <para><emphasis role="bold">Download eformsign form
           builder:</emphasis><indexterm class="singular">
               <primary>Download Form builder</primary>
-            </indexterm>You can download the Foam builder installer. By using
-          the Form builder add-in feature, you can create electronic forms
-          using Microsoft Office files.</para>
+            </indexterm>You can download the Foam builder executable file. By
+          using the Form builder add-in feature, you can create electronic
+          forms using Microsoft Office files.</para>
         </listitem>
       </itemizedlist>
     </section>
@@ -610,9 +610,8 @@
         </indexterm></para>
 
       <note>
-        <para>Only the <emphasis role="bold">Company administrator
-        </emphasis>or <emphasis role="bold">Company managers </emphasis>can
-        perform this action.</para>
+        <para>You need to have company administrator or company manager
+        permission to perform this action.</para>
       </note>
 
       <figure>
@@ -780,7 +779,7 @@
     <title>Permissions</title>
 
     <para>eformsign provides the following five types of roles that can be
-    granted to members based on their permissions. </para>
+    granted to members based on their permissions.</para>
 
     <itemizedlist>
       <listitem>
@@ -880,8 +879,8 @@
       Permission</emphasis></para>
 
       <note>
-        <para>Only the <emphasis role="bold">Company administrator
-        </emphasis>can perform this action.</para>
+        <para>You need to have company administrator permission to perform
+        this action.</para>
       </note>
 
       <orderedlist>
@@ -956,9 +955,8 @@
       Permissions</emphasis></para>
 
       <note>
-        <para>Only the <emphasis role="bold">Company administrator
-        </emphasis>or <emphasis role="bold">Template managers </emphasis>can
-        perform this action.</para>
+        <para>You need to have company administrator or template manager
+        permission to perform this action.</para>
       </note>
 
       <orderedlist>
@@ -1018,9 +1016,8 @@
       Permissions</emphasis></para>
 
       <note>
-        <para>Only the <emphasis role="bold">Company administrator
-        </emphasis>or <emphasis role="bold">Template managers </emphasis>can
-        perform this action.</para>
+        <para>You need to have company administrator or template manager
+        permission to perform this action.</para>
       </note>
 
       <orderedlist>
@@ -1083,9 +1080,8 @@
       Document Management</emphasis></para>
 
       <note>
-        <para>Only the <emphasis role="bold">Company administrator
-        </emphasis>or <emphasis role="bold">Template managers </emphasis>can
-        perform this action.</para>
+        <para>You need to have company administrator or template manager
+        permission to perform this action.</para>
       </note>
 
       <orderedlist>
@@ -1285,7 +1281,7 @@
             <term>⑩ Delete members</term>
 
             <listitem>
-              <para>When you click the<emphasis role="bold"> Recycle Bin
+              <para>When you click the<emphasis role="bold"> Trash
               </emphasis>icon, the checkboxes will be activated on the member
               list's left column. Tick the members to delete and click the
               <emphasis role="bold">Delete</emphasis> button.</para>
@@ -1356,10 +1352,10 @@
           <term>⑤ Delete group</term>
 
           <listitem>
-            <para>When you click the <emphasis role="bold">Recycle
-            Bin</emphasis> icon, the checkboxes will be activated on the group
-            list's left column. Tick the group to delete and click the
-            <emphasis role="bold">Delete</emphasis> button.</para>
+            <para>When you click the <emphasis role="bold">Trash</emphasis>
+            icon, the checkboxes will be activated on the group list's left
+            column. Tick the group to delete and click the <emphasis
+            role="bold">Delete</emphasis> button.</para>
           </listitem>
         </varlistentry>
       </variablelist>

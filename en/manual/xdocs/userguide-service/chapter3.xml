@@ -21,10 +21,10 @@
     contracts, applications, and agreements into electronic documents.</para>
 
     <para>Previously, converting Excel, Word, or PowerPoint documents into
-    electronic documents required the use of a document development tool
-    needing a high degree of programming knowledge to operate. Now, with OZ in
-    Office, anyone with the ability to use Microsoft Office can easily create
-    electronic documents.</para>
+    electronic documents required the use of an IDE (Integrated Development
+    Environment) needing a high degree of programming knowledge for use. Now,
+    with OZ in Office, anyone with the ability to use Microsoft Office can
+    easily create electronic documents.</para>
 
     <para>OZ in Office, provided as a Microsoft Office add-in, is easy to use
     as it is displayed as a ribbon menu and contains various components
@@ -48,15 +48,14 @@
 
       <para><indexterm class="singular">
           <primary>Download Form Builder</primary>
-        </indexterm>1. Login to eformsign and then click on the menu icon
+        </indexterm>1. Login to eformsign and then click the menu icon
       (<inlinemediaobject>
           <imageobject>
             <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
-        </inlinemediaobject>) on the top right corner of the dashboard screen
-      to open the sidebar menu. Then, click on the <emphasis
-      role="bold">Download eformsign form builder</emphasis> button at the
-      bottom.</para>
+        </inlinemediaobject>) on the top left corner of the dashboard screen
+      to open the sidebar menu. Then, click the <emphasis role="bold">Download
+      eformsign form builder</emphasis> button at the bottom.</para>
 
       <figure>
         <title>Location of the Download eformsign form builder button</title>
@@ -70,7 +69,7 @@
       </figure>
 
       <para>2. The<emphasis role="bold"> Download eformsign form builder
-      </emphasis>page will be displayed as shown below. Click on the<emphasis
+      </emphasis>page will be displayed, as shown below. Click the<emphasis
       role="bold"> Download form builder</emphasis> button at the bottom of
       the page.</para>
 
@@ -85,16 +84,14 @@
         </mediaobject>
       </figure>
 
-      <para>3. Select a location to save the Form builder execution file and
+      <para>3. Select a location to save the Form builder executable file and
       download it.</para>
-
-      <para/>
     </section>
 
     <section>
       <title>Install Form Builder</title>
 
-      <para>1. Click on the Form builder execution file to run it.</para>
+      <para>1. Click the Form builder executable file to run it.</para>
 
       <para>2. When the Wizard screen shown below is displayed, select the
       <emphasis role="bold">Complete </emphasis>option and then click
@@ -154,17 +151,15 @@
           </imageobject>
         </mediaobject>
       </figure>
-
-      <para/>
     </section>
 
     <section>
       <title>Form Builder Menu Layout</title>
 
-      <para>If you run Microsoft Office Excel, Word, or PowerPoint after Form
-      builder is installed, you can see that the<emphasis role="bold"> OZ in
-      Excel, OZ in Word, or OZ in PowerPoint</emphasis> tab is added to the OZ
-      in Office ribbon menu.</para>
+      <para>If you run Microsoft Office Excel, Word, or PowerPoint after
+      installing Form builder, you can see that the<emphasis role="bold"> OZ
+      in Excel, OZ in Word, or OZ in PowerPoint</emphasis> tab is added to the
+      OZ in Office ribbon menu.</para>
 
       <figure>
         <title>Microsoft Office OZ in Office Ribbon Menu</title>
@@ -216,7 +211,7 @@
         <listitem>
           <para><emphasis role="bold">Window: </emphasis>Allows to open the
           <emphasis role="bold">Properties </emphasis>tab of the selected
-          component or select a component in the <emphasis
+          component or display selected components in the <emphasis
           role="bold">Selection </emphasis>tab.</para>
         </listitem>
 
@@ -225,8 +220,6 @@
           Form builder and performs updates.</para>
         </listitem>
       </orderedlist>
-
-      <para/>
     </section>
   </section>
 
@@ -251,12 +244,10 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/components-in-word.png" width="750"/>
+            <imagedata fileref="resources/components-in-word.png" width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
-
-      <para/>
 
       <itemizedlist>
         <listitem>
@@ -319,11 +310,11 @@
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="numeric">number</link>:</emphasis> <indexterm
+          linkend="numeric">Numeric</link>:</emphasis> <indexterm
               class="singular">
               <primary>Components</primary>
 
-              <secondary>number</secondary>
+              <secondary>Numeric</secondary>
             </indexterm>Enters a number.</para>
         </listitem>
 
@@ -356,7 +347,7 @@
 
               <secondary>Camera</secondary>
             </indexterm>Takes a photo using a camera or selects a photo from
-          an album in devices connected to a camera (e.g. smartphone, tablet,
+          an album in devices with a built-in camera (e.g. smartphone, tablet,
           etc.). Selects an image file in devices without a camera (e.g.
           desktop PC).</para>
         </listitem>
@@ -384,7 +375,7 @@
 
         <listitem>
           <para><emphasis role="bold"><link
-          linkend="user">User</link></emphasis>: <indexterm class="singular">
+          linkend="user">User:</link></emphasis> <indexterm class="singular">
               <primary>Components</primary>
 
               <secondary>User</secondary>
@@ -422,8 +413,6 @@
             </indexterm>Sets the form ID.</para>
         </listitem>
       </itemizedlist>
-
-      <para/>
     </section>
 
     <section>
@@ -435,22 +424,20 @@
       property icon or the <emphasis role="bold">Properties</emphasis>
       menu.</para>
 
-      <para/>
-
       <figure>
         <title>Accessing Component Properties</title>
 
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/checking-components-properties.png"
-                       width="750"/>
+                       width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
 
       <note>
         <para>All components must have an ID. An ID is automatically generated
-        when you create a component, but it's a good idea to rename it to
+        when you create a component, but it is recommended to rename it to
         something you can easily recognize. For example, you can rename the ID
         of a component for entering John Doe, Jane Doe, etc. as 'name'.</para>
       </note>
@@ -463,8 +450,6 @@
       components in Excel, and adding components in Word/PowerPoint. In Word
       or PowerPoint, you can add components in two different ways.</para>
 
-      <para/>
-
       <section>
         <title>Adding Components in Excel</title>
 
@@ -476,7 +461,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinexcel_1.png" width="1000"/>
+              <imagedata fileref="resources/ozinexcel_1.png" width="730"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -488,7 +473,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinexcel_2.png" width="750"/>
+              <imagedata fileref="resources/ozinexcel_2.png" width="730"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -500,15 +485,13 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinexcel_3.png" width="750"/>
+              <imagedata fileref="resources/ozinexcel_3.png" width="730"/>
             </imageobject>
           </mediaobject>
         </figure>
 
         <para>4. Check that the component has been added by viewing the
         <emphasis role="bold">OZ Component Properties</emphasis> tab.</para>
-
-        <para/>
       </section>
 
       <section>
@@ -613,7 +596,7 @@
     <title>How to Use Each Component Type</title>
 
     <para>eformsign provides various types of components such as check box,
-    combo box, text, and signature through the MS Office’s <emphasis
+    combo box, text, and signature through Microsoft Office’s <emphasis
     role="bold">OZ in Office</emphasis> ribbon menu.</para>
 
     <para>All components of <emphasis role="bold">OZ in Office</emphasis> have
@@ -639,7 +622,7 @@
 
             <secondary>Tooltip Text</secondary>
           </indexterm>In Windows, the text in the Tooltip Text box of a
-        component is displayed on the form of a speech bubble when hovering
+        component is displayed in the form of a speech bubble when hovering
         the mouse over the component. In mobile, the text is displayed on the
         quick type bar when clicking on the component.</para>
       </listitem>
@@ -658,14 +641,12 @@
     </note>
 
     <note>
-      <para>The Tooltip Text feature is not provided for the User, Date,
-      Document, and Label component types.</para>
+      <para>The Tooltip Text feature is not provided for the Info group
+      including User, Date, Document, and Label component types.</para>
     </note>
 
     <para>The description of each component type provided in eformsign is as
     follows:</para>
-
-    <para/>
 
     <section xml:id="check">
       <title>Check</title>
@@ -681,16 +662,14 @@
       not) while the <emphasis role="bold">Radio</emphasis> component is used
       for checking which item among multiple items is checked.</para>
 
-      <para/>
-
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_check.png"
-                     width="750"/>
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
-      <para>When data is downloaded in CSV format, the <emphasis
+      <para>When data is downloaded in the CSV format, the <emphasis
       role="bold">Check </emphasis>component’s input value is displayed as
       follows:</para>
 
@@ -716,12 +695,10 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/check-component-properties-1.png"
-                         width="700"/>
+                         width="500"/>
             </imageobject>
           </mediaobject>
         </figure></para>
-
-      <para/>
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
@@ -742,7 +719,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/check-component-style-settings.png"
-                     width="750"/>
+                     width="600"/>
         </imageobject>
       </mediaobject>
     </section>
@@ -756,11 +733,12 @@
           <secondary>Radio</secondary>
         </indexterm>The Radio component is used for checking which radio
       button is selected among multiple radio buttons. When data is downloaded
-      in CSV format, the selected radio button will be displayed.</para>
+      in the CSV format, the selected radio button will be displayed.</para>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form-builder-components.png"/>
+          <imagedata fileref="resources/form-builder-components.png"
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
@@ -776,7 +754,7 @@
           <mediaobject>
             <imageobject>
               <imagedata fileref="resources/Radio-component-properties.png"
-                         width="500"/>
+                         width="400"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -789,15 +767,16 @@
 
       <para>For example, if there are six choices available in a multiple
       choice question, assign "question1" as the ID for all of them. In the
-      example shown below, the ID of all the items is set to "question
-      1".</para>
+      example shown below, the IDs of all the items are set to the same
+      "question 1".</para>
 
       <figure>
         <title>Example of Setting a Radio Component</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/radio-items-should-have-same-ID.png"/>
+            <imagedata fileref="resources/radio-items-should-have-same-ID.png"
+                       width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -841,7 +820,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_Combo.png"
-                     width="750"/>
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
@@ -850,7 +829,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/combo-1.png"/>
+          <imagedata fileref="resources/combo-1.png" width="500"/>
         </imageobject>
       </mediaobject>
 
@@ -862,7 +841,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/combo-component-properties.png"
-                       width="600"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -928,7 +907,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/text-and-muliline-components.png"
-                     width="750"/>
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
@@ -940,7 +919,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/text-component-properties.png"
-                       width="500"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -968,7 +947,7 @@
       <para>This option can be set only in the text component. By checking
       this option, the password is hidden with the password symbol (●) when
       entering text. The password is also hidden with the password symbol in
-      PDFs, and can only be seen when downloaded in CSV format.</para>
+      PDFs, and can only be seen when downloaded in the CSV format.</para>
 
       <para><emphasis role="bold">⑤ Tooltip Text</emphasis></para>
 
@@ -990,7 +969,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_datetime.png"
-                     width="750"/>
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
@@ -1002,7 +981,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/datetime-component-properties_02.png"
-                       width="500"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1019,23 +998,22 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">yyyy: </emphasis>Displays the year (e.g.
-          yyyy = 2020).</para>
+          <para><emphasis role="bold">yyyy: </emphasis>Displays the
+          year.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">MM:</emphasis> Displays the month. Must
-          be in uppercase (e.g. MM = August).</para>
+          be in uppercase.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">dd:</emphasis> Displays the days. (e.g.
-          dd = 10 th)</para>
+          <para><emphasis role="bold">dd:</emphasis> Displays the days.</para>
         </listitem>
       </itemizedlist>
 
       <para>For example, if you want to display the date in the format of
-      ‘2020-02-05’, then enter <emphasis role="bold">yyyy-MM-dd </emphasis>in
+      ‘15-02-2020’, then enter <emphasis role="bold">dd-MM-yyyy </emphasis>in
       the Format field.</para>
 
       <para><emphasis role="bold">③ Minimum Date/Maximum
@@ -1056,13 +1034,13 @@
       <para><emphasis role="bold">⑤ Allow Empty Value</emphasis></para>
 
       <para>Checking this option allows you to clear the number displayed on a
-      numeric component. In a Datetime component, once you select a date, you
-      can change it to another date but cannot clear the date. Checking this
-      option allows you to clear the date displayed on the Datetime component.
-      However, if no date is selected in the Datetime component but the
-      <emphasis role="bold">Display Today for Empty Value</emphasis> option is
-      checked, then the date component is automatically filled in with the
-      date in which the document is opened.</para>
+      Numeric component. In a Datetime component, once you select a date, you
+      can change it to another date but cannot clear the date. However,
+      checking this option allows you to clear the date displayed on the
+      Datetime component. If no date is selected in the Datetime component but
+      the <emphasis role="bold">Display Today for Empty Value</emphasis>
+      option is checked, then the date component is automatically filled in
+      with the date in which the document is opened.</para>
 
       <itemizedlist>
         <listitem>
@@ -1072,7 +1050,7 @@
         </listitem>
 
         <listitem>
-          <para>Mobile: Click the trash can icon.</para>
+          <para>Mobile: Click the Trash icon.</para>
         </listitem>
       </itemizedlist>
 
@@ -1099,7 +1077,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_numeric.png"
-                     width="750"/>
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
@@ -1157,7 +1135,7 @@
           </listitem>
 
           <listitem>
-            <para>Mobile: Click the Trash can icon.</para>
+            <para>Mobile: Click the Trash icon.</para>
           </listitem>
         </itemizedlist></para>
 
@@ -1182,7 +1160,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_toggle.png"
-                     width="750"/>
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
@@ -1192,7 +1170,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/toggle.png"/>
+          <imagedata fileref="resources/toggle.png" width="400"/>
         </imageobject>
       </mediaobject>
 
@@ -1204,7 +1182,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/toggle-component-properties.png"
-                       width="500"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1223,11 +1201,11 @@
 
       <para><emphasis role="bold">③ Allow Empty Value</emphasis></para>
 
-      <para>Checking this option allows you to clears the item displayed on
-      the toggle component. When you select a toggle component, you can toggle
-      to another item but cannot clear the item displayed on the component.
+      <para>Checking this option allows you to clear the item displayed on the
+      toggle component. When you select a toggle component, you can toggle to
+      another item but cannot clear the item displayed on the component.
       However, by checking this option, you can clear the item displayed on
-      the component as described below.</para>
+      the component as described below:</para>
 
       <itemizedlist>
         <listitem>
@@ -1237,7 +1215,7 @@
         </listitem>
 
         <listitem>
-          <para>Mobile: Click the Trash can icon.</para>
+          <para>Mobile: Click the Trash icon.</para>
         </listitem>
       </itemizedlist>
 
@@ -1260,7 +1238,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_signature.png"
-                     width="750"/>
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
@@ -1271,7 +1249,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/signature.png" width="500"/>
+          <imagedata fileref="resources/signature.png" width="400"/>
         </imageobject>
       </mediaobject>
 
@@ -1283,7 +1261,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/Signature-component-properties.png"
-                       width="500"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1370,7 +1348,7 @@
         role="bold">Component Properties</emphasis> tab. For example, the ID
         can be named ‘signature1’.</para>
 
-        <para>4. Add the Date (not to be confused with datetime) component
+        <para>4. Add the Date (not to be confused with Datetime) component
         where the signature date will be entered.</para>
 
         <para>5. Open the <emphasis role="bold">Component
@@ -1400,12 +1378,12 @@
         </indexterm>This component is for uploading photos (taken with a
       device with a built-in camera such as smartphones and tablets) on a
       document. In PCs without a camera, clicking the component displays a
-      window for selecting the desired image file.</para>
+      window for selecting a desired image file.</para>
 
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_camera.png"
-                     width="750"/>
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
@@ -1420,7 +1398,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/camera1.png" width="500"/>
+          <imagedata fileref="resources/camera1.png" width="350"/>
         </imageobject>
       </mediaobject>
 
@@ -1432,7 +1410,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/Camera-component-properties-.png"
-                       width="500"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1471,7 +1449,7 @@
 
       <note>
         <para>If the recording time limit is set to 1 or higher, recording is
-        completed automatically at the time set (unit:seconds).</para>
+        completed automatically at the time set (unit: seconds).</para>
 
         <para>In the case of ActiveX viewer, the recording playback UI is
         supported from Windows 8 and later.</para>
@@ -1487,8 +1465,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/record_component.png" width="600"
-                         wordsize="400"/>
+              <imagedata fileref="resources/record_component.png" width="400"
+                         wordsize=""/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -1519,7 +1497,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_attachment.png"
-                     width="750"/>
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
@@ -1544,7 +1522,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/Attachment-component-properties.png"
-                       width="600"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1576,7 +1554,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_user.png"
-                     width="750"/>
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
@@ -1588,7 +1566,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/user-component-properties-.png"
-                       width="500"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1628,7 +1606,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/user-input-certain-component.png"
-                     width="500"/>
+                     width="400"/>
         </imageobject>
       </mediaobject>
 
@@ -1652,8 +1630,8 @@
 
       <para>This field allows to select the type of member information that
       will be displayed. You can select basic information in the <emphasis
-      role="bold">Manage member &gt; Member info</emphasis> of the member or
-      information in a custom field.</para>
+      role="bold">Manage member &gt; Member info</emphasis> menu of the member
+      or information in a custom field.</para>
 
       <itemizedlist>
         <listitem>
@@ -1689,7 +1667,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/document-component-in-list.png"
-                     width="750"/>
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
@@ -1706,7 +1684,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/document-domponent-properties.png"
-                       width="500"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1756,7 +1734,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/form-builder-components_date.png"
-                     width="750"/>
+                     width="730"/>
         </imageobject>
       </mediaobject>
 
@@ -1768,7 +1746,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/date-component-properties_.png"
-                       width="500"/>
+                       width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1785,23 +1763,22 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">yyyy:</emphasis> Displays the year (e.g.
-          yyyy = 2020).</para>
+          <para><emphasis role="bold">yyyy:</emphasis> Displays the
+          year.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">MM:</emphasis> Displays the month. Must
-          be in uppercase (e.g. MM = August).</para>
+          be in uppercase.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">dd:</emphasis> Displays the day. (e.g.
-          dd = 10 th)</para>
+          <para><emphasis role="bold">dd:</emphasis> Displays the day.</para>
         </listitem>
       </itemizedlist>
 
       <para>For example, if you want to display the date in the format of
-      ‘2020-02-05’, then enter yyyy-MM-dd in the Format field.</para>
+      ‘15-20-2020’, then enter dd-MM-yyyy in the Format field.</para>
 
       <para><emphasis role="bold">③ Date Type</emphasis></para>
 
@@ -1831,7 +1808,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/date-component-connecting-other-component.png"
-                     width="500"/>
+                     width="400"/>
         </imageobject>
       </mediaobject>
 
@@ -1868,7 +1845,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/label_property.png"/>
+            <imagedata fileref="resources/label_property.png" width="400"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1902,7 +1879,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/form_upload_login.png" width="1000"/>
+          <imagedata fileref="resources/form_upload_login.png" width="730"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -1915,7 +1892,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/upload_preview.png" width="1000"/>
+          <imagedata fileref="resources/upload_preview.png" width="730"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -1935,12 +1912,10 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/upload_list.png" width="1000"/>
+          <imagedata fileref="resources/upload_list.png" width="730"/>
         </imageobject>
       </mediaobject>
     </figure>
-
-    <para/>
 
     <para>4. Click the <emphasis role="bold">Create template</emphasis> card.
     The screen for configuring the template settings will be displayed. To
@@ -1952,12 +1927,10 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/upload_save.png" width="1000"/>
+          <imagedata fileref="resources/upload_save.png" width="730"/>
         </imageobject>
       </mediaobject>
     </figure>
-
-    <para/>
   </section>
 
   <section>
