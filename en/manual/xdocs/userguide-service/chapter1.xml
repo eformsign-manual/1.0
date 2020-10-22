@@ -27,20 +27,21 @@
     according to your company's business process. You can flexibly set a
     document signing process for internal documents requiring approvals as
     well as for external documents such as contracts, agreements, and
-    applications. Furthermore, detailed configurations such as alerts and
-    required input fields can be set for each workflow step or recipient, and
-    the progress status of documents is logged as history. Moreover, an audit
-    trail certificate is provided for the prevention of document forgery and
-    falsification.</para>
+    applications. Furthermore, detailed configurations such as notifications
+    and required input fields can be set for each workflow step or recipient,
+    and the progress status of documents is logged as history. Moreover, an
+    audit trail certificate is provided for the prevention of document forgery
+    and falsification.</para>
 
     <para>eformsign also provides a bulk send feature, by which users can
     create and send multiple documents at once and can minimize repetitive
-    input. Also, by adding and configuring custom fields, fields in documents
-    such as company information, group and member information, recent input
-    value, and date can be automatically filled in. Furthermore, eformsign
-    allows users to easily manage companies' members and their permissions,
-    configure detailed alerts settings for documents, and manage and utilize
-    extracted data.</para>
+    input with auto-fill feature. Also, by adding and configuring custom
+    fields, fields in documents such as company information, group and member
+    information, recent input value, and date can be automatically filled in.
+    Furthermore, eformsign allows users to easily manage companies' members
+    and their permissions, configure detailed notifications settings for
+    documents, and manage and utilize data entered in documents by extracting
+    input data.</para>
 
     <figure>
       <title>Key Features</title>
@@ -103,9 +104,9 @@
         </listitem>
 
         <listitem>
-          <para>Japan: With the existence of a specific verification system, a
-          stronger legal effect is given to the digital signature authorized
-          by the secretary of the state.</para>
+          <para>Japan: With the existence of a Specified Authentication
+          Services, a stronger legal effect is given to the digital signature
+          authorized by the secretary of the state.</para>
         </listitem>
       </itemizedlist>
     </note>
@@ -177,7 +178,7 @@
         <para><indexterm class="singular">
             <primary>Templates</primary>
           </indexterm>This is an electronic form that serves as a starting
-        point for a new document. From a template, you can create many
+        point for a new document. With a template, you can create many
         documents from it. You can create templates by converting existing
         Microsoft Office files using Form builder or by uploading PDF files
         directly onto eformsign.</para>
@@ -255,15 +256,16 @@
                 class="singular">
                 <primary>Approver</primary>
               </indexterm>Step in which an approver can approve the document
-            submitted by the document creator.</para>
+            sent by the document creator.</para>
           </listitem>
 
           <listitem>
             <para><emphasis role="bold">Internal recipient:
             </emphasis><indexterm class="singular">
                 <primary>Internal recipient</primary>
-              </indexterm>Step in which an internal recipient can review and
-            sign the document submitted by the document creator.</para>
+              </indexterm>Step in which an internal recipient, a member of the
+            company, can review and sign the document sent by the document
+            creator.</para>
           </listitem>
 
           <listitem>
@@ -271,14 +273,10 @@
             </emphasis><indexterm class="singular">
                 <primary>External recipient</primary>
               </indexterm>Step in which a user who is not a member of the
-            company can review and sign the document submitted by the document
+            company can review and sign the document sent by the document
             creator (or the internal recipient).</para>
           </listitem>
         </itemizedlist>
-
-        <note>
-          <para>The internal recipient includes the document creator.</para>
-        </note>
 
         <figure>
           <title>Workflow Steps</title>
@@ -317,7 +315,7 @@
         <para>With this permission, a member can access the <emphasis
         role="bold">Manage documents</emphasis> menu to view the documents
         created from each template, approve documents requested to be voided,
-        or permanently delete documents from the system. Note that the
+        or permanently remove documents from the system. Note that the
         document management permission can be set for each separate
         template.</para>
       </listitem>
@@ -342,17 +340,18 @@
 
       <para><indexterm class="singular">
           <primary>Web form designer</primary>
-        </indexterm>You can create a template by uploading a document (in the
-      PDF format) on eformsign and then adding the components you want such as
-      text, signature, and date onto the document. After adding components to
-      the uploaded document, configure the template settings and deploy the
-      template. You can set the template settings by going to the <emphasis
-      role="bold">Manage templates</emphasis> menu &gt; selecting the template
-      you want &gt; setting the <emphasis role="bold">General</emphasis>,
-      <emphasis role="bold">Set permissions</emphasis>, <emphasis
-      role="bold">Workflow</emphasis>, <emphasis role="bold">Field</emphasis>,
-      and <emphasis role="bold">Notification settings</emphasis> tabs &gt;
-      deploying the template. You can then go to the <emphasis role="bold">New
+        </indexterm>You can create a template by uploading a document file(in
+      the PDF format) on eformsign and then adding the components you want
+      such as text, signature, and date onto the document. After adding
+      components to the uploaded document, configure the template settings and
+      deploy the template. You can configure the detailed template settings by
+      going to the <emphasis role="bold">Manage templates</emphasis> menu &gt;
+      selecting the template you want &gt; setting the <emphasis
+      role="bold">General</emphasis>, <emphasis role="bold">Set
+      permissions</emphasis>, <emphasis role="bold">Workflow</emphasis>,
+      <emphasis role="bold">Field</emphasis>, and <emphasis
+      role="bold">Notification settings</emphasis> tabs &gt; deploying the
+      template. You can then go to the <emphasis role="bold">New
       document</emphasis> menu to create a document from a template you
       deployed and send it to recipients.</para>
 
@@ -373,8 +372,8 @@
       <para><indexterm class="singular">
           <primary>Form builder</primary>
         </indexterm>You can create a template by creating or opening a
-      document in Microsoft Office (Word, Excel, and PowerPoint), and then
-      using the ribbon menu (named <emphasis role="bold">OZ in
+      document file in Microsoft Office (Word, Excel, and PowerPoint), and
+      then using the ribbon menu (named <emphasis role="bold">OZ in
       Office</emphasis>) to add the components you want such as text,
       signature, and date onto the document. Then, you can upload the template
       you created onto eformsign by clicking the <emphasis
@@ -388,8 +387,8 @@
       <emphasis role="bold">Field</emphasis>, and <emphasis
       role="bold">Notification settings</emphasis> tabs &gt; deploying the
       template. You can then go to the <emphasis role="bold">New
-      document</emphasis> menu to create a document from a template you
-      deployed and send it to recipients.</para>
+      document</emphasis> menu to create a document from a template deployed
+      and send it to recipients.</para>
 
       <figure>
         <title>Usage Flow of eformsign Using Form Builder</title>
