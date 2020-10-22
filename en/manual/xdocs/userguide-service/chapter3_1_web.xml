@@ -13,26 +13,26 @@
 
     <para><indexterm class="singular">
         <primary>Web Form Designer</primary>
-      </indexterm>You can easily create a template using Web Form Designer by
+      </indexterm>You can easily create a template using Web form designer by
     uploading a PDF file to eformsign in the <emphasis role="bold">Manage
     templates</emphasis> page. After uploading a file, simply click and locate
-    the basic components available in the left tree menu of Web Form Designer
+    the basic components available in the left tree menu of Web form designer
     and set the properties of each component. This is all you need to do to
     create a template.</para>
 
     <note>
       <para>Currently, only PDF files are supported, but other various file
-      formats such as MS Office, JPG, PNG, etc. are planned to be
+      formats such as Microsoft Office, JPG, PNG, etc. are planned to be
       supported.</para>
     </note>
 
     <note>
-      <para>In addition to Web Form Designer, eformsign also provides an MS
-      Office Add-in feature named<emphasis role="bold"> OZ in Office Form
-      Builder </emphasis>which allows you to create electronic documents
-      directly in MS Office. To use Form Builder, please install the MS Office
-      add-in, eformsign Form Builder and refer to Chapter 4-Introduction to
-      Form Builder. <xref linkend="formbuilder"/></para>
+      <para>In addition to Web form designer, eformsign also provides an
+      Microsoft Office Add-in feature named<emphasis role="bold"> OZ in Office
+      (Form builder) </emphasis>which allows you to create electronic
+      documents directly in Microsoft Office. To use Form builder, please
+      install the Microsoft Office add-in, and refer to <xref
+      linkend="formbuilder"/>.</para>
     </note>
 
     <para>1. To create a template, go to the<emphasis role="bold"> Manage
@@ -44,7 +44,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/web-form_1.png" width="750"/>
+          <imagedata fileref="resources/web-form_1.png" width="730"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -59,20 +59,20 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/web-form_2.png" width="750"/>
+          <imagedata fileref="resources/web-form_2.png" width="730"/>
         </imageobject>
       </mediaobject>
     </figure>
 
     <para>3. When a file is uploaded, the <emphasis role="bold">Create
-    template</emphasis> page will be displayed as follows.</para>
+    template</emphasis> page will be displayed as follows:</para>
 
     <figure>
       <title>Web Form Designer Screen</title>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/web-form_3.png" width="750"/>
+          <imagedata fileref="resources/web-form_3.png" width="730"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -80,15 +80,15 @@
     <section>
       <title>Web Form Designer Menu Layout</title>
 
-      <para>Web Form Designer consists of a screen that displays the file, the
-      left and right screens, and the top bar.</para>
+      <para>Web form designer consists of a screen that displays the file, the
+      left and right panels, and the top bar.</para>
 
       <figure>
         <title>Web Form Designer Menu Layout</title>
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/web-form_4.png" width="750"/>
+            <imagedata fileref="resources/web-form_4.png" width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -123,8 +123,6 @@
           document display screen.</para>
         </listitem>
       </orderedlist>
-
-      <para/>
     </section>
   </section>
 
@@ -144,7 +142,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/component_web_1.png" width="750"/>
+            <imagedata fileref="resources/component_web_1.png" width="730"/>
           </imageobject>
         </mediaobject>
       </figure></para>
@@ -152,7 +150,7 @@
     <section>
       <title>Component Types</title>
 
-      <para>The components provided in eformsign are as follows.</para>
+      <para>The components provided in eformsign are as follows:</para>
 
       <itemizedlist>
         <listitem>
@@ -264,7 +262,7 @@
 
               <secondary>Camera</secondary>
             </indexterm>Takes a photo using a camera or selects a photo from
-          an album in devices connected to a camera (e.g. smartphone, tablet,
+          an album in devices with a built-in camera (e.g. smartphone, tablet,
           etc.). Selects an image file in devices without a camera (e.g.
           desktop PC).</para>
         </listitem>
@@ -301,8 +299,6 @@
           itself.</para>
         </listitem>
       </itemizedlist>
-
-      <para/>
     </section>
   </section>
 
@@ -312,7 +308,7 @@
     <para>All components have common and unique properties. When you click the
     component added, the <emphasis role="bold">Properties</emphasis> tab where
     you can set and see detailed properties of each component will be
-    displayed on the right side of the Web Form Designer screen. Common
+    displayed on the right side of the Web form designer screen. Common
     properties include ID and Tooltip Text, and the meaning of each property
     is as follows:</para>
 
@@ -369,7 +365,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/wfd-text-component-properties.png"/>
+            <imagedata fileref="resources/wfd-text-component-properties.png"
+                       width="250"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -381,11 +378,13 @@
       named ‘personName’</para>
 
       <note>
-        <para>An ID is automatically generated when you create a component,
-        but it's a good idea to rename it to something you can easily
-        recognize. This is because it is easier to identify components when
-        deciding whether to display a field to a specific user when you are
-        configuring the Field settings of a template.</para>
+        <para>All components must have an ID. An ID is automatically generated
+        when you create a component, but it is recommended to rename it to
+        something you can easily recognize. For example, you can rename the ID
+        of a component for entering John Doe, Jane Doe, etc. as 'name'. By
+        doing so, it is easier to identify components when deciding whether to
+        display a field to a specific user when you are configuring the Field
+        settings of a template.</para>
       </note>
 
       <para><emphasis role="bold">② Max Length</emphasis></para>
@@ -405,7 +404,7 @@
       <para>This option can be set only in the Text component. By checking
       this option, the password is hidden with the password symbol (●) when
       entering text. The password is also hidden with the password symbol in
-      PDFs, and can only be seen when downloaded in CSV format.</para>
+      PDFs, and can only be seen when downloaded in the CSV format.</para>
 
       <para><emphasis role="bold">④ Tooltip Text</emphasis></para>
 
@@ -430,7 +429,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/signature.png" width="500"/>
+          <imagedata fileref="resources/signature.png" width="450"/>
         </imageobject>
       </mediaobject>
 
@@ -441,7 +440,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/Signature-component-properties_web.png"/>
+            <imagedata fileref="resources/Signature-component-properties_web.png"
+                       width="250"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -493,9 +493,10 @@
       <note>
         <para>In some cases, you may need to use a seal or stamp on a document
         rather than your own signature. With eformsign, you can also use a
-        stamp image to stamp on a document. To use a stamp image, click on
-        the<emphasis role="bold"> Signature </emphasis>pop-up and select the
-        <emphasis role="bold">Stamp</emphasis> tab. Then, select a stamp image
+        stamp image to stamp the signature on a document. To use a stamp image
+        when submitting a document, click the <emphasis
+        role="bold">Stamp</emphasis> tab in the <emphasis
+        role="bold">Signature</emphasis> pop-up, and then select a stamp image
         and click <emphasis role="bold">OK</emphasis>.</para>
       </note>
 
@@ -526,9 +527,9 @@
       it is checked or not) while the Radio component is used for checking
       which item among multiple items is checked.</para>
 
-      <para>When data is downloaded in CSV format, the<emphasis role="bold">
-      </emphasis>Check<emphasis role="bold"> </emphasis>component’s input
-      value is displayed as follows.</para>
+      <para>When data is downloaded in the CSV format, the<emphasis
+      role="bold"> </emphasis>Check<emphasis role="bold">
+      </emphasis>component’s input value is displayed as follows:</para>
 
       <itemizedlist>
         <listitem>
@@ -551,7 +552,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/check-component-properties-1_web.png"/>
+              <imagedata fileref="resources/check-component-properties-1_web.png"
+                         width="250"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -575,7 +577,7 @@
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/check-component-style-settings.png"
-                     width="700"/>
+                     width="550"/>
         </imageobject>
       </mediaobject>
     </section>
@@ -588,8 +590,8 @@
 
           <secondary>Radio</secondary>
         </indexterm>The Radio component is used for checking which item is
-      selected among multiple items. When data is downloaded in CSV format,
-      the selected item will be displayed.</para>
+      selected among multiple items. When data is downloaded in the CSV
+      format, the selected item will be displayed.</para>
 
       <para>In Word and PowerPoint, the Radio component is shown as a
       rectangular shape. Make sure to enter data inside the rectangular
@@ -602,7 +604,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/Radio-component-properties_web.png"/>
+              <imagedata fileref="resources/Radio-component-properties_web.png"
+                         width="250"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -615,8 +618,8 @@
 
       <para>For example, if there are six choices available in a multiple
       choice question, assign ‘question1’ as the ID for all of them. In the
-      example shown below, the ID of all the items is set to
-      ‘question1’.</para>
+      example shown below, the IDs of all the items are set to the same
+      "question 1".</para>
 
       <figure>
         <title>Example of Setting a Radio Component</title>
@@ -624,7 +627,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/radio-items-should-have-same-ID_web.png"
-                       width="900"/>
+                       width="730"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -671,7 +674,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/label_property_web.png"/>
+            <imagedata fileref="resources/label_property_web.png" width="250"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -700,7 +703,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/combo-1.png"/>
+          <imagedata fileref="resources/combo-1.png" width="450"/>
         </imageobject>
       </mediaobject>
 
@@ -711,7 +714,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/combo-component-properties_web.png"/>
+            <imagedata fileref="resources/combo-component-properties_web.png"
+                       width="250"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -758,7 +762,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/datetime-component-properties_02_web.png"/>
+            <imagedata fileref="resources/datetime-component-properties_02_web.png"
+                       width="250"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -791,7 +796,7 @@
       </itemizedlist>
 
       <para>For example, if you want to display the date in the format of
-      ‘2020-02-05’, then enter <emphasis role="bold">yyyy-MM-dd</emphasis> in
+      ‘15-02-2020’, then enter <emphasis role="bold">dd-MM-yyyy </emphasis>in
       the Format field.</para>
 
       <para><emphasis role="bold">③ Minimum Date/Maximum
@@ -835,7 +840,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/number-component-properties_web.png"/>
+            <imagedata fileref="resources/number-component-properties_web.png"
+                       width="250"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -888,7 +894,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/toggle.png"/>
+          <imagedata fileref="resources/toggle.png" width="450"/>
         </imageobject>
       </mediaobject>
 
@@ -899,7 +905,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/toggle-component-properties_web.png"/>
+            <imagedata fileref="resources/toggle-component-properties_web.png"
+                       width="250"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -938,14 +945,14 @@
       component, then it is resized to fit the component.</para>
 
       <note>
-        <para>If connected to a camera, then the Camera component runs the
-        camera feature. If not, then a file selection window opens
-        instead.</para>
+        <para>For the device with a built-in camera, camera feature will be
+        executed, and for the devices with no camera, a window for selecting
+        an image file will be displayed.</para>
       </note>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/camera1.png"/>
+          <imagedata fileref="resources/camera1.png" width="400"/>
         </imageobject>
       </mediaobject>
 
@@ -956,7 +963,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/Camera-component-properties_web.png"/>
+            <imagedata fileref="resources/Camera-component-properties_web.png"
+                       width="250"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -985,17 +993,17 @@
       to allow users to only listen to the voice recording.</para>
 
       <para>When you add a Voice component, you can record voice or play a
-      voice recording as follows.</para>
+      voice recording as follows:</para>
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/record1.png" width="400"/>
+          <imagedata fileref="resources/record1.png" width="350"/>
         </imageobject>
       </mediaobject>
 
       <note>
         <para>If the recording time limit is set to 1 or more, recording is
-        completed automatically at the time set (unit:seconds).</para>
+        completed automatically at the time set (unit: seconds).</para>
 
         <para>In the case of ActiveX viewer, the recording playback UI is
         supported from Windows 8 and later.</para>
@@ -1011,7 +1019,8 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/record_component_web.png"/>
+              <imagedata fileref="resources/record_component_web.png"
+                         width="250"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -1059,7 +1068,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/Attachment-component-properties_web.png"/>
+            <imagedata fileref="resources/Attachment-component-properties_web.png"
+                       width="250"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1098,7 +1108,8 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/document-domponent-properties_web.png"/>
+            <imagedata fileref="resources/document-domponent-properties_web.png"
+                       width="250"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1121,8 +1132,8 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">Document Document no.:</emphasis> The
-          document number set in<emphasis role="bold"> Template Settings &gt;
+          <para><emphasis role="bold">Document no.:</emphasis> The document
+          number set in<emphasis role="bold"> Template Settings &gt;
           General.</emphasis> For information on how to set a document number,
           please refer to <xref linkend="docnumber_wd"/>.</para>
         </listitem>
@@ -1179,7 +1190,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/component_web_2.png" width="1000"/>
+            <imagedata fileref="resources/component_web_2.png" width="730"/>
           </imageobject>
         </mediaobject>
       </figure></para>

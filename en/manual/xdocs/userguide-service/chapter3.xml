@@ -439,7 +439,10 @@
         <para>All components must have an ID. An ID is automatically generated
         when you create a component, but it is recommended to rename it to
         something you can easily recognize. For example, you can rename the ID
-        of a component for entering John Doe, Jane Doe, etc. as 'name'.</para>
+        of a component for entering John Doe, Jane Doe, etc. as 'name'. By
+        doing so, it is easier to identify components when deciding whether to
+        display a field to a specific user when you are configuring the Field
+        settings of a template.</para>
       </note>
     </section>
 
@@ -646,7 +649,7 @@
     </note>
 
     <para>The description of each component type provided in eformsign is as
-    follows:</para>
+    follows.</para>
 
     <section xml:id="check">
       <title>Check</title>
@@ -732,8 +735,8 @@
 
           <secondary>Radio</secondary>
         </indexterm>The Radio component is used for checking which radio
-      button is selected among multiple radio buttons. When data is downloaded
-      in the CSV format, the selected radio button will be displayed.</para>
+      button is selected among multiple items. When data is downloaded in the
+      CSV format, the selected item will be displayed.</para>
 
       <mediaobject>
         <imageobject>
@@ -994,7 +997,8 @@
 
       <para><emphasis role="bold">② Format</emphasis></para>
 
-      <para>Sets the format in which date is displayed.</para>
+      <para>Sets the format in which date is displayed. The default setting is
+      date_yyyy-MM-dd.</para>
 
       <itemizedlist>
         <listitem>
@@ -1111,12 +1115,12 @@
 
       <para>Sets the range of numbers that can be entered into the component
       by specifying the minimum and maximum values. For example, for the date
-      of birth, set the minimum value to 1900, maximum value to the current
-      year, and the unit of change to 1. Also, if you enter a value that is
-      lower/higher than the minimum/maximum value, then the minimum/maximum
-      value will be automatically entered. For example, if the maximum value
-      is set to 100 and you enter 101, then the number will automatically
-      change to 100.</para>
+      of birth, setting the Minimum Value to 1900, Maximum Value to the
+      current year, and the Unit of Change to 1. Also, if you enter a value
+      that is lower/higher than the Minimum/Maximum Value, then the
+      Minimum/Maximum Value will be automatically entered. For example, if the
+      Maximum Value is set to 100 and you enter 101, then the number will
+      automatically change to 100.</para>
 
       <para><emphasis role="bold">④ Allow Empty Value</emphasis></para>
 
@@ -1388,12 +1392,12 @@
       </mediaobject>
 
       <para>If the size of the selected image is larger than the size of the
-      text box, it is reduced to fit inside the text box.</para>
+      text box, then it is resized to fit the component.</para>
 
       <note>
         <para>For the device with a built-in camera, camera feature will be
-        executed, and for the devices with no camera, a window for selecting a
-        image file will be displayed.</para>
+        executed, and for the devices with no camera, a window for selecting
+        an image file will be displayed.</para>
       </note>
 
       <mediaobject>
@@ -1423,7 +1427,7 @@
 
       <para><emphasis role="bold">② Tooltip Text</emphasis></para>
 
-      <para>Displays the description in the tooltip text when you hover the
+      <para>Displays the description in the Tooltip Text when you hover the
       mouse over a component.</para>
     </section>
 
