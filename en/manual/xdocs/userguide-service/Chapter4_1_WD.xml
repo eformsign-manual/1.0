@@ -13,15 +13,15 @@
     <title>About Templates</title>
 
     <para><indexterm class="singular">
-        <primary>Web Form Designer</primary>
+        <primary>Web form designer</primary>
 
         <secondary>Templates</secondary>
       </indexterm>Templates are <emphasis role="bold">electronic documents
     </emphasis>used for the eformsign service. They are e-documents converted
     from existing paper forms such as applications, contracts, and agreements.
     You can create and upload templates in the eformsign service with its Web
-    Form Designer or Form Builder. For more information about Form Builder,
-    refer to Chapter 6 <xref linkend="template_fb"/>.</para>
+    form designer or Form builder. For more information about Form builder,
+    refer to <xref linkend="template_fb"/>.</para>
 
     <section>
       <title>Template Overview</title>
@@ -37,12 +37,12 @@
       online.</para>
 
       <note>
-        <para>For more information about Web Form Designer, please refer to
+        <para>For more information about Web form designer, please refer to
         <xref linkend="webform"/>.</para>
       </note>
 
       <para>Convert the file you want into a PDF file and upload it to
-      eformsign Web Form Designer.</para>
+      eformsign Web form designer.</para>
 
       <orderedlist>
         <listitem>
@@ -50,8 +50,6 @@
           template, or click the <emphasis role="bold">Select a file
           </emphasis>button to select the file from your computer and upload
           it.</para>
-
-          <para/>
 
           <figure>
             <title>Manage Templates &gt; Uploading a File (1)</title>
@@ -139,8 +137,8 @@
         <listitem>
           <para><emphasis role="bold">Set permissions</emphasis></para>
 
-          <para>Grant members or groups the permission use the template to
-          create documents from it and manage them.</para>
+          <para>Grant members or groups the permission to use the template and
+          to create documents from it and manage them.</para>
         </listitem>
 
         <listitem>

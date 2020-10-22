@@ -13,16 +13,15 @@
     <title>About Templates</title>
 
     <para><indexterm class="singular">
-        <primary>Form Builder</primary>
+        <primary>Form builder</primary>
 
         <secondary>Templates</secondary>
       </indexterm>Templates are <emphasis role="bold">electronic
     documents</emphasis> used for the eformsign service. They are e-documents
     converted from existing paper forms such as applications, contracts, and
     agreements. You can create and upload templates in the eformsign service
-    with its Web Form Designer or Form Builder. For more information about Web
-    Form Designer, please refer to Chapter 5 <xref
-    linkend="template_wd"/>.</para>
+    with its Web form designer or Form builder. For more information about Web
+    form designer, please refer to <xref linkend="template_wd"/>.</para>
 
     <section>
       <title>Template Overview</title>
@@ -34,16 +33,16 @@
       <para><emphasis role="bold">How to create a template with Form
       Builder</emphasis></para>
 
-      <para>To create a template with Form Builder, you must first download
-      eformsign Form Builder.</para>
+      <para>To create a template with Form builder, you must first download
+      eformsign Form builder.</para>
 
       <note>
-        <para>For more information about Form Builder, please refer to <xref
+        <para>For more information about Form builder, please refer to <xref
         linkend="formbuilder"/>.</para>
       </note>
 
       <para>MS Office files such as Word, Excel, and PowerPoint can be
-      uploaded as a template using eformsign Form Builder.</para>
+      uploaded as a template using eformsign Form builder.</para>
 
       <orderedlist>
         <listitem>
@@ -95,8 +94,8 @@
         <listitem>
           <para><emphasis role="bold">Set permissions</emphasis></para>
 
-          <para>Grant members or groups the permission use the template to
-          create documents from it and manage them.</para>
+          <para>Grant members or groups the permission to use the template and
+          to create documents from it and manage them.</para>
         </listitem>
 
         <listitem>
@@ -480,8 +479,6 @@
           </imageobject>
         </mediaobject>
       </figure>
-
-      <para/>
 
       <para><emphasis role="bold">How to set the document naming
       rule</emphasis></para>
