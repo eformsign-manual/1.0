@@ -226,7 +226,7 @@
         <para><emphasis role="bold">代表管理者</emphasis></para>
 
         <para><indexterm class="singular">
-            <primary>代表管理者</primary>
+            <primary sortas="だいひょうかんりしゃ">代表管理者</primary>
           </indexterm>会社の代表者で、eformsign の使用を完全に制御できる権限を持ちます。</para>
       </listitem>
 
@@ -242,8 +242,6 @@
         <para>文書の管理権限がある場合、「文書管理」メニューにアクセスでき、テンプレートごとに作成された文書の閲覧、完了文書の無効化の承認、システムから文書の永久削除ができます。文書の管理権限は、テンプレートごとに別途で指定できます。</para>
       </listitem>
     </itemizedlist>
-
-    <para/>
   </section>
 
   <section>

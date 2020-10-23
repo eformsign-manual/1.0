@@ -424,7 +424,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinexcel_1.png"/>
+              <imagedata fileref="resources/ozinexcel_1.png" width="750"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -436,7 +436,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinexcel_2.png"/>
+              <imagedata fileref="resources/ozinexcel_2.png" width="750"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -448,7 +448,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinexcel_3.png"/>
+              <imagedata fileref="resources/ozinexcel_3.png" width="750"/>
             </imageobject>
           </mediaobject>
         </figure>

@@ -746,7 +746,7 @@
       <title>代表管理者</title>
 
       <para><indexterm class="singular">
-          <primary>代表管理者</primary>
+          <primary sortas="だいひょうかんりしゃ">代表管理者</primary>
         </indexterm>会員登録時に会社を新規登録したユーザーが代表管理者となります。eformsign
       の使用に関するすべての権限を持つ最上位レベルの管理者です。</para>
 
