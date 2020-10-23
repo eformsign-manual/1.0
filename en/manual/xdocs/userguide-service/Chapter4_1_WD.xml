@@ -78,8 +78,6 @@
           <para>Select a component that you want to add and drag it onto the
           uploaded file.</para>
 
-          <para/>
-
           <figure>
             <title>Dragging a Component</title>
 
@@ -113,8 +111,6 @@
           template </emphasis>page will be displayed.</para>
         </listitem>
       </orderedlist>
-
-      <para><emphasis role="bold"/></para>
 
       <note>
         <para>If you open an existing template, the Save button and Template
@@ -216,8 +212,6 @@
           <para>Sending an e-document to a user outside of your company to
           review and sign.</para>
 
-          <para/>
-
           <important>
             <para><emphasis role="bold">What's the difference between an
             approval and internal recipient?</emphasis></para>
@@ -292,7 +286,7 @@
             <para>The recommended length of the template name is about 11
             characters, including spaces. If the name is longer than 11
             characters, you can see the full name by hovering the mouse over
-            the name.</para>
+            the name</para>
           </listitem>
         </varlistentry>
 
@@ -472,7 +466,8 @@
 
       <note>
         <para>Only the <emphasis role="bold">Company administrator
-        </emphasis>or<emphasis role="bold"> Template manager</emphasis> can
+        </emphasis>or<emphasis role="bold"> Template mana</emphasis><emphasis
+        role="bold">ger</emphasis><emphasis role="bold">s</emphasis> can
         perform this action.</para>
       </note>
 
@@ -737,8 +732,9 @@
 
       <note>
         <para>Only the <emphasis role="bold">Company administrator
-        </emphasis>or <emphasis role="bold">Template manager</emphasis> can
-        perform this action.</para>
+        </emphasis>or <emphasis role="bold">Template
+        manager</emphasis><emphasis role="bold">s</emphasis> can perform this
+        action.</para>
       </note>
 
       <figure>
@@ -1095,8 +1091,6 @@
           <primary>Workflow</primary>
         </indexterm></para>
 
-      <para/>
-
       <figure>
         <title>Template Settings &gt; Workflow</title>
 
@@ -1402,7 +1396,7 @@
                 <para><emphasis role="bold">Backup completed documents in
                 external cloud storages</emphasis>: Allow the document to be
                 stored in external cloud storages connected to eformsign by
-                the administrator or company manager.</para>
+                the administrator or company managers.</para>
               </listitem>
 
               <listitem>
@@ -1525,13 +1519,11 @@
 
         <listitem>
           <para><emphasis role="bold">Send via KakaoTalk and if fails, send
-          via SMS</emphasis>: Send notifications via Kakaotalk for recipients
+          via SMS</emphasis>: Send notifications via KakaoTalk for recipients
           who use KakaoTalk and via SMS for recipients who do not use
           KakaoTalk.</para>
         </listitem>
       </itemizedlist>
-
-      <para/>
 
       <figure>
         <title>Notification Methods</title>
@@ -1565,16 +1557,12 @@
         </imageobject>
       </mediaobject>
 
-      <para/>
-
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/en-template-settings-edit-notification-messages-popup.png"
                      width="700"/>
         </imageobject>
       </mediaobject>
-
-      <para/>
 
       <itemizedlist>
         <listitem>
@@ -1614,8 +1602,6 @@
       voided, and corrected. As well, you can edit and preview the
       notification messages for completed documents.</para>
 
-      <para/>
-
       <note>
         <para>For notifications sent when documents are rejected, voided, or
         corrected, only email templates are provided and they are not sent via
@@ -1630,8 +1616,6 @@
                      width="500"/>
         </imageobject>
       </mediaobject>
-
-      <para/>
 
       <note>
         <para>When<emphasis role="bold"> </emphasis>the<emphasis role="bold">
@@ -1656,8 +1640,6 @@
         <emphasis role="bold">Step handler</emphasis> options are both
         unchecked, no notifications will be sent for that status.</para>
       </note>
-
-      <para/>
 
       <itemizedlist>
         <listitem>
@@ -1737,13 +1719,11 @@
       </imageobject>
     </mediaobject>
 
-    <para/>
-
     <itemizedlist>
       <listitem>
         <para><emphasis role="bold">Duplicate</emphasis>: Duplicates the
         template. The template's file and detailed settings for the template
-        will be duplicated. You will have a chance to change and savethe
+        will be duplicated. You will have a chance to change and save the
         detailed settings before the template is duplicated.</para>
       </listitem>
 
@@ -1789,8 +1769,6 @@
         </mediaobject>
       </listitem>
     </itemizedlist>
-
-    <para/>
   </section>
 
   <section>

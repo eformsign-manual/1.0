@@ -206,7 +206,7 @@
 
     <note>
       <para>Only the <emphasis role="bold">company administrator</emphasis> or
-      <emphasis role="bold">template manager</emphasis> can perform this
+      <emphasis role="bold">template managers</emphasis> can perform this
       action.</para>
 
       <para>This action can be performed in web browsers of computers and
@@ -223,7 +223,7 @@
       </listitem>
 
       <listitem>
-        <para>Click the name or settings icon(<inlinemediaobject>
+        <para>Click the name or settings icon (<inlinemediaobject>
             <imageobject>
               <imagedata contentwidth="28" fileref="resources/config-icon.PNG"/>
             </imageobject>
@@ -465,7 +465,7 @@
 
       <note>
         <para>Only the <emphasis role="bold">Company administrator</emphasis>
-        or <emphasis role="bold">Template manager</emphasis> can perform this
+        or <emphasis role="bold">Template managers</emphasis> can perform this
         action.</para>
       </note>
 
@@ -765,8 +765,8 @@
 
         <listitem>
           <para>Tick the <emphasis role="bold">Generate a document
-          number</emphasis> checkbox in the<emphasis
-          role="bold">General</emphasis>page.</para>
+          number</emphasis> checkbox in the<emphasis role="bold"> General
+          </emphasis>page.</para>
 
           <para><itemizedlist>
               <listitem>
@@ -873,7 +873,7 @@
           document</emphasis></para>
 
           <para>You can generate a document number directly on a document by
-          using the document component in Form Builder.</para>
+          using the document component in Form builder.</para>
 
           <orderedlist>
             <listitem>
@@ -1079,8 +1079,6 @@
           <primary>Workflow</primary>
         </indexterm></para>
 
-      <para/>
-
       <figure>
         <title>Template Settings &gt; Workflow</title>
 
@@ -1156,8 +1154,8 @@
 
       <itemizedlist>
         <listitem>
-          <para>In<emphasis role="bold"> Properties</emphasis>, you configure
-          the details of the step including the step name and
+          <para>In<emphasis role="bold"> Properties</emphasis>, you can
+          configure the details of the step including the step name and
           recipients.</para>
         </listitem>
 
@@ -1388,7 +1386,7 @@
                 <para><emphasis role="bold">Backup completed documents in
                 external cloud storages</emphasis>: Allow the document to be
                 stored in external cloud storages connected to eformsign by
-                the administrator or company manager.</para>
+                the administrator or company managers.</para>
               </listitem>
 
               <listitem>
@@ -1510,7 +1508,7 @@
 
         <listitem>
           <para><emphasis role="bold">Send via KakaoTalk and if fails, send
-          via SMS</emphasis>: Send notifications via Kakaotalk for recipients
+          via SMS</emphasis>: Send notifications via KakaoTalk for recipients
           who use KakaoTalk and via SMS for recipients who do not use
           KakaoTalk.</para>
         </listitem>
@@ -1536,8 +1534,6 @@
       management</emphasis> page and can edit them by clicking the<emphasis
       role="bold"> Edit </emphasis>button.</para>
 
-      <para/>
-
       <note>
         <para>SMS templates can only be edited by companies subscribed a paid
         plan.</para>
@@ -1550,16 +1546,12 @@
         </imageobject>
       </mediaobject>
 
-      <para/>
-
       <mediaobject>
         <imageobject>
           <imagedata fileref="resources/en-template-settings-edit-notification-messages-popup-fb.png"
                      width="700"/>
         </imageobject>
       </mediaobject>
-
-      <para/>
 
       <itemizedlist>
         <listitem>
@@ -1613,8 +1605,6 @@
                      width="500"/>
         </imageobject>
       </mediaobject>
-
-      <para/>
 
       <note>
         <para>When<emphasis role="bold"> </emphasis>the<emphasis role="bold">
@@ -1718,8 +1708,6 @@
       </imageobject>
     </mediaobject>
 
-    <para/>
-
     <itemizedlist>
       <listitem>
         <para><emphasis role="bold">Duplicate</emphasis>: Duplicates the
@@ -1770,8 +1758,6 @@
         </mediaobject>
       </listitem>
     </itemizedlist>
-
-    <para/>
   </section>
 
   <section>
