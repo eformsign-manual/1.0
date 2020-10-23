@@ -38,8 +38,8 @@
             <primary>문서함</primary>
 
             <secondary>처리할 문서함</secondary>
-          </indexterm>임시 저장한 문서, 내가 처리해야 할 문서(다른 구성원이 나에게 작성 또는 결재 요청한 문서), 또는
-        외부자에게 보낸 문서 중 처리되지 않은 문서 목록을 확인할 수 있습니다.</para>
+          </indexterm>임시 저장한 문서, 내가 처리해야 할 문서(다른 멤버가 나에게 작성 또는 결재 요청한 문서), 또는
+        외부 수신자에게 보낸 문서 중 처리되지 않은 문서 목록을 확인할 수 있습니다.</para>
       </listitem>
 
       <listitem>
@@ -48,7 +48,7 @@
             <primary>문서함</primary>
 
             <secondary>완료 문서함</secondary>
-          </indexterm>내가 작성한 문서 중 완료된 문서 목록을 확인할 수 있습니다.</para>
+          </indexterm>내가 작성 또는 처리한 문서 중 완료된 문서 목록을 확인할 수 있습니다.</para>
       </listitem>
     </itemizedlist>
 
@@ -65,7 +65,7 @@
     </itemizedlist>
 
     <note>
-      <para>대표관리자는 모든 문서를 조회하고 관리할 수 있습니다.</para>
+      <para>대표 관리자는 모든 문서를 조회하고 관리할 수 있습니다.</para>
     </note>
 
     <para/>

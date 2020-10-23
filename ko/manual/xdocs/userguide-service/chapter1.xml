@@ -9,26 +9,29 @@
   <title>개요</title>
 
   <section>
-    <title>제품 소개</title>
+    <title>서비스 소개</title>
 
     <para>eformsign은 기업에서 발생하는 모든 종이 문서를 누구나 손쉽게 전자문서로 만들고 언제 어디서나 업무 시 바로 사용할
     수 있으며 저장된 정보를 다양하게 활용할 수 있는 전자문서 서비스입니다.</para>
 
-    <para>eformsign 서비스에서 제공하는 웹 편집기인 웹폼 디자이너(Web form designer)를 통해 사용하던
-    문서(PDF)를 바로 업로드해 쉽게 전자 서식으로 만들어 사용할 수 있는 것은 물론, MS Office Add-in 방식의 폼 빌더를
-    제공해 오피스 문서를 다룰 줄 아는 사람이라면 누구나 오피스에서 작성한 기존 문서를 그대로 사용해 전자 서식을 만들 수
-    있습니다.</para>
+    <para>eformsign 서비스에서 제공하는 웹 편집기인 <emphasis role="bold">웹폼
+    디자이너</emphasis>(Web form designer)를 통해 사용하던 문서 서식 파일(PDF)을 바로 업로드해 쉽게 전자
+    서식으로 만들어 사용할 수 있는 것은 물론, MS Office Add-in 방식의 <emphasis
+    role="bold">eformsign 폼 빌더</emphasis>를 제공해 오피스 문서를 다룰 줄 아는 사람이라면 누구나 오피스에서
+    작성한 기존 문서를 그대로 사용해 전자 서식을 만들 수 있습니다.</para>
 
-    <para>또한 기업의 업무 흐름에 맞게 워크플로우를 설정할 수 있습니다. 계약서, 동의서, 신청서 등 외부 문서뿐 아니라 결재 등
-    내부 문서를 포함하여 문서의 처리 과정을 자유롭게 설정할 수 있고 다양한 업무에 적용할 수 있습니다. 또한 워크플로우 단계 또는
-    수신자 별로 알림, 필수 입력 항목 등의 세부 설정이 가능하며 문서의 진행 및 처리 상태도 실시간으로 확인할 수
-    있습니다.</para>
+    <para>또한 기업의 업무 흐름 및 사용 용도에 따라 <emphasis role="bold">맞춤형 워크플로우</emphasis>를
+    자유롭게 설정할 수 있습니다. 계약서, 동의서, 신청서 등 외부 문서뿐 아니라 결재 등 내부 문서를 포함하여 문서의 처리 과정을
+    자유롭게 설정할 수 있고 다양한 업무에 적용할 수 있습니다. 또한 워크플로우 단계 또는 수신자 별로 알림, 필수 입력 항목 등의 세부
+    설정이 가능하며 문서의 진행 및 처리 상태도 실시간으로 확인할 수 있습니다.</para>
 
-    <para>문서의 위/변조 방지를 위해 문서에 대한 모든 로그가 포함된 감사추적증명서를 제공합니다.</para>
+    <para>문서의 위/변조 방지를 위해 문서에 대한 모든 기록이 포함된 <emphasis
+    role="bold">감사추적증명서</emphasis>를 제공합니다.</para>
 
     <para>이 외에도 작성자 정보, 그룹 관련 정보, 최근 입력값이나 날짜 정보 등에 대한 자동 입력을 지원해 반복적인 입력을
-    최소화하며 한꺼번에 여러 개의 문서를 작성할 수 있는 일괄 작성 기능도 지원합니다. 회사의 멤버 및 권한을 관리할 수 있고 문서에
-    대한 알림을 상세하게 설정할 수 있으며, 수집된 데이터를 추출해 별도로 관리하고 활용할 수 있도록 지원합니다.</para>
+    최소화하며 한꺼번에 여러 개의 문서를 작성할 수 있는 <emphasis role="bold">일괄 작성</emphasis> 기능도
+    지원합니다. 회사의 멤버 및 권한을 관리할 수 있고 문서에 대한 알림을 상세하게 설정할 수 있으며, 수집된 데이터를 추출해 별도로
+    관리하고 활용할 수 있도록 지원합니다.</para>
 
     <para/>
 
@@ -44,15 +47,17 @@
 
     <para>eformsign서비스는 전자문서에 서명할 수 있는 전자서명 기능도 제공합니다.</para>
 
-    <para>전자서명이란 종이에 하는 서명과 같은 역할을 하는 전자적 형태의 서명입니다. 종이에 서명을 할 때 본인이 직접 서명해야
-    하는 것처럼 전자 서명 또한 서명자가 본인임을 증명하는 인증 단계를 거쳐야 합니다. 본인 인증의 경우, 이메일, 주민등록번호,
-    비밀번호, 전화번호, 인증서 등이 본인 인증 수단으로 사용됩니다.</para>
+    <para><emphasis role="bold">전자서명</emphasis>이란 종이에 하는 서명과 같은 역할을 하는 전자적 형태의
+    서명입니다. 종이에 서명을 할 때 본인이 직접 서명해야 하는 것처럼 전자 서명 또한 서명자가 본인임을 증명하는 인증 단계를 거쳐야
+    합니다. 본인 인증의 경우, 일반적으로 이메일, 주민등록번호, 비밀번호, 전화번호, 인증서 등이 본인 인증 수단으로 사용됩니다.
+    eformsign에서는 서명자 본인 확인을 위해 이메일 인증, 비밀번호 인증, 휴대폰 본인확인 등 여러 단계의 인증을 설정할 수
+    있습니다.</para>
 
     <para>전자서명은 대부분의 국가에서 단계적으로 법적 효력을 구분하여 적용하고 있습니다. eformsign의 전자서명은 개인과
     개인, 법인과 개인 간의 법적 효력을 가지고 있으며, 부인방지를 위한 다양한 부가 기능을 제공하고 있습니다.</para>
 
     <note>
-      <para>전자 서명의 국가별 법적 효력은 다음을 참고하세요.</para>
+      <para>전자서명의 국가별 법적 효력은 다음을 참고하세요.</para>
 
       <itemizedlist>
         <listitem>
@@ -93,9 +98,9 @@
 
         <para>웹폼 디자이너<indexterm class="singular">
             <primary>웹폼 디자이너</primary>
-          </indexterm>는 eformsign 서비스에 기존 문서 파일을 업로드하여 바로 간단하게 전자 서식으로 만들 수 있는
-        도구입니다. 신청서, 계약서, 동의서 등 PDF 형식의 파일의 문서에 서명, 텍스트 박스, 체크박스 등 입력할 수 있는 칸을
-        올려서 바로 템플릿으로 저장하거나 이렇게 만들어진 전자문서를 다른 수신인에게 전송하여 문서 작성 또는 서명 요청할 수
+          </indexterm>는 eformsign 서비스에 기존 문서 파일을 PDF로 업로드하여 간단하고 쉽게 전자 서식으로 만들
+        수 있는 도구입니다. 업로드한 신청서, 계약서, 동의서 등의 문서에 서명, 텍스트, 체크박스 등 입력할 수 있는 칸을 추가하여
+        바로 템플릿으로 저장하거나 이렇게 만들어진 전자문서를 다른 수신인에게 전송하여 문서 작성 또는 서명을 요청할 수
         있습니다.</para>
       </listitem>
 
@@ -105,7 +110,7 @@
         <para>폼 빌더<indexterm class="singular">
             <primary>폼 빌더</primary>
           </indexterm>는 eformsign에서 사용하는 전자 서식을 만드는 도구입니다. 신청서, 계약서, 동의서 등의 기존
-        종이 서식(MS Office로 만들어 사용하는 문서 서식)을 서명이나 텍스트 박스 등을 포함하는 전자문서로 변경하여
+        종이 서식(MS Office로 만들어 사용하는 문서 서식)을 서명이나 텍스트 박스 등 입력 항목을 포함하는 전자문서로 변환하여
         eformsign에 업로드할 때 사용합니다. MS Office에 리본메뉴의 형태로 추가(Add-in)되며 <emphasis
         role="bold">OZ in office</emphasis>라고도 합니다.</para>
       </listitem>
@@ -115,7 +120,7 @@
 
         <para><indexterm class="singular">
             <primary>대시보드</primary>
-          </indexterm>eformsign에 로그인하고 나면 처음에 나타나는 서비스의 메인 화면입니다. 대시보드 좌측의 메뉴
+          </indexterm>eformsign에 로그인 후 처음 나타나는 서비스의 메인 화면입니다. 대시보드 좌측의 메뉴
         아이콘(<inlinemediaobject>
             <imageobject>
               <imagedata fileref="resources/menu_icon.png"/>
@@ -139,10 +144,9 @@
 
         <para><indexterm class="singular">
             <primary>템플릿</primary>
-          </indexterm>eformsign에서 사용하는 전자문서 서식으로, 종이로 된 신청서나 동의서 템플릿과 같이 문서에
-        서명이나 동의 여부 등의 내용을 넣기 전의 서식을 말합니다. 템플릿은 MS Office 파일인 경우에는 eformsign의
-        폼빌더로 만들고 업로드할 수 있으며, PDF 파일인 경우에는 서비스에 바로 파일을 업로드해서 전자문서를 생성할 수
-        있습니다.</para>
+          </indexterm>eformsign에서 사용하는 전자문서 서식으로, 기존에 사용하는 종이로 된 신청서나 동의서 등
+        문서의 기본 서식을 말합니다. 템플릿은 MS Office 파일인 경우에는 eformsign의 폼 빌더로 만들고 업로드할 수
+        있으며, PDF 파일인 경우에는 서비스에 바로 파일을 업로드해서 전자문서를 만들 수 있습니다.</para>
       </listitem>
 
       <listitem>
@@ -151,8 +155,7 @@
         <para><indexterm class="singular">
             <primary>문서</primary>
           </indexterm>템플릿으로 <emphasis role="bold">새 문서 작성</emphasis> 메뉴를 통해 여러
-        개의 문서를 생성할 수 있습니다. eformsign에서 문서 작성 개수를 집계하는 기준이 바로 이렇게 생성되는
-        문서입니다.</para>
+        개의 문서를 생성할 수 있습니다. 생성된 문서가 eformsign에서 문서 생성 수를 집계하는 기준이 됩니다.</para>
       </listitem>
 
       <listitem>
@@ -160,8 +163,8 @@
 
         <para><indexterm class="singular">
             <primary>문서함</primary>
-          </indexterm>생성된 문서를 보관 및 열람할 수 있는 클라우드 공간입니다. 문서의 상태에 따라 3개의 문서함에
-        나뉘어 보관됩니다.</para>
+          </indexterm>전자문서를 보관 및 열람할 수 있는 클라우드 공간입니다. 문서의 상태에 따라 3개의 문서함에 나뉘어
+        보관됩니다.</para>
 
         <itemizedlist>
           <listitem>
@@ -180,10 +183,10 @@
           </listitem>
 
           <listitem>
-            <para><emphasis role="bold">전체 문서함: </emphasis><indexterm
+            <para><emphasis role="bold">완료 문서함: </emphasis><indexterm
                 class="singular">
-                <primary>전체 문서함</primary>
-              </indexterm>내가 작성 또는 치러한 문서 전체를 볼 수 있습니다.</para>
+                <primary>완료 문서함</primary>
+              </indexterm>내가 작성 또는 처리한 문서 중 완료된 문서를 확인할 수 있습니다.</para>
           </listitem>
         </itemizedlist>
       </listitem>
@@ -195,13 +198,13 @@
 
         <para><indexterm class="singular">
             <primary>워크플로우</primary>
-          </indexterm>문서가 작성되어 완료되기까지의 처리 과정을 말합니다. 템플릿 관리자가 템플릿 별로 워크플로우 단계를
+          </indexterm>문서가 생성되어 완료되기까지의 처리 과정을 말합니다. 템플릿 관리자가 템플릿 별로 워크플로우 단계를
         설정할 수 있습니다. 워크플로우는 <emphasis role="bold">시작 – 완료</emphasis><indexterm
             class="singular">
             <primary>시작</primary>
           </indexterm><indexterm class="singular">
             <primary>완료</primary>
-          </indexterm>가 기본 단계이며 아래와 같은 3가지 단계를 추가할 수 있습니다.</para>
+          </indexterm>가 기본 단계이며 다음의 3가지 단계 유형을 추가할 수 있습니다.</para>
 
         <itemizedlist>
           <listitem>
@@ -248,15 +251,16 @@
       <listitem>
         <para><emphasis role="bold">템플릿 관리 권한</emphasis></para>
 
-        <para>템플릿 관리 권한이 있으면 템플릿 관리 메뉴에 접근할 수 있으며, 템플릿을 생성, 수정, 배포 및 삭제할 수
-        있습니다.</para>
+        <para>템플릿 관리자로<emphasis role="bold"> 템플릿 관리</emphasis> 메뉴에 접근할 수 있으며,
+        템플릿을 생성, 수정, 배포 및 삭제할 수 있습니다.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">문서 관리 권한</emphasis></para>
 
-        <para>문서 관리 권한이 있으면 문서 관리 메뉴에 접근하여 템플릿별로 생성된 문서를 열람하고 완료 문서에 대한 취소 요청을
-        승인하거나 문서를 시스템에서 영구 제거할 수 있습니다. 문서 관리 권한은 템플릿별로 다르게 지정할 수 있습니다.</para>
+        <para>문서 관리자로 <emphasis role="bold">문서 관리 </emphasis>메뉴에 접근하여 템플릿별로
+        생성된 문서를 열람하고 완료 문서에 대한 취소 요청을 승인하거나 문서를 시스템에서 영구 제거할 수 있습니다. 문서 관리 권한은
+        템플릿별로 다르게 지정할 수 있습니다.</para>
       </listitem>
     </itemizedlist>
 
@@ -267,7 +271,7 @@
     <title>사용 흐름</title>
 
     <para>eformsign을 사용하기 위해서는, PDF 파일을 eformsign 서비스에 업로드하여 eformsign 내에서
-    전자서식인 폼을 만들거나, MS Office(Word, Excel, PowerPoint)를 통해 폼을 작성하여 eformsign으로
+    전자서식인 템플릿을 만들거나, MS Office(Word, Excel, PowerPoint)를 통해 폼을 만들어 eformsign으로
     업로드하여야 합니다.</para>
 
     <note>
@@ -280,13 +284,14 @@
 
       <para><indexterm class="singular">
           <primary>웹폼 디자이너</primary>
-        </indexterm>PDF 형식의 파일을 eformsign에 업로드한 후 서비스 내에서 텍스트, 서명, 날짜 필드 등의
-      필요한 컴포넌트를 문서 위에 배치해 템플릿을 만들 수 있습니다.</para>
+        </indexterm>PDF 형식의 파일을 eformsign에 업로드한 후 텍스트, 서명, 날짜, 체크박스 등 필요한
+      컴포넌트를 문서의 원하는 위치에 원하는 크기로 배치해 템플릿을 만들 수 있습니다.</para>
 
-      <para>업로드된 문서에 컴포넌트를 배치하고 나면 템플릿 관리 중 설정 메뉴에 가서 일반 설정, 워크플로우 설정, 알림 설정
-      등을 변경한 후 배포하면 됩니다.</para>
+      <para>업로드된 문서에 컴포넌트를 배치한 후 템플릿과 관련하여 일반 설정, 권한 설정, 워크플로우 설정, 알림 설정 등 세부
+      내용을 설정, 저장하여 템플릿을 배포합니다.</para>
 
-      <para>새 문서 작성 메뉴로 이동하면 배포된 템플릿을 통해 문서를 작성하고 수신자에게 전송할 수 있습니다.</para>
+      <para><emphasis role="bold">새 문서 작성</emphasis> 메뉴로 이동하면 배포된 템플릿을 사용해 문서를
+      생성하고 수신자에게 전송할 수 있습니다.</para>
 
       <figure>
         <title>웹폼 디자이너와 eformsign 간 사용 흐름</title>
@@ -305,14 +310,15 @@
       <para><indexterm class="singular">
           <primary>폼 빌더</primary>
         </indexterm>MS Office(Word, Excel, PowerPoint)에서 문서를 작성하거나 문서 파일을 불러온
-      후 MS Office의 리본 메뉴(OZ in Office)에서 텍스트, 서명, 날짜 필드 등의 필요한 컴포넌트를 문서 위에 배치해
-      템플릿을 만듭니다. 그 다음 리본 메뉴의 실행 메뉴를 통해 서비스에 로그인하고 템플릿을 업로드한 후 eformsign 사이트로
-      이동합니다.</para>
+      후 MS Office의 리본 메뉴(OZ in Office)에서 텍스트, 서명, 날짜, 체크박스 등 필요한 컴포넌트를 문서의 원하는
+      위치에 원하는 크기로 배치합니다. 그 다음 리본 메뉴의 실행 메뉴를 통해 서비스에 로그인하고 파일을 템플릿으로 업로드한 후
+      eformsign 사이트로 이동합니다.</para>
 
-      <para>eformsign 사이트의 템플릿 관리 메뉴에 가서 템플릿이 업로드된 것을 확인하고 워크플로우나 일반 설정, 알림 설정
-      등을 변경한 후 배포합니다.</para>
+      <para>eformsign 사이트의 <emphasis role="bold">템플릿 관리</emphasis> 메뉴로 이동해서
+      파일이 업로드된 것을 확인하고 워크플로우나 일반 설정, 알림 설정 등을 변경한 후 템플릭을 저장 및 배포합니다.</para>
 
-      <para>새 문서 작성 메뉴로 이동하여 문서를 작성하고 수신자에게 전송합니다.</para>
+      <para><emphasis role="bold">새 문서 작성</emphasis> 메뉴로 이동하여 배포된 템플릿을 사용해 문서를
+      생성하고 수신자에게 전송합니다.</para>
 
       <figure>
         <title>폼 빌더와 eformsign 간 사용 흐름</title>
@@ -379,7 +385,7 @@
   <section>
     <title>활용 분야</title>
 
-    <para>eformsign은 크게 계약서, 동의서, 신청서 등에 활용할 수 있습니다. 모든 문서는 암호화(AES-256방식)되어
+    <para>eformsign은 계약서, 동의서, 신청서 등에 활용할 수 있습니다. 모든 문서는 암호화(AES-256 방식)되어
     저장되며, 국제적으로 약속된 장기 보관 문서 형식인 PDF/A 형식으로 저장됩니다.</para>
 
     <section>

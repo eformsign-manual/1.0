@@ -69,10 +69,10 @@
             </listitem>
 
             <listitem>
-              <para><emphasis role="bold">전체 문서함: </emphasis><indexterm
+              <para><emphasis role="bold">완료 문서함: </emphasis><indexterm
                   class="singular">
-                  <primary>전체 문서함</primary>
-                </indexterm>내가 작성 또는 처리한 모든 문서 목록을 확인할 수 있습니다.</para>
+                  <primary>완료 문서함</primary>
+                </indexterm>내가 작성 또는 처리한 문서 중 완료된 문서 목록을 확인할 수 있습니다.</para>
             </listitem>
           </itemizedlist>
         </listitem>
@@ -82,7 +82,7 @@
               class="singular">
               <primary>문서 관리</primary>
             </indexterm>문서 관리 권한이 있어야만 접근 가능한 메뉴입니다. 문서 관리 권한이 있는 템플릿으로 만들어진
-          모든 문서를 조회할 수 있습니다. 단, 대표관리자의 경우, 모든 문서를 조회하고 관리할 수 있습니다.</para>
+          모든 문서를 조회할 수 있습니다. 단, 대표 관리자의 경우, 모든 문서를 조회하고 관리할 수 있습니다.</para>
         </listitem>
 
         <listitem>
@@ -104,7 +104,8 @@
           <para><emphasis role="bold">회사 관리: </emphasis><indexterm
               class="singular">
               <primary>회사 관리</primary>
-            </indexterm>회사 대표관리자만 접근 가능한 메뉴입니다. 회사 정보를 조회하고 수정할 수 있습니다.</para>
+            </indexterm>대표 관리자와 회사 관리자만 접근 가능한 메뉴입니다. 회사 정보를 조회하고 수정할 수
+          있습니다.</para>
 
           <itemizedlist>
             <listitem>
@@ -118,7 +119,7 @@
               <para><emphasis role="bold">그룹 관리: </emphasis><indexterm
                   class="singular">
                   <primary>그룹 관리</primary>
-                </indexterm>멤버 그룹을 생성하거나 그룹 정보를 수정할 수 있습니다.</para>
+                </indexterm>그룹을 새로 생성하거나 그룹 정보를 수정할 수 있습니다.</para>
             </listitem>
 
             <listitem>
@@ -142,6 +143,11 @@
                 </indexterm>eformsign에서 발송되는 이메일, SMS 알림 템플릿 목록을 확인하고 수정할 수
               있습니다.</para>
             </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">서명 설정:</emphasis> 서명 입력란에 서명을 입력할 때
+              그리기, 텍스트, 도장 등 어떤 방식의 서명을 사용할지 설정합니다. </para>
+            </listitem>
           </itemizedlist>
         </listitem>
 
@@ -149,7 +155,7 @@
           <para><emphasis role="bold">커넥트:</emphasis> <indexterm
               class="singular">
               <primary>커넥트</primary>
-            </indexterm>대표관리자만 접근 가능한 메뉴입니다. 외부 서비스와 연계하여 사용하는 기능들을 확인할 수
+            </indexterm>대표 관리자만 접근 가능한 메뉴입니다. 외부 서비스와 연계하여 사용하는 기능들을 확인할 수
           있습니다.</para>
 
           <itemizedlist>
@@ -157,7 +163,7 @@
               <para><emphasis role="bold">파일 저장소: </emphasis><indexterm
                   class="singular">
                   <primary>파일 저장소</primary>
-                </indexterm>드롭박스, 구글 드라이브, 박스 계정을 연동하여 최종 완료된 문서를
+                </indexterm>드롭박스, 구글 드라이브, 박스, 원드라이브 계정을 연동하여 최종 완료된 문서를
               저장합니다.</para>
             </listitem>
 
@@ -175,7 +181,7 @@
                   <primary>API</primary>
                 </indexterm><indexterm class="singular">
                   <primary>Webhook</primary>
-                </indexterm>이폼사인 API를 사용할 때 필요한 API 및 웹훅 키 관리를 할 수
+                </indexterm>이폼사인 API를 사용할 때 필요한 API 및 Webhook 키 관리를 할 수
               있습니다.</para>
             </listitem>
           </itemizedlist>
@@ -216,7 +222,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/dashboard_main.png" width="800"/>
+            <imagedata fileref="resources/dashboard-main.png" width="800"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -239,7 +245,7 @@
           <listitem>
             <para><indexterm class="singular">
                 <primary>진행 중 문서함</primary>
-              </indexterm>현재 진행 중인 문서의 개수를 보여주며, 클릭시<emphasis role="bold">
+              </indexterm>현재 진행 중인 문서의 개수를 보여주며, 클릭 시<emphasis role="bold">
             </emphasis>진행 중인 문서의 목록을 확인할 수 있는 <emphasis role="bold">진행 중
             문서함</emphasis>으로 이동합니다.</para>
           </listitem>
@@ -251,19 +257,19 @@
           <listitem>
             <para><indexterm class="singular">
                 <primary>처리할 문서함</primary>
-              </indexterm>내가 처리해야 하는 문서의 개수를 보여주며, 클릭시 <emphasis
+              </indexterm>내가 처리해야 하는 문서의 개수를 보여주며, 클릭 시 <emphasis
             role="bold">처리할 문서함</emphasis>으로 이동합니다.</para>
           </listitem>
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">④ 전체 문서함</emphasis></term>
+          <term><emphasis role="bold">④ 완료 문서함</emphasis></term>
 
           <listitem>
             <para><indexterm class="singular">
-                <primary>전체 문서함</primary>
-              </indexterm>완료된 문서를 포함하여 모든 문서를 확인할 수 있는 <emphasis
-            role="bold">전체 문서함</emphasis>으로 이동합니다.</para>
+                <primary>완료 문서함</primary>
+              </indexterm>내가 작성 또는 처리한 문서 중 완료된 문서를 확인할 수 있는 <emphasis
+            role="bold">완료 문서함</emphasis>으로 이동합니다.</para>
           </listitem>
         </varlistentry>
 
@@ -288,12 +294,12 @@
         </varlistentry>
 
         <varlistentry>
-          <term><emphasis role="bold">⑦ 전체 문서</emphasis></term>
+          <term><emphasis role="bold">⑦ 완료 문서</emphasis></term>
 
           <listitem>
-            <para>전체 문서함에 있는 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당 문서로 바로
+            <para>완료 문서함에 있는 최근 문서 3건을 목록으로 보여줍니다. 목록의 문서명을 클릭하면 해당 문서로 바로
             이동하며, <emphasis role="bold">더보기</emphasis>를 클릭하면<emphasis
-            role="bold"> 전체 문서함</emphasis>으로 이동합니다.</para>
+            role="bold"> 완료 문서함</emphasis>으로 이동합니다.</para>
           </listitem>
         </varlistentry>
 
@@ -360,7 +366,8 @@
           </listitem>
 
           <listitem>
-            <para>선택을 클릭하면 즐겨찾기에 등록됩니다.</para>
+            <para><emphasis role="bold">선택</emphasis>을 클릭하면 즐겨찾기에
+            등록됩니다.</para>
           </listitem>
         </orderedlist>
       </tip>
@@ -372,7 +379,7 @@
 
     <para><indexterm class="singular">
         <primary>내 정보</primary>
-      </indexterm>이폼사인 가입시 입력한 개인 정보 및 내가 등록된 회사의 정보를 확인하려면 사이드바 메뉴의 우측 상단에 있는
+      </indexterm>이폼사인 가입 시 입력한 개인 정보 및 내가 속한 회사의 정보를 확인하려면 사이드바 메뉴의 우측 상단에 있는
     아이콘(<inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="17"
@@ -412,16 +419,17 @@
         <para><emphasis role="bold">회사 변경: </emphasis><indexterm
             class="singular">
             <primary>회사 변경</primary>
-          </indexterm>내가 소속된 회사가 여러 개일 경우 회사 변경을 클릭하면 회사의 목록이 나타나며 변경할 회사를
-        클릭하여 소속 회사를 변경할 수 있습니다.</para>
+          </indexterm>내가 소속된 회사가 여러 개일 경우<emphasis role="bold"> 회사
+        변경</emphasis>을 클릭하면 회사의 목록이 나타나며 변경할 회사를 클릭하여 소속 회사를 변경할 수
+        있습니다.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">내 정보: </emphasis><indexterm
             class="singular">
             <primary>내 정보</primary>
-          </indexterm>이폼사인 가입시 등록한 내 개인 정보를 확인 및 수정할 수 있으며, 내가 소속된 회사의 정보를 확인할
-        수 있습니다.</para>
+          </indexterm>이폼사인 가입 시 등록한 내 개인 정보를 확인 및 수정할 수 있으며, 내가 소속된 회사의 정보를
+        확인할 수 있습니다.</para>
       </listitem>
 
       <listitem>
@@ -453,7 +461,7 @@
           <term><emphasis role="bold">개인 정보</emphasis></term>
 
           <listitem>
-            <para>회원가입시 입력한 이름, 이메일 또는 아이디, 비밀번호 및 연락처를 확인 및 수정할 수
+            <para>회원 가입 시 입력한 이름, 이메일 또는 아이디, 비밀번호 및 연락처를 확인 및 수정할 수
             있습니다.</para>
           </listitem>
         </varlistentry>
@@ -478,7 +486,7 @@
           <term><emphasis role="bold">회원 탈퇴</emphasis></term>
 
           <listitem>
-            <para>이폼사인의 회원 탈퇴를 하고자 하는 경우 화 면 하단의 <emphasis
+            <para>이폼사인의 회원 탈퇴를 하고자 하는 경우 화면 하단의 <emphasis
             role="bold">eformsign 탈퇴하기</emphasis>를 클릭하여 회원 탈퇴를 할 수
             있습니다.</para>
           </listitem>
@@ -510,11 +518,11 @@
           <term><emphasis role="bold">상세 정보</emphasis></term>
 
           <listitem>
-            <para>내가 소속된 회사의 주소, 사업자 등록번호, 홈페이지, 대표관리자 이름 및 이메일 등 상세한 정보를 확인할
+            <para>내가 소속된 회사의 주소, 사업자등록번호, 홈페이지, 대표 관리자 이름 및 이메일 등 상세한 정보를 확인할
             수 있습니다.</para>
 
             <note>
-              <para>내 정보에서는 회사정보를 확인만 할 수 있으며, 회사 관련 정보의 수정은 <emphasis
+              <para>내 정보에서는 회사정보를 확인만 할 수 있으며, 회사 정보의 수정은 <emphasis
               role="bold">회사 관리 &gt; 회사 정보</emphasis> 메뉴에서 할 수 있습니다. 회사 정보 수정은
               대표 관리자 또는 회사 관리 권한이 있는 회원만 가능합니다.</para>
             </note>
@@ -531,8 +539,8 @@
             표시되고, 목록 중 선택하여 해당 회사의 탈퇴를 진행할 수 있습니다.</para>
 
             <important>
-              <para>일반 회원의 경우 소속 회사에서 탈퇴할 경우 개인의 계정은 유지되며 다른 회사에 가입하거나 신규로 회사를
-              생성할 수 있습니다.</para>
+              <para>일반 멤버가 소속 회사에서 탈퇴할 경우 개인의 이폼사인 계정은 유지되며 다른 회사에 가입하거나 신규로
+              회사를 생성할 수 있습니다.</para>
 
               <para>대표 관리자의 경우 회사 탈퇴시 회사가 삭제됩니다. 회사 삭제를 하지 않고 회사를 탈퇴하려면 대표 관리자
               권한을 다른 사람에게 위임한 후 회사를 탈퇴해야 합니다.</para>
@@ -679,7 +687,8 @@
         </listitem>
 
         <listitem>
-          <para>화면 오른쪽 상단의 저장 버튼을 클릭합니다.</para>
+          <para>화면 오른쪽 상단의 <emphasis role="bold">저장</emphasis> 버튼을
+          클릭합니다.</para>
         </listitem>
 
         <listitem>
