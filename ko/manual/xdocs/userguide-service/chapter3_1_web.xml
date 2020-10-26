@@ -13,9 +13,10 @@
 
     <para><indexterm class="singular">
         <primary>웹폼 디자이너</primary>
-      </indexterm>eformsign 템플릿 관리 메뉴에서 전자문서의 배경서식이 되는 PDF 파일을 업로드하면 웹폼 디자이너가
-    나타납니다. 왼쪽 트리의 다양한 입력항목 중 원하는 입력항목을 클릭해서 웹폼 디자이너에서 나타나는 배경 파일에 위치하고 난 후, 각
-    입력항목에 대한 속성을 설정하면 템플릿을 손쉽게 생성할 수 있습니다.</para>
+      </indexterm>웹폼 디자이너는 이폼사인에서 전자문서 서식인 템플릿을 바로 만들 수 있는 도구입니다. eformsign
+    템플릿 관리 메뉴에서 전자문서의 배경서식이 되는 PDF 파일을 업로드하면 웹폼 디자이너가 나타납니다. 왼쪽 트리의 다양한 입력항목 중
+    원하는 입력항목을 클릭해서 웹폼 디자이너에서 나타나는 배경 파일에 위치하고 난 후, 각 입력항목에 대한 속성을 설정하면 템플릿을
+    손쉽게 생성할 수 있습니다.</para>
 
     <note>
       <para>현재는 PDF 파일만 지원하나, 추후 MS Office, 한글, JPG, PNG 등의 이미지 파일 등 다양한 파일
@@ -41,8 +42,9 @@
       </mediaobject>
     </figure>
 
-    <para>2. 템플릿 관리 화면에 바로 파일을 드래그하거나 <emphasis role="bold">내 컴퓨터에서 파일
-    선택</emphasis>을 눌러 자신의 컴퓨터에서 업로드하고자 하는 파일을 선택합니다.</para>
+    <para>2. <emphasis role="bold">템플릿 관리 </emphasis>화면에 바로 파일을 드래그하거나
+    <emphasis role="bold">내 컴퓨터에서 파일 선택</emphasis>을 클릭해 컴퓨터에서 업로드하고자 하는 파일을
+    선택합니다.</para>
 
     <figure>
       <title>웹폼 디자이너 화면</title>
@@ -89,7 +91,7 @@
 
         <listitem>
           <para><emphasis role="bold">상단 바: </emphasis>폼 디자인하기, 설정하기의 단계가
-          표시되며, 템플릿 관리 리스트 화면으로 돌아가거나 입력항목이 추가된 템플릿의 표시 형태를 미리보기할 수
+          표시되며, 템플릿 관리 리스트 화면으로 돌아가거나 입력항목이 추가된 템플릿의 표시 형태를 미리보기 할 수
           있습니다.</para>
         </listitem>
 
@@ -115,10 +117,11 @@
     <para><indexterm class="singular">
         <primary>입력항목</primary>
       </indexterm>입력항목은 전자 문서에서 사용자가 내용을 입력할 수 있는 입력란을 만들어주는 역할을 합니다. 서명, 체크,
-    날짜, 텍스트 등의 다양한 형식의 입력항목이 있으며 각각의 입력항목은 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
+    날짜, 텍스트 등 다양한 형식의 입력항목을 제공하며 각각의 입력항목은 속성 및 스타일 탭에서 각 항목에 대한 세부 사항을 설정할 수
+    있습니다.</para>
 
     <para><figure>
-        <title>웹폼 디자이너에 입력항목을 배치한 모습</title>
+        <title>웹폼 디자이너에서 문서에 입력항목을 배치한 모습</title>
 
         <mediaobject>
           <imageobject>
@@ -311,7 +314,8 @@
           <primary>입력항목</primary>
 
           <secondary>멀티라인</secondary>
-        </indexterm>텍스트 입력항목와 멀티라인 입력항목 모두 텍스트 입력란을 만들 때 사용합니다. 텍스트 입력항목은 1~2
+        </indexterm><emphasis role="bold">텍스트 </emphasis>입력항목와 <emphasis
+      role="bold">멀티라인</emphasis> 입력항목 모두 텍스트 입력란을 만들 때 사용합니다. 텍스트 입력항목은 1~2
       단어의 짧은 텍스트, 멀티라인은 1줄 이상의 긴 텍스트에 적합합니다.</para>
 
       <para><emphasis role="bold">입력항목 속성</emphasis></para>
@@ -354,7 +358,7 @@
 
       <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
 
-      <para>해당 입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>해당 입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="signature2">
@@ -364,10 +368,12 @@
           <primary>입력항목</primary>
 
           <secondary>서명</secondary>
-        </indexterm>서명 입력항목은 문서에 서명을 받아야 할 때 사용합니다.</para>
+        </indexterm><emphasis role="bold">서명</emphasis> 입력항목은 문서에 서명을 받아야 할 때
+      사용합니다.</para>
 
-      <para>서명 입력항목을 넣으면 서명이 필요한 문서에서 아래와 같이 서명 팝업이 뜨고 서명을 직접 그리거나 텍스트를 입력해
-      서명을 생성할 수 있으며, 기존에 등록한 서명이 있는 경우 이를 사용할 수도 있습니다.</para>
+      <para>서명 입력항목을 넣으면 서명이 필요한 문서에서 아래와 같이<emphasis role="bold">
+      서명</emphasis> 팝업이 뜨고 서명을 직접 그리거나 텍스트를 입력해 서명을 생성할 수 있으며, 기존에 등록한 서명이 있는
+      경우 이를 사용할 수도 있습니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -382,7 +388,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/Signature-component-properties_web.png"/>
+            <imagedata fileref="resources/Signature-component-properties1.png"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -404,25 +410,27 @@
 
         <listitem>
           <para><emphasis role="bold">등록된 서명:</emphasis> 문서를 작성하는 사람이 미리 등록해 둔
-          ‘내 서명’이 있는 경우 서명란을 클릭하면 등록된 서명이 자동으로 입력됩니다.</para>
+          <emphasis role="bold">내 서명</emphasis>이 있는 경우 서명란을 클릭하면 등록된 서명이 자동으로
+          입력됩니다.</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">등록된 이니셜:</emphasis> 등록된 서명과 마찬가지로 ‘내
-          서명’에 등록된 이니셜이 있는 경우 서명란을 클릭하면 등록된 이니셜이 자동으로 입력됩니다.</para>
+          <para><emphasis role="bold">등록된 이니셜:</emphasis> 등록된 서명과 마찬가지로
+          <emphasis role="bold">내 서명</emphasis>에 등록된 이니셜이 있는 경우 서명란을 클릭하면 등록된
+          이니셜이 자동으로 입력됩니다.</para>
+        </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">등록된 도장:</emphasis> <emphasis
+          role="bold">내 서명</emphasis>에 등록된 도장이 있는 경우 서명란을 클릭하면 등록된 도장이 자동으로
+          적용됩니다.</para>
         </listitem>
       </itemizedlist>
 
       <para><note>
-          <para>등록된 서명과 이니셜이 있는 경우에는 해당 서명이 서명란에 자동으로 입력되지만, 등록된 서명과 이니셜이 없는
-          경우 직접 서명과 동일한 서명 팝업이 나타납니다.</para>
+          <para>등록된 서명, 이니셜, 또는 도장이 있는 경우에는 해당 서명이 서명란에 자동으로 입력되지만, 등록된 서명,
+          이니셜 또는 도장이 없는 경우 직접 서명과 동일한 서명 팝업이 나타납니다.</para>
         </note></para>
-
-      <note>
-        <para>문서에 직접 서명이 아닌 직인이나 개인 도장을 사용해야 하는 경우가 있습니다. eformsign에서는 도장 이미지를
-        사용해 문서의 서명란에 도장을 찍을 수도 있습니다. 도장 이미지를 사용하려면, 서명 팝업에서 <emphasis
-        role="bold">도장</emphasis> 탭을 클릭하고 도장 이미지를 선택한 후 확인 버튼을 누릅니다.</para>
-      </note>
 
       <para><emphasis role="bold">③ 서명펜 두께</emphasis></para>
 
@@ -434,7 +442,7 @@
 
       <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="check2">
@@ -444,9 +452,10 @@
           <primary>입력항목</primary>
 
           <secondary>체크</secondary>
-        </indexterm>체크 입력항목은 각 항목의 체크 여부를 확인하고자 할때 사용합니다. 비슷한 입력항목 중 ‘선택’
-      입력항목이 있으며, 체크 입력항목은 해당 항목의 체크 여부를 확인할 때 사용하고, 선택 입력항목은 선택한 항목이 무엇인지 알아야
-      할 때 사용한다는 차이가 있습니다.</para>
+        </indexterm><emphasis role="bold">체크</emphasis> 입력항목은 각 항목의 체크 여부를
+      확인하고자 할때 사용합니다. 비슷한 입력항목으로 <emphasis role="bold">선택</emphasis> 입력항목이
+      있으며, 체크 입력항목은 해당 항목의 체크 여부를 확인할 때 사용하고, 선택 입력항목은 선택한 항목이 무엇인지 알아야 할 때
+      사용한다는 차이가 있습니다.</para>
 
       <para>체크 입력항목의 입력값은 데이터 다운로드 시 다음과 같이 나타납니다.</para>
 
@@ -484,7 +493,7 @@
 
       <para><emphasis role="bold">② 체크 스타일</emphasis></para>
 
-      <para>선택 입력항목은 속성에서 스타일을 지정할 수 있습니다. 체크를 선택하면 속성에서 체크박스가 기본으로 설정되어 있으며,
+      <para>체크 입력항목은 속성에서 스타일을 지정할 수 있습니다. 체크를 선택하면 속성에서 체크박스가 기본으로 설정되어 있으며,
       이외에 라디오 버튼, 빨간 원 표시를 선택할 수 있습니다.</para>
 
       <para>다음의 예시를 보면, 왼쪽부터 체크 / 라디오 / 원 선택 시 각각 체크박스가 어떻게 표시되는지를 알 수
@@ -559,7 +568,7 @@
 
       <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
 
-      <para>해당 입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>해당 입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="label2">
@@ -640,8 +649,8 @@
 
       <itemizedlist>
         <listitem>
-          <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 ‘입력 데이터 초기화’를
-          선택합니다.</para>
+          <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 <emphasis
+          role="bold">입력 데이터 초기화</emphasis>를 선택합니다.</para>
         </listitem>
 
         <listitem>
@@ -651,7 +660,7 @@
 
       <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
 
-      <para>선택란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>선택란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="date2">
@@ -687,7 +696,7 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">yyyy:</emphasis> 연도’를 표시합니다. (yyyy년 =
+          <para><emphasis role="bold">yyyy:</emphasis> '연도’를 표시합니다. (yyyy년 =
           2020년)</para>
         </listitem>
 
@@ -715,7 +724,7 @@
 
       <para><emphasis role="bold">⑥ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="numeric2">
@@ -726,7 +735,7 @@
 
           <secondary>숫자</secondary>
         </indexterm>숫자를 입력해야 할 때 사용합니다. 입력란을 클릭하면 오른쪽에 두 개의 화살표가 나타나며, 위 아래
-      화살표 버튼을 눌러 숫자를 증감시킬 수 있습니다. PC 키보드 환경에서는 입력란에 직접 원하는 숫자를 입력할 수 있습니다.
+      화살표 버튼을 눌러 숫자를 증감시킬 수 있습니다. PC 키보드 환경에서는 입력 란에 직접 원하는 숫자를 입력할 수 있습니다.
       스마트폰, 태블릿 환경에서는 입력 범위 숫자 리스트에서 스크롤하여 원하는 숫자를 선택할 수 있습니다.</para>
 
       <para><emphasis role="bold">입력항목 속성</emphasis></para>
@@ -761,7 +770,7 @@
 
       <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="toggle2">
@@ -774,7 +783,8 @@
         </indexterm>켜짐(ON), 꺼짐(OFF)과 같은 특정한 상태를 나타낼 때 사용합니다. 토글 입력항목을 사용하면
       입력항목을 클릭할 때마다 미리 설정한 항목의 순서대로 입력값이 전환됩니다.</para>
 
-      <para>다음과 같이 입력항목을 클릭하여 양호, 불량 상태로 변경할 수 있습니다.</para>
+      <para>다음과 같이 입력항목을 클릭하여 <emphasis role="bold">양호</emphasis>, <emphasis
+      role="bold">불량</emphasis> 상태로 변경할 수 있습니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -806,7 +816,7 @@
 
       <para><emphasis role="bold">③ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="camera2">
@@ -851,7 +861,7 @@
 
       <para><emphasis role="bold">② 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="record2">
@@ -900,7 +910,7 @@
 
       <para><emphasis role="bold">② 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="attach2">
@@ -944,7 +954,7 @@
 
       <para><emphasis role="bold">② 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="document2">
@@ -958,8 +968,8 @@
       원하는 정보를 선택해 입력할 수 있습니다.</para>
 
       <para>문서 ID는 시스템에서 부여하는 문서 고유의 ID이기 때문에 별도의 설정이 필요하지 않습니다. 문서 번호와 관련된
-      설정은 템플릿을 업로드한 뒤 <emphasis role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 할 수
-      있습니다.</para>
+      설정은 템플릿을 업로드한 뒤, <emphasis role="bold">템플릿 설정 &gt; 일반 설정</emphasis>에서 할
+      수 있습니다.</para>
 
       <para><emphasis role="bold">입력항목 속성</emphasis></para>
 
@@ -1020,7 +1030,7 @@
 
       <listitem>
         <para><emphasis role="bold">워크플로우 설정: </emphasis>문서의 작성부터 완료까지 작성된 문서가
-        거쳐갈 단계를 설정합니다.</para>
+        처리될 단계를 설정합니다.</para>
       </listitem>
 
       <listitem>

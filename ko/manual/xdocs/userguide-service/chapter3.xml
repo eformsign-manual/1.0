@@ -16,12 +16,12 @@
         <primary>폼 빌더</primary>
       </indexterm>폼 빌더는 OZ in Office라고도 합니다. OZ in Office는 Microsoft Office로
     만든 문서를 입력 기능을 갖춘 전자 문서로 변환하는 폼 에디터입니다. OZ in Office를 사용하면 기존에 Excel, Word,
-    PowerPoint로 만들어진 업무 양식(계약서, 신청서, 동의서, 품의서 등)을 간단하고 쉽게 전자 문서로 변환할 수
+    PowerPoint로 만들어진 각종 문서 서식(계약서, 신청서, 동의서, 품의서 등)을 간단하고 쉽게 전자 문서로 변환할 수
     있습니다.</para>
 
-    <para>기존에는 기업의 Excel, Word, PowerPoint 문서를 전자 문서로 개발하려면 프로그래밍 개발 수준의 개발자용
-    문서 개발 도구가 필요했습니다. 그러나, OZ in Office을 이용하면 Office 제품을 사용할 수 있는 수준이면 누구나 전자
-    문서를 손쉽게 만들 수 있습니다.</para>
+    <para>기존에는 Excel, Word, PowerPoint 문서를 전자 문서로 개발하려면 프로그래밍 개발 수준의 개발자용 문서
+    개발 도구가 필요했습니다. 그러나, OZ in Office는 Office 제품을 사용할 수 있는 수준이면 누구나 전자 문서를 손쉽게
+    만들 수 있도록 했습니다.</para>
 
     <para>OZ in Office는 MS Office에 Add-on되어 리본 메뉴로 나타나서 사용이 간단하며, 전자 서명, 체크
     박스, 텍스트 박스, 카메라, 녹음 등 OZ의 다양한 입력 기능을 제공하고 있습니다.</para>
@@ -47,7 +47,7 @@
           <imageobject>
             <imagedata fileref="resources/menu_icon.png"/>
           </imageobject>
-        </inlinemediaobject>)을 클릭하면 나타나는 사이드바 메뉴 중 가장 하단의 <emphasis
+        </inlinemediaobject>)을 클릭하면 나타나는 사이드바 메뉴에서 가장 하단의 <emphasis
       role="bold">eformsign 폼 빌더 다운로드</emphasis> 버튼을 클릭합니다.</para>
 
       <figure>
@@ -136,7 +136,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/formbuilder-ozinword-menu1.png"
+            <imagedata fileref="resources/form-builder-ribbon-menu.png"
                        width="750"/>
           </imageobject>
         </mediaobject>
@@ -159,7 +159,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/formbuilder-ozinword-menu.png"
+            <imagedata fileref="resources/form-builder-ribbon-menu2.png"
                        width="750"/>
           </imageobject>
         </mediaobject>
@@ -220,7 +220,8 @@
     <para><indexterm class="singular">
         <primary>입력항목</primary>
       </indexterm>입력항목은 전자 문서에서 사용자가 내용을 입력할 수 있는 입력란을 만들어주는 역할을 합니다. 서명, 체크,
-    날짜, 텍스트 등의 다양한 형식의 입력항목이 있으며 각각의 입력항목은 속성창을 통해 세부 사항을 설정할 수 있습니다.</para>
+    날짜, 텍스트 등 다양한 형식의 입력항목을 제공하며 각각의 입력항목은 속성 및 스타일 탭에서 각 항목에 대한 세부 사항을 설정할 수
+    있습니다.</para>
 
     <section>
       <title>입력항목 종류</title>
@@ -347,7 +348,7 @@
               <primary>입력항목</primary>
 
               <secondary>첨부</secondary>
-            </indexterm>파일 첨부 기능을 추가합니다. 사용자: 문서를 작성한 사람의 정보를 입력합니다.</para>
+            </indexterm>파일 첨부 기능을 추가합니다.</para>
         </listitem>
 
         <listitem>
@@ -393,8 +394,10 @@
     <section>
       <title>입력항목 속성 확인하는 방법</title>
 
-      <para>모든 입력항목은 각각의 세부 설정인 ‘속성’을 가지고 있습니다. 속성은 속성 표시 아이콘 또는 속성 메뉴를 클릭하여
-      확인할 수 있습니다.</para>
+      <para>모든 입력항목은 각각의 세부 설정인 <emphasis role="bold">속성</emphasis>을 가지고
+      있습니다.<emphasis role="bold"> </emphasis>속성은<emphasis role="bold"> 속성 표시
+      아이콘</emphasis> 또는 <emphasis role="bold">속성 </emphasis>메뉴를 클릭하여 확인할 수
+      있습니다.</para>
 
       <para/>
 
@@ -410,7 +413,7 @@
       </figure>
 
       <note>
-        <para>모든 입력항목은 ID를 가지고 있어야 합니다. ID는 입력항목을 추가하면 자동으로 생성되기는 하지만, 입력 항목에
+        <para>모든 입력항목은 ID를 가지고 있어야 합니다. ID는 입력항목을 추가하면 자동으로 생성되기는 하지만, 입력항목에
         무엇이 입력되는 지를 보여줄 수 있는 직관적인 단어로 변경하는 것이 좋습니다. 예를 들어, 홍길동, 이순신 등이 입력되는
         입력항목의 ID는 ‘이름’으로 설정할 수 있습니다.</para>
       </note>
@@ -474,7 +477,7 @@
 
         <para><emphasis role="bold">방법 1: 입력항목을 클릭하여 추가하기</emphasis></para>
 
-        <para>1. 워드 또는 파워포인트를 열고 문서 중 입력항목을 추가할 위치를 선택합니다.</para>
+        <para>1. 워드 또는 파워포인트 파일을 열고 문서에서 입력항목을 추가할 위치를 선택합니다.</para>
 
         <figure>
           <title>방법 1: 워드 또는 파워포인트에서 입력항목을 클릭하여 추가하기(1)</title>
@@ -531,7 +534,7 @@
           </mediaobject>
         </figure>
 
-        <para>3. 원하는 위치와 크기로 입력항목을 추가합니다.</para>
+        <para>3. 원하는 위치에 원하는 크기로 조정하여 입력항목을 추가합니다.</para>
 
         <figure>
           <title>방법 2: 워드 또는 파워포인트에서 입력항목을 그려서 추가하기(2)</title>
@@ -658,12 +661,12 @@
 
       <para><emphasis role="bold">① ID</emphasis></para>
 
-      <para>선택 입력항목은 각 항목 별로 다른 ID를 부여해야 합니다. 여러 개의 선택 입력항목에 같은 ID가 부여될 경우 해당
+      <para>체크 입력항목은 각 항목 별로 다른 ID를 부여해야 합니다. 여러 개의 체크 입력항목에 같은 ID가 부여될 경우 해당
       입력항목 중 마지막 입력항목의 입력값만 표시됩니다.</para>
 
       <para><emphasis role="bold">② 체크 스타일</emphasis></para>
 
-      <para>선택 입력항목은 속성에서 스타일을 지정할 수 있습니다. 체크를 선택하면 속성에서 체크박스가 기본으로 설정되어 있으며,
+      <para>체크 입력항목은 속성에서 스타일을 지정할 수 있습니다. 체크를 선택하면 속성에서 체크박스가 기본으로 설정되어 있으며,
       이외에 라디오 버튼, 빨간 원 표시를 선택할 수 있습니다.</para>
 
       <para>다음의 예시를 보면, 왼쪽부터 체크 / 라디오 / 원 선택 시 각각 체크박스가 어떻게 표시되는지를 알 수
@@ -743,7 +746,7 @@
 
       <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
 
-      <para>해당 입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>해당 입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="combo">
@@ -802,8 +805,8 @@
 
       <itemizedlist>
         <listitem>
-          <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 ‘입력 데이터 초기화’를
-          선택합니다.</para>
+          <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 <emphasis
+          role="bold">입력 데이터 초기화</emphasis>를 선택합니다.</para>
         </listitem>
 
         <listitem>
@@ -813,7 +816,7 @@
 
       <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
 
-      <para>선택란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>선택란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="text">
@@ -871,7 +874,7 @@
 
       <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
 
-      <para>해당 입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>해당 입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="date">
@@ -913,19 +916,18 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">yyyy: </emphasis><emphasis
-          role="bold">연도</emphasis>를 표시합니다. (yyyy년 = 2020년)</para>
+          <para><emphasis role="bold">yyyy: </emphasis>'연도'를 표시합니다. (yyyy년 =
+          2020년)</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">MM:</emphasis> <emphasis
-          role="bold">월</emphasis>을 표시합니다. 반드시 대문자로 표기해야 합니다. (MM월 =
-          8월)</para>
+          <para><emphasis role="bold">MM:</emphasis> '월'을 표시합니다. 반드시 대문자로 표기해야
+          합니다. (MM월 = 8월)</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">dd:</emphasis> <emphasis
-          role="bold">일</emphasis>을 표시합니다. (dd일 = 10일)</para>
+          <para><emphasis role="bold">dd:</emphasis> '일'을 표시합니다. (dd일 =
+          10일)</para>
         </listitem>
       </itemizedlist>
 
@@ -942,15 +944,16 @@
 
       <para><emphasis role="bold">⑤ 입력 데이터 초기화 가능</emphasis></para>
 
-      <para>입력 데이터 초기화 가능을 체크하면 선택한 날짜를 삭제할 수 있습니다. 날짜 입력항목은 한 번 날짜를 선택하면 다른
-      날짜로 변경할 수는 있으나 날짜 선택을 취소할 수는 없습니다. 그러나 입력 데이터 초기화 가능 속성을 체크하면 아무것도 선택되지
-      않은 상태로 변경할 수 있습니다. 단, 아무것도 선택되지 않은 상태일 때 <emphasis role="bold">빈 값일 때 오늘
-      날짜 표시 </emphasis>속성이 체크된 경우 오늘 날짜로 선택됩니다.</para>
+      <para><emphasis role="bold">입력 데이터 초기화 가능</emphasis>을 체크하면 선택한 날짜를 삭제할 수
+      있습니다. 날짜 입력항목은 한 번 날짜를 선택하면 다른 날짜로 변경할 수는 있으나 날짜 선택을 취소할 수는 없습니다. 그러나 입력
+      데이터 초기화 가능 속성을 체크하면 아무것도 선택되지 않은 상태로 변경할 수 있습니다. 단, 아무것도 선택되지 않은 상태일 때
+      <emphasis role="bold">빈 값일 때 오늘 날짜 표시 </emphasis>속성이 체크된 경우 오늘 날짜로
+      선택됩니다.</para>
 
       <itemizedlist>
         <listitem>
-          <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 ‘입력 데이터 초기화’를
-          선택합니다.</para>
+          <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 <emphasis
+          role="bold">입력 데이터 초기화</emphasis>를 선택합니다.</para>
         </listitem>
 
         <listitem>
@@ -960,7 +963,7 @@
 
       <para><emphasis role="bold">⑥ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="numeric">
@@ -1019,7 +1022,7 @@
       <para><itemizedlist>
           <listitem>
             <para>PC 환경: 입력항목을 오른쪽 마우스로 클릭하면 나타나는 팝업 메뉴에서 <emphasis
-            role="bold">입력 데이터 초기화</emphasis>’를 선택합니다.</para>
+            role="bold">입력 데이터 초기화</emphasis>를 선택합니다.</para>
           </listitem>
 
           <listitem>
@@ -1029,7 +1032,7 @@
 
       <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="toggle">
@@ -1098,7 +1101,7 @@
 
       <para><emphasis role="bold">④ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="signature">
@@ -1108,7 +1111,8 @@
           <primary>입력항목</primary>
 
           <secondary>서명</secondary>
-        </indexterm>서명 입력항목은 문서에 서명을 받아야 할 때 사용합니다.</para>
+        </indexterm><emphasis role="bold">서명 </emphasis>입력항목은 문서에 서명을 받아야 할 때
+      사용합니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1133,7 +1137,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/Signature-component-properties.png"/>
+            <imagedata fileref="resources/Signature-component-properties2.png"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -1164,19 +1168,18 @@
           <emphasis role="bold">내 서명</emphasis>에 등록된 이니셜이 있는 경우 서명란을 클릭하면 등록된
           이니셜이 자동으로 입력됩니다.</para>
         </listitem>
+
+        <listitem>
+          <para><emphasis role="bold">등록된 도장:</emphasis> <emphasis
+          role="bold">내 서명</emphasis>에 등록된 도장이 있는 경우 서명란을 클릭하면 등록된 도장이 자동으로
+          적용됩니다.</para>
+        </listitem>
       </itemizedlist>
 
       <para><note>
           <para>등록된 서명과 이니셜이 있는 경우에는 해당 서명이 서명란에 자동으로 입력되지만, 등록된 서명과 이니셜이 없는
           경우 직접 서명과 동일한 <emphasis role="bold">서명</emphasis> 팝업이 나타납니다.</para>
         </note></para>
-
-      <note>
-        <para>문서에 직접 서명이 아닌 직인이나 개인 도장을 사용해야 하는 경우가 있습니다. eformsign에서는 도장 이미지를
-        사용해 문서의 서명란에 도장을 찍을 수도 있습니다. 도장 이미지를 사용하려면,<emphasis role="bold">
-        서명</emphasis> 팝업에서 <emphasis role="bold">도장</emphasis> 탭을 클릭하고 도장 이미지를
-        선택한 후 확인 버튼을 누릅니다.</para>
-      </note>
 
       <para><emphasis role="bold">③ 서명펜 두께</emphasis></para>
 
@@ -1188,7 +1191,7 @@
 
       <para><emphasis role="bold">⑤ 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
 
       <note>
         <para>전자 계약서, 전자 동의서 등 서명이 들어가는 문서에 서명일이 자동으로 입력되도록 설정할 수 있습니다.</para>
@@ -1260,7 +1263,7 @@
 
       <para><emphasis role="bold">② 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="record">
@@ -1309,7 +1312,7 @@
 
       <para><emphasis role="bold">② 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="attach">
@@ -1359,7 +1362,7 @@
 
       <para><emphasis role="bold">② 툴팁 텍스트</emphasis></para>
 
-      <para>입력란에 마우스를 갖다 대면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
+      <para>입력란에 마우스 커서를 올리면 툴팁 텍스트에 입력한 설명이 나타납니다.</para>
     </section>
 
     <section xml:id="user">
@@ -1369,7 +1372,7 @@
           <primary>입력항목</primary>
 
           <secondary>사용자</secondary>
-        </indexterm>문서를 작성 또는 수정한 멤버의 정보가 문서에 자동으로 입력되게 할 때 사용합니다. 설정에 따라 이름,
+        </indexterm>문서를 작성 또는 수정한 멤버의 정보가 문서에 자동으로 입력되도록 할 때 사용합니다. 설정에 따라 이름,
       연락처와 같은 멤버의 기본 정보 또는 사용자 정의 필드 정보가 사용자 입력항목에 자동으로 입력됩니다.</para>
 
       <mediaobject>
@@ -1424,7 +1427,7 @@
       </mediaobject>
 
       <note>
-        <para>이 작업을 수행하려면 회사 관리(대표 관리자) 권한 또는 템플릿 관리자 권한이 필요합니다.</para>
+        <para>이 작업을 수행하려면 회사 관리(대표 관리자) 권한 또는 템플릿 관리 권한이 필요합니다.</para>
       </note>
 
       <note>
@@ -1436,7 +1439,7 @@
 
       <para><emphasis role="bold">③ 사용자 표시 정보</emphasis></para>
 
-      <para>멤버의 정보 중 어떤 정보를 표시할지 선택합니다. 멤버 기본 정보 또는 사용자 정의 필드에 추가로 입력한 정보들 중
+      <para>멤버의 정보 중 어떤 정보를 표시할지 선택합니다. 멤버 기본 정보 또는 사용자 정의 필드에 추가로 입력한 정보 중
       원하는 정보를 선택합니다.</para>
 
       <itemizedlist>
@@ -1449,8 +1452,9 @@
         <para>멤버 기본 정보를 수정하려면 회사 관리(대표 관리자) 권한이 필요합니다.</para>
 
         <para>멤버 기본 정보를 수정하려면 eformsign에 로그인한 후 <emphasis role="bold">회사 관리
-        &gt; 멤버 관리</emphasis> 메뉴로 이동합니다. 멤버 목록에서 멤버를 선택하고 화면 오른쪽에 나타나는 상세 보기
-        영역의 정보를 수정한 후 <emphasis role="bold">저장</emphasis> 버튼을 클릭합니다.</para>
+        &gt; 멤버 관리</emphasis> 메뉴로 이동합니다. 멤버 목록에서 멤버를 선택하고 화면 오른쪽에
+        나타나는<emphasis role="bold"> 상세 보기</emphasis> 영역의 정보를 수정한 후 <emphasis
+        role="bold">저장</emphasis> 버튼을 클릭합니다.</para>
       </note>
     </section>
 
@@ -1517,7 +1521,7 @@
           <primary>입력항목</primary>
 
           <secondary>사용일</secondary>
-        </indexterm>문서를 작성 또는 수정한 날짜가 문서에 자동으로 입력되게 할 때 사용합니다. 설정에 따라 문서를 만든
+        </indexterm>문서를 작성 또는 수정한 날짜가 문서에 자동으로 입력되도록 할 때 사용합니다. 설정에 따라 문서를 만든
       날짜, 문서에 접근한 날짜, 또는 특정 입력항목을 입력한 날짜가 자동으로 입력됩니다.</para>
 
       <mediaobject>
@@ -1586,8 +1590,8 @@
         </listitem>
       </itemizedlist>
 
-      <para>'입력 값을 수정한 날짜'를 선택하면, 다음과 같이 입력항목 ID 입력란이 나타납니다. 여기에 연결할 입력항목 ID를
-      입력합니다.</para>
+      <para><emphasis role="bold">입력 값을 수정한 날짜</emphasis>를 선택하면, 다음과 같이 입력항목
+      ID 입력란이 나타납니다. 여기에 연결할 입력항목 ID를 입력합니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1600,8 +1604,8 @@
         </note> <note>
           <para>계약자 서명일이 자동으로 입력되도록 하려면, 먼저 계약서 서명란에 서명 입력항목을 생성한 후 서명 입력항목의
           ID를 ‘계약자 서명’으로 지정합니다. 서명일을 입력할 사용일 입력항목을 하나 더 생성합니다. 사용일 입력항목의 사용일
-          표시 유형 속성을 ‘입력 값을 수정한 날짜’로 선택하고, 입력항목정 ID 입력란에 ‘계약자 서명’을
-          입력합니다.</para>
+          표시 유형 속성을 <emphasis role="bold">입력 값을 수정한 날짜</emphasis>로 선택하고, 입력항목정
+          ID 입력란에 ‘계약자 서명’을 입력합니다.</para>
         </note></para>
     </section>
 
@@ -1669,7 +1673,7 @@
       </mediaobject>
     </figure>
 
-    <para>3. 업로드 미리보기 화면에서 <emphasis role="bold">폼파일 업로드</emphasis>를 클릭하거나 리본
+    <para>3. 업로드 미리보기 화면에서 <emphasis role="bold">폼 파일 업로드</emphasis>를 클릭하거나 리본
     메뉴의 <emphasis role="bold">업로드</emphasis>(<inlinemediaobject>
         <imageobject>
           <imagedata fileref="resources/upload_button.png"/>
@@ -1698,7 +1702,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/upload_save.png" width="750"/>
+          <imagedata fileref="resources/template-upload-FB.png" width="750"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -1722,6 +1726,11 @@
       <listitem>
         <para><emphasis role="bold">일반 설정: </emphasis>템플릿 이름, 약칭, 문서 제목, 문서 번호
         등을 설정합니다.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">권한 설정:</emphasis>해당 템플릿으로 생성된 문서를 관리할 멤버나
+        그룹을 지정합니다.</para>
       </listitem>
 
       <listitem>
