@@ -122,8 +122,8 @@
       <listitem>
         <para><emphasis role="bold">Web Form Designer</emphasis></para>
 
-        <para>Web form designer<indexterm class="singular">
-            <primary>Web form designer</primary>
+        <para>Web Form Designer<indexterm class="singular">
+            <primary>Web Form Designer</primary>
           </indexterm> is a tool for quickly and easily creating electronic
         forms by uploading existing document files onto eformsign. You can
         create templates by adding components such as signature, text box, and
@@ -135,13 +135,13 @@
       <listitem>
         <para><emphasis role="bold">Form Builder</emphasis></para>
 
-        <para>Form builder<indexterm class="singular">
-            <primary>Form builder</primary>
+        <para>Form Builder<indexterm class="singular">
+            <primary>Form Builder</primary>
           </indexterm> is a tool used to create electronic forms by converting
         Microsoft Office files such as applications, contracts, and agreements
         into electronic forms that contain components such as signature and
-        text box. Form builder also uploads the converted electronic forms
-        onto eformsign. Form builder is an Microsoft Office add-in, and it is
+        text box. Form Builder also uploads the converted electronic forms
+        onto eformsign. Form Builder is an Microsoft Office add-in, and it is
         shown as a ribbon menu which is called <emphasis role="bold">OZ in
         Office</emphasis>.</para>
       </listitem>
@@ -180,7 +180,7 @@
           </indexterm>This is an electronic form that serves as a starting
         point for a new document. With a template, you can create many
         documents from it. You can create templates by converting existing
-        Microsoft Office files using Form builder or by uploading PDF files
+        Microsoft Office files using Form Builder or by uploading PDF files
         directly onto eformsign.</para>
       </listitem>
 
@@ -332,15 +332,15 @@
     <note>
       <para>Currently, the method of upload files and creating forms online
       only supports PDF files. Microsoft Office files, and image files such as
-      JPG and PNG are planned to be supported in the near future.</para>
+      JPG and PNG are planned to be supported.</para>
     </note>
 
     <section>
       <title>Using Web Form Designer</title>
 
       <para><indexterm class="singular">
-          <primary>Web form designer</primary>
-        </indexterm>You can create a template by uploading a document file(in
+          <primary>Web Form Designer</primary>
+        </indexterm>You can create a template by uploading a document file (in
       the PDF format) on eformsign and then adding the components you want
       such as text, signature, and date onto the document. After adding
       components to the uploaded document, configure the template settings and
@@ -370,7 +370,7 @@
       <title>Using Form Builder</title>
 
       <para><indexterm class="singular">
-          <primary>Form builder</primary>
+          <primary>Form Builder</primary>
         </indexterm>You can create a template by creating or opening a
       document file in Microsoft Office (Word, Excel, and PowerPoint), and
       then using the ribbon menu (named <emphasis role="bold">OZ in
@@ -404,12 +404,12 @@
     <section>
       <title>Minimum System Requirements</title>
 
-      <para>The minimum system requirements for Form builder and eformsign are
+      <para>The minimum system requirements for Form Builder and eformsign are
       as follows:</para>
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">Form builder (OZ in
+          <para><emphasis role="bold">Form Builder (OZ in
           Office)</emphasis></para>
 
           <itemizedlist>
@@ -428,8 +428,8 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">eformsign and Web form
-          designer</emphasis></para>
+          <para><emphasis role="bold">eformsign and Web Form
+          Designer</emphasis></para>
 
           <itemizedlist>
             <listitem>

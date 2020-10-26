@@ -14,7 +14,7 @@
 
     <para><indexterm class="singular">
         <primary>Form Builder</primary>
-      </indexterm>Also known as OZ in Office, Form builder is a form editor
+      </indexterm>Also known as OZ in Office, Form Builder is a form editor
     which converts a document created using Microsoft Office into an
     electronic document containing components (fields). By using OZ in Office,
     you can easily convert existing Excel, Word, and PowerPoint forms such as
@@ -84,14 +84,14 @@
         </mediaobject>
       </figure>
 
-      <para>3. Select a location to save the Form builder executable file and
+      <para>3. Select a location to save the Form Builder executable file and
       download it.</para>
     </section>
 
     <section>
       <title>Install Form Builder</title>
 
-      <para>1. Click the Form builder executable file to run it.</para>
+      <para>1. Click the Form Builder executable file to run it.</para>
 
       <para>2. When the Wizard screen shown below is displayed, select the
       <emphasis role="bold">Complete </emphasis>option and then click
@@ -137,7 +137,7 @@
         </mediaobject>
       </figure>
 
-      <para>5. Check whether Form builder was installed properly by running MS
+      <para>5. Check whether Form Builder was installed properly by running MS
       Office (Word, Excel, PowerPoint). If <emphasis role="bold">OZ in
       Word/Excel/PowerPoint</emphasis> is displayed as below, then it was
       installed properly.</para>
@@ -157,7 +157,7 @@
       <title>Form Builder Menu Layout</title>
 
       <para>If you run Microsoft Office Excel, Word, or PowerPoint after
-      installing Form builder, you can see that the<emphasis role="bold"> OZ
+      installing Form Builder, you can see that the<emphasis role="bold"> OZ
       in Excel, OZ in Word, or OZ in PowerPoint</emphasis> tab is added to the
       OZ in Office ribbon menu.</para>
 
@@ -217,7 +217,7 @@
 
         <listitem>
           <para><emphasis role="bold">Help:</emphasis> Checks the version of
-          Form builder and performs updates.</para>
+          Form Builder and performs updates.</para>
         </listitem>
       </orderedlist>
     </section>
@@ -230,7 +230,7 @@
         <primary>Components</primary>
       </indexterm>Components are used to create fields in electronic documents
     that users can enter information. Many different components including
-    signature, check, date, and text are provided in Form builder, and each
+    signature, check, date, and text are provided in Form Builder, and each
     component can be configured in detail by using the <emphasis
     role="bold">Component Properties</emphasis> tab.</para>
 
