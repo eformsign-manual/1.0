@@ -16,10 +16,11 @@
         <primary>웹폼 디자이너</primary>
 
         <secondary>템플릿</secondary>
-      </indexterm>템플릿은 이폼사인에서 사용하는 <emphasis role="bold">전자문서
-    서식</emphasis>입니다. 기존에 종이로 작성하던 계약서, 신청서, 동의서와 같이 기본 서식을 전자문서 형태로 만든 것을
-    템플릿이라고 합니다. 템플릿은 이폼사인 서비스내 웹폼 디자이너 또는 이폼사인 폼 빌더를 통해 만들고 업로드 할 수 있습니다. 폼
-    빌더를 통한 템플릿 설정 및 관리 방법은 <xref linkend="template_fb"/>를 참고해 주세요.</para>
+      </indexterm><emphasis role="bold">템플릿</emphasis>은 이폼사인에서 사용하는 <emphasis
+    role="bold">전자문서 서식</emphasis>입니다. 기존에 종이로 작성하던 계약서, 신청서, 동의서와 같이 기본 서식을
+    전자문서 형태로 만든 것을 템플릿이라고 합니다. 템플릿은 이폼사인 서비스내 웹폼 디자이너 또는 이폼사인 폼 빌더를 통해 만들고 업로드
+    할 수 있습니다. 폼 빌더를 통한 템플릿 설정 및 관리 방법은 <xref linkend="template_fb"/>를 참고해
+    주세요.</para>
 
     <section>
       <title>템플릿 개요</title>
@@ -29,19 +30,20 @@
 
       <para><emphasis role="bold">웹폼 디자이너로 템플릿 만드는 방법</emphasis></para>
 
-      <para>템플릿을 온라인에서 바로 문서를 업로드하여 만들수 있습니다.</para>
+      <para>온라인에서 바로 문서를 업로드하여 템플릿을 만들 수 있습니다.</para>
 
       <note>
         <para>웹폼 디자이너에 대한 상세한 설명은 <xref linkend="webform"/>를 참고하시기
         바랍니다.</para>
       </note>
 
-      <para>기존 문서를 PDF파일로 변환하고 웹폼 디자이너에 업로드하여 쉽게 템플릿을 만들수 있습니다.</para>
+      <para>기존 문서서식 파일을 PDF파일로 변환하고 웹폼 디자이너에 업로드하여 쉽게 템플릿을 만들수 있습니다.</para>
 
       <orderedlist>
         <listitem>
-          <para>템플릿으로 만들 PDF 파일을 직접 드래그하거나 <emphasis role="bold">내 컴퓨터에서 파일
-          선택</emphasis>을 클릭하여 해당 파일 선택 후 업로드 합니다.</para>
+          <para>템플릿으로 만들 PDF 파일을 <emphasis role="bold">템플릿 관리 </emphasis>화면에
+          직접 드래그하거나 <emphasis role="bold">내 컴퓨터에서 파일 선택</emphasis>을 클릭하여 해당 파일
+          선택 후 업로드 합니다.</para>
 
           <para/>
 
@@ -69,7 +71,7 @@
         </listitem>
 
         <listitem>
-          <para>업로드된 파일에 입력항목 종류를 선택하여 드래그합니다.</para>
+          <para>업로드된 파일에 원하는 입력항목 종류를 선택한 후 원하는 위치를 클릭합니다.</para>
 
           <para/>
 
@@ -90,7 +92,8 @@
         </listitem>
 
         <listitem>
-          <para>해당 입력항목의 속성에서 상세 설정을 합니다.</para>
+          <para>해당 입력항목의 <emphasis role="bold">속성</emphasis>에서 상세 설정을
+          합니다.</para>
         </listitem>
 
         <listitem>
@@ -114,7 +117,7 @@
         <listitem>
           <para><emphasis role="bold">일반 설정</emphasis></para>
 
-          <para>템플릿 이름, 약칭, 문서 제목, 문서 번호등을 설정합니다.</para>
+          <para>템플릿 이름, 약칭, 문서 제목, 문서 번호 등을 설정합니다.</para>
         </listitem>
 
         <listitem>
@@ -150,7 +153,8 @@
 
       <para><indexterm class="singular">
           <primary>워크플로우</primary>
-        </indexterm>워크플로우란 문서가 작성되어 완료되기까지의 문서의 요청 및 처리 과정을 말합니다.</para>
+        </indexterm><emphasis role="bold">워크플로우</emphasis>란 문서가 작성되어 완료되기까지의
+      문서의 요청 및 처리 과정을 말합니다.</para>
 
       <para>워크플로우는 템플릿 관리자가 템플릿 별로 <emphasis role="bold">템플릿 설정</emphasis>
       &gt; <emphasis role="bold">워크플로우 설정</emphasis>에서 설정할 수 있습니다.</para>
@@ -173,7 +177,7 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">결재</emphasis></para>
+          <para><emphasis role="bold">결재자</emphasis></para>
 
           <para>동일한 회사에 소속된 멤버에게 문서의 결재를 요청하는 단계입니다.</para>
         </listitem>
@@ -187,9 +191,7 @@
         <listitem>
           <para><emphasis role="bold">외부 수신자</emphasis></para>
 
-          <para>회사 소속 멤버가 아닌 외부 사용자에게 문서의 처리를 요청하는 단계입니다.</para>
-
-          <para/>
+          <para>회사 소속 멤버가 아닌 외부 사용자에게 문서 처리를 요청하는 단계입니다.</para>
 
           <important>
             <para><emphasis role="bold">결재와 내부 수신자의 차이!</emphasis></para>
@@ -199,7 +201,7 @@
 
             <para>즉, 내부 수신자 단계 이후의 외부 수신자, 내부 수신자 또는 결재자를 지정할 수 있습니다.</para>
 
-            <para>예를 들어, 타 부서의 결재라인을 지정하지 않은 상태에서 해당 문서에 대해 타 부서에 협조 요청을 할 경우
+            <para>예를 들어, 타 부서의 결재라인을 지정하지 않은 상태에서 해당 문서에 대해 타 부서에 협조 요청을 할 경우,
             내부 수신자 단계로 해당 타 부서의 담당자를 지정하면 됩니다. 문서 처리시 타 부서의 담당자가 해당 부서의 결재라인을
             따로 설정하여 문서를 처리할 수 있습니다.</para>
           </important>
@@ -211,10 +213,11 @@
   <section>
     <title>템플릿 설정</title>
 
-    <para>업로드한 파일로 생성될 템플릿에 대한 상세 사항을 설정할 수 있습니다.</para>
+    <para>업로드한 파일로 생성될 템플릿에 대한 상세 내용을 설정할 수 있습니다.</para>
 
     <note>
-      <para>이 작업은 대표 관리자 또는 템플릿 관리 권한이 필요합니다.</para>
+      <para>이 작업은<emphasis role="bold"> 대표 관리자</emphasis> 또는<emphasis
+      role="bold"> 템플릿 관리</emphasis> 권한이 필요합니다.</para>
 
       <para>이 작업은 PC, 모바일, 애플리케이션에서 진행할 수 있습니다.</para>
     </note>
@@ -313,8 +316,8 @@
           <term>④ 설명</term>
 
           <listitem>
-            <para>템플릿에 대한 추가적인 설명을 입력합니다. 이 설명 내용은 목록 및 새 문서 작성의 템플릿 이름 하단에
-            나타납니다.</para>
+            <para>템플릿에 대한 추가적인 설명을 입력합니다. 이 설명 내용은 목록 및 <emphasis
+            role="bold">새 문서 작성</emphasis>의 템플릿 이름 하단에 나타납니다.</para>
           </listitem>
         </varlistentry>
 
@@ -346,8 +349,8 @@
             <para>템플릿으로 문서를 작성할 때 입력된 문서의 제목을 설정합니다. 문서 제목 규칙을 설정하지 않을 경우 템플릿
             이름이 문서 제목이 됩니다.</para>
 
-            <para>문서 제목에는 <emphasis role="bold">$$</emphasis>와 <emphasis
-            role="bold">{{</emphasis>를 사용하여 예약어를 추가할 수 있습니다.</para>
+            <para>문서 제목에는 <emphasis role="bold">$$</emphasis> 와 <emphasis
+            role="bold">{{</emphasis> 를 사용하여 예약어를 추가할 수 있습니다.</para>
           </listitem>
         </varlistentry>
 
@@ -368,8 +371,9 @@
                 <primary>템플릿</primary>
 
                 <secondary>문서 번호 자동 부여</secondary>
-              </indexterm>문서 번호 자동 부여를 체크하면 생성된 문서에 대해 자동으로 문서번호가 부여됩니다. 문서번호
-            표현식 중 원하는 표현식을 선택하고, 언제 문서번호를 생성할 지 문서번호 채번 시점을 선택합니다.</para>
+              </indexterm><emphasis role="bold">문서 번호 자동 부여</emphasis>를 체크하면
+            생성된 문서에 대해 자동으로 문서번호가 부여됩니다. 문서번호 표현식 중 원하는 표현식을 선택하고, 언제 문서번호를
+            생성할 지 문서번호 채번 시점을 선택합니다.</para>
 
             <mediaobject>
               <imageobject>
@@ -403,8 +407,9 @@
         </indexterm></para>
 
       <para>문서에 입력된 내용, 또는 문서 작성 관련 정보가 문서 제목에 자동으로 입력되도록 설정할 수 있습니다. 문서 제목
-      규칙을 설정하면 문서 작성 시점의 정보를 바탕으로 문서 제목이 생성되며 이 제목은 모든 문서함(진행중 문서함, 처리할 문서함,
-      전체 문서함)과 문서 관리 메뉴의 문서 목록에서 확인할 수 있습니다</para>
+      규칙을 설정하면 문서 작성 시점의 정보를 바탕으로 문서 제목이 생성되며 이 제목은 모든 문서함(<emphasis
+      role="bold">진행중 문서함, 처리할 문서함, 완료 문서함</emphasis>)과 <emphasis
+      role="bold">문서 관리</emphasis> 메뉴의 문서 목록에서 확인할 수 있습니다</para>
 
       <note>
         <para>이 작업은 <emphasis role="bold">대표 관리자</emphasis> 또는<emphasis
@@ -487,8 +492,8 @@
             <para>문서에 입력된 내용을 문서 제목에 추가하고자 할 때</para>
 
             <para><emphasis role="bold">문서 제목 규칙 </emphasis>입력란에 <emphasis
-            role="bold">{{</emphasis>를 입력하면 템플릿의 컴포넌트 ID 리스트가 나타나며, 원하는 ID를
-            선택하면 해당 컴포넌트에 입력된 내용이 문서 제목에 추가됩니다.</para>
+            role="bold">{{</emphasis> 를 입력하면 템플릿의 입력항목 ID 리스트가 나타나며, 원하는 ID를
+            선택하면 해당 입력항목에 입력된 내용이 문서 제목에 추가됩니다.</para>
           </listitem>
         </varlistentry>
 
@@ -499,7 +504,7 @@
             <para>문서와 관련된 정보를 제목에 추가하고자 할 때</para>
 
             <para><emphasis role="bold">문서 제목 규칙</emphasis> 입력란에 <emphasis
-            role="bold">$$</emphasis>를 입력하면 드롭다운 메뉴가 나타나며 아래 정보 중 원하는 정보를 선택할
+            role="bold">$$</emphasis> 를 입력하면 드롭다운 메뉴가 나타나며 아래 정보 중 원하는 정보를 선택할
             수 있습니다.</para>
 
             <informaltable>
@@ -520,19 +525,19 @@
                   <row>
                     <entry>현재_날짜</entry>
 
-                    <entry>문서 작성 시점의 날짜 (예. 2020년 02월 20일)</entry>
+                    <entry>문서 작성 시점의 날짜 (예: 2020년 02월 20일)</entry>
                   </row>
 
                   <row>
                     <entry>현재_시간</entry>
 
-                    <entry>문서 작성 시점의 시간 (예. 오후 02:59)</entry>
+                    <entry>문서 작성 시점의 시간 (예: 오후 02:59)</entry>
                   </row>
 
                   <row>
                     <entry>현재_날짜시간</entry>
 
-                    <entry>문서 작성 시점의 날짜와 시간 (예. 2020년 02월 20일 오후
+                    <entry>문서 작성 시점의 날짜와 시간 (예: 2020년 02월 20일 오후
                     02:59)</entry>
                   </row>
 
@@ -593,7 +598,7 @@
                   <row>
                     <entry>회사_사업자_등록_번호</entry>
 
-                    <entry>회사 관리 &gt; 회사 정보에 입력된 사업자 등록번호</entry>
+                    <entry>회사 관리 &gt; 회사 정보에 입력된 사업자등록번호</entry>
                   </row>
 
                   <row>
@@ -612,8 +617,8 @@
         <para><emphasis role="bold">문서 제목 변경 허용</emphasis> 여부를 확인하세요!</para>
 
         <para>문서 제목 규칙을 설정해 놓더라도 <emphasis role="bold">문서 제목 변경 허용</emphasis>이
-        체크되어 있으면 문서 작성자가 임의로 문서 제목을 변경할 수 있습니다. 문서 제목이 변경되는 것을 원하지 않는 경우
-        <emphasis role="bold">문서 제목 변경 허용</emphasis>을 체크 해지하시기 바랍니다.</para>
+        체크되어 있으면 문서 작성자가 임의로 문서 제목을 변경할 수 있습니다. 문서 제목이 변경되는 것을 원하지 않는 경우,
+        <emphasis role="bold">문서 제목 변경 허용</emphasis>을 체크 해지하세요.</para>
       </tip>
 
       <figure>
@@ -632,7 +637,7 @@
       <title>일반 설정 &gt; 문서번호 생성 및 확인하기</title>
 
       <para>이폼사인에서 생성되는 문서에 연속되는 문서번호를 부여할 수 있습니다. 템플릿 별로 문서 번호 자동 생성 여부를 설정할
-      수 있으며 번호 형식 4가지 중 한 가지를 선택해야 합니다. 문서 번호는 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다.
+      수 있으며 번호 형식 4가지 중 한 가지를 선택해야 합니다. 문서 번호는 문서 입력항목을 사용하여 문서 내에 입력할 수 있습니다.
       또한 문서 목록에서 별도의 컬럼으로 확인할 수 있으며 문서 번호로 문서를 검색할 수 있습니다.</para>
 
       <para><emphasis role="bold">문서번호 생성하는 방법<indexterm class="singular">
@@ -762,21 +767,22 @@
 
       <para><emphasis role="bold">문서번호 확인하는 방법</emphasis></para>
 
-      <para>생성된 문서번호는 문서 컴포넌트를 사용하여 문서 내에 입력하거나 문서 목록에서 확인할 수 있습니다.</para>
+      <para>생성된 문서번호는 문서 입력항목을 사용하여 문서 내에 입력하거나 문서 목록에서 확인할 수 있습니다.</para>
 
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold">문서 내에 문서번호 표시하기</emphasis></para>
 
-          <para>문서번호는 문서 컴포넌트를 사용하여 문서 내에 입력할 수 있습니다.</para>
+          <para>문서번호는 문서 입력항목을 사용하여 문서 내에 입력할 수 있습니다.</para>
 
           <orderedlist>
             <listitem>
-              <para>웹폼 디자이너에 PDF 파일을 업로드 합니다.</para>
+              <para>이폼사인의 <emphasis role="bold">템플릿 관리 </emphasis>화면에서 PDF 파일을
+              업로드 합니다.</para>
             </listitem>
 
             <listitem>
-              <para>문서번호가 들어갈 위치에 문서 컴포넌트를 추가합니다.</para>
+              <para>문서번호가 들어갈 위치에 문서 입력항목을 추가합니다.</para>
 
               <mediaobject>
                 <imageobject>
@@ -811,28 +817,28 @@
           <para><emphasis role="bold">문서 목록에서 문서번호 확인하기</emphasis></para>
 
           <figure>
-            <title>전체 문서함 - 문서 목록</title>
+            <title>완료 문서함 - 문서 목록</title>
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/doc-list-docnumber1.PNG"
+                <imagedata fileref="resources/documentlist-doc-num.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
           </figure>
 
           <figure>
-            <title>전체 문서함 - 문서 목록 - 문서번호 확인</title>
+            <title>완료 문서함 - 문서 목록 - 문서번호 확인</title>
 
             <mediaobject>
               <imageobject>
-                <imagedata fileref="resources/doc-list-docnumber2.png"
+                <imagedata fileref="resources/documentlist-doc-num1.png"
                            width="700"/>
               </imageobject>
             </mediaobject>
           </figure>
 
-          <para>문서번호는 문서 목록을 볼 수 있는 문서함(진행 중 문서함, 처리할 문서함, 전체 문서함) 및 문서 관리
+          <para>문서번호는 문서 목록을 볼 수 있는 문서함(진행 중 문서함, 처리할 문서함, 완료 문서함) 및 문서 관리
           메뉴(문서 관리 권한 필요)에서 확인할 수 있습니다.</para>
 
           <orderedlist>
@@ -853,7 +859,7 @@
               <para><inlinemediaobject>
                   <imageobject>
                     <imagedata contentwidth="147"
-                               fileref="resources/columnlist-docnum.png"/>
+                               fileref="resources/documentlist-doc-num-sel.png"/>
                   </imageobject>
                 </inlinemediaobject></para>
             </listitem>
@@ -870,7 +876,7 @@
 
           <para><inlinemediaobject>
               <imageobject>
-                <imagedata fileref="resources/doc-number-search.png"
+                <imagedata fileref="resources/documentlist-search-doc-num.png"
                            width="600"/>
               </imageobject>
             </inlinemediaobject></para>
@@ -894,7 +900,7 @@
             </listitem>
 
             <listitem>
-              <para>검색할 단어나 숫자를 입력합니다.</para>
+              <para>검색할 단어 또는 숫자를 입력합니다.</para>
             </listitem>
 
             <listitem>
@@ -908,7 +914,8 @@
     <section>
       <title>권한 설정</title>
 
-      <para>권한 설정 화면에서는 템플릿 사용 권한과 문서 관리 권한을 설정할 수 있습니다.</para>
+      <para>권한 설정 화면에서는 <emphasis role="bold">템플릿 사용 권한</emphasis>과 <emphasis
+      role="bold">문서 관리 권한</emphasis>을 설정할 수 있습니다.</para>
 
       <figure>
         <title>템플릿 설정 &gt; 권한 설정</title>
@@ -934,22 +941,23 @@
       <para><indexterm class="singular">
           <primary>문서 관리 권한</primary>
         </indexterm>그룹 또는 멤버를 선택하여 템플릿을 사용해서 생성된 문서를 열람하거나 완료 문서에 대한 취소 요청을
-      승인하거나 문서를 영구적으로 제거할 수 있는 권한을 모두 또는 각각 설정할 수 있습니다.</para>
+      승인하거나, 문서를 영구적으로 제거할 수 있는 권한을 모두 또는 각각 설정할 수 있습니다.</para>
 
       <itemizedlist>
         <listitem>
           <para><emphasis role="bold">모든 문서 열람(기본권한):</emphasis> 문서 관리자의 기본
-          권한으로 선택에 관계없이 문서 관리 권한이 부여된 그룹 또는 멤버는 모든 문서를 열람할 수 있는 권한</para>
+          권한으로 선택에 관계없이 문서 관리 권한이 부여된 그룹 또는 멤버는 모든 문서를 열람할 수 있는 권한이
+          부여됩니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">완료 문서 취소 승인(선택시):</emphasis> 완료된 문서에 대해
-          문서 작성자가 취소를 요청할 경우 문서 관리 권한</para>
+          문서 작성자가 취소를 요청할 경우 문서 취소 승인을 할 수 있는 권한이 부여됩니다. </para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">문서 영구 제거(선택시):</emphasis> 시스템에서 문서를
-          영구적으로 제거할 수 있는 권한</para>
+          영구적으로 제거할 수 있는 권한이 부여됩니다.</para>
         </listitem>
       </itemizedlist>
 
@@ -1033,7 +1041,7 @@
 
       <para><emphasis role="bold">워크플로우 단계별 상세 설정</emphasis></para>
 
-      <para>단계를 클릭하여 각 워크플로우 단계별로 속성, 항목 제어, 알림 등 상세 내용을 설정할 수 있습니다.</para>
+      <para>단계를 클릭하여 각 워크플로우 단계별로 속성, 항목 제어 등 상세 내용을 설정할 수 있습니다.</para>
 
       <itemizedlist>
         <listitem>
@@ -1045,6 +1053,11 @@
           <para><emphasis role="bold">항목 제어</emphasis>는 워크플로우 각 단계별로 수신자가 편집할
           수 있도록 허용하는 <emphasis role="bold">편집 허용</emphasis> 필드와 필수로 입력해야 하는
           <emphasis role="bold">입력 필수</emphasis> 필드를 설정할 수 있습니다.</para>
+
+          <note>
+            <para><emphasis role="bold">입력 필수 </emphasis>필드로 선택하면 문서 작성 시 해당
+            필드에 빨간색으로 표시되며, 입력하지 않을시 문서 전송이 되지 않습니다. </para>
+          </note>
 
           <mediaobject>
             <imageobject>
@@ -1091,7 +1104,7 @@
 
               <listitem>
                 <para><emphasis role="bold">문서 중복 전송 방지</emphasis>: 문서를 중복으로
-                전송는 것을 방지하며, 필드를 선택해 해당 필드를 기준으로 중복 여부를 확인합니다.</para>
+                전송하는 것을 방지하며, 필드를 선택해 해당 필드를 기준으로 중복 여부를 확인합니다.</para>
               </listitem>
             </itemizedlist>
           </listitem>
@@ -1160,7 +1173,7 @@
 
                   <listitem>
                     <para><emphasis role="bold">그룹 및 멤버</emphasis>: 그룹 또는 멤버 중
-                    한 사람이 문서를 처리하도록 설정합니다. 그룹 또는 멤버는 여러명을 선택할 수 있습니다.</para>
+                    한 사람이 문서를 처리하도록 설정합니다. 그룹 또는 멤버는 여러 명을 선택할 수 있습니다.</para>
                   </listitem>
                 </itemizedlist>
               </listitem>
@@ -1218,7 +1231,7 @@
 
               <listitem>
                 <para><emphasis role="bold">문서 검토 전 휴대폰 본인확인: </emphasis>외부
-                수신자가 문서 열람을 위해 휴대폰 본인확인을 받도록 설정합니다. 본 기능은 추가 요금이 발생합니다.</para>
+                수신자가 문서 열람을 위해 휴대폰 본인확인을 하도록 설정합니다. 본 기능은 추가 요금이 발생합니다.</para>
               </listitem>
             </itemizedlist>
           </listitem>
@@ -1245,13 +1258,13 @@
             <itemizedlist>
               <listitem>
                 <para><emphasis role="bold">별도의 파일 저장소에 완료 문서 저장하기</emphasis>:
-                대표 관리자 또는 회사 관리자가 별도로 설정한 외부 클라우드 저장소에 문서된 문서가 저장되도록
+                대표 관리자 또는 회사 관리자가 별도로 설정한 외부 클라우드 저장소에 완료된 문서가 저장되도록
                 설정합니다.</para>
               </listitem>
 
               <listitem>
                 <para><emphasis role="bold">완료 문서에 타임스탬프 찍기</emphasis>: 완료된
-                문서가 그 이후 변경되지 않았음을 증명하는 타임스탬프를 설정합니다. 본 기능은 추가 요금이
+                문서가 그 이후 변경되지 않았음을 증명하는 타임스탬프가 적용되도록 설정합니다. 본 기능은 추가 요금이
                 발생합니다.</para>
               </listitem>
             </itemizedlist>
@@ -1281,8 +1294,9 @@
         </mediaobject>
       </figure>
 
-      <para>필드의 기본값은 사용자 정의 필드 관리에 저장되어 있는 회사/그룹/멤버 정보를 입력되도록 설정하거나, 최근 입력값 선택
-      또는 사용자가 직접 입력하도록 설정할 수 있습니다.</para>
+      <para>필드의 기본값은 <emphasis role="bold">사용자 정의 필드 관리</emphasis>에 저장되어 있는
+      회사/그룹/멤버 정보를 입력되도록 설정하거나,<emphasis role="bold"> 최근 입력값</emphasis> 선택 또는
+      사용자가 <emphasis role="bold">직접 입력</emphasis>하도록 설정할 수 있습니다.</para>
 
       <para/>
 
@@ -1290,14 +1304,14 @@
 
       <para>문서에 자주 입력하는 정보를 미리 저장하고 자동으로 입력되도록 설정할 수 있습니다.</para>
 
-      <para>예를 들어 작성자의 이름, 연락처 등 작성자 정보, 부서명, 책임자, 회사 대표 번호 등 회사 또는 그룹에 대한 정보를
-      미리 저장하여 자동으로 입력되도록 설정할 수 있습니다. 관련 필드의 항목 추가 및 기본 값 설정은 <emphasis
+      <para>예를 들어, 작성자의 이름, 연락처 등 작성자 정보, 부서명, 책임자, 회사 대표 번호 등 회사 또는 그룹에 대한
+      정보를 미리 저장하여 자동으로 입력되도록 설정할 수 있습니다. 관련 필드의 항목 추가 및 기본 값 설정은 <emphasis
       role="bold">회사 관리 &gt; 사용자 정의 필드 관리</emphasis>에서 할 수 있습니다.</para>
 
       <orderedlist>
         <listitem>
-          <para><emphasis role="bold">사용자 정의 필드 관리</emphasis> 화면에서 필드를
-          추가합니다.</para>
+          <para><emphasis role="bold">회사 관리 &gt; 사용자 정의 필드 관리</emphasis> 화면에서
+          필드를 추가합니다.</para>
         </listitem>
 
         <listitem>
@@ -1340,8 +1354,8 @@
       또는 모두를 선택할 수 있습니다.</para>
 
       <note>
-        <para><emphasis role="bold">SMS</emphasis>는 유료 요금제 구독 회사만 선택할 수 있으며,
-        선택시 추가 요금이 발생됩니다.</para>
+        <para><emphasis role="bold">SMS</emphasis>는 유료 기능으로, 선택시 추가 요금이
+        발생됩니다.</para>
       </note>
 
       <para>SMS 선택 시, <emphasis role="bold">문자로 보내기</emphasis>와 <emphasis
@@ -1349,13 +1363,13 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">문자로 보내기</emphasis>: 수신자에게 SMS로 알람 메시지를
+          <para><emphasis role="bold">문자로 보내기</emphasis>: 수신자에게 SMS로 알림 메시지를
           전송합니다.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">카카오톡으로 보내고 전송 실패시 문자로 보내기</emphasis>:
-          수신자에게 카카오톡으로 알람 메시지를 전송하고 카카오톡을 사용하지 않는 수신자에게는 SMS로 전송됩니다.</para>
+          수신자에게 카카오톡으로 알림 메시지를 전송하고 카카오톡을 사용하지 않는 수신자에게는 SMS로 전송됩니다.</para>
         </listitem>
       </itemizedlist>
 
@@ -1379,7 +1393,7 @@
       편집할 수 있습니다.</para>
 
       <note>
-        <para>SMS 템플릿은 유료 요금제 구독 회사만 편집할 수 있습니다.</para>
+        <para>SMS 템플릿 편집 기능은 유료 요금제 구독 회사에게만 제공되는 기능입니다.</para>
       </note>
 
       <para>각 알림 템플릿 메시지는 <emphasis role="bold">회사 관리 &gt; 알림 템플릿
@@ -1525,7 +1539,7 @@
 
     <mediaobject>
       <imageobject>
-        <imagedata fileref="resources/template-manage-menu.png" width="700"/>
+        <imagedata fileref="resources/template-manage-menu1.png" width="700"/>
       </imageobject>
     </mediaobject>
 
@@ -1533,18 +1547,13 @@
 
     <itemizedlist>
       <listitem>
-        <para><emphasis role="bold">복제</emphasis>: 템플릿을 복제합니다. 해당 템플릿의 폼 파일과
-        상세 템플릿 설정이 복제되며 상세 설정을 변경하여 저장할 수 있습니다.</para>
+        <para><emphasis role="bold">복제</emphasis>: 템플릿을 복제합니다. 해당 템플릿의 파일과 상세
+        템플릿 설정이 복제되며 상세 설정을 변경하여 저장할 수 있습니다.</para>
       </listitem>
 
       <listitem>
         <para><emphasis role="bold">삭제</emphasis>: 템플릿을 삭제합니다. 템플릿이 삭제되면 더 이상
         해당 템플릿으로 문서를 생성할 수 없습니다.</para>
-      </listitem>
-
-      <listitem>
-        <para><emphasis role="bold">파일 다운로드</emphasis>: 파일 다운로드를 클릭하면 업로드한 파일
-        양식으로 다운로드 됩니다.(예, 워드, 엑셀 파일 등)</para>
       </listitem>
 
       <listitem>
@@ -1554,8 +1563,8 @@
 
       <listitem>
         <para><emphasis role="bold">소유자 변경</emphasis>: 템플릿의 소유자를 변경할 수 있습니다.
-        기본적으로 템플릿 소유자는 템플릿을 생성한 사람으로 자동 지정됩니다. 이후 변경하고자 할 경우 소유자 변경을 통해 다른 멤버로
-        소유자를 변경할 수 있습니다. 템플릿 소유자는 템플릿 관리 권한을 가진 멤버 중에 선택할 수 있습니다.</para>
+        기본적으로 템플릿 소유자는 템플릿을 생성한 사람으로 자동 지정됩니다. 이후 변경하고자 할 경우, 소유자 변경을 통해 다른
+        멤버로 소유자를 변경할 수 있습니다. 템플릿 소유자는 템플릿 관리 권한을 가진 멤버 중에 선택할 수 있습니다.</para>
 
         <mediaobject>
           <imageobject>
@@ -1567,8 +1576,8 @@
 
       <listitem>
         <para><emphasis role="bold">문서 관리자 설정: </emphasis>해당 템플릿으로 작성되는 문서의
-        관리자를 설정할 수 있습니다. <emphasis role="bold">템플릿 설정 &gt; 문서 관리자
-        설정</emphasis>과 동일합니다.</para>
+        관리자를 설정할 수 있습니다. <emphasis role="bold">템플릿 설정 &gt; 권한 설정</emphasis>과
+        동일합니다.</para>
 
         <mediaobject>
           <imageobject>
