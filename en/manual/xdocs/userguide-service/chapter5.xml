@@ -44,8 +44,7 @@
             <primary>Documents</primary>
 
             <secondary>Completed</secondary>
-          </indexterm>View the list of completed documents among the documents
-        created by you.</para>
+          </indexterm>View the list of completed documents.</para>
       </listitem>
     </itemizedlist>
 
@@ -157,7 +156,7 @@
             </imageobject>
           </inlinemediaobject>) displayed at the top right corner of the page,
         and then check the columns you want to display in the <link
-        linkend="document_column">column check box</link>. </para>
+        linkend="document_column">column check box</link>.</para>
 
         <para>You can also perform actions on a document such as reviewing,
         previewing, correcting, voiding, resending, and deleting a
@@ -673,7 +672,7 @@
       <para><emphasis role="bold">Manage documents</emphasis></para>
 
       <para>Can perform actions including preview, void, send final copy,
-      remove, download, and delete. Documents can only be deleted in
+      remove, download, and delete. Note that documents can only be deleted in
       the<emphasis role="bold"> Manage documents</emphasis> menu.</para>
     </section>
 

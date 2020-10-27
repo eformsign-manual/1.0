@@ -457,7 +457,7 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">Enter Directly:</emphasis> Clicking the
+          <para><emphasis role="bold">Enter Directly:</emphasis> Clicking a
           signature area displays the <emphasis role="bold">Signature
           </emphasis>pop-up which allows you to sign by selecting one of the
           multiple signing methods which are <emphasis
@@ -470,24 +470,25 @@
         <listitem>
           <para><emphasis role="bold">Registered Signature:</emphasis> If the
           user has already registered a signature on eformsign, then clicking
-          the signature area inserts the registered signature into the
+          a signature area inserts the registered signature into the
           document.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Registered Initials:</emphasis> If the
-          user has already registered an initial on eformsign, then clicking
-          the signature area inserts the registered initial into the
+          user has already registered an initial on eformsign, then clicking a
+          signature area inserts the registered initial into the
           document.</para>
         </listitem>
       </itemizedlist>
 
       <para><note>
-          <para>If there is a registered signature or initial, then it will be
-          automatically entered in the signature area when a signature area is
-          clicked. However, if there is no registered signature or initial,
-          then a regular <emphasis role="bold">Signature</emphasis> pop-up
-          will be displayed when a signature area is clicked.</para>
+          <para>If you have registered a signature or initial on eformsign,
+          then when you click on a signature component, the registered
+          signature/initial will be automatically entered in the component.
+          However, if there is no registered signature or initial, then a
+          regular <emphasis role="bold">Signature </emphasis>pop-up will be
+          displayed when you click on a signature component.</para>
         </note></para>
 
       <note>
@@ -636,7 +637,7 @@
 
       <para>You can choose the style of the Radio component in<emphasis
       role="bold"> Component Properties</emphasis>. The default style is the
-      Circle, and you can change it to another style (checkbox and radio
+      Circle, and you can change it to another style (check box and radio
       button).</para>
 
       <para><emphasis role="bold">③ Multiselectable</emphasis></para>
@@ -945,9 +946,9 @@
       component, then it is resized to fit the component.</para>
 
       <note>
-        <para>For the device with a built-in camera, camera feature will be
-        executed, and for the devices with no camera, a window for selecting
-        an image file will be displayed.</para>
+        <para>For devices with a built-in camera, camera feature will be
+        executed. For devices without a camera, a window for selecting an
+        image file will be displayed.</para>
       </note>
 
       <mediaobject>

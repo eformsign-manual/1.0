@@ -584,21 +584,21 @@
 
                 <tbody>
                   <row>
-                    <entry>Current_date</entry>
+                    <entry>Date</entry>
 
                     <entry>The date in which the document is created (e.g. Feb
                     20, 2020)</entry>
                   </row>
 
                   <row>
-                    <entry>Current_time</entry>
+                    <entry>Time</entry>
 
                     <entry>The time in which the document is created (e.g.
                     02:59 pm)</entry>
                   </row>
 
                   <row>
-                    <entry>Current_datetime</entry>
+                    <entry>Datetime</entry>
 
                     <entry>The date and time in which the document is created
                     (e.g. Feb 20, 2020, 02:59 pm)</entry>
@@ -626,7 +626,7 @@
                   </row>
 
                   <row>
-                    <entry>Creator_company Name</entry>
+                    <entry>Creator_company</entry>
 
                     <entry>The name of the company in which the member who
                     created the document belongs to</entry>
@@ -654,28 +654,28 @@
                   </row>
 
                   <row>
-                    <entry>Company_address</entry>
+                    <entry>Address</entry>
 
                     <entry>The address entered in Manage company &gt; Company
                     profile</entry>
                   </row>
 
                   <row>
-                    <entry>Company_contact_no</entry>
+                    <entry>Company_nol</entry>
 
                     <entry>The contact information entered in Manage company
                     &gt; Company profile</entry>
                   </row>
 
                   <row>
-                    <entry>Company_registration_no</entry>
+                    <entry>Registration_no</entry>
 
                     <entry>The business registration number entered in Manage
                     company &gt; Company profile</entry>
                   </row>
 
                   <row>
-                    <entry>Company_homepage</entry>
+                    <entry>Company homepage</entry>
 
                     <entry>The homepage URL entered in Manage company &gt;
                     Company profile</entry>
@@ -765,7 +765,7 @@
 
         <listitem>
           <para>Tick the <emphasis role="bold">Generate a document
-          number</emphasis> checkbox in the<emphasis role="bold"> General
+          number</emphasis> check box in the<emphasis role="bold"> General
           </emphasis>page.</para>
 
           <para><itemizedlist>
@@ -795,7 +795,7 @@
               </varlistentry>
 
               <varlistentry>
-                <term><emphasis role="bold">▪ Year_serial
+                <term><emphasis role="bold">▪ Year_Serial
                 number</emphasis></term>
 
                 <listitem>
@@ -807,7 +807,7 @@
               </varlistentry>
             </variablelist><variablelist>
               <varlistentry>
-                <term><emphasis role="bold">▪ Template_serial
+                <term><emphasis role="bold">▪ Template abbreviation Serial
                 number</emphasis></term>
 
                 <listitem>
@@ -819,8 +819,8 @@
               </varlistentry>
 
               <varlistentry>
-                <term><emphasis role="bold">▪ Template_year_serial
-                number</emphasis></term>
+                <term><emphasis role="bold">▪ Template abbreviation
+                Year_Serial number</emphasis></term>
 
                 <listitem>
                   <para>Generated in the format of the template abbreviation +
@@ -893,7 +893,7 @@
             <listitem>
               <para>In <emphasis role="bold">Template settings &gt; General,
               </emphasis>tick the<emphasis role="bold"> Generate a document
-              number</emphasis> checkbox.</para>
+              number</emphasis> check box.</para>
             </listitem>
 
             <listitem>

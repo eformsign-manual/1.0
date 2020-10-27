@@ -15,19 +15,19 @@
     <para><indexterm class="singular">
         <primary>Form Builder</primary>
       </indexterm>Also known as OZ in Office, Form Builder is a form editor
-    which converts a document created using Microsoft Office into an
-    electronic document containing components (fields). By using OZ in Office,
-    you can easily convert existing Excel, Word, and PowerPoint forms such as
+    which converts documents created using Microsoft Office into electronic
+    documents containing components (fields). By using OZ in Office, you can
+    easily convert existing Excel, Word, and PowerPoint forms such as
     contracts, applications, and agreements into electronic documents.</para>
 
     <para>Previously, converting Excel, Word, or PowerPoint documents into
     electronic documents required the use of an IDE (Integrated Development
-    Environment) needing a high degree of programming knowledge for use. Now,
-    with OZ in Office, anyone with the ability to use Microsoft Office can
-    easily create electronic documents.</para>
+    Environment) needing a high degree of programming knowledge. Now, with OZ
+    in Office, anyone with the ability to use Microsoft Office can easily
+    create electronic documents.</para>
 
     <para>OZ in Office, provided as a Microsoft Office add-in, is easy to use
-    as it is displayed as a ribbon menu and contains various components
+    as it's displayed as a ribbon menu and contains various components
     including signature, check box, text box, camera, and voice.</para>
 
     <para>The process of creating electronic documents using OZ in Office's
@@ -58,7 +58,7 @@
       eformsign form builder</emphasis> button at the bottom.</para>
 
       <figure>
-        <title>Location of the Download eformsign form builder button</title>
+        <title>Location of the Download eformsign Form Builder Button</title>
 
         <mediaobject>
           <imageobject>
@@ -229,7 +229,7 @@
     <para><indexterm class="singular">
         <primary>Components</primary>
       </indexterm>Components are used to create fields in electronic documents
-    that users can enter information. Many different components including
+    in which users can enter information. Many different components including
     signature, check, date, and text are provided in Form Builder, and each
     component can be configured in detail by using the <emphasis
     role="bold">Component Properties</emphasis> tab.</para>
@@ -517,8 +517,8 @@
           </mediaobject>
         </figure>
 
-        <para>2.Click the component type you want to add in the ribbon menu of
-        <emphasis role="bold">OZ in Word</emphasis> or <emphasis
+        <para>2. Click the component type you want to add in the ribbon menu
+        of <emphasis role="bold">OZ in Word</emphasis> or <emphasis
         role="bold">OZ in PowerPoint</emphasis>.</para>
 
         <figure>
@@ -796,7 +796,7 @@
       <para>Checking the <emphasis role="bold">Multi-selectable</emphasis>
       option allows you to select multiple items.<emphasis role="bold">
       </emphasis>If<emphasis role="bold"> </emphasis>you select more than one
-      item, then when data is saved, each item is separated with a comma
+      item, then when data is saved, each item is separated by a comma
       (,).</para>
 
       <para><emphasis role="bold">④ Uncheckable</emphasis></para>
@@ -870,18 +870,18 @@
       <para><emphasis role="bold">③ Allow Empty Value</emphasis></para>
 
       <para>Checking the <emphasis role="bold">Allow Empty Value</emphasis>
-      option allows you to deselect a selected item. Empty Value can be
-      allowed in the following ways:</para>
+      option allows you to deselect a selected item. You can initialize data
+      when filling in a combo component in the following ways:</para>
 
       <itemizedlist>
         <listitem>
           <para>PC: Right-click on the component and select the <emphasis
-          role="bold">Allow Empty Value</emphasis> option in the pop-up
+          role="bold">Initialize Input Data</emphasis> option in the pop-up
           menu.</para>
         </listitem>
 
         <listitem>
-          <para>Mobile: Click the Trash can icon.</para>
+          <para>Mobile: Click the Trash icon.</para>
         </listitem>
       </itemizedlist>
 
@@ -1281,7 +1281,7 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">Enter Directly:</emphasis> Clicking the
+          <para><emphasis role="bold">Enter Directly:</emphasis> Clicking a
           signature area displays the<emphasis role="bold"> Signature
           </emphasis>pop-up which allows you to sign by selecting one of the
           multiple signing methods which are <emphasis
@@ -1294,24 +1294,25 @@
         <listitem>
           <para><emphasis role="bold">Registered Signature:</emphasis> If the
           user has already registered a signature on eformsign, then clicking
-          the signature area inserts the registered signature into the
+          a signature area inserts the registered signature into the
           document.</para>
         </listitem>
 
         <listitem>
           <para><emphasis role="bold">Registered Initials:</emphasis> If the
-          user has already registered an initial on eformsign, then clicking
-          the signature area inserts the registered initial into the
+          user has already registered an initial on eformsign, then clicking a
+          signature area inserts the registered initial into the
           document.</para>
         </listitem>
       </itemizedlist>
 
       <para><note>
-          <para>If there is a registered signature or initial, then it will be
-          automatically entered in the signature area when a signature area is
-          clicked. However, if there is no registered signature or initial,
-          then a regular <emphasis role="bold">Signature </emphasis>pop-up
-          will be displayed when a signature area is clicked.</para>
+          <para>If you have registered a signature or initial on eformsign,
+          then when you click on a signature component, the registered
+          signature/initial will be automatically entered in the component.
+          However, if there is no registered signature or initial, then a
+          regular <emphasis role="bold">Signature </emphasis>pop-up will be
+          displayed when you click on a signature component.</para>
         </note></para>
 
       <note>
@@ -1395,9 +1396,9 @@
       text box, then it is resized to fit the component.</para>
 
       <note>
-        <para>For the device with a built-in camera, camera feature will be
-        executed, and for the devices with no camera, a window for selecting
-        an image file will be displayed.</para>
+        <para>For devices with a built-in camera, the camera feature will be
+        executed. For devices without a camera, a window for selecting an
+        image file will be displayed.</para>
       </note>
 
       <mediaobject>
@@ -1615,8 +1616,8 @@
       </mediaobject>
 
       <note>
-        <para>You need to have company administrator or template manager
-        permission to perform this action.</para>
+        <para>You need to have either company administrator or template
+        manager permission to perform this action.</para>
       </note>
 
       <note>
@@ -1817,18 +1818,18 @@
       </mediaobject>
 
       <para><note>
-          <para>You need to have company administrator or template manager
-          permission to perform this action.</para>
+          <para>You need to have either company administrator or template
+          manager permission to perform this action.</para>
         </note><note>
           <para>If you want the signature date of a signer to be displayed
           automatically in a contract, first add a Signature component and
           then name the ID (e.g. 'contractSign'). Then, add a Date component
-          which will display the signature date when the signature is signed
-          and name the ID (e.g. signDate). Then, select<emphasis role="bold">
-          Last modified date of the content</emphasis> under Date Type and
-          enter the ID of the signature component (in this case
-          ‘contractSign’) in the <emphasis role="bold">Input Component
-          ID</emphasis> field.</para>
+          which will display the date in which the signature is signed and
+          name the ID (e.g. signDate). Then, select<emphasis role="bold"> Last
+          modified date of the content</emphasis> under Date Type and enter
+          the ID of the signature component (in this case ‘contractSign’) in
+          the <emphasis role="bold">Input Component ID</emphasis>
+          field.</para>
         </note></para>
     </section>
 
@@ -1888,7 +1889,7 @@
       </mediaobject>
     </figure>
 
-    <para>2. After you log in, the document converted to a form will be
+    <para>2. After you login, the document converted into a form will be
     displayed as a preview.</para>
 
     <figure>
@@ -1941,8 +1942,8 @@
     <title>Configuring Template Settings</title>
 
     <para>After uploading a template, you can configure additional settings
-    for documents created from the template such as the template name,
-    document number, and workflow.</para>
+    for documents created from the template such as template name, document
+    number, and workflow.</para>
 
     <para>1. Login to eformsign.</para>
 

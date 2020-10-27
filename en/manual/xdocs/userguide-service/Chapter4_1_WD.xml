@@ -768,7 +768,7 @@
 
         <listitem>
           <para>Tick the <emphasis role="bold">Generate a document
-          number</emphasis> checkbox in the<emphasis role="bold"> General
+          number</emphasis> check box in the<emphasis role="bold"> General
           </emphasis>page.</para>
 
           <para><itemizedlist>
@@ -905,7 +905,7 @@
               <para>In <emphasis role="bold">Template settings &gt;
               General,</emphasis><emphasis role="bold"> </emphasis>tick the
               <emphasis role="bold">Generate a document number</emphasis>
-              checkbox.</para>
+              check box.</para>
             </listitem>
 
             <listitem>

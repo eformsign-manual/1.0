@@ -393,7 +393,7 @@
           </listitem>
 
           <listitem>
-            <para>Tick the checkboxes of the templates you want to add to the
+            <para>Tick the check boxes of the templates you want to add to the
             Favorites.</para>
 
             <para><inlinemediaobject>
@@ -419,8 +419,8 @@
     <para><indexterm class="singular">
         <primary>My profile</primary>
       </indexterm>To view your personal information you entered when signing
-    up for the eformsign service and the company information, click the see
-    more icon (<inlinemediaobject>
+    up for the eformsign service and company information, click the see more
+    icon (<inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="17"
                      fileref="resources/menu-hamberger-icon.png"/>
@@ -618,7 +618,7 @@
       </note>
 
       <figure>
-        <title>Manage Company &gt; Company profile</title>
+        <title>Manage Company &gt; Company Profile</title>
 
         <mediaobject>
           <imageobject>
@@ -814,7 +814,7 @@
         <para><indexterm class="singular">
             <primary>Template manager</primary>
           </indexterm>Template managers have the permission to access the
-        <emphasis role="bold">Manage template</emphasis> menu. Template
+        <emphasis role="bold">Manage templates</emphasis> menu. Template
         managers can create new templates by using Form Builder or Web Form
         Designer, and can also edit, deploy, and delete templates.</para>
       </listitem>
@@ -823,7 +823,7 @@
         <para><emphasis role="bold">Document manager</emphasis></para>
 
         <para>Document managers<emphasis role="bold"> </emphasis>have the
-        permission to access the <emphasis role="bold">Manage document
+        permission to access the <emphasis role="bold">Manage documents
         </emphasis>menu to view and download documents created from each
         template.<indexterm class="singular">
             <primary>Document manager</primary>
@@ -978,10 +978,9 @@
         </listitem>
 
         <listitem>
-          <para>Tick the<emphasis role="bold"> Manage company
-          </emphasis>checkbox in the Permission item displayed at the bottom
-          of the Member info tab located to the right of the member
-          list.</para>
+          <para>Tick the<emphasis role="bold"> Manage company </emphasis>check
+          box in the Permission item displayed at the bottom of the Member
+          info tab located to the right of the member list.</para>
 
           <figure>
             <title>Company Manager</title>
@@ -1042,9 +1041,9 @@
         </listitem>
 
         <listitem>
-          <para>Tick the<emphasis role="bold"> Manage company</emphasis>
-          checkbox in the Permission item displayed at the bottom of the
-          Member info tab to the right of the member list.</para>
+          <para>Tick the<emphasis role="bold"> Manage company</emphasis> check
+          box in the Permission item displayed at the bottom of the Member
+          info tab to the right of the member list.</para>
 
           <figure>
             <title>Template Manager Permission</title>
@@ -1239,8 +1238,9 @@
 
             <listitem>
               <para>You can view the member information, change the member
-              status, and grant permissions including Manage company and
-              Manage templates to members.</para>
+              status, and grant permissions including<emphasis role="bold">
+              Manage company</emphasis> and <emphasis role="bold">Manage
+              templates</emphasis> to members.</para>
             </listitem>
           </varlistentry>
 
@@ -1291,7 +1291,7 @@
 
             <listitem>
               <para>When you click the<emphasis role="bold"> Trash
-              </emphasis>icon, a checkbox will be activated next to each
+              </emphasis>icon, a check box will be activated next to each
               member in the member list. Tick the members you want to delete
               and click the <emphasis role="bold">Delete</emphasis>
               button.</para>
@@ -1353,7 +1353,7 @@
             <para>When you click the <emphasis role="bold">Create a
             group</emphasis> button, the Create a group pop-up window will be
             displayed. Create a group by entering the group name and
-            description, and adding members by searching.</para>
+            description and adding members by searching.</para>
           </listitem>
         </varlistentry>
 
@@ -1362,9 +1362,9 @@
 
           <listitem>
             <para>When you click the <emphasis role="bold">Trash</emphasis>
-            icon, a checkbox will be activated next to each group in the group
-            list. Tick the groups you want to delete and click the <emphasis
-            role="bold">Delete</emphasis> button.</para>
+            icon, a check box will be activated next to each group in the
+            group list. Tick the groups you want to delete and click the
+            <emphasis role="bold">Delete</emphasis> button.</para>
           </listitem>
         </varlistentry>
       </variablelist>
