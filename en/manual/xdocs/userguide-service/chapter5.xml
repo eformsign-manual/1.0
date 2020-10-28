@@ -6,7 +6,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Documents</title>
+  <title>Managing Documents</title>
 
   <section>
     <title>Documents</title>
@@ -44,7 +44,8 @@
             <primary>Documents</primary>
 
             <secondary>Completed</secondary>
-          </indexterm>View the list of completed documents.</para>
+          </indexterm>View the list of all completed documents among the
+        documents that you have created or participated in.</para>
       </listitem>
     </itemizedlist>
 
@@ -105,7 +106,7 @@
       </mediaobject>
     </figure>
 
-    <para>Each documents menu consists of the following five sections:</para>
+    <para>Each Documents menu consists of the following five sections:</para>
 
     <orderedlist>
       <listitem>
@@ -143,7 +144,7 @@
         <para><emphasis role="bold">Document list</emphasis></para>
 
         <para>Up to 20 documents are listed per page and you can view the
-        documents in other pages by clicking the page numbers at the
+        documents on other pages by clicking the page numbers at the
         bottom.</para>
 
         <para>The information of each document such as the document status,
@@ -214,12 +215,11 @@
           documents in which you have document management permission. The
           company administrator or the template managers of a template can
           grant you document management permission for all documents created
-          from a template in <emphasis role="bold">Manage templates &gt;
-          Template settings &gt; Set permissions &gt; Document management
-          </emphasis>and selecting the groups/members you want to grant
-          permission.<emphasis role="bold"> </emphasis>Document management
-          permission can be set for each template. Members with this
-          permission can open, delete, and download the documents (PDF, CSV)
+          from a template by going to <emphasis role="bold">Manage templates
+          &gt; Template settings &gt; Set permissions &gt; Document
+          management</emphasis>.<emphasis role="bold"> </emphasis>Document
+          management permission can be set for each template. Members with
+          this permission can open, delete, and download documents (PDF, CSV)
           created from this template in the <emphasis role="bold">Manage
           documents</emphasis> menu.</para>
         </note>
@@ -273,7 +273,7 @@
       as shown below:</para>
 
       <figure>
-        <title>Template category combo box</title>
+        <title>Template Category Combo Box</title>
 
         <mediaobject>
           <imageobject>
@@ -303,7 +303,7 @@
       role="bold">Completed</emphasis> menus.</para>
 
       <table>
-        <title>List of filter types</title>
+        <title>List of Filter Types</title>
 
         <tgroup cols="4">
           <thead>
@@ -320,7 +320,7 @@
 
           <tbody>
             <row>
-              <entry>Name + content</entry>
+              <entry>Name + contents</entry>
 
               <entry>Name + content</entry>
 
@@ -354,9 +354,9 @@
 
               <entry>Document ID</entry>
 
-              <entry>Document number</entry>
+              <entry>Document ID</entry>
 
-              <entry>Document number</entry>
+              <entry>Document ID</entry>
             </row>
 
             <row>
@@ -364,19 +364,9 @@
 
               <entry>Document number</entry>
 
-              <entry>Status</entry>
+              <entry>Document number</entry>
 
-              <entry>Step</entry>
-            </row>
-
-            <row>
-              <entry>Status</entry>
-
-              <entry>Status</entry>
-
-              <entry>Step</entry>
-
-              <entry>Created by</entry>
+              <entry>Document number</entry>
             </row>
 
             <row>
@@ -384,9 +374,9 @@
 
               <entry>Template name</entry>
 
-              <entry>Created by</entry>
+              <entry>Step</entry>
 
-              <entry>Created on</entry>
+              <entry>Step</entry>
             </row>
 
             <row>
@@ -394,9 +384,9 @@
 
               <entry>Step</entry>
 
-              <entry>Created on</entry>
+              <entry>Created by</entry>
 
-              <entry>Processed by</entry>
+              <entry>Created by</entry>
             </row>
 
             <row>
@@ -404,9 +394,9 @@
 
               <entry>Created by</entry>
 
-              <entry>Processed by</entry>
+              <entry>Created on</entry>
 
-              <entry>Processed on</entry>
+              <entry>Created on</entry>
             </row>
 
             <row>
@@ -414,9 +404,9 @@
 
               <entry>Created on</entry>
 
-              <entry>Processed on</entry>
+              <entry>Processed by</entry>
 
-              <entry>Custom filter</entry>
+              <entry>Processed by</entry>
             </row>
 
             <row>
@@ -424,9 +414,9 @@
 
               <entry>Requested by</entry>
 
-              <entry>Step status</entry>
+              <entry>Processed on</entry>
 
-              <entry/>
+              <entry>Processed on</entry>
             </row>
 
             <row>
@@ -434,19 +424,9 @@
 
               <entry>Requested on</entry>
 
-              <entry>Custom filter</entry>
+              <entry>Custom Filter</entry>
 
-              <entry/>
-            </row>
-
-            <row>
-              <entry>Step status</entry>
-
-              <entry>Step status</entry>
-
-              <entry/>
-
-              <entry/>
+              <entry>Custom Filter</entry>
             </row>
 
             <row>
@@ -487,32 +467,32 @@
 
       <para>The default value of the field name is an empty value.</para>
 
-      <para>Make sure to manually enter the Display name of the field in the
-      document you want to search for. You can view the Display name for
-      fields in the <emphasis role="bold">Template settings &gt;
+      <para>Make sure to manually enter the display name of the field in the
+      document you want to search for. You can view the display name of the
+      field in the <emphasis role="bold">Template settings &gt;
       Field</emphasis> setting menu.</para>
 
       <note>
         <para>1. Documents may not be searched if you search for a document by
-        entering the display name of the field that does not exist.</para>
+        entering a field name that does not exist.</para>
 
-        <para>2. You cannot enter special characters in the display name (",
-        ', ;, &lt;, &gt;, \).</para>
+        <para>2. You cannot enter special characters in the field name (", ',
+        ;, &lt;, &gt;, \).</para>
 
-        <para>3. Empty spaces before and after the display name are all
-        removed. E.g. “ Time off ”  “Time off”</para>
+        <para>3. Empty spaces before and after the field name are all removed.
+        E.g. “ Time off ”  “Time off”</para>
 
-        <para>4. When adding or editing a search value, if you enter a
-        duplicate value in the custom filter, then the previously entered
-        field type and field search value will be displayed. For example, when
-        adding a custom filter again while 'years worked: 5~10' was entered in
-        the custom filter, if you enter 'years worked' in the field name, then
-        the previous value such as Range for Type, 5 for Min value, and 10 for
-        Max value are displayed.</para>
+        <para>4. If you click on a filter you added, then the field name,
+        field type, and search value will be displayed. For example, if you
+        have previously added a filter with the field name of 'years worked',
+        field type of 'Range', and field search value of '5~10', then if you
+        click on the filter, then all its values will be displayed including
+        the field name (years worked), field type (Range), and search value
+        (5~10).</para>
       </note>
 
       <para>You can choose one of Keyword, Range, and Period for the field
-      type. Keyword is the default.</para>
+      type. Keyword is set as the default.</para>
 
       <para>Note that the input boxes displayed differ according to the field
       type selected.</para>
@@ -561,14 +541,15 @@
         <listitem>
           <para><emphasis role="bold">Keyword</emphasis></para>
 
-          <para>Used for searching multiple values by a comma (,) which is
-          used as the delimeter. The default value is empty.</para>
+          <para>Used for searching multiple values by using a comma (,) as the
+          delimiter. The default value is empty.</para>
 
           <para>When used, it searches for the text entered. In other words,
           it searches for documents that contain at least one of the multiple
-          values entered. E.g. Field name: fruit / Field type: keyword /
-          Value1: strawberries, apple  searches for documents that contain at
-          least one of 'strawberries' and/or ' apple'.</para>
+          search values entered. For example, in the case where the Field name
+          = fruit, Field type = keyword, search values = strawberries, apple,
+          then documents that contain at least one of 'strawberries' and
+          'apple' are searched.</para>
         </listitem>
 
         <listitem>
@@ -579,9 +560,9 @@
 
           <para>When used, it searches for values between the min and max. If
           you only enter the min, then only the values larger than the min
-          value are searched, while if you only enter the max then only the
+          value are searched while if you only enter the max, then only the
           values smaller than the max are searched. E.g. salary: 1000 ~ ,
-          salary: ~ 5000</para>
+          salary: ~ 5000.</para>
         </listitem>
       </itemizedlist>
 
@@ -601,8 +582,8 @@
           <imageobject>
             <imagedata fileref="resources/searchplus.png"/>
           </imageobject>
-        </inlinemediaobject>) button to add the keyword entered and documents
-      are searched according to the conditions set.</para>
+        </inlinemediaobject>) button to add the keyword entered. Documents are
+      searched according to the conditions set.</para>
 
       <note>
         <para>1. You can add multiple custom filters, and can modify/delete
@@ -651,18 +632,18 @@
       Menu</title>
 
       <para>Actions on documents that can be performed in the document list
-      include preview, correct, void, resend, send final copy, and
-      download.</para>
+      include preview, review, correct, void, resend, send final copy, edit,
+      delete, remove, and download.</para>
 
       <para><emphasis role="bold">In progress</emphasis></para>
 
-      <para>Can perform actions including preview, correct, void, send final
-      copy, and download.</para>
+      <para>Can perform actions including preview, review, correct, void,
+      resend, and download.</para>
 
       <para><emphasis role="bold">Action required</emphasis></para>
 
       <para>Can perform actions including preview, correct, void, review,
-      resend, and download.</para>
+      resend, edit, and download.</para>
 
       <para><emphasis role="bold">Completed</emphasis></para>
 
@@ -690,7 +671,7 @@
       creation to completion.</para>
 
       <para><figure>
-          <title>Document status tab</title>
+          <title>Document Status Tab</title>
 
           <mediaobject>
             <imageobject>
@@ -698,7 +679,7 @@
             </imageobject>
           </mediaobject>
         </figure><figure>
-          <title>History tab</title>
+          <title>History Tab</title>
 
           <mediaobject>
             <imageobject>
@@ -719,8 +700,8 @@
       periods of time.</para>
 
       <para>All documents are stored in a file format for long-term storage
-      (PDF/A) and only members with document management permission can open
-      and delete them.</para>
+      (PDF/A) and only members with the document management permission can
+      open and delete them.</para>
 
       <para>1. Click the download icon (<inlinemediaobject>
           <imageobject>
@@ -732,7 +713,7 @@
       <emphasis role="bold">Download</emphasis> button.</para>
 
       <figure>
-        <title>Document download pop-up</title>
+        <title>Document Download Pop-up</title>
 
         <mediaobject>
           <imageobject>
@@ -780,7 +761,7 @@
       can select which column to be displayed on the list.</para>
 
       <figure>
-        <title>Document column selection icon</title>
+        <title>Document Column Selection Icon</title>
 
         <mediaobject>
           <imageobject>
@@ -814,7 +795,7 @@
     from.</para>
 
     <figure>
-      <title>New document list</title>
+      <title>New Document List</title>
 
       <mediaobject>
         <imageobject>
@@ -871,7 +852,7 @@
     <para>3. Enter the values in the columns displayed on the screen.</para>
 
     <figure>
-      <title>Send in bulk screen</title>
+      <title>Send in Bulk Screen</title>
 
       <mediaobject>
         <imageobject>

@@ -7,7 +7,7 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Template - Form Builder</title>
+  <title>Managing Templates in Form Builder</title>
 
   <section>
     <title>About Templates</title>
@@ -50,8 +50,7 @@
         </listitem>
 
         <listitem>
-          <para>Go to the OZ in Word/Excel/PowerPoint) menu in the
-          file.</para>
+          <para>Go to the OZ in Word/Excel/PowerPoint menu in the file.</para>
         </listitem>
 
         <listitem>
@@ -127,8 +126,8 @@
 
       <para><indexterm class="singular">
           <primary>Workflow</primary>
-        </indexterm>A workflow is a document process from its creation to
-      completion.</para>
+        </indexterm>A workflow is a process from the creation to the
+      completion of a document.</para>
 
       <para>The workflow for each template can be set by template managers by
       going to <emphasis role="bold">Template settings</emphasis> &gt;
@@ -142,7 +141,7 @@
       workflow.</para>
 
       <figure>
-        <title>Workflow steps</title>
+        <title>Workflow Steps</title>
 
         <mediaobject>
           <imageobject>
@@ -156,7 +155,7 @@
         <listitem>
           <para><emphasis role="bold">Approver</emphasis></para>
 
-          <para>Sending an e-document approval request to a member in your
+          <para>Sending an e-document approval request to a member of your
           company.</para>
         </listitem>
 
@@ -311,7 +310,7 @@
           <term>③ Template abbreviation</term>
 
           <listitem>
-            <para>A short name that briefly descries the template. It is
+            <para>A short name that briefly describes the template. It is
             recommended to use two or three words.</para>
 
             <para><emphasis role="bold">Template abbreviation </emphasis>can
@@ -368,10 +367,10 @@
             this template. By default, the start date is set to the uploaded
             date and you can change the date.</para>
 
-            <para>When <emphasis role="bold">No expiry date</emphasis> is
-            checked, documents can be created without a time limit. <emphasis
-            role="bold">No expiry date</emphasis> is unchecked and set the
-            date, the document can only be created until the set date.</para>
+            <para>If the <emphasis role="bold">No expiry date</emphasis>
+            option is checked, documents can be created without a time limit.
+            If it's unchecked, documents can be created only until the date
+            set.</para>
           </listitem>
         </varlistentry>
 
@@ -388,7 +387,7 @@
           <term>⑦ Document naming rule</term>
 
           <listitem>
-            <para>Sets the document name when creating the document from the
+            <para>Sets the document name when creating a document from the
             template. If a document naming rule is not set, the template name
             will be the document name.</para>
 
@@ -402,8 +401,8 @@
           <term>⑧ Allow document name change</term>
 
           <listitem>
-            <para>If <emphasis role="bold">Allow document name
-            change</emphasis>is checked, the document creator can change the
+            <para>If <emphasis role="bold">Allow document name change
+            </emphasis>is checked, the document creator can change the
             document name.</para>
           </listitem>
         </varlistentry>
@@ -459,7 +458,7 @@
       document-related information to be automatically entered into the
       document name. If you set the document naming rule, then the document
       name is automatically entered based on the information of the document.
-      As well, you can see this name in all document pages (In progress,
+      As well, you can see this name on all document pages (In progress,
       Action required and Completed) and the <emphasis role="bold">Manage
       document</emphasis> page.</para>
 
@@ -831,7 +830,7 @@
               </varlistentry>
             </variablelist><itemizedlist>
               <listitem>
-                <para><emphasis role="bold">Choosing when to numbered a
+                <para><emphasis role="bold">Choosing when to number a
                 document</emphasis></para>
               </listitem>
             </itemizedlist><variablelist>
@@ -1014,7 +1013,7 @@
     <section>
       <title>Set Permissions</title>
 
-      <para>You can set the permissions for the template usage and document
+      <para>You can set the permissions for template usage and document
       management.</para>
 
       <figure>
@@ -1148,7 +1147,7 @@
       <para><emphasis role="bold">Configuring the details of each workflow
       step</emphasis></para>
 
-      <para>You can click a step to set the details such as <emphasis
+      <para>You can click a step to set details such as <emphasis
       role="bold">Properties</emphasis> and <emphasis role="bold">Manage
       items</emphasis> for each workflow step.</para>
 
@@ -1344,7 +1343,7 @@
               <listitem>
                 <para><emphasis role="bold">Password hint</emphasis>: Set the
                 help message that will be displayed when an external recipient
-                enters a password to view the document.</para>
+                enters the password to view the document.</para>
               </listitem>
 
               <listitem>
@@ -1481,9 +1480,10 @@
           <primary>Template</primary>
 
           <secondary>Notification settings</secondary>
-        </indexterm>You can select the method to send request or status
-      notification message to recipients, view and edit the messages for
-      documents created from the template.</para>
+        </indexterm>You can select the method for receiving notifications of
+      documents created from a template, select who will receive
+      notifications, and select who will receive notifications about document
+      status.</para>
 
       <para><emphasis role="bold">Notification methods</emphasis></para>
 
@@ -1493,11 +1493,11 @@
 
       <note>
         <para><emphasis role="bold">SMS</emphasis> can only be selected by a
-        company subscribed a paid plan. Extra charges will apply.</para>
+        company subscribed to a paid plan. Extra charges will apply.</para>
       </note>
 
       <para>When SMS is selected, <emphasis role="bold">Send via
-      SMS</emphasis>and <emphasis role="bold">Send via SMS if failed to send
+      SMS</emphasis> and <emphasis role="bold">Send via SMS if failed to send
       via KakaoTalk</emphasis> are enabled.</para>
 
       <itemizedlist>
@@ -1535,8 +1535,8 @@
       role="bold"> Edit </emphasis>button.</para>
 
       <note>
-        <para>SMS templates can only be edited by companies subscribed a paid
-        plan.</para>
+        <para>SMS templates can only be edited by companies subscribed to a
+        paid plan.</para>
       </note>
 
       <mediaobject>
@@ -1595,8 +1595,8 @@
         <para>For notifications sent when documents are rejected, voided, or
         corrected, only email templates are provided and they are not sent via
         SMS. Also, SMS templates for document completion notifications
-        (internal/external) can only be edited by companies subscribed a paid
-        plan.</para>
+        (internal/external) can only be edited by companies subscribed to a
+        paid plan.</para>
       </note>
 
       <mediaobject>

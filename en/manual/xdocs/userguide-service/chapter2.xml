@@ -66,23 +66,24 @@
                   class="singular">
                   <primary>In progress</primary>
                 </indexterm>Shows the list of documents you have created or
-              participated in but are incomplete.</para>
+              signed/approved that are incomplete.</para>
             </listitem>
 
             <listitem>
               <para><emphasis role="bold">Action required:
               </emphasis><indexterm class="singular">
                   <primary>Action required</primary>
-                </indexterm>Shows the list of documents you have temporarily
-              saved or other members have requested you to sign or
-              approve.</para>
+                </indexterm>Shows the list of documents you have saved as a
+              draft, requested by other members for you to sign or approve, or
+              sent to external recipients but have yet to be signed.</para>
             </listitem>
 
             <listitem>
               <para><emphasis role="bold">Completed: </emphasis><indexterm
                   class="singular">
                   <primary>Completed</primary>
-                </indexterm>Shows the list of all completed documents.</para>
+                </indexterm>Shows the list of all completed documents among
+              the documents that you have created or participated in.</para>
             </listitem>
           </itemizedlist>
         </listitem>
@@ -215,7 +216,7 @@
           <para><emphasis role="bold">Download eformsign Form
           Builder:</emphasis><indexterm class="singular">
               <primary>Download Form Builder</primary>
-            </indexterm>You can download the Form Builder executable file. By
+            </indexterm> You can download the Form Builder executable file. By
           using the Form Builder add-in feature, you can create electronic
           forms using Microsoft Office files.</para>
         </listitem>
@@ -467,7 +468,7 @@
             <primary>My profile</primary>
           </indexterm>You can view and edit your personal information you
         entered when signing up for the eformsign service. You can also view
-        the information of the company you are a member of.</para>
+        the information about the company you are a member of.</para>
       </listitem>
 
       <listitem>
@@ -566,7 +567,7 @@
             homepage URL, and company administrator’s email.</para>
 
             <note>
-              <para>You can only view company information in this page. If you
+              <para>You can only view company information on this page. If you
               want to edit the information, go to the<emphasis role="bold">
               Manage company &gt; Company profile </emphasis>menu. Only the
               company administrator or company managers can edit company
@@ -733,7 +734,7 @@
             </listitem>
 
             <listitem>
-              <para>File size: Up to a maximum 300 KB</para>
+              <para>File size: Up to a maximum of 300 KB</para>
             </listitem>
           </itemizedlist>
 
@@ -801,10 +802,10 @@
 
         <para><indexterm class="singular">
             <primary>Company manager</primary>
-          </indexterm>Company managers have the permission to access the
-        <emphasis role="bold">Manage company</emphasis> menu. Company managers
-        can view and edit company, group, and member information<emphasis
-        role="bold"> </emphasis>and<emphasis role="bold"> </emphasis>grant
+          </indexterm>Company managers have permission to access the <emphasis
+        role="bold">Manage company</emphasis> menu. Company managers can view
+        and edit company, group, and member information<emphasis role="bold">
+        </emphasis>and<emphasis role="bold"> </emphasis>grant
         permissions<emphasis role="bold"> </emphasis>to members.</para>
       </listitem>
 
@@ -813,7 +814,7 @@
 
         <para><indexterm class="singular">
             <primary>Template manager</primary>
-          </indexterm>Template managers have the permission to access the
+          </indexterm>Template managers have permission to access the
         <emphasis role="bold">Manage templates</emphasis> menu. Template
         managers can create new templates by using Form Builder or Web Form
         Designer, and can also edit, deploy, and delete templates.</para>
@@ -822,7 +823,7 @@
       <listitem>
         <para><emphasis role="bold">Document manager</emphasis></para>
 
-        <para>Document managers<emphasis role="bold"> </emphasis>have the
+        <para>Document managers<emphasis role="bold"> </emphasis>have
         permission to access the <emphasis role="bold">Manage documents
         </emphasis>menu to view and download documents created from each
         template.<indexterm class="singular">
@@ -1196,7 +1197,7 @@
             <listitem>
               <para><indexterm class="singular">
                   <primary>Active members</primary>
-                </indexterm>You can view the list of active members in the
+                </indexterm>You can view the list of active members of the
               company and their information.</para>
             </listitem>
           </varlistentry>
@@ -1374,17 +1375,17 @@
   <section>
     <title>My Signature</title>
 
-    <para>If you register your signature, initial, and stamp in the <emphasis
+    <para>If you register your signature, initials, and stamp in the <emphasis
     role="bold">My signature</emphasis> menu, you can easily use them when
     signing documents.<indexterm class="singular">
         <primary>My signature</primary>
       </indexterm></para>
 
     <para><emphasis role="bold">Registering Your Signature and
-    Initial</emphasis></para>
+    Initials</emphasis></para>
 
     <note>
-      <para>You can register your signature and initial in <emphasis
+      <para>You can register your signature and initials in <emphasis
       role="bold">browsers (PC and</emphasis> <emphasis
       role="bold">mobile)</emphasis><emphasis role="bold"> and apps
       (mobile).</emphasis></para>
@@ -1417,7 +1418,7 @@
 
       <listitem>
         <para>Click the <emphasis role="bold">OK</emphasis> button to add a
-        new signature, initial, or stamp.</para>
+        new signature, initials, or stamp.</para>
 
         <figure>
           <title>Register Signature</title>
@@ -1483,7 +1484,7 @@
     <para><indexterm class="singular">
         <primary>Register stamp</primary>
       </indexterm>Some documents may require a seal or stamp rather than a
-    signature or initial. You can apply a stamp/seal image to documents after
+    signature or initials. You can apply a stamp/seal image to documents after
     registering the image in the eformsign service.</para>
 
     <note>

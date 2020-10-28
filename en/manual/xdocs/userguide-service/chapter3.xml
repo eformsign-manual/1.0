@@ -768,9 +768,9 @@
       sure that all the selected radio buttons are assigned the same
       ID.</para>
 
-      <para>For example, if there are six choices available in a multiple
-      choice question, assign "question1" as the ID for all of them. In the
-      example shown below, the IDs of all the items are set to the same
+      <para>For example, if there are six choices available in a
+      multiple-choice question, assign "question1" as the ID for all of them.
+      In the example shown below, the IDs of all the items are set to the same
       "question 1".</para>
 
       <figure>
@@ -818,7 +818,7 @@
 
           <secondary>Combo</secondary>
         </indexterm>The Combo component is used when you need to select one of
-      multiple items.</para>
+      the multiple items.</para>
 
       <mediaobject>
         <imageobject>
@@ -1309,7 +1309,7 @@
       <para><note>
           <para>If you have registered a signature or initial on eformsign,
           then when you click on a signature component, the registered
-          signature/initial will be automatically entered in the component.
+          signature/initial will be automatically entered into the component.
           However, if there is no registered signature or initial, then a
           regular <emphasis role="bold">Signature </emphasis>pop-up will be
           displayed when you click on a signature component.</para>
@@ -1383,7 +1383,7 @@
         </indexterm>This component is for uploading photos (taken with a
       device with a built-in camera such as smartphones and tablets) on a
       document. In PCs without a camera, clicking the component displays a
-      window for selecting a desired image file.</para>
+      window for selecting the desired image file.</para>
 
       <mediaobject>
         <imageobject>
@@ -1616,7 +1616,7 @@
       </mediaobject>
 
       <note>
-        <para>You need to have either company administrator or template
+        <para>You need to have either the company administrator or template
         manager permission to perform this action.</para>
       </note>
 
@@ -1646,7 +1646,7 @@
       </itemizedlist>
 
       <note>
-        <para>You need to have company administrator permission to change
+        <para>You need to have the company administrator permission to change
         basic member information.</para>
 
         <para>To modify a member's basic information, login to eformsign and
@@ -1764,7 +1764,7 @@
 
       <para><emphasis role="bold">② Format</emphasis></para>
 
-      <para>Sets the format in which date will be displayed.</para>
+      <para>Sets the format in which the date will be displayed.</para>
 
       <itemizedlist>
         <listitem>
@@ -1818,7 +1818,7 @@
       </mediaobject>
 
       <para><note>
-          <para>You need to have either company administrator or template
+          <para>You need to have either the company administrator or template
           manager permission to perform this action.</para>
         </note><note>
           <para>If you want the signature date of a signer to be displayed
@@ -1889,7 +1889,7 @@
       </mediaobject>
     </figure>
 
-    <para>2. After you login, the document converted into a form will be
+    <para>2. After you log in, the document converted into a form will be
     displayed as a preview.</para>
 
     <figure>
@@ -1945,7 +1945,7 @@
     for documents created from the template such as template name, document
     number, and workflow.</para>
 
-    <para>1. Login to eformsign.</para>
+    <para>1. Log in to eformsign.</para>
 
     <para>2. Go to the <emphasis role="bold">Manage templates</emphasis>
     menu.</para>

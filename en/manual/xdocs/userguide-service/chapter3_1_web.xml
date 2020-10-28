@@ -27,7 +27,7 @@
     </note>
 
     <note>
-      <para>In addition to Web Form Designer, eformsign also provides an
+      <para>In addition to Web Form Designer, eformsign also provides a
       Microsoft Office Add-in feature named<emphasis role="bold"> OZ in Office
       (Form Builder) </emphasis>which allows you to create electronic
       documents directly in Microsoft Office. To use Form Builder, please
@@ -485,7 +485,7 @@
       <para><note>
           <para>If you have registered a signature or initial on eformsign,
           then when you click on a signature component, the registered
-          signature/initial will be automatically entered in the component.
+          signature/initial will be automatically entered into the component.
           However, if there is no registered signature or initial, then a
           regular <emphasis role="bold">Signature </emphasis>pop-up will be
           displayed when you click on a signature component.</para>
@@ -617,9 +617,9 @@
       sure that all the selected radio buttons are assigned the same
       ID.</para>
 
-      <para>For example, if there are six choices available in a multiple
-      choice question, assign ‘question1’ as the ID for all of them. In the
-      example shown below, the IDs of all the items are set to the same
+      <para>For example, if there are six choices available in a
+      multiple-choice question, assign ‘question1’ as the ID for all of them.
+      In the example shown below, the IDs of all the items are set to the same
       "question 1".</para>
 
       <figure>
@@ -697,7 +697,7 @@
 
           <secondary>Combo</secondary>
         </indexterm>The Combo component is used when you need to select one of
-      multiple items.</para>
+      the multiple items.</para>
 
       <para>If you click a Combo component, a list of items is displayed as
       follows:</para>
@@ -946,7 +946,7 @@
       component, then it is resized to fit the component.</para>
 
       <note>
-        <para>For devices with a built-in camera, camera feature will be
+        <para>For devices with a built-in camera, the camera feature will be
         executed. For devices without a camera, a window for selecting an
         image file will be displayed.</para>
       </note>
@@ -1003,8 +1003,8 @@
       </mediaobject>
 
       <note>
-        <para>If the recording time limit is set to 1 or more, recording is
-        completed automatically at the time set (unit: seconds).</para>
+        <para>If the recording time limit is set to 1 or more, the recording
+        is completed automatically at the time set (unit: seconds).</para>
 
         <para>In the case of ActiveX viewer, the recording playback UI is
         supported from Windows 8 and later.</para>
