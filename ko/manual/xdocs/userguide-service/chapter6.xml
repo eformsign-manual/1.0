@@ -13,14 +13,14 @@
         <primary>사용자 정의 필드 관리</primary>
       </indexterm></title>
 
-    <para><emphasis role="bold">회사관리 </emphasis><emphasis role="bold">&gt;
+    <para><emphasis role="bold">회사 관리 </emphasis><emphasis role="bold">&gt;
     </emphasis><emphasis role="bold">사용자 정의 필드 관리</emphasis>에서는 회사, 그룹, 멤버에 관한
     필드를 추가하고 편집할 수 있습니다.</para>
 
     <tip>
-      <para>문서에서 자주 사용되는 회사, 그룹, 멤버에 관한 정보(예, 회사 대표번호, 주소, 대표자 명 등)를 사용자 정의
-      필드에서 추가하고 <emphasis role="bold">템플릿 설정 &gt; 필드 설정</emphasis>에서 필요 정보를
-      자동으로 입력되도록 설정할 수 있습니다.</para>
+      <para>문서에서 자주 사용되는 회사, 그룹, 멤버에 관한 정보(예, 회사 대표번호, 주소, 대표자 명 등)를 <emphasis
+      role="bold">사용자 정의 필드 관리</emphasis>에서 추가하고 <emphasis role="bold">템플릿 관리
+      &gt; 템플릿 설정 &gt; 필드 설정</emphasis>에서 필요 정보를 자동으로 입력되도록 설정할 수 있습니다.</para>
     </tip>
 
     <figure>
@@ -61,10 +61,10 @@
           <term>④ 필드 추가</term>
 
           <listitem>
-            <para>새로운 필드를 추가합니다. 필드 추가 버튼을 클릭하면 사용자 정의 필드를 추가할 수있는 팝업창이 나타납니다.
-            <emphasis role="bold">필드 이름</emphasis>과 <emphasis role="bold">필드
-            타입</emphasis>(텍스트/ 이미지), <emphasis role="bold">필드 값</emphasis>을
-            입력하여 확인을 클릭하면 목록에 필드가 추가됩니다.</para>
+            <para>새로운 필드를 추가합니다. 필드 추가 버튼을 클릭하면 사용자 정의 필드를 추가할 수 있는 팝업창이
+            나타납니다. <emphasis role="bold">필드 이름</emphasis>과 <emphasis
+            role="bold">필드 타입</emphasis>(텍스트/ 이미지), <emphasis role="bold">필드
+            값</emphasis>을 입력하여 확인을 클릭하면 목록에 필드가 추가됩니다.</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -120,7 +120,7 @@
           <term>⑦ 저장</term>
 
           <listitem>
-            <para>사용자 정의 필드 편집이 완료되면<emphasis role="bold"> 저장 </emphasis>버튼을
+            <para>사용자 정의 필드 수정이 완료되면<emphasis role="bold"> 저장 </emphasis>버튼을
             클릭해 변경사항을 저장합니다.</para>
           </listitem>
         </varlistentry>
@@ -175,19 +175,19 @@
           <row>
             <entry>문서 처리 요청</entry>
 
-            <entry>결재 요청/문서 검토 및 작성 요청(내부/외부)/문서 반려로 인한 수정 요청/문처 취소 요청 수신/문서
-            취소 요청 거절</entry>
+            <entry>문서 결재 요청/문서 검토 및 작성 요청(내부/외부)/문서 반려로 인한 수정 요청/문처 취소 요청
+            수신/문서 취소 요청 거절</entry>
           </row>
 
           <row>
             <entry>문서 처리 상태</entry>
 
             <entry>문서 승인/문서 삭제/문서 반려/문서 검토 및 작성 완료/문서 최종 완료(내부/외부)/문서 이관 완료/문서
-            수정/문서 최종 완료(PDF 전송)/문서 취</entry>
+            수정/문서 최종 완료(PDF 전송)/문서 취소</entry>
           </row>
 
           <row>
-            <entry>멤버 초대</entry>
+            <entry>멤버</entry>
 
             <entry>멤버 초대/멤버 초대 수락/멤버 초대 거절/멤버 회사 탈퇴</entry>
           </row>

@@ -45,7 +45,7 @@
     <listitem>
       <para>제1장: 개요</para>
 
-      <para>eformsign 제품 개요와 기본 용어, 사용 사례에 대해서 기술합니다.</para>
+      <para>eformsign 서비스 개요와 기본 용어, 사용 사례 등에 대해서 기술합니다.</para>
     </listitem>
 
     <listitem>
@@ -56,15 +56,15 @@
     </listitem>
 
     <listitem>
-      <para>제3장: 웹폼 디자이너와 컴포넌트</para>
+      <para>제3장: 웹폼 디자이너 소개</para>
 
-      <para>eformsign의 웹폼 디자이너 소개 및 사용법과 각각의 컴포넌트의 사용 방법에 대해서 설명합니다.</para>
+      <para>eformsign의 웹폼 디자이너 소개 및 사용법과 각각 컴포넌트의 사용 방법에 대해서 설명합니다.</para>
     </listitem>
 
     <listitem>
-      <para>제4장: 폼 빌더와 컴포넌트</para>
+      <para>제4장: 폼 빌더 소개</para>
 
-      <para>eformsign의 폼 빌더 소개 및 사용법과 각각의 컴포넌트의 사용 방법에 대해서 설명합니다.</para>
+      <para>eformsign의 폼 빌더 소개 및 사용법과 각각 컴포넌트의 사용 방법에 대해서 설명합니다.</para>
     </listitem>
 
     <listitem>
@@ -80,7 +80,7 @@
     </listitem>
 
     <listitem>
-      <para>제7장: 문서</para>
+      <para>제7장: 문서함</para>
 
       <para>eformsign이 제공하는 문서함과 문서함의 사용 방법, 문서 검색 방법에 대해서 설명합니다.</para>
     </listitem>
@@ -260,14 +260,14 @@ Web (Korean): <otheraddr><link xlink:href="chapter1.xml">https://www.eformsign.c
 Singapore 068811
 Tel: +65 6100 2007 
 Email:<email>singapore@forcs.com</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/en/</link></otheraddr></address></para>
+Web (English): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/en/</link></otheraddr></address></para>
 
   <para><bridgehead>Japan</bridgehead><address>FORCS Japan
 Tokyo-to, Shibuya-ku,
 Sendagaya, 4 Chome-11-9,
 #402, 151-0051, Japan
 Email: <email>global@forcs.com</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/jp/</link></otheraddr></address></para>
+Web (Japanese): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/jp/</link></otheraddr></address></para>
 
   <?dbfo-need height="10in" ?>
 
@@ -276,5 +276,5 @@ Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/jp
 Sint-Michielswarande,
 1040 Etterbeek, Belgium
 Email: <email>singapore@forcs.com</email>
-Web (Korean): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/en/</link></otheraddr></address></para>
+Web (English): <otheraddr><link xlink:href="chapter1.xml">http://www.forcs.com/en/</link></otheraddr></address></para>
 </preface>
