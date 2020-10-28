@@ -61,8 +61,9 @@
         </mediaobject>
       </figure>
 
-      <para>2. 다음과 같은 eformsign 폼 빌더 다운로드 페이지가 나타납니다. 페이지 하단의 <emphasis
-      role="bold">폼 빌더 다운로드</emphasis> 버튼을 클릭합니다.</para>
+      <para>2. 다음과 같은 <emphasis role="bold">eformsign 폼 빌더 다운로드</emphasis>
+      페이지가 나타납니다. 페이지 하단의 <emphasis role="bold">폼 빌더 다운로드</emphasis> 버튼을
+      클릭합니다.</para>
 
       <figure>
         <title>폼 빌더 다운로드 페이지</title>
@@ -395,9 +396,9 @@
       <title>입력항목 속성 확인하는 방법</title>
 
       <para>모든 입력항목은 각각의 세부 설정인 <emphasis role="bold">속성</emphasis>을 가지고
-      있습니다.<emphasis role="bold"> </emphasis>속성은<emphasis role="bold"> 속성 표시
-      아이콘</emphasis> 또는 <emphasis role="bold">속성 </emphasis>메뉴를 클릭하여 확인할 수
-      있습니다.</para>
+      있습니다.<emphasis role="bold"> </emphasis>속성은<emphasis role="bold"> 속성
+      </emphasis><emphasis role="bold">표시 아이콘</emphasis> 또는 <emphasis
+      role="bold">속성 </emphasis>메뉴를 클릭하여 확인할 수 있습니다.</para>
 
       <para/>
 
@@ -556,7 +557,7 @@
           <imageobject>
             <imagedata fileref="resources/delete-icon.png"/>
           </imageobject>
-        </inlinemediaobject>) 아이콘을 클릭합니다. 여러 개의 입력항목을 선택해서 한 번에 삭제하는 것도
+        </inlinemediaobject>) 아이콘을 클릭합니다. 여러 개의 입력항목을 선택해서 한번에 삭제하는 것도
       가능합니다.</para>
     </section>
   </section>
@@ -568,8 +569,8 @@
     리본 메뉴를 통해 체크박스, 콤보박스, 텍스트, 서명 등 다양한 입력항목을 지원하고 있습니다.</para>
 
     <para><emphasis role="bold">OZ in Office</emphasis>의 모든 입력항목은 공통 속성과 고유
-    속성을 가지고 있으며, <emphasis role="bold">OZ 입력항목 속성 </emphasis>창에서 공통 속성과 각 입력
-    기능의 고유 속성을 확인할 수 있습니다. 공통 속성으로는 ID와 툴팁 텍스트가 있으며, 각 속성의 의미는 다음과
+    속성을 가지고 있으며, <emphasis role="bold">OZ 입력항목 속성 </emphasis>창에서 공통 속성과 각
+    입력항목의 고유 속성을 확인할 수 있습니다. 공통 속성으로는 ID와 툴팁 텍스트가 있으며, 각 속성의 의미는 다음과
     같습니다.</para>
 
     <itemizedlist>
@@ -951,7 +952,7 @@
       <para><emphasis role="bold">⑤ 입력 데이터 초기화 가능</emphasis></para>
 
       <para><emphasis role="bold">입력 데이터 초기화 가능</emphasis>을 체크하면 선택한 날짜를 삭제할 수
-      있습니다. 날짜 입력항목은 한 번 날짜를 선택하면 다른 날짜로 변경할 수는 있으나 날짜 선택을 취소할 수는 없습니다. 그러나 입력
+      있습니다. 날짜 입력항목은 한번 날짜를 선택하면 다른 날짜로 변경할 수는 있으나 날짜 선택을 취소할 수는 없습니다. 그러나 입력
       데이터 초기화 가능 속성을 체크하면 아무것도 선택되지 않은 상태로 변경할 수 있습니다. 단, 아무것도 선택되지 않은 상태일 때
       <emphasis role="bold">빈 값일 때 오늘 날짜 표시 </emphasis>속성이 체크된 경우 오늘 날짜로
       선택됩니다.</para>
@@ -1022,8 +1023,9 @@
 
       <para><emphasis role="bold">④ 입력 데이터 초기화 가능</emphasis></para>
 
-      <para>입력 데이터 초기화 가능을 체크하면 입력된 숫자를 삭제할 수 있습니다. 숫자 입력항목은 한 번 숫자를 입력하면 다른
-      숫자로 변경할 수는 있으나 숫자를 삭제할 수는 없습니다. 그러나 입력 데이터 초기화 가능을 체크하면 아무것도 입력되지 않은 상태로
+      <para><emphasis role="bold">입력 데이터 초기화 가능</emphasis>을 체크하면 입력된 숫자를 삭제할 수
+      있습니다. 숫자 입력항목은 한번 숫자를 입력하면 다른 숫자로 변경할 수는 있으나 숫자를 삭제할 수는 없습니다. 그러나
+      <emphasis role="bold">입력 데이터 초기화 가능</emphasis>을 체크하면 아무것도 입력되지 않은 상태로
       변경할 수 있습니다.</para>
 
       <para><itemizedlist>
@@ -1049,8 +1051,9 @@
           <primary>입력항목</primary>
 
           <secondary>토글</secondary>
-        </indexterm>켜짐(ON), 꺼짐(OFF)과 같은 특정한 상태를 나타낼 때 사용합니다. 토글 입력항목을 사용하면
-      입력항목을 클릭할 때마다 미리 설정한 항목의 순서대로 입력값이 전환됩니다.</para>
+        </indexterm>켜짐(ON), 꺼짐(OFF)과 같은 특정한 상태를 나타낼 때 사용합니다. <emphasis
+      role="bold">토글</emphasis> 입력항목을 사용하면 입력항목을 클릭할 때마다 미리 설정한 항목의 순서대로 입력값이
+      전환됩니다.</para>
 
       <mediaobject>
         <imageobject>
@@ -1568,19 +1571,18 @@
 
       <itemizedlist>
         <listitem>
-          <para><emphasis role="bold">yyyy:</emphasis> <emphasis
-          role="bold">연도</emphasis>를 표시합니다. (yyyy년 = 2020년)</para>
+          <para><emphasis role="bold">yyyy:</emphasis><emphasis role="bold">
+          </emphasis>'연도'를 표시합니다. (yyyy년 = 2020년)</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">MM:</emphasis> <emphasis
-          role="bold">월</emphasis>을 표시합니다. 반드시 대문자로 표기해야 합니다. (MM월 =
-          8월)</para>
+          <para><emphasis role="bold">MM:</emphasis> '월'을 표시합니다. 반드시 대문자로 표기해야
+          합니다. (MM월 = 8월)</para>
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">dd:</emphasis> <emphasis
-          role="bold">일</emphasis>을 표시합니다. (dd일 = 10일)</para>
+          <para><emphasis role="bold">dd:</emphasis> '일'을 표시합니다. (dd일 =
+          10일)</para>
         </listitem>
       </itemizedlist>
 
@@ -1734,9 +1736,9 @@
 
     <para>1. 이폼사인에 로그인합니다.</para>
 
-    <para>2. 템플릿 관리 메뉴로 이동합니다.</para>
+    <para>2. <emphasis role="bold">템플릿 관리</emphasis> 메뉴로 이동합니다.</para>
 
-    <para>3. 템플릿 설정 아이콘을 클릭합니다.</para>
+    <para>3. <emphasis role="bold">템플릿 설정</emphasis> 아이콘을 클릭합니다.</para>
 
     <itemizedlist>
       <listitem>
@@ -1745,7 +1747,7 @@
       </listitem>
 
       <listitem>
-        <para><emphasis role="bold">권한 설정:</emphasis>해당 템플릿으로 생성된 문서를 관리할 멤버나
+        <para><emphasis role="bold">권한 설정:</emphasis> 해당 템플릿으로 생성된 문서를 관리할 멤버나
         그룹을 지정합니다.</para>
       </listitem>
 

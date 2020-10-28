@@ -171,8 +171,8 @@
               <para><emphasis role="bold">분석 및 리포팅: </emphasis><indexterm
                   class="singular">
                   <primary>분석 및 리포팅</primary>
-                </indexterm>구글 스프레드시트, 오피스365 엑셀로 문서에 입력된 데이터를 자동으로 저장하도록 설정할
-              수 있습니다.</para>
+                </indexterm>구글 스프레드시트, 오피스365 엑셀을 연결하여 문서에 입력된 데이터를 자동으로 저장하도록
+              설정할 수 있습니다.</para>
             </listitem>
 
             <listitem>
@@ -344,7 +344,7 @@
           </listitem>
 
           <listitem>
-            <para>클릭시 즐겨찾기에 등록이 안된 템플릿의 목록이 팝업창으로 뜹니다.</para>
+            <para>클릭 시 즐겨찾기에 등록이 안된 템플릿의 목록이 팝업창으로 뜹니다.</para>
 
             <para><inlinemediaobject>
                 <imageobject>
@@ -780,7 +780,7 @@
         </indexterm>대표 관리자는 가입시 회사를 생성한 사용자가 대표 관리자로 등록되며, 이폼사인 사용에 대한 모든 권한을
       갖고 있는 최고 관리자입니다.</para>
 
-      <para>대표관리자는</para>
+      <para><emphasis role="bold">대표관리자</emphasis>는</para>
 
       <itemizedlist>
         <listitem>
@@ -800,8 +800,8 @@
         </listitem>
       </itemizedlist>
 
-      <para>대표 관리자가 탈퇴할 경우, 회사가 삭제되며 회사를 삭제하지 않고 계정 탈퇴를 하려면 대표 관리자에 대한 권한은 다른
-      멤버에게 위임해야 합니다.<indexterm class="singular">
+      <para>대표 관리자가 탈퇴할 경우, 회사가 삭제되며 회사를 삭제하지 않고 계정 탈퇴를 하려면 대표 관리자 권한은 다른 멤버에게
+      위임해야 합니다.<indexterm class="singular">
           <primary>대표 관리자 권한 위임</primary>
         </indexterm></para>
 
@@ -1005,7 +1005,8 @@
         </listitem>
 
         <listitem>
-          <para><emphasis role="bold">템플릿 설정</emphasis> 버튼( <inlinemediaobject>
+          <para><emphasis role="bold">템플릿 설정</emphasis> 아이콘(
+          <inlinemediaobject>
               <imageobject>
                 <imagedata contentwidth="25"
                            fileref="resources/config-icon.PNG"/>
@@ -1136,7 +1137,7 @@
 
             <listitem>
               <para>멤버 정보를 확인할 수 있으며, 멤버 상태 변경, 회사 관리, 템플릿 관리 등 권한을 부여할 수
-              있습니다. .</para>
+              있습니다.</para>
             </listitem>
           </varlistentry>
 
@@ -1170,7 +1171,7 @@
           </varlistentry>
 
           <varlistentry>
-            <term>⑨ 멤버 초대</term>
+            <term><emphasis role="bold">⑨ 멤버 초대</emphasis></term>
 
             <listitem>
               <para><indexterm class="singular">
@@ -1201,7 +1202,7 @@
 
       <variablelist>
         <varlistentry>
-          <term>① 그룹 정보</term>
+          <term><emphasis role="bold">① 그룹 정보</emphasis></term>
 
           <listitem>
             <para>그룹 목록에서 정보를 확인하고자 하는 그룹을 클릭하면 오른쪽 <emphasis role="bold">그룹
@@ -1210,7 +1211,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>② 멤버 목록</term>
+          <term><emphasis role="bold">② 멤버 목록</emphasis></term>
 
           <listitem>
             <para>그룹에 속한 멤버 목록을 보여주며, 멤버를 추가 및 삭제할 수 있습니다.</para>
@@ -1218,7 +1219,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>③ 필드 값 설정</term>
+          <term><emphasis role="bold">③ 필드 값 설정</emphasis></term>
 
           <listitem>
             <para>그룹과 관련된 필드 값을 설정할 수 있습니다.</para>
@@ -1226,7 +1227,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>④ 그룹 추가</term>
+          <term><emphasis role="bold">④ 그룹 추가</emphasis></term>
 
           <listitem>
             <para>그룹 추가를 클릭하면<emphasis role="bold"> 그룹 추가</emphasis> 팝업창이 뜨고
@@ -1235,7 +1236,7 @@
         </varlistentry>
 
         <varlistentry>
-          <term>⑤ 그룹 삭제</term>
+          <term><emphasis role="bold">⑤ 그룹 삭제</emphasis></term>
 
           <listitem>
             <para><emphasis role="bold">휴지통</emphasis> 아이콘을 클릭하면 그룹 목록 왼쪽에
@@ -1259,7 +1260,7 @@
     <para><emphasis role="bold">서명/이니셜 등록하는 방법</emphasis></para>
 
     <note>
-      <para>작업은 <emphasis role="bold">PC, 모바일, 애플리케이션</emphasis>에서 진행할 수
+      <para>이 작업은 <emphasis role="bold">PC, 모바일, 애플리케이션</emphasis>에서 진행할 수
       있습니다.</para>
     </note>
 
@@ -1285,7 +1286,7 @@
       </listitem>
 
       <listitem>
-        <para>서명 등록 버튼을 클릭합니다.</para>
+        <para><emphasis role="bold">서명 등록</emphasis> 아이콘을 클릭합니다.</para>
 
         <para/>
 
@@ -1370,7 +1371,8 @@
       </listitem>
 
       <listitem>
-        <para>도장 등록<emphasis role="bold"> </emphasis>버튼을 클릭합니다</para>
+        <para>도장 <emphasis role="bold">등록</emphasis><emphasis role="bold">
+        </emphasis>아이콘을 클릭합니다</para>
 
         <para/>
 
@@ -1387,7 +1389,7 @@
       </listitem>
 
       <listitem>
-        <para>이미지 영역을 클릭하면 내 PC에 저장된 이미지를 업로드 할 수 있는 팝업창이 뜹니다. 원하는 도장 이미지를
+        <para>이미지 영역을 클릭하면 내 PC에 저장된 이미지를 업로드할 수 있는 팝업창이 뜹니다. 원하는 도장 이미지를
         선택합니다.</para>
 
         <para/>
