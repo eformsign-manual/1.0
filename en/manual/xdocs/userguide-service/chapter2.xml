@@ -36,7 +36,7 @@
         <mediaobject>
           <imageobject>
             <imagedata fileref="resources/en-dashboard-side-menu.png"
-                       width="800"/>
+                       width="750"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -239,7 +239,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/en-dashboard-main.png" width="800"/>
+            <imagedata fileref="resources/en-dashboard-main.png" width="750"/>
           </imageobject>
         </mediaobject>
       </figure>
