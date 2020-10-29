@@ -544,7 +544,7 @@
       <para><emphasis role="bold">マイ情報</emphasis> で確認可能な会社情報については、 <emphasis
       role="bold">会社管理 &gt; 会社情報 </emphasis>で修正できます。<indexterm
           class="singular">
-          <primary>会社情報</primary>
+          <primary sortas="かいしゃじょうほう">会社情報</primary>
         </indexterm></para>
 
       <note>
@@ -837,7 +837,7 @@
       <title>会社の管理権限</title>
 
       <para><indexterm class="singular">
-          <primary>会社の管理権限</primary>
+          <primary sortas="かいしゃのかんりけんげん">会社の管理権限</primary>
         </indexterm>会社管理者は <emphasis role="bold">会社管理
       </emphasis>メニューへのアクセス権限を持ち、会社やメンバー/グループに関連する情報を表示、変更、削除することができます。会社管理者は、代表管理者または会社管理者がメンバーに権限を付与できます。</para>
 
