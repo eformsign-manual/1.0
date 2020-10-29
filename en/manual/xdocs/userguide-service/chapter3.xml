@@ -512,7 +512,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_1.png" width="700"/>
+              <imagedata fileref="resources/ozinword_1.png" width="600"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -527,7 +527,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_2.png" width="700"/>
+              <imagedata fileref="resources/ozinword_2.png" width="600"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -540,7 +540,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_3.png" width="700"/>
+              <imagedata fileref="resources/ozinword_3.png" width="600"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -561,7 +561,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_2_1.png" width="700"/>
+              <imagedata fileref="resources/ozinword_2_1.png" width="600"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -574,7 +574,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/ozinword_2_2.png" width="700"/>
+              <imagedata fileref="resources/ozinword_2_2.png" width="600"/>
             </imageobject>
           </mediaobject>
         </figure>

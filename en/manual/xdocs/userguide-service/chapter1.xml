@@ -48,7 +48,7 @@
 
       <mediaobject>
         <imageobject>
-          <imagedata fileref="resources/main_feature.png" width="800"/>
+          <imagedata fileref="resources/main_feature.png" width="730"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -164,7 +164,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/dashboard.png" width="800"/>
+              <imagedata fileref="resources/dashboard.png" width="730"/>
             </imageobject>
           </mediaobject>
         </figure>
@@ -358,7 +358,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/use_flow_web.png" width="800"/>
+            <imagedata fileref="resources/use_flow_web.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -393,7 +393,7 @@
 
         <mediaobject>
           <imageobject>
-            <imagedata fileref="resources/use_flow.png" width="800"/>
+            <imagedata fileref="resources/use_flow.png" width="700"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -505,7 +505,7 @@
 
           <mediaobject>
             <imageobject>
-              <imagedata fileref="resources/usecase-process.PNG" width="800"/>
+              <imagedata fileref="resources/usecase-process.PNG" width="730"/>
             </imageobject>
           </mediaobject>
         </figure></para>
