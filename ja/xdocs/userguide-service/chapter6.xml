@@ -133,7 +133,7 @@
     <title>通知テンプレートの管理</title>
 
     <para><indexterm class="singular">
-        <primary>通知テンプレートの管理</primary>
+        <primary sortas="つうちてんぷれーとかんり">通知テンプレートの管理</primary>
       </indexterm>文書の依頼時に送信されるメールと SMS のテンプレートは、会社に合わせてカスタマイズできます。</para>
 
     <para>通知テンプレートを変更するには、 <emphasis role="bold">会社管理 &gt; 通知テンプレート管理

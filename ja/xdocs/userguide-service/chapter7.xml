@@ -104,7 +104,7 @@
     <title>分析およびレポート</title>
 
     <para><indexterm class="singular">
-        <primary>分析およびレポート</primary>
+        <primary sortas="ぶんせきおよびれぽーと">分析およびレポート</primary>
       </indexterm>新しい文書を追加するたびに CSV
     ファイルをダウンロードするのが面倒な場合は、この機能の使用を推奨します。入力データが、Google スプレッドシートやOffice 365 の
     Excel 文書に自動的に保存されるように設定することができます。</para>
