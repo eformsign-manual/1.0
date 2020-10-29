@@ -47,7 +47,7 @@
         <listitem>
           <para><emphasis role="bold">文書トレイ：</emphasis><indexterm
               class="singular">
-              <primary>文書トレイ</primary>
+              <primary sortas="ぶんしょとれい">文書トレイ</primary>
             </indexterm>文書の状態によって文書のリストを表示します。</para>
 
           <itemizedlist>

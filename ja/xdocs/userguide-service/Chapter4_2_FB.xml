@@ -924,7 +924,7 @@
       <para><emphasis role="bold">文書の管理権限</emphasis></para>
 
       <para><indexterm class="singular">
-          <primary>文書の管理権限</primary>
+          <primary sortas="ぶんしょのかんりけんげん">文書の管理権限</primary>
         </indexterm>グループまたはメンバーを選択して、テンプレートを使用して作成された文書を閲覧したり、完了文書の無効化の依頼を承認したり、文書を永久削除する権限をすべて、または各々を設定できます。</para>
 
       <itemizedlist>
