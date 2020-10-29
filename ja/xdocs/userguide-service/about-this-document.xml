@@ -207,33 +207,7 @@
       </tgroup>
     </informaltable></para>
 
-  <?dbfo-need height="10in" ?>
-
-  <para><bridgehead>関連文書</bridgehead></para>
-
-  <informaltable colsep="1" frame="topbot" rowsep="1">
-    <tgroup cols="2">
-      <colspec align="left" colwidth="150"/>
-
-      <thead>
-        <row>
-          <entry>ガイド</entry>
-
-          <entry>説明</entry>
-        </row>
-      </thead>
-
-      <tbody>
-        <row>
-          <entry><para><olink targetdoc="installation"
-          targetptr="book">eformsign インストールガイド</olink></para></entry>
-
-          <entry>パッケージ製品の eformsign on-premise
-          製品をインストールする方法について記述したガイドです。</entry>
-        </row>
-      </tbody>
-    </tgroup>
-  </informaltable>
+  <para/>
 
   <para/>
 

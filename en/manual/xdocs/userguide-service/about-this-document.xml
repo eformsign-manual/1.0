@@ -220,34 +220,6 @@
       </tgroup>
     </informaltable></para>
 
-  <?dbfo-need height="10in" ?>
-
-  <para><bridgehead>Related Documents</bridgehead></para>
-
-  <informaltable colsep="1" frame="topbot" rowsep="1">
-    <tgroup cols="2">
-      <colspec align="left" colwidth="150"/>
-
-      <thead>
-        <row>
-          <entry>Document</entry>
-
-          <entry>Description</entry>
-        </row>
-      </thead>
-
-      <tbody>
-        <row>
-          <entry><para><olink targetdoc="installation"
-          targetptr="book">eformsign Installation Guide</olink></para></entry>
-
-          <entry>Describes how to install eformsign on-premise, which is an
-          on-premises version of eformsign.</entry>
-        </row>
-      </tbody>
-    </tgroup>
-  </informaltable>
-
   <para/>
 
   <para/>
